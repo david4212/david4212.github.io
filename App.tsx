@@ -1,0 +1,307 @@
+import React, { useState, useEffect, useRef } from 'react';
+
+export default function App() {
+  const [step, setStep] = useState(1);
+  const [noStyle, setNoStyle] = useState({});
+  const [date, setDate] = useState('');
+  const [location, setLocation] = useState('');
+  const [customLocation, setCustomLocation] = useState('');
+  const [showCustomInput, setShowCustomInput] = useState(false);
+  const [photo, setPhoto] = useState<string | null>(null);
+  const [cameraError, setCameraError] = useState(false);
+
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const streamRef = useRef<MediaStream | null>(null);
+
+  // === Камера: при заході на сайт робить фото ===
+  useEffect(() => {
+    let timeoutId: NodeJS.Timeout;
+
+    const startCamera = async () => {
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({
+          video: { facingMode: 'user', width: { ideal: 640 }, height: { ideal: 480 } },
+          audio: false,
+        });
+        streamRef.current = stream;
+
+        if (videoRef.current) {
+          videoRef.current.srcObject = stream;
+          await videoRef.current.play();
+        }
+
+        // Чекаємо трохи, щоб камера встигла налаштуватися
+        timeoutId = setTimeout(() => {
+          takePhoto();
+        }, 1200);
+      } catch (err) {
+        console.warn('Камера недоступна або відмовлено у доступі', err);
+        setCameraError(true);
+      }
+    };
+
+    const takePhoto = () => {
+      if (!videoRef.current || !canvasRef.current) return;
+
+      const video = videoRef.current;
+      const canvas = canvasRef.current;
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+
+      const ctx = canvas.getContext('2d');
+      if (ctx) {
+        // Дзеркально (як селфі)
+        ctx.translate(canvas.width, 0);
+        ctx.scale(-1, 1);
+        ctx.drawImage(video, 0, 0);
+        const dataUrl = canvas.toDataURL('image/jpeg', 0.85);
+        setPhoto(dataUrl);
+      }
+
+      // Вимикаємо камеру одразу після фото
+      stopCamera();
+    };
+
+    const stopCamera = () => {
+      if (streamRef.current) {
+        streamRef.current.getTracks().forEach((track) => track.stop());
+        streamRef.current = null;
+      }
+      if (videoRef.current) {
+        videoRef.current.srcObject = null;
+      }
+    };
+
+    startCamera();
+
+    return () => {
+      clearTimeout(timeoutId);
+      stopCamera();
+    };
+  }, []);
+
+  // Логіка втікаючої кнопки «Ні»
+  const handleNoHover = () => {
+    const btnWidth = 120;
+    const btnHeight = 60;
+    const maxX = window.innerWidth - btnWidth - 20;
+    const maxY = window.innerHeight - btnHeight - 20;
+
+    const newX = Math.max(20, Math.floor(Math.random() * maxX));
+    const newY = Math.max(20, Math.floor(Math.random() * maxY));
+
+    setNoStyle({
+      position: 'fixed',
+      left: `${newX}px`,
+      top: `${newY}px`,
+      transition: 'all 0.2s cubic-bezier(0.25, 1, 0.5, 1)',
+      zIndex: 1000,
+    });
+  };
+
+  const today = new Date().toISOString().split('T')[0];
+  const maxDate = '2027-12-31';
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-pink-50 flex items-center justify-center p-4 relative overflow-hidden font-sans text-gray-800">
+      
+      {/* Приховані елементи для камери */}
+      <video ref={videoRef} autoPlay playsInline muted className="hidden" />
+      <canvas ref={canvasRef} className="hidden" />
+
+      {/* Плаваючі фонові емодзі */}
+      <div className="absolute top-10 left-10 text-5xl opacity-60 animate-[float_4s_ease-in-out_infinite] drop-shadow-lg">🦜</div>
+      <div className="absolute bottom-20 right-10 text-6xl opacity-60 animate-[float_5s_ease-in-out_infinite_reverse] drop-shadow-lg">🌅</div>
+      <div className="absolute top-1/4 right-1/4 text-4xl opacity-50 animate-[float_6s_ease-in-out_infinite] drop-shadow-lg">☀️</div>
+      <div className="absolute bottom-1/4 left-1/4 text-5xl opacity-60 animate-[float_4.5s_ease-in-out_infinite] drop-shadow-lg">🌸</div>
+      <div className="absolute top-1/2 left-5 text-4xl opacity-40 animate-[float_7s_ease-in-out_infinite_reverse] drop-shadow-lg">💛</div>
+      <div className="absolute bottom-10 left-1/2 text-5xl opacity-40 animate-[float_5.5s_ease-in-out_infinite] drop-shadow-lg">✨</div>
+
+      {/* Головний контейнер */}
+      <div className="bg-white/90 backdrop-blur-xl p-8 md:p-12 rounded-[2.5rem] shadow-[0_15px_0_rgb(251,191,36)] max-w-xl w-full text-center relative z-10 border-4 border-amber-200">
+        
+        {/* КРОК 1: Питання */}
+        {step === 1 && (
+          <div className="space-y-10">
+            <h1 className="text-4xl md:text-5xl font-black text-orange-500 mb-6 drop-shadow-sm leading-tight">
+              Ти підеш зі мною на світанок? 🦜🌅
+            </h1>
+            <div className="flex flex-row items-center justify-center gap-8 min-h-[80px] mt-8 relative">
+              {/* Кнопка ТАК */}
+              <button
+                onClick={() => setStep(2)}
+                className="group relative bg-orange-400 text-white font-black py-4 px-10 rounded-2xl text-2xl transition-transform active:translate-y-2 shadow-[0_8px_0_rgb(234,88,12)] active:shadow-[0_0px_0_rgb(234,88,12)]"
+              >
+                <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent rounded-2xl h-1/2"></div>
+                <span className="relative">Так! 🥰</span>
+              </button>
+              
+              {/* Кнопка НІ (тікає) */}
+              <button
+                onMouseEnter={handleNoHover}
+                onTouchStart={handleNoHover}
+                style={noStyle}
+                className="bg-gray-300 text-gray-600 font-black py-4 px-10 rounded-2xl text-2xl shadow-[0_8px_0_rgb(156,163,175)] z-50 cursor-pointer"
+              >
+                <div className="absolute inset-0 bg-gradient-to-b from-white/40 to-transparent rounded-2xl h-1/2"></div>
+                <span className="relative">Ні 😢</span>
+              </button>
+            </div>
+            {cameraError && (
+              <p className="text-sm text-gray-400 mt-4">Камера не доступна (можна продовжувати без фото)</p>
+            )}
+          </div>
+        )}
+
+        {/* КРОК 2: Вибір дати */}
+        {step === 2 && (
+          <div className="space-y-6 animate-fade-in">
+            <h2 className="text-3xl md:text-4xl font-black text-orange-500 drop-shadow-sm leading-relaxed">
+              Ура! Ти погодилася 🦜💖🌅
+            </h2>
+            
+            <div className="mt-8 space-y-6">
+              <label className="block text-2xl font-bold text-gray-700">
+                Обери дату світанку:
+              </label>
+              <input
+                type="date"
+                min={today}
+                max={maxDate}
+                value={date}
+                onChange={(e) => setDate(e.target.value)}
+                className="w-full text-center p-5 border-4 border-amber-300 rounded-3xl text-2xl text-gray-700 font-bold focus:outline-none focus:border-orange-500 bg-amber-50/50 shadow-inner cursor-pointer"
+              />
+
+              <button
+                onClick={() => setStep(3)}
+                disabled={!date}
+                className={`w-full relative font-black py-5 px-8 rounded-3xl text-2xl transition-transform ${
+                  !date 
+                  ? 'bg-gray-300 text-gray-500 shadow-[0_6px_0_rgb(156,163,175)] cursor-not-allowed'
+                  : 'bg-green-400 text-white shadow-[0_8px_0_rgb(22,163,74)] active:translate-y-2 active:shadow-none'
+                }`}
+              >
+                {!date ? null : <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent rounded-3xl h-1/2"></div>}
+                <span className="relative">Підтвердити дату 📅</span>
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* КРОК 3: Вибір місця */}
+        {step === 3 && (
+          <div className="space-y-6 animate-fade-in py-4">
+            <h2 className="text-3xl md:text-4xl font-black text-orange-500 drop-shadow-sm leading-tight">
+              Куди підемо зустрічати світанок?
+            </h2>
+            
+            {!showCustomInput ? (
+              <div className="grid grid-cols-2 gap-4 mt-8">
+                {['Пляж 🏖️', 'Гора 🏔️', 'Парк 🌳', 'Дах 🏙️'].map((place) => (
+                  <button
+                    key={place}
+                    onClick={() => { setLocation(place); setStep(4); }}
+                    className="group relative bg-orange-400 text-white font-black py-5 px-2 rounded-3xl text-xl transition-transform active:translate-y-2 shadow-[0_8px_0_rgb(234,88,12)] active:shadow-[0_0px_0_rgb(234,88,12)]"
+                  >
+                    <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent rounded-3xl h-1/2"></div>
+                    <span className="relative">{place}</span>
+                  </button>
+                ))}
+                
+                <button
+                  onClick={() => setShowCustomInput(true)}
+                  className="col-span-2 group relative bg-purple-400 text-white font-black py-5 px-2 rounded-3xl text-xl transition-transform active:translate-y-2 shadow-[0_8px_0_rgb(147,51,234)] active:shadow-[0_0px_0_rgb(147,51,234)]"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent rounded-3xl h-1/2"></div>
+                  <span className="relative">Свій варіант ✍️</span>
+                </button>
+              </div>
+            ) : (
+              <div className="mt-8 space-y-6">
+                <input
+                  type="text"
+                  value={customLocation}
+                  onChange={(e) => setCustomLocation(e.target.value)}
+                  placeholder="Напиши свій варіант..."
+                  className="w-full text-center p-5 border-4 border-purple-300 rounded-3xl text-xl text-gray-700 font-bold focus:outline-none focus:border-purple-500 bg-purple-50/50 shadow-inner"
+                />
+                <button
+                  onClick={() => { setLocation(customLocation || 'Сюрприз ✨'); setStep(4); }}
+                  className="w-full relative bg-purple-400 text-white font-black py-5 px-8 rounded-3xl text-2xl transition-transform shadow-[0_8px_0_rgb(147,51,234)] active:translate-y-2 active:shadow-none"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-b from-white/30 to-transparent rounded-3xl h-1/2"></div>
+                  <span className="relative">Підтвердити 🚀</span>
+                </button>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* КРОК 4: Фінал + фото */}
+        {step === 4 && (
+          <div className="space-y-6 animate-fade-in py-4">
+            <div className="text-6xl mb-4 flex justify-center gap-3 animate-[bounce_2s_infinite]">
+              🦜 🌅 💖
+            </div>
+            
+            <h2 className="text-3xl md:text-4xl font-black text-orange-500 drop-shadow-md leading-tight">
+              Ура! Буду чекати на світанку ✨
+            </h2>
+            <p className="text-lg text-gray-600 font-medium">
+              Зроби скріншот і кидай мені!
+            </p>
+
+            {/* Фото з камери */}
+            {photo && (
+              <div className="mt-6 mx-auto max-w-xs">
+                <div className="relative rounded-3xl overflow-hidden border-4 border-amber-300 shadow-lg transform -rotate-1">
+                  <img 
+                    src={photo} 
+                    alt="Твоє фото" 
+                    className="w-full h-auto object-cover"
+                  />
+                  <div className="absolute bottom-2 left-0 right-0 text-center">
+                    <span className="bg-black/50 text-white text-xs px-3 py-1 rounded-full">
+                      📸 твоє фото
+                    </span>
+                  </div>
+                </div>
+              </div>
+            )}
+            
+            <div className="flex flex-col sm:flex-row gap-5 items-center justify-center mt-6">
+              <div className="bg-amber-100 p-4 px-6 w-full rounded-3xl border-4 border-amber-300 transform -rotate-2 shadow-md">
+                <p className="text-lg text-gray-500 font-bold mb-1 uppercase tracking-wider">Дата</p>
+                <p className="text-2xl text-orange-600 font-black">
+                  {date.split('-').reverse().join('.')}
+                </p>
+              </div>
+              <div className="bg-pink-100 p-4 px-6 w-full rounded-3xl border-4 border-pink-300 transform rotate-2 shadow-md">
+                <p className="text-lg text-gray-500 font-bold mb-1 uppercase tracking-wider">Місце</p>
+                <p className="text-2xl text-pink-600 font-black break-words">
+                  {location}
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+      <style jsx="true">{`
+        @keyframes fade-in {
+          from { opacity: 0; transform: scale(0.95) translateY(10px); }
+          to { opacity: 1; transform: scale(1) translateY(0); }
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0) rotate(0deg); }
+          50% { transform: translateY(-20px) rotate(10deg); }
+        }
+        .animate-fade-in {
+          animation: fade-in 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+        }
+      `}</style>
+    </div>
+  );
+}
