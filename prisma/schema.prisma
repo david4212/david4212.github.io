@@ -15,23 +15,40 @@ enum Subject {
 }
 
 model User {
-  id           String      @id @default(cuid())
-  username     String      @unique
+  id           String       @id @default(cuid())
+  username     String       @unique
   passwordHash String
-  createdAt    DateTime    @default(now())
+  createdAt    DateTime     @default(now())
   flashcards   Flashcard[]
+  testResults  TestResult[]
 }
 
 model Topic {
-  id         String      @id @default(cuid())
-  subject    Subject
-  title      String
-  order      Int         @default(0)
-  flashcards Flashcard[]
+  id          String       @id @default(cuid())
+  subject     Subject
+  title       String
+  order       Int          @default(0)
+  flashcards  Flashcard[]
+  questions   Question[]
+  testResults TestResult[]
 
   @@index([subject, order])
 }
 
+// Питання тесту: 2-5 варіантів, correctIndex — номер правильного (з нуля)
+model Question {
+  id           String   @id @default(cuid())
+  text         String
+  options      String[]
+  correctIndex Int
+  topicId      String
+  topic        Topic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  createdAt    DateTime @default(now())
+
+  @@index([topicId])
+}
+
+// Флеш-картка: question = лицьова сторона (термін), answer = зворотна (пояснення)
 model Flashcard {
   id        String   @id @default(cuid())
   question  String
@@ -44,4 +61,29 @@ model Flashcard {
   updatedAt DateTime @updatedAt
 
   @@index([topicId])
+}
+
+// Результат проходження тесту (percent = correct / total * 100)
+model TestResult {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topicId   String
+  topic     Topic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  correct   Int
+  total     Int
+  percent   Int
+  createdAt DateTime @default(now())
+
+  @@index([userId, topicId])
+}
+
+// Стан діалогу адміна з ботом (бо serverless не пам'ятає між запитами)
+model BotSession {
+  chatId    String   @id
+  mode      String
+  step      String
+  subject   Subject?
+  topicId   String?
+  updatedAt DateTime @updatedAt
 }

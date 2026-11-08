@@ -1,5 +1,11 @@
 import CountdownTimer from "@/components/shared/CountdownTimer";
 import Link from "next/link";
+import { getServerSession } from "next-auth";
+import prisma from "@/lib/prisma";
+import { authOptions } from "@/lib/auth";
+import { getTopicStats } from "@/lib/progress";
+
+export const dynamic = "force-dynamic";
 
 const subjects = [
   { id: "UKRAINIAN", name: "Українська мова", color: "bg-ukrainian" },
@@ -8,7 +14,22 @@ const subjects = [
   { id: "ENGLISH", name: "Англійська мова", color: "bg-english" },
 ];
 
-export default function Home() {
+export default async function Home() {
+  // Загальний прогрес предмета = середній відсоток останніх спроб по всіх його темах
+  const progress: Record<string, number> = {};
+  try {
+    const session = await getServerSession(authOptions);
+    const topics = await prisma.topic.findMany({ select: { id: true, subject: true } });
+    const stats = await getTopicStats(session?.user?.id, topics.map((t) => t.id));
+    for (const sub of subjects) {
+      const own = topics.filter((t) => t.subject === sub.id);
+      const sum = own.reduce((acc, t) => acc + (stats.get(t.id)?.latest ?? 0), 0);
+      progress[sub.id] = own.length ? Math.round(sum / own.length) : 0;
+    }
+  } catch (e) {
+    console.error("Не вдалось порахувати прогрес:", e);
+  }
+
   return (
     <main className="container mx-auto px-4 py-10 max-w-5xl">
       {/* Заголовок */}
@@ -37,14 +58,14 @@ export default function Home() {
                 
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">{sub.name}</h3>
                 
-                {/* Заглушка прогрес-бару (пізніше підключимо сюди реальні дані з БД) */}
+                {/* Прогрес предмета з бази */}
                 <div className="mt-6">
                   <div className="flex justify-between text-sm text-gray-600 mb-2">
                     <span>Загальний прогрес:</span>
-                    <span className="font-bold">0%</span>
+                    <span className="font-bold">{progress[sub.id] ?? 0}%</span>
                   </div>
                   <div className="w-full bg-gray-200/50 rounded-full h-3 backdrop-blur-sm overflow-hidden">
-                    <div className={`h-3 rounded-full ${sub.color} w-[0%] transition-all duration-1000`}></div>
+                    <div className={`h-3 rounded-full ${sub.color} transition-all duration-1000`} style={{ width: `${progress[sub.id] ?? 0}%` }}></div>
                   </div>
                 </div>
 

@@ -9,7 +9,7 @@ export default async function TopicPage({ params }: { params: { subject: string,
   // Дістаємо тему і всі її картки з бази даних
   const topic = await prisma.topic.findUnique({
     where: { id: params.topicId },
-    include: { flashcards: true }
+    include: { flashcards: true, _count: { select: { questions: true } } }
   });
 
   if (!topic) {
@@ -23,6 +23,11 @@ export default async function TopicPage({ params }: { params: { subject: string,
       </Link>
       
       <h1 className="text-2xl font-bold text-gray-900 mb-2">{topic.title}</h1>
+      {topic._count.questions > 0 && (
+        <Link href={`/subjects/${params.subject}/topic/${topic.id}/test`} className="inline-block self-start px-4 py-2 bg-gray-900 text-white rounded-lg text-sm font-semibold hover:bg-gray-800 transition">
+          Пройти тест ({topic._count.questions})
+        </Link>
+      )}
       
       {/* Клієнтський компонент з картками */}
       <FlashcardViewer cards={topic.flashcards} />
