@@ -20,7 +20,7 @@ export default async function SubjectPage({ params }: { params: { subject: strin
   const topics = await prisma.topic.findMany({
     where: { subject: subjectKey },
     orderBy: { order: "asc" },
-    include: { _count: { select: { flashcards: true, questions: true } } },
+    include: { _count: { select: { flashcards: true, questions: true, subtopics: true } } },
   });
   const stats = await getTopicStats(session?.user?.id, topics.map((t) => t.id));
 
@@ -57,6 +57,7 @@ export default async function SubjectPage({ params }: { params: { subject: strin
                     <div className="flex flex-wrap items-center text-sm text-gray-500 mt-1 gap-x-4 gap-y-1">
                       <span className="inline-flex items-center gap-1"><ListChecks className="w-4 h-4" />{topic._count.questions} питань</span>
                       <span className="inline-flex items-center gap-1"><BookOpen className="w-4 h-4" />{topic._count.flashcards} карток</span>
+                      {topic._count.subtopics > 0 && <span>{topic._count.subtopics} підрозділів</span>}
                     </div>
                   </div>
                 </div>
@@ -71,9 +72,9 @@ export default async function SubjectPage({ params }: { params: { subject: strin
                   )}
 
                   <div className="flex gap-2">
-                    {topic._count.flashcards > 0 && (
+                    {(topic._count.flashcards > 0 || topic._count.subtopics > 0) && (
                       <Link href={`/subjects/${params.subject}/topic/${topic.id}`} className="px-4 py-2 bg-white border border-gray-200 text-gray-800 rounded-lg text-sm font-semibold hover:bg-gray-50 transition">
-                        Картки
+                        {topic._count.subtopics > 0 ? "Відкрити" : "Картки"}
                       </Link>
                     )}
                     {topic._count.questions > 0 && (

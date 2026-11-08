@@ -18,11 +18,13 @@ function resultColor(p: number) {
 
 export default function TestRunner({
   topicId,
+  subtopicId,
   subject,
   questions,
   loggedIn,
 }: {
   topicId: string;
+  subtopicId?: string;
   subject: string;
   questions: Q[];
   loggedIn: boolean;
@@ -44,7 +46,7 @@ export default function TestRunner({
       const res = await fetch("/api/results", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ topicId, answers }),
+        body: JSON.stringify({ topicId, subtopicId, answers }),
       });
       if (!res.ok) throw new Error();
       setResult(await res.json());

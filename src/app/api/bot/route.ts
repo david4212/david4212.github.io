@@ -23,6 +23,7 @@ const ok = () => NextResponse.json({ ok: true });
 const HELP = `Адмінка НМТ на 200
 
 /addtest — додати питання до тесту
+(після вибору теми бот спитає: додати підрозділ чи без підрозділу)
 /addcards — додати флеш-картки
 /done — закінчити додавання
 /cancel — скасувати
@@ -85,7 +86,7 @@ async function startFlow(chatId: number, mode: "TEST" | "CARDS") {
   await prisma.botSession.upsert({
     where: { chatId: String(chatId) },
     create: { chatId: String(chatId), mode, step: "SUBJECT" },
-    update: { mode, step: "SUBJECT", subject: null, topicId: null },
+    update: { mode, step: "SUBJECT", subject: null, topicId: null, subtopicId: null },
   });
   const keyboard: InlineKeyboard = SUBJECTS.map((s) => [
     { text: SUBJECT_DETAILS[s].title, callback_data: `s:${s}` },
@@ -100,7 +101,7 @@ async function handleCallback(chatId: number, data: string) {
   if (data.startsWith("s:")) {
     const subject = data.slice(2) as Subject;
     if (!SUBJECTS.includes(subject)) return;
-    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { subject, step: "TOPIC", topicId: null } });
+    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { subject, step: "TOPIC", topicId: null, subtopicId: null } });
     const topics = await prisma.topic.findMany({ where: { subject }, orderBy: { order: "asc" } });
     const keyboard: InlineKeyboard = topics.map((t) => [
       { text: `${t.order}. ${t.title}`.slice(0, 60), callback_data: `t:${t.id}` },
@@ -119,15 +120,50 @@ async function handleCallback(chatId: number, data: string) {
   if (data.startsWith("t:")) {
     const topic = await prisma.topic.findUnique({ where: { id: data.slice(2) } });
     if (!topic) return void (await sendMessage(chatId, "Тему не знайдено, спробуй /addtest ще раз."));
-    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { topicId: topic.id, step: "CONTENT" } });
+    await askSubtopic(chatId, session.chatId, topic.id, topic.title);
+    return;
+  }
+
+  if (data === "nosub") {
+    const topic = session.topicId ? await prisma.topic.findUnique({ where: { id: session.topicId } }) : null;
+    if (!topic) return void (await sendMessage(chatId, "Спочатку обери тему: /addtest"));
+    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { subtopicId: null, step: "CONTENT" } });
     await sendMessage(chatId, contentPrompt(session.mode, topic.title));
+    return;
+  }
+
+  if (data === "newsub") {
+    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { step: "NEW_SUBTOPIC" } });
+    await sendMessage(chatId, "Напиши назву нового підрозділу одним повідомленням:");
+    return;
+  }
+
+  if (data.startsWith("u:")) {
+    const sub = await prisma.subtopic.findUnique({ where: { id: data.slice(2) }, include: { topic: true } });
+    if (!sub) return void (await sendMessage(chatId, "Підрозділ не знайдено, спробуй /addtest ще раз."));
+    await prisma.botSession.update({
+      where: { chatId: session.chatId },
+      data: { topicId: sub.topicId, subtopicId: sub.id, step: "CONTENT" },
+    });
+    await sendMessage(chatId, contentPrompt(session.mode, sub.topic.title, sub.title));
   }
 }
 
-function contentPrompt(mode: string, title: string) {
+// Після вибору теми: додати підрозділ, обрати наявний чи працювати без підрозділу
+async function askSubtopic(chatId: number, sessionId: string, topicId: string, topicTitle: string) {
+  await prisma.botSession.update({ where: { chatId: sessionId }, data: { topicId, subtopicId: null, step: "SUBTOPIC" } });
+  const subs = await prisma.subtopic.findMany({ where: { topicId }, orderBy: { order: "asc" } });
+  const keyboard: InlineKeyboard = subs.map((u) => [{ text: `${u.order}. ${u.title}`.slice(0, 60), callback_data: `u:${u.id}` }]);
+  keyboard.push([{ text: "➕ Додати підрозділ", callback_data: "newsub" }]);
+  keyboard.push([{ text: "⏩ Без підрозділу", callback_data: "nosub" }]);
+  await sendMessage(chatId, `Тема «${topicTitle}». Куди додаємо?`, keyboard);
+}
+
+function contentPrompt(mode: string, title: string, subTitle?: string) {
+  const where = subTitle ? `Тема «${title}», підрозділ «${subTitle}».` : `Тема «${title}».`;
   return mode === "TEST"
-    ? `Тема «${title}». Надсилай питання у форматі:\n\nПитання: ...\nА: ...\nБ: ...\nВ: ...\nГ: ...\nВідповідь: А\n\nМожна кілька питань в одному повідомленні. Коли закінчиш — /done`
-    : `Тема «${title}». Надсилай картки у форматі:\n\nТермін: ...\nПояснення: ...\n\nМожна кілька карток в одному повідомленні. Коли закінчиш — /done`;
+    ? `${where} Надсилай питання у форматі:\n\nПитання: ...\nА: ...\nБ: ...\nВ: ...\nГ: ...\nВідповідь: А\n\nМожна кілька питань в одному повідомленні (до 4096 символів). Коли закінчиш — /done`
+    : `${where} Надсилай картки у форматі:\n\nТермін: ...\nПояснення: ...\n\nМожна кілька карток в одному повідомленні. Коли закінчиш — /done`;
 }
 
 async function handleText(chatId: number, text: string) {
@@ -149,19 +185,31 @@ async function handleText(chatId: number, text: string) {
     const topic = await prisma.topic.create({
       data: { subject: session.subject, title: text.slice(0, 120), order: (last?.order ?? 0) + 1 },
     });
-    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { topicId: topic.id, step: "CONTENT" } });
-    return void (await sendMessage(chatId, `Створив тему «${topic.title}».\n\n${contentPrompt(session.mode, topic.title)}`));
+    await sendMessage(chatId, `Створив тему «${topic.title}».`);
+    return askSubtopic(chatId, session.chatId, topic.id, topic.title);
+  }
+
+  if (session.step === "NEW_SUBTOPIC" && session.topicId) {
+    const topic = await prisma.topic.findUnique({ where: { id: session.topicId } });
+    if (!topic) return void (await sendMessage(chatId, "Тему не знайдено, спробуй /addtest ще раз."));
+    const last = await prisma.subtopic.findFirst({ where: { topicId: topic.id }, orderBy: { order: "desc" } });
+    const sub = await prisma.subtopic.create({
+      data: { topicId: topic.id, title: text.slice(0, 120), order: (last?.order ?? 0) + 1 },
+    });
+    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { subtopicId: sub.id, step: "CONTENT" } });
+    return void (await sendMessage(chatId, `Створив підрозділ «${sub.title}».\n\n${contentPrompt(session.mode, topic.title, sub.title)}`));
   }
 
   if (session.step === "CONTENT" && session.topicId) {
     const topicId = session.topicId;
+    const subtopicId = session.subtopicId;
     if (session.mode === "TEST") {
       const { items, errors } = parseQuestions(text);
       const existing = await prisma.question.findMany({ where: { topicId }, select: { text: true } });
       const known = new Set(existing.map((q) => q.text));
       const fresh = items.filter((q) => !known.has(q.text));
       if (fresh.length) {
-        await prisma.question.createMany({ data: fresh.map((q) => ({ ...q, topicId })) });
+        await prisma.question.createMany({ data: fresh.map((q) => ({ ...q, topicId, subtopicId })) });
       }
       const total = await prisma.question.count({ where: { topicId } });
       await sendMessage(chatId, report("питань", fresh.length, items.length - fresh.length, total, errors));
@@ -171,7 +219,7 @@ async function handleText(chatId: number, text: string) {
       const known = new Set(existing.map((c) => c.question));
       const fresh = items.filter((c) => !known.has(c.question));
       if (fresh.length) {
-        await prisma.flashcard.createMany({ data: fresh.map((c) => ({ ...c, topicId })) });
+        await prisma.flashcard.createMany({ data: fresh.map((c) => ({ ...c, topicId, subtopicId })) });
       }
       const total = await prisma.flashcard.count({ where: { topicId } });
       await sendMessage(chatId, report("карток", fresh.length, items.length - fresh.length, total, errors));

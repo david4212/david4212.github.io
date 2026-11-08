@@ -9,12 +9,13 @@ export const dynamic = "force-dynamic";
 export async function POST(req: Request) {
   const body = await req.json().catch(() => null);
   const topicId = typeof body?.topicId === "string" ? body.topicId : "";
+  const subtopicId = typeof body?.subtopicId === "string" && body.subtopicId ? body.subtopicId : null;
   const answers: Record<string, number> = body?.answers && typeof body.answers === "object" ? body.answers : {};
 
   if (!topicId) return NextResponse.json({ error: "Немає topicId" }, { status: 400 });
 
   const questions = await prisma.question.findMany({
-    where: { topicId },
+    where: { topicId, ...(subtopicId ? { subtopicId } : {}) },
     select: { id: true, correctIndex: true },
   });
   if (questions.length === 0) return NextResponse.json({ error: "У темі немає питань" }, { status: 404 });
@@ -32,7 +33,7 @@ export async function POST(req: Request) {
   if (session?.user?.id) {
     try {
       await prisma.testResult.create({
-        data: { userId: session.user.id, topicId, correct, total, percent },
+        data: { userId: session.user.id, topicId, subtopicId, correct, total, percent },
       });
       saved = true;
     } catch (e) {
