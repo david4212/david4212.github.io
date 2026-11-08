@@ -1,9 +1,6 @@
 // Додає/оновлює офіційні теми НМТ. Безпечно запускати скільки завгодно разів:
 // нічого з питань, карток і результатів не видаляє.
 import { readFileSync } from "node:fs";
-import { PrismaClient } from "@prisma/client";
-
-const prisma = new PrismaClient();
 
 // Старі тестові теми з першої версії сайту — видаляємо лише якщо вони порожні
 const OLD_PLACEHOLDERS = [
@@ -13,7 +10,14 @@ const OLD_PLACEHOLDERS = [
   "Grammar: Tenses", "Vocabulary & Word Formation",
 ];
 
+let prisma;
+
 try {
+  // Динамічний імпорт з default: працює і в ESM, і з CJS-пакетом Prisma
+  const prismaPkg = await import("@prisma/client");
+  const { PrismaClient } = prismaPkg.default ?? prismaPkg;
+  prisma = new PrismaClient();
+
   const curriculum = JSON.parse(readFileSync(new URL("../src/lib/curriculum.json", import.meta.url), "utf-8"));
 
   for (const [subject, titles] of Object.entries(curriculum)) {
@@ -40,5 +44,5 @@ try {
 } catch (e) {
   console.log("[seed] не вдалось (збірку не зупиняю):", e.message);
 } finally {
-  await prisma.$disconnect();
+  await prisma?.$disconnect();
 }
