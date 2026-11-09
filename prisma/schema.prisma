@@ -150,6 +150,7 @@ model ExamQuestion {
   options      String[]
   correctIndex Int
   imageUrl     String?
+  subject      Subject?
   createdAt    DateTime   @default(now())
 
   @@index([examId])
