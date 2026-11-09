@@ -3,6 +3,8 @@ import { getServerSession } from "next-auth";
 import prisma from "@/lib/prisma";
 import { authOptions } from "@/lib/auth";
 import { getLevel } from "@/lib/levels";
+import { recordAnswers } from "@/lib/answers";
+import { randomUUID } from "crypto";
 
 export const dynamic = "force-dynamic";
 
@@ -20,13 +22,13 @@ export async function POST(req: Request) {
 
   const questions = await prisma.question.findMany({
     where: subtopicId ? { topicId, subtopicId } : { topicId, testLevel: level },
-    select: { id: true, correctIndex: true },
+    select: { id: true, correctIndex: true, explanation: true },
   });
   if (questions.length === 0) return NextResponse.json({ error: "Немає питань" }, { status: 404 });
 
   const details = questions.map((q) => {
     const chosen = typeof answers[q.id] === "number" ? answers[q.id] : null;
-    return { id: q.id, correctIndex: q.correctIndex, chosen };
+    return { id: q.id, correctIndex: q.correctIndex, chosen, explanation: q.explanation };
   });
   const correct = details.filter((d) => d.chosen === d.correctIndex).length;
   const total = questions.length;
@@ -43,6 +45,12 @@ export async function POST(req: Request) {
         data: { userId: session.user.id, topicId, subtopicId, testLevel: level, correct, total, percent },
       });
       saved = true;
+      await recordAnswers(
+        session.user.id,
+        details.map((d) => ({ questionId: d.id, chosen: d.chosen, isCorrect: d.chosen === d.correctIndex })),
+        "TEST",
+        randomUUID()
+      );
     } catch (e) {
       console.error("Не вдалось зберегти результат:", e);
     }

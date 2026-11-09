@@ -1,6 +1,6 @@
 // Парсери текстових шаблонів, які адмін надсилає боту.
 
-export type ParsedQuestion = { text: string; options: string[]; correctIndex: number; imageUrl?: string };
+export type ParsedQuestion = { text: string; options: string[]; correctIndex: number; imageUrl?: string; explanation?: string };
 export type ParsedCard = { question: string; answer: string; imageUrl?: string };
 export type ParseResult<T> = { items: T[]; errors: string[] };
 
@@ -18,6 +18,8 @@ function letterToIndex(raw: string): number | null {
 
 const QUESTION_HEADER = /^\s*Питання\s*(?:№?\s*\d+)?\s*[:.)]\s*(.*)$/i;
 const OPTION_LINE = /^\s*([А-ЕA-E1-5])\s*[:.)\-–—]\s*(.*\S)\s*$/i;
+// Необов'язковий рядок «Обґрунтування: …» (показується після відповіді)
+const EXPLANATION_LINE = /^\s*(?:Обґрунтування|Обгрунтування|Пояснення|Explanation)\s*[:\-–—]\s*(.*)$/i;
 const ANSWER_LINE = /^\s*(?:Правильна\s+)?Відповідь\s*[:\-–—]\s*(.*\S)\s*$/i;
 
 // Рядок «Фото: https://...» (також розуміє markdown-посилання [url](url))
@@ -49,6 +51,8 @@ export function parseQuestions(input: string): ParseResult<ParsedQuestion> {
     let answerRaw: string | null = null;
     let imageUrl: string | undefined;
     let photoError = false;
+    const explainLines: string[] = [];
+    let inExplain = false;
 
     for (const line of block) {
       const header = line.match(QUESTION_HEADER);
@@ -58,8 +62,16 @@ export function parseQuestions(input: string): ParseResult<ParsedQuestion> {
       }
       if (!line.trim()) continue;
 
+      const expl = line.match(EXPLANATION_LINE);
+      if (expl) {
+        inExplain = true;
+        if (expl[1].trim()) explainLines.push(expl[1].trim());
+        continue;
+      }
+
       const photo = line.match(PHOTO_LINE);
       if (photo) {
+        inExplain = false;
         const url = photoUrl(photo[1]);
         if (url) imageUrl = url;
         else photoError = true;
@@ -68,7 +80,12 @@ export function parseQuestions(input: string): ParseResult<ParsedQuestion> {
 
       const ans = line.match(ANSWER_LINE);
       if (ans) {
+        inExplain = false;
         answerRaw = ans[1];
+        continue;
+      }
+      if (inExplain) {
+        explainLines.push(line.trim());
         continue;
       }
       const opt = line.match(OPTION_LINE);
@@ -100,7 +117,8 @@ export function parseQuestions(input: string): ParseResult<ParsedQuestion> {
       return void errors.push(`${label}: відповідь «${answerRaw}» не збігається з варіантами`);
     }
 
-    items.push({ text, options: options as string[], correctIndex, ...(imageUrl ? { imageUrl } : {}) });
+    const explanation = explainLines.join(" ").trim();
+    items.push({ text, options: options as string[], correctIndex, ...(imageUrl ? { imageUrl } : {}), ...(explanation ? { explanation } : {}) });
   });
 
   if (blocks.length === 0) {

@@ -4,7 +4,7 @@ import prisma from "@/lib/prisma";
 import { SUBJECT_DETAILS } from "@/types";
 import { LEVELS, getLevel } from "@/lib/levels";
 import { parseCards, parseQuestions } from "@/lib/parsers";
-import { answerCallback, downloadFile, sendMessage, type InlineKeyboard } from "@/lib/telegram";
+import { answerCallback, sendMessage, type InlineKeyboard } from "@/lib/telegram";
 
 export const dynamic = "force-dynamic";
 
@@ -115,15 +115,8 @@ async function startFlow(chatId: number, mode: "TEST" | "CARDS") {
   await sendMessage(chatId, mode === "TEST" ? "Додаємо питання. Обери предмет:" : "Додаємо картки. Обери предмет:", keyboard);
 }
 
-async function storeImage(fileId: string): Promise<string | null> {
-  const file = await downloadFile(fileId);
-  if (!file) return null;
-  const img = await prisma.image.create({ data: { mime: file.mime, data: file.data } });
-  return `/api/img/${img.id}`;
-}
-
-const FORMAT_HINT_TEST = `Питання: ...\nА: ...\nБ: ...\nВ: ...\nГ: ...\nВідповідь: А`;
-const PHOTO_HINT = `Фото: надішли картинку з підписом-питанням, або окремо перед питанням, або рядок «Фото: https://...»`;
+const FORMAT_HINT_TEST = `Питання: ...\nА: ...\nБ: ...\nВ: ...\nГ: ...\nВідповідь: А\nОбґрунтування: ... (необов'язково)`;
+const PHOTO_HINT = `Фото: лише зовнішнє посилання — рядок «Фото: https://...» у питанні`;
 
 async function contentPrompt(session: BotSession): Promise<string> {
   if (session.mode === "EXAM") {
@@ -244,9 +237,8 @@ async function handleMessage(chatId: number, msg: TgMessage) {
   if (!session || session.step !== "CONTENT") {
     return void (await sendMessage(chatId, "Фото отримав, але нікуди його не додаю. Спочатку /addtest, /addcards або /addexam і дійди до кроку з контентом."));
   }
-  const url = await storeImage(photoId);
-  if (!url) return void (await sendMessage(chatId, "Не вдалось завантажити фото, спробуй ще раз."));
-  await handleText(chatId, text, url);
+  // Нові медіа зберігаємо лише як зовнішні URL (без BLOB/Base64 у БД)
+  return void (await sendMessage(chatId, "Фото в базу не зберігаю. Завантаж картинку на хостинг (напр. imgbb/Cloudinary) і додай у питання рядок «Фото: https://...»."));
 }
 
 async function handleText(chatId: number, text: string, newImage: string | null) {
@@ -365,7 +357,7 @@ async function saveContent(chatId: number, session: BotSession, text: string, ne
     const existing = await prisma.examQuestion.findMany({ where: { examId }, select: { text: true } });
     const known = new Set(existing.map((q) => q.text));
     const fresh = items.filter((q) => !known.has(q.text));
-    if (fresh.length) await prisma.examQuestion.createMany({ data: fresh.map((q) => ({ ...q, examId })) });
+    if (fresh.length) await prisma.examQuestion.createMany({ data: fresh.map(({ explanation: _e, ...q }) => ({ ...q, examId })) });
     const total = await prisma.examQuestion.count({ where: { examId } });
     await finish(chatId, session, usedImage, report("питань", fresh.length, items.length - fresh.length, total, errors, fresh.filter((q) => q.imageUrl).length));
     return;
