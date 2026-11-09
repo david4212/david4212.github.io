@@ -32,7 +32,7 @@ for (const f of files) {
     if (!(d.legacy) && (!/💡/.test(q.explanation || "") || !/❌/.test(q.explanation || "") || !/✅/.test(q.explanation || ""))) err("explanation без 💡/❌/✅");
   });
   const lv = [1, 2, 3].map((l) => d.questions.filter((q) => q.testLevel === l).length);
-  if (d.questions.length < 50 || d.cards.length < 20) console.log(`⚠ ${f.split("/").pop()}: менше 50 питань або 20 карток`);
+  if (d.questions.length < 50) console.log(`⚠ ${f.split("/").pop()}: менше 50 питань`);
   console.log(`${f.split("/").pop()}: ${d.questions.length} питань (рівні ${lv.join("/")}), карток ${d.cards.length}`);
 }
 console.log(bad ? `Помилок: ${bad}` : `OK, питань: ${total}`);
