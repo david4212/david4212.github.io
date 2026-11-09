@@ -1,14 +1,24 @@
 import { NextResponse } from "next/server";
-import type { Subject } from "@prisma/client";
+import type { BotSession, Subject } from "@prisma/client";
 import prisma from "@/lib/prisma";
 import { SUBJECT_DETAILS } from "@/types";
+import { LEVELS, getLevel } from "@/lib/levels";
 import { parseCards, parseQuestions } from "@/lib/parsers";
-import { answerCallback, sendMessage, type InlineKeyboard } from "@/lib/telegram";
+import { answerCallback, downloadFile, sendMessage, type InlineKeyboard } from "@/lib/telegram";
 
 export const dynamic = "force-dynamic";
 
+type TgPhoto = { file_id: string };
+type TgMessage = {
+  text?: string;
+  caption?: string;
+  chat: { id: number };
+  from?: { id: number };
+  photo?: TgPhoto[];
+  document?: { file_id: string; mime_type?: string };
+};
 type TgUpdate = {
-  message?: { text?: string; chat: { id: number }; from?: { id: number } };
+  message?: TgMessage;
   callback_query?: {
     id: string;
     data?: string;
@@ -22,14 +32,14 @@ const ok = () => NextResponse.json({ ok: true });
 
 const HELP = `Адмінка НМТ на 200
 
-/addtest — додати питання до тесту
-(після вибору теми бот спитає: додати підрозділ чи без підрозділу)
-/addcards — додати флеш-картки
-/done — закінчити додавання
-/cancel — скасувати
+/addtest — питання до тестів теми (3 рівні: Тест 1, 2, 3)
+/addcards — флеш-картки
+/addexam — нове тижневе пробне НМТ
+/closeexam — закрити активне пробне
+/t1 /t2 /t3 — перемкнути рівень тесту під час додавання
+/done — закінчити, /cancel — скасувати
 
-Формат питань (можна кілька підряд, 50 питань краще слати кількома повідомленнями):
-
+Питання:
 Питання: В якому році хрестили Русь?
 А: 988
 Б: 1054
@@ -37,10 +47,15 @@ const HELP = `Адмінка НМТ на 200
 Г: 1240
 Відповідь: А
 
-Формат карток:
-
+Картки:
 Термін: Хрещення Русі
-Пояснення: 988 рік, князь Володимир Великий`;
+Пояснення: 988 рік
+
+Фото (для історії, геометрії):
+• надішли картинку з підписом-питанням (підпис до 1024 символів), або
+• надішли картинку окремо, а наступним повідомленням питання, або
+• додай у блок рядок: Фото: https://посилання.png
+Одне фото — на одне питання (якщо в повідомленні кілька питань, фото піде до першого).`;
 
 export async function GET() {
   return NextResponse.json({ status: "bot webhook is alive" });
@@ -72,8 +87,8 @@ export async function POST(req: Request) {
     if (update.callback_query) {
       await answerCallback(update.callback_query.id);
       await handleCallback(chatId, update.callback_query.data ?? "");
-    } else if (update.message?.text) {
-      await handleText(chatId, update.message.text.trim());
+    } else if (update.message) {
+      await handleMessage(chatId, update.message);
     }
   } catch (error) {
     console.error("Bot error:", error);
@@ -82,11 +97,17 @@ export async function POST(req: Request) {
   return ok();
 }
 
+/* ---------------------------- допоміжне ---------------------------- */
+
+function findSession(chatId: number) {
+  return prisma.botSession.findUnique({ where: { chatId: String(chatId) } });
+}
+
 async function startFlow(chatId: number, mode: "TEST" | "CARDS") {
   await prisma.botSession.upsert({
     where: { chatId: String(chatId) },
     create: { chatId: String(chatId), mode, step: "SUBJECT" },
-    update: { mode, step: "SUBJECT", subject: null, topicId: null, subtopicId: null },
+    update: { mode, step: "SUBJECT", subject: null, topicId: null, subtopicId: null, examId: null, pendingImage: null, testLevel: 1 },
   });
   const keyboard: InlineKeyboard = SUBJECTS.map((s) => [
     { text: SUBJECT_DETAILS[s].title, callback_data: `s:${s}` },
@@ -94,8 +115,61 @@ async function startFlow(chatId: number, mode: "TEST" | "CARDS") {
   await sendMessage(chatId, mode === "TEST" ? "Додаємо питання. Обери предмет:" : "Додаємо картки. Обери предмет:", keyboard);
 }
 
+async function storeImage(fileId: string): Promise<string | null> {
+  const file = await downloadFile(fileId);
+  if (!file) return null;
+  const img = await prisma.image.create({ data: { mime: file.mime, data: file.data } });
+  return `/api/img/${img.id}`;
+}
+
+const FORMAT_HINT_TEST = `Питання: ...\nА: ...\nБ: ...\nВ: ...\nГ: ...\nВідповідь: А`;
+const PHOTO_HINT = `Фото: надішли картинку з підписом-питанням, або окремо перед питанням, або рядок «Фото: https://...»`;
+
+async function contentPrompt(session: BotSession): Promise<string> {
+  if (session.mode === "EXAM") {
+    const exam = session.examId ? await prisma.weeklyExam.findUnique({ where: { id: session.examId } }) : null;
+    return `Пробне НМТ «${exam?.title ?? ""}». Надсилай питання:\n\n${FORMAT_HINT_TEST}\n\n${PHOTO_HINT}\n\nКоли закінчиш — /done`;
+  }
+  const topic = session.topicId ? await prisma.topic.findUnique({ where: { id: session.topicId } }) : null;
+  const sub = session.subtopicId ? await prisma.subtopic.findUnique({ where: { id: session.subtopicId } }) : null;
+  const where = sub ? `Тема «${topic?.title}», підрозділ «${sub.title}».` : `Тема «${topic?.title}».`;
+
+  if (session.mode === "TEST") {
+    const lvl = getLevel(session.testLevel);
+    return `${where}\nДодаю в Тест ${session.testLevel}${lvl ? ` (${lvl.name}, поріг ${lvl.pass}%)` : ""}. Перемкнути: /t1 /t2 /t3\n\n${FORMAT_HINT_TEST}\n\n${PHOTO_HINT}\n\nМожна кілька питань в одному повідомленні. Коли закінчиш — /done`;
+  }
+  return `${where} Надсилай картки:\n\nТермін: ...\nПояснення: ...\n\n${PHOTO_HINT}\n\nКоли закінчиш — /done`;
+}
+
+// Після вибору теми/підрозділу: для тестів питаємо рівень, для карток одразу контент
+async function afterPlacement(chatId: number, sessionId: string) {
+  const session = await prisma.botSession.findUnique({ where: { chatId: sessionId } });
+  if (!session) return;
+  if (session.mode === "TEST") {
+    await prisma.botSession.update({ where: { chatId: sessionId }, data: { step: "LEVEL" } });
+    const keyboard: InlineKeyboard = LEVELS.map((l) => [
+      { text: `Тест ${l.level} · ${l.name} (поріг ${l.pass}%)`, callback_data: `l:${l.level}` },
+    ]);
+    await sendMessage(chatId, "У який тест додаємо питання?", keyboard);
+  } else {
+    await prisma.botSession.update({ where: { chatId: sessionId }, data: { step: "CONTENT" } });
+    await sendMessage(chatId, await contentPrompt(session));
+  }
+}
+
+async function askSubtopic(chatId: number, sessionId: string, topicId: string, topicTitle: string) {
+  await prisma.botSession.update({ where: { chatId: sessionId }, data: { topicId, subtopicId: null, step: "SUBTOPIC" } });
+  const subs = await prisma.subtopic.findMany({ where: { topicId }, orderBy: { order: "asc" } });
+  const keyboard: InlineKeyboard = subs.map((u) => [{ text: `${u.order}. ${u.title}`.slice(0, 60), callback_data: `u:${u.id}` }]);
+  keyboard.push([{ text: "➕ Додати підрозділ", callback_data: "newsub" }]);
+  keyboard.push([{ text: "⏩ Без підрозділу", callback_data: "nosub" }]);
+  await sendMessage(chatId, `Тема «${topicTitle}». Куди додаємо?`, keyboard);
+}
+
+/* ---------------------------- кнопки ---------------------------- */
+
 async function handleCallback(chatId: number, data: string) {
-  const session = await prisma.botSession.findUnique({ where: { chatId: String(chatId) } });
+  const session = await findSession(chatId);
   if (!session) return void (await sendMessage(chatId, "Почни з /addtest або /addcards."));
 
   if (data.startsWith("s:")) {
@@ -125,11 +199,9 @@ async function handleCallback(chatId: number, data: string) {
   }
 
   if (data === "nosub") {
-    const topic = session.topicId ? await prisma.topic.findUnique({ where: { id: session.topicId } }) : null;
-    if (!topic) return void (await sendMessage(chatId, "Спочатку обери тему: /addtest"));
-    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { subtopicId: null, step: "CONTENT" } });
-    await sendMessage(chatId, contentPrompt(session.mode, topic.title));
-    return;
+    if (!session.topicId) return void (await sendMessage(chatId, "Спочатку обери тему: /addtest"));
+    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { subtopicId: null } });
+    return afterPlacement(chatId, session.chatId);
   }
 
   if (data === "newsub") {
@@ -139,46 +211,89 @@ async function handleCallback(chatId: number, data: string) {
   }
 
   if (data.startsWith("u:")) {
-    const sub = await prisma.subtopic.findUnique({ where: { id: data.slice(2) }, include: { topic: true } });
+    const sub = await prisma.subtopic.findUnique({ where: { id: data.slice(2) } });
     if (!sub) return void (await sendMessage(chatId, "Підрозділ не знайдено, спробуй /addtest ще раз."));
-    await prisma.botSession.update({
-      where: { chatId: session.chatId },
-      data: { topicId: sub.topicId, subtopicId: sub.id, step: "CONTENT" },
-    });
-    await sendMessage(chatId, contentPrompt(session.mode, sub.topic.title, sub.title));
+    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { topicId: sub.topicId, subtopicId: sub.id } });
+    return afterPlacement(chatId, session.chatId);
+  }
+
+  if (data.startsWith("l:")) {
+    const level = Number(data.slice(2));
+    if (!getLevel(level)) return;
+    const updated = await prisma.botSession.update({ where: { chatId: session.chatId }, data: { testLevel: level, step: "CONTENT" } });
+    await sendMessage(chatId, await contentPrompt(updated));
   }
 }
 
-// Після вибору теми: додати підрозділ, обрати наявний чи працювати без підрозділу
-async function askSubtopic(chatId: number, sessionId: string, topicId: string, topicTitle: string) {
-  await prisma.botSession.update({ where: { chatId: sessionId }, data: { topicId, subtopicId: null, step: "SUBTOPIC" } });
-  const subs = await prisma.subtopic.findMany({ where: { topicId }, orderBy: { order: "asc" } });
-  const keyboard: InlineKeyboard = subs.map((u) => [{ text: `${u.order}. ${u.title}`.slice(0, 60), callback_data: `u:${u.id}` }]);
-  keyboard.push([{ text: "➕ Додати підрозділ", callback_data: "newsub" }]);
-  keyboard.push([{ text: "⏩ Без підрозділу", callback_data: "nosub" }]);
-  await sendMessage(chatId, `Тема «${topicTitle}». Куди додаємо?`, keyboard);
+/* ---------------------------- повідомлення ---------------------------- */
+
+async function handleMessage(chatId: number, msg: TgMessage) {
+  const text = (msg.text ?? msg.caption ?? "").trim();
+  const photoId = msg.photo?.length
+    ? msg.photo[msg.photo.length - 1].file_id
+    : msg.document?.mime_type?.startsWith("image/")
+      ? msg.document.file_id
+      : null;
+
+  if (!photoId) {
+    if (text) await handleText(chatId, text, null);
+    return;
+  }
+
+  const session = await findSession(chatId);
+  if (!session || session.step !== "CONTENT") {
+    return void (await sendMessage(chatId, "Фото отримав, але нікуди його не додаю. Спочатку /addtest, /addcards або /addexam і дійди до кроку з контентом."));
+  }
+  const url = await storeImage(photoId);
+  if (!url) return void (await sendMessage(chatId, "Не вдалось завантажити фото, спробуй ще раз."));
+  await handleText(chatId, text, url);
 }
 
-function contentPrompt(mode: string, title: string, subTitle?: string) {
-  const where = subTitle ? `Тема «${title}», підрозділ «${subTitle}».` : `Тема «${title}».`;
-  return mode === "TEST"
-    ? `${where} Надсилай питання у форматі:\n\nПитання: ...\nА: ...\nБ: ...\nВ: ...\nГ: ...\nВідповідь: А\n\nМожна кілька питань в одному повідомленні (до 4096 символів). Коли закінчиш — /done`
-    : `${where} Надсилай картки у форматі:\n\nТермін: ...\nПояснення: ...\n\nМожна кілька карток в одному повідомленні. Коли закінчиш — /done`;
-}
-
-async function handleText(chatId: number, text: string) {
+async function handleText(chatId: number, text: string, newImage: string | null) {
   const cmd = text.startsWith("/") ? text.split(/[\s@]/)[0].toLowerCase() : "";
 
   if (cmd === "/start" || cmd === "/help") return void (await sendMessage(chatId, HELP));
   if (cmd === "/addtest") return startFlow(chatId, "TEST");
   if (cmd === "/addcards") return startFlow(chatId, "CARDS");
-  if (cmd === "/done" || cmd === "/cancel") {
-    await prisma.botSession.deleteMany({ where: { chatId: String(chatId) } });
-    return void (await sendMessage(chatId, cmd === "/done" ? "Готово! Контент вже на сайті." : "Скасовано."));
+
+  if (cmd === "/addexam") {
+    await prisma.botSession.upsert({
+      where: { chatId: String(chatId) },
+      create: { chatId: String(chatId), mode: "EXAM", step: "EXAM_TITLE" },
+      update: { mode: "EXAM", step: "EXAM_TITLE", subject: null, topicId: null, subtopicId: null, examId: null, pendingImage: null },
+    });
+    return void (await sendMessage(chatId, "Нове тижневе пробне НМТ. Напиши його назву (наприклад: Пробне НМТ, тиждень 12):"));
   }
 
-  const session = await prisma.botSession.findUnique({ where: { chatId: String(chatId) } });
-  if (!session) return void (await sendMessage(chatId, "Напиши /addtest або /addcards. Довідка: /help"));
+  if (cmd === "/closeexam") {
+    const closed = await prisma.weeklyExam.updateMany({ where: { isActive: true }, data: { isActive: false } });
+    return void (await sendMessage(chatId, closed.count ? "Активне пробне закрито, з головної воно зникло." : "Активного пробного немає."));
+  }
+
+  if (cmd === "/done" || cmd === "/cancel") {
+    await prisma.botSession.deleteMany({ where: { chatId: String(chatId) } });
+    return void (await sendMessage(chatId, cmd === "/done" ? "Готово! Контент уже на сайті." : "Скасовано."));
+  }
+
+  const session = await findSession(chatId);
+
+  if ((cmd === "/t1" || cmd === "/t2" || cmd === "/t3") && session?.mode === "TEST" && session.step === "CONTENT") {
+    const level = Number(cmd.slice(2));
+    const lvl = getLevel(level)!;
+    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { testLevel: level } });
+    return void (await sendMessage(chatId, `Тепер додаю в Тест ${level} (${lvl.name}, поріг ${lvl.pass}%).`));
+  }
+
+  if (!session) return void (await sendMessage(chatId, "Напиши /addtest, /addcards або /addexam. Довідка: /help"));
+
+  if (session.step === "EXAM_TITLE") {
+    await prisma.weeklyExam.updateMany({ where: { isActive: true }, data: { isActive: false } });
+    const endTime = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
+    const exam = await prisma.weeklyExam.create({ data: { title: text.slice(0, 120), isActive: true, endTime } });
+    const updated = await prisma.botSession.update({ where: { chatId: session.chatId }, data: { examId: exam.id, step: "CONTENT" } });
+    const until = endTime.toLocaleString("uk-UA", { timeZone: "Europe/Kyiv", dateStyle: "short", timeStyle: "short" });
+    return void (await sendMessage(chatId, `Створив «${exam.title}», діє 7 днів (до ${until}). Попереднє пробне закрито.\n\n${await contentPrompt(updated)}`));
+  }
 
   if (session.step === "NEW_TOPIC" && session.subject) {
     const last = await prisma.topic.findFirst({ where: { subject: session.subject }, orderBy: { order: "desc" } });
@@ -196,44 +311,94 @@ async function handleText(chatId: number, text: string) {
     const sub = await prisma.subtopic.create({
       data: { topicId: topic.id, title: text.slice(0, 120), order: (last?.order ?? 0) + 1 },
     });
-    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { subtopicId: sub.id, step: "CONTENT" } });
-    return void (await sendMessage(chatId, `Створив підрозділ «${sub.title}».\n\n${contentPrompt(session.mode, topic.title, sub.title)}`));
+    await prisma.botSession.update({ where: { chatId: session.chatId }, data: { subtopicId: sub.id } });
+    await sendMessage(chatId, `Створив підрозділ «${sub.title}».`);
+    return afterPlacement(chatId, session.chatId);
   }
 
-  if (session.step === "CONTENT" && session.topicId) {
-    const topicId = session.topicId;
-    const subtopicId = session.subtopicId;
-    if (session.mode === "TEST") {
-      const { items, errors } = parseQuestions(text);
-      const existing = await prisma.question.findMany({ where: { topicId }, select: { text: true } });
-      const known = new Set(existing.map((q) => q.text));
-      const fresh = items.filter((q) => !known.has(q.text));
-      if (fresh.length) {
-        await prisma.question.createMany({ data: fresh.map((q) => ({ ...q, topicId, subtopicId })) });
-      }
-      const total = await prisma.question.count({ where: { topicId } });
-      await sendMessage(chatId, report("питань", fresh.length, items.length - fresh.length, total, errors));
-    } else {
-      const { items, errors } = parseCards(text);
-      const existing = await prisma.flashcard.findMany({ where: { topicId }, select: { question: true } });
-      const known = new Set(existing.map((c) => c.question));
-      const fresh = items.filter((c) => !known.has(c.question));
-      if (fresh.length) {
-        await prisma.flashcard.createMany({ data: fresh.map((c) => ({ ...c, topicId, subtopicId })) });
-      }
-      const total = await prisma.flashcard.count({ where: { topicId } });
-      await sendMessage(chatId, report("карток", fresh.length, items.length - fresh.length, total, errors));
+  if (session.step === "CONTENT") return saveContent(chatId, session, text, newImage);
+
+  await sendMessage(chatId, "Спочатку обери варіант кнопками вище, або почни заново: /addtest");
+}
+
+/* ---------------------------- збереження контенту ---------------------------- */
+
+async function saveContent(chatId: number, session: BotSession, text: string, newImage: string | null) {
+  const hasBlocks = /^\s*(?:Питання|Термін)\s*(?:№?\s*\d+)?\s*[:.)]/im.test(text);
+
+  // Фото без питання/картки — запам'ятовуємо для наступного повідомлення
+  if (!hasBlocks) {
+    if (newImage) {
+      await prisma.botSession.update({ where: { chatId: session.chatId }, data: { pendingImage: newImage } });
+      return void (await sendMessage(chatId, "Фото збережено. Надішли питання (або картку), прикріплю його до першого блоку."));
     }
+    return void (await sendMessage(chatId, "Не бачу «Питання:» чи «Термін:». Формат дивись у /help"));
+  }
+
+  const image = newImage ?? session.pendingImage;
+  let usedImage = false;
+  const attach = <T extends { imageUrl?: string }>(items: T[]) => {
+    if (image && items.length > 0 && !items[0].imageUrl) {
+      items[0].imageUrl = image;
+      usedImage = true;
+    }
+  };
+
+  if (session.mode === "CARDS" && session.topicId) {
+    const topicId = session.topicId;
+    const { items, errors } = parseCards(text);
+    attach(items);
+    const existing = await prisma.flashcard.findMany({ where: { topicId }, select: { question: true } });
+    const known = new Set(existing.map((c) => c.question));
+    const fresh = items.filter((c) => !known.has(c.question));
+    if (fresh.length) await prisma.flashcard.createMany({ data: fresh.map((c) => ({ ...c, topicId, subtopicId: session.subtopicId })) });
+    const total = await prisma.flashcard.count({ where: { topicId } });
+    await finish(chatId, session, usedImage, report("карток", fresh.length, items.length - fresh.length, total, errors, fresh.filter((c) => c.imageUrl).length));
     return;
   }
 
-  await sendMessage(chatId, "Спочатку обери предмет і тему кнопками вище, або почни заново: /addtest");
+  const { items, errors } = parseQuestions(text);
+  attach(items);
+
+  if (session.mode === "EXAM" && session.examId) {
+    const examId = session.examId;
+    const existing = await prisma.examQuestion.findMany({ where: { examId }, select: { text: true } });
+    const known = new Set(existing.map((q) => q.text));
+    const fresh = items.filter((q) => !known.has(q.text));
+    if (fresh.length) await prisma.examQuestion.createMany({ data: fresh.map((q) => ({ ...q, examId })) });
+    const total = await prisma.examQuestion.count({ where: { examId } });
+    await finish(chatId, session, usedImage, report("питань", fresh.length, items.length - fresh.length, total, errors, fresh.filter((q) => q.imageUrl).length));
+    return;
+  }
+
+  if (session.mode === "TEST" && session.topicId) {
+    const topicId = session.topicId;
+    const existing = await prisma.question.findMany({ where: { topicId }, select: { text: true } });
+    const known = new Set(existing.map((q) => q.text));
+    const fresh = items.filter((q) => !known.has(q.text));
+    if (fresh.length) {
+      await prisma.question.createMany({
+        data: fresh.map((q) => ({ ...q, topicId, subtopicId: session.subtopicId, testLevel: session.testLevel })),
+      });
+    }
+    const total = await prisma.question.count({ where: { topicId, testLevel: session.testLevel } });
+    await finish(chatId, session, usedImage, report(`питань у Тесті ${session.testLevel}`, fresh.length, items.length - fresh.length, total, errors, fresh.filter((q) => q.imageUrl).length));
+    return;
+  }
+
+  await sendMessage(chatId, "Щось пішло не так зі станом діалогу. Почни заново: /addtest");
 }
 
-function report(noun: string, added: number, dupes: number, total: number, errors: string[]) {
+async function finish(chatId: number, session: BotSession, usedImage: boolean, message: string) {
+  if (usedImage) await prisma.botSession.update({ where: { chatId: session.chatId }, data: { pendingImage: null } });
+  await sendMessage(chatId, message);
+}
+
+function report(noun: string, added: number, dupes: number, total: number, errors: string[], withPhoto: number) {
   let msg = `Додано ${noun}: ${added}.`;
+  if (withPhoto) msg += ` З фото: ${withPhoto}.`;
   if (dupes) msg += ` Пропущено дублів: ${dupes}.`;
-  msg += ` Усього в темі: ${total}.`;
+  msg += ` Усього: ${total}.`;
   if (errors.length) msg += `\n\nНе вдалось прочитати:\n${errors.slice(0, 10).join("\n")}`;
   return msg;
 }

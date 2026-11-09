@@ -10,7 +10,7 @@ export default function UserBar() {
     <div className="container mx-auto max-w-5xl px-4 pt-4 flex justify-end items-center gap-4 text-sm min-h-[3rem]">
       {status === "loading" ? null : data?.user ? (
         <>
-          <span className="text-gray-600">{data.user.name}</span>
+          <Link href="/profile" className="text-indigo-700 font-semibold hover:underline">{data.user.name}</Link>
           <button onClick={() => signOut({ callbackUrl: "/" })} className="text-gray-500 hover:text-gray-900 underline">
             Вийти
           </button>

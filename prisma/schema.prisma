@@ -15,12 +15,13 @@ enum Subject {
 }
 
 model User {
-  id           String       @id @default(cuid())
-  username     String       @unique
+  id           String        @id @default(cuid())
+  username     String        @unique
   passwordHash String
-  createdAt    DateTime     @default(now())
+  createdAt    DateTime      @default(now())
   flashcards   Flashcard[]
   testResults  TestResult[]
+  examAttempts ExamAttempt[]
 }
 
 model Topic {
@@ -28,8 +29,8 @@ model Topic {
   subject     Subject
   title       String
   order       Int          @default(0)
-  flashcards  Flashcard[]
   subtopics   Subtopic[]
+  flashcards  Flashcard[]
   questions   Question[]
   testResults TestResult[]
 
@@ -50,64 +51,120 @@ model Subtopic {
   @@index([topicId, order])
 }
 
-// Питання тесту: 2-5 варіантів, correctIndex — номер правильного (з нуля)
+// Питання тесту. testLevel: 1 = Базовий, 2 = Середній, 3 = Поглиблений
 model Question {
-  id           String   @id @default(cuid())
+  id           String    @id @default(cuid())
   text         String
   options      String[]
   correctIndex Int
+  imageUrl     String?
+  testLevel    Int       @default(1)
   topicId      String
-  topic        Topic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  topic        Topic     @relation(fields: [topicId], references: [id], onDelete: Cascade)
   subtopicId   String?
   subtopic     Subtopic? @relation(fields: [subtopicId], references: [id], onDelete: SetNull)
-  createdAt    DateTime @default(now())
+  createdAt    DateTime  @default(now())
 
-  @@index([topicId])
+  @@index([topicId, testLevel])
   @@index([subtopicId])
 }
 
 // Флеш-картка: question = лицьова сторона (термін), answer = зворотна (пояснення)
 model Flashcard {
-  id        String   @id @default(cuid())
-  question  String
-  answer    String
-  topicId   String
-  topic     Topic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  id         String    @id @default(cuid())
+  question   String
+  answer     String
+  imageUrl   String?
+  topicId    String
+  topic      Topic     @relation(fields: [topicId], references: [id], onDelete: Cascade)
   subtopicId String?
-  subtopic  Subtopic? @relation(fields: [subtopicId], references: [id], onDelete: SetNull)
-  userId    String?
-  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  subtopic   Subtopic? @relation(fields: [subtopicId], references: [id], onDelete: SetNull)
+  userId     String?
+  user       User?     @relation(fields: [userId], references: [id], onDelete: SetNull)
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
 
   @@index([topicId])
   @@index([subtopicId])
 }
 
-// Результат проходження тесту (percent = correct / total * 100)
+// Результат тесту. testLevel 1-3 = тест теми; 0 = практика по підрозділу
 model TestResult {
-  id        String   @id @default(cuid())
-  userId    String
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  topicId   String
-  topic     Topic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  id         String    @id @default(cuid())
+  userId     String
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topicId    String
+  topic      Topic     @relation(fields: [topicId], references: [id], onDelete: Cascade)
   subtopicId String?
-  subtopic  Subtopic? @relation(fields: [subtopicId], references: [id], onDelete: SetNull)
-  correct   Int
-  total     Int
-  percent   Int
-  createdAt DateTime @default(now())
+  subtopic   Subtopic? @relation(fields: [subtopicId], references: [id], onDelete: SetNull)
+  testLevel  Int       @default(1)
+  correct    Int
+  total      Int
+  percent    Int
+  createdAt  DateTime  @default(now())
 
   @@index([userId, topicId])
 }
 
-// Стан діалогу адміна з ботом (бо serverless не пам'ятає між запитами)
+// Фото, завантажені через бота (зберігаємо в базі, віддаємо через /api/img/<id>)
+model Image {
+  id        String   @id @default(cuid())
+  mime      String
+  data      Bytes
+  createdAt DateTime @default(now())
+}
+
+// Тижневе пробне НМТ
+model WeeklyExam {
+  id          String         @id @default(cuid())
+  title       String
+  description String?
+  isActive    Boolean        @default(true)
+  startTime   DateTime       @default(now())
+  endTime     DateTime
+  createdAt   DateTime       @default(now())
+  questions   ExamQuestion[]
+  attempts    ExamAttempt[]
+}
+
+model ExamQuestion {
+  id           String     @id @default(cuid())
+  examId       String
+  exam         WeeklyExam @relation(fields: [examId], references: [id], onDelete: Cascade)
+  text         String
+  options      String[]
+  correctIndex Int
+  imageUrl     String?
+  createdAt    DateTime   @default(now())
+
+  @@index([examId])
+}
+
+model ExamAttempt {
+  id        String     @id @default(cuid())
+  examId    String
+  exam      WeeklyExam @relation(fields: [examId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  correct   Int
+  total     Int
+  percent   Int
+  score     Int
+  createdAt DateTime   @default(now())
+
+  @@index([examId, userId])
+}
+
+// Стан діалогу адміна з ботом (serverless не пам'ятає між запитами)
 model BotSession {
-  chatId    String   @id
-  mode      String
-  step      String
-  subject   Subject?
-  topicId   String?
-  subtopicId String?
-  updatedAt DateTime @updatedAt
+  chatId       String   @id
+  mode         String
+  step         String
+  subject      Subject?
+  topicId      String?
+  subtopicId   String?
+  testLevel    Int      @default(1)
+  examId       String?
+  pendingImage String?
+  updatedAt    DateTime @updatedAt
 }
