@@ -37,6 +37,7 @@ const HELP = `Адмінка НМТ на 200
 /addexam — нове тижневе пробне НМТ
 /closeexam — закрити активне пробне
 /t1 /t2 /t3 — перемкнути рівень тесту під час додавання
+/noexpl — питання без обґрунтування, /explain <код> <текст>
 /done — закінчити, /cancel — скасувати
 
 Питання:
@@ -255,6 +256,32 @@ async function handleText(chatId: number, text: string, newImage: string | null)
       update: { mode: "EXAM", step: "EXAM_TITLE", subject: null, topicId: null, subtopicId: null, examId: null, pendingImage: null },
     });
     return void (await sendMessage(chatId, "Нове тижневе пробне НМТ. Напиши його назву (наприклад: Пробне НМТ, тиждень 12):"));
+  }
+
+  // /noexpl — питання без обґрунтування; /explain <id> <текст> — додати/змінити
+  if (cmd === "/noexpl") {
+    const [list, count] = await Promise.all([
+      prisma.question.findMany({ where: { explanation: null }, orderBy: { createdAt: "asc" }, take: 10, select: { id: true, text: true } }),
+      prisma.question.count({ where: { explanation: null } }),
+    ]);
+    if (!list.length) return void (await sendMessage(chatId, "У всіх питань є обґрунтування 🎉"));
+    const lines = list.map((q) => `${q.id.slice(-6)} — ${q.text.slice(0, 60)}`).join("\n");
+    return void (await sendMessage(chatId, `Без обґрунтування: ${count}. Перші ${list.length}:\n\n${lines}\n\nДодати: /explain <код> <текст>`));
+  }
+
+  if (cmd === "/explain") {
+    const m = text.match(/^\/explain(?:@\w+)?\s+(\S+)\s+([\s\S]+)$/i);
+    if (!m) return void (await sendMessage(chatId, "Формат: /explain <код> <текст обґрунтування>\nКоди: /noexpl"));
+    const key = m[1];
+    const found = await prisma.question.findMany({
+      where: key.length >= 20 ? { id: key } : key.length >= 4 ? { id: { endsWith: key } } : { id: "-" },
+      take: 2,
+      select: { id: true, text: true },
+    });
+    if (found.length === 0) return void (await sendMessage(chatId, "Питання з таким кодом не знайдено. Коди: /noexpl"));
+    if (found.length > 1) return void (await sendMessage(chatId, "Код неоднозначний, вкажи довший."));
+    await prisma.question.update({ where: { id: found[0].id }, data: { explanation: m[2].trim().slice(0, 2000) } });
+    return void (await sendMessage(chatId, `Обґрунтування збережено для: ${found[0].text.slice(0, 60)}`));
   }
 
   if (cmd === "/closeexam") {

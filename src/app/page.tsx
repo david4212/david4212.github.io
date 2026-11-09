@@ -3,6 +3,7 @@ import { Flame, Trophy } from "lucide-react";
 import { getServerSession } from "next-auth";
 import CountdownTimer from "@/components/shared/CountdownTimer";
 import ExamCountdown from "@/components/shared/ExamCountdown";
+import DailyQuestion from "@/components/shared/DailyQuestion";
 import SubjectIcon from "@/components/shared/SubjectIcon";
 import prisma from "@/lib/prisma";
 import { authOptions } from "@/lib/auth";
@@ -61,6 +62,10 @@ export default async function Home() {
 
       <section className="mb-8">
         <CountdownTimer />
+      </section>
+
+      <section className="mb-8 max-w-2xl mx-auto">
+        <DailyQuestion />
       </section>
 
       {exam && (
