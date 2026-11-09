@@ -4,6 +4,7 @@ import { getServerSession } from "next-auth";
 import prisma from "@/lib/prisma";
 import { authOptions } from "@/lib/auth";
 import { getLevelStats, passedCount } from "@/lib/progress";
+import ProfileWidgets from "@/components/profile/ProfileWidgets";
 import { SUBJECT_DETAILS, SUBJECT_ORDER } from "@/types";
 
 export const dynamic = "force-dynamic";
@@ -48,6 +49,8 @@ export default async function ProfilePage() {
         <ArrowLeft className="w-4 h-4 mr-2" /> На головну
       </Link>
       <h1 className="text-3xl font-extrabold text-slate-900 mb-6">Профіль: {session.user.name}</h1>
+
+      <ProfileWidgets />
 
       <h2 className="text-lg font-bold text-slate-800 mb-3">Прогрес по предметах</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">

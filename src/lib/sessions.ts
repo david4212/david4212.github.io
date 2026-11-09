@@ -25,10 +25,13 @@ export async function buildQuestionIds(kind: Kind): Promise<string[]> {
 export async function loadQuestions(ids: string[]) {
   const rows = await prisma.question.findMany({
     where: { id: { in: ids } },
-    select: { id: true, text: true, options: true, imageUrl: true },
+    select: { id: true, text: true, options: true, imageUrl: true, topic: { select: { subject: true } } },
   });
   const map = new Map(rows.map((r) => [r.id, r]));
-  return ids.map((id) => map.get(id)).filter((q): q is NonNullable<typeof q> => !!q);
+  return ids
+    .map((id) => map.get(id))
+    .filter((q): q is NonNullable<typeof q> => !!q)
+    .map(({ topic, ...q }) => ({ ...q, subject: topic.subject as Subject }));
 }
 
 // Оцінює сесію й один раз записує відповіді (банк помилок, streak). Повторний виклик лише перераховує результат.
