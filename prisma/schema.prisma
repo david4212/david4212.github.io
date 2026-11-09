@@ -65,6 +65,7 @@ model Question {
   subtopic     Subtopic? @relation(fields: [subtopicId], references: [id], onDelete: SetNull)
   createdAt    DateTime  @default(now())
 
+  @@index([topicId])
   @@index([topicId, testLevel])
   @@index([subtopicId])
 }
