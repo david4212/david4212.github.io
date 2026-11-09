@@ -1,0 +1,1872 @@
+{
+ "subject": "ENGLISH",
+ "topic": "Grammar: Tenses & Verb Forms",
+ "questions": [
+  {
+   "text": "She ___ to school every day.",
+   "options": [
+    "going",
+    "goes",
+    "go",
+    "is going"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Щоденна дія — Present Simple.\n❌ Хибні: А) going — немає допоміжного дієслова; В) go — бракує закінчення -es; Г) is going — Continuous не для щоденної звички.\n✅ Б) goes — Present Simple, 3-тя особа однини: -es.",
+   "testLevel": 1
+  },
+  {
+   "text": "Look! The children ___ in the garden now.",
+   "options": [
+    "played",
+    "play",
+    "are playing",
+    "plays"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Сигнали now/Look! — Continuous.\n❌ Хибні: А) played — минулий час не підходить; Б) play — Simple не для дії в момент мовлення; Г) plays — однина не узгоджується з children.\n✅ В) are playing — Present Continuous: Look!, now.",
+   "testLevel": 1
+  },
+  {
+   "text": "I ___ my homework yesterday.",
+   "options": [
+    "doing",
+    "did",
+    "have done",
+    "do"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Yesterday — Past Simple.\n❌ Хибні: А) doing — немає допоміжного дієслова; В) have done — Perfect не вживається з yesterday; Г) do — теперішній час.\n✅ Б) did — Past Simple, указано yesterday.",
+   "testLevel": 1
+  },
+  {
+   "text": "We ___ to the cinema last Friday.",
+   "options": [
+    "goes",
+    "go",
+    "went",
+    "have gone"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Last Friday — Past Simple.\n❌ Хибні: А) goes — однина і теперішній час; Б) go — теперішній час; Г) have gone — Perfect не вживається з last Friday.\n✅ В) went — Past Simple від go.",
+   "testLevel": 1
+  },
+  {
+   "text": "My brother ___ English very well.",
+   "options": [
+    "speak",
+    "speaks",
+    "speaking",
+    "is speaking"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Навичка — Present Simple.\n❌ Хибні: А) speak — бракує -s; В) speaking — немає допоміжного дієслова; Г) is speaking — Continuous не для постійної навички.\n✅ Б) speaks — Present Simple, 3-тя особа однини.",
+   "testLevel": 1
+  },
+  {
+   "text": "They ___ in London in 2015.",
+   "options": [
+    "live",
+    "lived",
+    "have lived",
+    "are living"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Рік у минулому — Past Simple.\n❌ Хибні: А) live — теперішній час; В) have lived — Perfect не вживається з 2015; Г) are living — Continuous не для завершеного минулого.\n✅ Б) lived — Past Simple, указано рік.",
+   "testLevel": 1
+  },
+  {
+   "text": "He ___ TV when I came in.",
+   "options": [
+    "has watched",
+    "watches",
+    "was watching",
+    "watched"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: When I came in — перерваний процес.\n❌ Хибні: А) has watched — Perfect не поєднується з came; Б) watches — теперішній час; Г) watched — Simple не показує тривалості.\n✅ В) was watching — Past Continuous: дія в процесі в момент іншої.",
+   "testLevel": 1
+  },
+  {
+   "text": "I have never ___ sushi.",
+   "options": [
+    "eaten",
+    "eat",
+    "ate",
+    "eating"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Have + третя форма.\n❌ Хибні: Б) eat — V1 після have неправильна; В) ate — V2 після have неправильна; Г) eating — V-ing після have never неправильна.\n✅ А) eaten — Present Perfect: have + V3.",
+   "testLevel": 1
+  },
+  {
+   "text": "She ___ her keys, so she can't open the door.",
+   "options": [
+    "lost",
+    "is losing",
+    "has lost",
+    "loses"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Наслідок у теперішньому — Perfect.\n❌ Хибні: А) lost — Simple без зв'язку з теперішнім; Б) is losing — Continuous не підходить; Г) loses — Simple для звички.\n✅ В) has lost — Present Perfect: результат зараз.",
+   "testLevel": 1
+  },
+  {
+   "text": "Tomorrow I ___ my grandmother.",
+   "options": [
+    "visit",
+    "will visit",
+    "have visited",
+    "visited"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Tomorrow — майбутнє.\n❌ Хибні: А) visit — Simple без will; В) have visited — Perfect не підходить; Г) visited — минулий час.\n✅ Б) will visit — майбутня дія, Future Simple.",
+   "testLevel": 1
+  },
+  {
+   "text": "Water ___ at 100 degrees Celsius.",
+   "options": [
+    "is boiling",
+    "boils",
+    "has boiled",
+    "boiled"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Факти — Present Simple.\n❌ Хибні: А) is boiling — Continuous не для фактів; В) has boiled — Perfect не для фактів; Г) boiled — минулий час.\n✅ Б) boils — наукова істина, Present Simple.",
+   "testLevel": 1
+  },
+  {
+   "text": "We ___ dinner at 7 p.m. every evening.",
+   "options": [
+    "are having",
+    "will have",
+    "have",
+    "had"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Every evening — звичка.\n❌ Хибні: А) are having — Continuous для моменту; Б) will have — майбутній час; Г) had — минулий час.\n✅ В) have — Present Simple для звички.",
+   "testLevel": 1
+  },
+  {
+   "text": "Peter ___ a new car last month.",
+   "options": [
+    "is buying",
+    "buys",
+    "has bought",
+    "bought"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Last month — Past Simple.\n❌ Хибні: А) is buying — Continuous не для завершеної дії; Б) buys — теперішній час; В) has bought — Perfect не вживається з last month.\n✅ Г) bought — Past Simple від buy.",
+   "testLevel": 1
+  },
+  {
+   "text": "Does she ___ coffee?",
+   "options": [
+    "to like",
+    "like",
+    "liking",
+    "likes"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Does + V1.\n❌ Хибні: А) to like — після does без to; В) liking — після does — інфінітив; Г) likes — після does не потрібне -s.\n✅ Б) like — після does — інфінітив без to.",
+   "testLevel": 1
+  },
+  {
+   "text": "I ___ not go to the party last night.",
+   "options": [
+    "did",
+    "do",
+    "was",
+    "have"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Did not + V1.\n❌ Хибні: Б) do — теперішній час; В) was — з go не вживається; Г) have — Perfect не з last night.\n✅ А) did — допоміжне дієслово Past Simple.",
+   "testLevel": 1
+  },
+  {
+   "text": "There ___ a lot of people in the park yesterday.",
+   "options": [
+    "were",
+    "was",
+    "is",
+    "are"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: People — множина, yesterday — минуле.\n❌ Хибні: Б) was — однина; В) is — теперішній час; Г) are — теперішній час.\n✅ А) were — минулий час, множина.",
+   "testLevel": 1
+  },
+  {
+   "text": "He is the tallest boy. He ___ basketball every Sunday.",
+   "options": [
+    "has played",
+    "is playing",
+    "played",
+    "plays"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Every Sunday — Present Simple.\n❌ Хибні: А) has played — Perfect не для звички; Б) is playing — Continuous для моменту; В) played — минулий час.\n✅ Г) plays — Present Simple, звичка.",
+   "testLevel": 1
+  },
+  {
+   "text": "I ___ you a letter next week.",
+   "options": [
+    "will write",
+    "was writing",
+    "have written",
+    "wrote"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Next week — майбутнє.\n❌ Хибні: Б) was writing — Continuous не відповідає змісту; В) have written — Perfect; Г) wrote — Past Simple.\n✅ А) will write — Future Simple, обіцянка.",
+   "testLevel": 1
+  },
+  {
+   "text": "What ___ you doing at 8 o'clock yesterday?",
+   "options": [
+    "were",
+    "was",
+    "do",
+    "are"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: At 8 yesterday — Past Continuous.\n❌ Хибні: Б) was — не узгоджується з you; В) do — не для Continuous; Г) are — теперішній час.\n✅ А) were — Past Continuous, множина.",
+   "testLevel": 1
+  },
+  {
+   "text": "My parents ___ married for twenty years.",
+   "options": [
+    "were",
+    "have been",
+    "was",
+    "are"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: For + період — Perfect.\n❌ Хибні: А) were — Past Simple не з for у сенсі «досі»; В) was — однина; Г) are — Simple не з for twenty years.\n✅ Б) have been — Present Perfect з for.",
+   "testLevel": 1
+  },
+  {
+   "text": "She ___ in this company since 2018.",
+   "options": [
+    "is working",
+    "works",
+    "worked",
+    "has worked"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Since — Perfect.\n❌ Хибні: А) is working — Continuous не для тривалості з since; Б) works — Simple не з since; В) worked — Past Simple без зв'язку з теперішнім.\n✅ Г) has worked — Present Perfect з since.",
+   "testLevel": 1
+  },
+  {
+   "text": "It ___ now, so take an umbrella.",
+   "options": [
+    "is raining",
+    "rained",
+    "has rained",
+    "rains"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Now — Continuous.\n❌ Хибні: Б) rained — минулий час; В) has rained — Perfect не підходить; Г) rains — Simple для звички.\n✅ А) is raining — Present Continuous.",
+   "testLevel": 1
+  },
+  {
+   "text": "I usually ___ up at 7 a.m.",
+   "options": [
+    "am getting",
+    "getting",
+    "get",
+    "got"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Usually — Present Simple.\n❌ Хибні: А) am getting — Continuous не з usually; Б) getting — немає допоміжного; Г) got — минулий час.\n✅ В) get — Present Simple з usually.",
+   "testLevel": 1
+  },
+  {
+   "text": "He ___ to Kyiv two days ago.",
+   "options": [
+    "has gone",
+    "went",
+    "is going",
+    "goes"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Ago — Past Simple.\n❌ Хибні: А) has gone — Perfect не з ago; В) is going — Continuous; Г) goes — теперішній час.\n✅ Б) went — Past Simple, ago.",
+   "testLevel": 1
+  },
+  {
+   "text": "Choose the correct sentence.",
+   "options": [
+    "She don't like tea.",
+    "She doesn't likes tea.",
+    "She not like tea.",
+    "She doesn't like tea."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Заперечення — doesn't + V1.\n❌ Хибні: А) She don't like tea. — don't не з she; Б) She doesn't likes tea. — після doesn't -s не потрібне; В) She not like tea. — немає допоміжного.\n✅ Г) She doesn't like tea. — does not + V1.",
+   "testLevel": 1
+  },
+  {
+   "text": "Choose the correct question.",
+   "options": [
+    "Did you saw him yesterday?",
+    "Do you saw him yesterday?",
+    "Did you see him yesterday?",
+    "You did see him?"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Питання — Did + підмет + V1.\n❌ Хибні: А) Did you saw him yesterday? — після did — V1; Б) Do you saw him yesterday? — Do з минулим; Г) You did see him? — порушено порядок питання.\n✅ В) Did you see him yesterday? — Did + V1.",
+   "testLevel": 1
+  },
+  {
+   "text": "She enjoys ___ books.",
+   "options": [
+    "read",
+    "to read",
+    "reading",
+    "reads"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: enjoy + V-ing.\n❌ Хибні: А) read — після enjoy не V1; Б) to read — після enjoy не to-інфінітив; Г) reads — не герундій.\n✅ В) reading — після enjoy — герундій.",
+   "testLevel": 1
+  },
+  {
+   "text": "He wants ___ a doctor.",
+   "options": [
+    "to become",
+    "became",
+    "become",
+    "becoming"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: want + to V.\n❌ Хибні: Б) became — минулий час; В) become — після want потрібне to; Г) becoming — після want не герундій.\n✅ А) to become — після want — to-інфінітив.",
+   "testLevel": 1
+  },
+  {
+   "text": "They decided ___ home.",
+   "options": [
+    "going",
+    "to go",
+    "go",
+    "went"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: decide + to V.\n❌ Хибні: А) going — після decide не герундій; В) go — потрібне to; Г) went — минулий час.\n✅ Б) to go — після decide — to-інфінітив.",
+   "testLevel": 1
+  },
+  {
+   "text": "We are looking forward to ___ you.",
+   "options": [
+    "saw",
+    "to see",
+    "see",
+    "seeing"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Look forward to + V-ing.\n❌ Хибні: А) saw — минулий час; Б) to see — після look forward to — V-ing; В) see — прийменник to + V-ing.\n✅ Г) seeing — після to (прийменник) — V-ing.",
+   "testLevel": 1
+  },
+  {
+   "text": "I can ___ the piano.",
+   "options": [
+    "play",
+    "playing",
+    "to play",
+    "plays"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Can + V1.\n❌ Хибні: Б) playing — після can не V-ing; В) to play — після can без to; Г) plays — після can без -s.\n✅ А) play — після can — V1.",
+   "testLevel": 1
+  },
+  {
+   "text": "You must ___ your teacher.",
+   "options": [
+    "listen to",
+    "listens to",
+    "to listen to",
+    "listening to"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Must + V1.\n❌ Хибні: Б) listens to — після must без -s; В) to listen to — після must без to; Г) listening to — після must не V-ing.\n✅ А) listen to — після must — V1.",
+   "testLevel": 1
+  },
+  {
+   "text": "If it rains tomorrow, we ___ at home.",
+   "options": [
+    "will stay",
+    "stayed",
+    "would stay",
+    "had stayed"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: First conditional.\n❌ Хибні: Б) stayed — минулий час; В) would stay — умовний II тип; Г) had stayed — умовний III тип.\n✅ А) will stay — умовний I тип: if + Present, will + V.",
+   "testLevel": 1
+  },
+  {
+   "text": "The sun ___ in the east.",
+   "options": [
+    "is rising",
+    "rose",
+    "rises",
+    "has risen"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Факт — Present Simple.\n❌ Хибні: А) is rising — Continuous для моменту; Б) rose — минулий час; Г) has risen — Perfect.\n✅ В) rises — факт, Present Simple.",
+   "testLevel": 1
+  },
+  {
+   "text": "My sister ___ to music now.",
+   "options": [
+    "listens",
+    "is listening",
+    "has listened",
+    "listened"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Now — Continuous.\n❌ Хибні: А) listens — Simple для звички; В) has listened — Perfect; Г) listened — минулий час.\n✅ Б) is listening — Present Continuous.",
+   "testLevel": 1
+  },
+  {
+   "text": "He ___ his lunch an hour ago.",
+   "options": [
+    "is having",
+    "had",
+    "has",
+    "has had"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Ago — Past Simple.\n❌ Хибні: А) is having — Continuous; В) has — теперішній час; Г) has had — Perfect не з ago.\n✅ Б) had — Past Simple, ago.",
+   "testLevel": 1
+  },
+  {
+   "text": "We ___ in Lviv for three years.",
+   "options": [
+    "are living",
+    "lived",
+    "live",
+    "have lived"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: For three years — Perfect.\n❌ Хибні: А) are living — Continuous; Б) lived — Past Simple без зв'язку; В) live — Simple не з for three years.\n✅ Г) have lived — Present Perfect з for.",
+   "testLevel": 1
+  },
+  {
+   "text": "Have you ___ your room yet?",
+   "options": [
+    "cleaned",
+    "cleaning",
+    "clean",
+    "clean to"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Yet — Perfect.\n❌ Хибні: Б) cleaning — V-ing після have; В) clean — V1 після have; Г) clean to — неправильна форма.\n✅ А) cleaned — Present Perfect: have + V3.",
+   "testLevel": 1
+  },
+  {
+   "text": "When I was a child, I ___ in a village.",
+   "options": [
+    "lived",
+    "am living",
+    "live",
+    "have lived"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Минуле дитинство — Past Simple.\n❌ Хибні: Б) am living — Continuous; В) live — теперішній час; Г) have lived — Perfect не з was a child.\n✅ А) lived — Past Simple.",
+   "testLevel": 1
+  },
+  {
+   "text": "The train ___ at 9 o'clock tomorrow.",
+   "options": [
+    "has left",
+    "leaving",
+    "left",
+    "leaves"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Розклад — Present Simple.\n❌ Хибні: А) has left — Perfect; Б) leaving — немає допоміжного дієслова; В) left — минулий час.\n✅ Г) leaves — Present Simple для розкладу.",
+   "testLevel": 1
+  },
+  {
+   "text": "She is afraid ___ dogs.",
+   "options": [
+    "of",
+    "in",
+    "at",
+    "to"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Afraid of something.\n❌ Хибні: Б) in — неправильний прийменник; В) at — afraid at — неправильно; Г) to — afraid to + V1.\n✅ А) of — afraid of + іменник.",
+   "testLevel": 1
+  },
+  {
+   "text": "Water ___ at 0 degrees Celsius.",
+   "options": [
+    "froze",
+    "is freezing",
+    "has frozen",
+    "freezes"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Факти — Present Simple.\n❌ Хибні: А) froze — минулий час; Б) is freezing — Continuous; В) has frozen — Perfect.\n✅ Г) freezes — факт, Present Simple.",
+   "testLevel": 1
+  },
+  {
+   "text": "Why ___ you late yesterday?",
+   "options": [
+    "was",
+    "have been",
+    "are",
+    "were"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Yesterday — Past Simple.\n❌ Хибні: А) was — не з you; Б) have been — Perfect не з yesterday; В) are — теперішній час.\n✅ Г) were — минулий час.",
+   "testLevel": 1
+  },
+  {
+   "text": "He ___ his homework when his mother called.",
+   "options": [
+    "did",
+    "does",
+    "has done",
+    "was doing"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: When + Past Simple перериває Continuous.\n❌ Хибні: А) did — Simple без тривалості; Б) does — теперішній час; В) has done — Perfect.\n✅ Г) was doing — Past Continuous, дія перервана.",
+   "testLevel": 1
+  },
+  {
+   "text": "I am sure he ___ you.",
+   "options": [
+    "has helped",
+    "will help",
+    "helps",
+    "helped"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: I am sure + will.\n❌ Хибні: А) has helped — Perfect; В) helps — Simple; Г) helped — минулий час.\n✅ Б) will help — Future Simple, упевненість у прогнозі.",
+   "testLevel": 1
+  },
+  {
+   "text": "Choose the correct form: \"She ___ a book at the moment.\"",
+   "options": [
+    "has read",
+    "is reading",
+    "reads",
+    "read"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: At the moment — Continuous.\n❌ Хибні: А) has read — Perfect; В) reads — Simple для звички; Г) read — минулий час.\n✅ Б) is reading — at the moment — Continuous.",
+   "testLevel": 1
+  },
+  {
+   "text": "Which sentence is in Present Perfect?",
+   "options": [
+    "I finish my work.",
+    "I finished my work.",
+    "I have finished my work.",
+    "I am finishing my work."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Present Perfect: have/has + V3.\n❌ Хибні: А) I finish my work. — Present Simple; Б) I finished my work. — Past Simple; Г) I am finishing my work. — Present Continuous.\n✅ В) I have finished my work. — have + V3.",
+   "testLevel": 1
+  },
+  {
+   "text": "Choose the correct form: \"My uncle ___ in Canada since 2010.\"",
+   "options": [
+    "lived",
+    "is living",
+    "lives",
+    "has lived"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Since + рік.\n❌ Хибні: А) lived — Past Simple; Б) is living — Continuous; В) lives — Simple не з since.\n✅ Г) has lived — since — Present Perfect.",
+   "testLevel": 1
+  },
+  {
+   "text": "What ___ you do on Sundays?",
+   "options": [
+    "are",
+    "have",
+    "do",
+    "did"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Sundays — звичка.\n❌ Хибні: А) are — не з do; Б) have — допоміжне для Perfect; Г) did — Past Simple.\n✅ В) do — Present Simple для звички.",
+   "testLevel": 1
+  },
+  {
+   "text": "By the time we arrived, the film ___.",
+   "options": [
+    "was starting",
+    "has started",
+    "had started",
+    "started"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: By the time + Past Simple → Past Perfect.\n❌ Хибні: А) was starting — Continuous не про завершену дію; Б) has started — Perfect не з arrived; Г) started — Past Simple не показує, що раніше.\n✅ В) had started — Past Perfect: дія раніше за іншу.",
+   "testLevel": 2
+  },
+  {
+   "text": "I ___ him since last week.",
+   "options": [
+    "don't see",
+    "haven't seen",
+    "didn't see",
+    "wasn't seeing"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Since last week — Perfect.\n❌ Хибні: А) don't see — Present Simple не з since; В) didn't see — Past Simple не з since; Г) wasn't seeing — Continuous.\n✅ Б) haven't seen — Present Perfect з since.",
+   "testLevel": 2
+  },
+  {
+   "text": "When I came home, my mother ___ dinner.",
+   "options": [
+    "cooks",
+    "has cooked",
+    "was cooking",
+    "cooked"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Фон — Continuous.\n❌ Хибні: А) cooks — теперішній час; Б) has cooked — Perfect; Г) cooked — Simple не показує процес.\n✅ В) was cooking — Past Continuous: процес.",
+   "testLevel": 2
+  },
+  {
+   "text": "She said that she ___ the film before.",
+   "options": [
+    "has seen",
+    "sees",
+    "had seen",
+    "saw"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Reported speech: had + V3.\n❌ Хибні: А) has seen — теперішній час; Б) sees — теперішній час; Г) saw — Simple не показує «раніше».\n✅ В) had seen — Past Perfect у непрямій мові.",
+   "testLevel": 2
+  },
+  {
+   "text": "I will call you as soon as I ___ home.",
+   "options": [
+    "get",
+    "got",
+    "will get",
+    "am getting"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Після as soon as — Present Simple.\n❌ Хибні: Б) got — минулий час; В) will get — після as soon as не will; Г) am getting — Continuous.\n✅ А) get — у підрядному часу майбутнього Present Simple.",
+   "testLevel": 2
+  },
+  {
+   "text": "Don't phone me at 8. I ___ dinner then.",
+   "options": [
+    "had",
+    "have had",
+    "will be having",
+    "have"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: О 8 у майбутньому — процес.\n❌ Хибні: А) had — минулий час; Б) have had — Perfect не з майбутнім; Г) have — Simple.\n✅ В) will be having — Future Continuous: процес о 8.",
+   "testLevel": 2
+  },
+  {
+   "text": "He ___ for two hours when she arrived.",
+   "options": [
+    "had been waiting",
+    "was waiting",
+    "waited",
+    "has been waiting"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: For two hours + when — P. P. Continuous.\n❌ Хибні: Б) was waiting — не показує «вже дві години»; В) waited — Simple; Г) has been waiting — теперішній зв'язок.\n✅ А) had been waiting — Past Perfect Continuous: тривалість до моменту.",
+   "testLevel": 2
+  },
+  {
+   "text": "I ___ this film three times.",
+   "options": [
+    "was seeing",
+    "have seen",
+    "see",
+    "saw"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Three times — досвід.\n❌ Хибні: А) was seeing — Continuous; В) see — Simple; Г) saw — Simple не для досвіду.\n✅ Б) have seen — Present Perfect: досвід, кількість.",
+   "testLevel": 2
+  },
+  {
+   "text": "She is very tired. She ___ all day.",
+   "options": [
+    "works",
+    "is working",
+    "has been working",
+    "worked"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: All day + результат — Perfect Continuous.\n❌ Хибні: А) works — Simple; Б) is working — Continuous; Г) worked — Simple.\n✅ В) has been working — Present Perfect Continuous: тривалий процес.",
+   "testLevel": 2
+  },
+  {
+   "text": "By next year, he ___ his studies.",
+   "options": [
+    "will have finished",
+    "finished",
+    "finishes",
+    "will finish"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: By next year — завершено до моменту.\n❌ Хибні: Б) finished — Simple; В) finishes — Simple; Г) will finish — Future Simple.\n✅ А) will have finished — Future Perfect.",
+   "testLevel": 2
+  },
+  {
+   "text": "If I ___ you, I would apologise.",
+   "options": [
+    "had been",
+    "be",
+    "were",
+    "am"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Другий тип: If + were.\n❌ Хибні: А) had been — умовний III тип; Б) be — неправильна форма; Г) am — нереальна умова потребує were.\n✅ В) were — умовний II тип: were для всіх осіб.",
+   "testLevel": 2
+  },
+  {
+   "text": "I wish I ___ more free time.",
+   "options": [
+    "have",
+    "had",
+    "will have",
+    "would have"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Wish + Past Simple.\n❌ Хибні: А) have — теперішня форма; В) will have — майбутнє; Г) would have — неправильна форма.\n✅ Б) had — wish + Past Simple: бажання, нереальне зараз.",
+   "testLevel": 2
+  },
+  {
+   "text": "She suggested ___ to the cinema.",
+   "options": [
+    "going",
+    "go",
+    "to go",
+    "went"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Suggest + V-ing.\n❌ Хибні: Б) go — потрібне V-ing; В) to go — після suggest не to V; Г) went — минулий час.\n✅ А) going — suggest + V-ing.",
+   "testLevel": 2
+  },
+  {
+   "text": "He avoided ___ the question.",
+   "options": [
+    "answered",
+    "answering",
+    "to answer",
+    "answer"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Avoid + V-ing.\n❌ Хибні: А) answered — минулий час; В) to answer — після avoid не to V; Г) answer — потрібне V-ing.\n✅ Б) answering — avoid + V-ing.",
+   "testLevel": 2
+  },
+  {
+   "text": "I forgot ___ the door, so the cat got out.",
+   "options": [
+    "to lock",
+    "locked",
+    "lock",
+    "locking"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Forget to V — забути зробити.\n❌ Хибні: Б) locked — минулий час; В) lock — потрібен to-інфінітив; Г) locking — забув про минуле.\n✅ А) to lock — забув виконати дію.",
+   "testLevel": 2
+  },
+  {
+   "text": "I remember ___ him at the party last year.",
+   "options": [
+    "to meet",
+    "meeting",
+    "meet",
+    "met"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Remember V-ing — спогад.\n❌ Хибні: А) to meet — пам'ятати зробити в майбутньому; В) meet — потрібен герундій; Г) met — минулий час.\n✅ Б) meeting — remember + V-ing — пам'ятаю, що зробив.",
+   "testLevel": 2
+  },
+  {
+   "text": "She stopped ___ when she saw the police.",
+   "options": [
+    "run",
+    "ran",
+    "to run",
+    "running"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Stop V-ing — припинити.\n❌ Хибні: А) run — потрібен герундій; Б) ran — минулий час; В) to run — зупинилася, щоб бігти.\n✅ Г) running — перестала бігти.",
+   "testLevel": 2
+  },
+  {
+   "text": "He used to ___ football in his youth.",
+   "options": [
+    "play",
+    "playing",
+    "plays",
+    "played"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Used to + V1.\n❌ Хибні: Б) playing — після used to — V1; В) plays — без -s; Г) played — використовується одна форма.\n✅ А) play — used to + V1: давня звичка.",
+   "testLevel": 2
+  },
+  {
+   "text": "I am used to ___ up early.",
+   "options": [
+    "to get",
+    "got",
+    "get",
+    "getting"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Be used to + V-ing.\n❌ Хибні: А) to get — неправильна конструкція; Б) got — минулий час; В) get — після be used to — V-ing.\n✅ Г) getting — be used to + V-ing: звикнути.",
+   "testLevel": 2
+  },
+  {
+   "text": "It's high time we ___ home.",
+   "options": [
+    "are going",
+    "will go",
+    "went",
+    "go"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: It's time + Past.\n❌ Хибні: А) are going — Continuous; Б) will go — майбутнє; Г) go — теперішня форма.\n✅ В) went — It's high time + Past Simple.",
+   "testLevel": 2
+  },
+  {
+   "text": "She is the woman who ___ next door.",
+   "options": [
+    "lives",
+    "live",
+    "is live",
+    "living"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Who + 3-тя особа.\n❌ Хибні: Б) live — бракує -s; В) is live — неправильно; Г) living — герундій.\n✅ А) lives — Present Simple, підмет who.",
+   "testLevel": 2
+  },
+  {
+   "text": "I ___ him two years ago.",
+   "options": [
+    "was meeting",
+    "meet",
+    "have met",
+    "met"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Ago — Past Simple.\n❌ Хибні: А) was meeting — Continuous; Б) meet — теперішній час; В) have met — Perfect не з ago.\n✅ Г) met — Past Simple, ago.",
+   "testLevel": 2
+  },
+  {
+   "text": "He has already ___ the letter.",
+   "options": [
+    "wrote",
+    "written",
+    "writing",
+    "write"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Already + has V3.\n❌ Хибні: А) wrote — V2 після has; В) writing — V-ing після has; Г) write — V1 після has.\n✅ Б) written — Present Perfect: V3.",
+   "testLevel": 2
+  },
+  {
+   "text": "When ___ you last see him?",
+   "options": [
+    "were",
+    "have",
+    "do",
+    "did"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Last + минулий час.\n❌ Хибні: А) were — не підходить; Б) have — Perfect не з last; В) do — теперішній час.\n✅ Г) did — Past Simple запитання.",
+   "testLevel": 2
+  },
+  {
+   "text": "We ___ to the sea every summer when we were kids.",
+   "options": [
+    "have gone",
+    "go",
+    "went",
+    "are going"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: When we were kids — минуле.\n❌ Хибні: А) have gone — Perfect; Б) go — теперішній час; Г) are going — Continuous.\n✅ В) went — Past Simple, повторювана дія.",
+   "testLevel": 2
+  },
+  {
+   "text": "He ___ the news when the phone rang.",
+   "options": [
+    "read",
+    "has read",
+    "reads",
+    "was reading"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Фонова дія.\n❌ Хибні: А) read — Simple; Б) has read — Perfect; В) reads — Present.\n✅ Г) was reading — Past Continuous.",
+   "testLevel": 2
+  },
+  {
+   "text": "She works hard because she ___ to pass the exam.",
+   "options": [
+    "wanted",
+    "has wanted",
+    "wants",
+    "is wanting"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Want не вживається в Continuous.\n❌ Хибні: А) wanted — минулий час; Б) has wanted — Perfect; Г) is wanting — want — стативне.\n✅ В) wants — Present Simple, дієслово стану.",
+   "testLevel": 2
+  },
+  {
+   "text": "I ___ him since he was a child.",
+   "options": [
+    "know",
+    "knew",
+    "am knowing",
+    "have known"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Know не вживається в Continuous.\n❌ Хибні: А) know — Simple не з since; Б) knew — Past Simple; В) am knowing — know не в Continuous.\n✅ Г) have known — Present Perfect, know — стативне.",
+   "testLevel": 2
+  },
+  {
+   "text": "This soup ___ delicious.",
+   "options": [
+    "tasted",
+    "tastes",
+    "has tasted",
+    "is tasting"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Taste = мати смак.\n❌ Хибні: А) tasted — минулий час; В) has tasted — Perfect; Г) is tasting — taste у цьому значенні — стативне.\n✅ Б) tastes — стативне дієслово у Simple.",
+   "testLevel": 2
+  },
+  {
+   "text": "I ___ for you for an hour. Where have you been?",
+   "options": [
+    "wait",
+    "have been waiting",
+    "waited",
+    "was waiting"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: For an hour + зараз — Perfect Continuous.\n❌ Хибні: А) wait — Simple; В) waited — Simple; Г) was waiting — Past Continuous.\n✅ Б) have been waiting — Present Perfect Continuous.",
+   "testLevel": 2
+  },
+  {
+   "text": "Tomorrow at this time we ___ on the beach.",
+   "options": [
+    "have lain",
+    "lie",
+    "will be lying",
+    "lay"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Tomorrow at this time — процес.\n❌ Хибні: А) have lain — Perfect; Б) lie — Simple; Г) lay — минулий час.\n✅ В) will be lying — Future Continuous.",
+   "testLevel": 2
+  },
+  {
+   "text": "They ___ already left when we got there.",
+   "options": [
+    "were",
+    "would",
+    "had",
+    "have"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Already + left раніше.\n❌ Хибні: А) were — неправильна форма; Б) would — модальне; Г) have — Present Perfect не з got.\n✅ В) had — Past Perfect: had left.",
+   "testLevel": 2
+  },
+  {
+   "text": "I'm tired because I ___ since 5 a.m.",
+   "options": [
+    "worked",
+    "am working",
+    "work",
+    "have been working"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Since 5 a.m. — тривалість до зараз.\n❌ Хибні: А) worked — Simple; Б) am working — Continuous; В) work — Simple.\n✅ Г) have been working — Perfect Continuous з since.",
+   "testLevel": 2
+  },
+  {
+   "text": "He asked me where I ___.",
+   "options": [
+    "do live",
+    "lived",
+    "live",
+    "did live"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Reported question.\n❌ Хибні: А) do live — неправильний порядок; В) live — теперішній час; Г) did live — зайве допоміжне.\n✅ Б) lived — непряме питання: Past Simple.",
+   "testLevel": 2
+  },
+  {
+   "text": "She told us she ___ the next day.",
+   "options": [
+    "would come",
+    "will come",
+    "comes",
+    "came"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Reported speech: would.\n❌ Хибні: Б) will come — теперішній прогноз; В) comes — Simple; Г) came — Past Simple не про майбутнє.\n✅ А) would come — Future in the Past.",
+   "testLevel": 2
+  },
+  {
+   "text": "The more you practise, the ___ you become.",
+   "options": [
+    "better",
+    "good",
+    "well",
+    "best"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Comparative the…the.\n❌ Хибні: Б) good — неправильна форма; В) well — прислівник; Г) best — найвищий ступінь.\n✅ А) better — the more… the better.",
+   "testLevel": 2
+  },
+  {
+   "text": "If he had studied harder, he ___ the exam.",
+   "options": [
+    "would have passed",
+    "had passed",
+    "would pass",
+    "will pass"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Third conditional.\n❌ Хибні: Б) had passed — не для результату; В) would pass — другий тип; Г) will pass — перший тип.\n✅ А) would have passed — третій тип.",
+   "testLevel": 2
+  },
+  {
+   "text": "By the end of the week, I ___ the report.",
+   "options": [
+    "write",
+    "will have written",
+    "wrote",
+    "will write"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: By the end of — завершено.\n❌ Хибні: А) write — Present; В) wrote — Past; Г) will write — Future Simple.\n✅ Б) will have written — Future Perfect.",
+   "testLevel": 2
+  },
+  {
+   "text": "The meeting ___ at 5 p.m. tomorrow (timetable).",
+   "options": [
+    "has started",
+    "started",
+    "is starting yesterday",
+    "starts"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Розклад — Present Simple.\n❌ Хибні: А) has started — Perfect; Б) started — минулий час; В) is starting yesterday — неприродна форма.\n✅ Г) starts — Present Simple для розкладу.",
+   "testLevel": 2
+  },
+  {
+   "text": "We ___ never ___ such a beautiful place before.",
+   "options": [
+    "had; seen",
+    "have; seen",
+    "were; seeing",
+    "did; see"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Before у минулому — Past Perfect.\n❌ Хибні: Б) have; seen — Present Perfect не з before у минулому; В) were; seeing — Continuous; Г) did; see — Past Simple не з before.\n✅ А) had; seen — Past Perfect: before у минулому.",
+   "testLevel": 2
+  },
+  {
+   "text": "My dog ___ every morning.",
+   "options": [
+    "is barking",
+    "barking",
+    "barked",
+    "barks"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Every morning — Simple.\n❌ Хибні: А) is barking — Continuous не для щоденної дії; Б) barking — немає допоміжного; В) barked — минулий час.\n✅ Г) barks — Present Simple, звичка.",
+   "testLevel": 1
+  },
+  {
+   "text": "It's the first time I ___ sushi.",
+   "options": [
+    "have eaten",
+    "am eating",
+    "eat",
+    "ate"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: First time → Present Perfect.\n❌ Хибні: Б) am eating — Continuous; В) eat — Present Simple; Г) ate — Simple не тут.\n✅ А) have eaten — It's the first time + Present Perfect.",
+   "testLevel": 2
+  },
+  {
+   "text": "No sooner ___ home than it started to rain.",
+   "options": [
+    "did I get",
+    "I had got",
+    "had I got",
+    "I got"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: No sooner + had + підмет.\n❌ Хибні: А) did I get — Past Simple не тут; Б) I had got — порядок слів без інверсії; Г) I got — Simple без інверсії.\n✅ В) had I got — No sooner + Past Perfect з інверсією.",
+   "testLevel": 2
+  },
+  {
+   "text": "I'd rather you ___ here.",
+   "options": [
+    "didn't smoke",
+    "don't smoke",
+    "won't smoke",
+    "haven't smoked"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Would rather + Past.\n❌ Хибні: Б) don't smoke — теперішній час; В) won't smoke — майбутній; Г) haven't smoked — Perfect.\n✅ А) didn't smoke — would rather + підмет + Past Simple.",
+   "testLevel": 2
+  },
+  {
+   "text": "He looks as if he ___ a ghost.",
+   "options": [
+    "will see",
+    "had seen",
+    "sees",
+    "has seen"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: As if — нереальність.\n❌ Хибні: А) will see — майбутнє; В) sees — Simple; Г) has seen — теперішній час.\n✅ Б) had seen — as if + Past Perfect: нереальне минуле.",
+   "testLevel": 2
+  },
+  {
+   "text": "She works as a nurse. She ___ in this hospital for ten years.",
+   "options": [
+    "works",
+    "has worked",
+    "worked",
+    "is working"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: For ten years — Perfect.\n❌ Хибні: А) works — Simple; В) worked — Simple; Г) is working — Continuous.\n✅ Б) has worked — Present Perfect з for.",
+   "testLevel": 2
+  },
+  {
+   "text": "Please be quiet! The baby ___.",
+   "options": [
+    "is sleeping",
+    "has slept",
+    "sleeps",
+    "slept"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Дія зараз.\n❌ Хибні: Б) has slept — Perfect; В) sleeps — Simple для звички; Г) slept — минулий час.\n✅ А) is sleeping — Present Continuous.",
+   "testLevel": 2
+  },
+  {
+   "text": "If she ___ the bus, she would have been on time.",
+   "options": [
+    "wouldn't miss",
+    "doesn't miss",
+    "hadn't missed",
+    "didn't miss"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Third conditional.\n❌ Хибні: А) wouldn't miss — would не після if; Б) doesn't miss — перший тип; Г) didn't miss — другий тип.\n✅ В) hadn't missed — третій тип: Past Perfect.",
+   "testLevel": 2
+  },
+  {
+   "text": "They ___ a new house next year.",
+   "options": [
+    "are going to build",
+    "built",
+    "build",
+    "have built"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Next year + намір.\n❌ Хибні: Б) built — минулий час; В) build — Simple без розкладу; Г) have built — Perfect.\n✅ А) are going to build — намір.",
+   "testLevel": 2
+  },
+  {
+   "text": "While I ___ the dishes, the phone rang.",
+   "options": [
+    "was washing",
+    "washed",
+    "have washed",
+    "wash"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: While — Continuous.\n❌ Хибні: Б) washed — Simple; В) have washed — Perfect; Г) wash — Simple.\n✅ А) was washing — Past Continuous: while.",
+   "testLevel": 2
+  },
+  {
+   "text": "I regret ___ you that your application has been rejected.",
+   "options": [
+    "telling",
+    "tell",
+    "to tell",
+    "told"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Regret to do vs regret doing.\n❌ Хибні: А) telling — шкодувати про минулу дію; Б) tell — потрібен to або V-ing; Г) told — минулий час.\n✅ В) to tell — regret to V — шкодувати, що змушений повідомити.",
+   "testLevel": 3
+  },
+  {
+   "text": "She tried ___ the window, but it was stuck.",
+   "options": [
+    "opening",
+    "open",
+    "opened",
+    "to open"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Try to V — зусилля.\n❌ Хибні: А) opening — try V-ing — пробувати як експеримент; Б) open — потрібне to; В) opened — минулий час.\n✅ Г) to open — try to V — намагатися.",
+   "testLevel": 3
+  },
+  {
+   "text": "After he had finished the report, he ___ to lunch.",
+   "options": [
+    "had gone",
+    "went",
+    "goes",
+    "has gone"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: After had done → Past Simple.\n❌ Хибні: А) had gone — Past Perfect не для двох послідовних дій; В) goes — теперішній час; Г) has gone — Perfect.\n✅ Б) went — Past Simple після Past Perfect.",
+   "testLevel": 3
+  },
+  {
+   "text": "Hardly ___ the room when the lights went out.",
+   "options": [
+    "she had entered",
+    "had she entered",
+    "did she enter",
+    "she entered"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Hardly had + підмет.\n❌ Хибні: А) she had entered — немає інверсії; В) did she enter — Past Simple; Г) she entered — Simple без інверсії.\n✅ Б) had she entered — Hardly + Past Perfect з інверсією.",
+   "testLevel": 3
+  },
+  {
+   "text": "Not until he came home ___ that the door was open.",
+   "options": [
+    "had he noticed",
+    "he noticed",
+    "did he notice",
+    "he did notice"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Not until + did + підмет.\n❌ Хибні: А) had he noticed — Past Perfect не потрібен; Б) he noticed — немає інверсії; Г) he did notice — немає інверсії.\n✅ В) did he notice — Not until + інверсія.",
+   "testLevel": 3
+  },
+  {
+   "text": "By the time you read this letter, I ___ for Paris.",
+   "options": [
+    "leave",
+    "will have left",
+    "have left",
+    "will leave"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: By the time + Present → Future Perfect.\n❌ Хибні: А) leave — Simple; В) have left — Perfect; Г) will leave — Future Simple.\n✅ Б) will have left — Future Perfect.",
+   "testLevel": 3
+  },
+  {
+   "text": "This time next month, she ___ for her exams.",
+   "options": [
+    "has prepared",
+    "will be preparing",
+    "prepares",
+    "prepared"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: This time next month — процес.\n❌ Хибні: А) has prepared — Perfect; В) prepares — Simple; Г) prepared — Past Simple.\n✅ Б) will be preparing — Future Continuous.",
+   "testLevel": 3
+  },
+  {
+   "text": "He ___ in Berlin for five years by the time he moved to Munich.",
+   "options": [
+    "had lived",
+    "was living",
+    "lived",
+    "has lived"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: By the time + Past Simple → Past Perfect.\n❌ Хибні: Б) was living — Continuous; В) lived — Simple; Г) has lived — теперішній зв'язок.\n✅ А) had lived — Past Perfect до моменту.",
+   "testLevel": 3
+  },
+  {
+   "text": "She said she ___ the report by Friday.",
+   "options": [
+    "finished",
+    "would finish",
+    "finishes",
+    "will finish"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Reported speech: would.\n❌ Хибні: А) finished — Past Simple; В) finishes — Simple; Г) will finish — теперішній прогноз.\n✅ Б) would finish — Future in the Past.",
+   "testLevel": 3
+  },
+  {
+   "text": "\"I am leaving tomorrow,\" she said. She said she ___ the next day.",
+   "options": [
+    "was leaving",
+    "leaves",
+    "is leaving",
+    "left"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Reported speech: am → was.\n❌ Хибні: Б) leaves — Simple; В) is leaving — без зсуву; Г) left — Past Simple.\n✅ А) was leaving — зсув часів у непрямій мові.",
+   "testLevel": 3
+  },
+  {
+   "text": "If only I ___ the answer yesterday!",
+   "options": [
+    "had known",
+    "will know",
+    "know",
+    "knew"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: If only + had V3.\n❌ Хибні: Б) will know — Future; В) know — Present; Г) knew — нереальне теперішнє.\n✅ А) had known — If only + Past Perfect: жаль про минуле.",
+   "testLevel": 3
+  },
+  {
+   "text": "I wish I ___ to the party last night.",
+   "options": [
+    "went",
+    "go",
+    "would go",
+    "had gone"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Wish + had V3.\n❌ Хибні: А) went — нереальне теперішнє; Б) go — Present; В) would go — майбутнє.\n✅ Г) had gone — wish + Past Perfect: жаль про минуле.",
+   "testLevel": 3
+  },
+  {
+   "text": "She looked tired. She ___ all night.",
+   "options": [
+    "had been working",
+    "was working",
+    "has been working",
+    "worked"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Причина стану в минулому.\n❌ Хибні: Б) was working — Past Continuous; В) has been working — Perfect Continuous; Г) worked — Past Simple.\n✅ А) had been working — Past Perfect Continuous.",
+   "testLevel": 3
+  },
+  {
+   "text": "Suppose you ___ the lottery, what would you do?",
+   "options": [
+    "will win",
+    "win",
+    "won",
+    "had won"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Suppose + Past Simple.\n❌ Хибні: А) will win — Future; Б) win — Present; Г) had won — Past Perfect.\n✅ В) won — supposing + Past Simple: нереальна умова.",
+   "testLevel": 3
+  },
+  {
+   "text": "It's about time they ___ attention.",
+   "options": [
+    "pay",
+    "paid",
+    "have paid",
+    "will pay"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: It's time + Past Simple.\n❌ Хибні: А) pay — теперішній; В) have paid — Perfect; Г) will pay — майбутній.\n✅ Б) paid — It's about time + Past Simple.",
+   "testLevel": 3
+  },
+  {
+   "text": "He denied ___ the window.",
+   "options": [
+    "broke",
+    "break",
+    "to break",
+    "breaking"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Deny + V-ing.\n❌ Хибні: А) broke — минулий час; Б) break — потрібне V-ing; В) to break — після deny не to V.\n✅ Г) breaking — deny + V-ing.",
+   "testLevel": 3
+  },
+  {
+   "text": "She promised ___ me.",
+   "options": [
+    "to help",
+    "helping",
+    "help",
+    "helped"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Promise + to V.\n❌ Хибні: Б) helping — після promise не V-ing; В) help — потрібне to; Г) helped — минулий час.\n✅ А) to help — promise + to V.",
+   "testLevel": 3
+  },
+  {
+   "text": "We can't afford ___ a new car.",
+   "options": [
+    "to buy",
+    "buying",
+    "bought",
+    "buy"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Afford + to V.\n❌ Хибні: Б) buying — після afford не V-ing; В) bought — минулий час; Г) buy — потрібне to.\n✅ А) to buy — afford + to V.",
+   "testLevel": 3
+  },
+  {
+   "text": "I can't stand ___ in queues.",
+   "options": [
+    "waiting",
+    "wait",
+    "waited",
+    "to wait up"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Can't stand + V-ing.\n❌ Хибні: Б) wait — потрібне V-ing; В) waited — минулий час; Г) to wait up — неприродно.\n✅ А) waiting — can't stand + V-ing.",
+   "testLevel": 3
+  },
+  {
+   "text": "He is said ___ in a small village.",
+   "options": [
+    "to live",
+    "lives",
+    "living",
+    "live"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Is said to V.\n❌ Хибні: Б) lives — Simple не тут; В) living — не після is said; Г) live — потрібне to.\n✅ А) to live — passive infinitive.",
+   "testLevel": 3
+  },
+  {
+   "text": "She seems ___ a lot of experience.",
+   "options": [
+    "have",
+    "having",
+    "to have",
+    "had"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Seem + to V.\n❌ Хибні: А) have — потрібне to; Б) having — після seems не V-ing; Г) had — минулий час.\n✅ В) to have — seem + to V.",
+   "testLevel": 3
+  },
+  {
+   "text": "I would like ___ with you.",
+   "options": [
+    "come",
+    "coming",
+    "came",
+    "to come"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Would like + to V.\n❌ Хибні: А) come — потрібне to; Б) coming — після would like не V-ing; В) came — минулий час.\n✅ Г) to come — would like + to V.",
+   "testLevel": 3
+  },
+  {
+   "text": "It's no use ___ about the past.",
+   "options": [
+    "worrying",
+    "to worry",
+    "worried",
+    "worry"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: It's no use + V-ing.\n❌ Хибні: Б) to worry — після it's no use не to V; В) worried — минулий час; Г) worry — потрібне V-ing.\n✅ А) worrying — it's no use + V-ing.",
+   "testLevel": 3
+  },
+  {
+   "text": "She had no difficulty ___ the problem.",
+   "options": [
+    "solving",
+    "to solve",
+    "solve",
+    "solved"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Have difficulty + V-ing.\n❌ Хибні: Б) to solve — після difficulty не to V; В) solve — потрібне V-ing; Г) solved — минулий час.\n✅ А) solving — have difficulty + V-ing.",
+   "testLevel": 3
+  },
+  {
+   "text": "He made me ___ the room.",
+   "options": [
+    "cleaning",
+    "to clean",
+    "cleaned",
+    "clean"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Make + об'єкт + V1.\n❌ Хибні: А) cleaning — після make не V-ing; Б) to clean — після make без to; В) cleaned — минулий час.\n✅ Г) clean — make sb do.",
+   "testLevel": 3
+  },
+  {
+   "text": "The teacher let us ___ early.",
+   "options": [
+    "leaving",
+    "left",
+    "leave",
+    "to leave"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Let + об'єкт + V1.\n❌ Хибні: А) leaving — після let не V-ing; Б) left — минулий час; Г) to leave — після let без to.\n✅ В) leave — let sb do.",
+   "testLevel": 3
+  },
+  {
+   "text": "I'm looking forward ___ you next week.",
+   "options": [
+    "see",
+    "seeing",
+    "to seeing",
+    "to see"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Look forward to V-ing.\n❌ Хибні: А) see — потрібен to + V-ing; Б) seeing — бракує to; Г) to see — після to-прийменника V-ing.\n✅ В) to seeing — look forward to + V-ing.",
+   "testLevel": 3
+  },
+  {
+   "text": "It is high time he ___ a job.",
+   "options": [
+    "has found",
+    "finds",
+    "will find",
+    "found"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: It's high time + Past.\n❌ Хибні: А) has found — Perfect; Б) finds — теперішній; В) will find — майбутній.\n✅ Г) found — It is high time + Past Simple.",
+   "testLevel": 3
+  },
+  {
+   "text": "By 2030, scientists ___ a cure for the disease.",
+   "options": [
+    "found",
+    "will find",
+    "will have found",
+    "find"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: By 2030 — завершення до моменту.\n❌ Хибні: А) found — Past; Б) will find — Future Simple; Г) find — Simple.\n✅ В) will have found — Future Perfect.",
+   "testLevel": 3
+  },
+  {
+   "text": "I ___ in the garden when I heard a strange noise.",
+   "options": [
+    "have worked",
+    "was working",
+    "worked",
+    "work"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Фонова дія + перервана.\n❌ Хибні: А) have worked — Perfect; В) worked — Simple; Г) work — Simple.\n✅ Б) was working — Past Continuous, перерване Simple.",
+   "testLevel": 3
+  },
+  {
+   "text": "He ___ his leg while he was skiing.",
+   "options": [
+    "breaks",
+    "broke",
+    "was breaking",
+    "has broken"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Коротка дія — Simple.\n❌ Хибні: А) breaks — Present; В) was breaking — Continuous не для короткої дії; Г) has broken — Perfect.\n✅ Б) broke — Past Simple, коротка дія.",
+   "testLevel": 3
+  },
+  {
+   "text": "When I got to the station, the train ___.",
+   "options": [
+    "already left",
+    "had already left",
+    "was leaving already",
+    "has already left"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Раніше за got → Past Perfect.\n❌ Хибні: А) already left — Simple без had; В) was leaving already — неприродно; Г) has already left — Present Perfect.\n✅ Б) had already left — Past Perfect: потяг поїхав раніше.",
+   "testLevel": 3
+  },
+  {
+   "text": "Neither of the students ___ the answer.",
+   "options": [
+    "are knowing",
+    "knows",
+    "know",
+    "knowing"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Neither — однина.\n❌ Хибні: А) are knowing — know — стативне; В) know — множина; Г) knowing — немає допоміжного.\n✅ Б) knows — neither + однина.",
+   "testLevel": 3
+  },
+  {
+   "text": "The police ___ looking for the thief.",
+   "options": [
+    "is",
+    "was",
+    "are",
+    "has"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Police + множина.\n❌ Хибні: А) is — police завжди множина; Б) was — однина; Г) has — неправильна форма.\n✅ В) are — police — збірне, множина.",
+   "testLevel": 3
+  },
+  {
+   "text": "He ___ be at home; his car is outside.",
+   "options": [
+    "needn't",
+    "must",
+    "shouldn't",
+    "can't"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Must be — упевнене припущення.\n❌ Хибні: А) needn't — не про припущення; В) shouldn't — порада; Г) can't — протилежне значення.\n✅ Б) must — припущення впевненості.",
+   "testLevel": 3
+  },
+  {
+   "text": "She ___ have left yet; her coat is still here.",
+   "options": [
+    "should",
+    "may",
+    "must",
+    "can't"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Can't have V3.\n❌ Хибні: А) should — порада; Б) may — можливість; В) must — упевнене підтвердження.\n✅ Г) can't — упевнене заперечення в минулому.",
+   "testLevel": 3
+  },
+  {
+   "text": "You ___ have told me earlier! (criticism)",
+   "options": [
+    "must",
+    "can",
+    "will",
+    "should"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Should have — докір.\n❌ Хибні: А) must — висновок; Б) can — можливість; В) will — майбутнє.\n✅ Г) should — should have V3 — докір.",
+   "testLevel": 3
+  },
+  {
+   "text": "The company ___ since the start of this year.",
+   "options": [
+    "will expand",
+    "has been expanding",
+    "expands",
+    "expanded"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Since the start — тривалість.\n❌ Хибні: А) will expand — Future; В) expands — Simple; Г) expanded — Past.\n✅ Б) has been expanding — Present Perfect Continuous.",
+   "testLevel": 3
+  },
+  {
+   "text": "\"Did you see her?\" \"Yes, I ___ her an hour ago.\"",
+   "options": [
+    "see",
+    "saw",
+    "have seen",
+    "had seen"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Ago — Past Simple.\n❌ Хибні: А) see — Simple; В) have seen — Perfect не з ago; Г) had seen — Past Perfect.\n✅ Б) saw — Past Simple, ago.",
+   "testLevel": 3
+  },
+  {
+   "text": "If he ___ harder, he would have a better job now.",
+   "options": [
+    "worked",
+    "had worked",
+    "will work",
+    "works"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Mixed conditional.\n❌ Хибні: А) worked — другий тип; В) will work — майбутнє; Г) works — перший тип.\n✅ Б) had worked — змішаний тип: минуле → теперішнє.",
+   "testLevel": 3
+  },
+  {
+   "text": "If I were rich, I ___ the world.",
+   "options": [
+    "will travel",
+    "would travel",
+    "travelled",
+    "had travelled"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Second conditional.\n❌ Хибні: А) will travel — перший тип; В) travelled — не would; Г) had travelled — третій тип.\n✅ Б) would travel — другий тип.",
+   "testLevel": 3
+  },
+  {
+   "text": "Unless you ___ now, you will miss the bus.",
+   "options": [
+    "will leave",
+    "are leaving not",
+    "leave",
+    "left"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Unless + Present.\n❌ Хибні: А) will leave — після unless не will; Б) are leaving not — неприродно; Г) left — Past.\n✅ В) leave — unless + Present Simple.",
+   "testLevel": 3
+  },
+  {
+   "text": "She ___ the same dress for three days.",
+   "options": [
+    "has been wearing",
+    "will wear",
+    "wore",
+    "wears"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: For three days — Perfect Continuous.\n❌ Хибні: Б) will wear — Future; В) wore — Past; Г) wears — Simple.\n✅ А) has been wearing — Present Perfect Continuous.",
+   "testLevel": 3
+  },
+  {
+   "text": "Which sentence is grammatically correct (time expressions)?",
+   "options": [
+    "I lived here since 2015.",
+    "I have been living here since 2015.",
+    "I am living here since 2015.",
+    "I live here since 2015."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Since → Perfect (Continuous).\n❌ Хибні: А) I lived here since 2015. — Past не з since; В) I am living here since 2015. — Continuous не з since; Г) I live here since 2015. — Simple не з since.\n✅ Б) I have been living here since 2015. — Perfect Continuous з since.",
+   "testLevel": 3
+  },
+  {
+   "text": "Which sentence is grammatically correct (sequence of events)?",
+   "options": [
+    "By the time we arrived, they have left.",
+    "By the time we arrived, they had left.",
+    "By the time we arrived, they left.",
+    "By the time we arrived, they were left."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Раніше за arrived — Past Perfect.\n❌ Хибні: А) By the time we arrived, they have left. — Perfect не з arrived; В) By the time we arrived, they left. — Simple не показує «раніше»; Г) By the time we arrived, they were left. — Passive не підходить.\n✅ Б) By the time we arrived, they had left. — Past Perfect.",
+   "testLevel": 3
+  },
+  {
+   "text": "Which sentence is grammatically correct (conditionals)?",
+   "options": [
+    "If it will rain, we stay at home.",
+    "If it rained, we will stay at home.",
+    "If it rains, we will stay at home.",
+    "If it rains, we would stay at home."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: If + Present, will V.\n❌ Хибні: А) If it will rain, we stay at home. — will після if; Б) If it rained, we will stay at home. — змішано; Г) If it rains, we would stay at home. — would не з Present.\n✅ В) If it rains, we will stay at home. — first conditional.",
+   "testLevel": 3
+  },
+  {
+   "text": "The students ___ the exam when the fire alarm went off.",
+   "options": [
+    "take",
+    "have taken",
+    "were taking",
+    "took"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Фон — Continuous.\n❌ Хибні: А) take — Present; Б) have taken — Perfect не з went off; Г) took — Simple не показує процес.\n✅ В) were taking — Past Continuous: процес перервано.",
+   "testLevel": 2
+  },
+  {
+   "text": "I'm sorry, I didn't mean ___ you.",
+   "options": [
+    "hurt",
+    "to hurt",
+    "hurted",
+    "hurting"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Mean to V — мати намір.\n❌ Хибні: А) hurt — потрібне to; В) hurted — неправильна форма; Г) hurting — mean V-ing — означати.\n✅ Б) to hurt — mean to V — мати намір.",
+   "testLevel": 3
+  },
+  {
+   "text": "If you ___ me the truth, I wouldn't be angry now.",
+   "options": [
+    "had told",
+    "told",
+    "will tell",
+    "tell"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: If + had V3, would + V1.\n❌ Хибні: Б) told — другий тип; В) will tell — Future; Г) tell — Present.\n✅ А) had told — mixed conditional: минуле → теперішнє.",
+   "testLevel": 3
+  },
+  {
+   "text": "The moment she ___ the news, she burst into tears.",
+   "options": [
+    "has heard",
+    "had hearing",
+    "was heard",
+    "heard"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Послідовні дії — Past Simple.\n❌ Хибні: А) has heard — Perfect не в минулому; Б) had hearing — неправильна форма; В) was heard — Passive.\n✅ Г) heard — Past Simple, послідовні дії.",
+   "testLevel": 3
+  },
+  {
+   "text": "The company ___ over 500 people by the end of next year.",
+   "options": [
+    "will be employing",
+    "has employed",
+    "employs",
+    "employed"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: By the end of next year — стан у майбутньому.\n❌ Хибні: Б) has employed — Perfect; В) employs — Simple; Г) employed — Past.\n✅ А) will be employing — Future Continuous: тривалий стан до моменту.",
+   "testLevel": 3
+  },
+  {
+   "text": "He is thought ___ the country last year.",
+   "options": [
+    "leaving",
+    "left",
+    "to have left",
+    "to leave"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Is thought + have V3.\n❌ Хибні: А) leaving — неправильна форма; Б) left — минулий час; Г) to leave — теперішня дія.\n✅ В) to have left — perfect infinitive: дія в минулому.",
+   "testLevel": 3
+  },
+  {
+   "text": "You'd better ___ a doctor.",
+   "options": [
+    "to see",
+    "saw",
+    "see",
+    "seeing"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Had better + V1.\n❌ Хибні: А) to see — після had better без to; Б) saw — минулий час; Г) seeing — після had better не V-ing.\n✅ В) see — had better + V1.",
+   "testLevel": 3
+  }
+ ],
+ "cards": [
+  {
+   "question": "Present Simple",
+   "answer": "Звички, факти, розклад. Закінчення -s/-es у 3-й особі однини: she works."
+  },
+  {
+   "question": "Present Continuous",
+   "answer": "am/is/are + V-ing: дія в момент мовлення або тимчасова ситуація."
+  },
+  {
+   "question": "Present Perfect",
+   "answer": "have/has + V3: результат зараз або досвід; сигнали: ever, never, already, yet, just, since, for."
+  },
+  {
+   "question": "Past Simple",
+   "answer": "V2: завершена дія в минулому з указаним часом (yesterday, in 2010, ago)."
+  },
+  {
+   "question": "Past Continuous",
+   "answer": "was/were + V-ing: тривала дія в певний момент у минулому."
+  },
+  {
+   "question": "Past Perfect",
+   "answer": "had + V3: дія, що відбулася раніше іншої минулої дії."
+  },
+  {
+   "question": "Future Simple",
+   "answer": "will + V: спонтанне рішення, прогноз, обіцянка."
+  },
+  {
+   "question": "be going to",
+   "answer": "Заплановані наміри та прогнози на основі видимих ознак."
+  },
+  {
+   "question": "Gerund vs Infinitive",
+   "answer": "enjoy, avoid, suggest + V-ing; want, decide, hope + to V."
+  },
+  {
+   "question": "Stative verbs",
+   "answer": "know, like, love, want, believe зазвичай не вживаються в Continuous."
+  }
+ ]
+}
