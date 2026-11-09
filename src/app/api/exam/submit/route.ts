@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import prisma from "@/lib/prisma";
 import { authOptions } from "@/lib/auth";
-import { mockScore } from "@/lib/score";
+import { calculateNmtScore, averageNmt } from "@/lib/score";
 
 export const dynamic = "force-dynamic";
 
@@ -14,7 +14,7 @@ export async function POST(req: Request) {
 
   const exam = await prisma.weeklyExam.findUnique({
     where: { id: examId },
-    include: { questions: { select: { id: true, correctIndex: true } } },
+    include: { questions: { select: { id: true, correctIndex: true, topic: { select: { subject: true } } } } },
   });
   const now = new Date();
   if (!exam || !exam.isActive || exam.startTime > now || exam.endTime < now) {
@@ -24,12 +24,24 @@ export async function POST(req: Request) {
 
   const details = exam.questions.map((q) => {
     const chosen = typeof answers[q.id] === "number" ? answers[q.id] : null;
-    return { id: q.id, correctIndex: q.correctIndex, chosen };
+    return { id: q.id, correctIndex: q.correctIndex, chosen, subject: q.topic.subject as string };
   });
   const correct = details.filter((d) => d.chosen === d.correctIndex).length;
   const total = exam.questions.length;
   const percent = Math.round((correct / total) * 100);
-  const score = mockScore(percent);
+
+  // Окремий розрахунок по кожному предмету за офіційною шкалою 100–200
+  const bySubject = new Map<string, { correct: number; total: number }>();
+  for (const d of details) {
+    const e = bySubject.get(d.subject) ?? { correct: 0, total: 0 };
+    e.total += 1;
+    if (d.chosen === d.correctIndex) e.correct += 1;
+    bySubject.set(d.subject, e);
+  }
+  const subjects = Array.from(bySubject, ([subject, v]) => ({ subject, correct: v.correct, total: v.total, ...calculateNmtScore(subject, v.correct, v.total) }));
+  const avg = averageNmt(subjects);
+  const passed = avg !== null;
+  const score = avg ?? 0; // 0 у БД = «Не склав»
 
   let saved = false;
   let bestScore = score;
@@ -45,5 +57,10 @@ export async function POST(req: Request) {
     }
   }
 
-  return NextResponse.json({ correct, total, percent, saved, details, score, bestScore });
+  return NextResponse.json({
+    correct, total, percent, saved,
+    details: details.map(({ subject: _s, ...d }) => d),
+    score: avg, passed, subjects: subjects.map((x) => ({ subject: x.subject, correct: x.correct, total: x.total, nmtScore: x.nmtScore, isPassed: x.isPassed })),
+    bestScore: bestScore > 0 ? bestScore : null,
+  });
 }

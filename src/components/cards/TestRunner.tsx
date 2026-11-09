@@ -15,8 +15,9 @@ type Result = {
   details: Detail[];
   threshold?: number;
   passed?: boolean;
-  score?: number;
-  bestScore?: number;
+  score?: number | null;
+  bestScore?: number | null;
+  subjects?: { subject: string; correct: number; total: number; nmtScore: number | null; isPassed: boolean }[];
 };
 
 const LETTERS = ["А", "Б", "В", "Г", "Д"];
@@ -87,12 +88,25 @@ export default function TestRunner({
         <div className="text-center p-8 rounded-3xl bg-white border border-slate-200 shadow-xl">
           {result.score !== undefined ? (
             <>
-              <p className="text-slate-500 mb-2">Твій бал (шкала 100–200)</p>
-              <p className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-pink-500">{result.score}</p>
+              <p className="text-slate-500 mb-2">Середній бал (шкала 100–200)</p>
+              {result.score !== null ? (
+                <p className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-pink-500">{result.score}</p>
+              ) : (
+                <p className="text-4xl font-extrabold text-red-600">Не склав</p>
+              )}
+              {result.subjects && result.subjects.length > 0 && (
+                <div className="flex flex-wrap justify-center gap-2 mt-4 text-sm">
+                  {result.subjects.map((x) => (
+                    <span key={x.subject} className={`px-3 py-1 rounded-full font-semibold ${x.isPassed ? "bg-slate-100 text-slate-700" : "bg-red-100 text-red-700"}`}>
+                      {{ UKRAINIAN: "Українська", MATH: "Математика", HISTORY: "Історія", ENGLISH: "Англійська" }[x.subject] ?? x.subject}: {x.nmtScore ?? "не склав"} ({x.correct}/{x.total})
+                    </span>
+                  ))}
+                </div>
+              )}
               <p className="text-slate-600 mt-2">
                 {result.correct} з {result.total} правильно ({result.percent}%)
               </p>
-              {result.bestScore !== undefined && loggedIn && (
+              {result.bestScore != null && loggedIn && (
                 <p className="text-sm text-indigo-600 font-semibold mt-2">Твоя найкраща спроба: {result.bestScore}</p>
               )}
             </>
