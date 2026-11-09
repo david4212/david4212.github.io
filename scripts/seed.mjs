@@ -77,7 +77,7 @@ async function importContent(prisma) {
         subtopicId = sub ? sub.id : (await prisma.subtopic.create({ data: { topicId: topic.id, title: data.subtopic, order: 99 } })).id;
       }
 
-      const existingQ = await prisma.question.findMany({ where: { topicId: topic.id }, select: { id: true, text: true, options: true, explanation: true } });
+      const existingQ = await prisma.question.findMany({ where: { topicId: topic.id }, select: { id: true, text: true, options: true, explanation: true, imageUrl: true } });
       const known = new Map(existingQ.map((q) => [q.text + "\u0001" + [...q.options].sort().join("|"), q]));
       const fresh = [];
       let filled = 0;
@@ -90,14 +90,15 @@ async function importContent(prisma) {
         if (known.has(key)) {
           // файл — джерело істини: оновлюємо варіанти, відповідь, обґрунтування та рівень
           const ex = known.get(key);
-          if (ex.explanation !== q.explanation) {
-            await prisma.question.update({ where: { id: ex.id }, data: { options: q.options, correctIndex: q.correctIndex, explanation: q.explanation, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1 } });
+          const img = q.image ?? null;
+          if (ex.explanation !== q.explanation || (ex.imageUrl ?? null) !== img) {
+            await prisma.question.update({ where: { id: ex.id }, data: { options: q.options, correctIndex: q.correctIndex, explanation: q.explanation, imageUrl: img, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1 } });
             filled++;
           }
           continue;
         }
-        known.set(key, { id: null, explanation: q.explanation });
-        fresh.push({ text: q.text, options: q.options, correctIndex: q.correctIndex, explanation: q.explanation, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1, topicId: topic.id, subtopicId });
+        known.set(key, { id: null, explanation: q.explanation, imageUrl: q.image ?? null });
+        fresh.push({ text: q.text, options: q.options, correctIndex: q.correctIndex, explanation: q.explanation, imageUrl: q.image ?? null, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1, topicId: topic.id, subtopicId });
       }
       if (fresh.length) await prisma.question.createMany({ data: fresh });
 
