@@ -77,8 +77,8 @@ async function importContent(prisma) {
         subtopicId = sub ? sub.id : (await prisma.subtopic.create({ data: { topicId: topic.id, title: data.subtopic, order: 99 } })).id;
       }
 
-      const existingQ = await prisma.question.findMany({ where: { topicId: topic.id }, select: { text: true, explanation: true } });
-      const known = new Map(existingQ.map((q) => [q.text, q.explanation]));
+      const existingQ = await prisma.question.findMany({ where: { topicId: topic.id }, select: { id: true, text: true, options: true, explanation: true } });
+      const known = new Map(existingQ.map((q) => [q.text + "\u0001" + [...q.options].sort().join("|"), q]));
       const fresh = [];
       let filled = 0;
       for (const q of data.questions ?? []) {
@@ -86,14 +86,17 @@ async function importContent(prisma) {
           && Number.isInteger(q.correctIndex) && q.correctIndex >= 0 && q.correctIndex < q.options.length
           && typeof q.explanation === "string" && q.explanation.trim();
         if (!ok) { console.log(`[content] пропущено некоректне питання: ${String(q.text).slice(0, 40)}`); continue; }
-        if (known.has(q.text)) {
-          if (!known.get(q.text)) {
-            await prisma.question.updateMany({ where: { topicId: topic.id, text: q.text, explanation: null }, data: { explanation: q.explanation } });
+        const key = q.text + "\u0001" + [...q.options].sort().join("|");
+        if (known.has(key)) {
+          // файл — джерело істини: оновлюємо варіанти, відповідь, обґрунтування та рівень
+          const ex = known.get(key);
+          if (ex.explanation !== q.explanation) {
+            await prisma.question.update({ where: { id: ex.id }, data: { options: q.options, correctIndex: q.correctIndex, explanation: q.explanation, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1 } });
             filled++;
           }
           continue;
         }
-        known.set(q.text, q.explanation);
+        known.set(key, { id: null, explanation: q.explanation });
         fresh.push({ text: q.text, options: q.options, correctIndex: q.correctIndex, explanation: q.explanation, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1, topicId: topic.id, subtopicId });
       }
       if (fresh.length) await prisma.question.createMany({ data: fresh });
