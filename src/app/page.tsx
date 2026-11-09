@@ -64,7 +64,7 @@ export default async function Home() {
         <CountdownTimer />
       </section>
 
-      <section className="mb-8 max-w-2xl mx-auto">
+      <section className="mb-8">
         <DailyQuestion />
       </section>
 
