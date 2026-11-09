@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 type T = { topicId: string; title: string; subject: string; percent: number; correct: number; total: number };
-type Stats = { answers: number; strengths: T[]; traps: T[]; openErrors: number; streak: { current: number; longest: number } };
+type Stats = { answers: number; strengths: T[]; traps: T[]; openErrors: number; streak: { current: number; longest: number }; lastTest: { kind: string; avgNmt: number | null; subjects: { subject: string; correct: number; total: number; nmtScore: number | null }[] } | null };
 
 function List({ items, tone }: { items: T[]; tone: "green" | "red" }) {
   const c = tone === "green" ? "bg-green-50 border-green-200 text-green-800" : "bg-red-50 border-red-200 text-red-800";
@@ -43,6 +43,21 @@ export default function ProfileWidgets() {
           <p className="text-xs">помилок у банку</p>
         </Link>
       </div>
+
+      {s.lastTest && (
+        <div className="rounded-3xl p-5 bg-white border border-slate-100 shadow-md">
+          <h2 className="text-lg font-bold text-slate-800 mb-1">Останній тест ({s.lastTest.kind === "SIMULATION" ? "симуляція" : "діагностика"})</h2>
+          <p className="text-sm text-slate-600 mb-3">Орієнтовний бал НМТ: <span className="font-extrabold text-violet-600 text-xl">{s.lastTest.avgNmt ?? "поріг не подолано"}</span></p>
+          <div className="grid grid-cols-2 gap-2 text-sm">
+            {s.lastTest.subjects.map((x) => (
+              <div key={x.subject} className="px-3 py-2 rounded-xl bg-slate-50 border border-slate-200 flex justify-between">
+                <span>{{ UKRAINIAN: "Українська", MATH: "Математика", HISTORY: "Історія", ENGLISH: "Англійська" }[x.subject] ?? x.subject}</span>
+                <span className="font-bold">{x.nmtScore ?? "—"}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="rounded-3xl p-5 bg-white border border-slate-100 shadow-md">
         <h2 className="text-lg font-bold text-slate-800 mb-1">Аналітика за 7 днів</h2>

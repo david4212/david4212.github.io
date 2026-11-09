@@ -1,3 +1,4 @@
+import { calculateNmtScore, averageNmt } from "@/lib/score";
 import prisma from "@/lib/prisma";
 import { recordAnswers, shuffle, type AnswerSource } from "@/lib/answers";
 import { SUBJECT_DETAILS, type Subject } from "@/types";
@@ -77,8 +78,9 @@ export async function finishSession(sessionId: string, userId: string) {
   const perSubject = SUBJECTS.map((subject) => {
     const part = details.filter((d) => d.subject === subject);
     const c = part.filter((d) => d.isCorrect).length;
-    return { subject, title: SUBJECT_DETAILS[subject].title, correct: c, total: part.length, percent: part.length ? Math.round((c / part.length) * 100) : 0 };
+    return { subject, title: SUBJECT_DETAILS[subject].title, correct: c, total: part.length, percent: part.length ? Math.round((c / part.length) * 100) : 0, nmt: calculateNmtScore(subject, c, part.length) };
   });
+  const avgNmt = averageNmt(perSubject.filter((p) => p.total).map((p) => p.nmt));
 
-  return { id: s.id, kind: s.kind, correct, total, percent, perSubject, details };
+  return { id: s.id, kind: s.kind, correct, total, percent, perSubject, avgNmt, details };
 }

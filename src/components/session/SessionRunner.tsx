@@ -17,7 +17,8 @@ type Result = {
   correct: number;
   total: number;
   percent: number;
-  perSubject: { subject: Subject; title: string; correct: number; total: number; percent: number }[];
+  perSubject: { subject: Subject; title: string; correct: number; total: number; percent: number; nmt: { nmtScore: number | null; isPassed: boolean } }[];
+  avgNmt: number | null;
   details: Detail[];
 };
 
@@ -143,6 +144,7 @@ export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATI
           <p className="text-slate-500 mb-1">{kind === "DIAGNOSTIC" ? "Твій стартовий розклад знань" : "Результат симуляції"}</p>
           <p className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-pink-500">{result.percent}%</p>
           <p className="text-slate-600 mt-1">{result.correct} з {result.total} правильно</p>
+          <p className="mt-2 text-sm font-semibold text-slate-700">Орієнтовний бал НМТ: {result.avgNmt !== null ? <span className="text-violet-600 text-lg">{result.avgNmt}</span> : <span className="text-red-600">поріг не подолано хоча б з одного предмета</span>}</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6 text-left">
             {result.perSubject.map((s) => {
@@ -155,7 +157,8 @@ export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATI
                     <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${lv.cls}`}>{lv.label}</span>
                   </div>
                   <p className="text-3xl font-extrabold mt-1">{s.percent}%</p>
-                  <p className="text-sm text-white/80 mb-2">{s.correct} з {s.total}</p>
+                  <p className="text-sm text-white/80">{s.correct} з {s.total}</p>
+                  <p className="text-sm font-bold mb-2">{s.total ? (s.nmt.nmtScore !== null ? `≈ ${s.nmt.nmtScore} балів (100–200)` : "Не склав (нижче порогу)") : ""}</p>
                   <div className="w-full bg-white/25 rounded-full h-2 overflow-hidden"><div className="h-2 bg-white rounded-full" style={{ width: `${s.percent}%` }} /></div>
                 </div>
               );
