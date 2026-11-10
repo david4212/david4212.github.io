@@ -1,0 +1,1125 @@
+{
+ "subject": "ENGLISH",
+ "topic": "Vocabulary: Environment, Nature & Travel",
+ "questions": [
+  {
+   "text": "Look at the forecast. What will the weather be like on Monday?",
+   "options": [
+    "Snowy",
+    "Sunny",
+    "Rainy",
+    "Cloudy"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Monday — Sunny.\n❌ Хибні: А) Snowy — сніг буде в п’ятницю; В) Rainy — дощ буде в середу; Г) Cloudy — хмарно буде у вівторок.\n✅ Б) Sunny — так у прогнозі на понеділок.",
+   "testLevel": 1,
+   "image": "/img/english/e6_forecast.svg"
+  },
+  {
+   "text": "Look at the forecast. On which day will it snow?",
+   "options": [
+    "Thursday",
+    "Friday",
+    "Wednesday",
+    "Monday"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Snow — сніг.\n❌ Хибні: А) Thursday — у четвер гроза; В) Wednesday — у середу дощ; Г) Monday — у понеділок сонячно.\n✅ Б) Friday — так у прогнозі на п’ятницю.",
+   "testLevel": 1,
+   "image": "/img/english/e6_forecast.svg"
+  },
+  {
+   "text": "Look at the forecast. What will the highest temperature be on Wednesday?",
+   "options": [
+    "6",
+    "9",
+    "11",
+    "14"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Highest — максимальна температура.\n❌ Хибні: А) 6 — це найнижча температура в середу; Б) 9 — це максимум четверга; Г) 14 — це максимум вівторка.\n✅ В) 11 — High: 11°C у середу.",
+   "testLevel": 2,
+   "image": "/img/english/e6_forecast.svg"
+  },
+  {
+   "text": "Look at the forecast. On which day will it be the coldest?",
+   "options": [
+    "Friday",
+    "Thursday",
+    "Monday",
+    "Tuesday"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Coldest — найхолодніший.\n❌ Хибні: Б) Thursday — у четвер вище нуля; В) Monday — понеділок — найтепліший день; Г) Tuesday — вівторок теплий порівняно.\n✅ А) Friday — мінімум мінус три градуси.",
+   "testLevel": 2,
+   "image": "/img/english/e6_forecast.svg"
+  },
+  {
+   "text": "Look at the forecast. Which day is the best for a picnic in the mountains?",
+   "options": [
+    "Monday",
+    "Friday",
+    "Thursday",
+    "Wednesday"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Для пікніка потрібна сонячна погода.\n❌ Хибні: Б) Friday — у п’ятницю сніг; В) Thursday — у четвер гроза; Г) Wednesday — у середу дощ.\n✅ А) Monday — сонячно і найтепліше.",
+   "testLevel": 2,
+   "image": "/img/english/e6_forecast.svg"
+  },
+  {
+   "text": "Look at the forecast. How many degrees colder will the highest temperature be on Friday than on Monday?",
+   "options": [
+    "10",
+    "12",
+    "16",
+    "20"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Різниця максимумів: 18 − 2.\n❌ Хибні: А) 10 — різницю пораховано хибно; Б) 12 — різницю пораховано хибно; Г) 20 — це сума, а не різниця.\n✅ В) 16 — 18 мінус 2.",
+   "testLevel": 3,
+   "image": "/img/english/e6_forecast.svg"
+  },
+  {
+   "text": "Look at the forecast. Which statement is TRUE?",
+   "options": [
+    "It will be sunny on Friday.",
+    "The highest temperature falls every day.",
+    "It will rain on Monday.",
+    "Thursday will be warmer than Tuesday."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Перевірте всі п’ять днів.\n❌ Хибні: А) It will be sunny on Friday. — у п’ятницю буде сніг; В) It will rain on Monday. — у понеділок буде сонячно; Г) Thursday will be warmer than Tuesday. — четвер холодніший за вівторок.\n✅ Б) The highest temperature falls every day. — 18, 14, 11, 9, 2 — щодня нижче.",
+   "testLevel": 3,
+   "image": "/img/english/e6_forecast.svg"
+  },
+  {
+   "text": "Look at the picture. Which bin is for an old newspaper?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Newspaper — папір.\n❌ Хибні: Б) 2 — це контейнер для скла; В) 3 — це контейнер для пластику; Г) 4 — це контейнер для їжі.\n✅ А) 1 — це контейнер PAPER.",
+   "testLevel": 1,
+   "image": "/img/english/e6_bins.svg"
+  },
+  {
+   "text": "Look at the picture. Where do you put an empty plastic bottle?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Plastic bottle — пластик.\n❌ Хибні: А) 1 — це контейнер для паперу; Б) 2 — це контейнер для скла; Г) 4 — це контейнер для їжі.\n✅ В) 3 — це контейнер PLASTIC.",
+   "testLevel": 1,
+   "image": "/img/english/e6_bins.svg"
+  },
+  {
+   "text": "Look at the picture. Which bin is for an empty glass jar?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Glass jar — скло.\n❌ Хибні: А) 1 — це контейнер для паперу; В) 3 — це контейнер для пластику; Г) 4 — це контейнер для їжі.\n✅ Б) 2 — це контейнер GLASS.",
+   "testLevel": 2,
+   "image": "/img/english/e6_bins.svg"
+  },
+  {
+   "text": "Look at the picture. Where should you put an apple core?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Apple core — залишки їжі.\n❌ Хибні: А) 1 — це контейнер для паперу; Б) 2 — це контейнер для скла; В) 3 — це контейнер для пластику.\n✅ Г) 4 — це контейнер FOOD WASTE.",
+   "testLevel": 2,
+   "image": "/img/english/e6_bins.svg"
+  },
+  {
+   "text": "Look at the picture. A cardboard box from a pizza is dirty with food. Which bin is the best for it?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Забруднений картон не йде в папір.\n❌ Хибні: А) 1 — чистий папір іде сюди; Б) 2 — це не скло; В) 3 — це не пластик.\n✅ Г) 4 — забруднений картон з їжею.",
+   "testLevel": 3,
+   "image": "/img/english/e6_bins.svg"
+  },
+  {
+   "text": "Look at the map. You are at the red dot, facing east. Walk along Main Street and take the first turning on the left. Which building is on your left?",
+   "options": [
+    "The Café",
+    "The Museum",
+    "The Park",
+    "The Hotel"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Left = ліворуч. Йдете на схід, потім на північ.\n❌ Хибні: А) The Café — кафе на іншому боці; Б) The Museum — музей справа від вулиці; Г) The Hotel — готель на іншому боці.\n✅ В) The Park — ліворуч на Park Road — парк.",
+   "testLevel": 1,
+   "image": "/img/english/e6_town_map.svg"
+  },
+  {
+   "text": "Look at the map. You are at the red dot. Walk along Main Street and take the first turning on the right. Which building is on your right?",
+   "options": [
+    "The Hotel",
+    "The Café",
+    "The Station",
+    "The Bank"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Right = праворуч. Йдете на схід, потім на південь.\n❌ Хибні: А) The Hotel — готель розташований ліворуч; В) The Station — вокзал далі, не тут; Г) The Bank — банк далі, не тут.\n✅ Б) The Café — праворуч на Park Road — кафе.",
+   "testLevel": 1,
+   "image": "/img/english/e6_town_map.svg"
+  },
+  {
+   "text": "Look at the map. You are at the red dot. Walk along Main Street and take the second turning on the left. Which building is on your right?",
+   "options": [
+    "The Library",
+    "The Hospital",
+    "The Park",
+    "The Museum"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Спочатку на схід, потім на північ.\n❌ Хибні: Б) The Hospital — лікарня далі на сході; В) The Park — парк на іншій вулиці; Г) The Museum — музей розташований ліворуч.\n✅ А) The Library — праворуч на Bridge Street — бібліотека.",
+   "testLevel": 2,
+   "image": "/img/english/e6_town_map.svg"
+  },
+  {
+   "text": "Look at the map. You are at the red dot. Walk along Main Street to Station Road and turn right. Which building is on your left?",
+   "options": [
+    "The Hospital",
+    "The Station",
+    "The Hotel",
+    "The Bank"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Повернули на південь: схід ліворуч.\n❌ Хибні: А) The Hospital — лікарня на півночі; В) The Hotel — готель на іншій вулиці; Г) The Bank — банк розташований праворуч.\n✅ Б) The Station — ліворуч на Station Road — вокзал.",
+   "testLevel": 2,
+   "image": "/img/english/e6_town_map.svg"
+  },
+  {
+   "text": "Look at the map. Which building is between Bridge Street and Station Road, north of Main Street?",
+   "options": [
+    "The Library",
+    "The Bank",
+    "The Museum",
+    "The Hospital"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: North — на північ, між двома вулицями.\n❌ Хибні: Б) The Bank — банк на південь від Main Street; В) The Museum — музей на захід від Bridge Street; Г) The Hospital — лікарня за Station Road.\n✅ А) The Library — так на мапі.",
+   "testLevel": 2,
+   "image": "/img/english/e6_town_map.svg"
+  },
+  {
+   "text": "Look at the map. The hotel is ___ the bank, on the other side of Bridge Street.",
+   "options": [
+    "under",
+    "behind",
+    "between",
+    "opposite"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Opposite — навпроти, через вулицю.\n❌ Хибні: А) under — під — не пасує; Б) behind — за — не пасує; В) between — між — не пасує.\n✅ Г) opposite — через вулицю один від одного.",
+   "testLevel": 3,
+   "image": "/img/english/e6_town_map.svg"
+  },
+  {
+   "text": "Look at the map. Which building is directly opposite the Park, on the other side of Main Street?",
+   "options": [
+    "The Bank",
+    "The Museum",
+    "The Hotel",
+    "The Café"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Opposite the Park — через головну вулицю.\n❌ Хибні: А) The Bank — банк далеко від парку; Б) The Museum — музей на тому ж боці; В) The Hotel — готель ближче до центру.\n✅ Г) The Café — навпроти парку через Main Street.",
+   "testLevel": 3,
+   "image": "/img/english/e6_town_map.svg"
+  },
+  {
+   "text": "Look at the boarding pass. Where is the passenger flying to?",
+   "options": [
+    "Rome",
+    "London",
+    "Paris",
+    "Kyiv"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: To — куди летить.\n❌ Хибні: А) Rome — про Рим не йдеться; В) Paris — про Париж не йдеться; Г) Kyiv — Kyiv — місто вильоту.\n✅ Б) London — To: London (LHR).",
+   "testLevel": 1,
+   "image": "/img/english/e6_boarding_pass.svg"
+  },
+  {
+   "text": "Look at the boarding pass. What is the seat number?",
+   "options": [
+    "07:45",
+    "PS 232",
+    "21C",
+    "B7"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Seat — місце.\n❌ Хибні: А) 07:45 — це час посадки; Б) PS 232 — це номер рейсу; Г) B7 — це номер гейта.\n✅ В) 21C — так сказано в квитку.",
+   "testLevel": 1,
+   "image": "/img/english/e6_boarding_pass.svg"
+  },
+  {
+   "text": "Look at the boarding pass. At what time does the plane leave?",
+   "options": [
+    "08:15",
+    "21:05",
+    "07:45",
+    "14:00"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Departure — вильот.\n❌ Хибні: Б) 21:05 — такого часу немає; В) 07:45 — це початок посадки; Г) 14:00 — такого часу немає.\n✅ А) 08:15 — так у рядку Departure: 08:15.",
+   "testLevel": 2,
+   "image": "/img/english/e6_boarding_pass.svg"
+  },
+  {
+   "text": "Look at the boarding pass. Which gate must the passenger go to?",
+   "options": [
+    "21C",
+    "KBP",
+    "B7",
+    "LHR"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Gate — вихід на посадку.\n❌ Хибні: А) 21C — це номер місця; Б) KBP — це код аеропорту; Г) LHR — це код аеропорту.\n✅ В) B7 — так сказано в квитку.",
+   "testLevel": 2,
+   "image": "/img/english/e6_boarding_pass.svg"
+  },
+  {
+   "text": "Look at the boarding pass. How many minutes before departure does boarding begin?",
+   "options": [
+    "15",
+    "30",
+    "45",
+    "60"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: 08:15 мінус 07:45.\n❌ Хибні: А) 15 — різницю пораховано хибно; В) 45 — різницю пораховано хибно; Г) 60 — різницю пораховано хибно.\n✅ Б) 30 — від 07:45 до 08:15.",
+   "testLevel": 3,
+   "image": "/img/english/e6_boarding_pass.svg"
+  },
+  {
+   "text": "Look at the departure board. Which flight is cancelled?",
+   "options": [
+    "The flight to Rome",
+    "The flight to Berlin",
+    "The flight to London",
+    "The flight to Warsaw"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Cancelled — скасований.\n❌ Хибні: Б) The flight to Berlin — статус On time; В) The flight to London — статус On time; Г) The flight to Warsaw — статус On time.\n✅ А) The flight to Rome — у статусі Cancelled.",
+   "testLevel": 1,
+   "image": "/img/english/e6_departures.svg"
+  },
+  {
+   "text": "Look at the departure board. Which gate is the flight to London at?",
+   "options": [
+    "2",
+    "4",
+    "7",
+    "9"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Gate — вихід на посадку.\n❌ Хибні: А) 2 — це гейт до Риму; В) 7 — це гейт до Парижа; Г) 9 — це гейт до Берліна.\n✅ Б) 4 — так у таблиці.",
+   "testLevel": 1,
+   "image": "/img/english/e6_departures.svg"
+  },
+  {
+   "text": "Look at the departure board. What is the new departure time of the flight to Paris?",
+   "options": [
+    "09:40",
+    "10:05",
+    "10:20",
+    "10:30"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Delayed — затримка, новий час 10:20.\n❌ Хибні: А) 09:40 — це початковий час; Б) 10:05 — це час рейсу до Риму; Г) 10:30 — це час рейсу до Варшави.\n✅ В) 10:20 — Delayed — 10:20.",
+   "testLevel": 2,
+   "image": "/img/english/e6_departures.svg"
+  },
+  {
+   "text": "Look at the departure board. How long is the delay of the flight to Paris?",
+   "options": [
+    "30 minutes",
+    "20 minutes",
+    "40 minutes",
+    "60 minutes"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: 10:20 мінус 09:40.\n❌ Хибні: А) 30 minutes — різницю пораховано хибно; Б) 20 minutes — різницю пораховано хибно; Г) 60 minutes — різницю пораховано хибно.\n✅ В) 40 minutes — від 09:40 до 10:20.",
+   "testLevel": 2,
+   "image": "/img/english/e6_departures.svg"
+  },
+  {
+   "text": "Look at the departure board. Cancelled flights do not leave. Which city will be the third destination a plane actually flies to?",
+   "options": [
+    "Berlin",
+    "Warsaw",
+    "Paris",
+    "Rome"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Порядок: London, Berlin, Paris, Warsaw.\n❌ Хибні: А) Berlin — це другий рейс; Б) Warsaw — це четвертий рейс; Г) Rome — рейс до Риму скасовано.\n✅ В) Paris — після Лондона 09:15 і Берліна 10:00 — Париж 10:20.",
+   "testLevel": 3,
+   "image": "/img/english/e6_departures.svg"
+  },
+  {
+   "text": "Look at the departure board. Which flight will leave last after the delay is taken into account?",
+   "options": [
+    "The flight to Berlin",
+    "The flight to Paris",
+    "The flight to Warsaw",
+    "The flight to Rome"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Порівняйте реальні часи вильоту.\n❌ Хибні: А) The flight to Berlin — рейс о 10:00 — раніше; Б) The flight to Paris — рейс о 10:20 — раніше; Г) The flight to Rome — рейс до Риму скасовано.\n✅ В) The flight to Warsaw — о 10:30 — найпізніше.",
+   "testLevel": 3,
+   "image": "/img/english/e6_departures.svg"
+  },
+  {
+   "text": "Look at the hotel notice. Where is breakfast served?",
+   "options": [
+    "In the restaurant on the ground floor",
+    "At reception",
+    "In the guest rooms",
+    "At the swimming pool"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Breakfast — сніданок.\n❌ Хибні: Б) At reception — на ресепшені видають пароль; В) In the guest rooms — про номери не йдеться; Г) At the swimming pool — про басейн не йдеться.\n✅ А) In the restaurant on the ground floor — так сказано в оголошенні.",
+   "testLevel": 1,
+   "image": "/img/english/e6_hotel_info.svg"
+  },
+  {
+   "text": "Look at the hotel notice. How can a guest get the Wi-Fi password?",
+   "options": [
+    "By phoning the manager",
+    "By paying £10",
+    "By going to the restaurant",
+    "By asking at reception"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Ask at reception — запитати на ресепшені.\n❌ Хибні: А) By phoning the manager — про дзвінок не йдеться; Б) By paying £10 — це плата за пізній виїзд; В) By going to the restaurant — про ресторан не йдеться.\n✅ Г) By asking at reception — так сказано в оголошенні.",
+   "testLevel": 2,
+   "image": "/img/english/e6_hotel_info.svg"
+  },
+  {
+   "text": "Look at the hotel notice. Who must be with an adult in the swimming pool?",
+   "options": [
+    "Only women",
+    "Children under 12",
+    "All guests",
+    "Children over 12"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Under 12 — молодші за 12.\n❌ Хибні: А) Only women — про стать не йдеться; В) All guests — правило лише для дітей; Г) Children over 12 — у них немає такого обмеження.\n✅ Б) Children under 12 — так сказано в оголошенні.",
+   "testLevel": 2,
+   "image": "/img/english/e6_hotel_info.svg"
+  },
+  {
+   "text": "Look at the hotel notice. A guest wants to leave his room at 13:00. What will happen?",
+   "options": [
+    "He will have to pay £10.",
+    "He cannot leave until 14:00.",
+    "He will leave for free.",
+    "He will have to pay £20."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Check-out before 11:00, до 14:00 — £10.\n❌ Хибні: Б) He cannot leave until 14:00. — виїхати можна, але платно; В) He will leave for free. — безкоштовно — лише до 11:00; Г) He will have to pay £20. — про £20 не йдеться.\n✅ А) He will have to pay £10. — пізній виїзд до 14:00 коштує £10.",
+   "testLevel": 3,
+   "image": "/img/english/e6_hotel_info.svg"
+  },
+  {
+   "text": "Look at the timetable. At what time does the train arrive in Odesa?",
+   "options": [
+    "07:10",
+    "11:30",
+    "13:10",
+    "14:45"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Odesa — остання станція.\n❌ Хибні: А) 07:10 — це час відправлення з Києва; Б) 11:30 — це час у Первомайську; В) 13:10 — це час у Миколаєві.\n✅ Г) 14:45 — так у розкладі.",
+   "testLevel": 1,
+   "image": "/img/english/e6_train_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. Which station comes after Uman?",
+   "options": [
+    "Bila Tserkva",
+    "Mykolaiv",
+    "Pervomaisk",
+    "Kyiv"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: After — після.\n❌ Хибні: А) Bila Tserkva — вона перед Уманню; Б) Mykolaiv — це станція через одну; Г) Kyiv — це початкова станція.\n✅ В) Pervomaisk — наступна станція після Умані.",
+   "testLevel": 1,
+   "image": "/img/english/e6_train_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. How long does the journey from Kyiv to Uman take?",
+   "options": [
+    "2 hours 15 minutes",
+    "3 hours 5 minutes",
+    "1 hour 55 minutes",
+    "2 hours 55 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: 10:05 мінус 07:10.\n❌ Хибні: А) 2 hours 15 minutes — різницю пораховано хибно; Б) 3 hours 5 minutes — різницю пораховано хибно; В) 1 hour 55 minutes — різницю пораховано хибно.\n✅ Г) 2 hours 55 minutes — від 07:10 до 10:05.",
+   "testLevel": 2,
+   "image": "/img/english/e6_train_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. How long does the whole journey from Kyiv to Odesa take?",
+   "options": [
+    "6 hours 45 minutes",
+    "7 hours 35 minutes",
+    "7 hours 15 minutes",
+    "8 hours 35 minutes"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: 14:45 мінус 07:10.\n❌ Хибні: А) 6 hours 45 minutes — різницю пораховано хибно; В) 7 hours 15 minutes — різницю пораховано хибно; Г) 8 hours 35 minutes — різницю пораховано хибно.\n✅ Б) 7 hours 35 minutes — від 07:10 до 14:45.",
+   "testLevel": 2,
+   "image": "/img/english/e6_train_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. Between which two stations is the journey the longest?",
+   "options": [
+    "Bila Tserkva and Uman",
+    "Kyiv and Bila Tserkva",
+    "Uman and Pervomaisk",
+    "Mykolaiv and Odesa"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Порахуйте кожен перегін.\n❌ Хибні: Б) Kyiv and Bila Tserkva — це 1 год 5 хв; В) Uman and Pervomaisk — це 1 год 25 хв; Г) Mykolaiv and Odesa — це 1 год 35 хв.\n✅ А) Bila Tserkva and Uman — 1 год 50 хв — найдовше.",
+   "testLevel": 3,
+   "image": "/img/english/e6_train_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. Olga gets on the train in Bila Tserkva and gets off in Mykolaiv. How long is her journey?",
+   "options": [
+    "5 hours 55 minutes",
+    "3 hours 55 minutes",
+    "5 hours 5 minutes",
+    "4 hours 55 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: 13:10 мінус 08:15.\n❌ Хибні: А) 5 hours 55 minutes — різницю пораховано хибно; Б) 3 hours 55 minutes — різницю пораховано хибно; В) 5 hours 5 minutes — різницю пораховано хибно.\n✅ Г) 4 hours 55 minutes — від 08:15 до 13:10.",
+   "testLevel": 3,
+   "image": "/img/english/e6_train_timetable.svg"
+  },
+  {
+   "text": "What is the weather like in Batumi?",
+   "options": [
+    "Hot and sunny",
+    "Cold and snowy",
+    "Foggy and windy",
+    "Cool and rainy"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: About 32 degrees — спека.\n❌ Хибні: Б) Cold and snowy — про сніг не йдеться; В) Foggy and windy — про туман не йдеться; Г) Cool and rainy — про дощ не йдеться.\n✅ А) Hot and sunny — так сказано в листівці.",
+   "testLevel": 1,
+   "image": "/img/english/e6_postcard.svg"
+  },
+  {
+   "text": "Where is the hotel?",
+   "options": [
+    "In the mountains",
+    "Right on the beach",
+    "In the city centre",
+    "Near the airport"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Hotel — готель.\n❌ Хибні: А) In the mountains — це місце екскурсії; В) In the city centre — про центр не йдеться; Г) Near the airport — про аеропорт не йдеться.\n✅ Б) Right on the beach — так сказано в листівці.",
+   "testLevel": 1,
+   "image": "/img/english/e6_postcard.svg"
+  },
+  {
+   "text": "What did Dima and his family do yesterday?",
+   "options": [
+    "They flew home.",
+    "They arrived in Batumi.",
+    "They hired bicycles.",
+    "They went on an excursion to the mountains."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Yesterday — учора.\n❌ Хибні: А) They flew home. — це буде в суботу; Б) They arrived in Batumi. — це було в неділю; В) They hired bicycles. — це заплановано на завтра.\n✅ Г) They went on an excursion to the mountains. — Yesterday we went on an excursion.",
+   "testLevel": 2,
+   "image": "/img/english/e6_postcard.svg"
+  },
+  {
+   "text": "What are Dima and his family going to do tomorrow?",
+   "options": [
+    "Hire bicycles",
+    "Go to the mountains",
+    "Take a taxi to the airport",
+    "Fly home"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Tomorrow — завтра.\n❌ Хибні: Б) Go to the mountains — це було вчора; В) Take a taxi to the airport — про таксі не йдеться; Г) Fly home — це буде в суботу.\n✅ А) Hire bicycles — tomorrow we are going to hire bicycles.",
+   "testLevel": 2,
+   "image": "/img/english/e6_postcard.svg"
+  },
+  {
+   "text": "Which of the following is TRUE according to the postcard?",
+   "options": [
+    "The family is staying in a tent.",
+    "Dima is writing the postcard to a friend.",
+    "Dima is already at home.",
+    "The family arrived on Saturday."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Звіряйте кожне твердження.\n❌ Хибні: А) The family is staying in a tent. — вони у готелі; В) Dima is already at home. — вони ще у Батумі; Г) The family arrived on Saturday. — вони прилетіли в неділю.\n✅ Б) Dima is writing the postcard to a friend. — Dear Anna — звернення до подруги.",
+   "testLevel": 3,
+   "image": "/img/english/e6_postcard.svg"
+  },
+  {
+   "text": "Look at the signs. You want to make a barbecue in the forest. Which sign tells you that you must not?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Fire — вогонь.\n❌ Хибні: А) 1 — тут просять триматися стежки; В) 3 — тут просять не годувати тварин; Г) 4 — тут просять забирати сміття.\n✅ Б) 2 — NO FIRES — вогонь заборонено.",
+   "testLevel": 1,
+   "image": "/img/english/e6_park_signs.svg"
+  },
+  {
+   "text": "Look at the signs. You see a deer and want to give it some bread. Which sign tells you not to?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Feed — годувати.\n❌ Хибні: А) 1 — тут просять триматися стежки; Б) 2 — тут заборонено вогонь; Г) 4 — тут просять забирати сміття.\n✅ В) 3 — DO NOT FEED THE ANIMALS.",
+   "testLevel": 1,
+   "image": "/img/english/e6_park_signs.svg"
+  },
+  {
+   "text": "Look at the signs. After your picnic you have a lot of rubbish. Which sign tells you what to do?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Litter — сміття.\n❌ Хибні: А) 1 — тут просять триматися стежки; Б) 2 — тут заборонено вогонь; В) 3 — тут просять не годувати тварин.\n✅ Г) 4 — TAKE YOUR LITTER HOME.",
+   "testLevel": 2,
+   "image": "/img/english/e6_park_signs.svg"
+  },
+  {
+   "text": "Look at the signs. What does sign 1 ask visitors to do?",
+   "options": [
+    "Go home before dark",
+    "Run through the forest",
+    "Walk only on the marked path",
+    "Not to walk at all"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Keep to — триматися чогось.\n❌ Хибні: А) Go home before dark — про час не йдеться; Б) Run through the forest — бігати лісом не просять; Г) Not to walk at all — ходити можна, але стежкою.\n✅ В) Walk only on the marked path — keep to the path — триматися стежки.",
+   "testLevel": 2,
+   "image": "/img/english/e6_park_signs.svg"
+  },
+  {
+   "text": "Look at the signs. Why does the park ask visitors to take their litter home?",
+   "options": [
+    "To keep the park clean and safe for animals",
+    "Because there are no bins at home",
+    "Because litter is expensive",
+    "Because animals like plastic"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Litter harms nature — сміття шкодить природі.\n❌ Хибні: Б) Because there are no bins at home — це нелогічна причина; В) Because litter is expensive — ціна сміття тут не причина; Г) Because animals like plastic — пластик шкодить тваринам.\n✅ А) To keep the park clean and safe for animals — сміття шкодить природі та тваринам.",
+   "testLevel": 3,
+   "image": "/img/english/e6_park_signs.svg"
+  },
+  {
+   "text": "Look at the poster. What will volunteers do on Saturday?",
+   "options": [
+    "Swim in the sea",
+    "Sell lunch",
+    "Plant trees",
+    "Clean the beach"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Clean-up — прибирання.\n❌ Хибні: А) Swim in the sea — про купання не йдеться; Б) Sell lunch — обід на заході безкоштовний; В) Plant trees — про дерева не йдеться.\n✅ Г) Clean the beach — beach clean-up — прибирання пляжу.",
+   "testLevel": 1,
+   "image": "/img/english/e6_cleanup.svg"
+  },
+  {
+   "text": "Look at the poster. What should volunteers bring?",
+   "options": [
+    "Food and drinks",
+    "Bags and lunch",
+    "Nothing",
+    "Gloves and water"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Bring — принести з собою.\n❌ Хибні: А) Food and drinks — обід на заході безкоштовний; Б) Bags and lunch — мішки та обід надають; В) Nothing — потрібно взяти рукавички й воду.\n✅ Г) Gloves and water — bring gloves and a bottle of water.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cleanup.svg"
+  },
+  {
+   "text": "Look at the poster. What do volunteers get after the work?",
+   "options": [
+    "A ticket",
+    "A T-shirt",
+    "Money",
+    "A free lunch"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Free lunch — безкоштовний обід.\n❌ Хибні: А) A ticket — про квиток не йдеться; Б) A T-shirt — про футболку не йдеться; В) Money — про гроші не йдеться.\n✅ Г) A free lunch — free lunch for all volunteers.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cleanup.svg"
+  },
+  {
+   "text": "Look at the poster. Which sentence is TRUE?",
+   "options": [
+    "The organisers will give volunteers the bags.",
+    "Volunteers must bring rubbish bags.",
+    "The event starts at 6 p.m.",
+    "Volunteers must pay for lunch."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Provided — надається.\n❌ Хибні: Б) Volunteers must bring rubbish bags. — мішки надають організатори; В) The event starts at 6 p.m. — початок о 9 a.m; Г) Volunteers must pay for lunch. — обід на заході безкоштовний.\n✅ А) The organisers will give volunteers the bags. — bags will be provided.",
+   "testLevel": 3,
+   "image": "/img/english/e6_cleanup.svg"
+  },
+  {
+   "text": "Look at the chart. Where do most students spend their summer holidays?",
+   "options": [
+    "In a village",
+    "Abroad",
+    "In the mountains",
+    "At the sea"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Найвищий стовпчик — Sea.\n❌ Хибні: А) In a village — це лише 12 учнів; Б) Abroad — це лише 18 учнів; В) In the mountains — це лише 24 учні.\n✅ Г) At the sea — найвищий стовпчик — 38.",
+   "testLevel": 1,
+   "image": "/img/english/e6_bar_holidays.svg"
+  },
+  {
+   "text": "Look at the chart. How many students stay at home during the summer?",
+   "options": [
+    "8",
+    "12",
+    "18",
+    "24"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: At home — вдома.\n❌ Хибні: Б) 12 — це кількість тих, хто в селі; В) 18 — це кількість тих, хто за кордоном; Г) 24 — це кількість тих, хто в горах.\n✅ А) 8 — так на стовпчику At home.",
+   "testLevel": 1,
+   "image": "/img/english/e6_bar_holidays.svg"
+  },
+  {
+   "text": "Look at the chart. How many more students go to the sea than to the mountains?",
+   "options": [
+    "14",
+    "24",
+    "38",
+    "62"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Різниця: 38 − 24.\n❌ Хибні: Б) 24 — це число для гір; В) 38 — це число для моря; Г) 62 — це сума, а не різниця.\n✅ А) 14 — 38 мінус 24.",
+   "testLevel": 2,
+   "image": "/img/english/e6_bar_holidays.svg"
+  },
+  {
+   "text": "Look at the chart. How many students spend the summer in Ukraine (sea, mountains, village or at home)?",
+   "options": [
+    "18",
+    "62",
+    "74",
+    "82"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: 100 − 18 = 82.\n❌ Хибні: А) 18 — це ті, хто їде за кордон; Б) 62 — це лише море та гори; В) 74 — не збігається з даними.\n✅ Г) 82 — 100 мінус 18 за кордоном.",
+   "testLevel": 3,
+   "image": "/img/english/e6_bar_holidays.svg"
+  },
+  {
+   "text": "Look at the chart. Which two choices together are chosen by exactly one fifth of the students?",
+   "options": [
+    "Mountains and Village",
+    "Abroad and At home",
+    "Village and At home",
+    "Sea and At home"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Одна п’ята від 100 — це 20.\n❌ Хибні: А) Mountains and Village — 24 + 12 = 36; Б) Abroad and At home — 18 + 8 = 26; Г) Sea and At home — 38 + 8 = 46.\n✅ В) Village and At home — 12 + 8 = 20.",
+   "testLevel": 3,
+   "image": "/img/english/e6_bar_holidays.svg"
+  },
+  {
+   "text": "Look at the graph. Which month is the warmest in Kyiv?",
+   "options": [
+    "July",
+    "August",
+    "June",
+    "January"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Warmest — найтепліший.\n❌ Хибні: Б) August — там лише 22°C; В) June — там лише 21°C; Г) January — це найхолодніший місяць.\n✅ А) July — найвища точка — 23°C.",
+   "testLevel": 1,
+   "image": "/img/english/e6_line_temperature.svg"
+  },
+  {
+   "text": "Look at the graph. In which months is the average temperature below zero?",
+   "options": [
+    "Only in January",
+    "November, December and January",
+    "January, February and March",
+    "January, February and December"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Below zero — нижче нуля.\n❌ Хибні: А) Only in January — є ще лютий і грудень; Б) November, December and January — у листопаді плюс 3; В) January, February and March — у березні вже плюс 2.\n✅ Г) January, February and December — там мінус 4, мінус 3 та мінус 2.",
+   "testLevel": 2,
+   "image": "/img/english/e6_line_temperature.svg"
+  },
+  {
+   "text": "Look at the graph. In which months is the average temperature above 20°C?",
+   "options": [
+    "July and August",
+    "July, August and September",
+    "June, July and August",
+    "May, June and July"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Above 20 — вище двадцяти.\n❌ Хибні: А) July and August — у червні теж 21; Б) July, August and September — у вересні лише 16; Г) May, June and July — у травні лише 17.\n✅ В) June, July and August — 21, 23 та 22 градуси.",
+   "testLevel": 2,
+   "image": "/img/english/e6_line_temperature.svg"
+  },
+  {
+   "text": "Look at the graph. How many degrees warmer is July than January?",
+   "options": [
+    "17",
+    "19",
+    "23",
+    "27"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: 23 − (−4) = 27.\n❌ Хибні: А) 17 — різницю пораховано хибно; Б) 19 — різницю пораховано хибно; В) 23 — це температура липня.\n✅ Г) 27 — 23 мінус мінус 4.",
+   "testLevel": 3,
+   "image": "/img/english/e6_line_temperature.svg"
+  },
+  {
+   "text": "Look at the graph. Between which two months does the temperature rise the most?",
+   "options": [
+    "May and June",
+    "March and April",
+    "February and March",
+    "April and May"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Порівняйте всі різниці.\n❌ Хибні: А) May and June — зростання лише +4; В) February and March — зростання лише +5; Г) April and May — зростання лише +7.\n✅ Б) March and April — зростання з 2 до 10, +8.",
+   "testLevel": 3,
+   "image": "/img/english/e6_line_temperature.svg"
+  },
+  {
+   "text": "Look at the pie chart. What do most students do to protect the environment?",
+   "options": [
+    "They save energy.",
+    "They recycle rubbish.",
+    "They do nothing.",
+    "They use public transport."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Найбільший сектор — Recycle.\n❌ Хибні: А) They save energy. — це частка у 25%; В) They do nothing. — це лише 15%; Г) They use public transport. — це частка у 20%.\n✅ Б) They recycle rubbish. — найбільший сектор — 40%.",
+   "testLevel": 1,
+   "image": "/img/english/e6_pie_eco.svg"
+  },
+  {
+   "text": "Look at the pie chart. What percentage of students do something to protect the environment?",
+   "options": [
+    "75%",
+    "85%",
+    "15%",
+    "60%"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: 100% − 15% = 85%.\n❌ Хибні: А) 75% — суму пораховано хибно; В) 15% — це ті, хто нічого не робить; Г) 60% — суму пораховано хибно.\n✅ Б) 85% — 100 мінус 15.",
+   "testLevel": 2,
+   "image": "/img/english/e6_pie_eco.svg"
+  },
+  {
+   "text": "Look at the pie chart. If 300 students were asked, how many of them save energy?",
+   "options": [
+    "25",
+    "60",
+    "75",
+    "120"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: 25% × 300 = 75.\n❌ Хибні: А) 25 — це відсоток, а не кількість; Б) 60 — це 20% від 300; Г) 120 — це 40% від 300.\n✅ В) 75 — 25% від 300.",
+   "testLevel": 3,
+   "image": "/img/english/e6_pie_eco.svg"
+  },
+  {
+   "text": "Look at the pie chart. Which statement is TRUE?",
+   "options": [
+    "Public transport is the most popular choice.",
+    "More students save energy than recycle.",
+    "Twice as many students recycle as use public transport.",
+    "Half of the students do nothing."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Порівняйте 40% і 20%.\n❌ Хибні: А) Public transport is the most popular choice. — найпопулярніше — сортувати сміття; Б) More students save energy than recycle. — 25% менше за 40%; Г) Half of the students do nothing. — нічого не робить лише 15%.\n✅ В) Twice as many students recycle as use public transport. — 40% удвічі більше за 20%.",
+   "testLevel": 3,
+   "image": "/img/english/e6_pie_eco.svg"
+  },
+  {
+   "text": "Look at the notice. What is the maximum weight of hand luggage?",
+   "options": [
+    "7 kg",
+    "1 kg",
+    "100 kg",
+    "100 ml"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Maximum — найбільше.\n❌ Хибні: Б) 1 kg — такого обмеження немає; В) 100 kg — це занадто багато; Г) 100 ml — це обсяг рідини.\n✅ А) 7 kg — так у першому правилі.",
+   "testLevel": 1,
+   "image": "/img/english/e6_luggage_rules.svg"
+  },
+  {
+   "text": "Look at the notice. What must passengers do with their laptops at security?",
+   "options": [
+    "Take them out of the bag",
+    "Put them in the hold",
+    "Leave them at home",
+    "Switch them off for the flight"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Take out — дістати.\n❌ Хибні: Б) Put them in the hold — у багаж здають великі валізи; В) Leave them at home — про це не йдеться; Г) Switch them off for the flight — про вимкнення не йдеться.\n✅ А) Take them out of the bag — так у третьому правилі.",
+   "testLevel": 2,
+   "image": "/img/english/e6_luggage_rules.svg"
+  },
+  {
+   "text": "Look at the notice. Where must large suitcases go?",
+   "options": [
+    "In the cabin",
+    "In a clear plastic bag",
+    "At security",
+    "In the hold"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Hold — багажне відділення.\n❌ Хибні: А) In the cabin — у салон лише ручна поклажа; Б) In a clear plastic bag — це для рідин; В) At security — це місце перевірки.\n✅ Г) In the hold — так у четвертому правилі.",
+   "testLevel": 2,
+   "image": "/img/english/e6_luggage_rules.svg"
+  },
+  {
+   "text": "Look at the notice. Which passenger is following the rules?",
+   "options": [
+    "Ivan has a 6 kg bag and a 100 ml bottle in a clear bag.",
+    "Peter has a 5 kg bag and a 500 ml bottle.",
+    "Olga has two small bags of 3 kg each.",
+    "Anna has a 9 kg bag and a laptop in it."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Перевірте вагу, кількість і рідини.\n❌ Хибні: Б) Peter has a 5 kg bag and a 500 ml bottle. — пляшка більша за 100 мл; В) Olga has two small bags of 3 kg each. — дозволена лише одна сумка; Г) Anna has a 9 kg bag and a laptop in it. — вага перевищує 7 кг.\n✅ А) Ivan has a 6 kg bag and a 100 ml bottle in a clear bag. — вага і рідина відповідають правилам.",
+   "testLevel": 3,
+   "image": "/img/english/e6_luggage_rules.svg"
+  },
+  {
+   "text": "Text about the environment. Choose the word that fits gap (1).",
+   "options": [
+    "release",
+    "resist",
+    "remain",
+    "receive"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Release gases into the air.\n❌ Хибні: Б) resist — resist — чинити опір; В) remain — remain — залишатися; Г) receive — receive — отримувати.\n✅ А) release — release gases — випускати гази.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cloze_environment.svg"
+  },
+  {
+   "text": "Text about the environment. Choose the word that fits gap (2).",
+   "options": [
+    "waiting",
+    "wearing",
+    "warming",
+    "warning"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Warming — потепління.\n❌ Хибні: А) waiting — waiting — очікування; Б) wearing — wearing — носіння одягу; Г) warning — warning — попередження.\n✅ В) warming — global warming — глобальне потепління.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cloze_environment.svg"
+  },
+  {
+   "text": "Text about the environment. Choose the word that fits gap (3).",
+   "options": [
+    "harbours",
+    "habitats",
+    "habits",
+    "hobbies"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Habitat ≠ habit.\n❌ Хибні: А) harbours — harbours — гавані; В) habits — habits — звички; Г) hobbies — hobbies — захоплення.\n✅ Б) habitats — habitat — місце існування.",
+   "testLevel": 3,
+   "image": "/img/english/e6_cloze_environment.svg"
+  },
+  {
+   "text": "Text about the environment. Choose the word that fits gap (4).",
+   "options": [
+    "extinct",
+    "enlarged",
+    "endangered",
+    "endless"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: May disappear — ще існують.\n❌ Хибні: А) extinct — extinct — уже вимерлі; Б) enlarged — enlarged — збільшені; Г) endless — endless — нескінченні.\n✅ В) endangered — endangered — під загрозою.",
+   "testLevel": 3,
+   "image": "/img/english/e6_cloze_environment.svg"
+  },
+  {
+   "text": "Text about the environment. Choose the word that fits gap (5).",
+   "options": [
+    "protest",
+    "prefer",
+    "project",
+    "protect"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Protect the environment.\n❌ Хибні: А) protest — protest — протестувати; Б) prefer — prefer — надавати перевагу; В) project — project — проєкт.\n✅ Г) protect — protect — захищати.",
+   "testLevel": 1,
+   "image": "/img/english/e6_cloze_environment.svg"
+  },
+  {
+   "text": "Text about the environment. Choose the word that fits gap (6).",
+   "options": [
+    "rewrite",
+    "refuse",
+    "recycle",
+    "reserve"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Recycle glass and paper.\n❌ Хибні: А) rewrite — rewrite — переписувати; Б) refuse — refuse — відмовлятися; Г) reserve — reserve — резервувати.\n✅ В) recycle — recycle — переробляти.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cloze_environment.svg"
+  },
+  {
+   "text": "Text about the environment. Choose the word that fits gap (7).",
+   "options": [
+    "spend",
+    "lose",
+    "save",
+    "waste"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Save energy — економити енергію.\n❌ Хибні: А) spend — spend — витрачати; Б) lose — lose — втрачати; Г) waste — waste — марнувати.\n✅ В) save — save electricity — економити.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cloze_environment.svg"
+  },
+  {
+   "text": "Text about the environment. Choose the word that fits gap (8).",
+   "options": [
+    "in spite of",
+    "instead",
+    "because of",
+    "instead of"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Instead of driving — замість водіння.\n❌ Хибні: А) in spite of — in spite of — незважаючи на; Б) instead — instead — без of не з -ing; В) because of — because of — через.\n✅ Г) instead of — instead of + -ing — замість.",
+   "testLevel": 3,
+   "image": "/img/english/e6_cloze_environment.svg"
+  },
+  {
+   "text": "Text about a trip. Choose the word that fits gap (1).",
+   "options": [
+    "on",
+    "at",
+    "in",
+    "for"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: On holiday — у відпустці.\n❌ Хибні: Б) at — at holiday — так не кажуть; В) in — in holiday — так не кажуть; Г) for — for holiday — так не кажуть.\n✅ А) on — on holiday — у відпустці.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cloze_trip.svg"
+  },
+  {
+   "text": "Text about a trip. Choose the word that fits gap (2).",
+   "options": [
+    "visited",
+    "entered",
+    "arrived",
+    "reached"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Arrive at the airport.\n❌ Хибні: А) visited — visited at — так не кажуть; Б) entered — entered at — так не кажуть; Г) reached — reached at — так не кажуть.\n✅ В) arrived — arrived at — прибули в аеропорт.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cloze_trip.svg"
+  },
+  {
+   "text": "Text about a trip. Choose the word that fits gap (3).",
+   "options": [
+    "got",
+    "took",
+    "put",
+    "went"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Plane takes off.\n❌ Хибні: А) got — got off — зійшов; В) put — put off — відклав; Г) went — went off — спрацював.\n✅ Б) took — took off — злетів.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cloze_trip.svg"
+  },
+  {
+   "text": "Text about a trip. Choose the word that fits gap (4).",
+   "options": [
+    "take",
+    "give",
+    "look",
+    "check"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Check in at reception.\n❌ Хибні: А) take — take in — зрозуміти; Б) give — give in — здатися; В) look — look in — зазирнути.\n✅ Г) check — check in — зареєструватися.",
+   "testLevel": 2,
+   "image": "/img/english/e6_cloze_trip.svg"
+  },
+  {
+   "text": "Text about a trip. Choose the word that fits gap (5).",
+   "options": [
+    "sight",
+    "scenery",
+    "view",
+    "scene"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: A view of — вид на.\n❌ Хибні: А) sight — sight — зір чи пам’ятка; Б) scenery — scenery — незлічуване; Г) scene — scene — сцена чи епізод.\n✅ В) view — a view of the sea — вид на море.",
+   "testLevel": 3,
+   "image": "/img/english/e6_cloze_trip.svg"
+  },
+  {
+   "text": "Text about a trip. Choose the word that fits gap (6).",
+   "options": [
+    "excursion",
+    "exhibition",
+    "exception",
+    "excuse"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: An excursion to a place.\n❌ Хибні: Б) exhibition — exhibition — виставка; В) exception — exception — виняток; Г) excuse — excuse — виправдання.\n✅ А) excursion — excursion — екскурсія.",
+   "testLevel": 3,
+   "image": "/img/english/e6_cloze_trip.svg"
+  }
+ ],
+ "cards": []
+}
