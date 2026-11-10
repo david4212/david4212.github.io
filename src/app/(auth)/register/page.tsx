@@ -60,6 +60,10 @@ export default function RegisterPage() {
           </button>
         </form>
         
+        <p className="mt-5 text-xs leading-relaxed text-gray-500">
+          Результати тестів і час останньої активності зберігаються для особистого прогресу та загальної статистики сайту. Адміністратор має доступ до цієї статистики.
+        </p>
+        
         <p className="mt-6 text-center text-gray-600 text-sm">
           Вже маєш акаунт? <Link href="/login" className="text-blue-600 font-semibold hover:underline">Увійти</Link>
         </p>
