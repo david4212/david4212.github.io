@@ -555,4 +555,12 @@ export const HISTORY_PHOTOS: HistoryPhoto[] = [
     "description": "1864–1873 роки. Ансамбль архітектора Йозефа Главки.",
     "source": "https://osvita.ua/test/training/history/59830/"
   }
+  ,{
+  "title": "Іван Миколайчук",
+  "src": "https://osvita.ua/doc/images/news/605/60512/53_1.png",
+  "category": "cinema",
+  "group": "Актор і режисер",
+  "description": "Актор «Тіней забутих предків» і режисер фільму «Вавилон XX» (1979).",
+  "source": "https://osvita.ua/test/training/history/60512/"
+}
 ];
