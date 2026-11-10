@@ -1,0 +1,1124 @@
+{
+ "subject": "ENGLISH",
+ "topic": "Reading Comprehension & Text Analysis",
+ "questions": [
+  {
+   "text": "Read the text.\n«Tom gets up at seven o'clock. He has breakfast and goes to school by bus. After school he plays football with his friends.»\nHow does Tom go to school?",
+   "options": [
+    "By car",
+    "By bus",
+    "On foot",
+    "By bike"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Звертайте увагу на слово by.\n❌ Хибні: А) By car — про авто не йдеться; В) On foot — про пішу прогулянку не йдеться; Г) By bike — про велосипед не йдеться.\n✅ Б) By bus — he goes to school by bus.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Tom gets up at seven o'clock. He has breakfast and goes to school by bus. After school he plays football with his friends.»\nWhat does Tom do after school?",
+   "options": [
+    "He gets up.",
+    "He goes to bed.",
+    "He plays football.",
+    "He has breakfast."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: After school — після школи.\n❌ Хибні: А) He gets up. — це відбувається вранці; Б) He goes to bed. — про сон не йдеться; Г) He has breakfast. — сніданок буває вранці.\n✅ В) He plays football. — after school he plays football.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Anna lives in a small flat with her parents and her brother. She has a cat called Misty. Misty likes sleeping on the sofa.»\nWhere does Misty like sleeping?",
+   "options": [
+    "On the bed",
+    "In the garden",
+    "On the sofa",
+    "In the kitchen"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Misty — це кішка Анни.\n❌ Хибні: А) On the bed — про ліжко не йдеться; Б) In the garden — про сад не йдеться; Г) In the kitchen — про кухню не йдеться.\n✅ В) On the sofa — Misty likes sleeping on the sofa.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the notice.\n«The library is open from Monday to Friday, from 9 a.m. to 6 p.m. It is closed at the weekend.»\nWhen is the library closed?",
+   "options": [
+    "On Monday",
+    "At 6 p.m.",
+    "On Friday",
+    "At the weekend"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Closed — зачинено.\n❌ Хибні: А) On Monday — у понеділок бібліотека відчинена; Б) At 6 p.m. — це час закриття щодня; В) On Friday — у п’ятницю бібліотека відчинена.\n✅ Г) At the weekend — it is closed at the weekend.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Last Sunday we went to the zoo. We saw lions, monkeys and a huge elephant. My little sister liked the monkeys best.»\nWhich animals did the writer's sister like best?",
+   "options": [
+    "Lions",
+    "Elephants",
+    "Monkeys",
+    "Bears"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Best — найбільше.\n❌ Хибні: А) Lions — лви згадані лише серед тварин; Б) Elephants — слон лише великий, не улюблений; Г) Bears — про ведмедів не йдеться.\n✅ В) Monkeys — the monkeys best.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the letter.\n«Dear Peter, Thank you for your letter. I am fine. Next week I am going to visit my grandmother in Lviv. Write soon! Olga»\nWhere is Olga going next week?",
+   "options": [
+    "To Kyiv",
+    "To the zoo",
+    "To Odesa",
+    "To Lviv"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Next week — наступного тижня.\n❌ Хибні: А) To Kyiv — про Київ не йдеться; Б) To the zoo — про зоопарк не йдеться; В) To Odesa — про Одесу не йдеться.\n✅ Г) To Lviv — visit my grandmother in Lviv.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the notice.\n«Swimming pool: children under 10 must be with an adult.»\nWho must be with an adult?",
+   "options": [
+    "Only teachers",
+    "Children under ten",
+    "Children over ten",
+    "All adults"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Under — менше ніж.\n❌ Хибні: А) Only teachers — про вчителів не йдеться; В) Children over ten — старші діти можуть самі; Г) All adults — правило не для дорослих.\n✅ Б) Children under ten — under 10 — молодші за десять.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«It was a cold winter morning. Snow covered the roofs and the streets. Mark put on his warm coat and went out to play.»\nWhat was the weather like?",
+   "options": [
+    "Hot and sunny",
+    "Cold and snowy",
+    "Windy and foggy",
+    "Warm and rainy"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Snow — сніг, cold — холодно.\n❌ Хибні: А) Hot and sunny — це суперечить тексту; В) Windy and foggy — про туман і вітер не йдеться; Г) Warm and rainy — про дощ не йдеться.\n✅ Б) Cold and snowy — cold winter morning, snow.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Maria is a nurse. She works in a hospital and helps sick people. She often works at night.»\nWhen does Maria often work?",
+   "options": [
+    "At the weekend",
+    "At night",
+    "In the evening",
+    "In the morning"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Often — часто.\n❌ Хибні: А) At the weekend — про вихідні не йдеться; В) In the evening — про вечір не йдеться; Г) In the morning — про ранок не йдеться.\n✅ Б) At night — she often works at night.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Pizza is a famous Italian dish. People all over the world love it. It is made of dough, tomato sauce and cheese.»\nWhat is pizza made of?",
+   "options": [
+    "Rice and vegetables",
+    "Fish and bread",
+    "Meat and potatoes",
+    "Dough, tomato sauce and cheese"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Made of — зроблений з.\n❌ Хибні: А) Rice and vegetables — про рис не йдеться; Б) Fish and bread — про рибу не йдеться; В) Meat and potatoes — про м’ясо не йдеться.\n✅ Г) Dough, tomato sauce and cheese — so is made of — з чого зроблена.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«My favourite subject is biology because I like animals and plants. My teacher, Mr Kovalenko, is very funny.»\nWhy does the writer like biology?",
+   "options": [
+    "Because he or she likes animals and plants.",
+    "Because there are no tests.",
+    "Because the teacher is strict.",
+    "Because it is easy."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Because — тому що.\n❌ Хибні: Б) Because there are no tests. — про тести не йдеться; В) Because the teacher is strict. — вчитель веселий, не суворий; Г) Because it is easy. — про легкість не йдеться.\n✅ А) Because he or she likes animals and plants. — because I like animals and plants.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the notice.\n«The film starts at 7:30 p.m. and lasts two hours.»\nWhat time does the film finish?",
+   "options": [
+    "At 9:30 p.m.",
+    "At 9:00 p.m.",
+    "At 10:00 p.m.",
+    "At 8:30 p.m."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Lasts — триває, тривалість.\n❌ Хибні: Б) At 9:00 p.m. — лише півтори години; В) At 10:00 p.m. — це вже на півгодини пізніше; Г) At 8:30 p.m. — лише одна година.\n✅ А) At 9:30 p.m. — 7:30 плюс дві години.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«In summer Kyiv is often hot, and many people go to the river to swim. In winter it is cold and there is snow.»\nWhat do many people do in summer?",
+   "options": [
+    "They go to the river to swim.",
+    "They play in the snow.",
+    "They stay at home.",
+    "They go skiing."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Summer — літо.\n❌ Хибні: Б) They play in the snow. — сніг лише взимку; В) They stay at home. — про це не йдеться; Г) They go skiing. — це зимове заняття.\n✅ А) They go to the river to swim. — people go to the river to swim.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Our school has a big sports hall, a library and a canteen. There is also a garden where pupils grow flowers.»\nWhere do pupils grow flowers?",
+   "options": [
+    "In the library",
+    "In the sports hall",
+    "In the school garden",
+    "In the canteen"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Garden — сад.\n❌ Хибні: А) In the library — це місце для книжок; Б) In the sports hall — це місце для спорту; Г) In the canteen — це місце для обіду.\n✅ В) In the school garden — there is also a garden.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Oleg wants to buy a new bike. It costs 3,000 hryvnias. He has already saved 1,800.»\nHow much more money does Oleg need?",
+   "options": [
+    "3,000 hryvnias",
+    "1,800 hryvnias",
+    "4,800 hryvnias",
+    "1,200 hryvnias"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Need more — ще потрібно.\n❌ Хибні: А) 3,000 hryvnias — це повна ціна велосипеда; Б) 1,800 hryvnias — це вже накопичена сума; В) 4,800 hryvnias — це сума, а не різниця.\n✅ Г) 1,200 hryvnias — 3,000 мінус 1,800.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the sign.\n«Please do not touch the pictures.»\nWhere can you probably see this notice?",
+   "options": [
+    "In a museum or gallery",
+    "In a shoe shop",
+    "In a bank",
+    "At a bus stop"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Pictures — картини.\n❌ Хибні: Б) In a shoe shop — про взуття не йдеться; В) In a bank — у банку немає картин для огляду; Г) At a bus stop — на зупинці це не потрібно.\n✅ А) In a museum or gallery — pictures — картини, їх не торкаються.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Max is ten years old. He has two sisters and a brother. His brother is older than him.»\nHow many brothers and sisters does Max have?",
+   "options": [
+    "Two",
+    "Four",
+    "One",
+    "Three"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Додайте сестер і брата.\n❌ Хибні: А) Two — бракує одного у конструкції; Б) Four — це більше, ніж є в тексті; В) One — це лише брат у тексті.\n✅ Г) Three — two sisters and a brother.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«I usually get up at seven, but on Sundays I sleep until ten.»\nWhen does the writer get up on Sundays?",
+   "options": [
+    "At seven",
+    "At nine",
+    "At eleven",
+    "At ten"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: But — але, контраст.\n❌ Хибні: А) At seven — це звичайні дні; Б) At nine — про дев’яту не йдеться; В) At eleven — про одинадцяту не йдеться.\n✅ Г) At ten — on Sundays I sleep until ten.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Hello! My name is Julia. I am fourteen. I like painting and swimming. I do not like maths.»\nWhat does Julia like?",
+   "options": [
+    "Singing and dancing",
+    "Painting and swimming",
+    "Painting and maths",
+    "Maths and swimming"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Do not like — не любить.\n❌ Хибні: А) Singing and dancing — про співи не йдеться; В) Painting and maths — математику вона не любить; Г) Maths and swimming — математику вона не любить.\n✅ Б) Painting and swimming — I like painting and swimming.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Bears sleep for most of the winter. In spring they wake up and look for food.»\nWhen do bears wake up?",
+   "options": [
+    "In autumn",
+    "In spring",
+    "In summer",
+    "In winter"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Wake up — прокидатися.\n❌ Хибні: А) In autumn — про осінь не йдеться; В) In summer — про літо не йдеться; Г) In winter — взимку вони сплять.\n✅ Б) In spring — in spring they wake up.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Bees make honey from flowers. One bee visits many flowers every day.»\nWhat do bees use to make honey?",
+   "options": [
+    "Leaves",
+    "Flowers",
+    "Sugar",
+    "Fruit"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: From — з чого.\n❌ Хибні: А) Leaves — про листя не йдеться; В) Sugar — про цукор не йдеться; Г) Fruit — про фрукти не йдеться.\n✅ Б) Flowers — honey from flowers.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the letter.\n«Dear Mr Brown, I would like to book a room for two nights from 5 May. Please tell me the price. Yours sincerely, A. Koval»\nWhy is A. Koval writing?",
+   "options": [
+    "To book a hotel room",
+    "To buy a ticket",
+    "To find a job",
+    "To say thank you"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Book — бронювати.\n❌ Хибні: Б) To buy a ticket — про квиток не йдеться; В) To find a job — про роботу не йдеться; Г) To say thank you — про подяку не йдеться.\n✅ А) To book a hotel room — book a room for two nights.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the notice.\n«The bus to the airport leaves every thirty minutes. The journey takes forty minutes.»\nHow often does the bus leave?",
+   "options": [
+    "Every thirty minutes",
+    "Every forty minutes",
+    "Every ten minutes",
+    "Every hour"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Every — кожні.\n❌ Хибні: Б) Every forty minutes — це тривалість поїздки; В) Every ten minutes — про десять не йдеться; Г) Every hour — про годину не йдеться.\n✅ А) Every thirty minutes — leaves every thirty minutes.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Ivan was hungry, so he made himself a sandwich. Then he sat down and watched a film.»\nWhy did Ivan make a sandwich?",
+   "options": [
+    "Because he was hungry.",
+    "Because the film was long.",
+    "Because he had a guest.",
+    "Because he was tired."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: So — тому, результат.\n❌ Хибні: Б) Because the film was long. — про фільм не пояснено так; В) Because he had a guest. — про гостя не йдеться; Г) Because he was tired. — про втому не йдеться.\n✅ А) Because he was hungry. — so — тому що був голодний.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«The Dnipro is one of the longest rivers in Europe. It flows through Kyiv, the capital of Ukraine.»\nWhich Ukrainian city does the Dnipro flow through?",
+   "options": [
+    "Kyiv",
+    "Lviv",
+    "Kharkiv",
+    "Odesa"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Flows through — протікає через.\n❌ Хибні: Б) Lviv — про Львів не йдеться; В) Kharkiv — про Харків не йдеться; Г) Odesa — про Одесу не йдеться.\n✅ А) Kyiv — it flows through Kyiv.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Kate is sad. She lost her phone on the bus yesterday.»\nWhy is Kate sad?",
+   "options": [
+    "She missed the bus.",
+    "She has no friends.",
+    "She is ill.",
+    "She lost her phone."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Lost — загубила.\n❌ Хибні: А) She missed the bus. — про запізнення не йдеться; Б) She has no friends. — про друзів не йдеться; В) She is ill. — про хворобу не йдеться.\n✅ Г) She lost her phone. — she lost her phone.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the notice.\n«The shop opens at eight and closes at nine in the evening. On Sundays it closes at six.»\nWhat time does the shop close on Sundays?",
+   "options": [
+    "At six",
+    "At eight",
+    "At seven",
+    "At nine"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: On Sundays — у неділю.\n❌ Хибні: Б) At eight — це час відкриття; В) At seven — про сьому не йдеться; Г) At nine — це час закриття в будні.\n✅ А) At six — on Sundays it closes at six.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«A good friend listens to you, helps you when you have problems and never laughs at you.»\nWhich of these does a good friend do?",
+   "options": [
+    "Forgets you",
+    "Argues with you",
+    "Laughs at you",
+    "Listens to you"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Never — ніколи.\n❌ Хибні: А) Forgets you — про це не йдеться; Б) Argues with you — про суперечки не йдеться; В) Laughs at you — friend never laughs at you.\n✅ Г) Listens to you — a good friend listens to you.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Tom's mother bought bread, milk and apples. She forgot to buy cheese.»\nWhat did Tom's mother forget to buy?",
+   "options": [
+    "Milk",
+    "Apples",
+    "Cheese",
+    "Bread"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Forgot — забула.\n❌ Хибні: А) Milk — молоко вона купила; Б) Apples — яблука вона купила; Г) Bread — хліб вона купила.\n✅ В) Cheese — she forgot to buy cheese.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Elephants are the largest land animals. They eat plants and drink a lot of water every day.»\nWhat do elephants eat?",
+   "options": [
+    "Meat",
+    "Fish",
+    "Insects",
+    "Plants"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Eat — їсти.\n❌ Хибні: А) Meat — про м’ясо не йдеться; Б) Fish — про рибу не йдеться; В) Insects — про комах не йдеться.\n✅ Г) Plants — they eat plants.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Every Saturday, Nina visits her grandmother. They cook dinner together and play cards.»\nWhat do Nina and her grandmother do together?",
+   "options": [
+    "They go for a walk.",
+    "They go shopping.",
+    "They watch TV.",
+    "They cook dinner and play cards."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Together — разом.\n❌ Хибні: А) They go for a walk. — про прогулянку не йдеться; Б) They go shopping. — про покупки не йдеться; В) They watch TV. — про телевізор не йдеться.\n✅ Г) They cook dinner and play cards. — cook dinner together and play cards.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the notice.\n«There was a strong wind, so the football match was cancelled.»\nWhy was the football match cancelled?",
+   "options": [
+    "Because of snow",
+    "Because of rain",
+    "Because of a broken ball",
+    "Because of strong wind"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Cancelled — скасований.\n❌ Хибні: А) Because of snow — про сніг не йдеться; Б) Because of rain — про дощ не йдеться; В) Because of a broken ball — про м’яч не йдеться.\n✅ Г) Because of strong wind — so — наслідок сильного вітру.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Mr Smith is a pilot. He flies planes to different countries. He likes his job, but he is often away from his family.»\nWhat is Mr Smith's job?",
+   "options": [
+    "He is a teacher.",
+    "He is a driver.",
+    "He is a doctor.",
+    "He is a pilot."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Pilot — льотчик.\n❌ Хибні: А) He is a teacher. — про вчителя не йдеться; Б) He is a driver. — він водить літаки, а не авто; В) He is a doctor. — про лікаря не йдеться.\n✅ Г) He is a pilot. — Mr Smith is a pilot.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Sasha has a test tomorrow. He is studying hard, so he cannot play computer games tonight.»\nWhy can't Sasha play computer games tonight?",
+   "options": [
+    "Because he is ill.",
+    "Because his computer is broken.",
+    "Because he is studying for a test.",
+    "Because he is at school."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Because — тому що.\n❌ Хибні: А) Because he is ill. — про хворобу не йдеться; Б) Because his computer is broken. — про комп’ютер не йдеться; Г) Because he is at school. — він удома, а не у школі.\n✅ В) Because he is studying for a test. — studying hard for tomorrow's test.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«My grandfather has a small garden. He grows tomatoes, cucumbers and potatoes. In autumn he gives us a big basket of vegetables.»\nWhat does the grandfather grow?",
+   "options": [
+    "Wheat and corn",
+    "Tomatoes, cucumbers and potatoes",
+    "Flowers only",
+    "Apples and pears"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Grows — вирощує.\n❌ Хибні: А) Wheat and corn — про зерно не йдеться; В) Flowers only — про квіти не йдеться; Г) Apples and pears — про фрукти не йдеться.\n✅ Б) Tomatoes, cucumbers and potatoes — he grows tomatoes, cucumbers, potatoes.",
+   "testLevel": 1
+  },
+  {
+   "text": "Read the text.\n«Anna looked at the clock for the third time in five minutes. Her friend was already forty minutes late, and her phone was switched off. \"Where is she?\" Anna muttered.»\nHow does Anna probably feel?",
+   "options": [
+    "Worried",
+    "Bored",
+    "Delighted",
+    "Relaxed"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Inference — висновок із фактів, не прямо сказаний.\n❌ Хибні: Б) Bored — це не випливає з тексту; В) Delighted — подруга запізнюється — немає радості; Г) Relaxed — вона дивиться на годинник нервово.\n✅ А) Worried — часто дивиться на годинник і не може додзвонитися.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«The shop assistant was extremely helpful. She showed us dozens of laptops and patiently explained the difference between them.»\nWhat does 'patiently' mean in this text?",
+   "options": [
+    "In an angry way",
+    "In a very quiet voice",
+    "Calmly, without getting annoyed",
+    "Very quickly"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Patiently — терпляче.\n❌ Хибні: А) In an angry way — це було б angrily; Б) In a very quiet voice — це було б quietly; Г) Very quickly — це було б quickly.\n✅ В) Calmly, without getting annoyed — patiently — терпляче.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«The new library was opened last week. It has more than 50,000 books and a quiet reading room.»\nWhat does 'It' refer to?",
+   "options": [
+    "The week",
+    "The new library",
+    "The book",
+    "The reading room"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Займенник вказує на підмет першого речення.\n❌ Хибні: А) The week — it не про тиждень; В) The book — it — не окрема книжка; Г) The reading room — це лише частина бібліотеки.\n✅ Б) The new library — it — це нова бібліотека.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«I wanted to go to the party. ___, I had too much homework, so I stayed at home.»\nWhich word fits the gap?",
+   "options": [
+    "However",
+    "Moreover",
+    "For example",
+    "Therefore"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Зверніть увагу на логіку: хотів, але не пішов.\n❌ Хибні: Б) Moreover — moreover — додавання; В) For example — for example — приклад; Г) Therefore — therefore — наслідок.\n✅ А) However — however — контраст, «але».",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Every year, people throw away millions of tons of plastic. Much of it ends up in the ocean, where it harms fish and birds. Governments and ordinary people can help by recycling more and using fewer plastic bags.»\nWhat is the main idea of the text?",
+   "options": [
+    "Plastic waste is a serious problem, but people can help to reduce it.",
+    "Plastic bags are cheaper than paper ones.",
+    "Fish are the most intelligent sea animals.",
+    "Governments make too many laws."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Main idea — ширше за деталь.\n❌ Хибні: Б) Plastic bags are cheaper than paper ones. — про ціну не йдеться; В) Fish are the most intelligent sea animals. — про інтелект риб не йдеться; Г) Governments make too many laws. — про закони не йдеться.\n✅ А) Plastic waste is a serious problem, but people can help to reduce it. — охоплює проблему і рішення.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Tired of boring weekends? Join our Adventure Club! Climbing, rafting and camping every Saturday. Book now and get 20% off.»\nWhat is the writer's purpose?",
+   "options": [
+    "To complain about weekends",
+    "To apologise to the members",
+    "To inform about a historical event",
+    "To persuade people to join the club"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Advertisement — реклама, мета переконати.\n❌ Хибні: А) To complain about weekends — це не скарга; Б) To apologise to the members — про вибачення не йдеться; В) To inform about a historical event — про історію не йдеться.\n✅ Г) To persuade people to join the club — рекламний текст закликає приєднатися.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Dima has played the guitar since he was nine. He practises every day for an hour, and last year he won a school competition.»\nWhich statement is TRUE according to the text?",
+   "options": [
+    "Dima practises the guitar every day.",
+    "Dima started playing when he was twelve.",
+    "Dima plays the piano as well.",
+    "Dima won a national competition."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: True — прямо підтверджено текстом.\n❌ Хибні: Б) Dima started playing when he was twelve. — він почав у дев’ять років; В) Dima plays the piano as well. — про піаніно не йдеться; Г) Dima won a national competition. — це був шкільний конкурс.\n✅ А) Dima practises the guitar every day. — he practises every day for an hour.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«The museum is open from 10 a.m. to 5 p.m. A ticket costs £8 for adults and £4 for children. Children under five go free.»\nHow much will two adults and one seven-year-old child pay?",
+   "options": [
+    "£16",
+    "£12",
+    "£24",
+    "£20"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Child aged 7 — не безкоштовно, лише до п’яти років.\n❌ Хибні: А) £16 — це лише два дорослі квитки; Б) £12 — це один дорослий і дитина; В) £24 — це надто багато.\n✅ Г) £20 — 8 + 8 + 4.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«First, wash the apples. Then cut them into small pieces. After that, put them in a bowl and add sugar. Finally, bake for thirty minutes.»\nWhat do you do after cutting the apples?",
+   "options": [
+    "Bake them for thirty minutes",
+    "Wash them",
+    "Put them in a bowl and add sugar",
+    "Throw them away"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: After that — після цього.\n❌ Хибні: А) Bake them for thirty minutes — це останній крок; Б) Wash them — це перший крок; Г) Throw them away — про це не йдеться.\n✅ В) Put them in a bowl and add sugar — after that — наступний крок.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the review.\n«I have never seen such a boring film. The story was slow, the music was terrible, and I fell asleep twice.»\nWhat is the writer's attitude to the film?",
+   "options": [
+    "Admiring",
+    "Enthusiastic",
+    "Critical",
+    "Neutral"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Boring, terrible — негативні оцінки.\n❌ Хибні: А) Admiring — у тексті немає захоплення; Б) Enthusiastic — у тексті немає захоплення; Г) Neutral — автор висловлює думку.\n✅ В) Critical — автор критикує фільм.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Because of heavy rain, the river rose quickly. Several villages were flooded, and hundreds of people had to leave their homes.»\nWhat was the result of the heavy rain?",
+   "options": [
+    "People built new houses.",
+    "The villages became larger.",
+    "The river dried up.",
+    "Several villages were flooded."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Because of — внаслідок.\n❌ Хибні: А) People built new houses. — про будівництво не йдеться; Б) The villages became larger. — про розширення не йдеться; В) The river dried up. — це суперечить тексту.\n✅ Г) Several villages were flooded. — наслідок сильного дощу.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Olena is a very ambitious student. She wants to win a scholarship to a top university.»\nWhat does 'ambitious' mean?",
+   "options": [
+    "Wanting very much to succeed",
+    "Afraid of exams",
+    "Shy and quiet",
+    "Lazy and tired"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Ambitious — амбітний.\n❌ Хибні: Б) Afraid of exams — про страх не йдеться; В) Shy and quiet — про сором’язливість не йдеться; Г) Lazy and tired — це протилежне значення.\n✅ А) Wanting very much to succeed — ambitious — честолюбний.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Scientists studied two groups of students. The first group slept for eight hours; the second slept for only five. The latter got much worse results.»\nWhat does 'The latter' refer to?",
+   "options": [
+    "The first group",
+    "The scientists",
+    "The second group",
+    "All the students"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: The latter — останній із двох згаданих.\n❌ Хибні: А) The first group — це the former; Б) The scientists — вони не отримували результатів; Г) All the students — the latter вказує на одну групу.\n✅ В) The second group — the latter — останній із двох.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«When Peter came home, the lights were off and the door was open. His dog did not run to meet him.»\nWhat can we conclude from the text?",
+   "options": [
+    "Peter has no dog.",
+    "The dog is sleeping.",
+    "Something unusual has happened.",
+    "Peter is very happy."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Inference — висновок із деталей.\n❌ Хибні: А) Peter has no dog. — собака згаданий у тексті; Б) The dog is sleeping. — про сон не йдеться; Г) Peter is very happy. — про радість не йдеться.\n✅ В) Something unusual has happened. — це випливає з фактів.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Learning a foreign language has many benefits. It improves your memory, helps you meet new people, and can even help you find a better job.»\nWhat is the main idea of the text?",
+   "options": [
+    "People should not travel.",
+    "Languages are very difficult to learn.",
+    "Learning languages is useful in many ways.",
+    "Memory is the most important skill."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Benefits — переваги.\n❌ Хибні: А) People should not travel. — про подорожі не йдеться; Б) Languages are very difficult to learn. — про складність не йдеться; Г) Memory is the most important skill. — це лише одна деталь.\n✅ В) Learning languages is useful in many ways. — текст перелічує переваги.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«The new park is the most beautiful place in our city. It opened in 2021 and has more than 500 trees.»\nWhich sentence expresses the writer's opinion?",
+   "options": [
+    "The new park is the most beautiful place in our city.",
+    "The park opened in 2021.",
+    "The park has more than 500 trees.",
+    "The park is in a city."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Opinion — суб’єктивна думка.\n❌ Хибні: Б) The park opened in 2021. — це факт, а не думка; В) The park has more than 500 trees. — це факт, можна порахувати; Г) The park is in a city. — це факт, а не думка.\n✅ А) The new park is the most beautiful place in our city. — це оцінка, її не перевірити.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Although it was raining, we ___.»\nWhich ending fits best?",
+   "options": [
+    "decided to go for a walk",
+    "felt happy that it was sunny",
+    "opened the window to let the sun in",
+    "stayed at home because of the rain"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Although — хоча, потрібен контраст.\n❌ Хибні: Б) felt happy that it was sunny — суперечить розпочатому реченню; В) opened the window to let the sun in — це суперечить дощу; Г) stayed at home because of the rain — це не контраст.\n✅ А) decided to go for a walk — although — контраст.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«The film received mixed reviews: some critics loved it, while others thought it was dull.»\nWhat does 'mixed' mean in this text?",
+   "options": [
+    "Very short",
+    "Only negative",
+    "Both positive and negative",
+    "Only positive"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Mixed — змішані.\n❌ Хибні: А) Very short — про довжину не йдеться; Б) Only negative — це суперечить some loved; Г) Only positive — це суперечить while others.\n✅ В) Both positive and negative — some loved, others thought dull.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the timetable note.\n«The train from Lviv leaves at 6:40 and arrives in Kyiv at 12:10.»\nHow long does the journey take?",
+   "options": [
+    "5 hours 30 minutes",
+    "4 hours 30 minutes",
+    "5 hours 10 minutes",
+    "6 hours 30 minutes"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Рахуйте від відправлення до прибуття.\n❌ Хибні: Б) 4 hours 30 minutes — менше за реальну різницю; В) 5 hours 10 minutes — менше за реальну різницю; Г) 6 hours 30 minutes — перевищує реальну різницю.\n✅ А) 5 hours 30 minutes — 12:10 мінус 6:40.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the rule.\n«Only students who have read at least three books may take part in the competition. Oksana has read two books; Dima has read four.»\nWho may take part in the competition?",
+   "options": [
+    "Both of them",
+    "Neither of them",
+    "Only Dima",
+    "Only Oksana"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: At least three — не менше трьох.\n❌ Хибні: А) Both of them — вимога не виконана Оксаною; Б) Neither of them — Dima виконує вимогу; Г) Only Oksana — вона прочитала лише дві.\n✅ В) Only Dima — він прочитав щонайменше три.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the notice.\n«LOST: a black backpack with a blue key ring. If found, please call 050 123 4567.»\nWhy was the notice written?",
+   "options": [
+    "To invite people to a party",
+    "To advertise a shop",
+    "To ask for help in finding a lost thing",
+    "To sell a backpack"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Notice — оголошення про пропажу.\n❌ Хибні: А) To invite people to a party — про вечірку не йдеться; Б) To advertise a shop — про магазин не йдеться; Г) To sell a backpack — про продаж не йдеться.\n✅ В) To ask for help in finding a lost thing — lost — загублено.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Both Ann and Bob wanted the red bike, but only Bob got it. Ann took the blue one.»\nWho took the blue bike?",
+   "options": [
+    "Nobody",
+    "Ann",
+    "Both of them",
+    "Bob"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Уважно звіряйте імена і кольори.\n❌ Хибні: А) Nobody — Ann узяла blue one; В) Both of them — вони взяли різні велосипеди; Г) Bob — Bob got the red bike.\n✅ Б) Ann — Ann took the blue one.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«He did not pass the first time, but he did not give up. He tried again, and this time he passed with flying colours.»\nWhat does 'with flying colours' mean?",
+   "options": [
+    "With help from friends",
+    "With great difficulty",
+    "Very late",
+    "With excellent results"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Flying colours — блискучий успіх.\n❌ Хибні: А) With help from friends — про допомогу не йдеться; Б) With great difficulty — це протилежний зміст; В) Very late — про запізнення не йдеться.\n✅ Г) With excellent results — ідіома — з відзнакою.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«The village is tiny — only twenty families live there.»\nWhat does 'tiny' mean?",
+   "options": [
+    "Very far",
+    "Very small",
+    "Very beautiful",
+    "Very old"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Tiny — дуже маленький.\n❌ Хибні: А) Very far — про відстань не йдеться; В) Very beautiful — про красу не йдеться; Г) Very old — про вік не йдеться.\n✅ Б) Very small — tiny — крихітний.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Marta usually walks to work, but today it was snowing heavily, so she took a taxi.»\nWhy did Marta take a taxi?",
+   "options": [
+    "Because it was snowing heavily",
+    "Because she was ill",
+    "Because she was late for work",
+    "Because her feet hurt"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: So — тому, наслідок.\n❌ Хибні: Б) Because she was ill — про хворобу не йдеться; В) Because she was late for work — про запізнення не йдеться; Г) Because her feet hurt — про ноги не йдеться.\n✅ А) Because it was snowing heavily — so — наслідок снігопаду.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«Some people prefer cats because they are independent. Others choose dogs because they are loyal.»\nWhy do some people prefer dogs?",
+   "options": [
+    "Because dogs are independent",
+    "Because dogs sleep a lot",
+    "Because dogs are cheap",
+    "Because dogs are loyal"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Others — інші люди.\n❌ Хибні: А) Because dogs are independent — це про кішок; Б) Because dogs sleep a lot — про сон не йдеться; В) Because dogs are cheap — про ціну не йдеться.\n✅ Г) Because dogs are loyal — others choose dogs because loyal.",
+   "testLevel": 2
+  },
+  {
+   "text": "Read the text.\n«In many cities, people now rent city bikes for short trips. The bikes are cheap, they do not pollute the air, and they help to reduce traffic. However, some residents complain that the bikes are left on pavements and block the way.»\nWhich sentence is the best summary of the text?",
+   "options": [
+    "City bikes are more expensive than cars.",
+    "People never complain about city bikes.",
+    "City bikes have clear advantages, but they can also cause problems.",
+    "City bikes should be banned."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Summary — стислий зміст усього тексту.\n❌ Хибні: А) City bikes are more expensive than cars. — про ціну автомобілів не йдеться; Б) People never complain about city bikes. — це суперечить тексту; Г) City bikes should be banned. — автор не робить такого висновку.\n✅ В) City bikes have clear advantages, but they can also cause problems. — охоплює переваги та проблему.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Maria had always wanted to be a vet. (1) ______ She spent every weekend at the animal shelter, feeding and walking the dogs.»\nWhich sentence fits gap (1) best?",
+   "options": [
+    "She lives in a very large flat.",
+    "However, she hated animals.",
+    "Her love for animals had started when she was five.",
+    "She is a doctor now."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Sentence insertion — перевіряйте логіку.\n❌ Хибні: А) She lives in a very large flat. — не пов’язано за змістом; Б) However, she hated animals. — суперечить усьому тексту; Г) She is a doctor now. — суперечить мрії стати ветеринаром.\n✅ В) Her love for animals had started when she was five. — логічно веде до наступного речення.",
+   "testLevel": 3
+  },
+  {
+   "text": "Put the sentences in the correct order.\n(A) At noon they finally reached the top.\n(B) The group set off at dawn.\n(C) By nine o'clock the path had become very steep.\n(D) Before leaving, they had a quick breakfast in the hut.",
+   "options": [
+    "C – B – D – A",
+    "D – B – C – A",
+    "B – D – C – A",
+    "A – D – B – C"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Time words — before, by nine, at noon.\n❌ Хибні: А) C – B – D – A — steep path не може бути першим; В) B – D – C – A — сніданок має бути до виходу; Г) A – D – B – C — вершина — останній етап.\n✅ Б) D – B – C – A — breakfast before leaving, then set off.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the paragraph.\n«Honey bees are very important for farmers. They help flowers to produce fruit. Bees live in groups called colonies. My uncle has a red car. A farmer without bees would have fewer apples.»\nWhich sentence does NOT belong to the paragraph?",
+   "options": [
+    "A farmer without bees would have fewer apples.",
+    "Bees live in groups called colonies.",
+    "They help flowers to produce fruit.",
+    "My uncle has a red car."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Odd sentence — зайве речення.\n❌ Хибні: А) A farmer without bees would have fewer apples. — це підсумок абзацу; Б) Bees live in groups called colonies. — воно про бджіл; В) They help flowers to produce fruit. — воно пояснює користь бджіл.\n✅ Г) My uncle has a red car. — воно не про бджіл.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Although the new law was supported by many citizens, it was strongly criticised by business owners, who believed that it would increase their costs.»\nWhat does 'it' (after 'believed that') refer to?",
+   "options": [
+    "The business",
+    "The criticism",
+    "The citizens",
+    "The new law"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Referent — слово, на яке вказує займенник.\n❌ Хибні: А) The business — it не про бізнес загалом; Б) The criticism — це не те, що збільшує витрати; В) The citizens — це не підмет.\n✅ Г) The new law — вони вважали, що закон збільшить витрати.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Of course, nobody forces students to use their phones in class. But when almost everyone does it, how can anyone say that it is a free choice?»\nWhat is the writer's opinion?",
+   "options": [
+    "Students do not really choose freely.",
+    "Teachers should use phones more.",
+    "Phones are forbidden in class.",
+    "Students never use their phones."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Rhetorical question — риторичне питання виражає думку.\n❌ Хибні: Б) Teachers should use phones more. — про вчителів не йдеться; В) Phones are forbidden in class. — про заборону не йдеться; Г) Students never use their phones. — це суперечить тексту.\n✅ А) Students do not really choose freely. — автор сумнівається у вільному виборі.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Last year the company's profits soared, and the owners decided to give every worker a bonus.»\nWhat does 'soared' mean?",
+   "options": [
+    "Were checked",
+    "Fell suddenly",
+    "Stayed the same",
+    "Rose very quickly"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Soared — злетіли вгору.\n❌ Хибні: А) Were checked — про перевірку не йдеться; Б) Fell suddenly — це протилежне значення; В) Stayed the same — це не відповідає bonus.\n✅ Г) Rose very quickly — soar — різко зростати.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Sadly, the once-lively market is now almost empty, and only a few old traders remain.»\nWhat is the tone of the sentence?",
+   "options": [
+    "Humorous",
+    "Nostalgic and sad",
+    "Angry and aggressive",
+    "Cheerful and excited"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Tone — настрій автора.\n❌ Хибні: А) Humorous — про жарт не йдеться; В) Angry and aggressive — про гнів не йдеться; Г) Cheerful and excited — це суперечить sadly.\n✅ Б) Nostalgic and sad — once-lively, sadly — жаль за минулим.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Before you buy a second-hand phone, always check the battery and ask for the receipt. Remember: if the price is too good to be true, it probably is.»\nWhat is the writer's purpose?",
+   "options": [
+    "To advise buyers",
+    "To advertise a new phone",
+    "To tell a funny story",
+    "To describe a shop"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Always, remember — поради.\n❌ Хибні: Б) To advertise a new phone — про рекламу не йдеться; В) To tell a funny story — про історію не йдеться; Г) To describe a shop — про магазин не йдеться.\n✅ А) To advise buyers — imperatives — прямі поради.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Unlike her sister, who loves crowds and noisy parties, Kira prefers quiet places and long walks.»\nWhat is Kira like?",
+   "options": [
+    "She likes quiet places.",
+    "She loves crowds.",
+    "She loves noisy parties.",
+    "She hates walking."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Unlike — на відміну від.\n❌ Хибні: Б) She loves crowds. — так робить сестра; В) She loves noisy parties. — так робить сестра; Г) She hates walking. — вона любить прогулянки.\n✅ А) She likes quiet places. — unlike — на відміну від сестри.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the prices.\n«Adult: £12. Child: £6. Family ticket (2 adults and 2 children): £30. Children under 4 go free.»\nWhat is the cheapest way for two adults and two children aged 10 and 12 to enter?",
+   "options": [
+    "£24",
+    "£30",
+    "£36",
+    "£40"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Порівняйте 2×12 + 2×6 = 36 із сімейним.\n❌ Хибні: А) £24 — це ціна лише двох дорослих; В) £36 — це ціна окремих квитків; Г) £40 — такої ціни немає.\n✅ Б) £30 — сімейний квиток дешевший.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«After the factory closed, many families left the town. Shops lost customers, and the school had to close two classes.»\nWhich sentence best describes the effect of the factory's closing?",
+   "options": [
+    "The shops became more popular.",
+    "The town became smaller and poorer.",
+    "The school opened new classes.",
+    "The town built a new factory."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Effect — наслідок.\n❌ Хибні: А) The shops became more popular. — магазини втратили клієнтів; В) The school opened new classes. — школа закрила класи, а не відкрила; Г) The town built a new factory. — про це в тексті не сказано.\n✅ Б) The town became smaller and poorer. — це випливає з усіх фактів.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Some people say that homework is useless. However, research shows that regular practice helps students remember new material.»\nWhat is the writer's view of homework?",
+   "options": [
+    "It is useless.",
+    "It is only for older students.",
+    "It is useful.",
+    "It should be longer."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: However — контраст, головна думка після нього.\n❌ Хибні: А) It is useless. — це думка «деяких людей»; Б) It is only for older students. — про вік не йдеться; Г) It should be longer. — про тривалість не йдеться.\n✅ В) It is useful. — however — автор не згоден із критикою.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the announcement.\n«If the temperature falls below zero, the match will be moved indoors. If it rains, the match will be postponed.»\nWhat will happen if the temperature is minus two and it is not raining?",
+   "options": [
+    "The match will be postponed.",
+    "The match will be played outside.",
+    "The match will be cancelled.",
+    "The match will be moved indoors."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Below zero — нижче нуля.\n❌ Хибні: А) The match will be postponed. — це лише у разі дощу; Б) The match will be played outside. — умова холоду не виконана; В) The match will be cancelled. — про скасування не йдеться.\n✅ Г) The match will be moved indoors. — below zero — нижче нуля.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«She was over the moon when she heard the exam results.»\nWhat does 'over the moon' mean?",
+   "options": [
+    "Very worried",
+    "Surprised and afraid",
+    "Very tired",
+    "Extremely happy"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Over the moon — у захваті.\n❌ Хибні: А) Very worried — це суперечить results; Б) Surprised and afraid — про страх не йдеться; В) Very tired — про втому не йдеться.\n✅ Г) Extremely happy — ідіома — на сьомому небі.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«The coach never praised the team after a match; he only listed their mistakes.»\nWhat does this suggest about the coach?",
+   "options": [
+    "He is a poor player.",
+    "He is always happy.",
+    "He is very demanding.",
+    "He is very generous."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Suggest — натякає.\n❌ Хибні: А) He is a poor player. — про його гру не йдеться; Б) He is always happy. — це суперечить тексту; Г) He is very generous. — він ніколи не хвалить.\n✅ В) He is very demanding. — він лише критикує.",
+   "testLevel": 3
+  },
+  {
+   "text": "Which sentence is the most formal?",
+   "options": [
+    "Hi! I saw your ad and wanted to ask something.",
+    "I am writing to enquire about the position advertised in your newspaper.",
+    "Tell me about the job, please.",
+    "Hey, what is this job about?"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Formal — Dear Sir or Madam, I am writing to….\n❌ Хибні: А) Hi! I saw your ad and wanted to ask something. — це розмовний стиль; В) Tell me about the job, please. — це надто пряма вимога; Г) Hey, what is this job about? — це дуже розмовний стиль.\n✅ Б) I am writing to enquire about the position advertised in your newspaper. — formal — I am writing to….",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«In Japan, many schools ask pupils to clean their classrooms every day. According to teachers, this teaches children to respect their school and to work as a team.»\nWhy does the writer mention Japan?",
+   "options": [
+    "To compare Japan with Ukraine",
+    "To explain how to clean a classroom",
+    "To give an example of a useful school tradition",
+    "To show that Japanese schools are dirty"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Example — приклад.\n❌ Хибні: А) To compare Japan with Ukraine — порівняння не робиться; Б) To explain how to clean a classroom — про спосіб прибирання не йдеться; Г) To show that Japanese schools are dirty — це суперечить тексту.\n✅ В) To give an example of a useful school tradition — це приклад із японських шкіл.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Most of the plastic in the ocean breaks into tiny pieces called microplastics. These pieces are eaten by fish, and then by people who eat the fish.»\nWhat is the best title for the text?",
+   "options": [
+    "How plastic returns to our plates",
+    "Why fish are healthy food",
+    "The history of plastic",
+    "A visit to the ocean"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Best title — головна думка.\n❌ Хибні: Б) Why fish are healthy food — про користь риби не йдеться; В) The history of plastic — про історію не йдеться; Г) A visit to the ocean — про візит не йдеться.\n✅ А) How plastic returns to our plates — охоплює шлях пластику до людини.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Tom promised to call me at six, but he did not. At seven I phoned him, and his brother answered: \"He has gone to the cinema.\"»\nWhat can we conclude about Tom?",
+   "options": [
+    "He forgot or ignored his promise.",
+    "He was working late.",
+    "He was waiting for the writer.",
+    "He was ill at home."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Conclusion — висновок із фактів.\n❌ Хибні: Б) He was working late. — про роботу не йдеться; В) He was waiting for the writer. — він пішов з дому; Г) He was ill at home. — він пішов у кіно.\n✅ А) He forgot or ignored his promise. — він не зателефонував і пішов у кіно.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«Everybody in the office was invited to the party except Sam, who was on holiday.»\nWhich statement is TRUE?",
+   "options": [
+    "Sam was not at the party because he was on holiday.",
+    "Sam was not invited.",
+    "Sam organised the party.",
+    "Sam was ill."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Except — крім.\n❌ Хибні: Б) Sam was not invited. — except — але його запросили б; він був у відпустці; В) Sam organised the party. — про організацію не йдеться; Г) Sam was ill. — про хворобу не йдеться.\n✅ А) Sam was not at the party because he was on holiday. — except Sam, who was on holiday.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«The earliest bus leaves at 5:30, but most people prefer to take the 7:15 bus because it is not so crowded.»\nWhich statement is NOT stated in the text?",
+   "options": [
+    "The 5:30 bus is cheaper than the 7:15 bus.",
+    "Many people take the 7:15 bus.",
+    "The 7:15 bus is not so crowded.",
+    "The 5:30 bus is the earliest."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Not stated — в тексті про це нічого немає.\n❌ Хибні: Б) Many people take the 7:15 bus. — most people prefer to take it; В) The 7:15 bus is not so crowded. — так сказано в тексті; Г) The 5:30 bus is the earliest. — the earliest bus leaves at 5:30.\n✅ А) The 5:30 bus is cheaper than the 7:15 bus. — про ціну автобусів не йдеться.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«By the time the ambulance arrived, the injured man had already been taken to hospital by a passer-by.»\nWhat happened first?",
+   "options": [
+    "The ambulance arrived.",
+    "The man was injured.",
+    "The man left the hospital.",
+    "A passer-by took the man to hospital."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: By the time — до того моменту.\n❌ Хибні: А) The ambulance arrived. — це сталося пізніше; Б) The man was injured. — це перша подія, але питання про дві дії; В) The man left the hospital. — про це не йдеться.\n✅ Г) A passer-by took the man to hospital. — had been taken — раніше.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read the text.\n«It is often said that money cannot buy happiness. This may be true, but it can certainly buy comfort, safety and time for hobbies.»\nWhat is the writer's attitude?",
+   "options": [
+    "Partly agrees with the saying but adds a different view",
+    "Thinks money is not important at all",
+    "Completely agrees with the saying",
+    "Thinks only hobbies make people happy"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: But — після нього головна думка.\n❌ Хибні: Б) Thinks money is not important at all — автор називає переваги грошей; В) Completely agrees with the saying — but змінює думку автора; Г) Thinks only hobbies make people happy — про це не йдеться.\n✅ А) Partly agrees with the saying but adds a different view — may be true, but — часткова згода.",
+   "testLevel": 3
+  }
+ ],
+ "cards": [
+  {
+   "question": "Skimming",
+   "answer": "Швидке читання для загальної ідеї: прочитайте заголовок, перше й останнє речення абзаців. Деталі на цьому етапі не потрібні."
+  },
+  {
+   "question": "Scanning",
+   "answer": "Пошук конкретної інформації — дати, імені, числа, місця. Очима «пробігаємо» текст і шукаємо потрібне слово."
+  },
+  {
+   "question": "Main idea",
+   "answer": "Головна думка — про що весь текст. Вона ширша за окремий факт і часто виражена в першому чи останньому реченні."
+  },
+  {
+   "question": "Detail question",
+   "answer": "Питання на деталь: Who/When/Where/How many. Відповідь прямо є в тексті, часто перефразована синонімами."
+  },
+  {
+   "question": "True / False / Not stated",
+   "answer": "True — прямо підтверджено; False — прямо суперечить тексту; Not stated — в тексті про це нічого немає, навіть якщо це логічно."
+  },
+  {
+   "question": "Inference",
+   "answer": "Висновок «між рядків»: прямо не сказано, але випливає з фактів. Слова-сигнали: suggests, implies, probably, we can conclude."
+  },
+  {
+   "question": "Reference words",
+   "answer": "it, they, this, that, which, he, she — вказують на раніше згаданий іменник. Підставте слово в речення та перевірте, чи є сенс."
+  },
+  {
+   "question": "Vocabulary in context",
+   "answer": "Значення слова визначайте за сусідніми словами. Одне слово має різні значення: run a race / run a company."
+  },
+  {
+   "question": "Linking words",
+   "answer": "Додавання: and, also, moreover. Контраст: but, however, although. Причина: because, since. Наслідок: so, therefore. Послідовність: first, then, finally."
+  },
+  {
+   "question": "Text types",
+   "answer": "article (стаття), blog (блог), review (відгук), advertisement (реклама), notice (оголошення), email/letter (лист), report (звіт), story (оповідання), interview (інтерв'ю), biography (біографія)."
+  },
+  {
+   "question": "Formal vs informal",
+   "answer": "Formal: Dear Sir or Madam, I am writing to…, Yours faithfully. Informal: Hi!, Thanks for your letter, Write soon, Love."
+  },
+  {
+   "question": "Author's purpose",
+   "answer": "to inform (повідомити), to persuade (переконати), to entertain (розважити), to advise (порадити), to describe (описати), to complain (поскаржитися)."
+  },
+  {
+   "question": "Tone and attitude",
+   "answer": "positive: enthusiastic, optimistic, admiring; negative: critical, disappointed, angry; neutral: objective, factual; also humorous, ironic."
+  },
+  {
+   "question": "Best title",
+   "answer": "Хороший заголовок виражає головну думку всього тексту, а не лише один факт чи один абзац."
+  },
+  {
+   "question": "Matching headings",
+   "answer": "Прочитайте перше і останнє речення абзацу, знайдіть ключові слова. Зайвий заголовок завжди є — не поспішайте."
+  },
+  {
+   "question": "Sentence insertion",
+   "answer": "Перевірте логіку, займенники (this, they), сполучники (However, For example) і послідовність часу — вони підкажуть місце речення."
+  },
+  {
+   "question": "Paragraph structure",
+   "answer": "Topic sentence — головна думка абзацу, supporting sentences — приклади та факти, concluding sentence — підсумок."
+  },
+  {
+   "question": "Distractors",
+   "answer": "Пастки: слова з тексту у хибній відповіді, перебільшення (always, never, all), частково правильні варіанти."
+  },
+  {
+   "question": "Question words",
+   "answer": "Who — особа; When — час; Where — місце; Why — причина; How many/much — кількість; How — спосіб."
+  },
+  {
+   "question": "Synonyms in questions",
+   "answer": "Запитання часто перефразовує текст: huge = very big, buy = purchase. Шукайте синоніми, а не ті самі слова."
+  },
+  {
+   "question": "Numbers and time",
+   "answer": "Уважно перевіряйте: питають про початок, кінець чи тривалість? 7:30–9:30 — це дві години, а не 9:30."
+  },
+  {
+   "question": "Comparing in texts",
+   "answer": "than, as … as, the most, similar to, unlike, whereas — слова порівняння. Вони показують різницю між двома фактами."
+  },
+  {
+   "question": "Reading tactics",
+   "answer": "1) Прочитайте питання. 2) Підкресліть ключові слова. 3) Знайдіть місце в тексті. 4) Відкиньте хибні варіанти. 5) Перевірте відповідь."
+  },
+  {
+   "question": "Writer's opinion",
+   "answer": "Слова I think, in my opinion, clearly, unfortunately показують думку автора, а не факт. Факт можна перевірити, думка — ні."
+  }
+ ]
+}

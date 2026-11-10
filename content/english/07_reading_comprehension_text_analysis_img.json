@@ -1,0 +1,1398 @@
+{
+ "subject": "ENGLISH",
+ "topic": "Reading Comprehension & Text Analysis",
+ "questions": [
+  {
+   "text": "Blog «My first week at a new school». Why did the writer's family move to Lviv?",
+   "options": [
+    "Because of her friends",
+    "Because of her father's job",
+    "Because of a choir",
+    "Because of her school"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Dad's job — робота тата.\n❌ Хибні: А) Because of her friends — вона сумує за старими друзями; В) Because of a choir — до хору вона приєдналася пізніше; Г) Because of her school — школа була новою після переїзду.\n✅ Б) Because of her father's job — because of my dad’s job.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p1_blog.svg"
+  },
+  {
+   "text": "Blog «My first week at a new school». Who invited the writer to sit with her at lunch?",
+   "options": [
+    "The teacher",
+    "The conductor",
+    "Her dad",
+    "Marta"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Invited — запросила.\n❌ Хибні: А) The teacher — учитель лише попросив представитися; Б) The conductor — диригент хвалить голос; В) Her dad — тато не в школі.\n✅ Г) Marta — a girl called Marta.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p1_blog.svg"
+  },
+  {
+   "text": "Blog «My first week at a new school». How did the writer feel on her first Monday?",
+   "options": [
+    "Bored",
+    "Frightened",
+    "Relaxed",
+    "Angry"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Terrified — дуже наляканий.\n❌ Хибні: А) Bored — про нудьгу не йдеться; В) Relaxed — це суперечить terrified; Г) Angry — про злість не йдеться.\n✅ Б) Frightened — terrified — дуже налякана.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p1_blog.svg"
+  },
+  {
+   "text": "Blog «My first week at a new school». What does the writer like most about the school?",
+   "options": [
+    "The teachers",
+    "The lunch",
+    "The choir",
+    "The lessons"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Like most — подобається найбільше.\n❌ Хибні: А) The teachers — про вчителів не сказано; Б) The lunch — про обід нічого особливого; Г) The lessons — про уроки не сказано.\n✅ В) The choir — what I like most is the school choir.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p1_blog.svg"
+  },
+  {
+   "text": "Blog «My first week at a new school». When did she join the choir?",
+   "options": [
+    "In August",
+    "On Wednesday",
+    "On Thursday",
+    "On Monday"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Joined — приєдналася.\n❌ Хибні: А) In August — у серпні вони переїхали; Б) On Wednesday — у середу вона познайомилася з класом; Г) On Monday — у понеділок вона лише познайомилася.\n✅ В) On Thursday — I joined it on Thursday.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p1_blog.svg"
+  },
+  {
+   "text": "Blog «My first week at a new school». Which statement is TRUE according to the text?",
+   "options": [
+    "She writes to her old friends every evening.",
+    "She knew many people in Lviv.",
+    "Her classmates speak very slowly.",
+    "Marta is her cousin."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Text — писати повідомлення.\n❌ Хибні: Б) She knew many people in Lviv. — вона нікого не знала; В) Her classmates speak very slowly. — вони говорять швидко; Г) Marta is her cousin. — про це в тексті не сказано.\n✅ А) She writes to her old friends every evening. — I text them every evening.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p1_blog.svg"
+  },
+  {
+   "text": "Blog «My first week at a new school». How does the writer feel about the future at the end of the text?",
+   "options": [
+    "Hopeful",
+    "Indifferent",
+    "Hopeless",
+    "Angry"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Easier — легше, оптимістичний настрій.\n❌ Хибні: Б) Indifferent — вона не байдужа до школи; В) Hopeless — вона сподівається на краще; Г) Angry — про злість не йдеться.\n✅ А) Hopeful — I think the second week will be easier.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p1_blog.svg"
+  },
+  {
+   "text": "Blog «My first week at a new school». Which statement is NOT stated in the text?",
+   "options": [
+    "She forgot part of her introduction.",
+    "Her mother works in Lviv.",
+    "She joined the school choir.",
+    "Some classmates speak very fast."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Not stated — не згадано.\n❌ Хибні: А) She forgot part of her introduction. — про це сказано; В) She joined the school choir. — про це сказано; Г) Some classmates speak very fast. — про це сказано.\n✅ Б) Her mother works in Lviv. — про роботу мами не йдеться.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p1_blog.svg"
+  },
+  {
+   "text": "Article «Teenagers and sleep». How many hours of sleep do teenagers need?",
+   "options": [
+    "Eight to ten hours",
+    "Ten to twelve hours",
+    "Four to six hours",
+    "Six to seven hours"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Need — потрібно.\n❌ Хибні: Б) Ten to twelve hours — про такий діапазон не йдеться; В) Four to six hours — про такий діапазон не йдеться; Г) Six to seven hours — стільки вони реально сплять.\n✅ А) Eight to ten hours — between eight and ten hours.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p2_sleep.svg"
+  },
+  {
+   "text": "Article «Teenagers and sleep». How much do most teenagers actually sleep?",
+   "options": [
+    "Eight to ten hours",
+    "About six or seven hours",
+    "Nine or ten hours",
+    "About four hours"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Actually — насправді.\n❌ Хибні: А) Eight to ten hours — стільки їм потрібно; В) Nine or ten hours — про це не йдеться; Г) About four hours — про це не йдеться.\n✅ Б) About six or seven hours — surveys show only six or seven.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p2_sleep.svg"
+  },
+  {
+   "text": "Article «Teenagers and sleep». Why do young people feel sleepy later in the evening?",
+   "options": [
+    "Their body clock changes in the teenage years.",
+    "They have too much homework.",
+    "They drink too much coffee.",
+    "They do not eat enough."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Body clock — біологічний годинник.\n❌ Хибні: Б) They have too much homework. — про домашнє завдання не йдеться; В) They drink too much coffee. — кава — лише порада уникати; Г) They do not eat enough. — про їжу не йдеться.\n✅ А) Their body clock changes in the teenage years. — так сказано в другому абзаці.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p2_sleep.svg"
+  },
+  {
+   "text": "Article «Teenagers and sleep». What happened in the English town where lessons started at 10 a.m.?",
+   "options": [
+    "Exam results improved.",
+    "Students got worse marks.",
+    "Lessons became shorter.",
+    "Teachers stopped working."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Instead of 8:30 — замість 8:30.\n❌ Хибні: Б) Students got worse marks. — це суперечить тексту; В) Lessons became shorter. — про тривалість не йдеться; Г) Teachers stopped working. — про це не йдеться.\n✅ А) Exam results improved. — results improved and fewer illnesses.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p2_sleep.svg"
+  },
+  {
+   "text": "Article «Teenagers and sleep». What does the blue light from a phone screen do?",
+   "options": [
+    "It improves eyesight.",
+    "It helps students relax.",
+    "It makes it harder to fall asleep.",
+    "It makes students more intelligent."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Harder — важче.\n❌ Хибні: А) It improves eyesight. — про зір не йдеться; Б) It helps students relax. — це суперечить тексту; Г) It makes students more intelligent. — про інтелект не йдеться.\n✅ В) It makes it harder to fall asleep. — так сказано в тексті.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p2_sleep.svg"
+  },
+  {
+   "text": "Article «Teenagers and sleep». What does \"they\" refer to in \"they were less often ill\"?",
+   "options": [
+    "The exams",
+    "The students",
+    "The teachers",
+    "The doctors"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Less often ill — рідше хворіли.\n❌ Хибні: А) The exams — екзамени не хворіють; В) The teachers — про вчителів не йдеться; Г) The doctors — лікарі не є підметом.\n✅ Б) The students — у реченні йдеться про учнів.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p2_sleep.svg"
+  },
+  {
+   "text": "Article «Teenagers and sleep». What is the best title for the text?",
+   "options": [
+    "How to use a smartphone",
+    "Why teenagers need more sleep",
+    "A day in the life of a doctor",
+    "The history of English schools"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Best title — головна ідея.\n❌ Хибні: А) How to use a smartphone — це лише одна з причин; В) A day in the life of a doctor — про лікаря не йдеться; Г) The history of English schools — це лише одна згадка.\n✅ Б) Why teenagers need more sleep — охоплює проблему, причини й поради.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p2_sleep.svg"
+  },
+  {
+   "text": "Article «Teenagers and sleep». Which advice is NOT given by the experts?",
+   "options": [
+    "Switch off your phone an hour before bed.",
+    "Do sport every evening.",
+    "Go to bed at the same time every day.",
+    "Avoid coffee in the evening."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: NOT given — не дано.\n❌ Хибні: А) Switch off your phone an hour before bed. — ця порада є в тексті; В) Go to bed at the same time every day. — ця порада є в тексті; Г) Avoid coffee in the evening. — ця порада є в тексті.\n✅ Б) Do sport every evening. — про спорт не йдеться.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p2_sleep.svg"
+  },
+  {
+   "text": "Article «Teenagers and sleep». What is the writer's main purpose?",
+   "options": [
+    "To complain about teachers",
+    "To sell phones",
+    "To inform and advise",
+    "To entertain readers"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Experts advise — експерти радять.\n❌ Хибні: А) To complain about teachers — про скаргу не йдеться; Б) To sell phones — про продаж не йдеться; Г) To entertain readers — це не гумористичний текст.\n✅ В) To inform and advise — подає факти й дає поради.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p2_sleep.svg"
+  },
+  {
+   "text": "Text about the bicycle. Where was the first bicycle-like machine built?",
+   "options": [
+    "In France",
+    "In Germany",
+    "In England",
+    "In Italy"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Built — побудована.\n❌ Хибні: А) In France — про Францію не йдеться; В) In England — про Англію не йдеться; Г) In Italy — про Італію не йдеться.\n✅ Б) In Germany — built in Germany in 1817.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p3_bicycle.svg"
+  },
+  {
+   "text": "Text about the bicycle. What did the first machine NOT have?",
+   "options": [
+    "A chain",
+    "Wheels",
+    "Pedals",
+    "A rider"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: No pedals — без педалей.\n❌ Хибні: А) A chain — це з’явилося пізніше, але питання про pedals; Б) Wheels — у неї було два колеса; Г) A rider — на ній їздили.\n✅ В) Pedals — two wheels but no pedals.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p3_bicycle.svg"
+  },
+  {
+   "text": "Text about the bicycle. Why did people call the 1860s machine a \"boneshaker\"?",
+   "options": [
+    "Because it had a huge wheel",
+    "Because it was very fast",
+    "Because the ride was uncomfortable",
+    "Because it was made of bones"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Boneshaker — «трясе кістки».\n❌ Хибні: А) Because it had a huge wheel — це про 1870-ті роки; Б) Because it was very fast — про швидкість не йдеться; Г) Because it was made of bones — це буквальне тлумачення.\n✅ В) Because the ride was uncomfortable — so uncomfortable — через незручність.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p3_bicycle.svg"
+  },
+  {
+   "text": "Text about the bicycle. Why was the bicycle with a huge front wheel dangerous?",
+   "options": [
+    "It was too heavy to ride.",
+    "It had no brakes at all.",
+    "A fall could cause serious injuries.",
+    "It broke very often."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Dangerous — небезпечний.\n❌ Хибні: А) It was too heavy to ride. — про вагу не йдеться; Б) It had no brakes at all. — про гальма не йдеться; Г) It broke very often. — про поломки не йдеться.\n✅ В) A fall could cause serious injuries. — falling could cause serious injuries.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p3_bicycle.svg"
+  },
+  {
+   "text": "Text about the bicycle. What made the 1880s bicycle much safer?",
+   "options": [
+    "A huge front wheel",
+    "Pedals on the front wheel",
+    "Rubber tyres filled with air",
+    "A chain and two wheels of equal size"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Safer — безпечніший.\n❌ Хибні: А) A huge front wheel — це було небезпечно; Б) Pedals on the front wheel — це було в 1860-х; В) Rubber tyres filled with air — вони зробили їзду м’якшою.\n✅ Г) A chain and two wheels of equal size — так сказано в третьому абзаці.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p3_bicycle.svg"
+  },
+  {
+   "text": "Text about the bicycle. What does \"these changes\" refer to in the last paragraph?",
+   "options": [
+    "The growth of cities",
+    "The improvements in the design of bicycles",
+    "The rules of the road",
+    "The changes in the weather"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: These — ці зміни, згадані раніше.\n❌ Хибні: А) The growth of cities — про міста не йдеться; В) The rules of the road — про правила не йдеться; Г) The changes in the weather — про погоду не йдеться.\n✅ Б) The improvements in the design of bicycles — ланцюг, колеса, шини.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p3_bicycle.svg"
+  },
+  {
+   "text": "Text about the bicycle. Which statement is TRUE?",
+   "options": [
+    "The first bicycles were made in the 1900s.",
+    "The first bicycles had a chain.",
+    "Bicycles were always cheap.",
+    "By 1900 millions of bicycles were in use around the world."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: By 1900 — до 1900 року.\n❌ Хибні: А) The first bicycles were made in the 1900s. — перші були в 1817 році; Б) The first bicycles had a chain. — ланцюг з’явився в 1880-х; В) Bicycles were always cheap. — вони стали дешевими пізніше.\n✅ Г) By 1900 millions of bicycles were in use around the world. — так сказано в останньому абзаці.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p3_bicycle.svg"
+  },
+  {
+   "text": "Text about the bicycle. Put the inventions in the correct order: A – pedals on the front wheel; B – a machine with no pedals; C – a chain and equal wheels; D – a huge front wheel.",
+   "options": [
+    "A – B – C – D",
+    "B – D – A – C",
+    "B – A – D – C",
+    "C – B – A – D"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Слідкуйте за датами.\n❌ Хибні: А) A – B – C – D — машина без педалей була першою; Б) B – D – A – C — педалі були до великого колеса; Г) C – B – A – D — ланцюг з’явився останнім.\n✅ В) B – A – D – C — за датами: 1817, 1860-ті, 1870-ті, 1880-ті.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p3_bicycle.svg"
+  },
+  {
+   "text": "Story «The lost dog». What did Nina find behind the fence?",
+   "options": [
+    "A bird",
+    "A small brown dog",
+    "A kitten",
+    "A scarf"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Behind the fence — за парканом.\n❌ Хибні: А) A bird — про птаха не йдеться; В) A kitten — про кошеня не йдеться; Г) A scarf — шарф був її власний.\n✅ Б) A small brown dog — found a small brown dog.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p4_story.svg"
+  },
+  {
+   "text": "Story «The lost dog». What did Nina give the dog at home?",
+   "options": [
+    "Warm milk",
+    "A bone",
+    "Bread",
+    "Cold water"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Warm — тепле.\n❌ Хибні: Б) A bone — про кістку не йдеться; В) Bread — про хліб не йдеться; Г) Cold water — про холодну воду не йдеться.\n✅ А) Warm milk — gave it some warm milk.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p4_story.svg"
+  },
+  {
+   "text": "Story «The lost dog». What does \"torn\" mean in \"a torn ear\"?",
+   "options": [
+    "Brown",
+    "Very large",
+    "Damaged, with a hole or cut",
+    "Very clean"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Torn — порваний.\n❌ Хибні: А) Brown — про колір вже сказано; Б) Very large — про розмір не йдеться; Г) Very clean — про чистоту не йдеться.\n✅ В) Damaged, with a hole or cut — torn — порваний.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p4_story.svg"
+  },
+  {
+   "text": "Story «The lost dog». How did Nina try to find the dog's owner?",
+   "options": [
+    "She called the police.",
+    "She took the dog to a vet.",
+    "She asked her teacher.",
+    "She put up notices in the neighbourhood."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Notices — оголошення.\n❌ Хибні: А) She called the police. — про поліцію не йдеться; Б) She took the dog to a vet. — про ветеринара не йдеться; В) She asked her teacher. — про вчителя не йдеться.\n✅ Г) She put up notices in the neighbourhood. — put up notices on lampposts.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p4_story.svg"
+  },
+  {
+   "text": "Story «The lost dog». What did the dog do when it saw the old man?",
+   "options": [
+    "It ran away.",
+    "It started to bark at him.",
+    "It hid under the sofa.",
+    "It jumped into his arms."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Wagging its tail — виляє хвостом.\n❌ Хибні: А) It ran away. — це суперечить тексту; Б) It started to bark at him. — про гавкіт не йдеться; В) It hid under the sofa. — про диван не йдеться.\n✅ Г) It jumped into his arms. — it jumped into his arms.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p4_story.svg"
+  },
+  {
+   "text": "Story «The lost dog». How did Nina feel at the end of the story?",
+   "options": [
+    "Angry with the man",
+    "Completely sad",
+    "Afraid of the dog",
+    "Happy, but a little sad"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: But — але, мішане почуття.\n❌ Хибні: А) Angry with the man — про злість не йдеться; Б) Completely sad — вона також була щаслива; В) Afraid of the dog — вона турбувалася про собаку.\n✅ Г) Happy, but a little sad — she was happy for them but sad.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p4_story.svg"
+  },
+  {
+   "text": "Story «The lost dog». Why was Nina probably sad at the end?",
+   "options": [
+    "She was tired after the long day.",
+    "She had grown fond of the dog.",
+    "She did not like the old man.",
+    "She wanted to keep the notices."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Inference — висновок із вчинків.\n❌ Хибні: А) She was tired after the long day. — про втому не сказано; В) She did not like the old man. — про це не сказано; Г) She wanted to keep the notices. — про це не сказано.\n✅ Б) She had grown fond of the dog. — це випливає з її турботи.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p4_story.svg"
+  },
+  {
+   "text": "Story «The lost dog». Which sentence best describes the man's feelings when he saw the dog?",
+   "options": [
+    "He was surprised and afraid.",
+    "He was relieved and emotional.",
+    "He was angry and bored.",
+    "He was indifferent."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Tears — сльози.\n❌ Хибні: А) He was surprised and afraid. — про страх не йдеться; В) He was angry and bored. — це суперечить тексту; Г) He was indifferent. — він плакав від радості.\n✅ Б) He was relieved and emotional. — tears in his eyes — зворушений.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p4_story.svg"
+  },
+  {
+   "text": "Interview with Danylo. How long has Danylo been a volunteer?",
+   "options": [
+    "For two years",
+    "For one year",
+    "For two months",
+    "For ten years"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: How long — як довго.\n❌ Хибні: Б) For one year — про один рік не йдеться; В) For two months — про місяці не йдеться; Г) For ten years — про десять років не йдеться.\n✅ А) For two years — for two years.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p5_interview.svg"
+  },
+  {
+   "text": "Interview with Danylo. How did Danylo start volunteering?",
+   "options": [
+    "His parents asked him.",
+    "His school organised a day at an animal shelter.",
+    "He read a book.",
+    "He saw an advertisement."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Started — розпочав.\n❌ Хибні: А) His parents asked him. — про батьків не йдеться; В) He read a book. — про книжку не йдеться; Г) He saw an advertisement. — про рекламу не йдеться.\n✅ Б) His school organised a day at an animal shelter. — так сказано у другому рядку.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p5_interview.svg"
+  },
+  {
+   "text": "Interview with Danylo. What did Danylo make for the adoption day?",
+   "options": [
+    "A website",
+    "A poster",
+    "A cake",
+    "A cage"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Adoption day — день усиновлення.\n❌ Хибні: А) A website — про сайт не йдеться; В) A cake — про торт не йдеться; Г) A cage — клітки він чистить.\n✅ Б) A poster — I also made a poster.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p5_interview.svg"
+  },
+  {
+   "text": "Interview with Danylo. When does Danylo feel proud?",
+   "options": [
+    "When the shelter is full",
+    "When it is cold",
+    "When a dog finds a family",
+    "When he cleans the cages"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Proud — гордий.\n❌ Хибні: А) When the shelter is full — це складність, а не радість; Б) When it is cold — це складна частина роботи; Г) When he cleans the cages — про гордість там не йдеться.\n✅ В) When a dog finds a family — when a dog finds a family, I feel proud.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p5_interview.svg"
+  },
+  {
+   "text": "Interview with Danylo. What does Danylo think about skills for volunteering?",
+   "options": [
+    "You must be a good athlete.",
+    "You do not need special skills.",
+    "You need years of training.",
+    "You must know foreign languages."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Special skills — особливі навички.\n❌ Хибні: А) You must be a good athlete. — про спорт не йдеться; В) You need years of training. — це суперечить тексту; Г) You must know foreign languages. — про мови не йдеться.\n✅ Б) You do not need special skills. — only patience and time.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p5_interview.svg"
+  },
+  {
+   "text": "Interview with Danylo. Why is the work harder in winter?",
+   "options": [
+    "The dogs are ill.",
+    "The shelter is closed.",
+    "There are no volunteers.",
+    "It is cold and the shelter is full."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Hard — важко.\n❌ Хибні: А) The dogs are ill. — про хворобу не сказано; Б) The shelter is closed. — про зачинення не сказано; В) There are no volunteers. — про це не сказано.\n✅ Г) It is cold and the shelter is full. — так він пояснює складність.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p5_interview.svg"
+  },
+  {
+   "text": "Interview with Danylo. Which word best describes Danylo?",
+   "options": [
+    "Careless",
+    "Selfish",
+    "Lazy",
+    "Caring"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Volunteer — доброволець.\n❌ Хибні: А) Careless — він працює відповідально; Б) Selfish — він допомагає іншим; В) Lazy — це суперечить тексту.\n✅ Г) Caring — він опікується тваринами.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p5_interview.svg"
+  },
+  {
+   "text": "Email from Julia. Where is Julia studying?",
+   "options": [
+    "In Paris",
+    "In Kyiv",
+    "In Bristol",
+    "In London"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Bristol — місто в Англії.\n❌ Хибні: А) In Paris — про Париж не йдеться; Б) In Kyiv — Київ — рідне місто Кейт; Г) In London — про Лондон не йдеться.\n✅ В) In Bristol — I’m having a great time in Bristol.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p6_email.svg"
+  },
+  {
+   "text": "Email from Julia. When will the trip to the seaside take place?",
+   "options": [
+    "At Christmas",
+    "On the first weekend of June",
+    "In July",
+    "On the second weekend of June"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Second weekend — другий вікенд.\n❌ Хибні: А) At Christmas — це було б узимку; Б) On the first weekend of June — про першу неділю не йдеться; В) In July — про липень не йдеться.\n✅ Г) On the second weekend of June — так сказано в листі.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p6_email.svg"
+  },
+  {
+   "text": "Email from Julia. Why will the trip cost nothing?",
+   "options": [
+    "Julia has a lot of money.",
+    "The school pays for it.",
+    "Emma's parents have a holiday cottage there.",
+    "The hotel is cheap."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Cost nothing — безкоштовно.\n❌ Хибні: А) Julia has a lot of money. — про гроші Джулії не йдеться; Б) The school pays for it. — про школу не йдеться; Г) The hotel is cheap. — про готель не йдеться.\n✅ В) Emma's parents have a holiday cottage there. — so Kate can stay for free.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p6_email.svg"
+  },
+  {
+   "text": "Email from Julia. What should Kate bring?",
+   "options": [
+    "Her school uniform",
+    "A swimming costume and a warm jacket",
+    "A tent and a map",
+    "A lot of money"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Bring — привезти.\n❌ Хибні: А) Her school uniform — про форму не йдеться; В) A tent and a map — про намет не йдеться; Г) A lot of money — ця поїздка безкоштовна для неї.\n✅ Б) A swimming costume and a warm jacket — так сказано в листі.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p6_email.svg"
+  },
+  {
+   "text": "Email from Julia. What is the main purpose of the email?",
+   "options": [
+    "To say goodbye",
+    "To invite Kate to a trip",
+    "To sell a cottage",
+    "To complain about school"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Purpose — мета листа.\n❌ Хибні: А) To say goodbye — про прощання не йдеться; В) To sell a cottage — про продаж не йдеться; Г) To complain about school — про скаргу не йдеться.\n✅ Б) To invite Kate to a trip — we invited you to come.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p6_email.svg"
+  },
+  {
+   "text": "Email from Julia. What does \"we have a lot in common\" mean?",
+   "options": [
+    "We have the same name.",
+    "We live in the same house only.",
+    "We have similar interests and experiences.",
+    "We often argue."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Common — спільний.\n❌ Хибні: А) We have the same name. — про ім’я не йдеться; Б) We live in the same house only. — це занадто вузьке значення; Г) We often argue. — це суперечить тексту.\n✅ В) We have similar interests and experiences. — a lot in common — багато спільного.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p6_email.svg"
+  },
+  {
+   "text": "Email from Julia. Which of these is different about school in England, according to Julia?",
+   "options": [
+    "Lessons start at midnight.",
+    "Pupils do not study maths.",
+    "Pupils wear uniforms.",
+    "There are no teachers."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Different — відрізняється.\n❌ Хибні: А) Lessons start at midnight. — це абсурдне твердження; Б) Pupils do not study maths. — про математику не йдеться; Г) There are no teachers. — про це не йдеться.\n✅ В) Pupils wear uniforms. — we wear uniforms.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p6_email.svg"
+  },
+  {
+   "text": "Email from Julia. Which sentence is TRUE?",
+   "options": [
+    "The water is warm even in winter.",
+    "Julia is staying in a hotel.",
+    "Kate has already been to Bristol.",
+    "Emma is a year older than Julia."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Only a year older — старша на рік.\n❌ Хибні: А) The water is warm even in winter. — вода холодна навіть влітку; Б) Julia is staying in a hotel. — вона живе у приймаючої родини; В) Kate has already been to Bristol. — про це не сказано.\n✅ Г) Emma is a year older than Julia. — Emma is only a year older.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p6_email.svg"
+  },
+  {
+   "text": "Language school leaflet. Which course takes place on Saturdays?",
+   "options": [
+    "Course C",
+    "None of them",
+    "Course A",
+    "Course B"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Saturdays — по суботах.\n❌ Хибні: Б) None of them — курс C проходить у суботу; В) Course A — це вечірні курси в будні; Г) Course B — це літній інтенсив у будні.\n✅ А) Course C — Online Conversation Club.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p7_courses.svg"
+  },
+  {
+   "text": "Language school leaflet. How many students are there in a group at the Conversation Club?",
+   "options": [
+    "Six",
+    "Twelve",
+    "Four",
+    "Ten"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Groups — групи.\n❌ Хибні: Б) Twelve — про дванадцять не йдеться; В) Four — про чотирьох не йдеться; Г) Ten — про десять не йдеться.\n✅ А) Six — small groups of six.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p7_courses.svg"
+  },
+  {
+   "text": "Language school leaflet. Which course is best for a person who works all day and wants to study twice a week?",
+   "options": [
+    "Course C",
+    "All of them",
+    "Course A",
+    "Course B"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Twice a week — двічі на тиждень.\n❌ Хибні: А) Course C — це лише одна година на тиждень; Б) All of them — вони не підходять однаково; Г) Course B — це ранковий інтенсив.\n✅ В) Course A — two evenings a week for working adults.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p7_courses.svg"
+  },
+  {
+   "text": "Language school leaflet. Which course includes lunch?",
+   "options": [
+    "Course A",
+    "No course",
+    "Course B",
+    "Course C"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Included — включено.\n❌ Хибні: А) Course A — про обід не йдеться; Б) No course — курс B включає обід; Г) Course C — про обід не йдеться.\n✅ В) Course B — lunch and two trips included.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p7_courses.svg"
+  },
+  {
+   "text": "Language school leaflet. How long is one lesson of Course A?",
+   "options": [
+    "One hour",
+    "Two hours",
+    "One and a half hours",
+    "Four hours"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: 7:30 мінус 6:00.\n❌ Хибні: А) One hour — це тривалість заняття клубу; Б) Two hours — це довше за 7:30; Г) Four hours — це тривалість ранкових занять курсу B.\n✅ В) One and a half hours — від 6:00 до 7:30.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p7_courses.svg"
+  },
+  {
+   "text": "Language school leaflet. How much will a 16-year-old pay for the Summer English course?",
+   "options": [
+    "£400",
+    "£385",
+    "£340",
+    "£360"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: 15% від 400 — це 60 фунтів.\n❌ Хибні: А) £400 — це ціна без знижки; Б) £385 — знижка 15% більша; Г) £360 — знижка 15% менша.\n✅ В) £340 — 400 мінус 15%.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p7_courses.svg"
+  },
+  {
+   "text": "Language school leaflet. A 17-year-old wants to take Course A for three months. How much will it cost?",
+   "options": [
+    "£306",
+    "£270",
+    "£340",
+    "£360"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: 15% від 360 — це 54 фунти.\n❌ Хибні: Б) £270 — знижка надто велика; В) £340 — не збігається з обчисленням; Г) £360 — це ціна без знижки.\n✅ А) £306 — 3 × 120 = 360, мінус 15%.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p7_courses.svg"
+  },
+  {
+   "text": "Language school leaflet. How many hours of lessons does a student have in one week of Course B?",
+   "options": [
+    "20 hours",
+    "4 hours",
+    "15 hours",
+    "10 hours"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Monday to Friday — п’ять днів.\n❌ Хибні: Б) 4 hours — це лише один день; В) 15 hours — недостатньо для п’яти днів; Г) 10 hours — недостатньо для п’яти днів.\n✅ А) 20 hours — 4 години на день × 5 днів.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p7_courses.svg"
+  },
+  {
+   "text": "Article about plastic. Where does most plastic in the ocean come from?",
+   "options": [
+    "From fish",
+    "From the sky",
+    "From land",
+    "From ships only"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Comes from — походить із.\n❌ Хибні: А) From fish — це не джерело пластику; Б) From the sky — це не джерело пластику; Г) From ships only — про кораблі не йдеться.\n✅ В) From land — most of it comes from land.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p8_plastic.svg"
+  },
+  {
+   "text": "Article about plastic. Why do turtles die?",
+   "options": [
+    "They mistake plastic bags for jellyfish.",
+    "They are hunted by birds.",
+    "They eat too much fish.",
+    "They cannot find clean water."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Mistake — помилково прийняти.\n❌ Хибні: Б) They are hunted by birds. — про полювання не йдеться; В) They eat too much fish. — про рибу не йдеться; Г) They cannot find clean water. — про воду не йдеться.\n✅ А) They mistake plastic bags for jellyfish. — turtles mistake bags for jellyfish.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p8_plastic.svg"
+  },
+  {
+   "text": "Article about plastic. What happened in some countries after free plastic bags were banned?",
+   "options": [
+    "People used more bags.",
+    "The number of bags used fell by more than 80%.",
+    "Nothing changed.",
+    "Shops closed."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Fallen — скоротилася.\n❌ Хибні: А) People used more bags. — це суперечить тексту; В) Nothing changed. — це суперечить тексту; Г) Shops closed. — про закриття магазинів не йдеться.\n✅ Б) The number of bags used fell by more than 80%. — так сказано в третьому абзаці.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p8_plastic.svg"
+  },
+  {
+   "text": "Article about plastic. What do some companies now make from recycled ocean plastic?",
+   "options": [
+    "Houses",
+    "Clothes and shoes",
+    "Cars and planes",
+    "Food"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Recycled — перероблений.\n❌ Хибні: А) Houses — про будинки не йдеться; В) Cars and planes — про авто не йдеться; Г) Food — про їжу не йдеться.\n✅ Б) Clothes and shoes — clothes and shoes.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p8_plastic.svg"
+  },
+  {
+   "text": "Article about plastic. What does the scientist's sentence about \"the tap\" mean?",
+   "options": [
+    "We must stop plastic at its source.",
+    "The ocean is clean already.",
+    "We should save water.",
+    "Taps are made of plastic."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Metaphor — образне порівняння.\n❌ Хибні: Б) The ocean is clean already. — це суперечить тексту; В) We should save water. — про воду для пиття не йдеться; Г) Taps are made of plastic. — це буквальне тлумачення.\n✅ А) We must stop plastic at its source. — tap — джерело, його треба закрити.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p8_plastic.svg"
+  },
+  {
+   "text": "Article about plastic. What does \"these efforts\" refer to?",
+   "options": [
+    "Banning bags, cleaning beaches and recycling",
+    "The dangers to turtles",
+    "The work of scientists in the lab",
+    "The plastic waste in rivers"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Efforts — зусилля.\n❌ Хибні: Б) The dangers to turtles — це наслідки, а не зусилля; В) The work of scientists in the lab — про лабораторію не йдеться; Г) The plastic waste in rivers — це не зусилля.\n✅ А) Banning bags, cleaning beaches and recycling — усе, що згадано в третьому абзаці.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p8_plastic.svg"
+  },
+  {
+   "text": "Article about plastic. What is the writer's attitude to the problem?",
+   "options": [
+    "Not interested",
+    "Concerned but hopeful",
+    "Amused",
+    "Completely hopeless"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Fortunately — на щастя.\n❌ Хибні: А) Not interested — він описує проблему докладно; В) Amused — тон не жартівливий; Г) Completely hopeless — він називає й позитивні приклади.\n✅ Б) Concerned but hopeful — проблема серйозна, але є рішення.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p8_plastic.svg"
+  },
+  {
+   "text": "Article about plastic. Which statement is NOT stated in the text?",
+   "options": [
+    "Seabirds feed plastic to their chicks.",
+    "Rivers carry plastic to the sea.",
+    "Fish swallow tiny plastic particles.",
+    "Rivers are cleaner than the sea."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Not stated — не згадано.\n❌ Хибні: А) Seabirds feed plastic to their chicks. — про це сказано; Б) Rivers carry plastic to the sea. — про це сказано; В) Fish swallow tiny plastic particles. — про це сказано.\n✅ Г) Rivers are cleaner than the sea. — про це не йдеться.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p8_plastic.svg"
+  },
+  {
+   "text": "Biography of Marie Curie. Where was Marie Curie born?",
+   "options": [
+    "In Berlin",
+    "In Warsaw",
+    "In Vienna",
+    "In Paris"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Born — народилася.\n❌ Хибні: А) In Berlin — про Берлін не йдеться; В) In Vienna — про Відень не йдеться; Г) In Paris — до Парижа вона переїхала пізніше.\n✅ Б) In Warsaw — born in Warsaw in 1867.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p9_curie.svg"
+  },
+  {
+   "text": "Biography of Marie Curie. In which city did Marie study physics and mathematics?",
+   "options": [
+    "In Warsaw",
+    "In London",
+    "In Paris",
+    "In Prague"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Studied — навчалася.\n❌ Хибні: А) In Warsaw — у Варшаві жінкам не дозволяли вчитися; Б) In London — про Лондон не йдеться; Г) In Prague — про Прагу не йдеться.\n✅ В) In Paris — in 1891 she moved to Paris.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p9_curie.svg"
+  },
+  {
+   "text": "Biography of Marie Curie. Why did Marie move to Paris?",
+   "options": [
+    "She wanted to be an actress.",
+    "Women were not allowed to study at university in Poland.",
+    "She was invited to teach.",
+    "Her husband lived there."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Not allowed — не дозволяли.\n❌ Хибні: А) She wanted to be an actress. — про це не йдеться; В) She was invited to teach. — про це не йдеться; Г) Her husband lived there. — вона зустріла його вже в Парижі.\n✅ Б) Women were not allowed to study at university in Poland. — так сказано в першому абзаці.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p9_curie.svg"
+  },
+  {
+   "text": "Biography of Marie Curie. What did Marie name polonium after?",
+   "options": [
+    "Her husband",
+    "Her teacher",
+    "Her homeland",
+    "Her daughter"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Homeland — батьківщина.\n❌ Хибні: А) Her husband — про чоловіка не йдеться; Б) Her teacher — про вчителя не йдеться; Г) Her daughter — про доньку не йдеться.\n✅ В) Her homeland — named after her homeland.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p9_curie.svg"
+  },
+  {
+   "text": "Biography of Marie Curie. In which year did Marie win the Nobel Prize in Chemistry?",
+   "options": [
+    "1898",
+    "1903",
+    "1911",
+    "1934"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Second Nobel Prize — друга премія.\n❌ Хибні: А) 1898 — це рік відкриття елементів; Б) 1903 — це рік премії з фізики; Г) 1934 — це рік її смерті.\n✅ В) 1911 — in 1911, a second Nobel Prize.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p9_curie.svg"
+  },
+  {
+   "text": "Biography of Marie Curie. What did Marie do during the First World War?",
+   "options": [
+    "She taught at a school.",
+    "She organised mobile X-ray units.",
+    "She stopped her work.",
+    "She moved to Warsaw."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Wounded — поранені.\n❌ Хибні: А) She taught at a school. — про це не йдеться; В) She stopped her work. — це суперечить тексту; Г) She moved to Warsaw. — про це не йдеться.\n✅ Б) She organised mobile X-ray units. — to help wounded soldiers.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p9_curie.svg"
+  },
+  {
+   "text": "Biography of Marie Curie. How many Nobel Prizes did Marie Curie win?",
+   "options": [
+    "Four",
+    "Three",
+    "Two",
+    "One"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: A second Nobel Prize — друга премія.\n❌ Хибні: А) Four — про четверту не йдеться; Б) Three — про третю не йдеться; Г) One — вона виграла двічі.\n✅ В) Two — Physics 1903, Chemistry 1911.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p9_curie.svg"
+  },
+  {
+   "text": "Biography of Marie Curie. Who shared the 1903 Nobel Prize with Marie?",
+   "options": [
+    "Her teacher only",
+    "Her husband and another scientist",
+    "Nobody",
+    "Her sister"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Shared — розділили.\n❌ Хибні: А) Her teacher only — про вчителя не йдеться; В) Nobody — премію розділили між учасниками; Г) Her sister — про сестру не йдеться.\n✅ Б) Her husband and another scientist — she, her husband and another scientist.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p9_curie.svg"
+  },
+  {
+   "text": "Biography of Marie Curie. What happened after Pierre Curie died?",
+   "options": [
+    "Marie stopped working.",
+    "Marie returned to Warsaw.",
+    "Marie became the first woman to teach at the University of Paris.",
+    "Marie married again."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: After — після.\n❌ Хибні: А) Marie stopped working. — вона продовжила працювати; Б) Marie returned to Warsaw. — про це не йдеться; Г) Marie married again. — про це не йдеться.\n✅ В) Marie became the first woman to teach at the University of Paris. — after Pierre died — після смерті Пʼєра.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p9_curie.svg"
+  },
+  {
+   "text": "Film review. What is the film about?",
+   "options": [
+    "A famous painter",
+    "A group of detectives",
+    "An old lighthouse keeper who refuses to leave",
+    "A young pilot"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Keeper — доглядач маяка.\n❌ Хибні: А) A famous painter — про художника не йдеться; Б) A group of detectives — про детективів не йдеться; Г) A young pilot — про пілота не йдеться.\n✅ В) An old lighthouse keeper who refuses to leave — refuses to leave his island.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p10_review.svg"
+  },
+  {
+   "text": "Film review. What does the reviewer like about the first half of the film?",
+   "options": [
+    "The music",
+    "The fast action",
+    "The photography of the stormy sea",
+    "The funny dialogue"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Stunning — приголомшливий.\n❌ Хибні: А) The music — про музику не йдеться; Б) The fast action — перша половина повільна; Г) The funny dialogue — про діалоги не йдеться.\n✅ В) The photography of the stormy sea — так — stunning photography.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p10_review.svg"
+  },
+  {
+   "text": "Film review. What is the weakness of the film, according to the reviewer?",
+   "options": [
+    "The ending",
+    "The photography",
+    "The title",
+    "The acting"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Weakness — слабке місце.\n❌ Хибні: Б) The photography — це перевага фільму; В) The title — про назву не йдеться; Г) The acting — гра акторів — відмінна.\n✅ А) The ending — the only real weakness is the ending.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p10_review.svg"
+  },
+  {
+   "text": "Film review. What does \"more than makes up for it\" mean?",
+   "options": [
+    "The photography is worse than the story.",
+    "The film is too long.",
+    "The viewers make up the story.",
+    "The photography is so good that it compensates for the slow start."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Make up for — компенсувати.\n❌ Хибні: А) The photography is worse than the story. — це суперечить тексту; Б) The film is too long. — про тривалість не йдеться; В) The viewers make up the story. — це буквальне тлумачення.\n✅ Г) The photography is so good that it compensates for the slow start. — make up for — компенсувати.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p10_review.svg"
+  },
+  {
+   "text": "Film review. What is the reviewer's overall opinion of the film?",
+   "options": [
+    "Completely positive",
+    "Completely negative",
+    "Mostly positive, with some criticism",
+    "Neutral and uninterested"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Still — проте, показує баланс.\n❌ Хибні: А) Completely positive — він згадує слабкий фінал; Б) Completely negative — він рекомендує фільм; Г) Neutral and uninterested — він висловлює оцінку.\n✅ В) Mostly positive, with some criticism — recommend — але є слабке місце.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p10_review.svg"
+  },
+  {
+   "text": "Film review. Who would enjoy this film, according to the reviewer?",
+   "options": [
+    "People who love action films",
+    "People who like quiet, thoughtful stories",
+    "People who dislike the sea",
+    "Children under ten"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Recommend — рекомендувати.\n❌ Хибні: А) People who love action films — фільм доволі повільний; В) People who dislike the sea — про це не йдеться; Г) Children under ten — про дітей не йдеться.\n✅ Б) People who like quiet, thoughtful stories — so he recommends it to them.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p10_review.svg"
+  },
+  {
+   "text": "Film review. What does the last sentence \"Bring tissues\" suggest?",
+   "options": [
+    "The film is emotional and sad.",
+    "The film is very funny.",
+    "The cinema is dirty.",
+    "The film is about doctors."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Inference — висновок із натяку.\n❌ Хибні: Б) The film is very funny. — це не про сміх; В) The cinema is dirty. — це не про кінотеатр; Г) The film is about doctors. — це не про лікарів.\n✅ А) The film is emotional and sad. — tissues — серветки для сліз.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p10_review.svg"
+  },
+  {
+   "text": "Summer camp brochure. How old must campers be?",
+   "options": [
+    "Any age",
+    "From 16 to 18",
+    "From 8 to 12",
+    "From 12 to 16"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Ages — вік.\n❌ Хибні: А) Any age — є вікові обмеження; Б) From 16 to 18 — це старший вік; В) From 8 to 12 — це занадто молодий вік.\n✅ Г) From 12 to 16 — так у шапці: ages 12–16.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p11_camp.svg"
+  },
+  {
+   "text": "Summer camp brochure. What time is lunch?",
+   "options": [
+    "At 19:00",
+    "At 22:00",
+    "At 8:00",
+    "At 12:30"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Lunch — обід.\n❌ Хибні: А) At 19:00 — це час вечері; Б) At 22:00 — це час відбою; В) At 8:00 — це час сніданку.\n✅ Г) At 12:30 — так у розкладі: 12:30 lunch.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p11_camp.svg"
+  },
+  {
+   "text": "Summer camp brochure. How long do the workshops last?",
+   "options": [
+    "One hour",
+    "Two hours",
+    "Four hours",
+    "Three hours"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Workshops — майстер-класи.\n❌ Хибні: А) One hour — це не відповідає розкладу; Б) Two hours — це тривалість ігор на свіжому повітрі; В) Four hours — це не відповідає розкладу.\n✅ Г) Three hours — від 9:00 до 12:00.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p11_camp.svg"
+  },
+  {
+   "text": "Summer camp brochure. When may campers use their mobile phones?",
+   "options": [
+    "During workshops",
+    "At any time",
+    "During free time",
+    "At night"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Only — лише.\n❌ Хибні: А) During workshops — у цей час телефони не дозволені; Б) At any time — є певні обмеження; Г) At night — про нічний час не йдеться.\n✅ В) During free time — only during free time.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p11_camp.svg"
+  },
+  {
+   "text": "Summer camp brochure. What do campers do at 20:00?",
+   "options": [
+    "They go swimming.",
+    "They go to bed.",
+    "They sing songs by the campfire.",
+    "They have dinner."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Campfire — вогнище.\n❌ Хибні: А) They go swimming. — плавання буває вдень; Б) They go to bed. — відбій о 22:00; Г) They have dinner. — вечеря о 19:00.\n✅ В) They sing songs by the campfire. — 20:00 campfire songs.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p11_camp.svg"
+  },
+  {
+   "text": "Summer camp brochure. How much will a camper pay with the early booking discount?",
+   "options": [
+    "3,150 UAH",
+    "3,325 UAH",
+    "3,500 UAH",
+    "3,000 UAH"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: 10% від 3,500 — це 350.\n❌ Хибні: Б) 3,325 UAH — знижка занадто мала; В) 3,500 UAH — це ціна без знижки; Г) 3,000 UAH — знижка занадто велика.\n✅ А) 3,150 UAH — 3,500 мінус 10%.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p11_camp.svg"
+  },
+  {
+   "text": "Summer camp brochure. Which activity is NOT in the list of workshops?",
+   "options": [
+    "Robotics",
+    "Theatre",
+    "Photography",
+    "Cooking"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Choose one — вибрати один.\n❌ Хибні: А) Robotics — це один із майстер-класів; Б) Theatre — це один із майстер-класів; В) Photography — це один із майстер-класів.\n✅ Г) Cooking — про кулінарію не йдеться.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p11_camp.svg"
+  },
+  {
+   "text": "Summer camp brochure. Which of these is NOT included in the price?",
+   "options": [
+    "Accommodation",
+    "Excursions",
+    "Meals",
+    "Pocket money"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Includes — включає.\n❌ Хибні: А) Accommodation — так, воно включено; Б) Excursions — так, вони включені; В) Meals — так, вони включені.\n✅ Г) Pocket money — про кишенькові гроші не йдеться.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p11_camp.svg"
+  },
+  {
+   "text": "Opinion article. What do many teachers believe about phones in classrooms?",
+   "options": [
+    "They are a distraction.",
+    "They are dangerous.",
+    "They are always useful.",
+    "They are too expensive."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Distraction — відволікання.\n❌ Хибні: Б) They are dangerous. — про небезпеку не йдеться; В) They are always useful. — це думка опонентів; Г) They are too expensive. — про ціну не йдеться.\n✅ А) They are a distraction. — phones in classrooms are a distraction.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p12_phones.svg"
+  },
+  {
+   "text": "Opinion article. What do studies show about students who keep their phones in their bags?",
+   "options": [
+    "They are more tired.",
+    "They talk more.",
+    "They get lower marks.",
+    "They concentrate better and get higher marks."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Concentrate — зосереджуватися.\n❌ Хибні: А) They are more tired. — про втому не йдеться; Б) They talk more. — про розмови не йдеться; В) They get lower marks. — це суперечить тексту.\n✅ Г) They concentrate better and get higher marks. — так сказано в першому абзаці.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p12_phones.svg"
+  },
+  {
+   "text": "Opinion article. What argument do parents give against a ban?",
+   "options": [
+    "Phones are cheap.",
+    "They need to contact their children in an emergency.",
+    "Phones help students to sleep.",
+    "Phones make children taller."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Emergency — надзвичайна ситуація.\n❌ Хибні: А) Phones are cheap. — про ціну не йдеться; В) Phones help students to sleep. — про сон не йдеться; Г) Phones make children taller. — це абсурдне твердження.\n✅ Б) They need to contact their children in an emergency. — parents argue — батьки наводять аргумент.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p12_phones.svg"
+  },
+  {
+   "text": "Opinion article. What is the writer's own view?",
+   "options": [
+    "Teachers should not decide.",
+    "Phones should be banned completely.",
+    "Phones should be used all the time.",
+    "Phones should be switched off in lessons but allowed in breaks."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: In my opinion — на мою думку.\n❌ Хибні: А) Teachers should not decide. — про це не йдеться; Б) Phones should be banned completely. — це не компроміс; В) Phones should be used all the time. — це не компроміс.\n✅ Г) Phones should be switched off in lessons but allowed in breaks. — compromise — компроміс.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p12_phones.svg"
+  },
+  {
+   "text": "Opinion article. What is the purpose of the second paragraph?",
+   "options": [
+    "To give a conclusion",
+    "To describe a school",
+    "To tell a story",
+    "To present the opposing view"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: However — однак.\n❌ Хибні: А) To give a conclusion — висновок у третьому абзаці; Б) To describe a school — про школу не йдеться; В) To tell a story — про історію не йдеться.\n✅ Г) To present the opposing view — However — починається протилежна думка.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p12_phones.svg"
+  },
+  {
+   "text": "Opinion article. Which sentence is the writer's OPINION rather than a fact?",
+   "options": [
+    "Studies show that students concentrate better.",
+    "Some teachers use phones for quizzes.",
+    "Parents need to contact their children.",
+    "The best solution is a compromise."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Best solution — оцінка.\n❌ Хибні: А) Studies show that students concentrate better. — це посилання на дослідження; Б) Some teachers use phones for quizzes. — це факт, а не думка; В) Parents need to contact their children. — це аргумент батьків.\n✅ Г) The best solution is a compromise. — це оцінка автора.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p12_phones.svg"
+  },
+  {
+   "text": "School trip text. Which sentence fits gap (1)?",
+   "options": [
+    "E. My sister has a new pair of boots.",
+    "B. It was a beautiful place, surrounded by tall fir trees.",
+    "C. Everybody was very tired, but happy.",
+    "A. We left school at six o'clock in the morning."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Gap 1 — перед the journey.\n❌ Хибні: А) E. My sister has a new pair of boots. — не пов’язано за змістом; Б) B. It was a beautiful place, surrounded by tall fir trees. — це про готель; В) C. Everybody was very tired, but happy. — це про кінець дня.\n✅ Г) A. We left school at six o'clock in the morning. — початок поїздки, далі про дорогу.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p13_trip.svg"
+  },
+  {
+   "text": "School trip text. Which sentence fits gap (2)?",
+   "options": [
+    "C. Everybody was very tired, but happy.",
+    "A. We left school at six o'clock in the morning.",
+    "D. When we reached it, some of the boys decided to swim.",
+    "B. It was a beautiful place, surrounded by tall fir trees."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: It — займенник вказує на hotel.\n❌ Хибні: А) C. Everybody was very tired, but happy. — це про кінець дня; Б) A. We left school at six o'clock in the morning. — це про початок поїздки; В) D. When we reached it, some of the boys decided to swim. — це про водоспад.\n✅ Г) B. It was a beautiful place, surrounded by tall fir trees. — it — готель.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p13_trip.svg"
+  },
+  {
+   "text": "School trip text. Which sentence fits gap (3)?",
+   "options": [
+    "D. When we reached it, some of the boys decided to swim.",
+    "C. Everybody was very tired, but happy.",
+    "B. It was a beautiful place, surrounded by tall fir trees.",
+    "A. We left school at six o'clock in the morning."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: The water — далі про воду.\n❌ Хибні: Б) C. Everybody was very tired, but happy. — це про кінець дня; В) B. It was a beautiful place, surrounded by tall fir trees. — це про готель; Г) A. We left school at six o'clock in the morning. — це про початок поїздки.\n✅ А) D. When we reached it, some of the boys decided to swim. — it — водоспад, далі про воду.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p13_trip.svg"
+  },
+  {
+   "text": "School trip text. Which sentence fits gap (4)?",
+   "options": [
+    "E. My sister has a new pair of boots.",
+    "C. Everybody was very tired, but happy.",
+    "D. When we reached it, some of the boys decided to swim.",
+    "A. We left school at six o'clock in the morning."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Gap 4 — завершення розповіді.\n❌ Хибні: А) E. My sister has a new pair of boots. — не пов’язано за змістом; В) D. When we reached it, some of the boys decided to swim. — це про водоспад; Г) A. We left school at six o'clock in the morning. — це про початок поїздки.\n✅ Б) C. Everybody was very tired, but happy. — підсумок дня, далі I think.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p13_trip.svg"
+  },
+  {
+   "text": "School trip text. Which sentence is NOT needed for any gap?",
+   "options": [
+    "E. My sister has a new pair of boots.",
+    "C. Everybody was very tired, but happy.",
+    "A. We left school at six o'clock in the morning.",
+    "B. It was a beautiful place, surrounded by tall fir trees."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Extra — зайве речення.\n❌ Хибні: Б) C. Everybody was very tired, but happy. — потрібне для проміжку 4; В) A. We left school at six o'clock in the morning. — потрібне для проміжку 1; Г) B. It was a beautiful place, surrounded by tall fir trees. — потрібне для проміжку 2.\n✅ А) E. My sister has a new pair of boots. — не пов’язане з текстом.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p13_trip.svg"
+  },
+  {
+   "text": "Five people talk about their jobs. Who works outdoors?",
+   "options": [
+    "Olga",
+    "Lena",
+    "Petro",
+    "Ivan"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Outdoors — просто неба.\n❌ Хибні: Б) Lena — вона працює вдома; В) Petro — він працює в їдальні; Г) Ivan — він працює в лікарні.\n✅ А) Olga — she plants trees in the park.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p14_jobs.svg"
+  },
+  {
+   "text": "Five people talk about their jobs. Who works from home?",
+   "options": [
+    "Max",
+    "Ivan",
+    "Lena",
+    "Olga"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: From home — з дому.\n❌ Хибні: А) Max — він багато подорожує; Б) Ivan — він працює в лікарні; Г) Olga — вона працює в парку.\n✅ В) Lena — I work from home.",
+   "testLevel": 1,
+   "image": "/img/english/e7_p14_jobs.svg"
+  },
+  {
+   "text": "Five people talk about their jobs. Who prepares meals for children?",
+   "options": [
+    "Max",
+    "Olga",
+    "Petro",
+    "Ivan"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Meals — їжа.\n❌ Хибні: А) Max — він перевіряє двигуни; Б) Olga — вона садить дерева; Г) Ivan — він допомагає пацієнтам.\n✅ В) Petro — works in a school canteen.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p14_jobs.svg"
+  },
+  {
+   "text": "Five people talk about their jobs. Who checks the engines of planes?",
+   "options": [
+    "Petro",
+    "Ivan",
+    "Lena",
+    "Max"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Engines — двигуни.\n❌ Хибні: А) Petro — він готує їжу; Б) Ivan — він допомагає пацієнтам; В) Lena — вона створює сайти.\n✅ Г) Max — I check the engines of planes.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p14_jobs.svg"
+  },
+  {
+   "text": "Five people talk about their jobs. Who helps people to walk again after operations?",
+   "options": [
+    "Olga",
+    "Petro",
+    "Lena",
+    "Ivan"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Patients — пацієнти.\n❌ Хибні: А) Olga — вона працює в парку; Б) Petro — він працює в їдальні; В) Lena — вона працює вдома.\n✅ Г) Ivan — works in a hospital.",
+   "testLevel": 2,
+   "image": "/img/english/e7_p14_jobs.svg"
+  },
+  {
+   "text": "Five people talk about their jobs. Who probably does NOT travel to an office every day?",
+   "options": [
+    "Petro",
+    "Max",
+    "Ivan",
+    "Lena"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Probably — імовірно.\n❌ Хибні: А) Petro — він ходить до школи; Б) Max — він ходить на аеродром; В) Ivan — він ходить до лікарні.\n✅ Г) Lena — she works from home.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p14_jobs.svg"
+  },
+  {
+   "text": "Five people talk about their jobs. Which person has a job connected with technology and the internet?",
+   "options": [
+    "Ivan",
+    "Olga",
+    "Lena",
+    "Petro"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Websites — вебсайти.\n❌ Хибні: А) Ivan — його робота пов’язана з медициною; Б) Olga — її робота пов’язана з природою; Г) Petro — його робота пов’язана з їжею.\n✅ В) Lena — web design and online clients.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p14_jobs.svg"
+  },
+  {
+   "text": "Five people talk about their jobs. Whose job is the most important for the safety of passengers?",
+   "options": [
+    "Lena's",
+    "Olga's",
+    "Max's",
+    "Petro's"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Engines before take-off — безпека.\n❌ Хибні: А) Lena's — це створення сайтів; Б) Olga's — це догляд за рослинами; Г) Petro's — це приготування їжі.\n✅ В) Max's — перевірка двигунів літаків.",
+   "testLevel": 3,
+   "image": "/img/english/e7_p14_jobs.svg"
+  }
+ ],
+ "cards": []
+}
