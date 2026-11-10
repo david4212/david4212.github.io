@@ -4,4 +4,10 @@ Next.js 14 + Tailwind + Prisma (PostgreSQL / Neon) + NextAuth + Telegram-бот 
 
 - Таблиці в базі й офіційні теми НМТ (`src/lib/curriculum.json`) створюються автоматично під час кожної збірки на Vercel.
 - Питання й картки додаються через бота: `/addtest`, `/addcards` (предмет → тема → підрозділ → контент).
-- Змінні середовища: `DATABASE_URL`, `NEXTAUTH_SECRET`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_ADMIN_ID`, `TELEGRAM_WEBHOOK_SECRET`.
+- Змінні середовища: `DATABASE_URL`, `NEXTAUTH_SECRET`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_ADMIN_ID`, `TELEGRAM_WEBHOOK_SECRET`, `ADMIN_USERNAME`.
+
+## Адмін-панель
+
+Для ввімкнення доступу до `/admin` додай у Vercel → Project → Settings → Environment Variables змінну `ADMIN_USERNAME` зі значенням точного логіна твого акаунта (наприклад, `Давид`, якщо саме так ти входиш на сайт). Не додавай пароль до змінних проєкту або GitHub.
+
+Після збереження змінної зроби Redeploy. Потім вийди зі свого акаунта на сайті та увійди знову. Адмін-панель покаже статистику користувачів і результати тестів. Онлайн-статус оновлюється для авторизованих користувачів приблизно кожні 30 секунд; користувач вважається онлайн протягом 2 хвилин після останнього сигналу активності.
