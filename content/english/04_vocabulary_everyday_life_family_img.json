@@ -1,0 +1,618 @@
+{
+ "subject": "ENGLISH",
+ "topic": "Vocabulary: Everyday Life, Family & Relationships",
+ "questions": [
+  {
+   "text": "Look at the family tree. Who is Ben to Tom?",
+   "options": [
+    "cousin",
+    "brother",
+    "nephew",
+    "uncle"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Tom і Ben — діти Peter і Helen.\n❌ Хибні: Б) brother — брати мають тих самих батьків; В) nephew — nephew — син брата чи сестри; Г) uncle — uncle — брат батьків.\n✅ А) cousin — діти братів і сестер батьків — двоюрідні.",
+   "testLevel": 1,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Who is Helen to Kate?",
+   "options": [
+    "mother",
+    "grandmother",
+    "cousin",
+    "aunt"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Helen — сестра Peter, тому тітка.\n❌ Хибні: А) mother — mother — це Susan; Б) grandmother — grandmother — це Mary; В) cousin — cousin — двоюрідна сестра.\n✅ Г) aunt — Helen — сестра батька Kate.",
+   "testLevel": 1,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Who is Mary to Tom?",
+   "options": [
+    "grandmother",
+    "aunt",
+    "mother",
+    "niece"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Mary — мати батька Tom.\n❌ Хибні: Б) aunt — aunt — сестра батьків; В) mother — mother — це Susan; Г) niece — niece — дочка брата чи сестри.\n✅ А) grandmother — Mary — мати Peter, батька Tom.",
+   "testLevel": 1,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Who is Mark to Kate?",
+   "options": [
+    "brother",
+    "uncle",
+    "father",
+    "grandfather"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Mark — чоловік тітки Helen.\n❌ Хибні: А) brother — brother — це Tom; В) father — father — це Peter; Г) grandfather — grandfather — це George.\n✅ Б) uncle — Mark — чоловік сестри батька Kate.",
+   "testLevel": 1,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Who is Kate to Tom?",
+   "options": [
+    "niece",
+    "sister",
+    "aunt",
+    "cousin"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Tom і Kate — діти Peter та Susan.\n❌ Хибні: А) niece — niece — дочка брата чи сестри; В) aunt — aunt — сестра батьків; Г) cousin — cousin — діти братів чи сестер батьків.\n✅ Б) sister — Tom і Kate мають спільних батьків.",
+   "testLevel": 1,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Who is Tom to Helen?",
+   "options": [
+    "nephew",
+    "brother",
+    "cousin",
+    "grandson"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Helen — тітка, а Tom — племінник.\n❌ Хибні: Б) brother — brother — рідний брат; В) cousin — cousin — двоюрідний брат; Г) grandson — grandson — онук.\n✅ А) nephew — Tom — син брата Peter.",
+   "testLevel": 2,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Who is Susan to Ben?",
+   "options": [
+    "mother",
+    "grandmother",
+    "aunt",
+    "cousin"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Susan — тітка через шлюб.\n❌ Хибні: А) mother — mother — це Helen; Б) grandmother — grandmother — це Mary; Г) cousin — cousin — двоюрідна сестра.\n✅ В) aunt — Susan — дружина дядька Peter.",
+   "testLevel": 2,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. How many cousins does Ben have?",
+   "options": [
+    "none",
+    "three",
+    "one",
+    "two"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Cousins Ben — це Tom і Kate.\n❌ Хибні: А) none — двоюрідні в нього є; Б) three — трьох двоюрідних немає; В) one — є дві двоюрідні дитини, а не одна.\n✅ Г) two — Tom і Kate — його двоюрідні.",
+   "testLevel": 2,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Who are Tom and Kate to George?",
+   "options": [
+    "children",
+    "cousins",
+    "nephews",
+    "grandchildren"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: George — дід, а Tom і Kate — онуки.\n❌ Хибні: А) children — children — його діти — Peter і Helen; Б) cousins — cousins — двоюрідні брати і сестри; В) nephews — nephews — діти брата чи сестри.\n✅ Г) grandchildren — діти його сина Peter.",
+   "testLevel": 2,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Who is Helen to Susan?",
+   "options": [
+    "niece",
+    "cousin",
+    "sister-in-law",
+    "stepsister"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Helen — сестра чоловіка, тому sister-in-law.\n❌ Хибні: А) niece — niece — племінниця; Б) cousin — cousin — двоюрідна сестра; Г) stepsister — stepsister — нерідна сестра.\n✅ В) sister-in-law — Helen — сестра чоловіка Susan.",
+   "testLevel": 2,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Which statement is true?",
+   "options": [
+    "Tom is Helen's son.",
+    "Ben is Kate's brother.",
+    "Mary is Susan's mother.",
+    "Peter is Mark's brother-in-law."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Brother-in-law — брат дружини.\n❌ Хибні: А) Tom is Helen's son. — Tom — племінник Helen; Б) Ben is Kate's brother. — Ben — двоюрідний брат Kate; В) Mary is Susan's mother. — Mary — свекруха Susan.\n✅ Г) Peter is Mark's brother-in-law. — Peter — брат дружини Mark.",
+   "testLevel": 3,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the family tree. Who is Mary to Susan?",
+   "options": [
+    "aunt",
+    "stepmother",
+    "grandmother",
+    "mother-in-law"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Mary — свекруха Susan.\n❌ Хибні: А) aunt — aunt — тітка; Б) stepmother — stepmother — мачуха; В) grandmother — grandmother — бабуся дітей Susan.\n✅ Г) mother-in-law — Mary — мати чоловіка Susan.",
+   "testLevel": 3,
+   "image": "/img/english/e4_family_tree.svg"
+  },
+  {
+   "text": "Look at the flat plan. Which number is the kitchen?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Кухня — місце, де готують їжу.\n❌ Хибні: А) 1 — цією цифрою позначено living room; В) 3 — цією цифрою позначено bedroom; Г) 4 — цією цифрою позначено bathroom.\n✅ Б) 2 — тут є плита й стіл — кухня.",
+   "testLevel": 1,
+   "image": "/img/english/e4_flat_plan.svg"
+  },
+  {
+   "text": "Look at the flat plan. In which room do people usually sleep?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Sleep — спати, bedroom — спальня.\n❌ Хибні: А) 1 — цією цифрою позначено living room; Б) 2 — цією цифрою позначено kitchen; Г) 4 — цією цифрою позначено bathroom.\n✅ В) 3 — у кімнаті є ліжко — спальня.",
+   "testLevel": 1,
+   "image": "/img/english/e4_flat_plan.svg"
+  },
+  {
+   "text": "Look at the flat plan. Where would you have a bath?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Bath — ванна, bathroom — ванна кімната.\n❌ Хибні: А) 1 — цією цифрою позначено living room; Б) 2 — цією цифрою позначено kitchen; В) 3 — цією цифрою позначено bedroom.\n✅ Г) 4 — у ванній кімнаті є ванна.",
+   "testLevel": 1,
+   "image": "/img/english/e4_flat_plan.svg"
+  },
+  {
+   "text": "Look at the flat plan. Where would you relax on the sofa and watch TV?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Sofa та TV — living room.\n❌ Хибні: Б) 2 — цією цифрою позначено kitchen; В) 3 — цією цифрою позначено bedroom; Г) 4 — цією цифрою позначено bathroom.\n✅ А) 1 — це вітальня з диваном і телевізором.",
+   "testLevel": 1,
+   "image": "/img/english/e4_flat_plan.svg"
+  },
+  {
+   "text": "Look at the flat plan. Which number is the hall near the front door?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Hall — коридор перед кімнатами.\n❌ Хибні: А) 2 — цією цифрою позначено kitchen; Б) 3 — цією цифрою позначено bedroom; В) 4 — цією цифрою позначено bathroom.\n✅ Г) 5 — це коридор біля вхідних дверей.",
+   "testLevel": 1,
+   "image": "/img/english/e4_flat_plan.svg"
+  },
+  {
+   "text": "Look at the flat plan. In which room would you cook a meal for guests?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Cook — готувати, kitchen — кухня.\n❌ Хибні: Б) 3 — цією цифрою позначено bedroom; В) 4 — цією цифрою позначено bathroom; Г) 5 — цією цифрою позначено hall.\n✅ А) 2 — тут є плита й обідній стіл.",
+   "testLevel": 2,
+   "image": "/img/english/e4_flat_plan.svg"
+  },
+  {
+   "text": "What time does this clock show?",
+   "options": [
+    "a quarter to seven",
+    "ten past seven",
+    "half past seven",
+    "a quarter past seven"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Коротка стрілка — години, довга — хвилини.\n❌ Хибні: А) a quarter to seven — це інший час на годиннику; Б) ten past seven — це інший час на годиннику; В) half past seven — це інший час на годиннику.\n✅ Г) a quarter past seven — так читають цей час.",
+   "testLevel": 1,
+   "image": "/img/english/e4_clock1.svg"
+  },
+  {
+   "text": "What time is it according to this clock?",
+   "options": [
+    "half past eight",
+    "a quarter to nine",
+    "a quarter past eight",
+    "a quarter to eight"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Коротка стрілка — години, довга — хвилини.\n❌ Хибні: А) half past eight — це інший час на годиннику; В) a quarter past eight — це інший час на годиннику; Г) a quarter to eight — це інший час на годиннику.\n✅ Б) a quarter to nine — так читають цей час.",
+   "testLevel": 1,
+   "image": "/img/english/e4_clock2.svg"
+  },
+  {
+   "text": "Read the clock. What time is it?",
+   "options": [
+    "half past two",
+    "half past three",
+    "twenty past two",
+    "a quarter to three"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Коротка стрілка — години, довга — хвилини.\n❌ Хибні: Б) half past three — це інший час на годиннику; В) twenty past two — це інший час на годиннику; Г) a quarter to three — це інший час на годиннику.\n✅ А) half past two — так читають цей час.",
+   "testLevel": 1,
+   "image": "/img/english/e4_clock3.svg"
+  },
+  {
+   "text": "Which time is shown on the clock?",
+   "options": [
+    "ten past five",
+    "ten to six",
+    "twenty past six",
+    "ten past six"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Коротка стрілка — години, довга — хвилини.\n❌ Хибні: А) ten past five — це інший час на годиннику; Б) ten to six — це інший час на годиннику; В) twenty past six — це інший час на годиннику.\n✅ Г) ten past six — так читають цей час.",
+   "testLevel": 1,
+   "image": "/img/english/e4_clock4.svg"
+  },
+  {
+   "text": "What should you keep if you want to exchange goods?",
+   "options": [
+    "The bag",
+    "The receipt",
+    "The recipe",
+    "The label"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Receipt — чек, recipe — рецепт.\n❌ Хибні: А) The bag — bag — пакет; В) The recipe — recipe — рецепт; Г) The label — label — етикетка.\n✅ Б) The receipt — чек потрібен для обміну.",
+   "testLevel": 1,
+   "image": "/img/english/e4_sale.svg"
+  },
+  {
+   "text": "How much do jeans cost during the sale?",
+   "options": [
+    "£5",
+    "£20",
+    "£50",
+    "£15"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Звіряйте товар і ціну.\n❌ Хибні: А) £5 — це ціна футболок; Б) £20 — це ціна взуття; В) £50 — такої ціни немає в оголошенні.\n✅ Г) £15 — так сказано в оголошенні.",
+   "testLevel": 2,
+   "image": "/img/english/e4_sale.svg"
+  },
+  {
+   "text": "What does this sign warn you about?",
+   "options": [
+    "The door is locked.",
+    "The floor is wet and slippery.",
+    "The lift is out of order.",
+    "The shop is closed."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Wet floor — обережно, слизько.\n❌ Хибні: А) The door is locked. — locked — замкнені двері; В) The lift is out of order. — lift — ліфт, про нього не йдеться; Г) The shop is closed. — closed — зачинено.\n✅ Б) The floor is wet and slippery. — wet floor — мокра підлога.",
+   "testLevel": 1,
+   "image": "/img/english/e4_wet_floor.svg"
+  },
+  {
+   "text": "How long can readers keep a book?",
+   "options": [
+    "Three days",
+    "Two weeks",
+    "One month",
+    "Three weeks"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Borrow for three weeks.\n❌ Хибні: А) Three days — три дні не згадано; Б) Two weeks — два тижні не згадано; В) One month — місяць не згадано.\n✅ Г) Three weeks — так сказано в оголошенні.",
+   "testLevel": 2,
+   "image": "/img/english/e4_library.svg"
+  },
+  {
+   "text": "What is NOT allowed in the library?",
+   "options": [
+    "Reading books",
+    "Eating and drinking",
+    "Borrowing books",
+    "Using the library card"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: No food or drink — не їсти й не пити.\n❌ Хибні: А) Reading books — читати книги дозволено; В) Borrowing books — брати книги дозволено; Г) Using the library card — користуватись карткою дозволено.\n✅ Б) Eating and drinking — no food or drink — заборонено їсти й пити.",
+   "testLevel": 2,
+   "image": "/img/english/e4_library.svg"
+  },
+  {
+   "text": "What must readers pay if they return a book late?",
+   "options": [
+    "20p for each book",
+    "£20 for the book",
+    "20p for each day",
+    "Nothing"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Late return — штраф за день.\n❌ Хибні: А) 20p for each book — штраф залежить від днів; Б) £20 for the book — такої суми немає; Г) Nothing — штраф за запізнення передбачено.\n✅ В) 20p for each day — штраф за кожен день.",
+   "testLevel": 3,
+   "image": "/img/english/e4_library.svg"
+  },
+  {
+   "text": "What will Anna buy?",
+   "options": [
+    "A present for Granny",
+    "Only bread and milk",
+    "Milk and a cake only",
+    "Bread, milk and a cake"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Mum asked for three things.\n❌ Хибні: А) A present for Granny — про подарунок не йдеться; Б) Only bread and milk — про торт теж просили; В) Milk and a cake only — хліб теж треба купити.\n✅ Г) Bread, milk and a cake — так сказано в повідомленнях.",
+   "testLevel": 2,
+   "image": "/img/english/e4_messages.svg"
+  },
+  {
+   "text": "Why does Mum want a cake?",
+   "options": [
+    "It is Granny's birthday.",
+    "It is Anna's birthday.",
+    "It is Dad's birthday.",
+    "They have guests tonight."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Cake — for Granny's birthday.\n❌ Хибні: Б) It is Anna's birthday. — про день народження Anna не йдеться; В) It is Dad's birthday. — про Dad як винуватця свята не йдеться; Г) They have guests tonight. — про гостей не йдеться.\n✅ А) It is Granny's birthday. — так сказано в повідомленнях.",
+   "testLevel": 2,
+   "image": "/img/english/e4_messages.svg"
+  },
+  {
+   "text": "Who will pick Anna up, and when?",
+   "options": [
+    "Dad at 5",
+    "Dad at 4",
+    "Mum at 4",
+    "Granny at 5"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Anna stays until 4, Dad comes at 5.\n❌ Хибні: Б) Dad at 4 — Anna залишається до 4, а забирають о 5; В) Mum at 4 — Mum не збирається забирати Anna; Г) Granny at 5 — Granny не згадується в цьому.\n✅ А) Dad at 5 — так сказано в повідомленнях.",
+   "testLevel": 3,
+   "image": "/img/english/e4_messages.svg"
+  },
+  {
+   "text": "Who does the dishes on Tuesday?",
+   "options": [
+    "Kate",
+    "Tom",
+    "Dad",
+    "Mum"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Dishes — Tue — Kate.\n❌ Хибні: Б) Tom — Tom миє посуд у понеділок і середу; В) Dad — Dad миє посуд у п'ятницю; Г) Mum — Mum не миє посуд.\n✅ А) Kate — у таблиці на вівторок біля Dishes — Kate.",
+   "testLevel": 2,
+   "image": "/img/english/e4_chores.svg"
+  },
+  {
+   "text": "Who does the vacuuming on Wednesday?",
+   "options": [
+    "Kate",
+    "Dad",
+    "Mum",
+    "Tom"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Vacuuming — Wed — Kate.\n❌ Хибні: Б) Dad — Dad не пилососить; В) Mum — Mum пилососить у п'ятницю; Г) Tom — Tom пилососить у вівторок і четвер.\n✅ А) Kate — у таблиці на середу біля Vacuuming — Kate.",
+   "testLevel": 2,
+   "image": "/img/english/e4_chores.svg"
+  },
+  {
+   "text": "Who cooks on both Tuesday and Thursday?",
+   "options": [
+    "Mum",
+    "Tom",
+    "Kate",
+    "Dad"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Cooking — Tue, Thu — Dad.\n❌ Хибні: А) Mum — Mum готує в понеділок і середу; Б) Tom — Tom готує в п'ятницю; В) Kate — Kate не готує.\n✅ Г) Dad — у ці дні готує Dad.",
+   "testLevel": 3,
+   "image": "/img/english/e4_chores.svg"
+  },
+  {
+   "text": "How many times a week does Kate take out the rubbish?",
+   "options": [
+    "Never",
+    "Twice",
+    "Once",
+    "Three times"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Rubbish — Fri — Kate.\n❌ Хибні: А) Never — Kate виносить сміття в п'ятницю; Б) Twice — двічі виносять Dad і Mum; Г) Three times — тричі ніхто не виносить.\n✅ В) Once — лише в п'ятницю.",
+   "testLevel": 3,
+   "image": "/img/english/e4_chores.svg"
+  },
+  {
+   "text": "What are the guests asked to bring?",
+   "options": [
+    "Flowers",
+    "A present",
+    "A drink or a snack",
+    "Nothing"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Bring a drink or a snack.\n❌ Хибні: А) Flowers — квіти не згадано; Б) A present — подарунок не просять; Г) Nothing — просять принести щось.\n✅ В) A drink or a snack — так сказано в листі.",
+   "testLevel": 2,
+   "image": "/img/english/e4_invitation.svg"
+  },
+  {
+   "text": "When must the guests answer the invitation?",
+   "options": [
+    "On Saturday",
+    "By 6 p.m.",
+    "By Wednesday",
+    "By 12 October"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Reply by Wednesday.\n❌ Хибні: А) On Saturday — це день вечірки; Б) By 6 p.m. — це час початку вечірки; Г) By 12 October — це дата вечірки.\n✅ В) By Wednesday — так сказано в листі.",
+   "testLevel": 2,
+   "image": "/img/english/e4_invitation.svg"
+  },
+  {
+   "text": "How can guests get to the flat?",
+   "options": [
+    "By metro to Green Street",
+    "By metro to Central Park and then on foot",
+    "By bus to Green Street",
+    "By car to Central Park"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Metro + 5 minutes' walk.\n❌ Хибні: А) By metro to Green Street — станція — Central Park, а не Green Street; В) By bus to Green Street — про автобус не йдеться; Г) By car to Central Park — про автомобіль не йдеться.\n✅ Б) By metro to Central Park and then on foot — так сказано в листі.",
+   "testLevel": 3,
+   "image": "/img/english/e4_invitation.svg"
+  },
+  {
+   "text": "How much is the deposit?",
+   "options": [
+    "£800",
+    "There is no deposit.",
+    "£40",
+    "£400"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Deposit = one month's rent.\n❌ Хибні: А) £800 — це дві місячні оренди; Б) There is no deposit. — депозит у оголошенні є; В) £40 — це не відповідає оголошенню.\n✅ Г) £400 — deposit — одна місячна оренда.",
+   "testLevel": 2,
+   "image": "/img/english/e4_flat_ad.svg"
+  },
+  {
+   "text": "Who will NOT be able to rent this flat?",
+   "options": [
+    "A student who works in the evening",
+    "A family with two children",
+    "A couple without a car",
+    "A family with a dog"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: No pets — тварини заборонені.\n❌ Хибні: А) A student who works in the evening — робота не обмежена; Б) A family with two children — діти не заборонені; В) A couple without a car — авто не потрібне.\n✅ Г) A family with a dog — no pets — з тваринами не можна.",
+   "testLevel": 3,
+   "image": "/img/english/e4_flat_ad.svg"
+  },
+  {
+   "text": "When can a new tenant move in?",
+   "options": [
+    "From 1 November",
+    "From 1 December",
+    "In a month's time",
+    "Immediately"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Available from 1 November.\n❌ Хибні: Б) From 1 December — про грудень не йдеться; В) In a month's time — про такий строк не йдеться; Г) Immediately — available from 1 November.\n✅ А) From 1 November — так сказано в оголошенні.",
+   "testLevel": 3,
+   "image": "/img/english/e4_flat_ad.svg"
+  },
+  {
+   "text": "Choose the word that fits gap (1).",
+   "options": [
+    "makes",
+    "plays",
+    "takes",
+    "does"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте правило: Make breakfast.\n❌ Хибні: Б) plays — play breakfast не вживається; В) takes — take breakfast не вживається; Г) does — do breakfast не вживається.\n✅ А) makes — make breakfast — готувати сніданок.",
+   "testLevel": 2,
+   "image": "/img/english/e4_cloze.svg"
+  },
+  {
+   "text": "Choose the word that fits gap (2).",
+   "options": [
+    "makes",
+    "does",
+    "has",
+    "plays"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте правило: Do homework.\n❌ Хибні: А) makes — make homework не вживається; В) has — have homework не пасує за змістом; Г) plays — play homework не вживається.\n✅ Б) does — do homework — робити домашнє завдання.",
+   "testLevel": 2,
+   "image": "/img/english/e4_cloze.svg"
+  },
+  {
+   "text": "Choose the word that fits gap (3).",
+   "options": [
+    "wash",
+    "take",
+    "make",
+    "play"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Wash the dishes.\n❌ Хибні: Б) take — take the dishes не вживається; В) make — make the dishes не вживається; Г) play — play the dishes не вживається.\n✅ А) wash — wash the dishes — мити посуд.",
+   "testLevel": 2,
+   "image": "/img/english/e4_cloze.svg"
+  },
+  {
+   "text": "Choose the word that fits gap (4).",
+   "options": [
+    "after",
+    "down",
+    "out",
+    "up"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Look up to = поважати.\n❌ Хибні: А) after — look after — доглядати; Б) down — look down on — зневажати; В) out — look out — остерігатися.\n✅ Г) up — look up to — поважати.",
+   "testLevel": 3,
+   "image": "/img/english/e4_cloze.svg"
+  },
+  {
+   "text": "Choose the word that fits gap (5).",
+   "options": [
+    "reliable",
+    "reliant",
+    "relied",
+    "reliance"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Reliable = надійний.\n❌ Хибні: Б) reliant — reliant — залежний; В) relied — relied — форма дієслова; Г) reliance — reliance — залежність.\n✅ А) reliable — reliable — надійний.",
+   "testLevel": 3,
+   "image": "/img/english/e4_cloze.svg"
+  },
+  {
+   "text": "Choose the word that fits gap (6).",
+   "options": [
+    "taught",
+    "said",
+    "learned",
+    "studied"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Teach somebody how to.\n❌ Хибні: Б) said — say не потребує how to; В) learned — learn — вчитися самому; Г) studied — study — вивчати.\n✅ А) taught — taught me how to — навчив мене.",
+   "testLevel": 3,
+   "image": "/img/english/e4_cloze.svg"
+  }
+ ],
+ "cards": []
+}
