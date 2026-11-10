@@ -23,6 +23,9 @@ export default function UserBar() {
       <div className="flex items-center gap-4">
         {status === "loading" ? null : data?.user ? (
           <>
+            {data.user.isAdmin ? (
+              <Link href="/admin" className="font-semibold text-indigo-700 hover:underline">Адмін-панель</Link>
+            ) : null}
             <Link href="/profile" className="text-indigo-700 font-semibold hover:underline">{data.user.name}</Link>
             <button onClick={() => signOut({ callbackUrl: "/" })} className="text-gray-500 hover:text-gray-900 underline">
               Вийти
