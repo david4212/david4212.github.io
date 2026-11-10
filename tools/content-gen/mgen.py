@@ -58,6 +58,7 @@ class Topic:
         self.out = f'{ROOT}/content/math/{idx:02d}_{out_slug}_gen.json'
         self.qs = []; self.new = {1: 0, 2: 0, 3: 0}; self.cards = []
         self.errors = 0
+        self.strict = False   # True: без автодоповнення хибних варіантів (питання з <3 змістовними хибними пропускається)
 
     def add(self, lv, text, ans, wrongs, trap, sol, img=None):
         text = re.sub(r'(?<![\w)])-(?=\d)', MINUS, text.strip())
@@ -69,7 +70,7 @@ class Topic:
             fv = fmt(v)
             if fv in names: continue
             names.add(fv); opts.append((v, r))
-        if len(opts) < 4 and numval(ans) is not None and len(opts) >= 3:
+        if len(opts) < 4 and numval(ans) is not None and len(opts) >= 3 and not self.strict:
             for dlt in (1, -1, 2, -2, 10, -10):
                 v = numval(ans) + dlt
                 if fmt(v) not in names and len(opts) < 4:
@@ -112,6 +113,7 @@ class Topic:
                         try:
                             if fn(self, rng, lv): progressed = True; break
                         except ValueError as e:
+                            if self.strict: continue
                             print('!!', fn.__name__, e); break
             if all(self.need(l, target) <= 0 for l in (1, 2, 3)) or not progressed: break
 
