@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import AuthProvider from "@/components/shared/AuthProvider";
 import UserBar from "@/components/shared/UserBar";
+import PresenceTracker from "@/components/shared/PresenceTracker";
 
 const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <AuthProvider>
           <UserBar />
+          <PresenceTracker />
           {children}
         </AuthProvider>
       </body>
