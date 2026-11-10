@@ -19,6 +19,7 @@ model User {
   username     String        @unique
   passwordHash String
   createdAt    DateTime      @default(now())
+  lastSeenAt   DateTime?
   flashcards   Flashcard[]
   testResults  TestResult[]
   examAttempts ExamAttempt[]
@@ -164,7 +165,7 @@ model ExamAttempt {
   user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
   correct   Int
   total     Int
-  percent   Int
+  percent  Int
   score     Int
   createdAt DateTime   @default(now())
 
@@ -184,7 +185,6 @@ model BotSession {
   pendingImage String?
   updatedAt    DateTime @updatedAt
 }
-
 
 // ───────── Розширення: банк помилок, діагностика, streak, питання дня ─────────
 
