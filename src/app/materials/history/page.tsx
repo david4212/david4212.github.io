@@ -6,10 +6,11 @@ import Link from "next/link";
 import { ArrowLeft, ExternalLink, Map as MapIcon, Images, Landmark, Clapperboard, Search, Maximize2, Eye, EyeOff, BookOpen, ZoomIn, ZoomOut, X, CheckCircle2 } from "lucide-react";
 import { HISTORY_VISUALS, type VisualItem } from "@/lib/history-gallery";
 import { HISTORY_MAP_NOTES, type MapNote } from "@/lib/history-map-notes";
+import { getAtlasLabels, getAtlasPeriod } from "@/lib/history-atlas-legends";
 import { HISTORY_PHOTOS, type HistoryPhoto } from "@/lib/history-photos";
 
 type Tab = "figures" | "maps" | "art" | "cinema";
-type OpenVisual = {src:string;title:string;description:string;tip?:string};
+type OpenVisual = {src:string;title:string;description:string;tip?:string;labels?:{number:number;label:string}[];period?:string};
 const TABS: {id:Tab;title:string;subtitle:string;icon:typeof Images}[] = [
   {id:"figures",title:"Обличчя історії",subtitle:"Фото й портрети",icon:Images},
   {id:"maps",title:"Атлас подій",subtitle:"Карти, схеми, дати",icon:MapIcon},
@@ -75,23 +76,55 @@ function MapCard({item,quiz,revealed,onReveal,onOpen}:{item:VisualItem;quiz:bool
  const note=getNote(item);
  if(!note)return null;
  const visible=!quiz||revealed;
- return <article className="rounded-3xl border border-amber-100 bg-white shadow-sm overflow-hidden md:flex hover:shadow-lg transition-shadow">
-   <button type="button" onClick={onOpen} className="relative group bg-[#f6f3eb] w-full md:w-[52%] shrink-0 grid place-items-center p-3" aria-label={`Розгорнути карту: ${note.title}`}>
-     <img src={item.src} alt={note.title} loading="lazy" className="w-full h-60 md:h-72 object-contain transition-transform duration-300 group-hover:scale-[1.025]" />
-     <span className="absolute bottom-4 right-4 rounded-xl bg-white/90 px-3 py-2 text-xs font-bold text-amber-900 shadow flex items-center gap-2"><Maximize2 size={15}/> Відкрити велику карту</span>
-   </button>
-   <div className="p-5 md:p-6 flex flex-col gap-3">
-     <span className="text-[11px] uppercase font-bold tracking-widest text-amber-700">{item.category==="timeline"?"Хронологічна стрічка":item.category==="maps"?"Історична картосхема":"Опорна схема"} · {PERIODS.find(p=>p.value===mapPeriod(item.src))?.label}</span>
-     {visible ? <>
-       <h2 className="font-black text-xl text-slate-900">{note.title}</h2>
-       <p className="text-slate-700 text-sm leading-relaxed">{note.description}</p>
-       <div className="bg-amber-50 border-l-4 border-amber-400 p-3 rounded-r-xl text-sm text-slate-800"><strong>Що запам'ятати:</strong> {note.tip}</div>
-     </> : <>
-       <h2 className="font-black text-xl text-slate-900">Упізнай тему карти</h2>
-       <p className="text-sm text-slate-600">Спробуй визначити період, міста та події за умовними позначеннями.</p>
-       <button type="button" onClick={onReveal} className="mt-2 w-fit rounded-xl bg-orange-50 text-orange-700 text-sm font-bold px-4 py-2 hover:bg-orange-100">Показати пояснення</button>
-     </>}
+ const labels=getAtlasLabels(item.src);
+ const period=getAtlasPeriod(item.src);
+ const isMap=item.category==="maps";
+ return <article className="overflow-hidden rounded-3xl bg-[#fffcf2] border border-[#d8cbb0] shadow-md hover:shadow-xl transition-shadow">
+   <header className="relative flex flex-wrap items-center justify-between gap-3 px-5 md:px-7 py-5 bg-[#213f3b] text-[#fff8e7]">
+     <div>
+       <p className="text-[11px] font-bold tracking-[0.17em] text-[#e6cea0] uppercase">Історичний атлас · {period} · НМТ</p>
+       <h2 className="text-xl md:text-2xl font-black mt-2 tracking-tight">{visible?note.title:"Упізнай історичну картосхему"}</h2>
+     </div>
+     <span className="rounded-full border border-[#b8a26e] bg-[#34584d] text-[#fce9c8] px-3 py-1.5 text-xs font-bold">{isMap?"КАРТА":item.category==="timeline"?"ХРОНОЛОГІЯ":"СХЕМА"}</span>
+   </header>
+   <div className="lg:grid lg:grid-cols-[minmax(0,1.65fr)_minmax(285px,1fr)]">
+     <div className="relative bg-[#e8e9df] p-3 md:p-5 border-b lg:border-b-0 lg:border-r border-[#d9c9ad]">
+       <div className="relative rounded-xl border-2 border-[#9f977e] bg-[#e1ece7] p-2 md:p-4 shadow-inner overflow-hidden">
+         <button type="button" onClick={onOpen} aria-label={`Відкрити карту: ${note.title}`} className="group w-full block relative text-left">
+           <img src={item.src} alt={note.title} loading="lazy" className="block w-full h-auto object-contain rounded-md sepia-[.08] saturate-[.78] contrast-[1.08] group-hover:scale-[1.015] transition-transform duration-300" />
+           <span className="absolute right-2 bottom-2 rounded-xl bg-white/90 px-3 py-2 text-xs font-bold text-[#27443a] shadow flex gap-2 items-center"><Maximize2 size={15}/> Відкрити велику карту</span>
+         </button>
+         <div aria-hidden="true" className="absolute top-2 right-2 flex flex-col items-center justify-center w-10 h-14 text-[#284b44] pointer-events-none bg-[#f8f4e9]/90 rounded-lg border border-[#c9c3ab]">
+           <span className="text-sm font-black leading-none">Пн</span>
+           <span className="text-lg leading-none">↑</span>
+         </div>
+       </div>
+       <p className="flex gap-2 items-start text-xs leading-relaxed mt-3 px-1 text-[#626355]"><span aria-hidden="true">◈</span> Географічна основа — сучасний контур України для орієнтування; це не історичний державний кордон. Масштаб умовний.</p>
+     </div>
+     <div className="flex flex-col p-5 md:p-6 bg-[#fffdf7]">
+       {visible?<>
+         <h3 className="font-extrabold text-xs tracking-[0.14em] uppercase text-[#94713e] pb-3 border-b-2 border-[#cfb988]">Умовні позначення</h3>
+         {labels.length>0?<ol className="my-4 space-y-3">
+           {labels.map(({number,label})=><li key={number} className="flex gap-3 items-center">
+             <span className="grid shrink-0 size-9 place-items-center rounded-full bg-[#284d44] text-white font-black text-sm shadow-sm">{number}</span>
+             <span className="font-semibold text-[#30423d] text-sm md:text-base">{label}</span>
+           </li>)}
+         </ol>:<p className="mt-4 text-sm text-[#58665c] leading-relaxed">Цифри на цій схемі позначають події або установи. Їх розшифрування наведено у поясненні нижче.</p>}
+         {labels.length>0&&labels.length<4&&<p className="text-xs mt-1 text-[#766851]">Підписано лише позначки, що вдалося однозначно звірити із завданнями.</p>}
+       </>:<>
+         <h3 className="font-extrabold text-xs tracking-[0.14em] uppercase text-[#94713e] pb-3 border-b-2 border-[#cfb988]">Самоперевірка</h3>
+         <p className="mt-4 text-sm text-[#4c554c] leading-relaxed">Подивися на цифри й географічні орієнтири. Назви кожне місто або територію, епоху та пов'язану подію.</p>
+         <button type="button" onClick={onReveal} className="mt-5 w-fit rounded-xl px-4 py-2.5 bg-[#284d44] text-white font-bold text-sm hover:bg-[#1c3933]">Показати легенду й пояснення</button>
+       </>}
+       <div className="mt-auto pt-4 border-t border-[#e3dbc8]">
+         <p className="flex items-center gap-2 text-xs text-[#847554] font-extrabold uppercase tracking-wide"><BookOpen size={15}/> Як читати карту</p>
+         <p className="mt-2 text-sm text-[#43564e] leading-relaxed">{visible?note.description:"Спершу назви позначені об'єкти, а потім поясни їхній зв'язок із темою."}</p>
+       </div>
+     </div>
    </div>
+   {visible&&<footer className="bg-[#f3e6cc] border-t border-[#dbcaac] p-4 md:px-7 text-sm text-[#5b492f] leading-relaxed">
+     <strong className="text-[#80612d]">Запам'ятай до НМТ: </strong>{note.tip}
+   </footer>}
  </article>;
 }
 
@@ -117,7 +150,7 @@ export default function HistoryAtlas(){
  const currentCount=tab==="maps"?mapItems.length:photoItems.length;
  const openMap=(item:VisualItem)=>{
    const n=getNote(item);if(!n)return;
-   setZoom(1);setOpened({src:item.src,title:n.title,description:n.description,tip:n.tip});
+   setZoom(1);setOpened({src:item.src,title:n.title,description:n.description,tip:n.tip,labels:getAtlasLabels(item.src),period:getAtlasPeriod(item.src)});
  };
  const openPhoto=(item:HistoryPhoto)=>{setZoom(1);setOpened({src:item.src,title:item.title,description:item.description});};
  const countFor=(key:Tab)=>key==="maps"?HISTORY_VISUALS.filter(item=>getNote(item)).length:
@@ -184,6 +217,8 @@ export default function HistoryAtlas(){
        </div>
      </div>
      <div className="p-4 sm:px-6 bg-slate-900 text-white text-sm border-t border-white/15">
+       {opened.period&&<p className="text-amber-200 text-xs font-semibold mb-2">Атлас · {opened.period}</p>}
+       {opened.labels&&opened.labels.length>0&&<div className="flex flex-wrap gap-x-4 gap-y-2 pb-2">{opened.labels.map(v=><span key={v.number} className="font-bold text-sm"><span className="text-[#eac984]">{v.number}.</span> {v.label}</span>)}</div>}
        <p>{opened.description}</p>
        {opened.tip&&<p className="text-amber-200 mt-1"><strong>Запам'ятай:</strong> {opened.tip}</p>}
      </div>
