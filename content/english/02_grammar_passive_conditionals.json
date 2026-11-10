@@ -1,1924 +1,1924 @@
 {
- "subject": "ENGLISH",
- "topic": "Grammar: Passive Voice & Conditionals",
- "questions": [
-  {
-   "text": "English ___ in many countries all over the world.",
-   "options": [
-    "is speaking",
-    "is spoken",
-    "speaks",
-    "speak"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Підмет English не виконує дію.\n❌ Хибні: А) is speaking — Continuous не потрібен; В) speaks — активна форма не підходить; Г) speak — бракує допоміжного дієслова.\n✅ Б) is spoken — Present Simple Passive: is + V3.",
-   "testLevel": 1
-  },
-  {
-   "text": "This house ___ in 1950.",
-   "options": [
-    "was built",
-    "has built",
-    "is built",
-    "built"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Рік у минулому — Past Simple Passive.\n❌ Хибні: Б) has built — активна форма Perfect; В) is built — теперішній час не пасує до 1950; Г) built — активна форма, немає was.\n✅ А) was built — Past Simple Passive: was + V3.",
-   "testLevel": 1
-  },
-  {
-   "text": "The letters ___ yesterday.",
-   "options": [
-    "sent",
-    "are sent",
-    "were sent",
-    "was sent"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Yesterday + Passive — were + V3.\n❌ Хибні: А) sent — немає допоміжного дієслова; Б) are sent — теперішній час не пасує; Г) was sent — був би однині.\n✅ В) were sent — Past Simple Passive, множина.",
-   "testLevel": 1
-  },
-  {
-   "text": "The window ___ by the boy.",
-   "options": [
-    "is broke",
-    "broke",
-    "was broken",
-    "was break"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Break — broke — broken.\n❌ Хибні: А) is broke — неправильна форма дієслова; Б) broke — активна форма без was; Г) was break — потрібна форма V3.\n✅ В) was broken — Past Simple Passive, V3 від break.",
-   "testLevel": 1
-  },
-  {
-   "text": "Cars ___ in this factory.",
-   "options": [
-    "are making",
-    "make",
-    "is made",
-    "are made"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Cars — are + V3.\n❌ Хибні: А) are making — Continuous не потрібен; Б) make — активна форма — потрібен Passive; В) is made — однина не пасує до cars.\n✅ Г) are made — Present Simple Passive, множина.",
-   "testLevel": 1
-  },
-  {
-   "text": "The cake ___ by my mother every Sunday.",
-   "options": [
-    "was baked",
-    "is baking",
-    "bakes",
-    "is baked"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Every Sunday — Present Simple.\n❌ Хибні: А) was baked — минулий час не пасує до every Sunday; Б) is baking — Continuous не пасує до every Sunday; В) bakes — активна форма — потрібен Passive.\n✅ Г) is baked — Present Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "The thief ___ by the police last night.",
-   "options": [
-    "has been arrested",
-    "arrested",
-    "is arrested",
-    "was arrested"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Last night — Past Simple.\n❌ Хибні: А) has been arrested — Perfect не вживається з last night; Б) arrested — немає допоміжного дієслова; В) is arrested — теперішній час не пасує до last night.\n✅ Г) was arrested — Past Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "Many books ___ by this author so far.",
-   "options": [
-    "have written",
-    "have been written",
-    "are written",
-    "had been written"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: So far — Present Perfect.\n❌ Хибні: А) have written — активна форма — потрібен Passive; В) are written — Simple не пасує до so far; Г) had been written — Past Perfect не потрібен.\n✅ Б) have been written — Present Perfect Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "Don't come in! The room ___ now.",
-   "options": [
-    "cleans",
-    "is cleaned",
-    "is being cleaned",
-    "has cleaned"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Now — is being + V3.\n❌ Хибні: А) cleans — активна форма — потрібен Passive; Б) is cleaned — Simple не для дії зараз; Г) has cleaned — активна форма — потрібен Passive.\n✅ В) is being cleaned — Present Continuous Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "The bridge ___ next year.",
-   "options": [
-    "is built",
-    "will be built",
-    "will build",
-    "was built"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Next year — will be + V3.\n❌ Хибні: А) is built — теперішній час тут не пасує; В) will build — активна форма — потрібен Passive; Г) was built — минулий час тут не пасує.\n✅ Б) will be built — Future Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "The homework ___ already.",
-   "options": [
-    "did",
-    "was been done",
-    "has done",
-    "has been done"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Already — Present Perfect.\n❌ Хибні: А) did — активна форма — потрібен Passive; Б) was been done — неправильна форма be; В) has done — активна форма — потрібен Passive.\n✅ Г) has been done — Present Perfect Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "Choose the correct passive form: «They speak French here.»",
-   "options": [
-    "French speaks here.",
-    "French is spoken here.",
-    "French is speaking here.",
-    "French spoken here."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Дієслово be + V3.\n❌ Хибні: А) French speaks here. — активна форма без виконавця; В) French is speaking here. — Continuous не потрібен; Г) French spoken here. — бракує is у конструкції.\n✅ Б) French is spoken here. — Present Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "Choose the correct passive form: «Shakespeare wrote Hamlet.»",
-   "options": [
-    "Hamlet was wrote by Shakespeare.",
-    "Hamlet is written by Shakespeare.",
-    "Hamlet wrote by Shakespeare.",
-    "Hamlet was written by Shakespeare."
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Write — wrote — written.\n❌ Хибні: А) Hamlet was wrote by Shakespeare. — потрібна форма written; Б) Hamlet is written by Shakespeare. — Present не пасує до wrote; В) Hamlet wrote by Shakespeare. — бракує was та V3.\n✅ Г) Hamlet was written by Shakespeare. — Past Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "My bike ___ yesterday.",
-   "options": [
-    "has stolen",
-    "was stolen",
-    "stole",
-    "is stolen"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Steal — stole — stolen.\n❌ Хибні: А) has stolen — активна форма — потрібен Passive; В) stole — активна форма — потрібен Passive; Г) is stolen — теперішній час тут не пасує.\n✅ Б) was stolen — Past Simple Passive, V3 від steal.",
-   "testLevel": 1
-  },
-  {
-   "text": "The pyramids ___ thousands of years ago.",
-   "options": [
-    "have been built",
-    "were built",
-    "was built",
-    "are built"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Ago — Past Simple.\n❌ Хибні: А) have been built — Perfect не вживається з ago; В) was built — однина не пасує до pyramids; Г) are built — теперішній час не пасує до ago.\n✅ Б) were built — Past Simple Passive, множина.",
-   "testLevel": 1
-  },
-  {
-   "text": "The match ___ because of the rain.",
-   "options": [
-    "cancelled",
-    "was cancelled",
-    "is cancelling",
-    "has cancel"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Match — підмет, дія виконана над ним.\n❌ Хибні: А) cancelled — немає допоміжного дієслова was; В) is cancelling — активна форма — потрібен Passive; Г) has cancel — неправильна форма дієслова.\n✅ Б) was cancelled — Past Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "Where ___ this photo taken last summer?",
-   "options": [
-    "was",
-    "did",
-    "is",
-    "were"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Photo — однина, дія в минулому.\n❌ Хибні: Б) did — потрібне be, не do; В) is — теперішній час не пасує; Г) were — множина не пасує до photo.\n✅ А) was — Past Simple Passive, однина.",
-   "testLevel": 1
-  },
-  {
-   "text": "These shoes ___ in Italy.",
-   "options": [
-    "made",
-    "are made",
-    "is made",
-    "make"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Shoes — множина, are made.\n❌ Хибні: А) made — немає допоміжного дієслова; В) is made — однина не пасує до shoes; Г) make — активна форма — потрібен Passive.\n✅ Б) are made — Present Simple Passive, множина.",
-   "testLevel": 1
-  },
-  {
-   "text": "The results ___ tomorrow.",
-   "options": [
-    "announced",
-    "will announce",
-    "are announce",
-    "will be announced"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Tomorrow — майбутній час.\n❌ Хибні: А) announced — немає допоміжного дієслова; Б) will announce — активна форма — потрібен Passive; В) are announce — неправильна форма дієслова.\n✅ Г) will be announced — Future Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "The documents must ___ by the director.",
-   "options": [
-    "sign",
-    "be signing",
-    "signed",
-    "be signed"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Модальне дієслово + be + V3.\n❌ Хибні: А) sign — активна форма — потрібен Passive; Б) be signing — Continuous не потрібен; В) signed — бракує be у конструкції.\n✅ Г) be signed — modal + be + V3.",
-   "testLevel": 1
-  },
-  {
-   "text": "The telephone ___ by Alexander Bell.",
-   "options": [
-    "invented",
-    "was invented",
-    "has invented",
-    "is invented"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Винахід у минулому — was invented.\n❌ Хибні: А) invented — немає допоміжного дієслова; В) has invented — активна форма — потрібен Passive; Г) is invented — теперішній час тут не пасує.\n✅ Б) was invented — Past Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "This film ___ by millions of people.",
-   "options": [
-    "was been seen",
-    "is seeing",
-    "has been seen",
-    "has seen"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: See — saw — seen.\n❌ Хибні: А) was been seen — неправильна форма be; Б) is seeing — активна форма — потрібен Passive; Г) has seen — активна форма — потрібен Passive.\n✅ В) has been seen — Present Perfect Passive, V3 від see.",
-   "testLevel": 1
-  },
-  {
-   "text": "If it rains, we ___ at home.",
-   "options": [
-    "will stay",
-    "stayed",
-    "stays",
-    "would stay"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Реальна умова — will + V.\n❌ Хибні: Б) stayed — Past Simple не пасує до if it rains; В) stays — з підметом we немає -s; Г) would stay — це Second conditional.\n✅ А) will stay — First conditional: will + V.",
-   "testLevel": 1
-  },
-  {
-   "text": "If you heat ice, it ___.",
-   "options": [
-    "melting",
-    "melted",
-    "would melt",
-    "melts"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Закон природи — Present Simple.\n❌ Хибні: А) melting — неправильна форма дієслова; Б) melted — Past Simple не пасує; В) would melt — умовний спосіб не потрібен.\n✅ Г) melts — Zero conditional: Present Simple.",
-   "testLevel": 1
-  },
-  {
-   "text": "If I ___ rich, I would travel the world.",
-   "options": [
-    "will be",
-    "were",
-    "am",
-    "would be"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: If I were — нереальна умова.\n❌ Хибні: А) will be — will не вживається після if; В) am — Present Simple не пасує до would; Г) would be — would не вживається після if.\n✅ Б) were — Second conditional: if + Past Simple.",
-   "testLevel": 1
-  },
-  {
-   "text": "If she studies hard, she ___ the exam.",
-   "options": [
-    "will pass",
-    "passed",
-    "passes",
-    "would pass"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Studies — Present Simple, наслідок — will + V.\n❌ Хибні: Б) passed — Past Simple не підходить; В) passes — Present Simple не підходить; Г) would pass — це Second conditional.\n✅ А) will pass — це First conditional: if + Present, will.",
-   "testLevel": 1
-  },
-  {
-   "text": "If I had a car, I ___ to work by car.",
-   "options": [
-    "will drive",
-    "drive",
-    "would drive",
-    "drove"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: If + Past Simple, would + V.\n❌ Хибні: А) will drive — will для реальної умови; Б) drive — Present Simple не пасує до if I had; Г) drove — Past Simple не пасує в головній частині.\n✅ В) would drive — Second conditional: would + V.",
-   "testLevel": 1
-  },
-  {
-   "text": "I ___ you if I knew his number.",
-   "options": [
-    "called",
-    "call",
-    "will call",
-    "would call"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: If I knew — would + V.\n❌ Хибні: А) called — Past Simple не пасує в головній частині; Б) call — Present Simple не пасує; В) will call — will не пасує до if I knew.\n✅ Г) would call — це Second conditional: if + Past, would.",
-   "testLevel": 1
-  },
-  {
-   "text": "If he ___ late, we will start without him.",
-   "options": [
-    "is",
-    "was",
-    "would be",
-    "will be"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Після if — Present Simple.\n❌ Хибні: Б) was — Past Simple не пасує до will; В) would be — would не вживається після if; Г) will be — will не вживається після if.\n✅ А) is — First conditional: Present Simple.",
-   "testLevel": 1
-  },
-  {
-   "text": "Unless you hurry, you ___ the train.",
-   "options": [
-    "missed",
-    "would miss",
-    "miss",
-    "will miss"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Unless = if you don't hurry.\n❌ Хибні: А) missed — Past Simple не пасує; Б) would miss — це Second conditional; В) miss — Present Simple не пасує.\n✅ Г) will miss — First conditional з unless.",
-   "testLevel": 1
-  },
-  {
-   "text": "If water reaches 100°C, it ___.",
-   "options": [
-    "boiling",
-    "would boil",
-    "boils",
-    "boiled"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Науковий факт — Present Simple.\n❌ Хибні: А) boiling — неправильна форма дієслова; Б) would boil — would не для закону природи; Г) boiled — Past Simple не пасує.\n✅ В) boils — це Zero conditional: Present + Present.",
-   "testLevel": 1
-  },
-  {
-   "text": "What would you do if you ___ a million dollars?",
-   "options": [
-    "won",
-    "would win",
-    "will win",
-    "win"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Would you do — if + Past Simple.\n❌ Хибні: Б) would win — would не вживається після if; В) will win — will не вживається після if; Г) win — Present Simple не пасує до would.\n✅ А) won — Second conditional: if + Past Simple.",
-   "testLevel": 1
-  },
-  {
-   "text": "If the weather is nice, we ___ for a picnic.",
-   "options": [
-    "went",
-    "go would",
-    "will go",
-    "would go"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Реальна умова — will go.\n❌ Хибні: А) went — Past Simple не пасує; Б) go would — неправильний порядок слів; Г) would go — це Second conditional.\n✅ В) will go — це First conditional: if + Present, will.",
-   "testLevel": 1
-  },
-  {
-   "text": "She would be happier if she ___ more friends.",
-   "options": [
-    "will have",
-    "would have",
-    "had",
-    "has"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Would be — if + Past Simple.\n❌ Хибні: А) will have — will не вживається після if; Б) would have — would не вживається після if; Г) has — Present Simple не пасує до would.\n✅ В) had — Second conditional: if + Past Simple.",
-   "testLevel": 1
-  },
-  {
-   "text": "If I were you, I ___ him the truth.",
-   "options": [
-    "tell",
-    "will tell",
-    "told",
-    "would tell"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: If I were you — порада, would + V.\n❌ Хибні: А) tell — Present Simple не пасує; Б) will tell — will не пасує до if I were you; В) told — Past Simple не пасує.\n✅ Г) would tell — це Second conditional: if + Past, would.",
-   "testLevel": 1
-  },
-  {
-   "text": "If you don't water plants, they ___.",
-   "options": [
-    "die",
-    "would die",
-    "died",
-    "dying"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Загальна істина — Present Simple.\n❌ Хибні: Б) would die — would не для загальної істини; В) died — Past Simple не пасує; Г) dying — неправильна форма дієслова.\n✅ А) die — це Zero conditional: Present + Present.",
-   "testLevel": 1
-  },
-  {
-   "text": "We'll go to the beach if it ___ sunny tomorrow.",
-   "options": [
-    "was",
-    "will be",
-    "is",
-    "would be"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Tomorrow, але після if — Present Simple.\n❌ Хибні: А) was — Past Simple не пасує до tomorrow; Б) will be — will не вживається після if; Г) would be — would не вживається після if.\n✅ В) is — First conditional, Present Simple після if.",
-   "testLevel": 1
-  },
-  {
-   "text": "If I ___ time, I would help you.",
-   "options": [
-    "had",
-    "have",
-    "would have",
-    "will have"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Would help — if + Past Simple.\n❌ Хибні: Б) have — Present Simple не пасує до would; В) would have — would не вживається після if; Г) will have — will не вживається після if.\n✅ А) had — це Second conditional: if + Past, would.",
-   "testLevel": 1
-  },
-  {
-   "text": "Which sentence is a first conditional?",
-   "options": [
-    "If I had wings, I would fly.",
-    "If you heat ice, it melts.",
-    "If I had known, I would have helped.",
-    "If it rains, I will take an umbrella."
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: First conditional — реальна умова.\n❌ Хибні: А) If I had wings, I would fly. — це Second conditional; Б) If you heat ice, it melts. — це Zero conditional; В) If I had known, I would have helped. — це Third conditional.\n✅ Г) If it rains, I will take an umbrella. — if + Present Simple, will + V.",
-   "testLevel": 1
-  },
-  {
-   "text": "Which sentence is a second conditional?",
-   "options": [
-    "If I had wings, I would fly.",
-    "If I had seen her, I would have said hello.",
-    "If you mix red and blue, you get purple.",
-    "If it rains, I will stay."
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Second conditional — нереальна умова.\n❌ Хибні: Б) If I had seen her, I would have said hello. — це Third conditional; В) If you mix red and blue, you get purple. — це Zero conditional; Г) If it rains, I will stay. — це First conditional.\n✅ А) If I had wings, I would fly. — if + Past Simple, would + V.",
-   "testLevel": 1
-  },
-  {
-   "text": "Which sentence means the same as «Unless you study, you will fail»?",
-   "options": [
-    "If you study, you will fail.",
-    "If you don't study, you will fail.",
-    "If you studied, you would fail.",
-    "Unless you don't study, you will fail."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Unless — це if … not.\n❌ Хибні: А) If you study, you will fail. — це протилежне значення; В) If you studied, you would fail. — інший тип умовного речення; Г) Unless you don't study, you will fail. — після unless немає not.\n✅ Б) If you don't study, you will fail. — unless = if not.",
-   "testLevel": 1
-  },
-  {
-   "text": "I'll call you as soon as I ___ home.",
-   "options": [
-    "get",
-    "got",
-    "am getting",
-    "will get"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Після as soon as — Present Simple.\n❌ Хибні: Б) got — Past Simple не пасує; В) am getting — Continuous не пасує; Г) will get — will не вживається після as soon as.\n✅ А) get — у часових реченнях — Present Simple.",
-   "testLevel": 1
-  },
-  {
-   "text": "If you ___ the button, the machine starts.",
-   "options": [
-    "would press",
-    "pressed",
-    "will press",
-    "press"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Інструкція — Present Simple.\n❌ Хибні: А) would press — would не пасує; Б) pressed — Past Simple не пасує; В) will press — will не для закону.\n✅ Г) press — це Zero conditional: Present + Present.",
-   "testLevel": 1
-  },
-  {
-   "text": "What ___ you do if you lost your keys?",
-   "options": [
-    "would",
-    "will",
-    "did",
-    "do"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: If you lost → would you do.\n❌ Хибні: Б) will — will не пасує до if you lost; В) did — потрібне would у головній частині; Г) do — потрібне would у головній частині.\n✅ А) would — це Second conditional: if + Past, would.",
-   "testLevel": 1
-  },
-  {
-   "text": "If I see him, I ___ him your message.",
-   "options": [
-    "give",
-    "will give",
-    "gave",
-    "would give"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: If I see — will + V.\n❌ Хибні: А) give — Present Simple не пасує; В) gave — Past Simple не пасує; Г) would give — це Second conditional.\n✅ Б) will give — це First conditional: if + Present, will.",
-   "testLevel": 1
-  },
-  {
-   "text": "If we ___ the lottery, we would buy a house.",
-   "options": [
-    "won",
-    "win",
-    "will win",
-    "would win"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Would buy — if + Past Simple.\n❌ Хибні: Б) win — Present Simple не пасує до would; В) will win — will не вживається після if; Г) would win — would не вживається після if.\n✅ А) won — це Second conditional: if + Past, would.",
-   "testLevel": 1
-  },
-  {
-   "text": "The tickets ___ at the box office.",
-   "options": [
-    "sold",
-    "are sold",
-    "sell",
-    "are selling"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Tickets не продають самі — are sold.\n❌ Хибні: А) sold — немає допоміжного дієслова; В) sell — активна форма — потрібен Passive; Г) are selling — Continuous не потрібен.\n✅ Б) are sold — Present Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "The Eiffel Tower ___ every year by millions of tourists.",
-   "options": [
-    "was visited",
-    "visits",
-    "is visiting",
-    "is visited"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Every year — Present Simple.\n❌ Хибні: А) was visited — минулий час не пасує до every year; Б) visits — активна форма — потрібен Passive; В) is visiting — активна форма Continuous.\n✅ Г) is visited — Present Simple Passive.",
-   "testLevel": 1
-  },
-  {
-   "text": "The boy ___ by a dog yesterday.",
-   "options": [
-    "has bitten",
-    "bit",
-    "was bitten",
-    "is bitten"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Bite — bit — bitten.\n❌ Хибні: А) has bitten — активна форма — потрібен Passive; Б) bit — активна форма — потрібен Passive; Г) is bitten — теперішній час не пасує до yesterday.\n✅ В) was bitten — Past Simple Passive, V3 від bite.",
-   "testLevel": 1
-  },
-  {
-   "text": "If you cool water to 0°C, it ___.",
-   "options": [
-    "freezes",
-    "freezing",
-    "froze",
-    "would freeze"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Закон природи — Present Simple.\n❌ Хибні: Б) freezing — неправильна форма дієслова; В) froze — Past Simple не пасує; Г) would freeze — would не для закону природи.\n✅ А) freezes — це Zero conditional: Present + Present.",
-   "testLevel": 1
-  },
-  {
-   "text": "The old church ___ at the moment.",
-   "options": [
-    "restores",
-    "is being restored",
-    "has restored",
-    "is restored"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: At the moment — is being + V3.\n❌ Хибні: А) restores — активна форма — потрібен Passive; В) has restored — активна форма — потрібен Passive; Г) is restored — Simple не передає процес зараз.\n✅ Б) is being restored — Present Continuous Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "At 7 o'clock yesterday the new road ___.",
-   "options": [
-    "was built",
-    "is being built",
-    "was being built",
-    "has been built"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Певний момент у минулому — was being.\n❌ Хибні: А) was built — Simple не передає процес; Б) is being built — теперішній час не пасує; Г) has been built — Perfect не пасує до yesterday.\n✅ В) was being built — Past Continuous Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "The problem ___ for two hours, but they haven't found a solution.",
-   "options": [
-    "was discussed",
-    "has been discussed",
-    "is discussed",
-    "discusses"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: For two hours + результат — Perfect.\n❌ Хибні: А) was discussed — Past Simple не пасує до haven't found; В) is discussed — Simple не пасує до for two hours; Г) discusses — активна форма — потрібен Passive.\n✅ Б) has been discussed — Present Perfect Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "The new law ___ next month.",
-   "options": [
-    "introduced",
-    "will introduce",
-    "has introduced",
-    "will be introduced"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Next month — will be + V3.\n❌ Хибні: А) introduced — Past Simple не пасує до next month; Б) will introduce — активна форма — потрібен Passive; В) has introduced — активна форма Perfect.\n✅ Г) will be introduced — Future Simple Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "A present ___ to her by her uncle on her birthday.",
-   "options": [
-    "was been given",
-    "gave",
-    "was given",
-    "has give"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Give — gave — given.\n❌ Хибні: А) was been given — неправильна форма be; Б) gave — активна форма — потрібен Passive; Г) has give — неправильна форма дієслова.\n✅ В) was given — Past Simple Passive, V3 від give.",
-   "testLevel": 2
-  },
-  {
-   "text": "I ___ my hair cut every month.",
-   "options": [
-    "make",
-    "am",
-    "have",
-    "do"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Have something done — зробили не самі.\n❌ Хибні: А) make — make змінює значення; Б) am — be не утворює causative; Г) do — do не утворює causative.\n✅ В) have — causative: have + object + V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "We ___ our house painted last week.",
-   "options": [
-    "have",
-    "had",
-    "were",
-    "made"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Last week — had + object + V3.\n❌ Хибні: А) have — Present не пасує до last week; В) were — be не утворює causative; Г) made — make змінює значення.\n✅ Б) had — causative у Past Simple.",
-   "testLevel": 2
-  },
-  {
-   "text": "Which sentence with a verb of perception in the passive is correct?",
-   "options": [
-    "He was seen to enter the house.",
-    "He was seen entered the house.",
-    "He saw to enter the house.",
-    "He was seen enter the house."
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Passive: was seen + to V.\n❌ Хибні: Б) He was seen entered the house. — після was seen немає V2; В) He saw to enter the house. — активна форма змінює зміст; Г) He was seen enter the house. — у Passive після seen потрібне to.\n✅ А) He was seen to enter the house. — passive із to-infinitive після seen.",
-   "testLevel": 2
-  },
-  {
-   "text": "He is said ___ in London.",
-   "options": [
-    "live",
-    "to live",
-    "lives",
-    "living"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Is said + to V.\n❌ Хибні: А) live — потрібне to у цій конструкції; В) lives — присудок уже є — is said; Г) living — після is said потрібне to V.\n✅ Б) to live — impersonal passive + to-infinitive.",
-   "testLevel": 2
-  },
-  {
-   "text": "The documents should ___ in a safe place.",
-   "options": [
-    "be keeping",
-    "kept",
-    "be kept",
-    "keep"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Should + be + V3.\n❌ Хибні: А) be keeping — активна форма Continuous; Б) kept — бракує be у конструкції; Г) keep — активна форма — потрібен Passive.\n✅ В) be kept — modal + be + V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "She hates ___ at.",
-   "options": [
-    "being laughed",
-    "to laugh",
-    "laughed",
-    "laughing"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Passive gerund: being + V3.\n❌ Хибні: Б) to laugh — неправильна форма дієслова; В) laughed — після hates потрібне being; Г) laughing — бракує об'єкта й being.\n✅ А) being laughed — after hate — being + V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "By whom ___ the Mona Lisa painted?",
-   "options": [
-    "were",
-    "did",
-    "has",
-    "was"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Mona Lisa — однина, минулий час.\n❌ Хибні: А) were — однина не пасує до Mona Lisa; Б) did — do не утворює Passive; В) has — бракує been у конструкції.\n✅ Г) was — Past Simple Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "«They have cancelled all flights.» Choose the passive form.",
-   "options": [
-    "All flights have cancelled.",
-    "All flights are cancel.",
-    "All flights have been cancelled.",
-    "All flights were been cancelled."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Have/has been + V3.\n❌ Хибні: А) All flights have cancelled. — активна форма без been; Б) All flights are cancel. — неправильна форма дієслова; Г) All flights were been cancelled. — неправильна форма be.\n✅ В) All flights have been cancelled. — Present Perfect Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "«People say that he is a spy.» Choose the correct form.",
-   "options": [
-    "He is said being a spy.",
-    "He said to be a spy.",
-    "He is said to be a spy.",
-    "He says to be a spy."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Say → is said to V.\n❌ Хибні: А) He is said being a spy. — після is said потрібне to; Б) He said to be a spy. — Past Simple активне, не Passive; Г) He says to be a spy. — Passive потрібен — says активне.\n✅ В) He is said to be a spy. — impersonal passive: is said + to V.",
-   "testLevel": 2
-  },
-  {
-   "text": "I was told ___ the door.",
-   "options": [
-    "to lock",
-    "locked",
-    "locking",
-    "lock"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Was told + to V.\n❌ Хибні: Б) locked — неправильна форма дієслова; В) locking — після was told потрібне to V; Г) lock — бракує to у конструкції.\n✅ А) to lock — passive + to-infinitive.",
-   "testLevel": 2
-  },
-  {
-   "text": "The car ___ repaired tomorrow.",
-   "options": [
-    "is going to",
-    "is going to be",
-    "will being",
-    "goes to be"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Going to + be + V3.\n❌ Хибні: А) is going to — бракує be у конструкції; В) will being — неправильна форма дієслова; Г) goes to be — неправильна форма дієслова.\n✅ Б) is going to be — going to Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "She ___ to the party but she didn't go.",
-   "options": [
-    "invited",
-    "has invited",
-    "was inviting",
-    "was invited"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Вона — об'єкт запрошення.\n❌ Хибні: А) invited — активна форма без об'єкта; Б) has invited — активна форма Perfect; В) was inviting — активна форма Continuous.\n✅ Г) was invited — Past Simple Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "The children ___ a story by the teacher.",
-   "options": [
-    "were telling",
-    "have tell",
-    "were told",
-    "told"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Children — множина, were + V3.\n❌ Хибні: А) were telling — активна форма Continuous; Б) have tell — неправильна форма дієслова; Г) told — активна форма — потрібен Passive.\n✅ В) were told — Past Simple Passive, множина.",
-   "testLevel": 2
-  },
-  {
-   "text": "The ship ___ by a huge wave.",
-   "options": [
-    "is hitting",
-    "hit",
-    "was hit",
-    "was hitted"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Hit — hit — hit.\n❌ Хибні: А) is hitting — активна форма Continuous; Б) hit — бракує was у конструкції; Г) was hitted — неправильна форма V3.\n✅ В) was hit — Past Simple Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "The injured ___ to hospital by ambulance.",
-   "options": [
-    "took",
-    "have took",
-    "were taken",
-    "were took"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Take — took — taken.\n❌ Хибні: А) took — активна форма — потрібен Passive; Б) have took — неправильна форма дієслова; Г) were took — потрібна форма V3 — taken.\n✅ В) were taken — Past Simple Passive, множина.",
-   "testLevel": 2
-  },
-  {
-   "text": "The painting ___ stolen from the museum last night.",
-   "options": [
-    "is",
-    "was",
-    "has been",
-    "had"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Last night — was stolen.\n❌ Хибні: А) is — теперішній час не пасує до last night; В) has been — Perfect не вживається з last night; Г) had — Past Perfect не потрібен.\n✅ Б) was — Past Simple Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "This room ___ for storage.",
-   "options": [
-    "used",
-    "is using",
-    "uses",
-    "is used"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Room — об'єкт використання.\n❌ Хибні: А) used — бракує is у конструкції; Б) is using — активна форма Continuous; В) uses — активна форма — потрібен Passive.\n✅ Г) is used — Present Simple Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "«Someone has stolen my wallet.» Choose the passive form.",
-   "options": [
-    "My wallet was stolen.",
-    "My wallet has been stolen.",
-    "My wallet is stolen.",
-    "My wallet has stolen."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Passive зберігає час активної форми.\n❌ Хибні: А) My wallet was stolen. — змінено час дієслова; В) My wallet is stolen. — змінено час дієслова; Г) My wallet has stolen. — бракує been у конструкції.\n✅ Б) My wallet has been stolen. — Present Perfect Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "The exhibition ___ until the end of May.",
-   "options": [
-    "has held",
-    "will hold",
-    "holds",
-    "will be held"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Exhibition не проводить, її проводять.\n❌ Хибні: А) has held — активна форма Perfect; Б) will hold — активна форма — потрібен Passive; В) holds — активна форма Present.\n✅ Г) will be held — Future Simple Passive.",
-   "testLevel": 2
-  },
-  {
-   "text": "Which sentence is grammatically correct?",
-   "options": [
-    "The accident was happened last night.",
-    "The accident has been happened last night.",
-    "The accident happened last night.",
-    "The accident was occurred last night."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Happen, occur, arrive — без Passive.\n❌ Хибні: А) The accident was happened last night. — happen не вживається в Passive; Б) The accident has been happened last night. — happen не вживається в Passive; Г) The accident was occurred last night. — occur не вживається в Passive.\n✅ В) The accident happened last night. — happen — неперехідне, Passive неможливий.",
-   "testLevel": 2
-  },
-  {
-   "text": "If I had known about the problem, I ___ you.",
-   "options": [
-    "had helped",
-    "would help",
-    "will help",
-    "would have helped"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: If + Past Perfect → would have + V3.\n❌ Хибні: А) had helped — Past Perfect не в головній частині; Б) would help — це Second conditional; В) will help — це First conditional.\n✅ Г) would have helped — це Third conditional: if + had V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "If she ___ the bus, she wouldn't have been late.",
-   "options": [
-    "wouldn't miss",
-    "hadn't missed",
-    "doesn't miss",
-    "didn't miss"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Wouldn't have been — if + had V3.\n❌ Хибні: А) wouldn't miss — would не вживається після if; В) doesn't miss — Present Simple не пасує; Г) didn't miss — Past Simple не для минулого нереального.\n✅ Б) hadn't missed — Third conditional: if + Past Perfect.",
-   "testLevel": 2
-  },
-  {
-   "text": "If it ___ rained, we would have played football.",
-   "options": [
-    "hadn't",
-    "hasn't",
-    "didn't",
-    "wouldn't"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: If it hadn't rained.\n❌ Хибні: Б) hasn't — Present Perfect не пасує; В) didn't — Past Simple не пасує; Г) wouldn't — would не вживається після if.\n✅ А) hadn't — Third conditional: if + hadn't + V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "I wish I ___ speak French.",
-   "options": [
-    "would",
-    "could",
-    "can",
-    "will"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Wish + could (здатність).\n❌ Хибні: А) would — would не вживається для здібності; В) can — Present Simple не пасує до wish; Г) will — will не вживається після wish.\n✅ Б) could — wish + could — теперішня неможливість.",
-   "testLevel": 2
-  },
-  {
-   "text": "I wish I ___ the answer yesterday.",
-   "options": [
-    "have known",
-    "would know",
-    "had known",
-    "knew"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Yesterday → wish + had V3.\n❌ Хибні: А) have known — бракує had у конструкції; Б) would know — would не про минуле; Г) knew — Past Simple стосується теперішнього.\n✅ В) had known — wish + Past Perfect — жаль про минуле.",
-   "testLevel": 2
-  },
-  {
-   "text": "If only I ___ more money now.",
-   "options": [
-    "had",
-    "have",
-    "will have",
-    "would have"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Now → if only + Past Simple.\n❌ Хибні: Б) have — Present Simple не пасує; В) will have — will не вживається після if only; Г) would have — would не вживається після if only.\n✅ А) had — if only + Past Simple — зараз.",
-   "testLevel": 2
-  },
-  {
-   "text": "If he had studied harder, he ___ the exam.",
-   "options": [
-    "will pass",
-    "had passed",
-    "would have passed",
-    "would pass"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Had studied → would have passed.\n❌ Хибні: А) will pass — це First conditional; Б) had passed — Past Perfect не в головній частині; Г) would pass — це Second conditional.\n✅ В) would have passed — це Third conditional: if + had V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "Suppose you ___ the chance, would you accept it?",
-   "options": [
-    "had",
-    "have",
-    "will have",
-    "would have"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Would you accept — Past Simple.\n❌ Хибні: Б) have — Present не пасує до would you; В) will have — will не вживається після suppose; Г) would have — would не вживається після suppose.\n✅ А) had — suppose + Past Simple — нереальна ситуація.",
-   "testLevel": 2
-  },
-  {
-   "text": "You can borrow my car provided you ___ careful.",
-   "options": [
-    "would be",
-    "being",
-    "are",
-    "will be"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Provided (that) — Present Simple.\n❌ Хибні: А) would be — would не вживається після provided; Б) being — неправильна форма дієслова; Г) will be — will не вживається після provided.\n✅ В) are — provided + Present Simple.",
-   "testLevel": 2
-  },
-  {
-   "text": "I'll take an umbrella in case it ___.",
-   "options": [
-    "rained",
-    "will rain",
-    "rains",
-    "would rain"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: In case — без will.\n❌ Хибні: А) rained — Past Simple не пасує до I'll take; Б) will rain — will не вживається після in case; Г) would rain — would не вживається після in case.\n✅ В) rains — після in case — Present Simple.",
-   "testLevel": 2
-  },
-  {
-   "text": "If I ___ you, I'd apologise.",
-   "options": [
-    "will be",
-    "were",
-    "am",
-    "had been"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: If I were you.\n❌ Хибні: А) will be — will не вживається після if; В) am — Present не пасує до would; Г) had been — Past Perfect не пасує до would.\n✅ Б) were — if I were you — порада.",
-   "testLevel": 2
-  },
-  {
-   "text": "As long as you ___ me, I'll stay.",
-   "options": [
-    "would need",
-    "need",
-    "needed",
-    "will need"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: As long as — Present Simple.\n❌ Хибні: А) would need — would не вживається після as long as; В) needed — Past Simple не пасує до I'll stay; Г) will need — will не вживається після as long as.\n✅ Б) need — as long as + Present Simple.",
-   "testLevel": 2
-  },
-  {
-   "text": "If she weren't so tired, she ___ out with us.",
-   "options": [
-    "would have gone",
-    "went",
-    "would go",
-    "will go"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Weren't — would + V.\n❌ Хибні: А) would have gone — це Third conditional; Б) went — Past Simple не в головній частині; Г) will go — це First conditional.\n✅ В) would go — це Second conditional: if + Past, would.",
-   "testLevel": 2
-  },
-  {
-   "text": "I wouldn't have bought it if I ___ the price.",
-   "options": [
-    "knew",
-    "have known",
-    "would know",
-    "had known"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Wouldn't have bought — had known.\n❌ Хибні: А) knew — Past Simple не пасує до would have; Б) have known — бракує had у конструкції; В) would know — would не вживається після if.\n✅ Г) had known — це Third conditional: if + had V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "If I had studied harder at school, I ___ at university now.",
-   "options": [
-    "had been",
-    "would be",
-    "will be",
-    "would have been"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Now → would + V.\n❌ Хибні: А) had been — Past Perfect не в головній частині; В) will be — will не пасує до if I had studied; Г) would have been — це Third conditional.\n✅ Б) would be — mixed conditional: теперішній наслідок.",
-   "testLevel": 2
-  },
-  {
-   "text": "Unless it ___, we'll go to the park.",
-   "options": [
-    "rains",
-    "rained",
-    "doesn't rain",
-    "will rain"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Unless — без not.\n❌ Хибні: Б) rained — Past Simple не пасує до we'll go; В) doesn't rain — unless уже містить заперечення; Г) will rain — will не вживається після unless.\n✅ А) rains — unless + стверджувальна форма.",
-   "testLevel": 2
-  },
-  {
-   "text": "If you ___ any questions, please ask.",
-   "options": [
-    "having",
-    "will have",
-    "would have",
-    "have"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: If you have — реальна умова.\n❌ Хибні: А) having — неправильна форма дієслова; Б) will have — will не вживається після if; В) would have — would не вживається після if.\n✅ Г) have — реальна умова: Present Simple.",
-   "testLevel": 2
-  },
-  {
-   "text": "He ___ the race if he hadn't been injured.",
-   "options": [
-    "would have won",
-    "would win",
-    "will win",
-    "had won"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: If he hadn't been → would have won.\n❌ Хибні: Б) would win — це Second conditional; В) will win — це First conditional; Г) had won — Past Perfect не в головній частині.\n✅ А) would have won — це Third conditional: if + had V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "What would have happened if she ___ the job?",
-   "options": [
-    "accepted",
-    "had accepted",
-    "would accept",
-    "has accepted"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Would have happened — had accepted.\n❌ Хибні: А) accepted — Past Simple не пасує до would have; В) would accept — would не вживається після if; Г) has accepted — Present Perfect не пасує.\n✅ Б) had accepted — це Third conditional: if + had V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "Which sentence is a third conditional?",
-   "options": [
-    "If I had seen him, I would have told him.",
-    "If I see him, I will tell him.",
-    "If I see him, I tell him.",
-    "If I saw him, I would tell him."
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Third — нереальне минуле.\n❌ Хибні: Б) If I see him, I will tell him. — це First conditional; В) If I see him, I tell him. — це Zero conditional; Г) If I saw him, I would tell him. — це Second conditional.\n✅ А) If I had seen him, I would have told him. — if + Past Perfect, would have + V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "I wish he ___ so loudly.",
-   "options": [
-    "hasn't talked",
-    "isn't talking",
-    "wouldn't talk",
-    "won't talk"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Wish + wouldn't про звичку.\n❌ Хибні: А) hasn't talked — Perfect не пасує до wish; Б) isn't talking — Continuous не пасує до wish; Г) won't talk — will не вживається після wish.\n✅ В) wouldn't talk — wish + would — роздратування.",
-   "testLevel": 2
-  },
-  {
-   "text": "If you had told me earlier, I ___ it.",
-   "options": [
-    "would fix",
-    "would have fixed",
-    "had fixed",
-    "will fix"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Had told → would have fixed.\n❌ Хибні: А) would fix — це Second conditional; В) had fixed — Past Perfect не в головній частині; Г) will fix — це First conditional.\n✅ Б) would have fixed — це Third conditional: if + had V3.",
-   "testLevel": 2
-  },
-  {
-   "text": "If he had taken my advice, he ___ in trouble now.",
-   "options": [
-    "wouldn't have been",
-    "wouldn't be",
-    "hadn't been",
-    "won't be"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Now → would + V.\n❌ Хибні: А) wouldn't have been — now вказує на теперішнє; В) hadn't been — Past Perfect не в головній частині; Г) won't be — will не пасує до had taken.\n✅ Б) wouldn't be — це змішаний тип умовного.",
-   "testLevel": 2
-  },
-  {
-   "text": "I ___ happy if you came to my party.",
-   "options": [
-    "would be",
-    "will be",
-    "would have been",
-    "am"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: If you came — would be.\n❌ Хибні: Б) will be — це First conditional; В) would have been — це Third conditional; Г) am — Present Simple не пасує до if you came.\n✅ А) would be — це Second conditional: if + Past, would.",
-   "testLevel": 2
-  },
-  {
-   "text": "Which conditional sentence is correct?",
-   "options": [
-    "If I will see her, I will tell her.",
-    "If I would see her, I would tell her.",
-    "If I saw her, I will tell her.",
-    "If I see her, I will tell her."
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: After if — без will/would.\n❌ Хибні: А) If I will see her, I will tell her. — will не вживається після if; Б) If I would see her, I would tell her. — would не вживається після if; В) If I saw her, I will tell her. — Past Simple не пасує до will.\n✅ Г) If I see her, I will tell her. — це First conditional: if + Present, will.",
-   "testLevel": 2
-  },
-  {
-   "text": "By Friday the work ___.",
-   "options": [
-    "will be finishing",
-    "has finished",
-    "will have been finished",
-    "had been finished"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: By Friday — Future Perfect.\n❌ Хибні: А) will be finishing — активна форма Continuous; Б) has finished — активна форма Perfect; Г) had been finished — Past Perfect не про майбутнє.\n✅ В) will have been finished — Future Perfect Passive.",
-   "testLevel": 3
-  },
-  {
-   "text": "The bridge was still ___ when the earthquake struck.",
-   "options": [
-    "been built",
-    "being built",
-    "building",
-    "built"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Was still being built.\n❌ Хибні: А) been built — бракує being у конструкції; В) building — активна форма — потрібен Passive; Г) built — не передає процес.\n✅ Б) being built — Continuous Passive: being + V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "The suspect is believed ___ the country last week.",
-   "options": [
-    "having left",
-    "leaving",
-    "to have left",
-    "to leave"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Last week — to have + V3.\n❌ Хибні: А) having left — після is believed потрібне to-infinitive; Б) leaving — неправильна форма після is believed; Г) to leave — теперішня чи майбутня дія не пасує.\n✅ В) to have left — perfect infinitive: дія в минулому.",
-   "testLevel": 3
-  },
-  {
-   "text": "He was made ___ the room.",
-   "options": [
-    "left",
-    "leaving",
-    "to leave",
-    "leave"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Make в Passive — to V.\n❌ Хибні: А) left — неправильна форма дієслова; Б) leaving — неправильна форма дієслова; Г) leave — бракує to у конструкції.\n✅ В) to leave — passive after make — to-infinitive.",
-   "testLevel": 3
-  },
-  {
-   "text": "She is said ___ a fortune before she was thirty.",
-   "options": [
-    "to make",
-    "to have made",
-    "to be making",
-    "making"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Before she was thirty — to have V3.\n❌ Хибні: А) to make — теперішня дія тут не пасує; В) to be making — Continuous не пасує до минулого; Г) making — неправильна форма дієслова.\n✅ Б) to have made — perfect infinitive: to have + V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "The patient needs ___ immediately.",
-   "options": [
-    "to operate on",
-    "being operated on",
-    "to be operated on",
-    "operating on"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Needs + to be V3.\n❌ Хибні: А) to operate on — активна форма — потрібен Passive; Б) being operated on — тут потрібний to-infinitive; Г) operating on — неправильна форма дієслова.\n✅ В) to be operated on — passive infinitive: to be + V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "I remember ___ to the zoo when I was a child.",
-   "options": [
-    "to take",
-    "taking",
-    "to be taken",
-    "being taken"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Remember doing — пам'ятати минуле.\n❌ Хибні: А) to take — remember to V — не забути зробити; Б) taking — активна форма — потрібен Passive; В) to be taken — remember to V — не забути зробити.\n✅ Г) being taken — remember + being V3 про минуле.",
-   "testLevel": 3
-  },
-  {
-   "text": "The report is expected ___ next week.",
-   "options": [
-    "to be published",
-    "being published",
-    "to publish",
-    "publishing"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Expected + to be V3.\n❌ Хибні: Б) being published — неправильна форма після is expected; В) to publish — активна форма — потрібен Passive; Г) publishing — неправильна форма дієслова.\n✅ А) to be published — passive infinitive: to be + V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "He resented ___ like a child.",
-   "options": [
-    "treating",
-    "to treat",
-    "being treated",
-    "treated"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Resent + gerund (being + V3).\n❌ Хибні: А) treating — активна форма — потрібен Passive; Б) to treat — неправильна форма після resent; Г) treated — бракує being у конструкції.\n✅ В) being treated — resent + being V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "The tickets ___ by the time we got to the box office.",
-   "options": [
-    "were selling",
-    "has been sold",
-    "had sold",
-    "had been sold"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: By the time + Past Simple → Past Perfect.\n❌ Хибні: А) were selling — активна форма Continuous; Б) has been sold — Present Perfect не пасує; В) had sold — активна форма — потрібен Passive.\n✅ Г) had been sold — Past Perfect Passive.",
-   "testLevel": 3
-  },
-  {
-   "text": "No sooner ___ the problem been solved than another one appeared.",
-   "options": [
-    "has",
-    "had",
-    "did",
-    "was"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: No sooner had… than….\n❌ Хибні: А) has — Present Perfect не пасує до appeared; В) did — do не пасує до been solved; Г) was — бракує been у конструкції.\n✅ Б) had — інверсія: no sooner + had + підмет.",
-   "testLevel": 3
-  },
-  {
-   "text": "Not only ___ the money stolen, but the car was also damaged.",
-   "options": [
-    "did",
-    "had",
-    "were",
-    "was"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Not only was the money stolen.\n❌ Хибні: А) did — do не утворює Passive; Б) had — бракує been у конструкції; В) were — money — однина, не множина.\n✅ Г) was — інверсія в Passive.",
-   "testLevel": 3
-  },
-  {
-   "text": "The old man is thought ___ a fortune when he died.",
-   "options": [
-    "having left",
-    "leaving",
-    "to leave",
-    "to have left"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: When he died — to have V3.\n❌ Хибні: А) having left — неправильна форма дієслова; Б) leaving — неправильна форма дієслова; В) to leave — теперішня дія тут не пасує.\n✅ Г) to have left — perfect infinitive: to have + V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "The exam papers ___ by the time the results are published.",
-   "options": [
-    "will have been marked",
-    "will mark",
-    "are marking",
-    "have marked"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: By the time + Present → will have been.\n❌ Хибні: Б) will mark — активна форма — потрібен Passive; В) are marking — активна форма Continuous; Г) have marked — активна форма Perfect.\n✅ А) will have been marked — Future Perfect Passive.",
-   "testLevel": 3
-  },
-  {
-   "text": "The workers ___ for two months, so they've decided to strike.",
-   "options": [
-    "hadn't paid",
-    "haven't been paid",
-    "haven't paid",
-    "aren't paying"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: For two months — Present Perfect.\n❌ Хибні: А) hadn't paid — Past Perfect не пасує; В) haven't paid — активна форма — потрібен Passive; Г) aren't paying — активна форма Continuous.\n✅ Б) haven't been paid — Present Perfect Passive.",
-   "testLevel": 3
-  },
-  {
-   "text": "She doesn't like ___ what to do.",
-   "options": [
-    "to tell",
-    "being told",
-    "telling",
-    "told"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Like + being + V3.\n❌ Хибні: А) to tell — неправильна форма дієслова; В) telling — активна форма без об'єкта; Г) told — бракує being у конструкції.\n✅ Б) being told — like + being V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "«It is reported that the president has resigned.» Choose the correct form.",
-   "options": [
-    "The president is reported to have resigned.",
-    "The president was reported resigning.",
-    "The president is reported to resign.",
-    "The president reports to have resigned."
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Resigned — минула дія, to have V3.\n❌ Хибні: Б) The president was reported resigning. — неправильна граматична конструкція; В) The president is reported to resign. — теперішня дія тут не пасує; Г) The president reports to have resigned. — активна форма — потрібен Passive.\n✅ А) The president is reported to have resigned. — perfect infinitive після is reported.",
-   "testLevel": 3
-  },
-  {
-   "text": "The machine ___ checked before use.",
-   "options": [
-    "has to",
-    "is have to",
-    "has be",
-    "has to be"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Have to + be + V3.\n❌ Хибні: А) has to — бракує be у конструкції; Б) is have to — неправильна форма дієслова; В) has be — неправильна форма дієслова.\n✅ Г) has to be — modal + be + V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence is incorrect?",
-   "options": [
-    "The house is belonged to my uncle.",
-    "The book was written by a famous author.",
-    "The house belongs to my uncle.",
-    "The window was broken by the wind."
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Belong — неперехідне дієслово.\n❌ Хибні: Б) The book was written by a famous author. — це правильне Passive; В) The house belongs to my uncle. — правильна активна форма; Г) The window was broken by the wind. — це правильне Passive.\n✅ А) The house is belonged to my uncle. — belong не вживається в Passive.",
-   "testLevel": 3
-  },
-  {
-   "text": "«They are painting the fence.» Choose the passive form.",
-   "options": [
-    "The fence was painting.",
-    "The fence is being painted.",
-    "The fence is painted.",
-    "The fence has painted."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Continuous → is being + V3.\n❌ Хибні: А) The fence was painting. — неправильна форма дієслова; В) The fence is painted. — Simple без процесу; Г) The fence has painted. — активна форма — потрібен Passive.\n✅ Б) The fence is being painted. — Present Continuous Passive.",
-   "testLevel": 3
-  },
-  {
-   "text": "«People must not touch the exhibits.» Choose the passive form.",
-   "options": [
-    "The exhibits not must be touched.",
-    "The exhibits must be not touched.",
-    "The exhibits must not be touched.",
-    "The exhibits must not touch."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Must + not + be + V3.\n❌ Хибні: А) The exhibits not must be touched. — неправильний порядок слів; Б) The exhibits must be not touched. — неправильний порядок слів; Г) The exhibits must not touch. — активна форма — потрібен Passive.\n✅ В) The exhibits must not be touched. — modal + not + be + V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "It ___ yesterday that the museum will close for repairs.",
-   "options": [
-    "was announced",
-    "announced",
-    "was announcing",
-    "has announce"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: It was announced that….\n❌ Хибні: Б) announced — бракує was у конструкції; В) was announcing — активна форма — потрібен Passive; Г) has announce — неправильна форма дієслова.\n✅ А) was announced — impersonal passive: it is said that.",
-   "testLevel": 3
-  },
-  {
-   "text": "The prisoners are known ___ through the tunnel last night.",
-   "options": [
-    "to be escape",
-    "to have escaped",
-    "escaping",
-    "to escape"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Last night — to have V3.\n❌ Хибні: А) to be escape — неправильна форма дієслова; В) escaping — неправильна форма дієслова; Г) to escape — теперішня дія тут не пасує.\n✅ Б) to have escaped — perfect infinitive: to have + V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "The staff ___ of the changes yesterday.",
-   "options": [
-    "were informed",
-    "have informed",
-    "informed",
-    "were informing"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Staff — об'єкт інформування.\n❌ Хибні: Б) have informed — активна форма Perfect; В) informed — активна форма — потрібен Passive; Г) were informing — активна форма Continuous.\n✅ А) were informed — Past Simple Passive.",
-   "testLevel": 3
-  },
-  {
-   "text": "The teacher asked us to be quiet. Choose the correct passive.",
-   "options": [
-    "We were asking to be quiet.",
-    "We were asked to be quiet.",
-    "We asked to be quiet.",
-    "We have asked to be quiet."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Asked us → we were asked.\n❌ Хибні: А) We were asking to be quiet. — активна форма Continuous; В) We asked to be quiet. — активна форма — потрібен Passive; Г) We have asked to be quiet. — активна форма Perfect.\n✅ Б) We were asked to be quiet. — Past Simple Passive + to V.",
-   "testLevel": 3
-  },
-  {
-   "text": "___ I known about the delay, I would have booked another flight.",
-   "options": [
-    "Were",
-    "Had",
-    "Should",
-    "If"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Had I known = If I had known.\n❌ Хибні: А) Were — Were — для Second conditional; В) Should — Should — для First conditional; Г) If — if не поєднується з інверсією.\n✅ Б) Had — інверсія Third conditional.",
-   "testLevel": 3
-  },
-  {
-   "text": "___ you need any help, please contact me.",
-   "options": [
-    "Had",
-    "Would",
-    "Should",
-    "Were"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Should you need = If you need.\n❌ Хибні: А) Had — Had — для Third conditional; Б) Would — would не утворює інверсії; Г) Were — Were — для Second conditional.\n✅ В) Should — інверсія First conditional.",
-   "testLevel": 3
-  },
-  {
-   "text": "___ I you, I would accept the offer.",
-   "options": [
-    "Should",
-    "Had",
-    "Were",
-    "Was"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Were I you = If I were you.\n❌ Хибні: А) Should — Should — для First conditional; Б) Had — Had — для Third conditional; Г) Was — Was не утворює інверсії.\n✅ В) Were — інверсія Second conditional.",
-   "testLevel": 3
-  },
-  {
-   "text": "But for your help last year, I ___ the exam.",
-   "options": [
-    "had failed",
-    "would have failed",
-    "would fail",
-    "will fail"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Last year → would have + V3.\n❌ Хибні: А) had failed — Past Perfect не в головній частині; В) would fail — це Second conditional; Г) will fail — це First conditional.\n✅ Б) would have failed — Third conditional: but for = if it hadn't been for.",
-   "testLevel": 3
-  },
-  {
-   "text": "If it ___ for his advice, I would have lost everything.",
-   "options": [
-    "hadn't been",
-    "weren't",
-    "wasn't",
-    "hasn't been"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: If it hadn't been for….\n❌ Хибні: Б) weren't — це Second conditional: if + Past, would; В) wasn't — Past Simple не пасує до would have; Г) hasn't been — Present Perfect не пасує.\n✅ А) hadn't been — if it hadn't been for = but for.",
-   "testLevel": 3
-  },
-  {
-   "text": "If you happen ___ him, give him my regards.",
-   "options": [
-    "seeing",
-    "to see",
-    "to be seen",
-    "see"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Happen to V — випадково.\n❌ Хибні: А) seeing — неправильна форма дієслова; В) to be seen — потрібна активна форма; Г) see — бракує to у конструкції.\n✅ Б) to see — happen to + V — випадково.",
-   "testLevel": 3
-  },
-  {
-   "text": "It's high time you ___ to bed.",
-   "options": [
-    "will go",
-    "went",
-    "had gone",
-    "go"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: It's time — Past Simple.\n❌ Хибні: А) will go — will не вживається після it's time; В) had gone — Past Perfect не пасує; Г) go — Present Simple не пасує.\n✅ Б) went — it's time + Past Simple.",
-   "testLevel": 3
-  },
-  {
-   "text": "I wish I ___ so much last night.",
-   "options": [
-    "didn't eat",
-    "wouldn't eat",
-    "haven't eaten",
-    "hadn't eaten"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Last night → wish + hadn't V3.\n❌ Хибні: А) didn't eat — Past Simple стосується теперішнього; Б) wouldn't eat — would не про минуле; В) haven't eaten — Present Perfect не пасує до wish.\n✅ Г) hadn't eaten — wish + Past Perfect — жаль про минуле.",
-   "testLevel": 3
-  },
-  {
-   "text": "If only she ___ listened to me!",
-   "options": [
-    "did",
-    "has",
-    "would",
-    "had"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: If only + had + V3.\n❌ Хибні: А) did — do не утворює Past Perfect; Б) has — Present Perfect не пасує; В) would — would не пасує до listened.\n✅ Г) had — if only + Past Perfect — жаль про минуле.",
-   "testLevel": 3
-  },
-  {
-   "text": "If I hadn't broken my leg, I ___ in the match tomorrow.",
-   "options": [
-    "will play",
-    "would have played",
-    "would be playing",
-    "had played"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Tomorrow — would be + V-ing.\n❌ Хибні: А) will play — will не пасує до if I hadn't broken; Б) would have played — це Third conditional; Г) had played — Past Perfect не в головній частині.\n✅ В) would be playing — mixed conditional: майбутній наслідок.",
-   "testLevel": 3
-  },
-  {
-   "text": "She would have won the race if she ___ so nervous.",
-   "options": [
-    "wasn't",
-    "hadn't been",
-    "weren't",
-    "hasn't been"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Would have won — hadn't been.\n❌ Хибні: А) wasn't — Past Simple не пасує до would have; В) weren't — це Second conditional; Г) hasn't been — Present Perfect не пасує.\n✅ Б) hadn't been — це Third conditional: if + had V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "___ it not for the rain, we would be sitting outside now.",
-   "options": [
-    "Was",
-    "Should",
-    "Were",
-    "Had"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Were it not for = if it weren't for.\n❌ Хибні: А) Was — Was не утворює інверсії; Б) Should — Should — для First conditional; Г) Had — Had — для Third conditional.\n✅ В) Were — інверсія Second conditional: were it not for.",
-   "testLevel": 3
-  },
-  {
-   "text": "Supposing you ___ lost, what would you do?",
-   "options": [
-    "got",
-    "would get",
-    "will get",
-    "get"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Would you do → supposing + Past Simple.\n❌ Хибні: Б) would get — would не вживається після supposing; В) will get — will не вживається після supposing; Г) get — Present Simple не пасує до would you.\n✅ А) got — suppose + Past Simple.",
-   "testLevel": 3
-  },
-  {
-   "text": "You can use my laptop on condition that you ___ it back tomorrow.",
-   "options": [
-    "would bring",
-    "brought",
-    "will bring",
-    "bring"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: On condition that — Present Simple.\n❌ Хибні: А) would bring — would не вживається після on condition that; Б) brought — Past Simple не пасує до tomorrow; В) will bring — will не вживається після on condition that.\n✅ Г) bring — on condition that + Present Simple.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence expresses regret about the past?",
-   "options": [
-    "I wish I study more.",
-    "I wish I had studied more.",
-    "I wish I studied more.",
-    "I wish I will study more."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Regret about the past → had V3.\n❌ Хибні: А) I wish I study more. — Present не вживається після wish; В) I wish I studied more. — wish + Past Simple — про теперішнє; Г) I wish I will study more. — will не вживається після wish.\n✅ Б) I wish I had studied more. — wish + Past Perfect.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which conditional sentence is grammatically correct?",
-   "options": [
-    "If I have had time, I would help.",
-    "If I will have time, I would help.",
-    "If I had time, I would help.",
-    "If I would have time, I would help."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: If + Past Simple, would + V.\n❌ Хибні: А) If I have had time, I would help. — неправильне поєднання часів; Б) If I will have time, I would help. — will не вживається після if; Г) If I would have time, I would help. — would не вживається після if.\n✅ В) If I had time, I would help. — це Second conditional: if + Past, would.",
-   "testLevel": 3
-  },
-  {
-   "text": "If you hadn't asked me, I ___ there.",
-   "options": [
-    "wouldn't have gone",
-    "wouldn't go",
-    "won't go",
-    "didn't go"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Hadn't asked → wouldn't have gone.\n❌ Хибні: Б) wouldn't go — це Second conditional; В) won't go — це First conditional; Г) didn't go — Past Simple не в головній частині.\n✅ А) wouldn't have gone — це Third conditional: if + had V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "Unless he ___ harder, he won't pass the test.",
-   "options": [
-    "will work",
-    "works",
-    "worked",
-    "doesn't work"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Unless he works = if he doesn't work.\n❌ Хибні: А) will work — will не вживається після unless; В) worked — Past Simple не пасує до won't pass; Г) doesn't work — unless уже містить заперечення.\n✅ Б) works — unless + стверджувальна форма.",
-   "testLevel": 3
-  },
-  {
-   "text": "Had she not left early, she ___ the accident.",
-   "options": [
-    "will witness",
-    "had witnessed",
-    "would have witnessed",
-    "would witness"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Had she not left = if she hadn't left.\n❌ Хибні: А) will witness — це First conditional; Б) had witnessed — Past Perfect не в головній частині; Г) would witness — це Second conditional.\n✅ В) would have witnessed — Third conditional (інверсія).",
-   "testLevel": 3
-  },
-  {
-   "text": "If he ___ so stubborn, we could solve the problem easily.",
-   "options": [
-    "weren't",
-    "isn't",
-    "wouldn't be",
-    "hadn't been"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Could solve — if + Past Simple.\n❌ Хибні: Б) isn't — Present Simple не пасує до could; В) wouldn't be — would не вживається після if; Г) hadn't been — це Third conditional.\n✅ А) weren't — це Second conditional: if + Past, would.",
-   "testLevel": 3
-  },
-  {
-   "text": "I'd have gone to the party if I ___ invited.",
-   "options": [
-    "would be",
-    "were",
-    "was",
-    "had been"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Had been invited — Past Perfect Passive.\n❌ Хибні: А) would be — would не вживається після if; Б) were — це Second conditional; В) was — Past Simple не пасує до would have.\n✅ Г) had been — Third conditional + Passive.",
-   "testLevel": 3
-  },
-  {
-   "text": "What if the train ___ late tomorrow?",
-   "options": [
-    "is",
-    "will be",
-    "was",
-    "would be"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: What if + Present Simple.\n❌ Хибні: Б) will be — will не вживається після what if; В) was — Past Simple не пасує до tomorrow; Г) would be — would не вживається після what if.\n✅ А) is — what if + Present Simple.",
-   "testLevel": 3
-  },
-  {
-   "text": "Even if you ___ me a million dollars, I wouldn't do it.",
-   "options": [
-    "offered",
-    "had offered",
-    "offer",
-    "will offer"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Wouldn't do — even if + Past Simple.\n❌ Хибні: Б) had offered — це Third conditional; В) offer — Present Simple не пасує до wouldn't; Г) will offer — will не вживається після even if.\n✅ А) offered — це Second conditional: if + Past, would.",
-   "testLevel": 3
-  },
-  {
-   "text": "If they hadn't repaired the road, we ___ stuck for hours.",
-   "options": [
-    "had been",
-    "will be",
-    "would have been",
-    "would be"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Hadn't repaired → would have been.\n❌ Хибні: А) had been — Past Perfect не в головній частині; Б) will be — це First conditional; Г) would be — це Second conditional.\n✅ В) would have been — це Third conditional: if + had V3.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence is a mixed conditional?",
-   "options": [
-    "If I had a better job, I would be happier.",
-    "If I work harder, I will get a better job.",
-    "If I had worked harder, I would have a better job now.",
-    "If I had worked harder, I would have passed."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Mixed — минуле + теперішній наслідок.\n❌ Хибні: А) If I had a better job, I would be happier. — це Second conditional; Б) If I work harder, I will get a better job. — це First conditional; Г) If I had worked harder, I would have passed. — це Third conditional.\n✅ В) If I had worked harder, I would have a better job now. — минула умова + теперішній наслідок.",
-   "testLevel": 3
-  },
-  {
-   "text": "They promised that if they ___ the contract, they would send it by courier.",
-   "options": [
-    "sign",
-    "signed",
-    "will sign",
-    "have signed"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Promised → would + if + Past Simple.\n❌ Хибні: А) sign — Present Simple не пасує до promised; В) will sign — will не вживається після if; Г) have signed — Present Perfect не пасує до promised.\n✅ Б) signed — Past Simple у непрямій мові.",
-   "testLevel": 3
-  }
- ],
- "cards": [
-  {
-   "question": "Passive Voice (форма)",
-   "answer": "be (у потрібному часі) + V3: is made, was built, has been done, will be sent. Підмет — об'єкт дії."
-  },
-  {
-   "question": "Present Simple Passive",
-   "answer": "am/is/are + V3: English is spoken here. Дія як факт чи звичка."
-  },
-  {
-   "question": "Past Simple Passive",
-   "answer": "was/were + V3: The house was built in 1950."
-  },
-  {
-   "question": "Present Perfect Passive",
-   "answer": "have/has been + V3: The work has been done."
-  },
-  {
-   "question": "Continuous Passive",
-   "answer": "is/are being + V3 (Present), was/were being + V3 (Past): The room is being cleaned."
-  },
-  {
-   "question": "Future Simple Passive",
-   "answer": "will be + V3: The bridge will be built next year."
-  },
-  {
-   "question": "Модальні дієслова в Passive",
-   "answer": "modal + be + V3: must be signed, can be seen; у минулому: modal + have been + V3 (should have been done)."
-  },
-  {
-   "question": "Agent: by / with",
-   "answer": "by + виконавець (written by Tolstoy); with + інструмент (cut with a knife)."
-  },
-  {
-   "question": "Дієслова без Passive",
-   "answer": "Неперехідні дієслова (happen, arrive, belong, sleep, die, exist) не мають Passive: The accident happened (не «was happened»)."
-  },
-  {
-   "question": "Causative: have something done",
-   "answer": "have/get + object + V3: I had my hair cut (мені підстригли — зробив хтось інший)."
-  },
-  {
-   "question": "Impersonal Passive",
-   "answer": "It is said that… / He is said to be… / He is said to have left…; також believed, thought, known, reported, expected."
-  },
-  {
-   "question": "Passive + V-ing / to V",
-   "answer": "After prepositions/likes: being + V3 (I hate being laughed at); to be + V3 (She wants to be invited)."
-  },
-  {
-   "question": "Zero conditional",
-   "answer": "If + Present Simple, Present Simple: If you heat ice, it melts. Закони природи, факти."
-  },
-  {
-   "question": "First conditional",
-   "answer": "If + Present Simple, will + V: If it rains, we will stay at home. Реальна можливість у майбутньому."
-  },
-  {
-   "question": "Second conditional",
-   "answer": "If + Past Simple, would + V: If I had a car, I would drive. Нереальна/малоймовірна ситуація зараз; if I were you…"
-  },
-  {
-   "question": "Third conditional",
-   "answer": "If + Past Perfect, would have + V3: If I had known, I would have helped. Нереальна ситуація в минулому."
-  },
-  {
-   "question": "Mixed conditional",
-   "answer": "If + Past Perfect, would + V (теперішній наслідок минулої умови): If I had studied, I would have a job now."
-  },
-  {
-   "question": "Unless",
-   "answer": "Unless = if … not: Unless you hurry, you will miss the train. Після unless — стверджувальна форма!"
-  },
-  {
-   "question": "as long as / provided (that) / on condition that",
-   "answer": "Умова «за умови, що»: You can go provided (that) you finish your work."
-  },
-  {
-   "question": "in case",
-   "answer": "«на випадок, якщо»: Take an umbrella in case it rains (не буде will після in case)."
-  },
-  {
-   "question": "Time clauses",
-   "answer": "after when, as soon as, before, until, after — Present Simple для майбутнього: I'll call you as soon as I get home."
-  },
-  {
-   "question": "Wish / If only",
-   "answer": "wish + Past Simple (теперішнє), wish + Past Perfect (минуле), wish + would (роздратування): I wish I knew. I wish I had gone. I wish he would stop."
-  },
-  {
-   "question": "Inversion in conditionals",
-   "answer": "Had I known… (= If I had known); Were I you… (= If I were you); Should you need help… (= If you should need help)."
-  },
-  {
-   "question": "But for / Otherwise",
-   "answer": "But for your help, I would have failed (= if it hadn't been for). Otherwise = інакше."
-  },
-  {
-   "question": "It's high time",
-   "answer": "It's (high) time + Past Simple: It's time you went to bed (давно пора)."
-  },
-  {
-   "question": "will/would після if",
-   "answer": "Після if не вживаємо will/would у частині умови: If it rains (не will rain)."
-  }
- ]
+  "subject": "ENGLISH",
+  "topic": "Grammar: Passive Voice & Conditionals",
+  "questions": [
+    {
+      "text": "English ___ in many countries all over the world.",
+      "options": [
+        "is speaking",
+        "is spoken",
+        "speaks",
+        "speak"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Підмет English не виконує дію.\n❌ Хибні: А) is speaking — Continuous не потрібен; В) speaks — активна форма не підходить; Г) speak — бракує допоміжного дієслова.\n✅ Б) is spoken — Present Simple Passive: is + V3.",
+      "testLevel": 1
+    },
+    {
+      "text": "This house ___ in 1950.",
+      "options": [
+        "was built",
+        "has built",
+        "is built",
+        "built"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Рік у минулому — Past Simple Passive.\n❌ Хибні: Б) has built — активна форма Perfect; В) is built — теперішній час не пасує до 1950; Г) built — активна форма, немає was.\n✅ А) was built — Past Simple Passive: was + V3.",
+      "testLevel": 1
+    },
+    {
+      "text": "The letters ___ yesterday.",
+      "options": [
+        "sent",
+        "are sent",
+        "were sent",
+        "was sent"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Yesterday + Passive — were + V3.\n❌ Хибні: А) sent — немає допоміжного дієслова; Б) are sent — теперішній час не пасує; Г) was sent — був би однині.\n✅ В) were sent — Past Simple Passive, множина.",
+      "testLevel": 1
+    },
+    {
+      "text": "The window ___ by the boy.",
+      "options": [
+        "is broke",
+        "broke",
+        "was broken",
+        "was break"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Break — broke — broken.\n❌ Хибні: А) is broke — неправильна форма дієслова; Б) broke — активна форма без was; Г) was break — потрібна форма V3.\n✅ В) was broken — Past Simple Passive, V3 від break.",
+      "testLevel": 1
+    },
+    {
+      "text": "Cars ___ in this factory.",
+      "options": [
+        "are making",
+        "make",
+        "is made",
+        "are made"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Cars — are + V3.\n❌ Хибні: А) are making — Continuous не потрібен; Б) make — активна форма — потрібен Passive; В) is made — однина не пасує до cars.\n✅ Г) are made — Present Simple Passive, множина.",
+      "testLevel": 1
+    },
+    {
+      "text": "The cake ___ by my mother every Sunday.",
+      "options": [
+        "was baked",
+        "is baking",
+        "bakes",
+        "is baked"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Every Sunday — Present Simple.\n❌ Хибні: А) was baked — минулий час не пасує до every Sunday; Б) is baking — Continuous не пасує до every Sunday; В) bakes — активна форма — потрібен Passive.\n✅ Г) is baked — Present Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "The thief ___ by the police last night.",
+      "options": [
+        "has been arrested",
+        "arrested",
+        "is arrested",
+        "was arrested"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Last night — Past Simple.\n❌ Хибні: А) has been arrested — Perfect не вживається з last night; Б) arrested — немає допоміжного дієслова; В) is arrested — теперішній час не пасує до last night.\n✅ Г) was arrested — Past Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "Many books ___ by this author so far.",
+      "options": [
+        "have written",
+        "have been written",
+        "are written",
+        "had been written"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: So far — Present Perfect.\n❌ Хибні: А) have written — активна форма — потрібен Passive; В) are written — Simple не пасує до so far; Г) had been written — Past Perfect не потрібен.\n✅ Б) have been written — Present Perfect Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "Don't come in! The room ___ now.",
+      "options": [
+        "cleans",
+        "is cleaned",
+        "is being cleaned",
+        "has cleaned"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Now — is being + V3.\n❌ Хибні: А) cleans — активна форма — потрібен Passive; Б) is cleaned — Simple не для дії зараз; Г) has cleaned — активна форма — потрібен Passive.\n✅ В) is being cleaned — Present Continuous Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "The bridge ___ next year.",
+      "options": [
+        "is built",
+        "will be built",
+        "will build",
+        "was built"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Next year — will be + V3.\n❌ Хибні: А) is built — теперішній час тут не пасує; В) will build — активна форма — потрібен Passive; Г) was built — минулий час тут не пасує.\n✅ Б) will be built — Future Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "The homework ___ already.",
+      "options": [
+        "did",
+        "was been done",
+        "has done",
+        "has been done"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Already — Present Perfect.\n❌ Хибні: А) did — активна форма — потрібен Passive; Б) was been done — неправильна форма be; В) has done — активна форма — потрібен Passive.\n✅ Г) has been done — Present Perfect Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "Choose the correct passive form: «They speak French here.»",
+      "options": [
+        "French speaks here.",
+        "French is spoken here.",
+        "French is speaking here.",
+        "French spoken here."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Дієслово be + V3.\n❌ Хибні: А) French speaks here. — активна форма без виконавця; В) French is speaking here. — Continuous не потрібен; Г) French spoken here. — бракує is у конструкції.\n✅ Б) French is spoken here. — Present Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "Choose the correct passive form: «Shakespeare wrote Hamlet.»",
+      "options": [
+        "Hamlet was wrote by Shakespeare.",
+        "Hamlet is written by Shakespeare.",
+        "Hamlet wrote by Shakespeare.",
+        "Hamlet was written by Shakespeare."
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Write — wrote — written.\n❌ Хибні: А) Hamlet was wrote by Shakespeare. — потрібна форма written; Б) Hamlet is written by Shakespeare. — Present не пасує до wrote; В) Hamlet wrote by Shakespeare. — бракує was та V3.\n✅ Г) Hamlet was written by Shakespeare. — Past Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "My bike ___ yesterday.",
+      "options": [
+        "has stolen",
+        "was stolen",
+        "stole",
+        "is stolen"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Steal — stole — stolen.\n❌ Хибні: А) has stolen — активна форма — потрібен Passive; В) stole — активна форма — потрібен Passive; Г) is stolen — теперішній час тут не пасує.\n✅ Б) was stolen — Past Simple Passive, V3 від steal.",
+      "testLevel": 1
+    },
+    {
+      "text": "The pyramids ___ thousands of years ago.",
+      "options": [
+        "have been built",
+        "were built",
+        "was built",
+        "are built"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Ago — Past Simple.\n❌ Хибні: А) have been built — Perfect не вживається з ago; В) was built — однина не пасує до pyramids; Г) are built — теперішній час не пасує до ago.\n✅ Б) were built — Past Simple Passive, множина.",
+      "testLevel": 1
+    },
+    {
+      "text": "The match ___ because of the rain.",
+      "options": [
+        "cancelled",
+        "was cancelled",
+        "is cancelling",
+        "has cancel"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Match — підмет, дія виконана над ним.\n❌ Хибні: А) cancelled — немає допоміжного дієслова was; В) is cancelling — активна форма — потрібен Passive; Г) has cancel — неправильна форма дієслова.\n✅ Б) was cancelled — Past Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "Where ___ this photo taken last summer?",
+      "options": [
+        "was",
+        "did",
+        "is",
+        "were"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Photo — однина, дія в минулому.\n❌ Хибні: Б) did — потрібне be, не do; В) is — теперішній час не пасує; Г) were — множина не пасує до photo.\n✅ А) was — Past Simple Passive, однина.",
+      "testLevel": 1
+    },
+    {
+      "text": "These shoes ___ in Italy.",
+      "options": [
+        "made",
+        "are made",
+        "is made",
+        "make"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Shoes — множина, are made.\n❌ Хибні: А) made — немає допоміжного дієслова; В) is made — однина не пасує до shoes; Г) make — активна форма — потрібен Passive.\n✅ Б) are made — Present Simple Passive, множина.",
+      "testLevel": 1
+    },
+    {
+      "text": "The results ___ tomorrow.",
+      "options": [
+        "announced",
+        "will announce",
+        "are announce",
+        "will be announced"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Tomorrow — майбутній час.\n❌ Хибні: А) announced — немає допоміжного дієслова; Б) will announce — активна форма — потрібен Passive; В) are announce — неправильна форма дієслова.\n✅ Г) will be announced — Future Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "The documents must ___ by the director.",
+      "options": [
+        "sign",
+        "be signing",
+        "signed",
+        "be signed"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Модальне дієслово + be + V3.\n❌ Хибні: А) sign — активна форма — потрібен Passive; Б) be signing — Continuous не потрібен; В) signed — бракує be у конструкції.\n✅ Г) be signed — modal + be + V3.",
+      "testLevel": 1
+    },
+    {
+      "text": "The telephone ___ by Alexander Bell.",
+      "options": [
+        "invented",
+        "was invented",
+        "has invented",
+        "is invented"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Винахід у минулому — was invented.\n❌ Хибні: А) invented — немає допоміжного дієслова; В) has invented — активна форма — потрібен Passive; Г) is invented — теперішній час тут не пасує.\n✅ Б) was invented — Past Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "This film ___ by millions of people.",
+      "options": [
+        "was been seen",
+        "is seeing",
+        "has been seen",
+        "has seen"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: See — saw — seen.\n❌ Хибні: А) was been seen — неправильна форма be; Б) is seeing — активна форма — потрібен Passive; Г) has seen — активна форма — потрібен Passive.\n✅ В) has been seen — Present Perfect Passive, V3 від see.",
+      "testLevel": 1
+    },
+    {
+      "text": "If it rains, we ___ at home.",
+      "options": [
+        "will stay",
+        "stayed",
+        "stays",
+        "would stay"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Реальна умова — will + V.\n❌ Хибні: Б) stayed — Past Simple не пасує до if it rains; В) stays — з підметом we немає -s; Г) would stay — це Second conditional.\n✅ А) will stay — First conditional: will + V.",
+      "testLevel": 1
+    },
+    {
+      "text": "If you heat ice, it ___.",
+      "options": [
+        "melting",
+        "melted",
+        "would melt",
+        "melts"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Закон природи — Present Simple.\n❌ Хибні: А) melting — неправильна форма дієслова; Б) melted — Past Simple не пасує; В) would melt — умовний спосіб не потрібен.\n✅ Г) melts — Zero conditional: Present Simple.",
+      "testLevel": 1
+    },
+    {
+      "text": "If I ___ rich, I would travel the world.",
+      "options": [
+        "will be",
+        "were",
+        "am",
+        "would be"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: If I were — нереальна умова.\n❌ Хибні: А) will be — will не вживається після if; В) am — Present Simple не пасує до would; Г) would be — would не вживається після if.\n✅ Б) were — Second conditional: if + Past Simple.",
+      "testLevel": 1
+    },
+    {
+      "text": "If she studies hard, she ___ the exam.",
+      "options": [
+        "will pass",
+        "passed",
+        "passes",
+        "would pass"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Studies — Present Simple, наслідок — will + V.\n❌ Хибні: Б) passed — Past Simple не підходить; В) passes — Present Simple не підходить; Г) would pass — це Second conditional.\n✅ А) will pass — це First conditional: if + Present, will.",
+      "testLevel": 1
+    },
+    {
+      "text": "If I had a car, I ___ to work by car.",
+      "options": [
+        "will drive",
+        "drive",
+        "would drive",
+        "drove"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: If + Past Simple, would + V.\n❌ Хибні: А) will drive — will для реальної умови; Б) drive — Present Simple не пасує до if I had; Г) drove — Past Simple не пасує в головній частині.\n✅ В) would drive — Second conditional: would + V.",
+      "testLevel": 1
+    },
+    {
+      "text": "I ___ you if I knew his number.",
+      "options": [
+        "called",
+        "call",
+        "will call",
+        "would call"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: If I knew — would + V.\n❌ Хибні: А) called — Past Simple не пасує в головній частині; Б) call — Present Simple не пасує; В) will call — will не пасує до if I knew.\n✅ Г) would call — це Second conditional: if + Past, would.",
+      "testLevel": 1
+    },
+    {
+      "text": "If he ___ late, we will start without him.",
+      "options": [
+        "is",
+        "was",
+        "would be",
+        "will be"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Після if — Present Simple.\n❌ Хибні: Б) was — Past Simple не пасує до will; В) would be — would не вживається після if; Г) will be — will не вживається після if.\n✅ А) is — First conditional: Present Simple.",
+      "testLevel": 1
+    },
+    {
+      "text": "Unless you hurry, you ___ the train.",
+      "options": [
+        "missed",
+        "would miss",
+        "miss",
+        "will miss"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Unless = if you don't hurry.\n❌ Хибні: А) missed — Past Simple не пасує; Б) would miss — це Second conditional; В) miss — Present Simple не пасує.\n✅ Г) will miss — First conditional з unless.",
+      "testLevel": 1
+    },
+    {
+      "text": "If water reaches 100°C, it ___.",
+      "options": [
+        "boiling",
+        "would boil",
+        "boils",
+        "boiled"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Науковий факт — Present Simple.\n❌ Хибні: А) boiling — неправильна форма дієслова; Б) would boil — would не для закону природи; Г) boiled — Past Simple не пасує.\n✅ В) boils — це Zero conditional: Present + Present.",
+      "testLevel": 1
+    },
+    {
+      "text": "What would you do if you ___ a million dollars?",
+      "options": [
+        "won",
+        "would win",
+        "will win",
+        "win"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Would you do — if + Past Simple.\n❌ Хибні: Б) would win — would не вживається після if; В) will win — will не вживається після if; Г) win — Present Simple не пасує до would.\n✅ А) won — Second conditional: if + Past Simple.",
+      "testLevel": 1
+    },
+    {
+      "text": "If the weather is nice, we ___ for a picnic.",
+      "options": [
+        "went",
+        "go would",
+        "will go",
+        "would go"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Реальна умова — will go.\n❌ Хибні: А) went — Past Simple не пасує; Б) go would — неправильний порядок слів; Г) would go — це Second conditional.\n✅ В) will go — це First conditional: if + Present, will.",
+      "testLevel": 1
+    },
+    {
+      "text": "She would be happier if she ___ more friends.",
+      "options": [
+        "will have",
+        "would have",
+        "had",
+        "has"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Would be — if + Past Simple.\n❌ Хибні: А) will have — will не вживається після if; Б) would have — would не вживається після if; Г) has — Present Simple не пасує до would.\n✅ В) had — Second conditional: if + Past Simple.",
+      "testLevel": 1
+    },
+    {
+      "text": "If I were you, I ___ him the truth.",
+      "options": [
+        "tell",
+        "will tell",
+        "told",
+        "would tell"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: If I were you — порада, would + V.\n❌ Хибні: А) tell — Present Simple не пасує; Б) will tell — will не пасує до if I were you; В) told — Past Simple не пасує.\n✅ Г) would tell — це Second conditional: if + Past, would.",
+      "testLevel": 1
+    },
+    {
+      "text": "If you don't water plants, they ___.",
+      "options": [
+        "die",
+        "would die",
+        "died",
+        "dying"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Загальна істина — Present Simple.\n❌ Хибні: Б) would die — would не для загальної істини; В) died — Past Simple не пасує; Г) dying — неправильна форма дієслова.\n✅ А) die — це Zero conditional: Present + Present.",
+      "testLevel": 1
+    },
+    {
+      "text": "We'll go to the beach if it ___ sunny tomorrow.",
+      "options": [
+        "was",
+        "will be",
+        "is",
+        "would be"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Tomorrow, але після if — Present Simple.\n❌ Хибні: А) was — Past Simple не пасує до tomorrow; Б) will be — will не вживається після if; Г) would be — would не вживається після if.\n✅ В) is — First conditional, Present Simple після if.",
+      "testLevel": 1
+    },
+    {
+      "text": "If I ___ time, I would help you.",
+      "options": [
+        "had",
+        "have",
+        "would have",
+        "will have"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Would help — if + Past Simple.\n❌ Хибні: Б) have — Present Simple не пасує до would; В) would have — would не вживається після if; Г) will have — will не вживається після if.\n✅ А) had — це Second conditional: if + Past, would.",
+      "testLevel": 1
+    },
+    {
+      "text": "Which sentence is a first conditional?",
+      "options": [
+        "If I had wings, I would fly.",
+        "If you heat ice, it melts.",
+        "If I had known, I would have helped.",
+        "If it rains, I will take an umbrella."
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: First conditional — реальна умова.\n❌ Хибні: А) If I had wings, I would fly. — це Second conditional; Б) If you heat ice, it melts. — це Zero conditional; В) If I had known, I would have helped. — це Third conditional.\n✅ Г) If it rains, I will take an umbrella. — if + Present Simple, will + V.",
+      "testLevel": 1
+    },
+    {
+      "text": "Which sentence is a second conditional?",
+      "options": [
+        "If I had wings, I would fly.",
+        "If I had seen her, I would have said hello.",
+        "If you mix red and blue, you get purple.",
+        "If it rains, I will stay."
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Second conditional — нереальна умова.\n❌ Хибні: Б) If I had seen her, I would have said hello. — це Third conditional; В) If you mix red and blue, you get purple. — це Zero conditional; Г) If it rains, I will stay. — це First conditional.\n✅ А) If I had wings, I would fly. — if + Past Simple, would + V.",
+      "testLevel": 1
+    },
+    {
+      "text": "Which sentence means the same as «Unless you study, you will fail»?",
+      "options": [
+        "If you study, you will fail.",
+        "If you don't study, you will fail.",
+        "If you studied, you would fail.",
+        "Unless you don't study, you will fail."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Unless — це if … not.\n❌ Хибні: А) If you study, you will fail. — це протилежне значення; В) If you studied, you would fail. — інший тип умовного речення; Г) Unless you don't study, you will fail. — після unless немає not.\n✅ Б) If you don't study, you will fail. — unless = if not.",
+      "testLevel": 1
+    },
+    {
+      "text": "I'll call you as soon as I ___ home.",
+      "options": [
+        "get",
+        "got",
+        "am getting",
+        "will get"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Після as soon as — Present Simple.\n❌ Хибні: Б) got — Past Simple не пасує; В) am getting — Continuous не пасує; Г) will get — will не вживається після as soon as.\n✅ А) get — у часових реченнях — Present Simple.",
+      "testLevel": 1
+    },
+    {
+      "text": "If you ___ the button, the machine starts.",
+      "options": [
+        "would press",
+        "pressed",
+        "will press",
+        "press"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Інструкція — Present Simple.\n❌ Хибні: А) would press — would не пасує; Б) pressed — Past Simple не пасує; В) will press — will не для закону.\n✅ Г) press — це Zero conditional: Present + Present.",
+      "testLevel": 1
+    },
+    {
+      "text": "What ___ you do if you lost your keys?",
+      "options": [
+        "would",
+        "will",
+        "did",
+        "do"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: If you lost → would you do.\n❌ Хибні: Б) will — will не пасує до if you lost; В) did — потрібне would у головній частині; Г) do — потрібне would у головній частині.\n✅ А) would — це Second conditional: if + Past, would.",
+      "testLevel": 1
+    },
+    {
+      "text": "If I see him, I ___ him your message.",
+      "options": [
+        "give",
+        "will give",
+        "gave",
+        "would give"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: If I see — will + V.\n❌ Хибні: А) give — Present Simple не пасує; В) gave — Past Simple не пасує; Г) would give — це Second conditional.\n✅ Б) will give — це First conditional: if + Present, will.",
+      "testLevel": 1
+    },
+    {
+      "text": "If we ___ the lottery, we would buy a house.",
+      "options": [
+        "won",
+        "win",
+        "will win",
+        "would win"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Would buy — if + Past Simple.\n❌ Хибні: Б) win — Present Simple не пасує до would; В) will win — will не вживається після if; Г) would win — would не вживається після if.\n✅ А) won — це Second conditional: if + Past, would.",
+      "testLevel": 1
+    },
+    {
+      "text": "The tickets ___ at the box office.",
+      "options": [
+        "sold",
+        "are sold",
+        "sell",
+        "are selling"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Tickets не продають самі — are sold.\n❌ Хибні: А) sold — немає допоміжного дієслова; В) sell — активна форма — потрібен Passive; Г) are selling — Continuous не потрібен.\n✅ Б) are sold — Present Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "The Eiffel Tower ___ every year by millions of tourists.",
+      "options": [
+        "was visited",
+        "visits",
+        "is visiting",
+        "is visited"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Every year — Present Simple.\n❌ Хибні: А) was visited — минулий час не пасує до every year; Б) visits — активна форма — потрібен Passive; В) is visiting — активна форма Continuous.\n✅ Г) is visited — Present Simple Passive.",
+      "testLevel": 1
+    },
+    {
+      "text": "The boy ___ by a dog yesterday.",
+      "options": [
+        "has bitten",
+        "bit",
+        "was bitten",
+        "is bitten"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Bite — bit — bitten.\n❌ Хибні: А) has bitten — активна форма — потрібен Passive; Б) bit — активна форма — потрібен Passive; Г) is bitten — теперішній час не пасує до yesterday.\n✅ В) was bitten — Past Simple Passive, V3 від bite.",
+      "testLevel": 1
+    },
+    {
+      "text": "If you cool water to 0°C, it ___.",
+      "options": [
+        "freezes",
+        "freezing",
+        "froze",
+        "would freeze"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Закон природи — Present Simple.\n❌ Хибні: Б) freezing — неправильна форма дієслова; В) froze — Past Simple не пасує; Г) would freeze — would не для закону природи.\n✅ А) freezes — це Zero conditional: Present + Present.",
+      "testLevel": 1
+    },
+    {
+      "text": "The old church ___ at the moment.",
+      "options": [
+        "restores",
+        "is being restored",
+        "has restored",
+        "is restored"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: At the moment — is being + V3.\n❌ Хибні: А) restores — активна форма — потрібен Passive; В) has restored — активна форма — потрібен Passive; Г) is restored — Simple не передає процес зараз.\n✅ Б) is being restored — Present Continuous Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "At 7 o'clock yesterday the new road ___.",
+      "options": [
+        "was built",
+        "is being built",
+        "was being built",
+        "has been built"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Певний момент у минулому — was being.\n❌ Хибні: А) was built — Simple не передає процес; Б) is being built — теперішній час не пасує; Г) has been built — Perfect не пасує до yesterday.\n✅ В) was being built — Past Continuous Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "The problem ___ for two hours, but they haven't found a solution.",
+      "options": [
+        "was discussed",
+        "has been discussed",
+        "is discussed",
+        "discusses"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: For two hours + результат — Perfect.\n❌ Хибні: А) was discussed — Past Simple не пасує до haven't found; В) is discussed — Simple не пасує до for two hours; Г) discusses — активна форма — потрібен Passive.\n✅ Б) has been discussed — Present Perfect Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "The new law ___ next month.",
+      "options": [
+        "introduced",
+        "will introduce",
+        "has introduced",
+        "will be introduced"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Next month — will be + V3.\n❌ Хибні: А) introduced — Past Simple не пасує до next month; Б) will introduce — активна форма — потрібен Passive; В) has introduced — активна форма Perfect.\n✅ Г) will be introduced — Future Simple Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "A present ___ to her by her uncle on her birthday.",
+      "options": [
+        "was been given",
+        "gave",
+        "was given",
+        "has give"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Give — gave — given.\n❌ Хибні: А) was been given — неправильна форма be; Б) gave — активна форма — потрібен Passive; Г) has give — неправильна форма дієслова.\n✅ В) was given — Past Simple Passive, V3 від give.",
+      "testLevel": 2
+    },
+    {
+      "text": "I ___ my hair cut every month.",
+      "options": [
+        "make",
+        "am",
+        "have",
+        "do"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Have something done — зробили не самі.\n❌ Хибні: А) make — make змінює значення; Б) am — be не утворює causative; Г) do — do не утворює causative.\n✅ В) have — causative: have + object + V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "We ___ our house painted last week.",
+      "options": [
+        "have",
+        "had",
+        "were",
+        "made"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Last week — had + object + V3.\n❌ Хибні: А) have — Present не пасує до last week; В) were — be не утворює causative; Г) made — make змінює значення.\n✅ Б) had — causative у Past Simple.",
+      "testLevel": 2
+    },
+    {
+      "text": "Which sentence with a verb of perception in the passive is correct?",
+      "options": [
+        "He was seen to enter the house.",
+        "He was seen entered the house.",
+        "He saw to enter the house.",
+        "He was seen enter the house."
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Passive: was seen + to V.\n❌ Хибні: Б) He was seen entered the house. — після was seen немає V2; В) He saw to enter the house. — активна форма змінює зміст; Г) He was seen enter the house. — у Passive після seen потрібне to.\n✅ А) He was seen to enter the house. — passive із to-infinitive після seen.",
+      "testLevel": 2
+    },
+    {
+      "text": "He is said ___ in London.",
+      "options": [
+        "live",
+        "to live",
+        "lives",
+        "living"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Is said + to V.\n❌ Хибні: А) live — потрібне to у цій конструкції; В) lives — присудок уже є — is said; Г) living — після is said потрібне to V.\n✅ Б) to live — impersonal passive + to-infinitive.",
+      "testLevel": 2
+    },
+    {
+      "text": "The documents should ___ in a safe place.",
+      "options": [
+        "be keeping",
+        "kept",
+        "be kept",
+        "keep"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Should + be + V3.\n❌ Хибні: А) be keeping — активна форма Continuous; Б) kept — бракує be у конструкції; Г) keep — активна форма — потрібен Passive.\n✅ В) be kept — modal + be + V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "She hates ___ at.",
+      "options": [
+        "being laughed",
+        "to laugh",
+        "laughed",
+        "laughing"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Passive gerund: being + V3.\n❌ Хибні: Б) to laugh — неправильна форма дієслова; В) laughed — після hates потрібне being; Г) laughing — бракує об'єкта й being.\n✅ А) being laughed — after hate — being + V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "By whom ___ the Mona Lisa painted?",
+      "options": [
+        "were",
+        "did",
+        "has",
+        "was"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Mona Lisa — однина, минулий час.\n❌ Хибні: А) were — однина не пасує до Mona Lisa; Б) did — do не утворює Passive; В) has — бракує been у конструкції.\n✅ Г) was — Past Simple Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "«They have cancelled all flights.» Choose the passive form.",
+      "options": [
+        "All flights have cancelled.",
+        "All flights are cancel.",
+        "All flights have been cancelled.",
+        "All flights were been cancelled."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Have/has been + V3.\n❌ Хибні: А) All flights have cancelled. — активна форма без been; Б) All flights are cancel. — неправильна форма дієслова; Г) All flights were been cancelled. — неправильна форма be.\n✅ В) All flights have been cancelled. — Present Perfect Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "«People say that he is a spy.» Choose the correct form.",
+      "options": [
+        "He is said being a spy.",
+        "He said to be a spy.",
+        "He is said to be a spy.",
+        "He says to be a spy."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Say → is said to V.\n❌ Хибні: А) He is said being a spy. — після is said потрібне to; Б) He said to be a spy. — Past Simple активне, не Passive; Г) He says to be a spy. — Passive потрібен — says активне.\n✅ В) He is said to be a spy. — impersonal passive: is said + to V.",
+      "testLevel": 2
+    },
+    {
+      "text": "I was told ___ the door.",
+      "options": [
+        "to lock",
+        "locked",
+        "locking",
+        "lock"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Was told + to V.\n❌ Хибні: Б) locked — неправильна форма дієслова; В) locking — після was told потрібне to V; Г) lock — бракує to у конструкції.\n✅ А) to lock — passive + to-infinitive.",
+      "testLevel": 2
+    },
+    {
+      "text": "The car ___ repaired tomorrow.",
+      "options": [
+        "is going to",
+        "is going to be",
+        "will being",
+        "goes to be"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Going to + be + V3.\n❌ Хибні: А) is going to — бракує be у конструкції; В) will being — неправильна форма дієслова; Г) goes to be — неправильна форма дієслова.\n✅ Б) is going to be — going to Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "She ___ to the party but she didn't go.",
+      "options": [
+        "invited",
+        "has invited",
+        "was inviting",
+        "was invited"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Вона — об'єкт запрошення.\n❌ Хибні: А) invited — активна форма без об'єкта; Б) has invited — активна форма Perfect; В) was inviting — активна форма Continuous.\n✅ Г) was invited — Past Simple Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "The children ___ a story by the teacher.",
+      "options": [
+        "were telling",
+        "have tell",
+        "were told",
+        "told"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Children — множина, were + V3.\n❌ Хибні: А) were telling — активна форма Continuous; Б) have tell — неправильна форма дієслова; Г) told — активна форма — потрібен Passive.\n✅ В) were told — Past Simple Passive, множина.",
+      "testLevel": 2
+    },
+    {
+      "text": "The ship ___ by a huge wave.",
+      "options": [
+        "is hitting",
+        "hit",
+        "was hit",
+        "was hitted"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Hit — hit — hit.\n❌ Хибні: А) is hitting — активна форма Continuous; Б) hit — бракує was у конструкції; Г) was hitted — неправильна форма V3.\n✅ В) was hit — Past Simple Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "The injured ___ to hospital by ambulance.",
+      "options": [
+        "took",
+        "have took",
+        "were taken",
+        "were took"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Take — took — taken.\n❌ Хибні: А) took — активна форма — потрібен Passive; Б) have took — неправильна форма дієслова; Г) were took — потрібна форма V3 — taken.\n✅ В) were taken — Past Simple Passive, множина.",
+      "testLevel": 2
+    },
+    {
+      "text": "The painting ___ stolen from the museum last night.",
+      "options": [
+        "is",
+        "was",
+        "has been",
+        "had"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Last night — was stolen.\n❌ Хибні: А) is — теперішній час не пасує до last night; В) has been — Perfect не вживається з last night; Г) had — Past Perfect не потрібен.\n✅ Б) was — Past Simple Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "This room ___ for storage.",
+      "options": [
+        "used",
+        "is using",
+        "uses",
+        "is used"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Room — об'єкт використання.\n❌ Хибні: А) used — бракує is у конструкції; Б) is using — активна форма Continuous; В) uses — активна форма — потрібен Passive.\n✅ Г) is used — Present Simple Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "«Someone has stolen my wallet.» Choose the passive form.",
+      "options": [
+        "My wallet was stolen.",
+        "My wallet has been stolen.",
+        "My wallet is stolen.",
+        "My wallet has stolen."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Passive зберігає час активної форми.\n❌ Хибні: А) My wallet was stolen. — змінено час дієслова; В) My wallet is stolen. — змінено час дієслова; Г) My wallet has stolen. — бракує been у конструкції.\n✅ Б) My wallet has been stolen. — Present Perfect Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "The exhibition ___ until the end of May.",
+      "options": [
+        "has held",
+        "will hold",
+        "holds",
+        "will be held"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Exhibition не проводить, її проводять.\n❌ Хибні: А) has held — активна форма Perfect; Б) will hold — активна форма — потрібен Passive; В) holds — активна форма Present.\n✅ Г) will be held — Future Simple Passive.",
+      "testLevel": 2
+    },
+    {
+      "text": "Which sentence is grammatically correct?",
+      "options": [
+        "The accident was happened last night.",
+        "The accident has been happened last night.",
+        "The accident happened last night.",
+        "The accident was occurred last night."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Happen, occur, arrive — без Passive.\n❌ Хибні: А) The accident was happened last night. — happen не вживається в Passive; Б) The accident has been happened last night. — happen не вживається в Passive; Г) The accident was occurred last night. — occur не вживається в Passive.\n✅ В) The accident happened last night. — happen — неперехідне, Passive неможливий.",
+      "testLevel": 2
+    },
+    {
+      "text": "If I had known about the problem, I ___ you.",
+      "options": [
+        "had helped",
+        "would help",
+        "will help",
+        "would have helped"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: If + Past Perfect → would have + V3.\n❌ Хибні: А) had helped — Past Perfect не в головній частині; Б) would help — це Second conditional; В) will help — це First conditional.\n✅ Г) would have helped — це Third conditional: if + had V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "If she ___ the bus, she wouldn't have been late.",
+      "options": [
+        "wouldn't miss",
+        "hadn't missed",
+        "doesn't miss",
+        "didn't miss"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Wouldn't have been — if + had V3.\n❌ Хибні: А) wouldn't miss — would не вживається після if; В) doesn't miss — Present Simple не пасує; Г) didn't miss — Past Simple не для минулого нереального.\n✅ Б) hadn't missed — Third conditional: if + Past Perfect.",
+      "testLevel": 2
+    },
+    {
+      "text": "If it ___ rained, we would have played football.",
+      "options": [
+        "hadn't",
+        "hasn't",
+        "didn't",
+        "wouldn't"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: If it hadn't rained.\n❌ Хибні: Б) hasn't — Present Perfect не пасує; В) didn't — Past Simple не пасує; Г) wouldn't — would не вживається після if.\n✅ А) hadn't — Third conditional: if + hadn't + V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "I wish I ___ speak French.",
+      "options": [
+        "would",
+        "could",
+        "can",
+        "will"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Wish + could (здатність).\n❌ Хибні: А) would — would не вживається для здібності; В) can — Present Simple не пасує до wish; Г) will — will не вживається після wish.\n✅ Б) could — wish + could — теперішня неможливість.",
+      "testLevel": 2
+    },
+    {
+      "text": "I wish I ___ the answer yesterday.",
+      "options": [
+        "have known",
+        "would know",
+        "had known",
+        "knew"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Yesterday → wish + had V3.\n❌ Хибні: А) have known — бракує had у конструкції; Б) would know — would не про минуле; Г) knew — Past Simple стосується теперішнього.\n✅ В) had known — wish + Past Perfect — жаль про минуле.",
+      "testLevel": 2
+    },
+    {
+      "text": "If only I ___ more money now.",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Now → if only + Past Simple.\n❌ Хибні: Б) have — Present Simple не пасує; В) will have — will не вживається після if only; Г) would have — would не вживається після if only.\n✅ А) had — if only + Past Simple — зараз.",
+      "testLevel": 2
+    },
+    {
+      "text": "If he had studied harder, he ___ the exam.",
+      "options": [
+        "will pass",
+        "had passed",
+        "would have passed",
+        "would pass"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Had studied → would have passed.\n❌ Хибні: А) will pass — це First conditional; Б) had passed — Past Perfect не в головній частині; Г) would pass — це Second conditional.\n✅ В) would have passed — це Third conditional: if + had V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "Suppose you ___ the chance, would you accept it?",
+      "options": [
+        "had",
+        "have",
+        "will have",
+        "would have"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Would you accept — Past Simple.\n❌ Хибні: Б) have — Present не пасує до would you; В) will have — will не вживається після suppose; Г) would have — would не вживається після suppose.\n✅ А) had — suppose + Past Simple — нереальна ситуація.",
+      "testLevel": 2
+    },
+    {
+      "text": "You can borrow my car provided you ___ careful.",
+      "options": [
+        "would be",
+        "being",
+        "are",
+        "will be"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Provided (that) — Present Simple.\n❌ Хибні: А) would be — would не вживається після provided; Б) being — неправильна форма дієслова; Г) will be — will не вживається після provided.\n✅ В) are — provided + Present Simple.",
+      "testLevel": 2
+    },
+    {
+      "text": "I'll take an umbrella in case it ___.",
+      "options": [
+        "rained",
+        "will rain",
+        "rains",
+        "would rain"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: In case — без will.\n❌ Хибні: А) rained — Past Simple не пасує до I'll take; Б) will rain — will не вживається після in case; Г) would rain — would не вживається після in case.\n✅ В) rains — після in case — Present Simple.",
+      "testLevel": 2
+    },
+    {
+      "text": "If I ___ you, I'd apologise.",
+      "options": [
+        "will be",
+        "were",
+        "am",
+        "had been"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: If I were you.\n❌ Хибні: А) will be — will не вживається після if; В) am — Present не пасує до would; Г) had been — Past Perfect не пасує до would.\n✅ Б) were — if I were you — порада.",
+      "testLevel": 2
+    },
+    {
+      "text": "As long as you ___ me, I'll stay.",
+      "options": [
+        "would need",
+        "need",
+        "needed",
+        "will need"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: As long as — Present Simple.\n❌ Хибні: А) would need — would не вживається після as long as; В) needed — Past Simple не пасує до I'll stay; Г) will need — will не вживається після as long as.\n✅ Б) need — as long as + Present Simple.",
+      "testLevel": 2
+    },
+    {
+      "text": "If she weren't so tired, she ___ out with us.",
+      "options": [
+        "would have gone",
+        "went",
+        "would go",
+        "will go"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Weren't — would + V.\n❌ Хибні: А) would have gone — це Third conditional; Б) went — Past Simple не в головній частині; Г) will go — це First conditional.\n✅ В) would go — це Second conditional: if + Past, would.",
+      "testLevel": 2
+    },
+    {
+      "text": "I wouldn't have bought it if I ___ the price.",
+      "options": [
+        "knew",
+        "have known",
+        "would know",
+        "had known"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Wouldn't have bought — had known.\n❌ Хибні: А) knew — Past Simple не пасує до would have; Б) have known — бракує had у конструкції; В) would know — would не вживається після if.\n✅ Г) had known — це Third conditional: if + had V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "If I had studied harder at school, I ___ at university now.",
+      "options": [
+        "had been",
+        "would be",
+        "will be",
+        "would have been"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Now → would + V.\n❌ Хибні: А) had been — Past Perfect не в головній частині; В) will be — will не пасує до if I had studied; Г) would have been — це Third conditional.\n✅ Б) would be — mixed conditional: теперішній наслідок.",
+      "testLevel": 2
+    },
+    {
+      "text": "Unless it ___, we'll go to the park.",
+      "options": [
+        "rains",
+        "rained",
+        "doesn't rain",
+        "will rain"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Unless — без not.\n❌ Хибні: Б) rained — Past Simple не пасує до we'll go; В) doesn't rain — unless уже містить заперечення; Г) will rain — will не вживається після unless.\n✅ А) rains — unless + стверджувальна форма.",
+      "testLevel": 2
+    },
+    {
+      "text": "If you ___ any questions, please ask.",
+      "options": [
+        "having",
+        "will have",
+        "would have",
+        "have"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: If you have — реальна умова.\n❌ Хибні: А) having — неправильна форма дієслова; Б) will have — will не вживається після if; В) would have — would не вживається після if.\n✅ Г) have — реальна умова: Present Simple.",
+      "testLevel": 2
+    },
+    {
+      "text": "He ___ the race if he hadn't been injured.",
+      "options": [
+        "would have won",
+        "would win",
+        "will win",
+        "had won"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: If he hadn't been → would have won.\n❌ Хибні: Б) would win — це Second conditional; В) will win — це First conditional; Г) had won — Past Perfect не в головній частині.\n✅ А) would have won — це Third conditional: if + had V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "What would have happened if she ___ the job?",
+      "options": [
+        "accepted",
+        "had accepted",
+        "would accept",
+        "has accepted"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Would have happened — had accepted.\n❌ Хибні: А) accepted — Past Simple не пасує до would have; В) would accept — would не вживається після if; Г) has accepted — Present Perfect не пасує.\n✅ Б) had accepted — це Third conditional: if + had V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "Which sentence is a third conditional?",
+      "options": [
+        "If I had seen him, I would have told him.",
+        "If I see him, I will tell him.",
+        "If I see him, I tell him.",
+        "If I saw him, I would tell him."
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Third — нереальне минуле.\n❌ Хибні: Б) If I see him, I will tell him. — це First conditional; В) If I see him, I tell him. — це Zero conditional; Г) If I saw him, I would tell him. — це Second conditional.\n✅ А) If I had seen him, I would have told him. — if + Past Perfect, would have + V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "I wish he ___ so loudly.",
+      "options": [
+        "hasn't talked",
+        "isn't talking",
+        "wouldn't talk",
+        "won't talk"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Wish + wouldn't про звичку.\n❌ Хибні: А) hasn't talked — Perfect не пасує до wish; Б) isn't talking — Continuous не пасує до wish; Г) won't talk — will не вживається після wish.\n✅ В) wouldn't talk — wish + would — роздратування.",
+      "testLevel": 2
+    },
+    {
+      "text": "If you had told me earlier, I ___ it.",
+      "options": [
+        "would fix",
+        "would have fixed",
+        "had fixed",
+        "will fix"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Had told → would have fixed.\n❌ Хибні: А) would fix — це Second conditional; В) had fixed — Past Perfect не в головній частині; Г) will fix — це First conditional.\n✅ Б) would have fixed — це Third conditional: if + had V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "If he had taken my advice, he ___ in trouble now.",
+      "options": [
+        "wouldn't have been",
+        "wouldn't be",
+        "hadn't been",
+        "won't be"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Now → would + V.\n❌ Хибні: А) wouldn't have been — now вказує на теперішнє; В) hadn't been — Past Perfect не в головній частині; Г) won't be — will не пасує до had taken.\n✅ Б) wouldn't be — це змішаний тип умовного.",
+      "testLevel": 2
+    },
+    {
+      "text": "I ___ happy if you came to my party.",
+      "options": [
+        "would be",
+        "will be",
+        "would have been",
+        "am"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: If you came — would be.\n❌ Хибні: Б) will be — це First conditional; В) would have been — це Third conditional; Г) am — Present Simple не пасує до if you came.\n✅ А) would be — це Second conditional: if + Past, would.",
+      "testLevel": 2
+    },
+    {
+      "text": "Which conditional sentence is correct?",
+      "options": [
+        "If I will see her, I will tell her.",
+        "If I would see her, I would tell her.",
+        "If I saw her, I will tell her.",
+        "If I see her, I will tell her."
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: After if — без will/would.\n❌ Хибні: А) If I will see her, I will tell her. — will не вживається після if; Б) If I would see her, I would tell her. — would не вживається після if; В) If I saw her, I will tell her. — Past Simple не пасує до will.\n✅ Г) If I see her, I will tell her. — це First conditional: if + Present, will.",
+      "testLevel": 2
+    },
+    {
+      "text": "The new laboratory ___ by the time the accreditation team arrives next month.",
+      "options": [
+        "will complete",
+        "will have been completed",
+        "has been completing",
+        "is completed"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Завершення до майбутнього моменту в пасиві: Future Perfect Passive.\n❌ А) активна форма; В) граматично неправильна форма; Г) Present Simple Passive не передає завершення до майбутньої межі.\n✅ Б) will have been completed — will have been + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "If the data ___ before the update, the error could have been avoided.",
+      "options": [
+        "had backed up",
+        "were backed up",
+        "would be backed up",
+        "have been backed up"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Third Conditional: if + Past Perfect, would/could have + V3. У цьому реченні підмет data виконує дію backup у значенні зробив резервну копію.\n❌ Б) пасивна форма змінює значення; В) would не ставимо в if-clause; Г) Present Perfect не відповідає минулій нереальній умові.\n✅ А) had backed up — Past Perfect Active.",
+      "testLevel": 3
+    },
+    {
+      "text": "The applicants are expected ___ by email before the end of the week.",
+      "options": [
+        "to contact",
+        "to be contacted",
+        "being contacted",
+        "to have contacting"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Applicants отримують повідомлення, тому потрібен пасивний інфінітив.\n❌ А) активне значення; В) герундій не підходить після are expected; Г) неправильно утворена форма.\n✅ Б) to be contacted — to be + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "Had the instructions been clearer, the device ___ incorrectly.",
+      "options": [
+        "would not have been installed",
+        "will not be installed",
+        "would not install",
+        "had not installed"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Had + підмет + V3 — інверсія Third Conditional. Наслідок також має бути в пасиві.\n❌ Б) майбутній час; В) активна форма; Г) Past Perfect не утворює наслідок умовного речення.\n✅ А) would not have been installed — would have been + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "The old computers need ___ before they can be used in the classroom.",
+      "options": [
+        "to repair",
+        "repairing",
+        "to have repairing",
+        "repaired"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Need + V-ing може мати пасивне значення: computers need repairing = need to be repaired.\n❌ А) бракує пасивної конструкції; В) граматично неправильно; Г) потрібне допоміжне дієслово або -ing форма.\n✅ Б) repairing — герундій із пасивним значенням.",
+      "testLevel": 3
+    },
+    {
+      "text": "The minister is reported ___ the proposal before the committee rejected it.",
+      "options": [
+        "to withdraw",
+        "to have withdrawn",
+        "withdrawing",
+        "having withdrawn"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Після is reported потрібен інфінітив; дія перед rejected — раніша, тому Perfect Infinitive.\n❌ А) не показує попередність; В) і Г) герундій не підходить до reporting passive.\n✅ Б) to have withdrawn — повідомляють про ранішу дію.",
+      "testLevel": 3
+    },
+    {
+      "text": "I hate ___ what to do, especially when I have already considered every option.",
+      "options": [
+        "to tell",
+        "being told",
+        "to be telling",
+        "having told"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Людині не подобається, коли їй наказують; потрібен пасивний герундій після hate.\n❌ А) активна форма; В) означає, що мовець сам комусь говорить; Г) активний Perfect Gerund.\n✅ Б) being told — бути тим, кому говорять.",
+      "testLevel": 3
+    },
+    {
+      "text": "The missing files may ___ during the transfer, but the cause is still unknown.",
+      "options": [
+        "have been deleted",
+        "be deleting",
+        "have deleted",
+        "being deleted"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 May + Perfect Passive Infinitive виражає можливу завершену дію над файлами.\n❌ Б) активний Continuous; В) активна форма; Г) після may не можна ставити просто being.\n✅ А) have been deleted — may have been + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "If the samples were stored at a lower temperature, they ___ for longer.",
+      "options": [
+        "will preserve",
+        "would preserve",
+        "would be preserved",
+        "had been preserved"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Second Conditional у пасиві: if + Past Simple Passive, would + be + V3.\n❌ А) Future Simple; Б) активна форма; Г) Third Conditional не відповідає теперішній гіпотезі.\n✅ В) would be preserved — зразки зберігалися б.",
+      "testLevel": 3
+    },
+    {
+      "text": "No sooner ___ than the fire alarm started.",
+      "options": [
+        "the doors had been locked",
+        "had the doors been locked",
+        "were the doors locking",
+        "did the doors lock"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 No sooner на початку вимагає інверсії Past Perfect; двері були замкнені, тому пасив.\n❌ А) немає інверсії; В) неправильний час і значення; Г) активна форма та немає Perfect.\n✅ Б) had the doors been locked — had + підмет + been + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "No sooner ___ the problem been solved than another one appeared.",
+      "options": [
+        "has",
+        "had",
+        "did",
+        "was"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: No sooner had… than….\n❌ Хибні: А) has — Present Perfect не пасує до appeared; В) did — do не пасує до been solved; Г) was — бракує been у конструкції.\n✅ Б) had — інверсія: no sooner + had + підмет.",
+      "testLevel": 3
+    },
+    {
+      "text": "Not only ___ the money stolen, but the car was also damaged.",
+      "options": [
+        "did",
+        "had",
+        "were",
+        "was"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Not only was the money stolen.\n❌ Хибні: А) did — do не утворює Passive; Б) had — бракує been у конструкції; В) were — money — однина, не множина.\n✅ Г) was — інверсія в Passive.",
+      "testLevel": 3
+    },
+    {
+      "text": "The old man is thought ___ a fortune when he died.",
+      "options": [
+        "having left",
+        "leaving",
+        "to leave",
+        "to have left"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: When he died — to have V3.\n❌ Хибні: А) having left — неправильна форма дієслова; Б) leaving — неправильна форма дієслова; В) to leave — теперішня дія тут не пасує.\n✅ Г) to have left — perfect infinitive: to have + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "The exam papers ___ by the time the results are published.",
+      "options": [
+        "will have been marked",
+        "will mark",
+        "are marking",
+        "have marked"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: By the time + Present → will have been.\n❌ Хибні: Б) will mark — активна форма — потрібен Passive; В) are marking — активна форма Continuous; Г) have marked — активна форма Perfect.\n✅ А) will have been marked — Future Perfect Passive.",
+      "testLevel": 3
+    },
+    {
+      "text": "The workers ___ for two months, so they've decided to strike.",
+      "options": [
+        "hadn't paid",
+        "haven't been paid",
+        "haven't paid",
+        "aren't paying"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: For two months — Present Perfect.\n❌ Хибні: А) hadn't paid — Past Perfect не пасує; В) haven't paid — активна форма — потрібен Passive; Г) aren't paying — активна форма Continuous.\n✅ Б) haven't been paid — Present Perfect Passive.",
+      "testLevel": 3
+    },
+    {
+      "text": "She doesn't like ___ what to do.",
+      "options": [
+        "to tell",
+        "being told",
+        "telling",
+        "told"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Like + being + V3.\n❌ Хибні: А) to tell — неправильна форма дієслова; В) telling — активна форма без об'єкта; Г) told — бракує being у конструкції.\n✅ Б) being told — like + being V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "«It is reported that the president has resigned.» Choose the correct form.",
+      "options": [
+        "The president is reported to have resigned.",
+        "The president was reported resigning.",
+        "The president is reported to resign.",
+        "The president reports to have resigned."
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Resigned — минула дія, to have V3.\n❌ Хибні: Б) The president was reported resigning. — неправильна граматична конструкція; В) The president is reported to resign. — теперішня дія тут не пасує; Г) The president reports to have resigned. — активна форма — потрібен Passive.\n✅ А) The president is reported to have resigned. — perfect infinitive після is reported.",
+      "testLevel": 3
+    },
+    {
+      "text": "The machine ___ checked before use.",
+      "options": [
+        "has to",
+        "is have to",
+        "has be",
+        "has to be"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Have to + be + V3.\n❌ Хибні: А) has to — бракує be у конструкції; Б) is have to — неправильна форма дієслова; В) has be — неправильна форма дієслова.\n✅ Г) has to be — modal + be + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which sentence is incorrect?",
+      "options": [
+        "The house is belonged to my uncle.",
+        "The book was written by a famous author.",
+        "The house belongs to my uncle.",
+        "The window was broken by the wind."
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Belong — неперехідне дієслово.\n❌ Хибні: Б) The book was written by a famous author. — це правильне Passive; В) The house belongs to my uncle. — правильна активна форма; Г) The window was broken by the wind. — це правильне Passive.\n✅ А) The house is belonged to my uncle. — belong не вживається в Passive.",
+      "testLevel": 3
+    },
+    {
+      "text": "«They are painting the fence.» Choose the passive form.",
+      "options": [
+        "The fence was painting.",
+        "The fence is being painted.",
+        "The fence is painted.",
+        "The fence has painted."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Continuous → is being + V3.\n❌ Хибні: А) The fence was painting. — неправильна форма дієслова; В) The fence is painted. — Simple без процесу; Г) The fence has painted. — активна форма — потрібен Passive.\n✅ Б) The fence is being painted. — Present Continuous Passive.",
+      "testLevel": 3
+    },
+    {
+      "text": "«People must not touch the exhibits.» Choose the passive form.",
+      "options": [
+        "The exhibits not must be touched.",
+        "The exhibits must be not touched.",
+        "The exhibits must not be touched.",
+        "The exhibits must not touch."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Must + not + be + V3.\n❌ Хибні: А) The exhibits not must be touched. — неправильний порядок слів; Б) The exhibits must be not touched. — неправильний порядок слів; Г) The exhibits must not touch. — активна форма — потрібен Passive.\n✅ В) The exhibits must not be touched. — modal + not + be + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "It ___ yesterday that the museum will close for repairs.",
+      "options": [
+        "was announced",
+        "announced",
+        "was announcing",
+        "has announce"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: It was announced that….\n❌ Хибні: Б) announced — бракує was у конструкції; В) was announcing — активна форма — потрібен Passive; Г) has announce — неправильна форма дієслова.\n✅ А) was announced — impersonal passive: it is said that.",
+      "testLevel": 3
+    },
+    {
+      "text": "The prisoners are known ___ through the tunnel last night.",
+      "options": [
+        "to be escape",
+        "to have escaped",
+        "escaping",
+        "to escape"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Last night — to have V3.\n❌ Хибні: А) to be escape — неправильна форма дієслова; В) escaping — неправильна форма дієслова; Г) to escape — теперішня дія тут не пасує.\n✅ Б) to have escaped — perfect infinitive: to have + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "The staff ___ of the changes yesterday.",
+      "options": [
+        "were informed",
+        "have informed",
+        "informed",
+        "were informing"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Staff — об'єкт інформування.\n❌ Хибні: Б) have informed — активна форма Perfect; В) informed — активна форма — потрібен Passive; Г) were informing — активна форма Continuous.\n✅ А) were informed — Past Simple Passive.",
+      "testLevel": 3
+    },
+    {
+      "text": "The teacher asked us to be quiet. Choose the correct passive.",
+      "options": [
+        "We were asking to be quiet.",
+        "We were asked to be quiet.",
+        "We asked to be quiet.",
+        "We have asked to be quiet."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Asked us → we were asked.\n❌ Хибні: А) We were asking to be quiet. — активна форма Continuous; В) We asked to be quiet. — активна форма — потрібен Passive; Г) We have asked to be quiet. — активна форма Perfect.\n✅ Б) We were asked to be quiet. — Past Simple Passive + to V.",
+      "testLevel": 3
+    },
+    {
+      "text": "___ I known about the delay, I would have booked another flight.",
+      "options": [
+        "Were",
+        "Had",
+        "Should",
+        "If"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Had I known = If I had known.\n❌ Хибні: А) Were — Were — для Second conditional; В) Should — Should — для First conditional; Г) If — if не поєднується з інверсією.\n✅ Б) Had — інверсія Third conditional.",
+      "testLevel": 3
+    },
+    {
+      "text": "___ you need any help, please contact me.",
+      "options": [
+        "Had",
+        "Would",
+        "Should",
+        "Were"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Should you need = If you need.\n❌ Хибні: А) Had — Had — для Third conditional; Б) Would — would не утворює інверсії; Г) Were — Were — для Second conditional.\n✅ В) Should — інверсія First conditional.",
+      "testLevel": 3
+    },
+    {
+      "text": "___ I you, I would accept the offer.",
+      "options": [
+        "Should",
+        "Had",
+        "Were",
+        "Was"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Were I you = If I were you.\n❌ Хибні: А) Should — Should — для First conditional; Б) Had — Had — для Third conditional; Г) Was — Was не утворює інверсії.\n✅ В) Were — інверсія Second conditional.",
+      "testLevel": 3
+    },
+    {
+      "text": "But for your help last year, I ___ the exam.",
+      "options": [
+        "had failed",
+        "would have failed",
+        "would fail",
+        "will fail"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Last year → would have + V3.\n❌ Хибні: А) had failed — Past Perfect не в головній частині; В) would fail — це Second conditional; Г) will fail — це First conditional.\n✅ Б) would have failed — Third conditional: but for = if it hadn't been for.",
+      "testLevel": 3
+    },
+    {
+      "text": "If it ___ for his advice, I would have lost everything.",
+      "options": [
+        "hadn't been",
+        "weren't",
+        "wasn't",
+        "hasn't been"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: If it hadn't been for….\n❌ Хибні: Б) weren't — це Second conditional: if + Past, would; В) wasn't — Past Simple не пасує до would have; Г) hasn't been — Present Perfect не пасує.\n✅ А) hadn't been — if it hadn't been for = but for.",
+      "testLevel": 3
+    },
+    {
+      "text": "If you happen ___ him, give him my regards.",
+      "options": [
+        "seeing",
+        "to see",
+        "to be seen",
+        "see"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Happen to V — випадково.\n❌ Хибні: А) seeing — неправильна форма дієслова; В) to be seen — потрібна активна форма; Г) see — бракує to у конструкції.\n✅ Б) to see — happen to + V — випадково.",
+      "testLevel": 3
+    },
+    {
+      "text": "It's high time you ___ to bed.",
+      "options": [
+        "will go",
+        "went",
+        "had gone",
+        "go"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: It's time — Past Simple.\n❌ Хибні: А) will go — will не вживається після it's time; В) had gone — Past Perfect не пасує; Г) go — Present Simple не пасує.\n✅ Б) went — it's time + Past Simple.",
+      "testLevel": 3
+    },
+    {
+      "text": "I wish I ___ so much last night.",
+      "options": [
+        "didn't eat",
+        "wouldn't eat",
+        "haven't eaten",
+        "hadn't eaten"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Last night → wish + hadn't V3.\n❌ Хибні: А) didn't eat — Past Simple стосується теперішнього; Б) wouldn't eat — would не про минуле; В) haven't eaten — Present Perfect не пасує до wish.\n✅ Г) hadn't eaten — wish + Past Perfect — жаль про минуле.",
+      "testLevel": 3
+    },
+    {
+      "text": "If only she ___ listened to me!",
+      "options": [
+        "did",
+        "has",
+        "would",
+        "had"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: If only + had + V3.\n❌ Хибні: А) did — do не утворює Past Perfect; Б) has — Present Perfect не пасує; В) would — would не пасує до listened.\n✅ Г) had — if only + Past Perfect — жаль про минуле.",
+      "testLevel": 3
+    },
+    {
+      "text": "If I hadn't broken my leg, I ___ in the match tomorrow.",
+      "options": [
+        "will play",
+        "would have played",
+        "would be playing",
+        "had played"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Tomorrow — would be + V-ing.\n❌ Хибні: А) will play — will не пасує до if I hadn't broken; Б) would have played — це Third conditional; Г) had played — Past Perfect не в головній частині.\n✅ В) would be playing — mixed conditional: майбутній наслідок.",
+      "testLevel": 3
+    },
+    {
+      "text": "She would have won the race if she ___ so nervous.",
+      "options": [
+        "wasn't",
+        "hadn't been",
+        "weren't",
+        "hasn't been"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Would have won — hadn't been.\n❌ Хибні: А) wasn't — Past Simple не пасує до would have; В) weren't — це Second conditional; Г) hasn't been — Present Perfect не пасує.\n✅ Б) hadn't been — це Third conditional: if + had V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "___ it not for the rain, we would be sitting outside now.",
+      "options": [
+        "Was",
+        "Should",
+        "Were",
+        "Had"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Were it not for = if it weren't for.\n❌ Хибні: А) Was — Was не утворює інверсії; Б) Should — Should — для First conditional; Г) Had — Had — для Third conditional.\n✅ В) Were — інверсія Second conditional: were it not for.",
+      "testLevel": 3
+    },
+    {
+      "text": "Supposing you ___ lost, what would you do?",
+      "options": [
+        "got",
+        "would get",
+        "will get",
+        "get"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Would you do → supposing + Past Simple.\n❌ Хибні: Б) would get — would не вживається після supposing; В) will get — will не вживається після supposing; Г) get — Present Simple не пасує до would you.\n✅ А) got — suppose + Past Simple.",
+      "testLevel": 3
+    },
+    {
+      "text": "You can use my laptop on condition that you ___ it back tomorrow.",
+      "options": [
+        "would bring",
+        "brought",
+        "will bring",
+        "bring"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: On condition that — Present Simple.\n❌ Хибні: А) would bring — would не вживається після on condition that; Б) brought — Past Simple не пасує до tomorrow; В) will bring — will не вживається після on condition that.\n✅ Г) bring — on condition that + Present Simple.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which sentence expresses regret about the past?",
+      "options": [
+        "I wish I study more.",
+        "I wish I had studied more.",
+        "I wish I studied more.",
+        "I wish I will study more."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Regret about the past → had V3.\n❌ Хибні: А) I wish I study more. — Present не вживається після wish; В) I wish I studied more. — wish + Past Simple — про теперішнє; Г) I wish I will study more. — will не вживається після wish.\n✅ Б) I wish I had studied more. — wish + Past Perfect.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which conditional sentence is grammatically correct?",
+      "options": [
+        "If I have had time, I would help.",
+        "If I will have time, I would help.",
+        "If I had time, I would help.",
+        "If I would have time, I would help."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: If + Past Simple, would + V.\n❌ Хибні: А) If I have had time, I would help. — неправильне поєднання часів; Б) If I will have time, I would help. — will не вживається після if; Г) If I would have time, I would help. — would не вживається після if.\n✅ В) If I had time, I would help. — це Second conditional: if + Past, would.",
+      "testLevel": 3
+    },
+    {
+      "text": "If you hadn't asked me, I ___ there.",
+      "options": [
+        "wouldn't have gone",
+        "wouldn't go",
+        "won't go",
+        "didn't go"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Hadn't asked → wouldn't have gone.\n❌ Хибні: Б) wouldn't go — це Second conditional; В) won't go — це First conditional; Г) didn't go — Past Simple не в головній частині.\n✅ А) wouldn't have gone — це Third conditional: if + had V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "Unless he ___ harder, he won't pass the test.",
+      "options": [
+        "will work",
+        "works",
+        "worked",
+        "doesn't work"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Unless he works = if he doesn't work.\n❌ Хибні: А) will work — will не вживається після unless; В) worked — Past Simple не пасує до won't pass; Г) doesn't work — unless уже містить заперечення.\n✅ Б) works — unless + стверджувальна форма.",
+      "testLevel": 3
+    },
+    {
+      "text": "Had she not left early, she ___ the accident.",
+      "options": [
+        "will witness",
+        "had witnessed",
+        "would have witnessed",
+        "would witness"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Had she not left = if she hadn't left.\n❌ Хибні: А) will witness — це First conditional; Б) had witnessed — Past Perfect не в головній частині; Г) would witness — це Second conditional.\n✅ В) would have witnessed — Third conditional (інверсія).",
+      "testLevel": 3
+    },
+    {
+      "text": "If he ___ so stubborn, we could solve the problem easily.",
+      "options": [
+        "weren't",
+        "isn't",
+        "wouldn't be",
+        "hadn't been"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Could solve — if + Past Simple.\n❌ Хибні: Б) isn't — Present Simple не пасує до could; В) wouldn't be — would не вживається після if; Г) hadn't been — це Third conditional.\n✅ А) weren't — це Second conditional: if + Past, would.",
+      "testLevel": 3
+    },
+    {
+      "text": "I'd have gone to the party if I ___ invited.",
+      "options": [
+        "would be",
+        "were",
+        "was",
+        "had been"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Had been invited — Past Perfect Passive.\n❌ Хибні: А) would be — would не вживається після if; Б) were — це Second conditional; В) was — Past Simple не пасує до would have.\n✅ Г) had been — Third conditional + Passive.",
+      "testLevel": 3
+    },
+    {
+      "text": "What if the train ___ late tomorrow?",
+      "options": [
+        "is",
+        "will be",
+        "was",
+        "would be"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: What if + Present Simple.\n❌ Хибні: Б) will be — will не вживається після what if; В) was — Past Simple не пасує до tomorrow; Г) would be — would не вживається після what if.\n✅ А) is — what if + Present Simple.",
+      "testLevel": 3
+    },
+    {
+      "text": "Even if you ___ me a million dollars, I wouldn't do it.",
+      "options": [
+        "offered",
+        "had offered",
+        "offer",
+        "will offer"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Wouldn't do — even if + Past Simple.\n❌ Хибні: Б) had offered — це Third conditional; В) offer — Present Simple не пасує до wouldn't; Г) will offer — will не вживається після even if.\n✅ А) offered — це Second conditional: if + Past, would.",
+      "testLevel": 3
+    },
+    {
+      "text": "If they hadn't repaired the road, we ___ stuck for hours.",
+      "options": [
+        "had been",
+        "will be",
+        "would have been",
+        "would be"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Hadn't repaired → would have been.\n❌ Хибні: А) had been — Past Perfect не в головній частині; Б) will be — це First conditional; Г) would be — це Second conditional.\n✅ В) would have been — це Third conditional: if + had V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which sentence is a mixed conditional?",
+      "options": [
+        "If I had a better job, I would be happier.",
+        "If I work harder, I will get a better job.",
+        "If I had worked harder, I would have a better job now.",
+        "If I had worked harder, I would have passed."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Mixed — минуле + теперішній наслідок.\n❌ Хибні: А) If I had a better job, I would be happier. — це Second conditional; Б) If I work harder, I will get a better job. — це First conditional; Г) If I had worked harder, I would have passed. — це Third conditional.\n✅ В) If I had worked harder, I would have a better job now. — минула умова + теперішній наслідок.",
+      "testLevel": 3
+    },
+    {
+      "text": "They promised that if they ___ the contract, they would send it by courier.",
+      "options": [
+        "sign",
+        "signed",
+        "will sign",
+        "have signed"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Promised → would + if + Past Simple.\n❌ Хибні: А) sign — Present Simple не пасує до promised; В) will sign — will не вживається після if; Г) have signed — Present Perfect не пасує до promised.\n✅ Б) signed — Past Simple у непрямій мові.",
+      "testLevel": 3
+    }
+  ],
+  "cards": [
+    {
+      "question": "Passive Voice (форма)",
+      "answer": "be (у потрібному часі) + V3: is made, was built, has been done, will be sent. Підмет — об'єкт дії."
+    },
+    {
+      "question": "Present Simple Passive",
+      "answer": "am/is/are + V3: English is spoken here. Дія як факт чи звичка."
+    },
+    {
+      "question": "Past Simple Passive",
+      "answer": "was/were + V3: The house was built in 1950."
+    },
+    {
+      "question": "Present Perfect Passive",
+      "answer": "have/has been + V3: The work has been done."
+    },
+    {
+      "question": "Continuous Passive",
+      "answer": "is/are being + V3 (Present), was/were being + V3 (Past): The room is being cleaned."
+    },
+    {
+      "question": "Future Simple Passive",
+      "answer": "will be + V3: The bridge will be built next year."
+    },
+    {
+      "question": "Модальні дієслова в Passive",
+      "answer": "modal + be + V3: must be signed, can be seen; у минулому: modal + have been + V3 (should have been done)."
+    },
+    {
+      "question": "Agent: by / with",
+      "answer": "by + виконавець (written by Tolstoy); with + інструмент (cut with a knife)."
+    },
+    {
+      "question": "Дієслова без Passive",
+      "answer": "Неперехідні дієслова (happen, arrive, belong, sleep, die, exist) не мають Passive: The accident happened (не «was happened»)."
+    },
+    {
+      "question": "Causative: have something done",
+      "answer": "have/get + object + V3: I had my hair cut (мені підстригли — зробив хтось інший)."
+    },
+    {
+      "question": "Impersonal Passive",
+      "answer": "It is said that… / He is said to be… / He is said to have left…; також believed, thought, known, reported, expected."
+    },
+    {
+      "question": "Passive + V-ing / to V",
+      "answer": "After prepositions/likes: being + V3 (I hate being laughed at); to be + V3 (She wants to be invited)."
+    },
+    {
+      "question": "Zero conditional",
+      "answer": "If + Present Simple, Present Simple: If you heat ice, it melts. Закони природи, факти."
+    },
+    {
+      "question": "First conditional",
+      "answer": "If + Present Simple, will + V: If it rains, we will stay at home. Реальна можливість у майбутньому."
+    },
+    {
+      "question": "Second conditional",
+      "answer": "If + Past Simple, would + V: If I had a car, I would drive. Нереальна/малоймовірна ситуація зараз; if I were you…"
+    },
+    {
+      "question": "Third conditional",
+      "answer": "If + Past Perfect, would have + V3: If I had known, I would have helped. Нереальна ситуація в минулому."
+    },
+    {
+      "question": "Mixed conditional",
+      "answer": "If + Past Perfect, would + V (теперішній наслідок минулої умови): If I had studied, I would have a job now."
+    },
+    {
+      "question": "Unless",
+      "answer": "Unless = if … not: Unless you hurry, you will miss the train. Після unless — стверджувальна форма!"
+    },
+    {
+      "question": "as long as / provided (that) / on condition that",
+      "answer": "Умова «за умови, що»: You can go provided (that) you finish your work."
+    },
+    {
+      "question": "in case",
+      "answer": "«на випадок, якщо»: Take an umbrella in case it rains (не буде will після in case)."
+    },
+    {
+      "question": "Time clauses",
+      "answer": "after when, as soon as, before, until, after — Present Simple для майбутнього: I'll call you as soon as I get home."
+    },
+    {
+      "question": "Wish / If only",
+      "answer": "wish + Past Simple (теперішнє), wish + Past Perfect (минуле), wish + would (роздратування): I wish I knew. I wish I had gone. I wish he would stop."
+    },
+    {
+      "question": "Inversion in conditionals",
+      "answer": "Had I known… (= If I had known); Were I you… (= If I were you); Should you need help… (= If you should need help)."
+    },
+    {
+      "question": "But for / Otherwise",
+      "answer": "But for your help, I would have failed (= if it hadn't been for). Otherwise = інакше."
+    },
+    {
+      "question": "It's high time",
+      "answer": "It's (high) time + Past Simple: It's time you went to bed (давно пора)."
+    },
+    {
+      "question": "will/would після if",
+      "answer": "Після if не вживаємо will/would у частині умови: If it rains (не will rain)."
+    }
+  ]
 }
