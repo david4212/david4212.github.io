@@ -1,2036 +1,2036 @@
 {
- "subject": "ENGLISH",
- "topic": "Grammar: Nouns, Pronouns, Prepositions & Articles",
- "questions": [
-  {
-   "text": "There are three ___ in the room.",
-   "options": [
-    "childs",
-    "childrens",
-    "child",
-    "children"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Child — children.\n❌ Хибні: А) childs — помилкова регулярна форма; Б) childrens — подвійне закінчення множини; В) child — однина не пасує до three.\n✅ Г) children — нерегулярна множина від child.",
-   "testLevel": 1
-  },
-  {
-   "text": "She bought two ___ of bread.",
-   "options": [
-    "loaves",
-    "loafs",
-    "loaf",
-    "breads"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Loaf — loaves.\n❌ Хибні: Б) loafs — помилкова регулярна форма; В) loaf — однина не пасує до two; Г) breads — bread зазвичай незлічуваний.\n✅ А) loaves — множина від loaf: -f → -ves.",
-   "testLevel": 1
-  },
-  {
-   "text": "Can you give me some ___?",
-   "options": [
-    "advise",
-    "advice",
-    "an advice",
-    "advices"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Advice — незлічуваний.\n❌ Хибні: А) advise — це дієслово, не іменник; В) an advice — перед advice немає a/an; Г) advices — advice не має множини.\n✅ Б) advice — незлічуваний іменник без -s.",
-   "testLevel": 1
-  },
-  {
-   "text": "How ___ water do you drink a day?",
-   "options": [
-    "much",
-    "many",
-    "few",
-    "a few"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Water — незлічуваний, тому much.\n❌ Хибні: Б) many — many — для злічуваних; В) few — few — для злічуваних; Г) a few — a few — для злічуваних.\n✅ А) much — water — незлічуваний іменник.",
-   "testLevel": 1
-  },
-  {
-   "text": "How ___ students are there in your class?",
-   "options": [
-    "much",
-    "little",
-    "a little",
-    "many"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Students можна порахувати — many.\n❌ Хибні: А) much — much — для незлічуваних; Б) little — little — для незлічуваних; В) a little — a little — для незлічуваних.\n✅ Г) many — students — злічуваний іменник.",
-   "testLevel": 1
-  },
-  {
-   "text": "There isn't ___ milk in the fridge.",
-   "options": [
-    "few",
-    "a few",
-    "much",
-    "many"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Milk — незлічуваний, у запереченні much.\n❌ Хибні: А) few — few — для злічуваних; Б) a few — a few — для злічуваних; Г) many — many — для злічуваних.\n✅ В) much — milk — незлічуваний іменник.",
-   "testLevel": 1
-  },
-  {
-   "text": "I have ___ friends in this city.",
-   "options": [
-    "a little",
-    "little",
-    "much",
-    "a few"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Friends — злічуваний, тому a few.\n❌ Хибні: А) a little — a little — для незлічуваних; Б) little — little — для незлічуваних; В) much — much — для незлічуваних.\n✅ Г) a few — friends — злічуваний іменник.",
-   "testLevel": 1
-  },
-  {
-   "text": "There are two ___ in the kitchen.",
-   "options": [
-    "mices",
-    "mice",
-    "mouse",
-    "mouses"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Mouse — mice.\n❌ Хибні: А) mices — подвійне закінчення множини; В) mouse — однина не пасує до two; Г) mouses — помилкова регулярна форма.\n✅ Б) mice — нерегулярна множина від mouse.",
-   "testLevel": 1
-  },
-  {
-   "text": "Three ___ are waiting outside.",
-   "options": [
-    "women",
-    "womens",
-    "womans",
-    "woman"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Woman — women.\n❌ Хибні: Б) womens — помилкове закінчення множини; В) womans — помилкова регулярна форма; Г) woman — однина не пасує до three.\n✅ А) women — нерегулярна множина від woman.",
-   "testLevel": 1
-  },
-  {
-   "text": "Put the ___ on the table.",
-   "options": [
-    "knifes",
-    "knives",
-    "knife",
-    "knive"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Knife — knives.\n❌ Хибні: А) knifes — помилкова регулярна форма; В) knife — однина не пасує до the ... on; Г) knive — неіснуюча форма слова.\n✅ Б) knives — множина від knife: -fe → -ves.",
-   "testLevel": 1
-  },
-  {
-   "text": "My brother is ___ engineer.",
-   "options": [
-    "no article",
-    "a",
-    "the",
-    "an"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Engineer — голосний звук, тому an.\n❌ Хибні: А) no article — перед професією потрібен артикль; Б) a — a не вживається перед голосним звуком; В) the — артикль the тут не потрібен.\n✅ Г) an — engineer починається з голосного звука.",
-   "testLevel": 1
-  },
-  {
-   "text": "He is ___ honest man.",
-   "options": [
-    "no article",
-    "an",
-    "the",
-    "a"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Honest — звук /ɒ/, тому an.\n❌ Хибні: А) no article — перед man потрібен артикль; В) the — артикль the тут не потрібен; Г) a — a не вживається перед голосним звуком.\n✅ Б) an — h не вимовляється, слово починається з голосного звука.",
-   "testLevel": 1
-  },
-  {
-   "text": "I saw ___ elephant at the zoo.",
-   "options": [
-    "the",
-    "a",
-    "no article",
-    "an"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Elephant — an.\n❌ Хибні: А) the — слон ще не згадувався; Б) a — a не вживається перед голосним звуком; В) no article — перед злічуваним іменником потрібен артикль.\n✅ Г) an — elephant починається з голосного звука.",
-   "testLevel": 1
-  },
-  {
-   "text": "___ moon goes round the Earth.",
-   "options": [
-    "A",
-    "no article",
-    "The",
-    "An"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Moon, sun, Earth — the.\n❌ Хибні: А) A — про Moon не можна сказати «один із багатьох»; Б) no article — the потрібен для унікальних об'єктів; Г) An — moon не починається з голосного звука.\n✅ В) The — Moon — єдиний у своєму роді.",
-   "testLevel": 1
-  },
-  {
-   "text": "My mother is ___ teacher.",
-   "options": [
-    "the",
-    "an",
-    "no article",
-    "a"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Teacher — a.\n❌ Хибні: А) the — артикль the тут не потрібен; Б) an — an не вживається перед приголосним звуком; В) no article — перед професією потрібен артикль.\n✅ Г) a — teacher починається з приголосного звука.",
-   "testLevel": 1
-  },
-  {
-   "text": "She plays ___ piano very well.",
-   "options": [
-    "a",
-    "the",
-    "an",
-    "no article"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Play the + інструмент.\n❌ Хибні: А) a — a для інструментів не вживається; В) an — an не вживається перед приголосним звуком; Г) no article — перед інструментом потрібен the.\n✅ Б) the — перед музичним інструментом вживаємо the.",
-   "testLevel": 1
-  },
-  {
-   "text": "I usually have ___ breakfast at 8 o'clock.",
-   "options": [
-    "the",
-    "an",
-    "a",
-    "no article"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Have breakfast — нульовий артикль.\n❌ Хибні: А) the — the не потрібен перед breakfast; Б) an — an не потрібен перед breakfast; В) a — a не потрібен перед breakfast.\n✅ Г) no article — назви трапез — без артикля.",
-   "testLevel": 1
-  },
-  {
-   "text": "He goes to ___ school by bus.",
-   "options": [
-    "the",
-    "a",
-    "an",
-    "no article"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Go to school — загалом.\n❌ Хибні: А) the — the змінює значення на конкретну будівлю; Б) a — a тут не потрібен; В) an — an тут не потрібен.\n✅ Г) no article — школа як установа — без артикля.",
-   "testLevel": 1
-  },
-  {
-   "text": "___ Nile is the longest river in Africa.",
-   "options": [
-    "The",
-    "no article",
-    "A",
-    "An"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: The + назва ріки.\n❌ Хибні: Б) no article — назва ріки потребує the; В) A — a не вживається з назвою ріки; Г) An — an не вживається з назвою ріки.\n✅ А) The — назви рік вживаються з the.",
-   "testLevel": 1
-  },
-  {
-   "text": "I'd like ___ glass of water.",
-   "options": [
-    "a",
-    "many",
-    "an",
-    "few"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: A glass of water.\n❌ Хибні: Б) many — many не вживається з однинною формою; В) an — glass не починається з голосного звука; Г) few — few не вживається з однинною формою.\n✅ А) a — glass — злічуваний, починається з приголосного.",
-   "testLevel": 1
-  },
-  {
-   "text": "Anna is my sister. ___ is a doctor.",
-   "options": [
-    "Her",
-    "Hers",
-    "Herself",
-    "She"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Підмет — she.\n❌ Хибні: А) Her — her — форма додатка; Б) Hers — hers — самостійний присвійний; В) Herself — herself — зворотний займенник.\n✅ Г) She — підмет речення — особовий займенник.",
-   "testLevel": 1
-  },
-  {
-   "text": "Give the book to ___.",
-   "options": [
-    "him",
-    "he",
-    "himself",
-    "his"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Після to — him.\n❌ Хибні: Б) he — he — форма підмета; В) himself — himself — зворотний займенник; Г) his — his — присвійний займенник.\n✅ А) him — після прийменника — форма додатка.",
-   "testLevel": 1
-  },
-  {
-   "text": "This is not my book. It's ___.",
-   "options": [
-    "himself",
-    "he",
-    "him",
-    "his"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: It's his — це його.\n❌ Хибні: А) himself — himself — зворотний займенник; Б) he — he — форма підмета; В) him — him — форма додатка.\n✅ Г) his — самостійний присвійний займенник.",
-   "testLevel": 1
-  },
-  {
-   "text": "She cut ___ with a knife.",
-   "options": [
-    "her",
-    "herself",
-    "she",
-    "hers"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Cut herself — вона порізала себе.\n❌ Хибні: А) her — her не позначає ту саму особу; В) she — she — форма підмета; Г) hers — hers — самостійний присвійний.\n✅ Б) herself — підмет і додаток — одна особа.",
-   "testLevel": 1
-  },
-  {
-   "text": "I can do it ___.",
-   "options": [
-    "mine",
-    "myself",
-    "my",
-    "me"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Do it myself — сам.\n❌ Хибні: А) mine — mine — самостійний присвійний; В) my — my — прикметниковий присвійний; Г) me — me — форма додатка.\n✅ Б) myself — наголос: я зробив це сам.",
-   "testLevel": 1
-  },
-  {
-   "text": "Whose book is this? It's ___.",
-   "options": [
-    "I",
-    "my",
-    "me",
-    "mine"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Mine замінює my book.\n❌ Хибні: А) I — I — форма підмета; Б) my — my потребує іменника після себе; В) me — me — форма додатка.\n✅ Г) mine — самостійний присвійний займенник.",
-   "testLevel": 1
-  },
-  {
-   "text": "___ car is that?",
-   "options": [
-    "Which",
-    "Who's",
-    "Who",
-    "Whose"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Whose = чий.\n❌ Хибні: А) Which — which питає про вибір із групи; Б) Who's — who's — скорочення who is; В) Who — who питає про особу, а не про належність.\n✅ Г) Whose — питає про належність (чий).",
-   "testLevel": 1
-  },
-  {
-   "text": "Is there ___ milk in the fridge?",
-   "options": [
-    "any",
-    "no",
-    "every",
-    "some"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Питання — any.\n❌ Хибні: Б) no — no не вживається в питанні; В) every — every не пасує до незлічуваного milk; Г) some — some зазвичай у ствердженнях.\n✅ А) any — у питаннях вживаємо any.",
-   "testLevel": 1
-  },
-  {
-   "text": "Would you like ___ tea?",
-   "options": [
-    "none",
-    "no",
-    "any",
-    "some"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Пропозиція — some.\n❌ Хибні: А) none — none не стоїть перед іменником; Б) no — no не вживається в пропозиціях; В) any — any не вживається в пропозиціях.\n✅ Г) some — some у пропозиціях.",
-   "testLevel": 1
-  },
-  {
-   "text": "I don't have ___ money.",
-   "options": [
-    "some",
-    "no",
-    "any",
-    "none"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Don't have any — немає.\n❌ Хибні: А) some — some у запереченні не вживається; Б) no — no дає подвійне заперечення; Г) none — none не стоїть перед іменником.\n✅ В) any — після заперечення — any.",
-   "testLevel": 1
-  },
-  {
-   "text": "I was born ___ 1998.",
-   "options": [
-    "in",
-    "on",
-    "by",
-    "at"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Рік — in.\n❌ Хибні: Б) on — on — для днів і дат; В) by — by — до певного моменту; Г) at — at — для точного часу.\n✅ А) in — перед роком вживаємо in.",
-   "testLevel": 1
-  },
-  {
-   "text": "The meeting is ___ Monday.",
-   "options": [
-    "in",
-    "at",
-    "on",
-    "by"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: День тижня — on.\n❌ Хибні: А) in — in — для місяців і років; Б) at — at — для точного часу; Г) by — by — до певного моменту.\n✅ В) on — перед днем тижня вживаємо on.",
-   "testLevel": 1
-  },
-  {
-   "text": "We meet ___ 5 o'clock.",
-   "options": [
-    "at",
-    "in",
-    "on",
-    "by"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Година — at.\n❌ Хибні: Б) in — in — для місяців і років; В) on — on — для днів; Г) by — by — до певного моменту.\n✅ А) at — перед точним часом вживаємо at.",
-   "testLevel": 1
-  },
-  {
-   "text": "She lives ___ Kyiv.",
-   "options": [
-    "in",
-    "on",
-    "at",
-    "to"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Місто — in.\n❌ Хибні: Б) on — on — для поверхні; В) at — at — для точки або адреси; Г) to — to — напрямок руху.\n✅ А) in — перед назвою міста вживаємо in.",
-   "testLevel": 1
-  },
-  {
-   "text": "He is good ___ maths.",
-   "options": [
-    "on",
-    "in",
-    "with",
-    "at"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Good at.\n❌ Хибні: А) on — on не використовується після good; Б) in — in не використовується після good; В) with — with змінює значення.\n✅ Г) at — good at — стала сполука.",
-   "testLevel": 1
-  },
-  {
-   "text": "I'm interested ___ music.",
-   "options": [
-    "at",
-    "on",
-    "about",
-    "in"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Interested in.\n❌ Хибні: А) at — at не використовується після interested; Б) on — on не використовується після interested; В) about — about не пасує до interested.\n✅ Г) in — interested in — стала сполука.",
-   "testLevel": 1
-  },
-  {
-   "text": "She is afraid ___ spiders.",
-   "options": [
-    "from",
-    "about",
-    "at",
-    "of"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Afraid of.\n❌ Хибні: А) from — from не пасує до afraid; Б) about — about змінює значення; В) at — at не використовується після afraid.\n✅ Г) of — afraid of — стала сполука.",
-   "testLevel": 1
-  },
-  {
-   "text": "We arrived ___ the airport at noon.",
-   "options": [
-    "at",
-    "to",
-    "on",
-    "in"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Arrive at the airport.\n❌ Хибні: Б) to — arrive to не вживається; В) on — on не пасує до arrive; Г) in — arrive in — для міст і країн.\n✅ А) at — arrive at — маленькі місця, пункти.",
-   "testLevel": 1
-  },
-  {
-   "text": "The book is ___ the table.",
-   "options": [
-    "in",
-    "at",
-    "to",
-    "on"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: На столі — on.\n❌ Хибні: А) in — in — всередині; Б) at — at — точка; В) to — to — напрямок.\n✅ Г) on — on — на поверхні.",
-   "testLevel": 1
-  },
-  {
-   "text": "The cat is hiding ___ the box, so we can't see it.",
-   "options": [
-    "by",
-    "in",
-    "on",
-    "at"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Усередині коробки — in.\n❌ Хибні: А) by — by — поруч; В) on — on — на поверхні; Г) at — at — точка.\n✅ Б) in — in — всередині.",
-   "testLevel": 1
-  },
-  {
-   "text": "I go to school ___ bus.",
-   "options": [
-    "with",
-    "by",
-    "at",
-    "on"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: By bus.\n❌ Хибні: А) with — with не вживається з транспортом; В) at — at не вживається з транспортом; Г) on — on — для on foot або on the bus.\n✅ Б) by — by + вид транспорту.",
-   "testLevel": 1
-  },
-  {
-   "text": "Thank you ___ your help.",
-   "options": [
-    "with",
-    "to",
-    "of",
-    "for"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Thank for.\n❌ Хибні: А) with — with не пасує після thank you; Б) to — to не пасує після thank you; В) of — of не пасує після thank you.\n✅ Г) for — thank you for — стала сполука.",
-   "testLevel": 1
-  },
-  {
-   "text": "She is married ___ a doctor.",
-   "options": [
-    "for",
-    "with",
-    "to",
-    "by"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Married to.\n❌ Хибні: А) for — for не вживається після married; Б) with — with не вживається після married; Г) by — by не вживається після married.\n✅ В) to — married to — стала сполука.",
-   "testLevel": 1
-  },
-  {
-   "text": "He listens ___ music every evening.",
-   "options": [
-    "to",
-    "of",
-    "at",
-    "for"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Listen to.\n❌ Хибні: Б) of — of не пасує до listen; В) at — at не пасує до listen; Г) for — for не пасує до listen.\n✅ А) to — listen to — стала сполука.",
-   "testLevel": 1
-  },
-  {
-   "text": "I'm looking ___ my keys.",
-   "options": [
-    "after",
-    "on",
-    "at",
-    "for"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Look for = шукати.\n❌ Хибні: А) after — look after — доглядати; Б) on — on не пасує в цьому значенні; В) at — look at — дивитись.\n✅ Г) for — look for — шукати.",
-   "testLevel": 1
-  },
-  {
-   "text": "We're going ___ holiday next week.",
-   "options": [
-    "on",
-    "for",
-    "in",
-    "at"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: On holiday.\n❌ Хибні: Б) for — for holiday змінює значення; В) in — in holiday не вживається; Г) at — at holiday не вживається.\n✅ А) on — on holiday — стала сполука.",
-   "testLevel": 1
-  },
-  {
-   "text": "He has lived here ___ 2010.",
-   "options": [
-    "since",
-    "in",
-    "for",
-    "from"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: 2010 — момент, тому since.\n❌ Хибні: Б) in — in не пасує до Present Perfect; В) for — for + тривалість; Г) from — from не вживається з Present Perfect.\n✅ А) since — since + момент у минулому.",
-   "testLevel": 1
-  },
-  {
-   "text": "She has lived here ___ five years.",
-   "options": [
-    "for",
-    "during",
-    "since",
-    "from"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Five years — for.\n❌ Хибні: Б) during — during не пасує до Present Perfect; В) since — since + момент у минулому; Г) from — from не вживається з Present Perfect.\n✅ А) for — for + тривалість.",
-   "testLevel": 1
-  },
-  {
-   "text": "The train goes ___ the tunnel.",
-   "options": [
-    "over",
-    "across",
-    "along",
-    "through"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Тунель — through.\n❌ Хибні: А) over — over — зверху; Б) across — across — через поверхню; В) along — along — вздовж.\n✅ Г) through — through — крізь.",
-   "testLevel": 1
-  },
-  {
-   "text": "She sat ___ Tom and Ann.",
-   "options": [
-    "across",
-    "between",
-    "among",
-    "behind"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Між двома — between.\n❌ Хибні: А) across — across — навпроти; В) among — among — між кількома; Г) behind — behind — позаду.\n✅ Б) between — between — між двома.",
-   "testLevel": 1
-  },
-  {
-   "text": "The police ___ looking for the thief.",
-   "options": [
-    "is",
-    "are",
-    "was",
-    "has"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Police — завжди множина.\n❌ Хибні: А) is — police не вживається як однина; В) was — police тут множина; Г) has — неправильна форма після looking.\n✅ Б) are — police вживається як множина.",
-   "testLevel": 2
-  },
-  {
-   "text": "The news ___ shocking.",
-   "options": [
-    "have",
-    "were",
-    "are",
-    "is"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: News — однина.\n❌ Хибні: А) have — неправильна форма дієслова; Б) were — news не є множиною; В) are — news не є множиною.\n✅ Г) is — news — незлічуваний, однина.",
-   "testLevel": 2
-  },
-  {
-   "text": "Mathematics ___ my favourite subject.",
-   "options": [
-    "is",
-    "have been",
-    "were",
-    "are"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Mathematics, physics — однина.\n❌ Хибні: Б) have been — неправильна форма дієслова; В) were — mathematics не множина; Г) are — mathematics не множина.\n✅ А) is — назви наук на -ics — однина.",
-   "testLevel": 2
-  },
-  {
-   "text": "Let me give you a useful piece of ___.",
-   "options": [
-    "information",
-    "an information",
-    "informations",
-    "informing"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Information — незлічуваний.\n❌ Хибні: Б) an information — перед information немає a/an; В) informations — information не має множини; Г) informing — це дієслово в -ing.\n✅ А) information — це незлічуваний іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "The ___ in the mountains is breathtaking.",
-   "options": [
-    "scenery",
-    "a scenery",
-    "sceneries",
-    "sceneryes"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Scenery — незлічуваний.\n❌ Хибні: Б) a scenery — перед scenery немає a/an; В) sceneries — scenery не має множини; Г) sceneryes — неправильна форма дієслова.\n✅ А) scenery — це незлічуваний іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "He doesn't have ___ experience.",
-   "options": [
-    "few",
-    "a few",
-    "many",
-    "much"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Experience — незлічуваний.\n❌ Хибні: А) few — few — для злічуваних; Б) a few — a few — для злічуваних; В) many — many — для злічуваних.\n✅ Г) much — experience у цьому значенні незлічуваний.",
-   "testLevel": 2
-  },
-  {
-   "text": "There were ___ people at the concert.",
-   "options": [
-    "a lot of",
-    "a little",
-    "much",
-    "little"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: У ствердженні — a lot of.\n❌ Хибні: Б) a little — a little — для незлічуваних; В) much — much рідко у ствердженнях; Г) little — little — для незлічуваних.\n✅ А) a lot of — у ствердженні із злічуваним.",
-   "testLevel": 2
-  },
-  {
-   "text": "We have ___ money, so we can't buy a car.",
-   "options": [
-    "little",
-    "few",
-    "a few",
-    "many"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Little = майже немає.\n❌ Хибні: Б) few — few — для злічуваних; В) a few — a few — для злічуваних; Г) many — many — для злічуваних.\n✅ А) little — майже немає грошей, незлічуваний.",
-   "testLevel": 2
-  },
-  {
-   "text": "Could I have ___ more tea?",
-   "options": [
-    "many",
-    "few",
-    "a little",
-    "a few"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: A little + незлічуваний.\n❌ Хибні: А) many — many — для злічуваних; Б) few — few — для злічуваних; Г) a few — a few — для злічуваних.\n✅ В) a little — трохи, незлічуваний іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "There are ___ cars on the road today than yesterday.",
-   "options": [
-    "fewer",
-    "little",
-    "less",
-    "lesser"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Fewer + злічуваний.\n❌ Хибні: Б) little — little не утворює порівняння; В) less — less — для незлічуваних; Г) lesser — lesser — не порівняння кількості.\n✅ А) fewer — cars — злічуваний іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "There is ___ sugar in my coffee than in yours.",
-   "options": [
-    "fewer",
-    "few",
-    "lesser",
-    "less"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Less + незлічуваний.\n❌ Хибні: А) fewer — fewer — для злічуваних; Б) few — few — для злічуваних; В) lesser — lesser не вживається так.\n✅ Г) less — sugar — незлічуваний іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "This is my ___ house. They have lived here for years.",
-   "options": [
-    "parent",
-    "parent's",
-    "parents'",
-    "parents"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Parents' = батьків.\n❌ Хибні: А) parent — однина без присвійного відмінка; Б) parent's — це один із батьків; Г) parents — бракує апострофа у конструкції.\n✅ В) parents' — присвійний відмінок множини.",
-   "testLevel": 2
-  },
-  {
-   "text": "This is my ___ room: he lives alone.",
-   "options": [
-    "brother",
-    "brothers",
-    "brothers'",
-    "brother's"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Один брат — brother's.\n❌ Хибні: А) brother — бракує присвійного відмінка; Б) brothers — бракує апострофа у конструкції; В) brothers' — це присвійний відмінок множини.\n✅ Г) brother's — присвійний відмінок однини.",
-   "testLevel": 2
-  },
-  {
-   "text": "It was a ten-___ walk.",
-   "options": [
-    "minute",
-    "minutes",
-    "minutes'",
-    "minute's"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Ten-minute walk.\n❌ Хибні: Б) minutes — у складному прикметнику без -s; В) minutes' — присвійний відмінок тут не потрібен; Г) minute's — присвійний відмінок тут не потрібен.\n✅ А) minute — в складному прикметнику без -s.",
-   "testLevel": 2
-  },
-  {
-   "text": "He is the ___ student in our class.",
-   "options": [
-    "most good",
-    "better",
-    "best",
-    "good"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: The + superlative.\n❌ Хибні: А) most good — неправильна форма найвищого ступеня; Б) better — better — вищий ступінь; Г) good — good — звичайний ступінь.\n✅ В) best — the + найвищий ступінь.",
-   "testLevel": 2
-  },
-  {
-   "text": "The ___ should help the poor.",
-   "options": [
-    "riches",
-    "a rich",
-    "richs",
-    "rich"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: The rich = багаті.\n❌ Хибні: А) riches — riches — це «багатство»; Б) a rich — a не вживається в значенні групи; В) richs — неправильна форма дієслова.\n✅ Г) rich — the + прикметник у значенні групи.",
-   "testLevel": 2
-  },
-  {
-   "text": "___ United States is a large country.",
-   "options": [
-    "no article",
-    "The",
-    "An",
-    "A"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: The United States.\n❌ Хибні: А) no article — назва потребує the; В) An — an не вживається з назвою країни; Г) A — a не вживається з назвою країни.\n✅ Б) The — назва держави з State(s) — з the.",
-   "testLevel": 2
-  },
-  {
-   "text": "She lives in ___ Netherlands.",
-   "options": [
-    "the",
-    "an",
-    "a",
-    "no article"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: The Netherlands.\n❌ Хибні: Б) an — an не вживається з назвою країни; В) a — a не вживається з назвою країни; Г) no article — Netherlands потребує the.\n✅ А) the — назва країни у множині — з the.",
-   "testLevel": 2
-  },
-  {
-   "text": "We went to ___ Alps last winter.",
-   "options": [
-    "the",
-    "an",
-    "no article",
-    "a"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: The Alps.\n❌ Хибні: Б) an — an не вживається з назвою хребта; В) no article — назва хребта потребує the; Г) a — a не вживається з назвою хребта.\n✅ А) the — гірські хребти — з the.",
-   "testLevel": 2
-  },
-  {
-   "text": "He is ___ MP.",
-   "options": [
-    "no article",
-    "the",
-    "a",
-    "an"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Звук важливіший за букву.\n❌ Хибні: А) no article — перед професією потрібен артикль; Б) the — the тут не потрібен; В) a — MP починається з голосного звука.\n✅ Г) an — MP читається /em pi/ — голосний звук.",
-   "testLevel": 2
-  },
-  {
-   "text": "She is ___ university student.",
-   "options": [
-    "the",
-    "a",
-    "an",
-    "no article"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: University — a.\n❌ Хибні: А) the — the тут не потрібен; В) an — перед /j/ не вживається an; Г) no article — перед student потрібен артикль.\n✅ Б) a — university починається зі звука /j/.",
-   "testLevel": 2
-  },
-  {
-   "text": "It's ___ hour's drive from here.",
-   "options": [
-    "a",
-    "the",
-    "an",
-    "no article"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Hour — an.\n❌ Хибні: А) a — a не вживається перед голосним звуком; Б) the — the тут не потрібен; Г) no article — потрібен неозначений артикль.\n✅ В) an — h не вимовляється в hour.",
-   "testLevel": 2
-  },
-  {
-   "text": "What ___ lovely day!",
-   "options": [
-    "a",
-    "an",
-    "the",
-    "no article"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: What a + прикметник + іменник.\n❌ Хибні: Б) an — lovely починається з приголосного; В) the — the не вживається в окличних реченнях; Г) no article — перед day потрібен артикль.\n✅ А) a — what a + злічуваний іменник в однині.",
-   "testLevel": 2
-  },
-  {
-   "text": "She is such ___ clever girl.",
-   "options": [
-    "the",
-    "a",
-    "no article",
-    "an"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Such a clever girl.\n❌ Хибні: А) the — the тут не потрібен; В) no article — such потребує артикля; Г) an — clever починається з приголосного.\n✅ Б) a — such a + прикметник + іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "I go to the gym three times ___ week.",
-   "options": [
-    "an",
-    "the",
-    "a",
-    "no article"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Three times a week.\n❌ Хибні: А) an — week починається з приголосного; Б) the — the не вживається у значенні «за»; Г) no article — тут потрібен артикль.\n✅ В) a — a у значенні «за».",
-   "testLevel": 2
-  },
-  {
-   "text": "Tom plays ___ football every weekend.",
-   "options": [
-    "the",
-    "a",
-    "no article",
-    "an"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Play football.\n❌ Хибні: А) the — the не вживається з назвами ігор; Б) a — a не вживається з назвами ігор; Г) an — an не вживається з назвами ігор.\n✅ В) no article — назви ігор — без артикля.",
-   "testLevel": 2
-  },
-  {
-   "text": "Please close ___ door, it's cold.",
-   "options": [
-    "an",
-    "a",
-    "the",
-    "no article"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Конкретні двері — the.\n❌ Хибні: А) an — door починається з приголосного; Б) a — a — один із багатьох дверей; Г) no article — тут потрібен артикль.\n✅ В) the — відомий предмет у кімнаті.",
-   "testLevel": 2
-  },
-  {
-   "text": "___ most of my friends live abroad.",
-   "options": [
-    "An",
-    "A",
-    "The",
-    "no article"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Most of my friends.\n❌ Хибні: А) An — an не вживається перед most of; Б) A — a не вживається перед most of; В) The — the не вживається перед most of.\n✅ Г) no article — most of — без артикля.",
-   "testLevel": 2
-  },
-  {
-   "text": "The woman ___ lives next door is a doctor.",
-   "options": [
-    "whose",
-    "which",
-    "whom",
-    "who"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Для людей — who.\n❌ Хибні: А) whose — whose показує належність; Б) which — which — для речей; В) whom — whom — форма додатка.\n✅ Г) who — who для людей, підмет.",
-   "testLevel": 2
-  },
-  {
-   "text": "This is the book ___ I told you about.",
-   "options": [
-    "whose",
-    "what",
-    "which",
-    "who"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Для речей — which.\n❌ Хибні: А) whose — whose — належність; Б) what — what тут не є відносним словом; Г) who — who — для людей.\n✅ В) which — which — для речей.",
-   "testLevel": 2
-  },
-  {
-   "text": "The man ___ car was stolen called the police.",
-   "options": [
-    "whom",
-    "which",
-    "whose",
-    "who"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Man's car — whose.\n❌ Хибні: А) whom — whom — форма додатка; Б) which — which — для речей; Г) who — who не показує належність.\n✅ В) whose — whose — належність.",
-   "testLevel": 2
-  },
-  {
-   "text": "My brother, ___ lives in Canada, is a pilot.",
-   "options": [
-    "who",
-    "which",
-    "whose",
-    "that"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Після коми — who.\n❌ Хибні: Б) which — which — для речей; В) whose — whose — належність; Г) that — that не вживається в неозначальних реченнях.\n✅ А) who — неозначальне підрядне речення про людину.",
-   "testLevel": 2
-  },
-  {
-   "text": "She was talking to ___ in the corner.",
-   "options": [
-    "anybody",
-    "none",
-    "somebody",
-    "every"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: У ствердженні — somebody.\n❌ Хибні: А) anybody — anybody — у питаннях і запереченнях; Б) none — none не вживається так; Г) every — every не стоїть самостійно.\n✅ В) somebody — ствердження — somebody.",
-   "testLevel": 2
-  },
-  {
-   "text": "I haven't seen ___ today.",
-   "options": [
-    "nobody",
-    "anybody",
-    "somebody",
-    "everybody"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Haven't seen anybody.\n❌ Хибні: А) nobody — nobody дає подвійне заперечення; В) somebody — somebody у запереченні не вживається; Г) everybody — everybody змінює значення.\n✅ Б) anybody — після заперечення — anybody.",
-   "testLevel": 2
-  },
-  {
-   "text": "There isn't ___ at home.",
-   "options": [
-    "someone",
-    "everyone",
-    "anyone",
-    "no one"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Isn't + anyone.\n❌ Хибні: А) someone — someone у запереченні не вживається; Б) everyone — everyone змінює значення; Г) no one — no one дає подвійне заперечення.\n✅ В) anyone — після заперечення — anyone.",
-   "testLevel": 2
-  },
-  {
-   "text": "I like these shoes, but I prefer those red ___.",
-   "options": [
-    "one",
-    "its",
-    "ones",
-    "them"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Ones замінює shoes.\n❌ Хибні: А) one — one — однина; Б) its — its не замінює іменник; Г) them — them без іменника тут не пасує.\n✅ В) ones — one у множині — ones.",
-   "testLevel": 2
-  },
-  {
-   "text": "Both of them ___ my friends.",
-   "options": [
-    "is",
-    "be",
-    "are",
-    "was"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Both + множина.\n❌ Хибні: А) is — both — не однина; Б) be — неправильна форма дієслова; Г) was — both — не однина.\n✅ В) are — both — множина.",
-   "testLevel": 2
-  },
-  {
-   "text": "___ of the students passed the exam — all of them failed.",
-   "options": [
-    "Every",
-    "All",
-    "None",
-    "Both"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: None of the students.\n❌ Хибні: А) Every — every не вживається з of the; Б) All — all суперечить другій частині; Г) Both — both — лише про двох.\n✅ В) None — none = жоден.",
-   "testLevel": 2
-  },
-  {
-   "text": "Every student ___ a textbook.",
-   "options": [
-    "were",
-    "have",
-    "has",
-    "are having"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Every + однина.\n❌ Хибні: А) were — неправильна форма дієслова; Б) have — every не з множиною; Г) are having — неправильна форма дієслова.\n✅ В) has — every + однина.",
-   "testLevel": 2
-  },
-  {
-   "text": "It depends ___ the weather.",
-   "options": [
-    "from",
-    "at",
-    "of",
-    "on"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Depend on.\n❌ Хибні: А) from — from не вживається після depend; Б) at — at не вживається після depend; В) of — of не вживається після depend.\n✅ Г) on — depend on — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "The team consists ___ ten players.",
-   "options": [
-    "with",
-    "from",
-    "of",
-    "in"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Consist of.\n❌ Хибні: А) with — with не вживається після consist; Б) from — from не вживається після consist; Г) in — in змінює значення consist.\n✅ В) of — consist of — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "He succeeded ___ passing the exam.",
-   "options": [
-    "on",
-    "at",
-    "with",
-    "in"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Succeed in + V-ing.\n❌ Хибні: А) on — on не вживається після succeed; Б) at — at не вживається після succeed; В) with — with змінює значення.\n✅ Г) in — succeed in — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "She accused him ___ lying.",
-   "options": [
-    "with",
-    "for",
-    "about",
-    "of"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Accuse of.\n❌ Хибні: А) with — with не вживається після accuse; Б) for — for не вживається після accuse; В) about — about не вживається після accuse.\n✅ Г) of — accuse of — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "I apologised ___ being late.",
-   "options": [
-    "for",
-    "to",
-    "about",
-    "of"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Apologise for.\n❌ Хибні: Б) to — to — для людини, а не причини; В) about — about змінює значення; Г) of — of не вживається після apologise.\n✅ А) for — apologise for — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "Who is responsible ___ this mess?",
-   "options": [
-    "of",
-    "about",
-    "for",
-    "on"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Responsible for.\n❌ Хибні: А) of — of не вживається після responsible; Б) about — about не вживається після responsible; Г) on — on не вживається після responsible.\n✅ В) for — responsible for — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "He is proud ___ his son.",
-   "options": [
-    "about",
-    "of",
-    "for",
-    "with"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Proud of.\n❌ Хибні: А) about — about не вживається після proud; В) for — for не вживається після proud; Г) with — with не вживається після proud.\n✅ Б) of — proud of — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "Please finish the report ___ Friday.",
-   "options": [
-    "since",
-    "during",
-    "until",
-    "by"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Deadline — by.\n❌ Хибні: А) since — since — від моменту; Б) during — during — упродовж періоду; В) until — until — упродовж часу до.\n✅ Г) by — by — не пізніше, ніж.",
-   "testLevel": 2
-  },
-  {
-   "text": "I fell asleep ___ the film.",
-   "options": [
-    "while",
-    "by",
-    "since",
-    "during"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: During + noun.\n❌ Хибні: А) while — while + підмет і присудок; Б) by — by не пасує за змістом; В) since — since не пасує за змістом.\n✅ Г) during — during + іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "We stayed at home ___ the rain.",
-   "options": [
-    "because of",
-    "because",
-    "despite",
-    "although"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Because of the rain.\n❌ Хибні: Б) because — because + підмет і присудок; В) despite — despite змінює значення; Г) although — although виражає протиставлення.\n✅ А) because of — because of + іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "___ the rain, we went out.",
-   "options": [
-    "Despite",
-    "Because",
-    "Although",
-    "Since"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Despite the rain.\n❌ Хибні: Б) Because — because змінює значення; В) Although — although + підмет і присудок; Г) Since — since змінює значення.\n✅ А) Despite — despite + іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "I'm fed up ___ waiting.",
-   "options": [
-    "at",
-    "from",
-    "of",
-    "with"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Fed up with.\n❌ Хибні: А) at — at не вживається після fed up; Б) from — from не вживається після fed up; В) of — of не вживається після fed up.\n✅ Г) with — fed up with — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "She is fond ___ painting.",
-   "options": [
-    "with",
-    "at",
-    "of",
-    "about"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Fond of.\n❌ Хибні: А) with — with не вживається після fond; Б) at — at не вживається після fond; Г) about — about не вживається після fond.\n✅ В) of — fond of — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "He is similar ___ his brother.",
-   "options": [
-    "to",
-    "with",
-    "from",
-    "of"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Similar to.\n❌ Хибні: Б) with — with не вживається після similar; В) from — from — для different; Г) of — of не вживається після similar.\n✅ А) to — similar to — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "I'm worried ___ the exam.",
-   "options": [
-    "on",
-    "from",
-    "of",
-    "about"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Worried about.\n❌ Хибні: А) on — on не вживається після worried; Б) from — from не вживається після worried; В) of — of не вживається після worried.\n✅ Г) about — worried about — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "She has a good command ___ English.",
-   "options": [
-    "of",
-    "at",
-    "in",
-    "on"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Command of.\n❌ Хибні: Б) at — at не вживається після command; В) in — in не вживається після command; Г) on — on не вживається після command.\n✅ А) of — command of — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "The painting is ___ display in the gallery.",
-   "options": [
-    "by",
-    "on",
-    "in",
-    "at"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: On display.\n❌ Хибні: А) by — by display не вживається; В) in — in display не вживається; Г) at — at display не вживається.\n✅ Б) on — on display — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "I know him ___ sight.",
-   "options": [
-    "by",
-    "at",
-    "with",
-    "on"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: By sight.\n❌ Хибні: Б) at — at sight змінює значення; В) with — with sight не вживається; Г) on — on sight змінює значення.\n✅ А) by — by sight — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "The letter was written ___ hand.",
-   "options": [
-    "in",
-    "with",
-    "on",
-    "by"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: By hand.\n❌ Хибні: А) in — in hand змінює значення; Б) with — with hand змінює значення; В) on — on hand змінює значення.\n✅ Г) by — by hand — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "He paid ___ cash.",
-   "options": [
-    "by",
-    "at",
-    "in",
-    "with"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Pay in cash.\n❌ Хибні: А) by — by cash не вживається; Б) at — at cash не вживається; Г) with — with cash змінює значення.\n✅ В) in — in cash — стала сполука.",
-   "testLevel": 2
-  },
-  {
-   "text": "Two hours ___ a long time to wait.",
-   "options": [
-    "were",
-    "are",
-    "have been",
-    "is"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Time/money/distance як ціле — однина.\n❌ Хибні: А) were — two hours розглядають як одну величину; Б) are — two hours розглядають як одну величину; В) have been — неправильна форма дієслова.\n✅ Г) is — проміжок часу як одне ціле.",
-   "testLevel": 3
-  },
-  {
-   "text": "A large number of students ___ absent today.",
-   "options": [
-    "has been",
-    "are",
-    "is",
-    "was"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: A number of — множина.\n❌ Хибні: А) has been — has been — однина; В) is — is — для the number of; Г) was — was не пасує до today.\n✅ Б) are — a number of + множина.",
-   "testLevel": 3
-  },
-  {
-   "text": "The number of cars in the city ___ increasing.",
-   "options": [
-    "are",
-    "is",
-    "were",
-    "have been"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: The number — однина.\n❌ Хибні: А) are — are — для a number of; В) were — were — множина; Г) have been — have been — множина.\n✅ Б) is — the number — однина.",
-   "testLevel": 3
-  },
-  {
-   "text": "Neither the teacher nor the students ___ ready yesterday.",
-   "options": [
-    "was",
-    "is",
-    "has been",
-    "were"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Neither … nor — з ближнім підметом.\n❌ Хибні: А) was — students — множина; Б) is — минулий час потрібен; В) has been — неправильна форма дієслова.\n✅ Г) were — дієслово узгоджується з ближнім підметом.",
-   "testLevel": 3
-  },
-  {
-   "text": "The United Nations ___ founded in 1945.",
-   "options": [
-    "have been",
-    "is",
-    "was",
-    "were"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: The UN — однина.\n❌ Хибні: А) have been — неправильна форма дієслова; Б) is — рік 1945 потребує минулого часу; Г) were — назва організації — не множина.\n✅ В) was — назва організації — однина.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence is correct?",
-   "options": [
-    "Lifes are beautiful.",
-    "A life is beautiful.",
-    "Life is beautiful.",
-    "The life is beautiful."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Generic noun — zero article.\n❌ Хибні: А) Lifes are beautiful. — life у цьому значенні не має множини; Б) A life is beautiful. — life не потребує a у загальному значенні; Г) The life is beautiful. — загальне поняття не потребує the.\n✅ В) Life is beautiful. — загальне поняття — без артикля.",
-   "testLevel": 3
-  },
-  {
-   "text": "___ Mount Everest is the highest mountain in the world.",
-   "options": [
-    "no article",
-    "A",
-    "The",
-    "An"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Mount Everest — без the.\n❌ Хибні: Б) A — a не вживається з назвою гори; В) The — the вживається з хребтами, а не з окремою горою; Г) An — an не вживається з назвою гори.\n✅ А) no article — назви окремих гір — без артикля.",
-   "testLevel": 3
-  },
-  {
-   "text": "We crossed ___ Pacific Ocean last year.",
-   "options": [
-    "an",
-    "a",
-    "no article",
-    "the"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: The Pacific Ocean.\n❌ Хибні: А) an — an не вживається з назвою океану; Б) a — a не вживається з назвою океану; В) no article — назва океану потребує the.\n✅ Г) the — назви океанів — з the.",
-   "testLevel": 3
-  },
-  {
-   "text": "She plays ___ chess very well.",
-   "options": [
-    "no article",
-    "the",
-    "an",
-    "a"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Play chess.\n❌ Хибні: Б) the — the не вживається з назвами ігор; В) an — an не вживається з назвами ігор; Г) a — a не вживається з назвами ігор.\n✅ А) no article — назви ігор — без артикля.",
-   "testLevel": 3
-  },
-  {
-   "text": "It was ___ unforgettable experience.",
-   "options": [
-    "the",
-    "no article",
-    "a",
-    "an"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Unforgettable — an.\n❌ Хибні: А) the — the змінює значення; Б) no article — потрібен неозначений артикль; В) a — a не вживається перед голосним звуком.\n✅ Г) an — unforgettable починається з голосного звука.",
-   "testLevel": 3
-  },
-  {
-   "text": "He is in ___ prison for robbery.",
-   "options": [
-    "a",
-    "the",
-    "an",
-    "no article"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: In prison — відбуває покарання.\n❌ Хибні: А) a — a prison не вживається в цьому значенні; Б) the — in the prison означає будівлю; В) an — an prison неправильна форма.\n✅ Г) no article — in prison — як ув'язнений.",
-   "testLevel": 3
-  },
-  {
-   "text": "I'll see you in ___ morning.",
-   "options": [
-    "a",
-    "no article",
-    "the",
-    "an"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: In the morning.\n❌ Хибні: А) a — a не вживається в цій сполуці; Б) no article — in morning не вживається; Г) an — an не вживається в цій сполуці.\n✅ В) the — in the morning — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "We stayed at ___ hotel near the airport.",
-   "options": [
-    "the",
-    "an",
-    "a",
-    "no article"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Перша згадка — a.\n❌ Хибні: А) the — the потребує відомого готелю; Б) an — hotel починається з приголосного; Г) no article — тут потрібен артикль.\n✅ В) a — готель згадано вперше.",
-   "testLevel": 3
-  },
-  {
-   "text": "Mary and ___ friends came to see me.",
-   "options": [
-    "hers",
-    "she",
-    "her",
-    "herself"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Her friends.\n❌ Хибні: А) hers — hers — самостійний присвійний; Б) she — she — форма підмета; Г) herself — herself — зворотний займенник.\n✅ В) her — присвійний прикметник перед іменником.",
-   "testLevel": 3
-  },
-  {
-   "text": "I have two cousins, but ___ of them lives near me.",
-   "options": [
-    "neither",
-    "none",
-    "every",
-    "all"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Two → neither.\n❌ Хибні: Б) none — none — для трьох і більше; В) every — every не вживається з of them; Г) all — all суперечить змісту.\n✅ А) neither — neither — жоден із двох.",
-   "testLevel": 3
-  },
-  {
-   "text": "There are three exits and you can use ___ of them.",
-   "options": [
-    "any",
-    "both",
-    "either",
-    "neither"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Three → any.\n❌ Хибні: Б) both — both — лише для двох; В) either — either — лише для двох; Г) neither — neither — лише для двох.\n✅ А) any — any — для трьох і більше.",
-   "testLevel": 3
-  },
-  {
-   "text": "___ the story nor the acting was good.",
-   "options": [
-    "Neither",
-    "Either",
-    "Not only",
-    "Both"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Neither … nor.\n❌ Хибні: Б) Either — either потребує or; В) Not only — not only потребує but also; Г) Both — both потребує and.\n✅ А) Neither — neither … nor — ні ... ні.",
-   "testLevel": 3
-  },
-  {
-   "text": "I like ___ tea or coffee. I'm not fussy.",
-   "options": [
-    "neither",
-    "both",
-    "either",
-    "none"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Either … or.\n❌ Хибні: А) neither — neither потребує nor; Б) both — both потребує and; Г) none — none не вживається з or.\n✅ В) either — either … or — той чи інший.",
-   "testLevel": 3
-  },
-  {
-   "text": "The woman to ___ I spoke was very kind.",
-   "options": [
-    "whose",
-    "which",
-    "who",
-    "whom"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Прийменник + whom.\n❌ Хибні: А) whose — whose показує належність; Б) which — which — для речей; В) who — who не вживається після прийменника.\n✅ Г) whom — після прийменника — whom.",
-   "testLevel": 3
-  },
-  {
-   "text": "The people with ___ I work are friendly.",
-   "options": [
-    "that",
-    "whom",
-    "which",
-    "who"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: With whom.\n❌ Хибні: А) that — that не вживається після прийменника; В) which — which — для речей; Г) who — who не вживається після прийменника.\n✅ Б) whom — після прийменника — whom.",
-   "testLevel": 3
-  },
-  {
-   "text": "I know the reason ___ he left.",
-   "options": [
-    "when",
-    "which",
-    "why",
-    "where"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: The reason why.\n❌ Хибні: А) when — when — для часу; Б) which — which не пасує без прийменника; Г) where — where — для місця.\n✅ В) why — the reason why.",
-   "testLevel": 3
-  },
-  {
-   "text": "She hurt ___ while she was cooking.",
-   "options": [
-    "hers",
-    "she",
-    "herself",
-    "her"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Hurt herself.\n❌ Хибні: А) hers — hers — самостійний присвійний; Б) she — she — форма підмета; Г) her — her не позначає ту саму особу.\n✅ В) herself — підмет і додаток — одна особа.",
-   "testLevel": 3
-  },
-  {
-   "text": "He is a friend of ___.",
-   "options": [
-    "me",
-    "mine",
-    "my",
-    "myself"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Friend of mine.\n❌ Хибні: А) me — me не вживається після of; В) my — my не вживається після of; Г) myself — myself тут зайвий.\n✅ Б) mine — a friend of mine — подвійний присвійний.",
-   "testLevel": 3
-  },
-  {
-   "text": "The cat washed ___.",
-   "options": [
-    "himself",
-    "itself",
-    "it",
-    "its"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Washed itself.\n❌ Хибні: А) himself — himself — для чоловіка; В) it — it не позначає ту саму особу; Г) its — its — присвійний.\n✅ Б) itself — підмет — неживий займенник або тварина.",
-   "testLevel": 3
-  },
-  {
-   "text": "He did it all by ___.",
-   "options": [
-    "him",
-    "he",
-    "himself",
-    "his"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: By himself.\n❌ Хибні: А) him — him не вживається після by; Б) he — he — форма підмета; Г) his — his — присвійний.\n✅ В) himself — by himself — самостійно.",
-   "testLevel": 3
-  },
-  {
-   "text": "Tom and Ann are doctors; ___ works in Lviv and the latter in Kyiv.",
-   "options": [
-    "the first one",
-    "the former",
-    "former one",
-    "one former"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Former / latter.\n❌ Хибні: А) the first one — such order не вживається; В) former one — неправильний порядок слів; Г) one former — неправильна форма дієслова.\n✅ Б) the former — the former — перший із двох.",
-   "testLevel": 3
-  },
-  {
-   "text": "She is capable ___ solving the problem.",
-   "options": [
-    "at",
-    "for",
-    "to",
-    "of"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Capable of.\n❌ Хибні: А) at — at не вживається після capable; Б) for — for не вживається після capable; В) to — to не вживається після capable.\n✅ Г) of — capable of — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "He was deprived ___ his rights.",
-   "options": [
-    "of",
-    "for",
-    "from",
-    "with"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Deprive of.\n❌ Хибні: Б) for — for не вживається після deprive; В) from — from не вживається після deprive; Г) with — with не вживається після deprive.\n✅ А) of — deprive of — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "I'm not used ___ getting up early.",
-   "options": [
-    "with",
-    "to",
-    "at",
-    "for"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Be used to.\n❌ Хибні: А) with — with не вживається після used; В) at — at не вживається після used; Г) for — for не вживається після used.\n✅ Б) to — be used to + V-ing.",
-   "testLevel": 3
-  },
-  {
-   "text": "He prefers walking ___ driving.",
-   "options": [
-    "over",
-    "to",
-    "than",
-    "from"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Prefer X to Y.\n❌ Хибні: А) over — over змінює значення; В) than — than не вживається після prefer; Г) from — from не вживається після prefer.\n✅ Б) to — prefer … to ….",
-   "testLevel": 3
-  },
-  {
-   "text": "We congratulated him ___ his success.",
-   "options": [
-    "on",
-    "for",
-    "about",
-    "with"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Congratulate on.\n❌ Хибні: Б) for — for не вживається після congratulate; В) about — about не вживається після congratulate; Г) with — with не вживається після congratulate.\n✅ А) on — congratulate on — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "She insisted ___ paying for the meal.",
-   "options": [
-    "in",
-    "for",
-    "on",
-    "at"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Insist on.\n❌ Хибні: А) in — in не вживається після insist; Б) for — for не вживається після insist; Г) at — at не вживається після insist.\n✅ В) on — insist on — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "He is allergic ___ cats.",
-   "options": [
-    "of",
-    "to",
-    "from",
-    "at"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Allergic to.\n❌ Хибні: А) of — of не вживається після allergic; В) from — from не вживається після allergic; Г) at — at не вживається після allergic.\n✅ Б) to — allergic to — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "The company is run ___ a young manager.",
-   "options": [
-    "from",
-    "through",
-    "with",
-    "by"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Passive agent — by.\n❌ Хибні: А) from — from не вживається в Passive; Б) through — through змінює значення; В) with — with — для інструмента.\n✅ Г) by — виконавець у пасиві — by.",
-   "testLevel": 3
-  },
-  {
-   "text": "I am writing ___ behalf of my team.",
-   "options": [
-    "by",
-    "on",
-    "in",
-    "at"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: On behalf of.\n❌ Хибні: А) by — by не вживається в цій сполуці; В) in — in behalf of рідко вживається; Г) at — at не вживається в цій сполуці.\n✅ Б) on — on behalf of — від імені.",
-   "testLevel": 3
-  },
-  {
-   "text": "She is ___ charge of the project.",
-   "options": [
-    "at",
-    "by",
-    "in",
-    "on"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: In charge of.\n❌ Хибні: А) at — at charge не вживається; Б) by — by charge не вживається; Г) on — on charge — «за обвинуваченням».\n✅ В) in — in charge of — відповідальна за.",
-   "testLevel": 3
-  },
-  {
-   "text": "We solved the problem ___ means of a computer.",
-   "options": [
-    "on",
-    "with",
-    "in",
-    "by"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: By means of.\n❌ Хибні: А) on — on means не вживається; Б) with — with means не вживається; В) in — in means не вживається.\n✅ Г) by — by means of — за допомогою.",
-   "testLevel": 3
-  },
-  {
-   "text": "She reached the top ___ the expense of her health.",
-   "options": [
-    "at",
-    "on",
-    "for",
-    "by"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: At the expense of.\n❌ Хибні: Б) on — on the expense не вживається; В) for — for the expense не вживається; Г) by — by the expense не вживається.\n✅ А) at — at the expense of — коштом.",
-   "testLevel": 3
-  },
-  {
-   "text": "Apart ___ him, nobody came.",
-   "options": [
-    "of",
-    "from",
-    "to",
-    "with"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Apart from.\n❌ Хибні: А) of — of не вживається після apart; В) to — to не вживається після apart; Г) with — with не вживається після apart.\n✅ Б) from — apart from — крім.",
-   "testLevel": 3
-  },
-  {
-   "text": "We must leave by 8 o'clock ___ the latest.",
-   "options": [
-    "in",
-    "by",
-    "on",
-    "at"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: At the latest.\n❌ Хибні: А) in — in the latest не вживається; Б) by — by the latest не вживається; В) on — on the latest не вживається.\n✅ Г) at — at the latest — найпізніше.",
-   "testLevel": 3
-  },
-  {
-   "text": "He was late ___ the heavy traffic.",
-   "options": [
-    "since",
-    "owing to",
-    "due",
-    "because"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Owing to the traffic.\n❌ Хибні: А) since — since + підмет і присудок; В) due — due не вживається без to; Г) because — because + підмет і присудок.\n✅ Б) owing to — owing to + іменник.",
-   "testLevel": 3
-  },
-  {
-   "text": "She was dressed ___ black.",
-   "options": [
-    "in",
-    "by",
-    "on",
-    "with"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Dressed in black.\n❌ Хибні: Б) by — by не вживається з кольором одягу; В) on — on не вживається з кольором одягу; Г) with — with не вживається з кольором одягу.\n✅ А) in — dressed in + колір.",
-   "testLevel": 3
-  },
-  {
-   "text": "I got to know her ___ chance.",
-   "options": [
-    "with",
-    "by",
-    "on",
-    "at"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: By chance.\n❌ Хибні: А) with — with chance не вживається; В) on — on chance не вживається; Г) at — at chance не вживається.\n✅ Б) by — by chance — випадково.",
-   "testLevel": 3
-  },
-  {
-   "text": "Prices have gone up ___ 10%.",
-   "options": [
-    "by",
-    "with",
-    "in",
-    "for"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Up by 10%.\n❌ Хибні: Б) with — with не вживається для зміни; В) in — in не вживається для величини зміни; Г) for — for не вживається для величини зміни.\n✅ А) by — by + величина зміни.",
-   "testLevel": 3
-  },
-  {
-   "text": "She was filled ___ joy.",
-   "options": [
-    "of",
-    "by",
-    "from",
-    "with"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Filled with.\n❌ Хибні: А) of — of не вживається після filled; Б) by — by не вживається після filled; В) from — from не вживається після filled.\n✅ Г) with — filled with — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "He is engaged ___ writing a book.",
-   "options": [
-    "at",
-    "in",
-    "for",
-    "on"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Engaged in.\n❌ Хибні: А) at — at не вживається після engaged; В) for — for не вживається після engaged; Г) on — on не вживається після engaged.\n✅ Б) in — engaged in — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "He is addicted ___ computer games.",
-   "options": [
-    "on",
-    "of",
-    "with",
-    "to"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Addicted to.\n❌ Хибні: А) on — on не вживається після addicted; Б) of — of не вживається після addicted; В) with — with не вживається після addicted.\n✅ Г) to — addicted to — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "The cause ___ the fire is unknown.",
-   "options": [
-    "to",
-    "from",
-    "of",
-    "for"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Cause of.\n❌ Хибні: А) to — to не вживається після cause; Б) from — from не вживається після cause; Г) for — for не вживається після cause.\n✅ В) of — cause of — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "There is no point ___ arguing.",
-   "options": [
-    "for",
-    "of",
-    "in",
-    "at"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: No point in.\n❌ Хибні: А) for — for не вживається після point; Б) of — of не вживається після point; Г) at — at не вживається після point.\n✅ В) in — no point in + V-ing.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence about a city contains a mistake?",
-   "options": [
-    "I have a lot of information about this city.",
-    "I have some information about this city.",
-    "I have many informations about this city.",
-    "I have little information about this city."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Information не має множини.\n❌ Хибні: А) I have a lot of information about this city. — це правильне речення; Б) I have some information about this city. — це правильне речення; Г) I have little information about this city. — це правильне речення.\n✅ В) I have many informations about this city. — information — незлічуваний.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence about help from a friend contains a mistake?",
-   "options": [
-    "She gave me a piece of advice.",
-    "She gave me no advice.",
-    "She gave me an advice.",
-    "She gave me some advice."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Advice не має a/an.\n❌ Хибні: А) She gave me a piece of advice. — це правильне речення; Б) She gave me no advice. — це правильне речення; Г) She gave me some advice. — це правильне речення.\n✅ В) She gave me an advice. — advice — незлічуваний.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence is grammatically correct?",
-   "options": [
-    "The childs toys are on the floor.",
-    "The children's toys are on the floor.",
-    "The childrens' toys are on the floor.",
-    "The childrens toys are on the floor."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Children's — з 's.\n❌ Хибні: А) The childs toys are on the floor. — помилкова форма множини; В) The childrens' toys are on the floor. — подвійна помилка в присвійному відмінку; Г) The childrens toys are on the floor. — бракує апострофа у конструкції.\n✅ Б) The children's toys are on the floor. — присвійний відмінок нерегулярної множини.",
-   "testLevel": 3
-  }
- ],
- "cards": [
-  {
-   "question": "Множина іменників",
-   "answer": "Звичайна: -s/-es (book — books, box — boxes); -y → -ies (city — cities); -f/-fe → -ves (knife — knives, loaf — loaves)."
-  },
-  {
-   "question": "Нерегулярна множина",
-   "answer": "man — men, woman — women, child — children, foot — feet, tooth — teeth, mouse — mice, person — people; sheep, fish, deer — без змін."
-  },
-  {
-   "question": "Незлічувані іменники",
-   "answer": "advice, information, news, money, furniture, luggage, bread, water, homework — без -s і без a/an: some advice, a piece of advice."
-  },
-  {
-   "question": "much / many / a lot of",
-   "answer": "many + злічувані (many books); much + незлічувані (much water) — в питаннях і запереченнях; a lot of — у стверджувальних."
-  },
-  {
-   "question": "few / a few / little / a little",
-   "answer": "few/a few — злічувані; little/a little — незлічувані. A few = кілька (позитивно), few = майже немає (негативно)."
-  },
-  {
-   "question": "some / any / no",
-   "answer": "some — у ствердженнях і пропозиціях; any — у питаннях і запереченнях; no = not any (без додаткового not)."
-  },
-  {
-   "question": "Артиклі a / an",
-   "answer": "a перед приголосним звуком (a book, a university /juː/), an перед голосним звуком (an apple, an hour, an MP)."
-  },
-  {
-   "question": "Артикль the",
-   "answer": "Конкретний/відомий предмет, єдиний у своєму роді (the sun), найвищий ступінь (the best), the + прикметник (the rich), the Nile, the Alps, the UK."
-  },
-  {
-   "question": "Нульовий артикль",
-   "answer": "Мови й країни (English, France), назви трапез (have breakfast), види спорту (play football), school/bed/work у загальному значенні (go to school), Mount Everest."
-  },
-  {
-   "question": "Особові займенники",
-   "answer": "Підмет: I, you, he, she, it, we, they; додаток: me, you, him, her, it, us, them."
-  },
-  {
-   "question": "Присвійні займенники",
-   "answer": "Прикметникові: my, your, his, her, its, our, their (перед іменником); самостійні: mine, yours, his, hers, ours, theirs."
-  },
-  {
-   "question": "Зворотні займенники",
-   "answer": "myself, yourself, himself, herself, itself, ourselves, yourselves, themselves: I cut myself. Також наголос: I did it myself."
-  },
-  {
-   "question": "Питальні слова Whose / Who",
-   "answer": "Whose — чий (Whose book is this?); who — хто; whom — кого; which — який з обмеженого вибору."
-  },
-  {
-   "question": "Неозначені займенники",
-   "answer": "something, anything, nothing, everything; somebody/someone, anybody/anyone, nobody; з not — anything/anybody, а не nothing/nobody."
-  },
-  {
-   "question": "Прийменники часу",
-   "answer": "in + місяць/рік/пора доби (in May, in 1998, in the morning); on + день/дата (on Monday); at + година/at night (at 5 o'clock); for + тривалість; since + момент."
-  },
-  {
-   "question": "Прийменники місця",
-   "answer": "in (всередині), on (на поверхні), at (точка: at the station), under, behind, between (двох), among (багатьох), next to, opposite."
-  },
-  {
-   "question": "Прийменники руху",
-   "answer": "to (до), from, into, out of, through (крізь), across (через), along (вздовж), over, up, down."
-  },
-  {
-   "question": "Спосіб пересування",
-   "answer": "by bus/car/train/plane; on foot; але in a car, on a bus."
-  },
-  {
-   "question": "Дієслова + прийменники",
-   "answer": "listen to, look for, look at, wait for, thank for, depend on, belong to, ask for, laugh at."
-  },
-  {
-   "question": "Прикметники + прийменники",
-   "answer": "good at, interested in, afraid of, proud of, fond of, worried about, married to, different from, similar to, responsible for."
-  },
-  {
-   "question": "Despite / in spite of",
-   "answer": "Despite/in spite of + іменник чи V-ing: Despite the rain, we went out (не despite of)."
-  },
-  {
-   "question": "Присвійний відмінок 's",
-   "answer": "Однина: the boy's book; множина на -s: the boys' books; нерегулярна: the children's toys."
-  },
-  {
-   "question": "Узгодження: news, police",
-   "answer": "The news is bad (однина); the police are (множина); mathematics, physics — однина; people, cattle — множина."
-  },
-  {
-   "question": "Both / either / neither",
-   "answer": "Both — обидва (+ множина); either — будь-який з двох; neither — жоден з двох (+ однина): Neither of them is here."
-  }
- ]
+  "subject": "ENGLISH",
+  "topic": "Grammar: Nouns, Pronouns, Prepositions & Articles",
+  "questions": [
+    {
+      "text": "There are three ___ in the room.",
+      "options": [
+        "childs",
+        "childrens",
+        "child",
+        "children"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Child — children.\n❌ Хибні: А) childs — помилкова регулярна форма; Б) childrens — подвійне закінчення множини; В) child — однина не пасує до three.\n✅ Г) children — нерегулярна множина від child.",
+      "testLevel": 1
+    },
+    {
+      "text": "She bought two ___ of bread.",
+      "options": [
+        "loaves",
+        "loafs",
+        "loaf",
+        "breads"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Loaf — loaves.\n❌ Хибні: Б) loafs — помилкова регулярна форма; В) loaf — однина не пасує до two; Г) breads — bread зазвичай незлічуваний.\n✅ А) loaves — множина від loaf: -f → -ves.",
+      "testLevel": 1
+    },
+    {
+      "text": "Can you give me some ___?",
+      "options": [
+        "advise",
+        "advice",
+        "an advice",
+        "advices"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Advice — незлічуваний.\n❌ Хибні: А) advise — це дієслово, не іменник; В) an advice — перед advice немає a/an; Г) advices — advice не має множини.\n✅ Б) advice — незлічуваний іменник без -s.",
+      "testLevel": 1
+    },
+    {
+      "text": "How ___ water do you drink a day?",
+      "options": [
+        "much",
+        "many",
+        "few",
+        "a few"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Water — незлічуваний, тому much.\n❌ Хибні: Б) many — many — для злічуваних; В) few — few — для злічуваних; Г) a few — a few — для злічуваних.\n✅ А) much — water — незлічуваний іменник.",
+      "testLevel": 1
+    },
+    {
+      "text": "How ___ students are there in your class?",
+      "options": [
+        "much",
+        "little",
+        "a little",
+        "many"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Students можна порахувати — many.\n❌ Хибні: А) much — much — для незлічуваних; Б) little — little — для незлічуваних; В) a little — a little — для незлічуваних.\n✅ Г) many — students — злічуваний іменник.",
+      "testLevel": 1
+    },
+    {
+      "text": "There isn't ___ milk in the fridge.",
+      "options": [
+        "few",
+        "a few",
+        "much",
+        "many"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Milk — незлічуваний, у запереченні much.\n❌ Хибні: А) few — few — для злічуваних; Б) a few — a few — для злічуваних; Г) many — many — для злічуваних.\n✅ В) much — milk — незлічуваний іменник.",
+      "testLevel": 1
+    },
+    {
+      "text": "I have ___ friends in this city.",
+      "options": [
+        "a little",
+        "little",
+        "much",
+        "a few"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Friends — злічуваний, тому a few.\n❌ Хибні: А) a little — a little — для незлічуваних; Б) little — little — для незлічуваних; В) much — much — для незлічуваних.\n✅ Г) a few — friends — злічуваний іменник.",
+      "testLevel": 1
+    },
+    {
+      "text": "There are two ___ in the kitchen.",
+      "options": [
+        "mices",
+        "mice",
+        "mouse",
+        "mouses"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Mouse — mice.\n❌ Хибні: А) mices — подвійне закінчення множини; В) mouse — однина не пасує до two; Г) mouses — помилкова регулярна форма.\n✅ Б) mice — нерегулярна множина від mouse.",
+      "testLevel": 1
+    },
+    {
+      "text": "Three ___ are waiting outside.",
+      "options": [
+        "women",
+        "womens",
+        "womans",
+        "woman"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Woman — women.\n❌ Хибні: Б) womens — помилкове закінчення множини; В) womans — помилкова регулярна форма; Г) woman — однина не пасує до three.\n✅ А) women — нерегулярна множина від woman.",
+      "testLevel": 1
+    },
+    {
+      "text": "Put the ___ on the table.",
+      "options": [
+        "knifes",
+        "knives",
+        "knife",
+        "knive"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Knife — knives.\n❌ Хибні: А) knifes — помилкова регулярна форма; В) knife — однина не пасує до the ... on; Г) knive — неіснуюча форма слова.\n✅ Б) knives — множина від knife: -fe → -ves.",
+      "testLevel": 1
+    },
+    {
+      "text": "My brother is ___ engineer.",
+      "options": [
+        "no article",
+        "a",
+        "the",
+        "an"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Engineer — голосний звук, тому an.\n❌ Хибні: А) no article — перед професією потрібен артикль; Б) a — a не вживається перед голосним звуком; В) the — артикль the тут не потрібен.\n✅ Г) an — engineer починається з голосного звука.",
+      "testLevel": 1
+    },
+    {
+      "text": "He is ___ honest man.",
+      "options": [
+        "no article",
+        "an",
+        "the",
+        "a"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Honest — звук /ɒ/, тому an.\n❌ Хибні: А) no article — перед man потрібен артикль; В) the — артикль the тут не потрібен; Г) a — a не вживається перед голосним звуком.\n✅ Б) an — h не вимовляється, слово починається з голосного звука.",
+      "testLevel": 1
+    },
+    {
+      "text": "I saw ___ elephant at the zoo.",
+      "options": [
+        "the",
+        "a",
+        "no article",
+        "an"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Elephant — an.\n❌ Хибні: А) the — слон ще не згадувався; Б) a — a не вживається перед голосним звуком; В) no article — перед злічуваним іменником потрібен артикль.\n✅ Г) an — elephant починається з голосного звука.",
+      "testLevel": 1
+    },
+    {
+      "text": "___ moon goes round the Earth.",
+      "options": [
+        "A",
+        "no article",
+        "The",
+        "An"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Moon, sun, Earth — the.\n❌ Хибні: А) A — про Moon не можна сказати «один із багатьох»; Б) no article — the потрібен для унікальних об'єктів; Г) An — moon не починається з голосного звука.\n✅ В) The — Moon — єдиний у своєму роді.",
+      "testLevel": 1
+    },
+    {
+      "text": "My mother is ___ teacher.",
+      "options": [
+        "the",
+        "an",
+        "no article",
+        "a"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Teacher — a.\n❌ Хибні: А) the — артикль the тут не потрібен; Б) an — an не вживається перед приголосним звуком; В) no article — перед професією потрібен артикль.\n✅ Г) a — teacher починається з приголосного звука.",
+      "testLevel": 1
+    },
+    {
+      "text": "She plays ___ piano very well.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Play the + інструмент.\n❌ Хибні: А) a — a для інструментів не вживається; В) an — an не вживається перед приголосним звуком; Г) no article — перед інструментом потрібен the.\n✅ Б) the — перед музичним інструментом вживаємо the.",
+      "testLevel": 1
+    },
+    {
+      "text": "I usually have ___ breakfast at 8 o'clock.",
+      "options": [
+        "the",
+        "an",
+        "a",
+        "no article"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Have breakfast — нульовий артикль.\n❌ Хибні: А) the — the не потрібен перед breakfast; Б) an — an не потрібен перед breakfast; В) a — a не потрібен перед breakfast.\n✅ Г) no article — назви трапез — без артикля.",
+      "testLevel": 1
+    },
+    {
+      "text": "He goes to ___ school by bus.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "no article"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Go to school — загалом.\n❌ Хибні: А) the — the змінює значення на конкретну будівлю; Б) a — a тут не потрібен; В) an — an тут не потрібен.\n✅ Г) no article — школа як установа — без артикля.",
+      "testLevel": 1
+    },
+    {
+      "text": "___ Nile is the longest river in Africa.",
+      "options": [
+        "The",
+        "no article",
+        "A",
+        "An"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: The + назва ріки.\n❌ Хибні: Б) no article — назва ріки потребує the; В) A — a не вживається з назвою ріки; Г) An — an не вживається з назвою ріки.\n✅ А) The — назви рік вживаються з the.",
+      "testLevel": 1
+    },
+    {
+      "text": "I'd like ___ glass of water.",
+      "options": [
+        "a",
+        "many",
+        "an",
+        "few"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: A glass of water.\n❌ Хибні: Б) many — many не вживається з однинною формою; В) an — glass не починається з голосного звука; Г) few — few не вживається з однинною формою.\n✅ А) a — glass — злічуваний, починається з приголосного.",
+      "testLevel": 1
+    },
+    {
+      "text": "Anna is my sister. ___ is a doctor.",
+      "options": [
+        "Her",
+        "Hers",
+        "Herself",
+        "She"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Підмет — she.\n❌ Хибні: А) Her — her — форма додатка; Б) Hers — hers — самостійний присвійний; В) Herself — herself — зворотний займенник.\n✅ Г) She — підмет речення — особовий займенник.",
+      "testLevel": 1
+    },
+    {
+      "text": "Give the book to ___.",
+      "options": [
+        "him",
+        "he",
+        "himself",
+        "his"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Після to — him.\n❌ Хибні: Б) he — he — форма підмета; В) himself — himself — зворотний займенник; Г) his — his — присвійний займенник.\n✅ А) him — після прийменника — форма додатка.",
+      "testLevel": 1
+    },
+    {
+      "text": "This is not my book. It's ___.",
+      "options": [
+        "himself",
+        "he",
+        "him",
+        "his"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: It's his — це його.\n❌ Хибні: А) himself — himself — зворотний займенник; Б) he — he — форма підмета; В) him — him — форма додатка.\n✅ Г) his — самостійний присвійний займенник.",
+      "testLevel": 1
+    },
+    {
+      "text": "She cut ___ with a knife.",
+      "options": [
+        "her",
+        "herself",
+        "she",
+        "hers"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Cut herself — вона порізала себе.\n❌ Хибні: А) her — her не позначає ту саму особу; В) she — she — форма підмета; Г) hers — hers — самостійний присвійний.\n✅ Б) herself — підмет і додаток — одна особа.",
+      "testLevel": 1
+    },
+    {
+      "text": "I can do it ___.",
+      "options": [
+        "mine",
+        "myself",
+        "my",
+        "me"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Do it myself — сам.\n❌ Хибні: А) mine — mine — самостійний присвійний; В) my — my — прикметниковий присвійний; Г) me — me — форма додатка.\n✅ Б) myself — наголос: я зробив це сам.",
+      "testLevel": 1
+    },
+    {
+      "text": "Whose book is this? It's ___.",
+      "options": [
+        "I",
+        "my",
+        "me",
+        "mine"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Mine замінює my book.\n❌ Хибні: А) I — I — форма підмета; Б) my — my потребує іменника після себе; В) me — me — форма додатка.\n✅ Г) mine — самостійний присвійний займенник.",
+      "testLevel": 1
+    },
+    {
+      "text": "___ car is that?",
+      "options": [
+        "Which",
+        "Who's",
+        "Who",
+        "Whose"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Whose = чий.\n❌ Хибні: А) Which — which питає про вибір із групи; Б) Who's — who's — скорочення who is; В) Who — who питає про особу, а не про належність.\n✅ Г) Whose — питає про належність (чий).",
+      "testLevel": 1
+    },
+    {
+      "text": "Is there ___ milk in the fridge?",
+      "options": [
+        "any",
+        "no",
+        "every",
+        "some"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Питання — any.\n❌ Хибні: Б) no — no не вживається в питанні; В) every — every не пасує до незлічуваного milk; Г) some — some зазвичай у ствердженнях.\n✅ А) any — у питаннях вживаємо any.",
+      "testLevel": 1
+    },
+    {
+      "text": "Would you like ___ tea?",
+      "options": [
+        "none",
+        "no",
+        "any",
+        "some"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Пропозиція — some.\n❌ Хибні: А) none — none не стоїть перед іменником; Б) no — no не вживається в пропозиціях; В) any — any не вживається в пропозиціях.\n✅ Г) some — some у пропозиціях.",
+      "testLevel": 1
+    },
+    {
+      "text": "I don't have ___ money.",
+      "options": [
+        "some",
+        "no",
+        "any",
+        "none"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Don't have any — немає.\n❌ Хибні: А) some — some у запереченні не вживається; Б) no — no дає подвійне заперечення; Г) none — none не стоїть перед іменником.\n✅ В) any — після заперечення — any.",
+      "testLevel": 1
+    },
+    {
+      "text": "I was born ___ 1998.",
+      "options": [
+        "in",
+        "on",
+        "by",
+        "at"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Рік — in.\n❌ Хибні: Б) on — on — для днів і дат; В) by — by — до певного моменту; Г) at — at — для точного часу.\n✅ А) in — перед роком вживаємо in.",
+      "testLevel": 1
+    },
+    {
+      "text": "The meeting is ___ Monday.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: День тижня — on.\n❌ Хибні: А) in — in — для місяців і років; Б) at — at — для точного часу; Г) by — by — до певного моменту.\n✅ В) on — перед днем тижня вживаємо on.",
+      "testLevel": 1
+    },
+    {
+      "text": "We meet ___ 5 o'clock.",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Година — at.\n❌ Хибні: Б) in — in — для місяців і років; В) on — on — для днів; Г) by — by — до певного моменту.\n✅ А) at — перед точним часом вживаємо at.",
+      "testLevel": 1
+    },
+    {
+      "text": "She lives ___ Kyiv.",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Місто — in.\n❌ Хибні: Б) on — on — для поверхні; В) at — at — для точки або адреси; Г) to — to — напрямок руху.\n✅ А) in — перед назвою міста вживаємо in.",
+      "testLevel": 1
+    },
+    {
+      "text": "He is good ___ maths.",
+      "options": [
+        "on",
+        "in",
+        "with",
+        "at"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Good at.\n❌ Хибні: А) on — on не використовується після good; Б) in — in не використовується після good; В) with — with змінює значення.\n✅ Г) at — good at — стала сполука.",
+      "testLevel": 1
+    },
+    {
+      "text": "I'm interested ___ music.",
+      "options": [
+        "at",
+        "on",
+        "about",
+        "in"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Interested in.\n❌ Хибні: А) at — at не використовується після interested; Б) on — on не використовується після interested; В) about — about не пасує до interested.\n✅ Г) in — interested in — стала сполука.",
+      "testLevel": 1
+    },
+    {
+      "text": "She is afraid ___ spiders.",
+      "options": [
+        "from",
+        "about",
+        "at",
+        "of"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Afraid of.\n❌ Хибні: А) from — from не пасує до afraid; Б) about — about змінює значення; В) at — at не використовується після afraid.\n✅ Г) of — afraid of — стала сполука.",
+      "testLevel": 1
+    },
+    {
+      "text": "We arrived ___ the airport at noon.",
+      "options": [
+        "at",
+        "to",
+        "on",
+        "in"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Arrive at the airport.\n❌ Хибні: Б) to — arrive to не вживається; В) on — on не пасує до arrive; Г) in — arrive in — для міст і країн.\n✅ А) at — arrive at — маленькі місця, пункти.",
+      "testLevel": 1
+    },
+    {
+      "text": "The book is ___ the table.",
+      "options": [
+        "in",
+        "at",
+        "to",
+        "on"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: На столі — on.\n❌ Хибні: А) in — in — всередині; Б) at — at — точка; В) to — to — напрямок.\n✅ Г) on — on — на поверхні.",
+      "testLevel": 1
+    },
+    {
+      "text": "The cat is hiding ___ the box, so we can't see it.",
+      "options": [
+        "by",
+        "in",
+        "on",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Усередині коробки — in.\n❌ Хибні: А) by — by — поруч; В) on — on — на поверхні; Г) at — at — точка.\n✅ Б) in — in — всередині.",
+      "testLevel": 1
+    },
+    {
+      "text": "I go to school ___ bus.",
+      "options": [
+        "with",
+        "by",
+        "at",
+        "on"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: By bus.\n❌ Хибні: А) with — with не вживається з транспортом; В) at — at не вживається з транспортом; Г) on — on — для on foot або on the bus.\n✅ Б) by — by + вид транспорту.",
+      "testLevel": 1
+    },
+    {
+      "text": "Thank you ___ your help.",
+      "options": [
+        "with",
+        "to",
+        "of",
+        "for"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Thank for.\n❌ Хибні: А) with — with не пасує після thank you; Б) to — to не пасує після thank you; В) of — of не пасує після thank you.\n✅ Г) for — thank you for — стала сполука.",
+      "testLevel": 1
+    },
+    {
+      "text": "She is married ___ a doctor.",
+      "options": [
+        "for",
+        "with",
+        "to",
+        "by"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Married to.\n❌ Хибні: А) for — for не вживається після married; Б) with — with не вживається після married; Г) by — by не вживається після married.\n✅ В) to — married to — стала сполука.",
+      "testLevel": 1
+    },
+    {
+      "text": "He listens ___ music every evening.",
+      "options": [
+        "to",
+        "of",
+        "at",
+        "for"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Listen to.\n❌ Хибні: Б) of — of не пасує до listen; В) at — at не пасує до listen; Г) for — for не пасує до listen.\n✅ А) to — listen to — стала сполука.",
+      "testLevel": 1
+    },
+    {
+      "text": "I'm looking ___ my keys.",
+      "options": [
+        "after",
+        "on",
+        "at",
+        "for"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Look for = шукати.\n❌ Хибні: А) after — look after — доглядати; Б) on — on не пасує в цьому значенні; В) at — look at — дивитись.\n✅ Г) for — look for — шукати.",
+      "testLevel": 1
+    },
+    {
+      "text": "We're going ___ holiday next week.",
+      "options": [
+        "on",
+        "for",
+        "in",
+        "at"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: On holiday.\n❌ Хибні: Б) for — for holiday змінює значення; В) in — in holiday не вживається; Г) at — at holiday не вживається.\n✅ А) on — on holiday — стала сполука.",
+      "testLevel": 1
+    },
+    {
+      "text": "He has lived here ___ 2010.",
+      "options": [
+        "since",
+        "in",
+        "for",
+        "from"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: 2010 — момент, тому since.\n❌ Хибні: Б) in — in не пасує до Present Perfect; В) for — for + тривалість; Г) from — from не вживається з Present Perfect.\n✅ А) since — since + момент у минулому.",
+      "testLevel": 1
+    },
+    {
+      "text": "She has lived here ___ five years.",
+      "options": [
+        "for",
+        "during",
+        "since",
+        "from"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Five years — for.\n❌ Хибні: Б) during — during не пасує до Present Perfect; В) since — since + момент у минулому; Г) from — from не вживається з Present Perfect.\n✅ А) for — for + тривалість.",
+      "testLevel": 1
+    },
+    {
+      "text": "The train goes ___ the tunnel.",
+      "options": [
+        "over",
+        "across",
+        "along",
+        "through"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Тунель — through.\n❌ Хибні: А) over — over — зверху; Б) across — across — через поверхню; В) along — along — вздовж.\n✅ Г) through — through — крізь.",
+      "testLevel": 1
+    },
+    {
+      "text": "She sat ___ Tom and Ann.",
+      "options": [
+        "across",
+        "between",
+        "among",
+        "behind"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Між двома — between.\n❌ Хибні: А) across — across — навпроти; В) among — among — між кількома; Г) behind — behind — позаду.\n✅ Б) between — between — між двома.",
+      "testLevel": 1
+    },
+    {
+      "text": "The police ___ looking for the thief.",
+      "options": [
+        "is",
+        "are",
+        "was",
+        "has"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Police — завжди множина.\n❌ Хибні: А) is — police не вживається як однина; В) was — police тут множина; Г) has — неправильна форма після looking.\n✅ Б) are — police вживається як множина.",
+      "testLevel": 2
+    },
+    {
+      "text": "The news ___ shocking.",
+      "options": [
+        "have",
+        "were",
+        "are",
+        "is"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: News — однина.\n❌ Хибні: А) have — неправильна форма дієслова; Б) were — news не є множиною; В) are — news не є множиною.\n✅ Г) is — news — незлічуваний, однина.",
+      "testLevel": 2
+    },
+    {
+      "text": "Mathematics ___ my favourite subject.",
+      "options": [
+        "is",
+        "have been",
+        "were",
+        "are"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Mathematics, physics — однина.\n❌ Хибні: Б) have been — неправильна форма дієслова; В) were — mathematics не множина; Г) are — mathematics не множина.\n✅ А) is — назви наук на -ics — однина.",
+      "testLevel": 2
+    },
+    {
+      "text": "Let me give you a useful piece of ___.",
+      "options": [
+        "information",
+        "an information",
+        "informations",
+        "informing"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Information — незлічуваний.\n❌ Хибні: Б) an information — перед information немає a/an; В) informations — information не має множини; Г) informing — це дієслово в -ing.\n✅ А) information — це незлічуваний іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "The ___ in the mountains is breathtaking.",
+      "options": [
+        "scenery",
+        "a scenery",
+        "sceneries",
+        "sceneryes"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Scenery — незлічуваний.\n❌ Хибні: Б) a scenery — перед scenery немає a/an; В) sceneries — scenery не має множини; Г) sceneryes — неправильна форма дієслова.\n✅ А) scenery — це незлічуваний іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "He doesn't have ___ experience.",
+      "options": [
+        "few",
+        "a few",
+        "many",
+        "much"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Experience — незлічуваний.\n❌ Хибні: А) few — few — для злічуваних; Б) a few — a few — для злічуваних; В) many — many — для злічуваних.\n✅ Г) much — experience у цьому значенні незлічуваний.",
+      "testLevel": 2
+    },
+    {
+      "text": "There were ___ people at the concert.",
+      "options": [
+        "a lot of",
+        "a little",
+        "much",
+        "little"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: У ствердженні — a lot of.\n❌ Хибні: Б) a little — a little — для незлічуваних; В) much — much рідко у ствердженнях; Г) little — little — для незлічуваних.\n✅ А) a lot of — у ствердженні із злічуваним.",
+      "testLevel": 2
+    },
+    {
+      "text": "We have ___ money, so we can't buy a car.",
+      "options": [
+        "little",
+        "few",
+        "a few",
+        "many"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Little = майже немає.\n❌ Хибні: Б) few — few — для злічуваних; В) a few — a few — для злічуваних; Г) many — many — для злічуваних.\n✅ А) little — майже немає грошей, незлічуваний.",
+      "testLevel": 2
+    },
+    {
+      "text": "Could I have ___ more tea?",
+      "options": [
+        "many",
+        "few",
+        "a little",
+        "a few"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: A little + незлічуваний.\n❌ Хибні: А) many — many — для злічуваних; Б) few — few — для злічуваних; Г) a few — a few — для злічуваних.\n✅ В) a little — трохи, незлічуваний іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "There are ___ cars on the road today than yesterday.",
+      "options": [
+        "fewer",
+        "little",
+        "less",
+        "lesser"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Fewer + злічуваний.\n❌ Хибні: Б) little — little не утворює порівняння; В) less — less — для незлічуваних; Г) lesser — lesser — не порівняння кількості.\n✅ А) fewer — cars — злічуваний іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "There is ___ sugar in my coffee than in yours.",
+      "options": [
+        "fewer",
+        "few",
+        "lesser",
+        "less"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Less + незлічуваний.\n❌ Хибні: А) fewer — fewer — для злічуваних; Б) few — few — для злічуваних; В) lesser — lesser не вживається так.\n✅ Г) less — sugar — незлічуваний іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "This is my ___ house. They have lived here for years.",
+      "options": [
+        "parent",
+        "parent's",
+        "parents'",
+        "parents"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Parents' = батьків.\n❌ Хибні: А) parent — однина без присвійного відмінка; Б) parent's — це один із батьків; Г) parents — бракує апострофа у конструкції.\n✅ В) parents' — присвійний відмінок множини.",
+      "testLevel": 2
+    },
+    {
+      "text": "This is my ___ room: he lives alone.",
+      "options": [
+        "brother",
+        "brothers",
+        "brothers'",
+        "brother's"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Один брат — brother's.\n❌ Хибні: А) brother — бракує присвійного відмінка; Б) brothers — бракує апострофа у конструкції; В) brothers' — це присвійний відмінок множини.\n✅ Г) brother's — присвійний відмінок однини.",
+      "testLevel": 2
+    },
+    {
+      "text": "It was a ten-___ walk.",
+      "options": [
+        "minute",
+        "minutes",
+        "minutes'",
+        "minute's"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Ten-minute walk.\n❌ Хибні: Б) minutes — у складному прикметнику без -s; В) minutes' — присвійний відмінок тут не потрібен; Г) minute's — присвійний відмінок тут не потрібен.\n✅ А) minute — в складному прикметнику без -s.",
+      "testLevel": 2
+    },
+    {
+      "text": "He is the ___ student in our class.",
+      "options": [
+        "most good",
+        "better",
+        "best",
+        "good"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: The + superlative.\n❌ Хибні: А) most good — неправильна форма найвищого ступеня; Б) better — better — вищий ступінь; Г) good — good — звичайний ступінь.\n✅ В) best — the + найвищий ступінь.",
+      "testLevel": 2
+    },
+    {
+      "text": "The ___ should help the poor.",
+      "options": [
+        "riches",
+        "a rich",
+        "richs",
+        "rich"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: The rich = багаті.\n❌ Хибні: А) riches — riches — це «багатство»; Б) a rich — a не вживається в значенні групи; В) richs — неправильна форма дієслова.\n✅ Г) rich — the + прикметник у значенні групи.",
+      "testLevel": 2
+    },
+    {
+      "text": "___ United States is a large country.",
+      "options": [
+        "no article",
+        "The",
+        "An",
+        "A"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: The United States.\n❌ Хибні: А) no article — назва потребує the; В) An — an не вживається з назвою країни; Г) A — a не вживається з назвою країни.\n✅ Б) The — назва держави з State(s) — з the.",
+      "testLevel": 2
+    },
+    {
+      "text": "She lives in ___ Netherlands.",
+      "options": [
+        "the",
+        "an",
+        "a",
+        "no article"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: The Netherlands.\n❌ Хибні: Б) an — an не вживається з назвою країни; В) a — a не вживається з назвою країни; Г) no article — Netherlands потребує the.\n✅ А) the — назва країни у множині — з the.",
+      "testLevel": 2
+    },
+    {
+      "text": "We went to ___ Alps last winter.",
+      "options": [
+        "the",
+        "an",
+        "no article",
+        "a"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: The Alps.\n❌ Хибні: Б) an — an не вживається з назвою хребта; В) no article — назва хребта потребує the; Г) a — a не вживається з назвою хребта.\n✅ А) the — гірські хребти — з the.",
+      "testLevel": 2
+    },
+    {
+      "text": "He is ___ MP.",
+      "options": [
+        "no article",
+        "the",
+        "a",
+        "an"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Звук важливіший за букву.\n❌ Хибні: А) no article — перед професією потрібен артикль; Б) the — the тут не потрібен; В) a — MP починається з голосного звука.\n✅ Г) an — MP читається /em pi/ — голосний звук.",
+      "testLevel": 2
+    },
+    {
+      "text": "She is ___ university student.",
+      "options": [
+        "the",
+        "a",
+        "an",
+        "no article"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: University — a.\n❌ Хибні: А) the — the тут не потрібен; В) an — перед /j/ не вживається an; Г) no article — перед student потрібен артикль.\n✅ Б) a — university починається зі звука /j/.",
+      "testLevel": 2
+    },
+    {
+      "text": "It's ___ hour's drive from here.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Hour — an.\n❌ Хибні: А) a — a не вживається перед голосним звуком; Б) the — the тут не потрібен; Г) no article — потрібен неозначений артикль.\n✅ В) an — h не вимовляється в hour.",
+      "testLevel": 2
+    },
+    {
+      "text": "What ___ lovely day!",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: What a + прикметник + іменник.\n❌ Хибні: Б) an — lovely починається з приголосного; В) the — the не вживається в окличних реченнях; Г) no article — перед day потрібен артикль.\n✅ А) a — what a + злічуваний іменник в однині.",
+      "testLevel": 2
+    },
+    {
+      "text": "She is such ___ clever girl.",
+      "options": [
+        "the",
+        "a",
+        "no article",
+        "an"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Such a clever girl.\n❌ Хибні: А) the — the тут не потрібен; В) no article — such потребує артикля; Г) an — clever починається з приголосного.\n✅ Б) a — such a + прикметник + іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "I go to the gym three times ___ week.",
+      "options": [
+        "an",
+        "the",
+        "a",
+        "no article"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Three times a week.\n❌ Хибні: А) an — week починається з приголосного; Б) the — the не вживається у значенні «за»; Г) no article — тут потрібен артикль.\n✅ В) a — a у значенні «за».",
+      "testLevel": 2
+    },
+    {
+      "text": "Tom plays ___ football every weekend.",
+      "options": [
+        "the",
+        "a",
+        "no article",
+        "an"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Play football.\n❌ Хибні: А) the — the не вживається з назвами ігор; Б) a — a не вживається з назвами ігор; Г) an — an не вживається з назвами ігор.\n✅ В) no article — назви ігор — без артикля.",
+      "testLevel": 2
+    },
+    {
+      "text": "Please close ___ door, it's cold.",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "no article"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Конкретні двері — the.\n❌ Хибні: А) an — door починається з приголосного; Б) a — a — один із багатьох дверей; Г) no article — тут потрібен артикль.\n✅ В) the — відомий предмет у кімнаті.",
+      "testLevel": 2
+    },
+    {
+      "text": "___ most of my friends live abroad.",
+      "options": [
+        "An",
+        "A",
+        "The",
+        "no article"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Most of my friends.\n❌ Хибні: А) An — an не вживається перед most of; Б) A — a не вживається перед most of; В) The — the не вживається перед most of.\n✅ Г) no article — most of — без артикля.",
+      "testLevel": 2
+    },
+    {
+      "text": "The woman ___ lives next door is a doctor.",
+      "options": [
+        "whose",
+        "which",
+        "whom",
+        "who"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Для людей — who.\n❌ Хибні: А) whose — whose показує належність; Б) which — which — для речей; В) whom — whom — форма додатка.\n✅ Г) who — who для людей, підмет.",
+      "testLevel": 2
+    },
+    {
+      "text": "This is the book ___ I told you about.",
+      "options": [
+        "whose",
+        "what",
+        "which",
+        "who"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Для речей — which.\n❌ Хибні: А) whose — whose — належність; Б) what — what тут не є відносним словом; Г) who — who — для людей.\n✅ В) which — which — для речей.",
+      "testLevel": 2
+    },
+    {
+      "text": "The man ___ car was stolen called the police.",
+      "options": [
+        "whom",
+        "which",
+        "whose",
+        "who"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Man's car — whose.\n❌ Хибні: А) whom — whom — форма додатка; Б) which — which — для речей; Г) who — who не показує належність.\n✅ В) whose — whose — належність.",
+      "testLevel": 2
+    },
+    {
+      "text": "My brother, ___ lives in Canada, is a pilot.",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "that"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Після коми — who.\n❌ Хибні: Б) which — which — для речей; В) whose — whose — належність; Г) that — that не вживається в неозначальних реченнях.\n✅ А) who — неозначальне підрядне речення про людину.",
+      "testLevel": 2
+    },
+    {
+      "text": "She was talking to ___ in the corner.",
+      "options": [
+        "anybody",
+        "none",
+        "somebody",
+        "every"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: У ствердженні — somebody.\n❌ Хибні: А) anybody — anybody — у питаннях і запереченнях; Б) none — none не вживається так; Г) every — every не стоїть самостійно.\n✅ В) somebody — ствердження — somebody.",
+      "testLevel": 2
+    },
+    {
+      "text": "I haven't seen ___ today.",
+      "options": [
+        "nobody",
+        "anybody",
+        "somebody",
+        "everybody"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Haven't seen anybody.\n❌ Хибні: А) nobody — nobody дає подвійне заперечення; В) somebody — somebody у запереченні не вживається; Г) everybody — everybody змінює значення.\n✅ Б) anybody — після заперечення — anybody.",
+      "testLevel": 2
+    },
+    {
+      "text": "There isn't ___ at home.",
+      "options": [
+        "someone",
+        "everyone",
+        "anyone",
+        "no one"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Isn't + anyone.\n❌ Хибні: А) someone — someone у запереченні не вживається; Б) everyone — everyone змінює значення; Г) no one — no one дає подвійне заперечення.\n✅ В) anyone — після заперечення — anyone.",
+      "testLevel": 2
+    },
+    {
+      "text": "I like these shoes, but I prefer those red ___.",
+      "options": [
+        "one",
+        "its",
+        "ones",
+        "them"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Ones замінює shoes.\n❌ Хибні: А) one — one — однина; Б) its — its не замінює іменник; Г) them — them без іменника тут не пасує.\n✅ В) ones — one у множині — ones.",
+      "testLevel": 2
+    },
+    {
+      "text": "Both of them ___ my friends.",
+      "options": [
+        "is",
+        "be",
+        "are",
+        "was"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Both + множина.\n❌ Хибні: А) is — both — не однина; Б) be — неправильна форма дієслова; Г) was — both — не однина.\n✅ В) are — both — множина.",
+      "testLevel": 2
+    },
+    {
+      "text": "___ of the students passed the exam — all of them failed.",
+      "options": [
+        "Every",
+        "All",
+        "None",
+        "Both"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: None of the students.\n❌ Хибні: А) Every — every не вживається з of the; Б) All — all суперечить другій частині; Г) Both — both — лише про двох.\n✅ В) None — none = жоден.",
+      "testLevel": 2
+    },
+    {
+      "text": "Every student ___ a textbook.",
+      "options": [
+        "were",
+        "have",
+        "has",
+        "are having"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Every + однина.\n❌ Хибні: А) were — неправильна форма дієслова; Б) have — every не з множиною; Г) are having — неправильна форма дієслова.\n✅ В) has — every + однина.",
+      "testLevel": 2
+    },
+    {
+      "text": "It depends ___ the weather.",
+      "options": [
+        "from",
+        "at",
+        "of",
+        "on"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Depend on.\n❌ Хибні: А) from — from не вживається після depend; Б) at — at не вживається після depend; В) of — of не вживається після depend.\n✅ Г) on — depend on — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "The team consists ___ ten players.",
+      "options": [
+        "with",
+        "from",
+        "of",
+        "in"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Consist of.\n❌ Хибні: А) with — with не вживається після consist; Б) from — from не вживається після consist; Г) in — in змінює значення consist.\n✅ В) of — consist of — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "He succeeded ___ passing the exam.",
+      "options": [
+        "on",
+        "at",
+        "with",
+        "in"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Succeed in + V-ing.\n❌ Хибні: А) on — on не вживається після succeed; Б) at — at не вживається після succeed; В) with — with змінює значення.\n✅ Г) in — succeed in — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "She accused him ___ lying.",
+      "options": [
+        "with",
+        "for",
+        "about",
+        "of"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Accuse of.\n❌ Хибні: А) with — with не вживається після accuse; Б) for — for не вживається після accuse; В) about — about не вживається після accuse.\n✅ Г) of — accuse of — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "I apologised ___ being late.",
+      "options": [
+        "for",
+        "to",
+        "about",
+        "of"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Apologise for.\n❌ Хибні: Б) to — to — для людини, а не причини; В) about — about змінює значення; Г) of — of не вживається після apologise.\n✅ А) for — apologise for — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "Who is responsible ___ this mess?",
+      "options": [
+        "of",
+        "about",
+        "for",
+        "on"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Responsible for.\n❌ Хибні: А) of — of не вживається після responsible; Б) about — about не вживається після responsible; Г) on — on не вживається після responsible.\n✅ В) for — responsible for — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "He is proud ___ his son.",
+      "options": [
+        "about",
+        "of",
+        "for",
+        "with"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Proud of.\n❌ Хибні: А) about — about не вживається після proud; В) for — for не вживається після proud; Г) with — with не вживається після proud.\n✅ Б) of — proud of — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "Please finish the report ___ Friday.",
+      "options": [
+        "since",
+        "during",
+        "until",
+        "by"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Deadline — by.\n❌ Хибні: А) since — since — від моменту; Б) during — during — упродовж періоду; В) until — until — упродовж часу до.\n✅ Г) by — by — не пізніше, ніж.",
+      "testLevel": 2
+    },
+    {
+      "text": "I fell asleep ___ the film.",
+      "options": [
+        "while",
+        "by",
+        "since",
+        "during"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: During + noun.\n❌ Хибні: А) while — while + підмет і присудок; Б) by — by не пасує за змістом; В) since — since не пасує за змістом.\n✅ Г) during — during + іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "We stayed at home ___ the rain.",
+      "options": [
+        "because of",
+        "because",
+        "despite",
+        "although"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Because of the rain.\n❌ Хибні: Б) because — because + підмет і присудок; В) despite — despite змінює значення; Г) although — although виражає протиставлення.\n✅ А) because of — because of + іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "___ the rain, we went out.",
+      "options": [
+        "Despite",
+        "Because",
+        "Although",
+        "Since"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Despite the rain.\n❌ Хибні: Б) Because — because змінює значення; В) Although — although + підмет і присудок; Г) Since — since змінює значення.\n✅ А) Despite — despite + іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "I'm fed up ___ waiting.",
+      "options": [
+        "at",
+        "from",
+        "of",
+        "with"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Fed up with.\n❌ Хибні: А) at — at не вживається після fed up; Б) from — from не вживається після fed up; В) of — of не вживається після fed up.\n✅ Г) with — fed up with — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "She is fond ___ painting.",
+      "options": [
+        "with",
+        "at",
+        "of",
+        "about"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Fond of.\n❌ Хибні: А) with — with не вживається після fond; Б) at — at не вживається після fond; Г) about — about не вживається після fond.\n✅ В) of — fond of — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "He is similar ___ his brother.",
+      "options": [
+        "to",
+        "with",
+        "from",
+        "of"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Similar to.\n❌ Хибні: Б) with — with не вживається після similar; В) from — from — для different; Г) of — of не вживається після similar.\n✅ А) to — similar to — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "I'm worried ___ the exam.",
+      "options": [
+        "on",
+        "from",
+        "of",
+        "about"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Worried about.\n❌ Хибні: А) on — on не вживається після worried; Б) from — from не вживається після worried; В) of — of не вживається після worried.\n✅ Г) about — worried about — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "She has a good command ___ English.",
+      "options": [
+        "of",
+        "at",
+        "in",
+        "on"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Command of.\n❌ Хибні: Б) at — at не вживається після command; В) in — in не вживається після command; Г) on — on не вживається після command.\n✅ А) of — command of — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "The painting is ___ display in the gallery.",
+      "options": [
+        "by",
+        "on",
+        "in",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: On display.\n❌ Хибні: А) by — by display не вживається; В) in — in display не вживається; Г) at — at display не вживається.\n✅ Б) on — on display — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "I know him ___ sight.",
+      "options": [
+        "by",
+        "at",
+        "with",
+        "on"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: By sight.\n❌ Хибні: Б) at — at sight змінює значення; В) with — with sight не вживається; Г) on — on sight змінює значення.\n✅ А) by — by sight — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "The letter was written ___ hand.",
+      "options": [
+        "in",
+        "with",
+        "on",
+        "by"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: By hand.\n❌ Хибні: А) in — in hand змінює значення; Б) with — with hand змінює значення; В) on — on hand змінює значення.\n✅ Г) by — by hand — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "He paid ___ cash.",
+      "options": [
+        "by",
+        "at",
+        "in",
+        "with"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Pay in cash.\n❌ Хибні: А) by — by cash не вживається; Б) at — at cash не вживається; Г) with — with cash змінює значення.\n✅ В) in — in cash — стала сполука.",
+      "testLevel": 2
+    },
+    {
+      "text": "Neither the quality of the materials nor the workers' experience ___ in question.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 У конструкції neither...nor дієслово узгоджується з найближчим підметом: experience — незлічуваний іменник в однині.\n❌ А) множина; Б) минулий час і множина; Г) множина.\n✅ В) is — узгодження з найближчим підметом experience.",
+      "testLevel": 3
+    },
+    {
+      "text": "Only a few of the information sheets ___ updated before the inspection.",
+      "options": [
+        "was",
+        "has been",
+        "were",
+        "is"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Few of + злічуваний іменник у множині: sheets. Дієслово теж у множині.\n❌ А) was — однина; Б) has been — однина; Г) теперішній час однини.\n✅ В) were — множина в минулому часі.",
+      "testLevel": 3
+    },
+    {
+      "text": "The committee has not reached ___ decision, so the announcement has been postponed.",
+      "options": [
+        "a",
+        "the",
+        "—",
+        "an"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Йдеться про одне рішення, яке ще не було визначене раніше; decision починається з приголосного звука.\n❌ Б) the вказував би на вже відоме конкретне рішення; В) однина countable noun потребує артикля; Г) an перед приголосним звуком неправильний.\n✅ А) a decision — неозначений артикль.",
+      "testLevel": 3
+    },
+    {
+      "text": "The equipment, together with the spare parts, ___ stored in a separate room.",
+      "options": [
+        "are",
+        "have been",
+        "were",
+        "is"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Головний підмет equipment — незлічуваний іменник в однині; вставна конструкція together with не змінює узгодження.\n❌ А), Б), В) помилково узгоджують дієслово з spare parts.\n✅ Г) is — узгодження з equipment.",
+      "testLevel": 3
+    },
+    {
+      "text": "She has very ___ patience with people who repeatedly ignore safety rules.",
+      "options": [
+        "few",
+        "a few",
+        "little",
+        "many"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Patience — незлічуваний іменник; у значенні «мало, недостатньо» вживаємо little.\n❌ А) few і Б) a few — для злічуваних іменників у множині; Г) many — теж для множини.\n✅ В) little patience — мало терпіння.",
+      "testLevel": 3
+    },
+    {
+      "text": "The scientist ___ findings were published last month will give a lecture today.",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Потрібен присвійний відносний займенник: findings належать scientist.\n❌ А) who — підмет; В) which — для речей; Г) whom — додаток.\n✅ Б) whose — «чиї результати».",
+      "testLevel": 3
+    },
+    {
+      "text": "We arrived ___ the station just as the last train was pulling out.",
+      "options": [
+        "to",
+        "at",
+        "in",
+        "on"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Arrive at вживаємо з конкретними пунктами й невеликими місцями; arrive in — з містами та країнами.\n❌ А) arrive to — не стандартна конструкція; В) для міст/країн; Г) не вживається тут.\n✅ Б) at the station.",
+      "testLevel": 3
+    },
+    {
+      "text": "There is ___ university near the old observatory, but ___ university is closed at weekends.",
+      "options": [
+        "a / the",
+        "the / a",
+        "an / the",
+        "a / a"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Перша згадка — a university; друга — the university, бо вже зрозуміло, про який заклад ідеться. University починається зі звука /j/.\n❌ Б) порядок артиклів переплутано; В) an не підходить до /j/; Г) друга згадка потребує the.\n✅ А) a / the.",
+      "testLevel": 3
+    },
+    {
+      "text": "Each of the machines ___ checked twice before it leaves the factory.",
+      "options": [
+        "are",
+        "have been",
+        "is",
+        "were"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Each of + plural noun має граматичну однину.\n❌ А), Б), Г) — форми множини.\n✅ В) is — підмет each в однині.",
+      "testLevel": 3
+    },
+    {
+      "text": "The report provides useful advice ___ reducing energy consumption.",
+      "options": [
+        "for",
+        "about",
+        "on",
+        "with"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Стала сполука: advice on something — поради щодо чогось.\n❌ А) for reducing тут не є природним керуванням; Б) about можливе в інших конструкціях, але не відповідає заданій collocation; Г) advice with — неправильно.\n✅ В) advice on reducing.",
+      "testLevel": 3
+    },
+    {
+      "text": "He is in ___ prison for robbery.",
+      "options": [
+        "a",
+        "the",
+        "an",
+        "no article"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: In prison — відбуває покарання.\n❌ Хибні: А) a — a prison не вживається в цьому значенні; Б) the — in the prison означає будівлю; В) an — an prison неправильна форма.\n✅ Г) no article — in prison — як ув'язнений.",
+      "testLevel": 3
+    },
+    {
+      "text": "I'll see you in ___ morning.",
+      "options": [
+        "a",
+        "no article",
+        "the",
+        "an"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: In the morning.\n❌ Хибні: А) a — a не вживається в цій сполуці; Б) no article — in morning не вживається; Г) an — an не вживається в цій сполуці.\n✅ В) the — in the morning — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "We stayed at ___ hotel near the airport.",
+      "options": [
+        "the",
+        "an",
+        "a",
+        "no article"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Перша згадка — a.\n❌ Хибні: А) the — the потребує відомого готелю; Б) an — hotel починається з приголосного; Г) no article — тут потрібен артикль.\n✅ В) a — готель згадано вперше.",
+      "testLevel": 3
+    },
+    {
+      "text": "Mary and ___ friends came to see me.",
+      "options": [
+        "hers",
+        "she",
+        "her",
+        "herself"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Her friends.\n❌ Хибні: А) hers — hers — самостійний присвійний; Б) she — she — форма підмета; Г) herself — herself — зворотний займенник.\n✅ В) her — присвійний прикметник перед іменником.",
+      "testLevel": 3
+    },
+    {
+      "text": "I have two cousins, but ___ of them lives near me.",
+      "options": [
+        "neither",
+        "none",
+        "every",
+        "all"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Two → neither.\n❌ Хибні: Б) none — none — для трьох і більше; В) every — every не вживається з of them; Г) all — all суперечить змісту.\n✅ А) neither — neither — жоден із двох.",
+      "testLevel": 3
+    },
+    {
+      "text": "There are three exits and you can use ___ of them.",
+      "options": [
+        "any",
+        "both",
+        "either",
+        "neither"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Three → any.\n❌ Хибні: Б) both — both — лише для двох; В) either — either — лише для двох; Г) neither — neither — лише для двох.\n✅ А) any — any — для трьох і більше.",
+      "testLevel": 3
+    },
+    {
+      "text": "___ the story nor the acting was good.",
+      "options": [
+        "Neither",
+        "Either",
+        "Not only",
+        "Both"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Neither … nor.\n❌ Хибні: Б) Either — either потребує or; В) Not only — not only потребує but also; Г) Both — both потребує and.\n✅ А) Neither — neither … nor — ні ... ні.",
+      "testLevel": 3
+    },
+    {
+      "text": "I like ___ tea or coffee. I'm not fussy.",
+      "options": [
+        "neither",
+        "both",
+        "either",
+        "none"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Either … or.\n❌ Хибні: А) neither — neither потребує nor; Б) both — both потребує and; Г) none — none не вживається з or.\n✅ В) either — either … or — той чи інший.",
+      "testLevel": 3
+    },
+    {
+      "text": "The woman to ___ I spoke was very kind.",
+      "options": [
+        "whose",
+        "which",
+        "who",
+        "whom"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Прийменник + whom.\n❌ Хибні: А) whose — whose показує належність; Б) which — which — для речей; В) who — who не вживається після прийменника.\n✅ Г) whom — після прийменника — whom.",
+      "testLevel": 3
+    },
+    {
+      "text": "The people with ___ I work are friendly.",
+      "options": [
+        "that",
+        "whom",
+        "which",
+        "who"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: With whom.\n❌ Хибні: А) that — that не вживається після прийменника; В) which — which — для речей; Г) who — who не вживається після прийменника.\n✅ Б) whom — після прийменника — whom.",
+      "testLevel": 3
+    },
+    {
+      "text": "I know the reason ___ he left.",
+      "options": [
+        "when",
+        "which",
+        "why",
+        "where"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: The reason why.\n❌ Хибні: А) when — when — для часу; Б) which — which не пасує без прийменника; Г) where — where — для місця.\n✅ В) why — the reason why.",
+      "testLevel": 3
+    },
+    {
+      "text": "She hurt ___ while she was cooking.",
+      "options": [
+        "hers",
+        "she",
+        "herself",
+        "her"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Hurt herself.\n❌ Хибні: А) hers — hers — самостійний присвійний; Б) she — she — форма підмета; Г) her — her не позначає ту саму особу.\n✅ В) herself — підмет і додаток — одна особа.",
+      "testLevel": 3
+    },
+    {
+      "text": "He is a friend of ___.",
+      "options": [
+        "me",
+        "mine",
+        "my",
+        "myself"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Friend of mine.\n❌ Хибні: А) me — me не вживається після of; В) my — my не вживається після of; Г) myself — myself тут зайвий.\n✅ Б) mine — a friend of mine — подвійний присвійний.",
+      "testLevel": 3
+    },
+    {
+      "text": "The cat washed ___.",
+      "options": [
+        "himself",
+        "itself",
+        "it",
+        "its"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Washed itself.\n❌ Хибні: А) himself — himself — для чоловіка; В) it — it не позначає ту саму особу; Г) its — its — присвійний.\n✅ Б) itself — підмет — неживий займенник або тварина.",
+      "testLevel": 3
+    },
+    {
+      "text": "He did it all by ___.",
+      "options": [
+        "him",
+        "he",
+        "himself",
+        "his"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: By himself.\n❌ Хибні: А) him — him не вживається після by; Б) he — he — форма підмета; Г) his — his — присвійний.\n✅ В) himself — by himself — самостійно.",
+      "testLevel": 3
+    },
+    {
+      "text": "Tom and Ann are doctors; ___ works in Lviv and the latter in Kyiv.",
+      "options": [
+        "the first one",
+        "the former",
+        "former one",
+        "one former"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Former / latter.\n❌ Хибні: А) the first one — such order не вживається; В) former one — неправильний порядок слів; Г) one former — неправильна форма дієслова.\n✅ Б) the former — the former — перший із двох.",
+      "testLevel": 3
+    },
+    {
+      "text": "She is capable ___ solving the problem.",
+      "options": [
+        "at",
+        "for",
+        "to",
+        "of"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Capable of.\n❌ Хибні: А) at — at не вживається після capable; Б) for — for не вживається після capable; В) to — to не вживається після capable.\n✅ Г) of — capable of — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "He was deprived ___ his rights.",
+      "options": [
+        "of",
+        "for",
+        "from",
+        "with"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Deprive of.\n❌ Хибні: Б) for — for не вживається після deprive; В) from — from не вживається після deprive; Г) with — with не вживається після deprive.\n✅ А) of — deprive of — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "I'm not used ___ getting up early.",
+      "options": [
+        "with",
+        "to",
+        "at",
+        "for"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Be used to.\n❌ Хибні: А) with — with не вживається після used; В) at — at не вживається після used; Г) for — for не вживається після used.\n✅ Б) to — be used to + V-ing.",
+      "testLevel": 3
+    },
+    {
+      "text": "He prefers walking ___ driving.",
+      "options": [
+        "over",
+        "to",
+        "than",
+        "from"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Prefer X to Y.\n❌ Хибні: А) over — over змінює значення; В) than — than не вживається після prefer; Г) from — from не вживається після prefer.\n✅ Б) to — prefer … to ….",
+      "testLevel": 3
+    },
+    {
+      "text": "We congratulated him ___ his success.",
+      "options": [
+        "on",
+        "for",
+        "about",
+        "with"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Congratulate on.\n❌ Хибні: Б) for — for не вживається після congratulate; В) about — about не вживається після congratulate; Г) with — with не вживається після congratulate.\n✅ А) on — congratulate on — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "She insisted ___ paying for the meal.",
+      "options": [
+        "in",
+        "for",
+        "on",
+        "at"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Insist on.\n❌ Хибні: А) in — in не вживається після insist; Б) for — for не вживається після insist; Г) at — at не вживається після insist.\n✅ В) on — insist on — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "He is allergic ___ cats.",
+      "options": [
+        "of",
+        "to",
+        "from",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Allergic to.\n❌ Хибні: А) of — of не вживається після allergic; В) from — from не вживається після allergic; Г) at — at не вживається після allergic.\n✅ Б) to — allergic to — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "The company is run ___ a young manager.",
+      "options": [
+        "from",
+        "through",
+        "with",
+        "by"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Passive agent — by.\n❌ Хибні: А) from — from не вживається в Passive; Б) through — through змінює значення; В) with — with — для інструмента.\n✅ Г) by — виконавець у пасиві — by.",
+      "testLevel": 3
+    },
+    {
+      "text": "I am writing ___ behalf of my team.",
+      "options": [
+        "by",
+        "on",
+        "in",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: On behalf of.\n❌ Хибні: А) by — by не вживається в цій сполуці; В) in — in behalf of рідко вживається; Г) at — at не вживається в цій сполуці.\n✅ Б) on — on behalf of — від імені.",
+      "testLevel": 3
+    },
+    {
+      "text": "She is ___ charge of the project.",
+      "options": [
+        "at",
+        "by",
+        "in",
+        "on"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: In charge of.\n❌ Хибні: А) at — at charge не вживається; Б) by — by charge не вживається; Г) on — on charge — «за обвинуваченням».\n✅ В) in — in charge of — відповідальна за.",
+      "testLevel": 3
+    },
+    {
+      "text": "We solved the problem ___ means of a computer.",
+      "options": [
+        "on",
+        "with",
+        "in",
+        "by"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: By means of.\n❌ Хибні: А) on — on means не вживається; Б) with — with means не вживається; В) in — in means не вживається.\n✅ Г) by — by means of — за допомогою.",
+      "testLevel": 3
+    },
+    {
+      "text": "She reached the top ___ the expense of her health.",
+      "options": [
+        "at",
+        "on",
+        "for",
+        "by"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: At the expense of.\n❌ Хибні: Б) on — on the expense не вживається; В) for — for the expense не вживається; Г) by — by the expense не вживається.\n✅ А) at — at the expense of — коштом.",
+      "testLevel": 3
+    },
+    {
+      "text": "Apart ___ him, nobody came.",
+      "options": [
+        "of",
+        "from",
+        "to",
+        "with"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Apart from.\n❌ Хибні: А) of — of не вживається після apart; В) to — to не вживається після apart; Г) with — with не вживається після apart.\n✅ Б) from — apart from — крім.",
+      "testLevel": 3
+    },
+    {
+      "text": "We must leave by 8 o'clock ___ the latest.",
+      "options": [
+        "in",
+        "by",
+        "on",
+        "at"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: At the latest.\n❌ Хибні: А) in — in the latest не вживається; Б) by — by the latest не вживається; В) on — on the latest не вживається.\n✅ Г) at — at the latest — найпізніше.",
+      "testLevel": 3
+    },
+    {
+      "text": "He was late ___ the heavy traffic.",
+      "options": [
+        "since",
+        "owing to",
+        "due",
+        "because"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Owing to the traffic.\n❌ Хибні: А) since — since + підмет і присудок; В) due — due не вживається без to; Г) because — because + підмет і присудок.\n✅ Б) owing to — owing to + іменник.",
+      "testLevel": 3
+    },
+    {
+      "text": "She was dressed ___ black.",
+      "options": [
+        "in",
+        "by",
+        "on",
+        "with"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Dressed in black.\n❌ Хибні: Б) by — by не вживається з кольором одягу; В) on — on не вживається з кольором одягу; Г) with — with не вживається з кольором одягу.\n✅ А) in — dressed in + колір.",
+      "testLevel": 3
+    },
+    {
+      "text": "I got to know her ___ chance.",
+      "options": [
+        "with",
+        "by",
+        "on",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: By chance.\n❌ Хибні: А) with — with chance не вживається; В) on — on chance не вживається; Г) at — at chance не вживається.\n✅ Б) by — by chance — випадково.",
+      "testLevel": 3
+    },
+    {
+      "text": "Prices have gone up ___ 10%.",
+      "options": [
+        "by",
+        "with",
+        "in",
+        "for"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Up by 10%.\n❌ Хибні: Б) with — with не вживається для зміни; В) in — in не вживається для величини зміни; Г) for — for не вживається для величини зміни.\n✅ А) by — by + величина зміни.",
+      "testLevel": 3
+    },
+    {
+      "text": "She was filled ___ joy.",
+      "options": [
+        "of",
+        "by",
+        "from",
+        "with"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Filled with.\n❌ Хибні: А) of — of не вживається після filled; Б) by — by не вживається після filled; В) from — from не вживається після filled.\n✅ Г) with — filled with — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "He is engaged ___ writing a book.",
+      "options": [
+        "at",
+        "in",
+        "for",
+        "on"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Engaged in.\n❌ Хибні: А) at — at не вживається після engaged; В) for — for не вживається після engaged; Г) on — on не вживається після engaged.\n✅ Б) in — engaged in — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "He is addicted ___ computer games.",
+      "options": [
+        "on",
+        "of",
+        "with",
+        "to"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Addicted to.\n❌ Хибні: А) on — on не вживається після addicted; Б) of — of не вживається після addicted; В) with — with не вживається після addicted.\n✅ Г) to — addicted to — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "The cause ___ the fire is unknown.",
+      "options": [
+        "to",
+        "from",
+        "of",
+        "for"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Cause of.\n❌ Хибні: А) to — to не вживається після cause; Б) from — from не вживається після cause; Г) for — for не вживається після cause.\n✅ В) of — cause of — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "There is no point ___ arguing.",
+      "options": [
+        "for",
+        "of",
+        "in",
+        "at"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: No point in.\n❌ Хибні: А) for — for не вживається після point; Б) of — of не вживається після point; Г) at — at не вживається після point.\n✅ В) in — no point in + V-ing.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which sentence about a city contains a mistake?",
+      "options": [
+        "I have a lot of information about this city.",
+        "I have some information about this city.",
+        "I have many informations about this city.",
+        "I have little information about this city."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Information не має множини.\n❌ Хибні: А) I have a lot of information about this city. — це правильне речення; Б) I have some information about this city. — це правильне речення; Г) I have little information about this city. — це правильне речення.\n✅ В) I have many informations about this city. — information — незлічуваний.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which sentence about help from a friend contains a mistake?",
+      "options": [
+        "She gave me a piece of advice.",
+        "She gave me no advice.",
+        "She gave me an advice.",
+        "She gave me some advice."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Advice не має a/an.\n❌ Хибні: А) She gave me a piece of advice. — це правильне речення; Б) She gave me no advice. — це правильне речення; Г) She gave me some advice. — це правильне речення.\n✅ В) She gave me an advice. — advice — незлічуваний.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which sentence is grammatically correct?",
+      "options": [
+        "The childs toys are on the floor.",
+        "The children's toys are on the floor.",
+        "The childrens' toys are on the floor.",
+        "The childrens toys are on the floor."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Children's — з 's.\n❌ Хибні: А) The childs toys are on the floor. — помилкова форма множини; В) The childrens' toys are on the floor. — подвійна помилка в присвійному відмінку; Г) The childrens toys are on the floor. — бракує апострофа у конструкції.\n✅ Б) The children's toys are on the floor. — присвійний відмінок нерегулярної множини.",
+      "testLevel": 3
+    }
+  ],
+  "cards": [
+    {
+      "question": "Множина іменників",
+      "answer": "Звичайна: -s/-es (book — books, box — boxes); -y → -ies (city — cities); -f/-fe → -ves (knife — knives, loaf — loaves)."
+    },
+    {
+      "question": "Нерегулярна множина",
+      "answer": "man — men, woman — women, child — children, foot — feet, tooth — teeth, mouse — mice, person — people; sheep, fish, deer — без змін."
+    },
+    {
+      "question": "Незлічувані іменники",
+      "answer": "advice, information, news, money, furniture, luggage, bread, water, homework — без -s і без a/an: some advice, a piece of advice."
+    },
+    {
+      "question": "much / many / a lot of",
+      "answer": "many + злічувані (many books); much + незлічувані (much water) — в питаннях і запереченнях; a lot of — у стверджувальних."
+    },
+    {
+      "question": "few / a few / little / a little",
+      "answer": "few/a few — злічувані; little/a little — незлічувані. A few = кілька (позитивно), few = майже немає (негативно)."
+    },
+    {
+      "question": "some / any / no",
+      "answer": "some — у ствердженнях і пропозиціях; any — у питаннях і запереченнях; no = not any (без додаткового not)."
+    },
+    {
+      "question": "Артиклі a / an",
+      "answer": "a перед приголосним звуком (a book, a university /juː/), an перед голосним звуком (an apple, an hour, an MP)."
+    },
+    {
+      "question": "Артикль the",
+      "answer": "Конкретний/відомий предмет, єдиний у своєму роді (the sun), найвищий ступінь (the best), the + прикметник (the rich), the Nile, the Alps, the UK."
+    },
+    {
+      "question": "Нульовий артикль",
+      "answer": "Мови й країни (English, France), назви трапез (have breakfast), види спорту (play football), school/bed/work у загальному значенні (go to school), Mount Everest."
+    },
+    {
+      "question": "Особові займенники",
+      "answer": "Підмет: I, you, he, she, it, we, they; додаток: me, you, him, her, it, us, them."
+    },
+    {
+      "question": "Присвійні займенники",
+      "answer": "Прикметникові: my, your, his, her, its, our, their (перед іменником); самостійні: mine, yours, his, hers, ours, theirs."
+    },
+    {
+      "question": "Зворотні займенники",
+      "answer": "myself, yourself, himself, herself, itself, ourselves, yourselves, themselves: I cut myself. Також наголос: I did it myself."
+    },
+    {
+      "question": "Питальні слова Whose / Who",
+      "answer": "Whose — чий (Whose book is this?); who — хто; whom — кого; which — який з обмеженого вибору."
+    },
+    {
+      "question": "Неозначені займенники",
+      "answer": "something, anything, nothing, everything; somebody/someone, anybody/anyone, nobody; з not — anything/anybody, а не nothing/nobody."
+    },
+    {
+      "question": "Прийменники часу",
+      "answer": "in + місяць/рік/пора доби (in May, in 1998, in the morning); on + день/дата (on Monday); at + година/at night (at 5 o'clock); for + тривалість; since + момент."
+    },
+    {
+      "question": "Прийменники місця",
+      "answer": "in (всередині), on (на поверхні), at (точка: at the station), under, behind, between (двох), among (багатьох), next to, opposite."
+    },
+    {
+      "question": "Прийменники руху",
+      "answer": "to (до), from, into, out of, through (крізь), across (через), along (вздовж), over, up, down."
+    },
+    {
+      "question": "Спосіб пересування",
+      "answer": "by bus/car/train/plane; on foot; але in a car, on a bus."
+    },
+    {
+      "question": "Дієслова + прийменники",
+      "answer": "listen to, look for, look at, wait for, thank for, depend on, belong to, ask for, laugh at."
+    },
+    {
+      "question": "Прикметники + прийменники",
+      "answer": "good at, interested in, afraid of, proud of, fond of, worried about, married to, different from, similar to, responsible for."
+    },
+    {
+      "question": "Despite / in spite of",
+      "answer": "Despite/in spite of + іменник чи V-ing: Despite the rain, we went out (не despite of)."
+    },
+    {
+      "question": "Присвійний відмінок 's",
+      "answer": "Однина: the boy's book; множина на -s: the boys' books; нерегулярна: the children's toys."
+    },
+    {
+      "question": "Узгодження: news, police",
+      "answer": "The news is bad (однина); the police are (множина); mathematics, physics — однина; people, cattle — множина."
+    },
+    {
+      "question": "Both / either / neither",
+      "answer": "Both — обидва (+ множина); either — будь-який з двох; neither — жоден з двох (+ однина): Neither of them is here."
+    }
+  ]
 }
