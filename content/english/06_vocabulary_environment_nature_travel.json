@@ -1,2040 +1,2040 @@
 {
- "subject": "ENGLISH",
- "topic": "Vocabulary: Environment, Nature & Travel",
- "questions": [
-  {
-   "text": "A place with a lot of trees is a ___.",
-   "options": [
-    "desert",
-    "forest",
-    "island",
-    "valley"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Ліс — це forest.\n❌ Хибні: А) desert — desert — пустеля; В) island — island — острів; Г) valley — valley — долина.\n✅ Б) forest — forest — ліс.",
-   "testLevel": 1
-  },
-  {
-   "text": "A very hot and dry place with a lot of sand is a ___.",
-   "options": [
-    "meadow",
-    "desert",
-    "forest",
-    "lake"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Пустеля — desert.\n❌ Хибні: А) meadow — meadow — луг; В) forest — forest — ліс; Г) lake — lake — озеро.\n✅ Б) desert — desert — пустеля.",
-   "testLevel": 1
-  },
-  {
-   "text": "An area of land with water all around it is an ___.",
-   "options": [
-    "desert",
-    "valley",
-    "cliff",
-    "island"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Острів — island.\n❌ Хибні: А) desert — desert — пустеля; Б) valley — valley — долина; В) cliff — cliff — скеля над морем.\n✅ Г) island — island — острів.",
-   "testLevel": 1
-  },
-  {
-   "text": "It is raining very hard and the sky is dark. It is ___ weather.",
-   "options": [
-    "calm",
-    "dry",
-    "sunny",
-    "stormy"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Stormy weather — негода.\n❌ Хибні: А) calm — calm — тихий; Б) dry — dry — сухий; В) sunny — sunny — сонячний.\n✅ Г) stormy — stormy — бурхливий з грозою.",
-   "testLevel": 1
-  },
-  {
-   "text": "It is very cold today. The temperature is minus ten degrees. It is ___.",
-   "options": [
-    "warm",
-    "humid",
-    "freezing",
-    "boiling"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Freezing — морозно.\n❌ Хибні: А) warm — warm — тепло; Б) humid — humid — волого; Г) boiling — boiling — дуже гаряче.\n✅ В) freezing — freezing — дуже холодно.",
-   "testLevel": 1
-  },
-  {
-   "text": "There is a thick mist outside and I cannot see the road. It is ___.",
-   "options": [
-    "foggy",
-    "windy",
-    "cloudy",
-    "sunny"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Foggy — туманно.\n❌ Хибні: Б) windy — windy — вітряно; В) cloudy — cloudy — хмарно; Г) sunny — sunny — сонячно.\n✅ А) foggy — foggy — туманно.",
-   "testLevel": 1
-  },
-  {
-   "text": "Water that falls from the sky is ___.",
-   "options": [
-    "sun",
-    "ice",
-    "wind",
-    "rain"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Rain — дощ.\n❌ Хибні: А) sun — sun — сонце; Б) ice — ice — лід; В) wind — wind — вітер.\n✅ Г) rain — rain — дощ.",
-   "testLevel": 1
-  },
-  {
-   "text": "Before we go on a picnic, let us check the weather ___.",
-   "options": [
-    "prediction",
-    "forecast",
-    "future",
-    "fortune"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Weather forecast — прогноз погоди.\n❌ Хибні: А) prediction — prediction — передбачення; В) future — future — майбутнє; Г) fortune — fortune — доля.\n✅ Б) forecast — forecast — прогноз погоди.",
-   "testLevel": 1
-  },
-  {
-   "text": "We must ___ paper, glass and plastic to protect the environment.",
-   "options": [
-    "waste",
-    "throw",
-    "recycle",
-    "burn"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Recycle — переробляти.\n❌ Хибні: А) waste — waste — марнувати; Б) throw — throw — викидати; Г) burn — burn — спалювати.\n✅ В) recycle — recycle — переробляти.",
-   "testLevel": 1
-  },
-  {
-   "text": "Dirty air from factories and cars is air ___.",
-   "options": [
-    "protection",
-    "invention",
-    "production",
-    "pollution"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Air pollution — забруднення повітря.\n❌ Хибні: А) protection — protection — захист; Б) invention — invention — винахід; В) production — production — виробництво.\n✅ Г) pollution — pollution — забруднення.",
-   "testLevel": 1
-  },
-  {
-   "text": "Paper, glass and cans are put into different bins to be ___.",
-   "options": [
-    "repeated",
-    "reached",
-    "recycled",
-    "recorded"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Recycled — перероблені.\n❌ Хибні: А) repeated — repeated — повторені; Б) reached — reached — досягнуті; Г) recorded — recorded — записані.\n✅ В) recycled — recycled — перероблені.",
-   "testLevel": 1
-  },
-  {
-   "text": "Solar, wind and water power are types of ___ energy.",
-   "options": [
-    "renewable",
-    "expensive",
-    "nuclear",
-    "dangerous"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Renewable energy — відновлювана.\n❌ Хибні: Б) expensive — expensive — дорогий; В) nuclear — nuclear — ядерний; Г) dangerous — dangerous — небезпечний.\n✅ А) renewable — renewable — відновлюваний.",
-   "testLevel": 1
-  },
-  {
-   "text": "Coal, oil and gas are called ___ fuels.",
-   "options": [
-    "fossil",
-    "green",
-    "solar",
-    "natural"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Fossil fuels — викопне паливо.\n❌ Хибні: Б) green — green — зелений; В) solar — solar — сонячний; Г) natural — natural — природний.\n✅ А) fossil — fossil fuels — викопне паливо.",
-   "testLevel": 1
-  },
-  {
-   "text": "Animals that are in danger of disappearing are ___ species.",
-   "options": [
-    "extinct",
-    "common",
-    "domestic",
-    "endangered"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Endangered species — під загрозою.\n❌ Хибні: А) extinct — extinct — уже вимерлі; Б) common — common — поширені; В) domestic — domestic — домашні.\n✅ Г) endangered — endangered — під загрозою зникнення.",
-   "testLevel": 1
-  },
-  {
-   "text": "Dinosaurs are ___ animals. They died out millions of years ago.",
-   "options": [
-    "wild",
-    "endangered",
-    "rare",
-    "extinct"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Extinct — зовсім вимерлі.\n❌ Хибні: А) wild — wild — дикі; Б) endangered — endangered — під загрозою; В) rare — rare — рідкісні.\n✅ Г) extinct — extinct — вимерлі.",
-   "testLevel": 1
-  },
-  {
-   "text": "A tiger lives in the wild, so it is a ___ animal.",
-   "options": [
-    "tame",
-    "farm",
-    "wild",
-    "pet"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Wild animal — дика тварина.\n❌ Хибні: А) tame — tame — приручений; Б) farm — farm — фермерський; Г) pet — pet — домашній улюбленець.\n✅ В) wild — wild — дикий.",
-   "testLevel": 1
-  },
-  {
-   "text": "A big group of sheep is called a ___ of sheep.",
-   "options": [
-    "flock",
-    "swarm",
-    "herd",
-    "pack"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Flock of sheep — отара.\n❌ Хибні: Б) swarm — swarm — рій бджіл; В) herd — herd — стадо корів; Г) pack — pack — зграя вовків.\n✅ А) flock — flock — отара птахів чи овець.",
-   "testLevel": 1
-  },
-  {
-   "text": "A group of wolves is called a ___ of wolves.",
-   "options": [
-    "flock",
-    "swarm",
-    "pack",
-    "herd"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Pack of wolves — зграя.\n❌ Хибні: А) flock — flock — отара; Б) swarm — swarm — рій; Г) herd — herd — стадо.\n✅ В) pack — pack — зграя вовків.",
-   "testLevel": 1
-  },
-  {
-   "text": "A person who travels to see new places for pleasure is a ___.",
-   "options": [
-    "passenger",
-    "driver",
-    "pilot",
-    "tourist"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Tourist — турист.\n❌ Хибні: А) passenger — passenger — пасажир; Б) driver — driver — водій; В) pilot — pilot — льотчик.\n✅ Г) tourist — tourist — турист.",
-   "testLevel": 1
-  },
-  {
-   "text": "You need a ___ to travel to another country by plane.",
-   "options": [
-    "diary",
-    "passport",
-    "receipt",
-    "menu"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Для подорожі потрібен passport.\n❌ Хибні: А) diary — diary — щоденник; В) receipt — receipt — чек; Г) menu — menu — меню.\n✅ Б) passport — passport — паспорт.",
-   "testLevel": 1
-  },
-  {
-   "text": "At the airport you show your ___ pass to get on the plane.",
-   "options": [
-    "boarding",
-    "library",
-    "bus",
-    "parking"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Boarding pass — посадковий талон.\n❌ Хибні: Б) library — library — бібліотечний; В) bus — bus pass — проїзний; Г) parking — parking — паркувальний.\n✅ А) boarding — boarding pass — посадковий талон.",
-   "testLevel": 1
-  },
-  {
-   "text": "Our plane was an hour late. The flight was ___.",
-   "options": [
-    "delayed",
-    "cancelled",
-    "booked",
-    "closed"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Delayed — затриманий.\n❌ Хибні: Б) cancelled — cancelled — скасований; В) booked — booked — заброньований; Г) closed — closed — закритий.\n✅ А) delayed — delayed — затриманий.",
-   "testLevel": 1
-  },
-  {
-   "text": "We went to the beach and lay in the ___ all day.",
-   "options": [
-    "moon",
-    "sun",
-    "snow",
-    "rain"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Lie in the sun.\n❌ Хибні: А) moon — moon — місяць; В) snow — snow — сніг; Г) rain — rain — дощ.\n✅ Б) sun — in the sun — на сонці.",
-   "testLevel": 1
-  },
-  {
-   "text": "When you stay at a hotel, you ___ a room first.",
-   "options": [
-    "book",
-    "bake",
-    "borrow",
-    "break"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Book a room — забронювати.\n❌ Хибні: Б) bake — bake — пекти; В) borrow — borrow — позичати; Г) break — break — ламати.\n✅ А) book — book — бронювати.",
-   "testLevel": 1
-  },
-  {
-   "text": "A room in a hotel for two people is a ___ room.",
-   "options": [
-    "double",
-    "small",
-    "quiet",
-    "single"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Double room — на двох.\n❌ Хибні: Б) small — small — маленький; В) quiet — quiet — тихий; Г) single — single — одномісний.\n✅ А) double — double room — двомісний.",
-   "testLevel": 1
-  },
-  {
-   "text": "You buy a ___ to travel by train.",
-   "options": [
-    "menu",
-    "ticket",
-    "passport",
-    "key"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Ticket — квиток на потяг.\n❌ Хибні: А) menu — menu — меню ресторану; В) passport — passport — паспорт; Г) key — key — ключ від дверей.\n✅ Б) ticket — ticket — квиток.",
-   "testLevel": 1
-  },
-  {
-   "text": "A boat that carries people and cars across the water is a ___.",
-   "options": [
-    "ferry",
-    "taxi",
-    "coach",
-    "tram"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Ferry — пором.\n❌ Хибні: Б) taxi — taxi — таксі; В) coach — coach — автобус; Г) tram — tram — трамвай.\n✅ А) ferry — ferry — пором.",
-   "testLevel": 1
-  },
-  {
-   "text": "A big bus that takes tourists on long journeys is a ___.",
-   "options": [
-    "tram",
-    "coach",
-    "bike",
-    "taxi"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Coach — міжміський автобус.\n❌ Хибні: А) tram — tram — трамвай; В) bike — bike — велосипед; Г) taxi — taxi — таксі.\n✅ Б) coach — coach — міжміський автобус.",
-   "testLevel": 1
-  },
-  {
-   "text": "You wait for a train on the ___ at the station.",
-   "options": [
-    "platform",
-    "pavement",
-    "corner",
-    "roof"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Platform — платформа.\n❌ Хибні: Б) pavement — pavement — тротуар; В) corner — corner — кут; Г) roof — roof — дах.\n✅ А) platform — platform — платформа.",
-   "testLevel": 1
-  },
-  {
-   "text": "Please pack your ___ before we go to the airport.",
-   "options": [
-    "suitcase",
-    "pillow",
-    "notebook",
-    "sandwich"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Suitcase — валіза.\n❌ Хибні: Б) pillow — pillow — подушка; В) notebook — notebook — зошит; Г) sandwich — sandwich — бутерброд.\n✅ А) suitcase — suitcase — валіза.",
-   "testLevel": 1
-  },
-  {
-   "text": "Which word means 'to go on holiday and visit new places'?",
-   "options": [
-    "repair",
-    "travel",
-    "worry",
-    "study"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Travel — подорожувати.\n❌ Хибні: А) repair — repair — ремонтувати; В) worry — worry — хвилюватися; Г) study — study — вчитися.\n✅ Б) travel — travel — подорожувати.",
-   "testLevel": 1
-  },
-  {
-   "text": "We stayed in a small hotel near the ___; we could hear the waves all night.",
-   "options": [
-    "city",
-    "forest",
-    "desert",
-    "sea"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Хвилі — це sea.\n❌ Хибні: А) city — city — місто; Б) forest — forest — ліс; В) desert — desert — пустеля.\n✅ Г) sea — sea — море.",
-   "testLevel": 1
-  },
-  {
-   "text": "It is very hot and the sun is shining. It is a ___ day.",
-   "options": [
-    "rainy",
-    "sunny",
-    "foggy",
-    "cloudy"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Sunny day — сонячний день.\n❌ Хибні: А) rainy — rainy — дощовий; В) foggy — foggy — туманний; Г) cloudy — cloudy — хмарний.\n✅ Б) sunny — sunny — сонячний.",
-   "testLevel": 1
-  },
-  {
-   "text": "Never throw ___ on the ground. Put it in the bin.",
-   "options": [
-    "snow",
-    "litter",
-    "sand",
-    "water"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Litter — сміття на вулиці.\n❌ Хибні: А) snow — snow — сніг; В) sand — sand — пісок; Г) water — water — вода.\n✅ Б) litter — litter — сміття.",
-   "testLevel": 1
-  },
-  {
-   "text": "Trees give us fresh air, so we must ___ them.",
-   "options": [
-    "burn",
-    "protect",
-    "forget",
-    "cut"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Protect — захищати.\n❌ Хибні: А) burn — burn — спалювати; В) forget — forget — забути; Г) cut — cut — зрубати.\n✅ Б) protect — protect — захищати.",
-   "testLevel": 1
-  },
-  {
-   "text": "The Dnipro is a long ___ in Ukraine.",
-   "options": [
-    "island",
-    "forest",
-    "river",
-    "desert"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Dnipro — це river.\n❌ Хибні: А) island — island — острів; Б) forest — forest — ліс; Г) desert — desert — пустеля.\n✅ В) river — river — річка.",
-   "testLevel": 1
-  },
-  {
-   "text": "The Carpathians are high ___ in the west of Ukraine.",
-   "options": [
-    "rivers",
-    "mountains",
-    "islands",
-    "deserts"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Карпати — mountains.\n❌ Хибні: А) rivers — rivers — річки; В) islands — islands — острови; Г) deserts — deserts — пустелі.\n✅ Б) mountains — mountains — гори.",
-   "testLevel": 1
-  },
-  {
-   "text": "Water falling from a high place is a ___.",
-   "options": [
-    "waterfall",
-    "valley",
-    "bay",
-    "lake"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Waterfall — водоспад.\n❌ Хибні: Б) valley — valley — долина; В) bay — bay — затока; Г) lake — lake — озеро.\n✅ А) waterfall — waterfall — водоспад.",
-   "testLevel": 1
-  },
-  {
-   "text": "A place where wild animals are protected is a nature ___.",
-   "options": [
-    "market",
-    "reserve",
-    "factory",
-    "garden"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Nature reserve — заповідник.\n❌ Хибні: А) market — market — ринок; В) factory — factory — завод; Г) garden — garden — сад.\n✅ Б) reserve — nature reserve — заповідник.",
-   "testLevel": 1
-  },
-  {
-   "text": "We go to the airport by ___ and then fly to Paris.",
-   "options": [
-    "a taxi",
-    "taxis",
-    "taxi",
-    "the taxi"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: By + транспорт без артикля.\n❌ Хибні: А) a taxi — a taxi не після by; Б) taxis — taxis не після by; Г) the taxi — the taxi не після by.\n✅ В) taxi — by taxi — таксі, без артикля.",
-   "testLevel": 1
-  },
-  {
-   "text": "We often travel ___ train because it is cheap and comfortable.",
-   "options": [
-    "by",
-    "in",
-    "on",
-    "with"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Travel by train.\n❌ Хибні: Б) in — in train — так не кажуть; В) on — on train — так не кажуть; Г) with — with train — так не кажуть.\n✅ А) by — by train — потягом.",
-   "testLevel": 1
-  },
-  {
-   "text": "It is not far. We can go there ___ foot.",
-   "options": [
-    "by",
-    "at",
-    "on",
-    "in"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: On foot — пішки.\n❌ Хибні: А) by — by foot — так не кажуть; Б) at — at foot — так не кажуть; Г) in — in foot — так не кажуть.\n✅ В) on — on foot — пішки.",
-   "testLevel": 1
-  },
-  {
-   "text": "Our train leaves from ___ number 5.",
-   "options": [
-    "window",
-    "ground",
-    "street",
-    "platform"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Train leaves from platform.\n❌ Хибні: А) window — window — вікно; Б) ground — ground — земля; В) street — street — вулиця.\n✅ Г) platform — platform — платформа.",
-   "testLevel": 1
-  },
-  {
-   "text": "The plane ___ at 9:00 and landed at 11:30.",
-   "options": [
-    "got off",
-    "put off",
-    "set off",
-    "took off"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Plane takes off — злітає.\n❌ Хибні: А) got off — get off — зійти; Б) put off — put off — відкласти; В) set off — set off — вирушити.\n✅ Г) took off — take off — злетіти.",
-   "testLevel": 1
-  },
-  {
-   "text": "You must ___ at the hotel reception when you arrive.",
-   "options": [
-    "run in",
-    "check in",
-    "look in",
-    "check up"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Check in — зареєструватися.\n❌ Хибні: А) run in — run in — забігти; В) look in — look in — зазирнути; Г) check up — check up — перевірити.\n✅ Б) check in — check in — зареєструватися.",
-   "testLevel": 1
-  },
-  {
-   "text": "We are going to ___ for the mountains at six o'clock in the morning.",
-   "options": [
-    "set on",
-    "set off",
-    "set down",
-    "set up"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Set off — вирушити в дорогу.\n❌ Хибні: А) set on — set on — напасти; В) set down — set down — покласти; Г) set up — set up — заснувати.\n✅ Б) set off — set off — вирушити.",
-   "testLevel": 1
-  },
-  {
-   "text": "I need to ___ my grandmother at the station. Her train arrives at five.",
-   "options": [
-    "pick up",
-    "pick out",
-    "pick in",
-    "pick on"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Pick up — забрати з вокзалу.\n❌ Хибні: Б) pick out — pick out — вибрати; В) pick in — pick in — так не кажуть; Г) pick on — pick on — прискіпуватися.\n✅ А) pick up — pick up — зустріти й забрати.",
-   "testLevel": 1
-  },
-  {
-   "text": "Rivers, forests and animals are all part of ___.",
-   "options": [
-    "nature",
-    "native",
-    "nation",
-    "natural"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Nature — природа, іменник.\n❌ Хибні: Б) native — native — рідний; В) nation — nation — нація; Г) natural — natural — природний прикметник.\n✅ А) nature — nature — природа.",
-   "testLevel": 1
-  },
-  {
-   "text": "I want to ___ a car for a week while we are on holiday.",
-   "options": [
-    "hire",
-    "hurt",
-    "hide",
-    "heat"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Hire a car — взяти напрокат.\n❌ Хибні: Б) hurt — hurt — поранити; В) hide — hide — ховати; Г) heat — heat — нагрівати.\n✅ А) hire — hire — взяти напрокат.",
-   "testLevel": 1
-  },
-  {
-   "text": "I ___ my train, so I had to wait for the next one.",
-   "options": [
-    "lost",
-    "caught",
-    "left",
-    "missed"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Missed train — пропустив потяг.\n❌ Хибні: А) lost — lost — втратив річ; Б) caught — caught — встиг; В) left — left — залишив.\n✅ Г) missed — missed — пропустив.",
-   "testLevel": 1
-  },
-  {
-   "text": "The ___ of the ice at the North Pole is a serious result of global warming.",
-   "options": [
-    "burning",
-    "growing",
-    "melting",
-    "freezing"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Global warming призводить до melting.\n❌ Хибні: А) burning — burning — горіння; Б) growing — growing — зростання; Г) freezing — freezing — замерзання.\n✅ В) melting — melting — танення льоду.",
-   "testLevel": 2
-  },
-  {
-   "text": "Cutting down large areas of forest is called ___.",
-   "options": [
-    "extinction",
-    "pollution",
-    "deforestation",
-    "reforestation"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Deforestation — вирубка лісів.\n❌ Хибні: А) extinction — extinction — вимирання; Б) pollution — pollution — забруднення; Г) reforestation — reforestation — відновлення лісів.\n✅ В) deforestation — deforestation — вирубка лісів.",
-   "testLevel": 2
-  },
-  {
-   "text": "The ___ effect keeps the Earth warm, but too many gases make it too hot.",
-   "options": [
-    "greenhouse",
-    "lighthouse",
-    "household",
-    "warehouse"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Greenhouse effect — парниковий ефект.\n❌ Хибні: Б) lighthouse — lighthouse — маяк; В) household — household — домашній; Г) warehouse — warehouse — склад.\n✅ А) greenhouse — greenhouse effect — парниковий ефект.",
-   "testLevel": 2
-  },
-  {
-   "text": "Factories should reduce the amount of waste they ___ into rivers.",
-   "options": [
-    "pour",
-    "grow",
-    "lift",
-    "raise"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Pour waste into rivers — зливати відходи.\n❌ Хибні: Б) grow — grow — вирощувати; В) lift — lift — підіймати; Г) raise — raise — піднімати.\n✅ А) pour — pour — виливати.",
-   "testLevel": 2
-  },
-  {
-   "text": "Many young people try to reduce their carbon ___ by cycling instead of driving.",
-   "options": [
-    "footprint",
-    "step",
-    "fingerprint",
-    "handprint"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Carbon footprint — вуглецевий слід.\n❌ Хибні: Б) step — step — крок; В) fingerprint — fingerprint — відбиток пальця; Г) handprint — handprint — відбиток руки.\n✅ А) footprint — carbon footprint — вуглецевий слід.",
-   "testLevel": 2
-  },
-  {
-   "text": "We need to find new sources of ___ energy that will never run out, such as the sun and the wind.",
-   "options": [
-    "fossil",
-    "renewable",
-    "artificial",
-    "nuclear"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Renewable energy — що не закінчується.\n❌ Хибні: А) fossil — fossil — викопний; В) artificial — artificial — штучний; Г) nuclear — nuclear — ядерний.\n✅ Б) renewable — renewable — відновлюваний.",
-   "testLevel": 2
-  },
-  {
-   "text": "The government has decided to ___ a new national park to protect rare animals.",
-   "options": [
-    "set off",
-    "set up",
-    "set in",
-    "set out"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Set up a park — створити парк.\n❌ Хибні: А) set off — set off — вирушити; В) set in — set in — настати; Г) set out — set out — викласти чи вирушити.\n✅ Б) set up — set up — створити.",
-   "testLevel": 2
-  },
-  {
-   "text": "Scientists say that the Earth's temperature will ___ if we do not stop burning coal.",
-   "options": [
-    "arouse",
-    "raise",
-    "arise",
-    "rise"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Rise — самостійно зростати.\n❌ Хибні: А) arouse — arouse — збуджувати; Б) raise — raise — піднімати щось, з додатком; В) arise — arise — виникати.\n✅ Г) rise — rise — зростати, без додатка.",
-   "testLevel": 2
-  },
-  {
-   "text": "The ___ of electricity from wind turbines is growing every year.",
-   "options": [
-    "production",
-    "product",
-    "producer",
-    "productive"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Production — виробництво як процес.\n❌ Хибні: Б) product — product — виріб; В) producer — producer — виробник; Г) productive — productive — продуктивний.\n✅ А) production — production — виробництво.",
-   "testLevel": 2
-  },
-  {
-   "text": "Old plastic bottles can be ___ into new products such as clothes.",
-   "options": [
-    "regained",
-    "recovered",
-    "recycled",
-    "repaired"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Recycled into — перероблені на нове.\n❌ Хибні: А) regained — regained — повернені; Б) recovered — recovered — відновлені; Г) repaired — repaired — відремонтовані.\n✅ В) recycled — recycled into — перероблені на.",
-   "testLevel": 2
-  },
-  {
-   "text": "It was raining ___ and dogs, so we stayed at home.",
-   "options": [
-    "cats",
-    "horses",
-    "fish",
-    "birds"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Ідіома: it's raining cats and dogs.\n❌ Хибні: Б) horses — horses — так не кажуть; В) fish — fish — так не кажуть; Г) birds — birds — так не кажуть.\n✅ А) cats — raining cats and dogs — ллє як з відра.",
-   "testLevel": 2
-  },
-  {
-   "text": "I feel a bit ___ the weather today. I think I have a cold.",
-   "options": [
-    "under",
-    "in",
-    "over",
-    "on"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Under the weather — недужий.\n❌ Хибні: Б) in — in the weather — так не кажуть; В) over — over the weather — так не кажуть; Г) on — on the weather — так не кажуть.\n✅ А) under — under the weather — недужий.",
-   "testLevel": 2
-  },
-  {
-   "text": "Planting one tree will not stop global warming. It is only a drop in the ___.",
-   "options": [
-    "ocean",
-    "river",
-    "lake",
-    "sea"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: A drop in the ocean — дрібниця.\n❌ Хибні: Б) river — river — не ідіома; В) lake — lake — не ідіома; Г) sea — sea — не ідіома.\n✅ А) ocean — a drop in the ocean — крапля в морі.",
-   "testLevel": 2
-  },
-  {
-   "text": "Do not worry about the exam. Every cloud has a silver ___.",
-   "options": [
-    "spoon",
-    "lining",
-    "medal",
-    "coin"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Silver lining — світла сторона.\n❌ Хибні: А) spoon — spoon — так не кажуть; В) medal — medal — так не кажуть; Г) coin — coin — так не кажуть.\n✅ Б) lining — every cloud has a silver lining — немає лиха без добра.",
-   "testLevel": 2
-  },
-  {
-   "text": "The ___ was terrible. It rained all week and we could not go to the beach.",
-   "options": [
-    "wether",
-    "whether",
-    "wheather",
-    "weather"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Weather — погода, whether — чи.\n❌ Хибні: А) wether — wether — не існує; Б) whether — whether — чи; В) wheather — wheather — неправильний правопис.\n✅ Г) weather — weather — погода.",
-   "testLevel": 2
-  },
-  {
-   "text": "I do not know ___ it will rain tomorrow or not.",
-   "options": [
-    "weather",
-    "wether",
-    "where",
-    "whether"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Whether ... or not — чи ... чи ні.\n❌ Хибні: А) weather — weather — погода, іменник; Б) wether — wether — не існує; В) where — where — де.\n✅ Г) whether — whether — чи, сполучник.",
-   "testLevel": 2
-  },
-  {
-   "text": "On the first day we went ___ and saw the Eiffel Tower and the Louvre.",
-   "options": [
-    "sightseeing",
-    "sights",
-    "seeing",
-    "sight"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Go sightseeing — оглядати визначні місця.\n❌ Хибні: Б) sights — sights — місця; В) seeing — seeing — бачення; Г) sight — sight — зір.\n✅ А) sightseeing — go sightseeing — оглядати пам’ятки.",
-   "testLevel": 2
-  },
-  {
-   "text": "The hotel room had a wonderful ___ of the sea.",
-   "options": [
-    "sight",
-    "look",
-    "view",
-    "scenery"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: A view of the sea — вид з вікна.\n❌ Хибні: А) sight — sight — зір чи пам’ятка; Б) look — look — погляд; Г) scenery — scenery — краєвиди, не лічильне.\n✅ В) view — a view of — вид на.",
-   "testLevel": 2
-  },
-  {
-   "text": "The ___ in the mountains was beautiful: green valleys, rivers and snowy peaks.",
-   "options": [
-    "sceneries",
-    "scenery",
-    "views",
-    "sights"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Scenery — краєвиди без -s.\n❌ Хибні: А) sceneries — sceneries — так не кажуть; В) views — views — види з місць; Г) sights — sights — пам’ятки міста.\n✅ Б) scenery — scenery — краєвиди, незлічуване.",
-   "testLevel": 2
-  },
-  {
-   "text": "It was a long ___ from Kyiv to Lviv, about nine hours by train.",
-   "options": [
-    "tour",
-    "journey",
-    "voyage",
-    "travel"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Journey — одна поїздка з А до Б.\n❌ Хибні: А) tour — tour — поїздка по кількох місцях; В) voyage — voyage — морська подорож; Г) travel — travel — незлічуване, не після a.\n✅ Б) journey — journey — поїздка з А до Б.",
-   "testLevel": 2
-  },
-  {
-   "text": "We went on a day ___ to the zoo and came back in the evening.",
-   "options": [
-    "voyage",
-    "travel",
-    "trip",
-    "journey"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Day trip — одноденна поїздка.\n❌ Хибні: А) voyage — voyage — морська подорож; Б) travel — travel — подорожі загалом; Г) journey — journey — одна довга поїздка.\n✅ В) trip — trip — коротка поїздка з поверненням.",
-   "testLevel": 2
-  },
-  {
-   "text": "Air ___ has become much cheaper in recent years, so more people can fly abroad.",
-   "options": [
-    "voyage",
-    "travel",
-    "journey",
-    "trip"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Air travel — загальне поняття.\n❌ Хибні: А) voyage — voyage — морська подорож; В) journey — journey — окрема поїздка; Г) trip — trip — коротка поїздка.\n✅ Б) travel — air travel — авіаподорожі, незлічуване.",
-   "testLevel": 2
-  },
-  {
-   "text": "Columbus made his famous ___ across the Atlantic Ocean in 1492.",
-   "options": [
-    "walk",
-    "trip",
-    "travel",
-    "voyage"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Voyage — довга подорож морем.\n❌ Хибні: А) walk — walk — прогулянка; Б) trip — trip — коротка поїздка; В) travel — travel — подорожі загалом.\n✅ Г) voyage — voyage — морська подорож.",
-   "testLevel": 2
-  },
-  {
-   "text": "Please ___ at the reception desk as soon as you arrive at the hotel.",
-   "options": [
-    "check out",
-    "look in",
-    "check up",
-    "check in"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Check in — на початку, check out — в кінці.\n❌ Хибні: А) check out — check out — виселитися; Б) look in — look in — зазирнути; В) check up — check up — обстежити.\n✅ Г) check in — check in — зареєструватися.",
-   "testLevel": 2
-  },
-  {
-   "text": "You must ___ of the hotel before 11 a.m. on the day you leave.",
-   "options": [
-    "look out",
-    "check on",
-    "check out",
-    "check in"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Check out — виселитися.\n❌ Хибні: А) look out — look out — остерігатися; Б) check on — check on — перевірити; Г) check in — check in — заселитися.\n✅ В) check out — check out — виселитися з готелю.",
-   "testLevel": 2
-  },
-  {
-   "text": "The bus will ___ you up at the hotel at eight o'clock.",
-   "options": [
-    "put",
-    "get",
-    "take",
-    "pick"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Pick up — забрати з місця.\n❌ Хибні: А) put — put up — повісити; Б) get — get up — встати; В) take — take up — зайняти.\n✅ Г) pick — pick up — забрати, підібрати.",
-   "testLevel": 2
-  },
-  {
-   "text": "My parents came to the station to ___ me off.",
-   "options": [
-    "put",
-    "see",
-    "take",
-    "let"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: See somebody off — проводжати.\n❌ Хибні: А) put — put off — відкласти; В) take — take off — зняти; Г) let — let off — пробачити.\n✅ Б) see — see off — проводжати.",
-   "testLevel": 2
-  },
-  {
-   "text": "Our train arrives ___ Lviv at six o'clock in the evening.",
-   "options": [
-    "in",
-    "to",
-    "at",
-    "on"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Arrive in a city, arrive at a station.\n❌ Хибні: Б) to — to не вживається; В) at — arrive at — на станції чи в готелі; Г) on — on не вживається.\n✅ А) in — arrive in — у місті чи країні.",
-   "testLevel": 2
-  },
-  {
-   "text": "When we arrived ___ the airport, we looked for the check-in desk.",
-   "options": [
-    "to",
-    "on",
-    "in",
-    "at"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Arrive at the airport.\n❌ Хибні: А) to — to — не вживається; Б) on — on — не вживається; В) in — in — для міста чи країни.\n✅ Г) at — arrive at — прибути в аеропорт.",
-   "testLevel": 2
-  },
-  {
-   "text": "The plane was an hour late, so we ___ our connecting flight.",
-   "options": [
-    "missed",
-    "failed",
-    "left",
-    "lost"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Miss a flight — пропустити рейс.\n❌ Хибні: Б) failed — fail — не вдатися; В) left — leave — залишити; Г) lost — lose — втратити річ.\n✅ А) missed — miss — не встигнути на транспорт.",
-   "testLevel": 2
-  },
-  {
-   "text": "I am afraid I have ___ my passport. I cannot find it anywhere.",
-   "options": [
-    "missed",
-    "left",
-    "forgotten",
-    "lost"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Lose — втратити річ.\n❌ Хибні: А) missed — miss — пропустити; Б) left — leave без вказівки місця; В) forgotten — forget — забути зробити.\n✅ Г) lost — lose — загубити річ.",
-   "testLevel": 2
-  },
-  {
-   "text": "A thief ___ my wallet while I was waiting for the bus.",
-   "options": [
-    "took away",
-    "stole",
-    "robbed",
-    "borrowed"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Steal — вкрасти що-небудь.\n❌ Хибні: А) took away — take away — віднести; В) robbed — rob — пограбувати особу; Г) borrowed — borrow — позичити.\n✅ Б) stole — steal something — вкрасти річ.",
-   "testLevel": 2
-  },
-  {
-   "text": "The man was ___ in the street. They took his phone and his money.",
-   "options": [
-    "stolen",
-    "robbed",
-    "borrowed",
-    "lost"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Rob a person, steal a thing.\n❌ Хибні: А) stolen — stolen — вкрадені; В) borrowed — borrowed — позичений; Г) lost — lost — загублений.\n✅ Б) robbed — rob a person — пограбувати особу.",
-   "testLevel": 2
-  },
-  {
-   "text": "We want to ___ a flat in Prague for a whole year, so we will not need a hotel.",
-   "options": [
-    "rent",
-    "hire",
-    "lend",
-    "borrow"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Rent a flat — зняти житло.\n❌ Хибні: Б) hire — hire — взяти на короткий час; В) lend — lend — позичити комусь; Г) borrow — borrow — взяти безкоштовно.\n✅ А) rent — rent — орендувати надовго.",
-   "testLevel": 2
-  },
-  {
-   "text": "Could you ___ me a glass of water, please? I am very thirsty.",
-   "options": [
-    "carry",
-    "bring",
-    "lift",
-    "take"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Bring — принести мені.\n❌ Хибні: А) carry — carry — нести в руках; В) lift — lift — підіймати; Г) take — take — віднести від мене.\n✅ Б) bring — bring — принести мені.",
-   "testLevel": 2
-  },
-  {
-   "text": "Please ___ this letter to the post office on your way to school.",
-   "options": [
-    "come",
-    "bring",
-    "take",
-    "follow"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Take — віднести, bring — принести.\n❌ Хибні: А) come — come — прийти; Б) bring — bring — принести сюди; Г) follow — follow — іти слідом.\n✅ В) take — take — віднести звідси.",
-   "testLevel": 2
-  },
-  {
-   "text": "The ___ at the airport checked our passports and asked where we were going.",
-   "options": [
-    "dentist",
-    "officer",
-    "waiter",
-    "baker"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Passport control — працює officer.\n❌ Хибні: А) dentist — dentist — стоматолог; В) waiter — waiter — офіціант; Г) baker — baker — пекар.\n✅ Б) officer — officer — офіцер, службовець.",
-   "testLevel": 2
-  },
-  {
-   "text": "My ___ is too heavy: I have packed four pairs of shoes and three coats.",
-   "options": [
-    "luggage",
-    "baggages",
-    "luggages",
-    "a luggage"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Luggage — незлічуваний іменник.\n❌ Хибні: Б) baggages — baggages — так не кажуть; В) luggages — luggages — так не кажуть; Г) a luggage — a luggage — артикль не потрібен.\n✅ А) luggage — luggage — багаж, незлічуване.",
-   "testLevel": 2
-  },
-  {
-   "text": "Can you give me some ___ about trains to Odesa?",
-   "options": [
-    "an information",
-    "informations",
-    "informing",
-    "information"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Information — без -s.\n❌ Хибні: А) an information — an information — так не кажуть; Б) informations — informations — так не кажуть; В) informing — informing — інформування.\n✅ Г) information — information — інформація, незлічуване.",
-   "testLevel": 2
-  },
-  {
-   "text": "We had to wait in the ___ for two hours before our flight.",
-   "options": [
-    "departure lounge",
-    "kitchen",
-    "bedroom",
-    "garage"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Departure lounge — зал вильоту.\n❌ Хибні: Б) kitchen — kitchen — кухня; В) bedroom — bedroom — спальня; Г) garage — garage — гараж.\n✅ А) departure lounge — departure lounge — зал очікування.",
-   "testLevel": 2
-  },
-  {
-   "text": "I would like to buy a ___ ticket to Kyiv, please. I will come back next week.",
-   "options": [
-    "return",
-    "free",
-    "single",
-    "fast"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Return ticket — туди й назад.\n❌ Хибні: Б) free — free ticket — безкоштовний; В) single — single ticket — в один бік; Г) fast — fast ticket — так не кажуть.\n✅ А) return — return ticket — квиток туди й назад.",
-   "testLevel": 2
-  },
-  {
-   "text": "I am only going to Kharkiv for the weekend. I do not need a big suitcase because I like to travel ___.",
-   "options": [
-    "hard",
-    "light",
-    "easy",
-    "heavy"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Travel light — подорожувати налегко.\n❌ Хибні: А) hard — hard — так не кажуть; В) easy — easy — так не кажуть; Г) heavy — heavy — так не кажуть.\n✅ Б) light — travel light — з мінімумом речей.",
-   "testLevel": 2
-  },
-  {
-   "text": "The tourist information centre gave us a free ___ of the city.",
-   "options": [
-    "map",
-    "menu",
-    "bill",
-    "receipt"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Map — карта міста.\n❌ Хибні: Б) menu — menu — меню; В) bill — bill — рахунок; Г) receipt — receipt — чек.\n✅ А) map — map — карта.",
-   "testLevel": 2
-  },
-  {
-   "text": "When you travel abroad, you should always take out travel ___.",
-   "options": [
-    "instruction",
-    "insurance",
-    "invitation",
-    "introduction"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Travel insurance — страховка.\n❌ Хибні: А) instruction — instruction — інструкція; В) invitation — invitation — запрошення; Г) introduction — introduction — вступ.\n✅ Б) insurance — travel insurance — страхування.",
-   "testLevel": 2
-  },
-  {
-   "text": "People who live in a country but were born in another country are ___.",
-   "options": [
-    "immigrants",
-    "passengers",
-    "guides",
-    "tourists"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Immigrants — іммігранти.\n❌ Хибні: Б) passengers — passengers — пасажири; В) guides — guides — гіди; Г) tourists — tourists — туристи.\n✅ А) immigrants — immigrants — іммігранти.",
-   "testLevel": 2
-  },
-  {
-   "text": "Hotel guests may order breakfast in their room. This service is called room ___.",
-   "options": [
-    "menu",
-    "service",
-    "number",
-    "bill"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Room service — обслуговування номерів.\n❌ Хибні: А) menu — menu — меню; В) number — number — номер; Г) bill — bill — рахунок.\n✅ Б) service — room service — обслуговування в номері.",
-   "testLevel": 2
-  },
-  {
-   "text": "The sky is full of dark clouds. It looks as if it is going to ___.",
-   "options": [
-    "rain",
-    "rise",
-    "rule",
-    "rest"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Dark clouds → rain.\n❌ Хибні: Б) rise — rise — підніматися; В) rule — rule — правити; Г) rest — rest — відпочивати.\n✅ А) rain — rain — іти дощу.",
-   "testLevel": 2
-  },
-  {
-   "text": "Temperatures in July are often above thirty degrees in Spain, so it is very ___.",
-   "options": [
-    "dull",
-    "hot",
-    "cool",
-    "wet"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Above thirty degrees — спека.\n❌ Хибні: А) dull — dull — тьмяно; В) cool — cool — прохолодно; Г) wet — wet — мокро.\n✅ Б) hot — hot — спекотно.",
-   "testLevel": 2
-  },
-  {
-   "text": "The air in big cities is often ___ because of the heavy traffic.",
-   "options": [
-    "produced",
-    "protected",
-    "prepared",
-    "polluted"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Polluted air — забруднене повітря.\n❌ Хибні: А) produced — produced — вироблений; Б) protected — protected — захищений; В) prepared — prepared — приготований.\n✅ Г) polluted — polluted — забруднений.",
-   "testLevel": 2
-  },
-  {
-   "text": "Many animals have lost their ___ because people have cut down forests.",
-   "options": [
-    "holidays",
-    "hobbies",
-    "habitats",
-    "handles"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Habitat — середовище існування.\n❌ Хибні: А) holidays — holidays — свята; Б) hobbies — hobbies — хобі; Г) handles — handles — ручки.\n✅ В) habitats — habitats — місця проживання.",
-   "testLevel": 2
-  },
-  {
-   "text": "A person who is paid to show tourists around is a tour ___.",
-   "options": [
-    "guest",
-    "guide",
-    "guess",
-    "guard"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Tour guide — екскурсовод.\n❌ Хибні: А) guest — guest — гість; В) guess — guess — здогад; Г) guard — guard — охоронець.\n✅ Б) guide — tour guide — гід.",
-   "testLevel": 2
-  },
-  {
-   "text": "At the campsite we put up a ___ and slept in sleeping bags.",
-   "options": [
-    "tank",
-    "tale",
-    "tent",
-    "term"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Tent — намет.\n❌ Хибні: А) tank — tank — бак чи танк; Б) tale — tale — казка; Г) term — term — термін.\n✅ В) tent — tent — намет.",
-   "testLevel": 2
-  },
-  {
-   "text": "You must wear a ___ belt when you are in a car.",
-   "options": [
-    "seat",
-    "sit",
-    "set",
-    "safe"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Seat belt — ремінь безпеки.\n❌ Хибні: Б) sit — sit — сидіти; В) set — set — набір; Г) safe — safe — безпечний.\n✅ А) seat — seat belt — ремінь безпеки.",
-   "testLevel": 2
-  },
-  {
-   "text": "The flight was ___ because of the heavy snow, so nobody could fly that day.",
-   "options": [
-    "cleaned",
-    "checked",
-    "booked",
-    "cancelled"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Cancelled — скасований.\n❌ Хибні: А) cleaned — cleaned — прибраний; Б) checked — checked — перевірений; В) booked — booked — забронований.\n✅ Г) cancelled — cancelled — скасований рейс.",
-   "testLevel": 2
-  },
-  {
-   "text": "The receptionist asked us if we wanted full ___ or half board.",
-   "options": [
-    "boss",
-    "board",
-    "boat",
-    "bored"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Full board — повний пансіон.\n❌ Хибні: А) boss — boss — начальник; В) boat — boat — човен; Г) bored — bored — знудьгований.\n✅ Б) board — full board — повний пансіон.",
-   "testLevel": 2
-  },
-  {
-   "text": "The ___ of many species is caused by the loss of their natural habitats.",
-   "options": [
-    "extinction",
-    "expansion",
-    "extension",
-    "existence"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Extinction — повне зникнення виду.\n❌ Хибні: Б) expansion — expansion — розширення; В) extension — extension — подовження; Г) existence — existence — існування.\n✅ А) extinction — extinction — вимирання.",
-   "testLevel": 3
-  },
-  {
-   "text": "Scientists are worried about the loss of ___: more and more species are disappearing from the planet.",
-   "options": [
-    "biology",
-    "biodiversity",
-    "biochemistry",
-    "biography"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Biodiversity — різноманіття життя.\n❌ Хибні: А) biology — biology — біологія; В) biochemistry — biochemistry — біохімія; Г) biography — biography — біографія.\n✅ Б) biodiversity — biodiversity — біорізноманіття.",
-   "testLevel": 3
-  },
-  {
-   "text": "We need ___ development that does not harm the environment for future generations.",
-   "options": [
-    "sustainably",
-    "sustainable",
-    "sustain",
-    "sustainability"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Перед іменником потрібен прикметник.\n❌ Хибні: А) sustainably — sustainably — прислівник; В) sustain — sustain — дієслово; Г) sustainability — sustainability — іменник.\n✅ Б) sustainable — sustainable — сталий.",
-   "testLevel": 3
-  },
-  {
-   "text": "Cars and factories produce harmful ___ that pollute the air.",
-   "options": [
-    "omissions",
-    "admissions",
-    "missions",
-    "emissions"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Emissions — викиди в атмосферу.\n❌ Хибні: А) omissions — omissions — пропуски; Б) admissions — admissions — прийоми чи визнання; В) missions — missions — місії.\n✅ Г) emissions — emissions — викиди.",
-   "testLevel": 3
-  },
-  {
-   "text": "Most of our rubbish is buried in a huge ___ site outside the city.",
-   "options": [
-    "landmark",
-    "landfill",
-    "landslide",
-    "landlord"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Landfill — місце для відходів.\n❌ Хибні: А) landmark — landmark — пам’ятка; В) landslide — landslide — зсув ґрунту; Г) landlord — landlord — орендодавець.\n✅ Б) landfill — landfill — сміттєзвалище.",
-   "testLevel": 3
-  },
-  {
-   "text": "There has been no rain for months, and farmers are afraid of a ___.",
-   "options": [
-    "drought",
-    "hurricane",
-    "avalanche",
-    "flood"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Drought — тривала відсутність дощу.\n❌ Хибні: Б) hurricane — hurricane — ураган; В) avalanche — avalanche — лавина; Г) flood — flood — повінь.\n✅ А) drought — drought — посуха.",
-   "testLevel": 3
-  },
-  {
-   "text": "After the heavy rains, the river burst its banks and there was a terrible ___ in the village.",
-   "options": [
-    "drought",
-    "flood",
-    "earthquake",
-    "eruption"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Flood — розлив води.\n❌ Хибні: А) drought — drought — посуха; В) earthquake — earthquake — землетрус; Г) eruption — eruption — виверження.\n✅ Б) flood — flood — повінь.",
-   "testLevel": 3
-  },
-  {
-   "text": "A violent shaking of the ground that can destroy buildings is an ___.",
-   "options": [
-    "tide",
-    "earthquake",
-    "avalanche",
-    "tornado"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Earthquake — землетрус.\n❌ Хибні: А) tide — tide — приплив; В) avalanche — avalanche — лавина; Г) tornado — tornado — торнадо.\n✅ Б) earthquake — earthquake — землетрус.",
-   "testLevel": 3
-  },
-  {
-   "text": "A huge mass of snow that slides down a mountain is an ___.",
-   "options": [
-    "earthquake",
-    "avalanche",
-    "volcano",
-    "drought"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Avalanche — снігова лавина.\n❌ Хибні: А) earthquake — earthquake — землетрус; В) volcano — volcano — вулкан; Г) drought — drought — посуха.\n✅ Б) avalanche — avalanche — снігова лавина.",
-   "testLevel": 3
-  },
-  {
-   "text": "Illegal hunting of wild animals, such as elephants for their tusks, is called ___.",
-   "options": [
-    "poaching",
-    "fishing",
-    "trading",
-    "camping"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Poaching — незаконне полювання.\n❌ Хибні: Б) fishing — fishing — риболовля; В) trading — trading — торгівля; Г) camping — camping — кемпінг.\n✅ А) poaching — poaching — браконьєрство.",
-   "testLevel": 3
-  },
-  {
-   "text": "The ___ of rare animals is the main aim of this nature reserve.",
-   "options": [
-    "construction",
-    "conversion",
-    "conservation",
-    "conversation"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Conservation — охорона природи.\n❌ Хибні: А) construction — construction — будівництво; Б) conversion — conversion — перетворення; Г) conversation — conversation — розмова.\n✅ В) conservation — conservation — збереження.",
-   "testLevel": 3
-  },
-  {
-   "text": "This is a popular seaside ___ with hotels, beaches and restaurants.",
-   "options": [
-    "resident",
-    "resort",
-    "result",
-    "resource"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Seaside resort — морський курорт.\n❌ Хибні: А) resident — resident — мешканець; В) result — result — результат; Г) resource — resource — ресурс.\n✅ Б) resort — resort — курорт.",
-   "testLevel": 3
-  },
-  {
-   "text": "A holiday where the flight, the hotel and the meals are all sold together is a ___ holiday.",
-   "options": [
-    "parcel",
-    "pack",
-    "packet",
-    "package"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Package holiday — все включено.\n❌ Хибні: А) parcel — parcel — посилка; Б) pack — pack — пакунок чи зграя; В) packet — packet — пачка.\n✅ Г) package — package holiday — комплексний тур.",
-   "testLevel": 3
-  },
-  {
-   "text": "A short trip for a group of people, usually to a place of interest, is an ___.",
-   "options": [
-    "excuse",
-    "excursion",
-    "exclusion",
-    "exercise"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Excursion — організована поїздка.\n❌ Хибні: А) excuse — excuse — вибачення; В) exclusion — exclusion — виключення; Г) exercise — exercise — вправа.\n✅ Б) excursion — excursion — екскурсія.",
-   "testLevel": 3
-  },
-  {
-   "text": "You can buy a small ___ in the shop to remember your holiday.",
-   "options": [
-    "souvenir",
-    "supervisor",
-    "surveyor",
-    "survivor"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Souvenir — сувенір на згадку.\n❌ Хибні: Б) supervisor — supervisor — наглядач; В) surveyor — surveyor — землемір; Г) survivor — survivor — той, хто вижив.\n✅ А) souvenir — souvenir — сувенір.",
-   "testLevel": 3
-  },
-  {
-   "text": "We booked ___ in a small hostel, which was cheap and clean.",
-   "options": [
-    "accountant",
-    "accommodation",
-    "accompaniment",
-    "accomplishment"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Accommodation — місце проживання.\n❌ Хибні: А) accountant — accountant — бухгалтер; В) accompaniment — accompaniment — супровід; Г) accomplishment — accomplishment — досягнення.\n✅ Б) accommodation — accommodation — житло, незлічуване.",
-   "testLevel": 3
-  },
-  {
-   "text": "After landing, passengers pick up their suitcases at the baggage ___.",
-   "options": [
-    "order",
-    "request",
-    "claim",
-    "demand"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Baggage claim — видача багажу.\n❌ Хибні: А) order — order — замовлення; Б) request — request — прохання; Г) demand — demand — вимога.\n✅ В) claim — baggage claim — отримання багажу.",
-   "testLevel": 3
-  },
-  {
-   "text": "We had a two-hour ___ in Frankfurt before our flight to Rome.",
-   "options": [
-    "hangover",
-    "handover",
-    "takeover",
-    "stopover"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Stopover — зупинка під час перельоту.\n❌ Хибні: А) hangover — hangover — похмілля; Б) handover — handover — передача; В) takeover — takeover — поглинання.\n✅ Г) stopover — stopover — зупинка між рейсами.",
-   "testLevel": 3
-  },
-  {
-   "text": "The airline had ___ the flight, so more passengers had tickets than there were seats.",
-   "options": [
-    "overbooked",
-    "overtaken",
-    "overheard",
-    "overcome"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Overbook — продати більше місць.\n❌ Хибні: Б) overtaken — overtake — обігнати; В) overheard — overhear — підслухати; Г) overcome — overcome — подолати.\n✅ А) overbooked — overbook — продати забагато квитків.",
-   "testLevel": 3
-  },
-  {
-   "text": "We ___ from home at five in the morning to avoid the heavy traffic.",
-   "options": [
-    "set off",
-    "set about",
-    "set up",
-    "set in"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Set off — вирушити в дорогу.\n❌ Хибні: Б) set about — set about — взятися до; В) set up — set up — заснувати; Г) set in — set in — настати.\n✅ А) set off — set off — вирушити.",
-   "testLevel": 3
-  },
-  {
-   "text": "The car ___ down on the motorway, so we had to wait for help.",
-   "options": [
-    "ran",
-    "broke",
-    "turned",
-    "fell"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Break down — зламатися.\n❌ Хибні: А) ran — run down — збити чи зменшити; В) turned — turn down — відхилити; Г) fell — fall down — впасти.\n✅ Б) broke — break down — зламатися.",
-   "testLevel": 3
-  },
-  {
-   "text": "We bumped ___ an old school friend at the airport. What a surprise!",
-   "options": [
-    "by",
-    "on",
-    "at",
-    "into"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Bump into — випадково зустрітися.\n❌ Хибні: А) by — bump by — так не кажуть; Б) on — bump on — так не кажуть; В) at — bump at — так не кажуть.\n✅ Г) into — bump into — випадково зустріти.",
-   "testLevel": 3
-  },
-  {
-   "text": "While we were walking in the old town, we came ___ a lovely little café.",
-   "options": [
-    "over",
-    "across",
-    "along",
-    "round"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Come across — випадково знайти.\n❌ Хибні: А) over — come over — завітати; В) along — come along — прийти разом; Г) round — come round — прийти до тями.\n✅ Б) across — come across — натрапити на.",
-   "testLevel": 3
-  },
-  {
-   "text": "Please ___ your seat belts. The plane is going to take off in a few minutes.",
-   "options": [
-    "fasten",
-    "join",
-    "fix",
-    "hang"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Fasten seat belts — пристебнути.\n❌ Хибні: Б) join — join — приєднати; В) fix — fix — полагодити; Г) hang — hang — повісити.\n✅ А) fasten — fasten — застебнути.",
-   "testLevel": 3
-  },
-  {
-   "text": "Our flight was delayed because of bad weather ___.",
-   "options": [
-    "positions",
-    "directions",
-    "questions",
-    "conditions"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Weather conditions — погодні умови.\n❌ Хибні: А) positions — positions — позиції; Б) directions — directions — напрямки; В) questions — questions — питання.\n✅ Г) conditions — weather conditions — погодні умови.",
-   "testLevel": 3
-  },
-  {
-   "text": "The air is wet and heavy, and our clothes stick to our skin. It is a very ___ day.",
-   "options": [
-    "harsh",
-    "dull",
-    "mild",
-    "humid"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Humid — з високою вологістю.\n❌ Хибні: А) harsh — harsh — суворий; Б) dull — dull — похмурий; В) mild — mild — м’який.\n✅ Г) humid — humid — волого та задушливо.",
-   "testLevel": 3
-  },
-  {
-   "text": "It was a ___ day in April: it was neither hot nor cold.",
-   "options": [
-    "mile",
-    "wild",
-    "mild",
-    "mind"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Mild — м’який, помірний.\n❌ Хибні: А) mile — mile — миля; Б) wild — wild — дикий; Г) mind — mind — розум.\n✅ В) mild — mild — помірний.",
-   "testLevel": 3
-  },
-  {
-   "text": "A very strong wind that can break trees is a ___.",
-   "options": [
-    "drizzle",
-    "gale",
-    "haze",
-    "breeze"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Gale — сильний вітер.\n❌ Хибні: А) drizzle — drizzle — дрібний дощ; В) haze — haze — легка серпанкова імла; Г) breeze — breeze — легкий вітерець.\n✅ Б) gale — gale — шторм із сильним вітром.",
-   "testLevel": 3
-  },
-  {
-   "text": "Despite the bad forecast, the match will take place come rain or ___.",
-   "options": [
-    "wind",
-    "sun",
-    "shine",
-    "snow"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Come rain or shine — за будь-яких умов.\n❌ Хибні: А) wind — wind — так не кажуть; Б) sun — sun — так не кажуть; Г) snow — snow — так не кажуть.\n✅ В) shine — come rain or shine — за будь-якої погоди.",
-   "testLevel": 3
-  },
-  {
-   "text": "What does the idiom 'to be on cloud nine' mean?",
-   "options": [
-    "to be afraid of flying",
-    "to be lost in the fog",
-    "to be ill and tired",
-    "to be extremely happy"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: On cloud nine — дуже щасливий.\n❌ Хибні: А) to be afraid of flying — про страх літання не йдеться; Б) to be lost in the fog — про туман не йдеться; В) to be ill and tired — про хворобу не йдеться.\n✅ Г) to be extremely happy — on cloud nine — на сьомому небі.",
-   "testLevel": 3
-  },
-  {
-   "text": "What does the idiom 'a storm in a teacup' mean?",
-   "options": [
-    "a quiet and peaceful evening",
-    "a lot of fuss about something unimportant",
-    "a very strong storm at sea",
-    "a cup of hot tea in cold weather"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Storm in a teacup — буря у склянці води.\n❌ Хибні: А) a quiet and peaceful evening — це протилежний зміст; В) a very strong storm at sea — це буквальне тлумачення; Г) a cup of hot tea in cold weather — це буквальне тлумачення.\n✅ Б) a lot of fuss about something unimportant — storm in a teacup — шум з нічого.",
-   "testLevel": 3
-  },
-  {
-   "text": "What does the idiom 'once in a blue moon' mean?",
-   "options": [
-    "very rarely",
-    "every night",
-    "at midnight",
-    "very often"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Once in a blue moon — раз на сто років.\n❌ Хибні: Б) every night — це суперечить ідіомі; В) at midnight — це не ідіома; Г) very often — це протилежний зміст.\n✅ А) very rarely — once in a blue moon — дуже рідко.",
-   "testLevel": 3
-  },
-  {
-   "text": "What does the idiom 'a breath of fresh air' describe?",
-   "options": [
-    "a deep breath before swimming",
-    "bad weather in the mountains",
-    "something new and refreshing",
-    "a heavy cold"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Breath of fresh air — приємна новизна.\n❌ Хибні: А) a deep breath before swimming — це буквальне тлумачення; Б) bad weather in the mountains — це не про погоду; Г) a heavy cold — це не про хворобу.\n✅ В) something new and refreshing — breath of fresh air — свіже й приємне.",
-   "testLevel": 3
-  },
-  {
-   "text": "What does 'to break the ice' mean?",
-   "options": [
-    "to wash with cold water",
-    "to stop a talk",
-    "to make people feel relaxed when they first meet",
-    "to make a hole in the ice"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Break the ice — розпочати розмову.\n❌ Хибні: А) to wash with cold water — це не пов’язано; Б) to stop a talk — це протилежний зміст; Г) to make a hole in the ice — це буквальне тлумачення.\n✅ В) to make people feel relaxed when they first meet — break the ice — розрядити атмосферу.",
-   "testLevel": 3
-  },
-  {
-   "text": "Many tourists are attracted by the natural ___ of the area. (BEAUTIFUL)",
-   "options": [
-    "beautiful",
-    "beautify",
-    "beauty",
-    "beautifully"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Перед of і після the natural — іменник.\n❌ Хибні: А) beautiful — beautiful — прикметник; Б) beautify — beautify — дієслово; Г) beautifully — beautifully — прислівник.\n✅ В) beauty — beauty — краса, іменник.",
-   "testLevel": 3
-  },
-  {
-   "text": "The ___ of the rainforests is a serious threat to wildlife. (DESTROY)",
-   "options": [
-    "destroyer",
-    "destruction",
-    "destructive",
-    "destroying"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Після the і перед of — destruction.\n❌ Хибні: А) destroyer — destroyer — руйнівник; В) destructive — destructive — руйнівний; Г) destroying — destroying — герундій.\n✅ Б) destruction — destruction — руйнування.",
-   "testLevel": 3
-  },
-  {
-   "text": "Visitors to the museum are always ___ by its size. (IMPRESS)",
-   "options": [
-    "impressed",
-    "impressive",
-    "impressing",
-    "impression"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: -ed описує людину, яка вражена.\n❌ Хибні: Б) impressive — impressive — вражаючий; В) impressing — impressing — той, що вражає; Г) impression — impression — враження.\n✅ А) impressed — impressed — вражені.",
-   "testLevel": 3
-  },
-  {
-   "text": "It was a very ___ journey because the bus was hot and crowded. (COMFORT)",
-   "options": [
-    "uncomfortable",
-    "discomfortable",
-    "noncomfortable",
-    "incomfortable"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Comfortable має префікс un-.\n❌ Хибні: Б) discomfortable — discomfortable — так не кажуть; В) noncomfortable — noncomfortable — так не кажуть; Г) incomfortable — incomfortable — так не кажуть.\n✅ А) uncomfortable — uncomfortable — незручний.",
-   "testLevel": 3
-  },
-  {
-   "text": "He is a very ___ person who loves climbing mountains and travelling to wild places. (ADVENTURE)",
-   "options": [
-    "adventure",
-    "adventured",
-    "adventurous",
-    "adventurer"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Перед person потрібен прикметник.\n❌ Хибні: А) adventure — adventure — пригода; Б) adventured — adventured — так не кажуть; Г) adventurer — adventurer — шукач пригод.\n✅ В) adventurous — adventurous — схильний до пригод.",
-   "testLevel": 3
-  },
-  {
-   "text": "Ukraine has great ___ for tourism: the Carpathians, the Black Sea and many historic cities. (POTENT)",
-   "options": [
-    "potential",
-    "potent",
-    "potentially",
-    "potency"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Great potential — великий потенціал.\n❌ Хибні: Б) potent — potent — сильнодіючий; В) potentially — potentially — прислівник; Г) potency — potency — сила дії.\n✅ А) potential — potential — потенціал.",
-   "testLevel": 3
-  },
-  {
-   "text": "Environmental ___ say that we have only a few years to act. (SCIENCE)",
-   "options": [
-    "scientists",
-    "sciences",
-    "scientifically",
-    "scientific"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Після Environmental і перед say — scientists.\n❌ Хибні: Б) sciences — sciences — науки; В) scientifically — scientifically — науково; Г) scientific — scientific — науковий.\n✅ А) scientists — scientists — вчені.",
-   "testLevel": 3
-  },
-  {
-   "text": "Modern apps allow ___ to find places easily with the help of GPS. (TRAVEL)",
-   "options": [
-    "travels",
-    "travelling",
-    "travelled",
-    "travellers"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Після allow потрібен іменник у множині.\n❌ Хибні: А) travels — travels — подорожі; Б) travelling — travelling — подорожування; В) travelled — travelled — подорожував.\n✅ Г) travellers — travellers — мандрівники.",
-   "testLevel": 3
-  },
-  {
-   "text": "___ the heavy rain, we went for a long walk in the forest.",
-   "options": [
-    "However",
-    "Although",
-    "Because",
-    "Despite"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Despite + іменник, although + речення.\n❌ Хибні: А) However — however — проте, окреме речення; Б) Although — although + підмет і дієслово; В) Because — because — тому що.\n✅ Г) Despite — despite + іменник — незважаючи на.",
-   "testLevel": 3
-  },
-  {
-   "text": "___ it was raining, we decided to go for a walk.",
-   "options": [
-    "However",
-    "Although",
-    "Despite",
-    "In spite"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Although + підмет + дієслово.\n❌ Хибні: А) However — however — окреме слово; В) Despite — despite потребує іменника; Г) In spite — in spite потребує of.\n✅ Б) Although — although + речення — хоча.",
-   "testLevel": 3
-  },
-  {
-   "text": "You will get wet ___ you take an umbrella.",
-   "options": [
-    "if",
-    "until",
-    "because",
-    "unless"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Unless = if not.\n❌ Хибні: А) if — if — якщо; Б) until — until — доки; В) because — because — тому що.\n✅ Г) unless — unless — якщо не.",
-   "testLevel": 3
-  },
-  {
-   "text": "A: Excuse me, how do I get to the railway station? B: ___",
-   "options": [
-    "I have been there twice.",
-    "Go straight on and turn left at the traffic lights.",
-    "Yes, it is a nice station.",
-    "It takes two hours by train."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Питання про дорогу — відповідь з указівками.\n❌ Хибні: А) I have been there twice. — це відповідь про досвід; В) Yes, it is a nice station. — це не відповідь на запитання; Г) It takes two hours by train. — це відповідь про тривалість.\n✅ Б) Go straight on and turn left at the traffic lights. — це відповідь на запитання про дорогу.",
-   "testLevel": 3
-  },
-  {
-   "text": "A: Good evening. I have booked a double room for two nights. B: ___",
-   "options": [
-    "I am looking for a job.",
-    "You are welcome.",
-    "Could I have your name, please?",
-    "It was delicious."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Адміністратор перевіряє бронювання.\n❌ Хибні: А) I am looking for a job. — це недоречна репліка; Б) You are welcome. — це відповідь на подяку; Г) It was delicious. — це про їжу.\n✅ В) Could I have your name, please? — типова відповідь адміністратора.",
-   "testLevel": 3
-  },
-  {
-   "text": "A: Could I see your boarding pass, please? B: ___",
-   "options": [
-    "Never mind.",
-    "Here you are.",
-    "Not at all.",
-    "You are welcome."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Here you are — ось, будь ласка.\n❌ Хибні: А) Never mind. — це відповідь на вибачення; В) Not at all. — це відповідь на подяку; Г) You are welcome. — це відповідь на подяку.\n✅ Б) Here you are. — стандартна відповідь на прохання.",
-   "testLevel": 3
-  },
-  {
-   "text": "A: What is the weather like today? B: ___",
-   "options": [
-    "Yes, it is a good weather.",
-    "It was yesterday.",
-    "I like it very much.",
-    "It is cloudy but quite warm."
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: What is the weather like? — опис погоди.\n❌ Хибні: А) Yes, it is a good weather. — неправильна форма відповіді; Б) It was yesterday. — це відповідь про час; В) I like it very much. — це не відповідь про погоду.\n✅ Г) It is cloudy but quite warm. — це відповідь про погоду.",
-   "testLevel": 3
-  },
-  {
-   "text": "A: Would you like to come camping with us this weekend? B: ___",
-   "options": [
-    "I would love to, but I am afraid I have an exam.",
-    "Yes, I do, I like camping very much.",
-    "No, I would not come.",
-    "You are welcome, thank you."
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Ввічливо відмовляємо з поясненням.\n❌ Хибні: Б) Yes, I do, I like camping very much. — не відповідає на пропозицію; В) No, I would not come. — занадто різка відмова; Г) You are welcome, thank you. — це відповідь на подяку.\n✅ А) I would love to, but I am afraid I have an exam. — ввічлива відмова з причиною.",
-   "testLevel": 3
-  },
-  {
-   "text": "Look at those dark clouds. It ___ rain.",
-   "options": [
-    "will to",
-    "is going to",
-    "is will",
-    "shall to"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Be going to — висновок із фактів.\n❌ Хибні: А) will to — will to — так не кажуть; В) is will — is will — так не кажуть; Г) shall to — shall to — так не кажуть.\n✅ Б) is going to — is going to — прогноз за ознаками.",
-   "testLevel": 3
-  },
-  {
-   "text": "By 2050, sea levels ___ by about half a metre, according to some scientists.",
-   "options": [
-    "rise to",
-    "will have risen",
-    "have been risen",
-    "are rising to"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Future Perfect — до певної дати.\n❌ Хибні: А) rise to — rise to — не підходить за змістом; В) have been risen — have been risen — неправильна форма; Г) are rising to — are rising to — не про прогноз.\n✅ Б) will have risen — will have risen — до певного моменту.",
-   "testLevel": 3
-  },
-  {
-   "text": "The more we recycle, the ___ waste goes to landfill sites.",
-   "options": [
-    "least",
-    "fewer",
-    "lesser",
-    "less"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Waste — незлічуване, тому less.\n❌ Хибні: А) least — least — найменше; Б) fewer — fewer не вживається з waste; В) lesser — lesser — застаріла форма.\n✅ Г) less — the more … the less — чим більше, тим менше.",
-   "testLevel": 3
-  },
-  {
-   "text": "There are ___ cars on the roads than ten years ago, so the air in the city is dirtier.",
-   "options": [
-    "much",
-    "most",
-    "more",
-    "many"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Порівняння: more … than.\n❌ Хибні: А) much — much — багато без than; Б) most — most — найбільше; Г) many — many без than.\n✅ В) more — more — більше.",
-   "testLevel": 3
-  },
-  {
-   "text": "Nobody ___ the news about the storm until it was too late.",
-   "options": [
-    "has known",
-    "knows",
-    "was knowing",
-    "knew"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Until + минулий час — knew.\n❌ Хибні: А) has known — has known не з until; Б) knows — knows — теперішній час; В) was knowing — was knowing — так не кажуть.\n✅ Г) knew — knew — знав.",
-   "testLevel": 3
-  },
-  {
-   "text": "By the time the guide arrived, the tourists ___ already put up their tents.",
-   "options": [
-    "did",
-    "were",
-    "have",
-    "had"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Past Perfect: had + III форма.\n❌ Хибні: А) did — did — потребує інфінітива без already; Б) were — were — пасив тут не підходить; В) have — have — теперішній час не пасує.\n✅ Г) had — had already put — Past Perfect, дія до моменту.",
-   "testLevel": 3
-  }
- ],
- "cards": [
-  {
-   "question": "Environmental problems",
-   "answer": "pollution (air, water, noise), global warming, greenhouse effect, climate change, deforestation (вирубка лісів), litter (сміття), acid rain, endangered species."
-  },
-  {
-   "question": "Environmental solutions",
-   "answer": "recycle (переробляти), reduce (скорочувати), reuse (використовувати повторно), save energy, plant trees, use public transport, switch off the lights."
-  },
-  {
-   "question": "Energy",
-   "answer": "fossil fuels (coal, oil, gas) — викопне паливо; renewable energy: solar, wind, hydro (енергія сонця, вітру, води); nuclear power; power station."
-  },
-  {
-   "question": "Eco phrases",
-   "answer": "carbon footprint (вуглецевий слід), greenhouse gases, ozone layer, natural resources, nature reserve (заповідник), national park, go green (переходити на екопрактики)."
-  },
-  {
-   "question": "Weather words",
-   "answer": "sunny, cloudy, windy, rainy, foggy, stormy, freezing, humid (вологий), drizzle (дрібний дощ), thunder, lightning, forecast (прогноз), temperature, degrees."
-  },
-  {
-   "question": "Landscape",
-   "answer": "mountain, hill, valley, river, lake, waterfall, forest, desert, island, coast, cliff, bay, meadow (луг), field."
-  },
-  {
-   "question": "Animals and habitat",
-   "answer": "wildlife, habitat (середовище існування), endangered species, extinct (вимерлий), predator (хижак), prey (здобич), mammal, reptile, insect, nest."
-  },
-  {
-   "question": "Collective nouns",
-   "answer": "a flock of sheep/birds, a herd of cows/elephants, a pack of wolves, a swarm of bees, a school of fish."
-  },
-  {
-   "question": "Airport",
-   "answer": "check in, boarding pass, departure/arrival, gate, passport control, customs, luggage/baggage, flight, delayed (затриманий), cancelled (скасований), take off, land."
-  },
-  {
-   "question": "Hotel",
-   "answer": "book/reserve a room, single/double room, full board, half board, bed and breakfast, reception, check in/out, a view of the sea."
-  },
-  {
-   "question": "Transport",
-   "answer": "train, coach (міжміський автобус), tram, ferry (пором), taxi; platform, station, single/return ticket, fare, timetable, passenger, catch/miss a bus."
-  },
-  {
-   "question": "journey / trip / travel / voyage",
-   "answer": "journey — поїздка з пункту А до Б; trip — коротка поїздка з поверненням; travel — подорожі загалом (незлічуваний); voyage — морська подорож; tour — поїздка по кількох місцях."
-  },
-  {
-   "question": "sights / view / scenery",
-   "answer": "sights — визначні місця міста; view — вид з певного місця (a view of the sea); scenery — краєвиди, природа навколо (незлічуваний)."
-  },
-  {
-   "question": "Travel phrasal verbs",
-   "answer": "set off (вирушити), check in/out, get on/off, take off, pick up, drop off, see off (проводжати), look around, stop over."
-  },
-  {
-   "question": "Travel collocations",
-   "answer": "make a reservation, pack a suitcase, miss the flight, go sightseeing, catch a train, book tickets, go on holiday, travel light (мало багажу), take a taxi."
-  },
-  {
-   "question": "arrive at / in",
-   "answer": "arrive at — станція, аеропорт, готель, будівля; arrive in — місто чи країна: arrive at the station, arrive in Kyiv."
-  },
-  {
-   "question": "lose / miss",
-   "answer": "lose — втратити річ, гру; miss — пропустити транспорт, зустріч, також сумувати за кимось."
-  },
-  {
-   "question": "hire / rent",
-   "answer": "hire a car/bike — взяти на короткий час; rent a flat/house — зняти надовго."
-  },
-  {
-   "question": "bring / take",
-   "answer": "bring — принести сюди, до мене; take — віднести звідси, взяти з собою кудись."
-  },
-  {
-   "question": "steal / rob",
-   "answer": "steal something from somebody — вкрасти річ; rob a person/bank — пограбувати особу чи установу."
-  },
-  {
-   "question": "weather / whether",
-   "answer": "weather — погода (іменник); whether — чи (сполучник): I do not know whether it will rain."
-  },
-  {
-   "question": "Uncountable travel nouns",
-   "answer": "luggage, baggage, information, advice, weather, scenery, traffic, equipment — без -s та без a/an; лічильні: a journey, a trip, a flight, a suitcase."
-  },
-  {
-   "question": "Word formation: environment",
-   "answer": "pollute → pollution/polluted; protect → protection; danger → dangerous/endangered; tour → tourist/tourism; travel → traveller; nature → natural."
-  },
-  {
-   "question": "Environment idioms",
-   "answer": "a drop in the ocean (крапля в морі), it is raining cats and dogs (ллє як з відра), under the weather (недужий), every cloud has a silver lining, a storm in a teacup."
-  },
-  {
-   "question": "Travel by...",
-   "answer": "by car, by bus, by train, by plane, by boat — без артикля; але on foot — пішки; in a taxi, in a car — «у» конкретному транспорті."
-  }
- ]
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Environment, Nature & Travel",
+  "questions": [
+    {
+      "text": "A place with a lot of trees is a ___.",
+      "options": [
+        "desert",
+        "forest",
+        "island",
+        "valley"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Ліс — це forest.\n❌ Хибні: А) desert — desert — пустеля; В) island — island — острів; Г) valley — valley — долина.\n✅ Б) forest — forest — ліс.",
+      "testLevel": 1
+    },
+    {
+      "text": "A very hot and dry place with a lot of sand is a ___.",
+      "options": [
+        "meadow",
+        "desert",
+        "forest",
+        "lake"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Пустеля — desert.\n❌ Хибні: А) meadow — meadow — луг; В) forest — forest — ліс; Г) lake — lake — озеро.\n✅ Б) desert — desert — пустеля.",
+      "testLevel": 1
+    },
+    {
+      "text": "An area of land with water all around it is an ___.",
+      "options": [
+        "desert",
+        "valley",
+        "cliff",
+        "island"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Острів — island.\n❌ Хибні: А) desert — desert — пустеля; Б) valley — valley — долина; В) cliff — cliff — скеля над морем.\n✅ Г) island — island — острів.",
+      "testLevel": 1
+    },
+    {
+      "text": "It is raining very hard and the sky is dark. It is ___ weather.",
+      "options": [
+        "calm",
+        "dry",
+        "sunny",
+        "stormy"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Stormy weather — негода.\n❌ Хибні: А) calm — calm — тихий; Б) dry — dry — сухий; В) sunny — sunny — сонячний.\n✅ Г) stormy — stormy — бурхливий з грозою.",
+      "testLevel": 1
+    },
+    {
+      "text": "It is very cold today. The temperature is minus ten degrees. It is ___.",
+      "options": [
+        "warm",
+        "humid",
+        "freezing",
+        "boiling"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Freezing — морозно.\n❌ Хибні: А) warm — warm — тепло; Б) humid — humid — волого; Г) boiling — boiling — дуже гаряче.\n✅ В) freezing — freezing — дуже холодно.",
+      "testLevel": 1
+    },
+    {
+      "text": "There is a thick mist outside and I cannot see the road. It is ___.",
+      "options": [
+        "foggy",
+        "windy",
+        "cloudy",
+        "sunny"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Foggy — туманно.\n❌ Хибні: Б) windy — windy — вітряно; В) cloudy — cloudy — хмарно; Г) sunny — sunny — сонячно.\n✅ А) foggy — foggy — туманно.",
+      "testLevel": 1
+    },
+    {
+      "text": "Water that falls from the sky is ___.",
+      "options": [
+        "sun",
+        "ice",
+        "wind",
+        "rain"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Rain — дощ.\n❌ Хибні: А) sun — sun — сонце; Б) ice — ice — лід; В) wind — wind — вітер.\n✅ Г) rain — rain — дощ.",
+      "testLevel": 1
+    },
+    {
+      "text": "Before we go on a picnic, let us check the weather ___.",
+      "options": [
+        "prediction",
+        "forecast",
+        "future",
+        "fortune"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Weather forecast — прогноз погоди.\n❌ Хибні: А) prediction — prediction — передбачення; В) future — future — майбутнє; Г) fortune — fortune — доля.\n✅ Б) forecast — forecast — прогноз погоди.",
+      "testLevel": 1
+    },
+    {
+      "text": "We must ___ paper, glass and plastic to protect the environment.",
+      "options": [
+        "waste",
+        "throw",
+        "recycle",
+        "burn"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Recycle — переробляти.\n❌ Хибні: А) waste — waste — марнувати; Б) throw — throw — викидати; Г) burn — burn — спалювати.\n✅ В) recycle — recycle — переробляти.",
+      "testLevel": 1
+    },
+    {
+      "text": "Dirty air from factories and cars is air ___.",
+      "options": [
+        "protection",
+        "invention",
+        "production",
+        "pollution"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Air pollution — забруднення повітря.\n❌ Хибні: А) protection — protection — захист; Б) invention — invention — винахід; В) production — production — виробництво.\n✅ Г) pollution — pollution — забруднення.",
+      "testLevel": 1
+    },
+    {
+      "text": "Paper, glass and cans are put into different bins to be ___.",
+      "options": [
+        "repeated",
+        "reached",
+        "recycled",
+        "recorded"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Recycled — перероблені.\n❌ Хибні: А) repeated — repeated — повторені; Б) reached — reached — досягнуті; Г) recorded — recorded — записані.\n✅ В) recycled — recycled — перероблені.",
+      "testLevel": 1
+    },
+    {
+      "text": "Solar, wind and water power are types of ___ energy.",
+      "options": [
+        "renewable",
+        "expensive",
+        "nuclear",
+        "dangerous"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Renewable energy — відновлювана.\n❌ Хибні: Б) expensive — expensive — дорогий; В) nuclear — nuclear — ядерний; Г) dangerous — dangerous — небезпечний.\n✅ А) renewable — renewable — відновлюваний.",
+      "testLevel": 1
+    },
+    {
+      "text": "Coal, oil and gas are called ___ fuels.",
+      "options": [
+        "fossil",
+        "green",
+        "solar",
+        "natural"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Fossil fuels — викопне паливо.\n❌ Хибні: Б) green — green — зелений; В) solar — solar — сонячний; Г) natural — natural — природний.\n✅ А) fossil — fossil fuels — викопне паливо.",
+      "testLevel": 1
+    },
+    {
+      "text": "Animals that are in danger of disappearing are ___ species.",
+      "options": [
+        "extinct",
+        "common",
+        "domestic",
+        "endangered"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Endangered species — під загрозою.\n❌ Хибні: А) extinct — extinct — уже вимерлі; Б) common — common — поширені; В) domestic — domestic — домашні.\n✅ Г) endangered — endangered — під загрозою зникнення.",
+      "testLevel": 1
+    },
+    {
+      "text": "Dinosaurs are ___ animals. They died out millions of years ago.",
+      "options": [
+        "wild",
+        "endangered",
+        "rare",
+        "extinct"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Extinct — зовсім вимерлі.\n❌ Хибні: А) wild — wild — дикі; Б) endangered — endangered — під загрозою; В) rare — rare — рідкісні.\n✅ Г) extinct — extinct — вимерлі.",
+      "testLevel": 1
+    },
+    {
+      "text": "A tiger lives in the wild, so it is a ___ animal.",
+      "options": [
+        "tame",
+        "farm",
+        "wild",
+        "pet"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Wild animal — дика тварина.\n❌ Хибні: А) tame — tame — приручений; Б) farm — farm — фермерський; Г) pet — pet — домашній улюбленець.\n✅ В) wild — wild — дикий.",
+      "testLevel": 1
+    },
+    {
+      "text": "A big group of sheep is called a ___ of sheep.",
+      "options": [
+        "flock",
+        "swarm",
+        "herd",
+        "pack"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Flock of sheep — отара.\n❌ Хибні: Б) swarm — swarm — рій бджіл; В) herd — herd — стадо корів; Г) pack — pack — зграя вовків.\n✅ А) flock — flock — отара птахів чи овець.",
+      "testLevel": 1
+    },
+    {
+      "text": "A group of wolves is called a ___ of wolves.",
+      "options": [
+        "flock",
+        "swarm",
+        "pack",
+        "herd"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Pack of wolves — зграя.\n❌ Хибні: А) flock — flock — отара; Б) swarm — swarm — рій; Г) herd — herd — стадо.\n✅ В) pack — pack — зграя вовків.",
+      "testLevel": 1
+    },
+    {
+      "text": "A person who travels to see new places for pleasure is a ___.",
+      "options": [
+        "passenger",
+        "driver",
+        "pilot",
+        "tourist"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Tourist — турист.\n❌ Хибні: А) passenger — passenger — пасажир; Б) driver — driver — водій; В) pilot — pilot — льотчик.\n✅ Г) tourist — tourist — турист.",
+      "testLevel": 1
+    },
+    {
+      "text": "You need a ___ to travel to another country by plane.",
+      "options": [
+        "diary",
+        "passport",
+        "receipt",
+        "menu"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Для подорожі потрібен passport.\n❌ Хибні: А) diary — diary — щоденник; В) receipt — receipt — чек; Г) menu — menu — меню.\n✅ Б) passport — passport — паспорт.",
+      "testLevel": 1
+    },
+    {
+      "text": "At the airport you show your ___ pass to get on the plane.",
+      "options": [
+        "boarding",
+        "library",
+        "bus",
+        "parking"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Boarding pass — посадковий талон.\n❌ Хибні: Б) library — library — бібліотечний; В) bus — bus pass — проїзний; Г) parking — parking — паркувальний.\n✅ А) boarding — boarding pass — посадковий талон.",
+      "testLevel": 1
+    },
+    {
+      "text": "Our plane was an hour late. The flight was ___.",
+      "options": [
+        "delayed",
+        "cancelled",
+        "booked",
+        "closed"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Delayed — затриманий.\n❌ Хибні: Б) cancelled — cancelled — скасований; В) booked — booked — заброньований; Г) closed — closed — закритий.\n✅ А) delayed — delayed — затриманий.",
+      "testLevel": 1
+    },
+    {
+      "text": "We went to the beach and lay in the ___ all day.",
+      "options": [
+        "moon",
+        "sun",
+        "snow",
+        "rain"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Lie in the sun.\n❌ Хибні: А) moon — moon — місяць; В) snow — snow — сніг; Г) rain — rain — дощ.\n✅ Б) sun — in the sun — на сонці.",
+      "testLevel": 1
+    },
+    {
+      "text": "When you stay at a hotel, you ___ a room first.",
+      "options": [
+        "book",
+        "bake",
+        "borrow",
+        "break"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Book a room — забронювати.\n❌ Хибні: Б) bake — bake — пекти; В) borrow — borrow — позичати; Г) break — break — ламати.\n✅ А) book — book — бронювати.",
+      "testLevel": 1
+    },
+    {
+      "text": "A room in a hotel for two people is a ___ room.",
+      "options": [
+        "double",
+        "small",
+        "quiet",
+        "single"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Double room — на двох.\n❌ Хибні: Б) small — small — маленький; В) quiet — quiet — тихий; Г) single — single — одномісний.\n✅ А) double — double room — двомісний.",
+      "testLevel": 1
+    },
+    {
+      "text": "You buy a ___ to travel by train.",
+      "options": [
+        "menu",
+        "ticket",
+        "passport",
+        "key"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Ticket — квиток на потяг.\n❌ Хибні: А) menu — menu — меню ресторану; В) passport — passport — паспорт; Г) key — key — ключ від дверей.\n✅ Б) ticket — ticket — квиток.",
+      "testLevel": 1
+    },
+    {
+      "text": "A boat that carries people and cars across the water is a ___.",
+      "options": [
+        "ferry",
+        "taxi",
+        "coach",
+        "tram"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Ferry — пором.\n❌ Хибні: Б) taxi — taxi — таксі; В) coach — coach — автобус; Г) tram — tram — трамвай.\n✅ А) ferry — ferry — пором.",
+      "testLevel": 1
+    },
+    {
+      "text": "A big bus that takes tourists on long journeys is a ___.",
+      "options": [
+        "tram",
+        "coach",
+        "bike",
+        "taxi"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Coach — міжміський автобус.\n❌ Хибні: А) tram — tram — трамвай; В) bike — bike — велосипед; Г) taxi — taxi — таксі.\n✅ Б) coach — coach — міжміський автобус.",
+      "testLevel": 1
+    },
+    {
+      "text": "You wait for a train on the ___ at the station.",
+      "options": [
+        "platform",
+        "pavement",
+        "corner",
+        "roof"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Platform — платформа.\n❌ Хибні: Б) pavement — pavement — тротуар; В) corner — corner — кут; Г) roof — roof — дах.\n✅ А) platform — platform — платформа.",
+      "testLevel": 1
+    },
+    {
+      "text": "Please pack your ___ before we go to the airport.",
+      "options": [
+        "suitcase",
+        "pillow",
+        "notebook",
+        "sandwich"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Suitcase — валіза.\n❌ Хибні: Б) pillow — pillow — подушка; В) notebook — notebook — зошит; Г) sandwich — sandwich — бутерброд.\n✅ А) suitcase — suitcase — валіза.",
+      "testLevel": 1
+    },
+    {
+      "text": "Which word means 'to go on holiday and visit new places'?",
+      "options": [
+        "repair",
+        "travel",
+        "worry",
+        "study"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Travel — подорожувати.\n❌ Хибні: А) repair — repair — ремонтувати; В) worry — worry — хвилюватися; Г) study — study — вчитися.\n✅ Б) travel — travel — подорожувати.",
+      "testLevel": 1
+    },
+    {
+      "text": "We stayed in a small hotel near the ___; we could hear the waves all night.",
+      "options": [
+        "city",
+        "forest",
+        "desert",
+        "sea"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Хвилі — це sea.\n❌ Хибні: А) city — city — місто; Б) forest — forest — ліс; В) desert — desert — пустеля.\n✅ Г) sea — sea — море.",
+      "testLevel": 1
+    },
+    {
+      "text": "It is very hot and the sun is shining. It is a ___ day.",
+      "options": [
+        "rainy",
+        "sunny",
+        "foggy",
+        "cloudy"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Sunny day — сонячний день.\n❌ Хибні: А) rainy — rainy — дощовий; В) foggy — foggy — туманний; Г) cloudy — cloudy — хмарний.\n✅ Б) sunny — sunny — сонячний.",
+      "testLevel": 1
+    },
+    {
+      "text": "Never throw ___ on the ground. Put it in the bin.",
+      "options": [
+        "snow",
+        "litter",
+        "sand",
+        "water"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Litter — сміття на вулиці.\n❌ Хибні: А) snow — snow — сніг; В) sand — sand — пісок; Г) water — water — вода.\n✅ Б) litter — litter — сміття.",
+      "testLevel": 1
+    },
+    {
+      "text": "Trees give us fresh air, so we must ___ them.",
+      "options": [
+        "burn",
+        "protect",
+        "forget",
+        "cut"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Protect — захищати.\n❌ Хибні: А) burn — burn — спалювати; В) forget — forget — забути; Г) cut — cut — зрубати.\n✅ Б) protect — protect — захищати.",
+      "testLevel": 1
+    },
+    {
+      "text": "The Dnipro is a long ___ in Ukraine.",
+      "options": [
+        "island",
+        "forest",
+        "river",
+        "desert"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Dnipro — це river.\n❌ Хибні: А) island — island — острів; Б) forest — forest — ліс; Г) desert — desert — пустеля.\n✅ В) river — river — річка.",
+      "testLevel": 1
+    },
+    {
+      "text": "The Carpathians are high ___ in the west of Ukraine.",
+      "options": [
+        "rivers",
+        "mountains",
+        "islands",
+        "deserts"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Карпати — mountains.\n❌ Хибні: А) rivers — rivers — річки; В) islands — islands — острови; Г) deserts — deserts — пустелі.\n✅ Б) mountains — mountains — гори.",
+      "testLevel": 1
+    },
+    {
+      "text": "Water falling from a high place is a ___.",
+      "options": [
+        "waterfall",
+        "valley",
+        "bay",
+        "lake"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Waterfall — водоспад.\n❌ Хибні: Б) valley — valley — долина; В) bay — bay — затока; Г) lake — lake — озеро.\n✅ А) waterfall — waterfall — водоспад.",
+      "testLevel": 1
+    },
+    {
+      "text": "A place where wild animals are protected is a nature ___.",
+      "options": [
+        "market",
+        "reserve",
+        "factory",
+        "garden"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Nature reserve — заповідник.\n❌ Хибні: А) market — market — ринок; В) factory — factory — завод; Г) garden — garden — сад.\n✅ Б) reserve — nature reserve — заповідник.",
+      "testLevel": 1
+    },
+    {
+      "text": "We go to the airport by ___ and then fly to Paris.",
+      "options": [
+        "a taxi",
+        "taxis",
+        "taxi",
+        "the taxi"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: By + транспорт без артикля.\n❌ Хибні: А) a taxi — a taxi не після by; Б) taxis — taxis не після by; Г) the taxi — the taxi не після by.\n✅ В) taxi — by taxi — таксі, без артикля.",
+      "testLevel": 1
+    },
+    {
+      "text": "We often travel ___ train because it is cheap and comfortable.",
+      "options": [
+        "by",
+        "in",
+        "on",
+        "with"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Travel by train.\n❌ Хибні: Б) in — in train — так не кажуть; В) on — on train — так не кажуть; Г) with — with train — так не кажуть.\n✅ А) by — by train — потягом.",
+      "testLevel": 1
+    },
+    {
+      "text": "It is not far. We can go there ___ foot.",
+      "options": [
+        "by",
+        "at",
+        "on",
+        "in"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: On foot — пішки.\n❌ Хибні: А) by — by foot — так не кажуть; Б) at — at foot — так не кажуть; Г) in — in foot — так не кажуть.\n✅ В) on — on foot — пішки.",
+      "testLevel": 1
+    },
+    {
+      "text": "Our train leaves from ___ number 5.",
+      "options": [
+        "window",
+        "ground",
+        "street",
+        "platform"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Train leaves from platform.\n❌ Хибні: А) window — window — вікно; Б) ground — ground — земля; В) street — street — вулиця.\n✅ Г) platform — platform — платформа.",
+      "testLevel": 1
+    },
+    {
+      "text": "The plane ___ at 9:00 and landed at 11:30.",
+      "options": [
+        "got off",
+        "put off",
+        "set off",
+        "took off"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Plane takes off — злітає.\n❌ Хибні: А) got off — get off — зійти; Б) put off — put off — відкласти; В) set off — set off — вирушити.\n✅ Г) took off — take off — злетіти.",
+      "testLevel": 1
+    },
+    {
+      "text": "You must ___ at the hotel reception when you arrive.",
+      "options": [
+        "run in",
+        "check in",
+        "look in",
+        "check up"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Check in — зареєструватися.\n❌ Хибні: А) run in — run in — забігти; В) look in — look in — зазирнути; Г) check up — check up — перевірити.\n✅ Б) check in — check in — зареєструватися.",
+      "testLevel": 1
+    },
+    {
+      "text": "We are going to ___ for the mountains at six o'clock in the morning.",
+      "options": [
+        "set on",
+        "set off",
+        "set down",
+        "set up"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Set off — вирушити в дорогу.\n❌ Хибні: А) set on — set on — напасти; В) set down — set down — покласти; Г) set up — set up — заснувати.\n✅ Б) set off — set off — вирушити.",
+      "testLevel": 1
+    },
+    {
+      "text": "I need to ___ my grandmother at the station. Her train arrives at five.",
+      "options": [
+        "pick up",
+        "pick out",
+        "pick in",
+        "pick on"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Pick up — забрати з вокзалу.\n❌ Хибні: Б) pick out — pick out — вибрати; В) pick in — pick in — так не кажуть; Г) pick on — pick on — прискіпуватися.\n✅ А) pick up — pick up — зустріти й забрати.",
+      "testLevel": 1
+    },
+    {
+      "text": "Rivers, forests and animals are all part of ___.",
+      "options": [
+        "nature",
+        "native",
+        "nation",
+        "natural"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Nature — природа, іменник.\n❌ Хибні: Б) native — native — рідний; В) nation — nation — нація; Г) natural — natural — природний прикметник.\n✅ А) nature — nature — природа.",
+      "testLevel": 1
+    },
+    {
+      "text": "I want to ___ a car for a week while we are on holiday.",
+      "options": [
+        "hire",
+        "hurt",
+        "hide",
+        "heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Hire a car — взяти напрокат.\n❌ Хибні: Б) hurt — hurt — поранити; В) hide — hide — ховати; Г) heat — heat — нагрівати.\n✅ А) hire — hire — взяти напрокат.",
+      "testLevel": 1
+    },
+    {
+      "text": "I ___ my train, so I had to wait for the next one.",
+      "options": [
+        "lost",
+        "caught",
+        "left",
+        "missed"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Missed train — пропустив потяг.\n❌ Хибні: А) lost — lost — втратив річ; Б) caught — caught — встиг; В) left — left — залишив.\n✅ Г) missed — missed — пропустив.",
+      "testLevel": 1
+    },
+    {
+      "text": "The ___ of the ice at the North Pole is a serious result of global warming.",
+      "options": [
+        "burning",
+        "growing",
+        "melting",
+        "freezing"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Global warming призводить до melting.\n❌ Хибні: А) burning — burning — горіння; Б) growing — growing — зростання; Г) freezing — freezing — замерзання.\n✅ В) melting — melting — танення льоду.",
+      "testLevel": 2
+    },
+    {
+      "text": "Cutting down large areas of forest is called ___.",
+      "options": [
+        "extinction",
+        "pollution",
+        "deforestation",
+        "reforestation"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Deforestation — вирубка лісів.\n❌ Хибні: А) extinction — extinction — вимирання; Б) pollution — pollution — забруднення; Г) reforestation — reforestation — відновлення лісів.\n✅ В) deforestation — deforestation — вирубка лісів.",
+      "testLevel": 2
+    },
+    {
+      "text": "The ___ effect keeps the Earth warm, but too many gases make it too hot.",
+      "options": [
+        "greenhouse",
+        "lighthouse",
+        "household",
+        "warehouse"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Greenhouse effect — парниковий ефект.\n❌ Хибні: Б) lighthouse — lighthouse — маяк; В) household — household — домашній; Г) warehouse — warehouse — склад.\n✅ А) greenhouse — greenhouse effect — парниковий ефект.",
+      "testLevel": 2
+    },
+    {
+      "text": "Factories should reduce the amount of waste they ___ into rivers.",
+      "options": [
+        "pour",
+        "grow",
+        "lift",
+        "raise"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Pour waste into rivers — зливати відходи.\n❌ Хибні: Б) grow — grow — вирощувати; В) lift — lift — підіймати; Г) raise — raise — піднімати.\n✅ А) pour — pour — виливати.",
+      "testLevel": 2
+    },
+    {
+      "text": "Many young people try to reduce their carbon ___ by cycling instead of driving.",
+      "options": [
+        "footprint",
+        "step",
+        "fingerprint",
+        "handprint"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Carbon footprint — вуглецевий слід.\n❌ Хибні: Б) step — step — крок; В) fingerprint — fingerprint — відбиток пальця; Г) handprint — handprint — відбиток руки.\n✅ А) footprint — carbon footprint — вуглецевий слід.",
+      "testLevel": 2
+    },
+    {
+      "text": "We need to find new sources of ___ energy that will never run out, such as the sun and the wind.",
+      "options": [
+        "fossil",
+        "renewable",
+        "artificial",
+        "nuclear"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Renewable energy — що не закінчується.\n❌ Хибні: А) fossil — fossil — викопний; В) artificial — artificial — штучний; Г) nuclear — nuclear — ядерний.\n✅ Б) renewable — renewable — відновлюваний.",
+      "testLevel": 2
+    },
+    {
+      "text": "The government has decided to ___ a new national park to protect rare animals.",
+      "options": [
+        "set off",
+        "set up",
+        "set in",
+        "set out"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Set up a park — створити парк.\n❌ Хибні: А) set off — set off — вирушити; В) set in — set in — настати; Г) set out — set out — викласти чи вирушити.\n✅ Б) set up — set up — створити.",
+      "testLevel": 2
+    },
+    {
+      "text": "Scientists say that the Earth's temperature will ___ if we do not stop burning coal.",
+      "options": [
+        "arouse",
+        "raise",
+        "arise",
+        "rise"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Rise — самостійно зростати.\n❌ Хибні: А) arouse — arouse — збуджувати; Б) raise — raise — піднімати щось, з додатком; В) arise — arise — виникати.\n✅ Г) rise — rise — зростати, без додатка.",
+      "testLevel": 2
+    },
+    {
+      "text": "The ___ of electricity from wind turbines is growing every year.",
+      "options": [
+        "production",
+        "product",
+        "producer",
+        "productive"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Production — виробництво як процес.\n❌ Хибні: Б) product — product — виріб; В) producer — producer — виробник; Г) productive — productive — продуктивний.\n✅ А) production — production — виробництво.",
+      "testLevel": 2
+    },
+    {
+      "text": "Old plastic bottles can be ___ into new products such as clothes.",
+      "options": [
+        "regained",
+        "recovered",
+        "recycled",
+        "repaired"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Recycled into — перероблені на нове.\n❌ Хибні: А) regained — regained — повернені; Б) recovered — recovered — відновлені; Г) repaired — repaired — відремонтовані.\n✅ В) recycled — recycled into — перероблені на.",
+      "testLevel": 2
+    },
+    {
+      "text": "It was raining ___ and dogs, so we stayed at home.",
+      "options": [
+        "cats",
+        "horses",
+        "fish",
+        "birds"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Ідіома: it's raining cats and dogs.\n❌ Хибні: Б) horses — horses — так не кажуть; В) fish — fish — так не кажуть; Г) birds — birds — так не кажуть.\n✅ А) cats — raining cats and dogs — ллє як з відра.",
+      "testLevel": 2
+    },
+    {
+      "text": "I feel a bit ___ the weather today. I think I have a cold.",
+      "options": [
+        "under",
+        "in",
+        "over",
+        "on"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Under the weather — недужий.\n❌ Хибні: Б) in — in the weather — так не кажуть; В) over — over the weather — так не кажуть; Г) on — on the weather — так не кажуть.\n✅ А) under — under the weather — недужий.",
+      "testLevel": 2
+    },
+    {
+      "text": "Planting one tree will not stop global warming. It is only a drop in the ___.",
+      "options": [
+        "ocean",
+        "river",
+        "lake",
+        "sea"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: A drop in the ocean — дрібниця.\n❌ Хибні: Б) river — river — не ідіома; В) lake — lake — не ідіома; Г) sea — sea — не ідіома.\n✅ А) ocean — a drop in the ocean — крапля в морі.",
+      "testLevel": 2
+    },
+    {
+      "text": "Do not worry about the exam. Every cloud has a silver ___.",
+      "options": [
+        "spoon",
+        "lining",
+        "medal",
+        "coin"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Silver lining — світла сторона.\n❌ Хибні: А) spoon — spoon — так не кажуть; В) medal — medal — так не кажуть; Г) coin — coin — так не кажуть.\n✅ Б) lining — every cloud has a silver lining — немає лиха без добра.",
+      "testLevel": 2
+    },
+    {
+      "text": "The ___ was terrible. It rained all week and we could not go to the beach.",
+      "options": [
+        "wether",
+        "whether",
+        "wheather",
+        "weather"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Weather — погода, whether — чи.\n❌ Хибні: А) wether — wether — не існує; Б) whether — whether — чи; В) wheather — wheather — неправильний правопис.\n✅ Г) weather — weather — погода.",
+      "testLevel": 2
+    },
+    {
+      "text": "I do not know ___ it will rain tomorrow or not.",
+      "options": [
+        "weather",
+        "wether",
+        "where",
+        "whether"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Whether ... or not — чи ... чи ні.\n❌ Хибні: А) weather — weather — погода, іменник; Б) wether — wether — не існує; В) where — where — де.\n✅ Г) whether — whether — чи, сполучник.",
+      "testLevel": 2
+    },
+    {
+      "text": "On the first day we went ___ and saw the Eiffel Tower and the Louvre.",
+      "options": [
+        "sightseeing",
+        "sights",
+        "seeing",
+        "sight"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Go sightseeing — оглядати визначні місця.\n❌ Хибні: Б) sights — sights — місця; В) seeing — seeing — бачення; Г) sight — sight — зір.\n✅ А) sightseeing — go sightseeing — оглядати пам’ятки.",
+      "testLevel": 2
+    },
+    {
+      "text": "The hotel room had a wonderful ___ of the sea.",
+      "options": [
+        "sight",
+        "look",
+        "view",
+        "scenery"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: A view of the sea — вид з вікна.\n❌ Хибні: А) sight — sight — зір чи пам’ятка; Б) look — look — погляд; Г) scenery — scenery — краєвиди, не лічильне.\n✅ В) view — a view of — вид на.",
+      "testLevel": 2
+    },
+    {
+      "text": "The ___ in the mountains was beautiful: green valleys, rivers and snowy peaks.",
+      "options": [
+        "sceneries",
+        "scenery",
+        "views",
+        "sights"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Scenery — краєвиди без -s.\n❌ Хибні: А) sceneries — sceneries — так не кажуть; В) views — views — види з місць; Г) sights — sights — пам’ятки міста.\n✅ Б) scenery — scenery — краєвиди, незлічуване.",
+      "testLevel": 2
+    },
+    {
+      "text": "It was a long ___ from Kyiv to Lviv, about nine hours by train.",
+      "options": [
+        "tour",
+        "journey",
+        "voyage",
+        "travel"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Journey — одна поїздка з А до Б.\n❌ Хибні: А) tour — tour — поїздка по кількох місцях; В) voyage — voyage — морська подорож; Г) travel — travel — незлічуване, не після a.\n✅ Б) journey — journey — поїздка з А до Б.",
+      "testLevel": 2
+    },
+    {
+      "text": "We went on a day ___ to the zoo and came back in the evening.",
+      "options": [
+        "voyage",
+        "travel",
+        "trip",
+        "journey"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Day trip — одноденна поїздка.\n❌ Хибні: А) voyage — voyage — морська подорож; Б) travel — travel — подорожі загалом; Г) journey — journey — одна довга поїздка.\n✅ В) trip — trip — коротка поїздка з поверненням.",
+      "testLevel": 2
+    },
+    {
+      "text": "Air ___ has become much cheaper in recent years, so more people can fly abroad.",
+      "options": [
+        "voyage",
+        "travel",
+        "journey",
+        "trip"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Air travel — загальне поняття.\n❌ Хибні: А) voyage — voyage — морська подорож; В) journey — journey — окрема поїздка; Г) trip — trip — коротка поїздка.\n✅ Б) travel — air travel — авіаподорожі, незлічуване.",
+      "testLevel": 2
+    },
+    {
+      "text": "Columbus made his famous ___ across the Atlantic Ocean in 1492.",
+      "options": [
+        "walk",
+        "trip",
+        "travel",
+        "voyage"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Voyage — довга подорож морем.\n❌ Хибні: А) walk — walk — прогулянка; Б) trip — trip — коротка поїздка; В) travel — travel — подорожі загалом.\n✅ Г) voyage — voyage — морська подорож.",
+      "testLevel": 2
+    },
+    {
+      "text": "Please ___ at the reception desk as soon as you arrive at the hotel.",
+      "options": [
+        "check out",
+        "look in",
+        "check up",
+        "check in"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Check in — на початку, check out — в кінці.\n❌ Хибні: А) check out — check out — виселитися; Б) look in — look in — зазирнути; В) check up — check up — обстежити.\n✅ Г) check in — check in — зареєструватися.",
+      "testLevel": 2
+    },
+    {
+      "text": "You must ___ of the hotel before 11 a.m. on the day you leave.",
+      "options": [
+        "look out",
+        "check on",
+        "check out",
+        "check in"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Check out — виселитися.\n❌ Хибні: А) look out — look out — остерігатися; Б) check on — check on — перевірити; Г) check in — check in — заселитися.\n✅ В) check out — check out — виселитися з готелю.",
+      "testLevel": 2
+    },
+    {
+      "text": "The bus will ___ you up at the hotel at eight o'clock.",
+      "options": [
+        "put",
+        "get",
+        "take",
+        "pick"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Pick up — забрати з місця.\n❌ Хибні: А) put — put up — повісити; Б) get — get up — встати; В) take — take up — зайняти.\n✅ Г) pick — pick up — забрати, підібрати.",
+      "testLevel": 2
+    },
+    {
+      "text": "My parents came to the station to ___ me off.",
+      "options": [
+        "put",
+        "see",
+        "take",
+        "let"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: See somebody off — проводжати.\n❌ Хибні: А) put — put off — відкласти; В) take — take off — зняти; Г) let — let off — пробачити.\n✅ Б) see — see off — проводжати.",
+      "testLevel": 2
+    },
+    {
+      "text": "Our train arrives ___ Lviv at six o'clock in the evening.",
+      "options": [
+        "in",
+        "to",
+        "at",
+        "on"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Arrive in a city, arrive at a station.\n❌ Хибні: Б) to — to не вживається; В) at — arrive at — на станції чи в готелі; Г) on — on не вживається.\n✅ А) in — arrive in — у місті чи країні.",
+      "testLevel": 2
+    },
+    {
+      "text": "When we arrived ___ the airport, we looked for the check-in desk.",
+      "options": [
+        "to",
+        "on",
+        "in",
+        "at"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Arrive at the airport.\n❌ Хибні: А) to — to — не вживається; Б) on — on — не вживається; В) in — in — для міста чи країни.\n✅ Г) at — arrive at — прибути в аеропорт.",
+      "testLevel": 2
+    },
+    {
+      "text": "The plane was an hour late, so we ___ our connecting flight.",
+      "options": [
+        "missed",
+        "failed",
+        "left",
+        "lost"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Miss a flight — пропустити рейс.\n❌ Хибні: Б) failed — fail — не вдатися; В) left — leave — залишити; Г) lost — lose — втратити річ.\n✅ А) missed — miss — не встигнути на транспорт.",
+      "testLevel": 2
+    },
+    {
+      "text": "I am afraid I have ___ my passport. I cannot find it anywhere.",
+      "options": [
+        "missed",
+        "left",
+        "forgotten",
+        "lost"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Lose — втратити річ.\n❌ Хибні: А) missed — miss — пропустити; Б) left — leave без вказівки місця; В) forgotten — forget — забути зробити.\n✅ Г) lost — lose — загубити річ.",
+      "testLevel": 2
+    },
+    {
+      "text": "A thief ___ my wallet while I was waiting for the bus.",
+      "options": [
+        "took away",
+        "stole",
+        "robbed",
+        "borrowed"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Steal — вкрасти що-небудь.\n❌ Хибні: А) took away — take away — віднести; В) robbed — rob — пограбувати особу; Г) borrowed — borrow — позичити.\n✅ Б) stole — steal something — вкрасти річ.",
+      "testLevel": 2
+    },
+    {
+      "text": "The man was ___ in the street. They took his phone and his money.",
+      "options": [
+        "stolen",
+        "robbed",
+        "borrowed",
+        "lost"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Rob a person, steal a thing.\n❌ Хибні: А) stolen — stolen — вкрадені; В) borrowed — borrowed — позичений; Г) lost — lost — загублений.\n✅ Б) robbed — rob a person — пограбувати особу.",
+      "testLevel": 2
+    },
+    {
+      "text": "We want to ___ a flat in Prague for a whole year, so we will not need a hotel.",
+      "options": [
+        "rent",
+        "hire",
+        "lend",
+        "borrow"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Rent a flat — зняти житло.\n❌ Хибні: Б) hire — hire — взяти на короткий час; В) lend — lend — позичити комусь; Г) borrow — borrow — взяти безкоштовно.\n✅ А) rent — rent — орендувати надовго.",
+      "testLevel": 2
+    },
+    {
+      "text": "Could you ___ me a glass of water, please? I am very thirsty.",
+      "options": [
+        "carry",
+        "bring",
+        "lift",
+        "take"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Bring — принести мені.\n❌ Хибні: А) carry — carry — нести в руках; В) lift — lift — підіймати; Г) take — take — віднести від мене.\n✅ Б) bring — bring — принести мені.",
+      "testLevel": 2
+    },
+    {
+      "text": "Please ___ this letter to the post office on your way to school.",
+      "options": [
+        "come",
+        "bring",
+        "take",
+        "follow"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Take — віднести, bring — принести.\n❌ Хибні: А) come — come — прийти; Б) bring — bring — принести сюди; Г) follow — follow — іти слідом.\n✅ В) take — take — віднести звідси.",
+      "testLevel": 2
+    },
+    {
+      "text": "The ___ at the airport checked our passports and asked where we were going.",
+      "options": [
+        "dentist",
+        "officer",
+        "waiter",
+        "baker"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Passport control — працює officer.\n❌ Хибні: А) dentist — dentist — стоматолог; В) waiter — waiter — офіціант; Г) baker — baker — пекар.\n✅ Б) officer — officer — офіцер, службовець.",
+      "testLevel": 2
+    },
+    {
+      "text": "My ___ is too heavy: I have packed four pairs of shoes and three coats.",
+      "options": [
+        "luggage",
+        "baggages",
+        "luggages",
+        "a luggage"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Luggage — незлічуваний іменник.\n❌ Хибні: Б) baggages — baggages — так не кажуть; В) luggages — luggages — так не кажуть; Г) a luggage — a luggage — артикль не потрібен.\n✅ А) luggage — luggage — багаж, незлічуване.",
+      "testLevel": 2
+    },
+    {
+      "text": "Can you give me some ___ about trains to Odesa?",
+      "options": [
+        "an information",
+        "informations",
+        "informing",
+        "information"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Information — без -s.\n❌ Хибні: А) an information — an information — так не кажуть; Б) informations — informations — так не кажуть; В) informing — informing — інформування.\n✅ Г) information — information — інформація, незлічуване.",
+      "testLevel": 2
+    },
+    {
+      "text": "We had to wait in the ___ for two hours before our flight.",
+      "options": [
+        "departure lounge",
+        "kitchen",
+        "bedroom",
+        "garage"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Departure lounge — зал вильоту.\n❌ Хибні: Б) kitchen — kitchen — кухня; В) bedroom — bedroom — спальня; Г) garage — garage — гараж.\n✅ А) departure lounge — departure lounge — зал очікування.",
+      "testLevel": 2
+    },
+    {
+      "text": "I would like to buy a ___ ticket to Kyiv, please. I will come back next week.",
+      "options": [
+        "return",
+        "free",
+        "single",
+        "fast"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Return ticket — туди й назад.\n❌ Хибні: Б) free — free ticket — безкоштовний; В) single — single ticket — в один бік; Г) fast — fast ticket — так не кажуть.\n✅ А) return — return ticket — квиток туди й назад.",
+      "testLevel": 2
+    },
+    {
+      "text": "I am only going to Kharkiv for the weekend. I do not need a big suitcase because I like to travel ___.",
+      "options": [
+        "hard",
+        "light",
+        "easy",
+        "heavy"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Travel light — подорожувати налегко.\n❌ Хибні: А) hard — hard — так не кажуть; В) easy — easy — так не кажуть; Г) heavy — heavy — так не кажуть.\n✅ Б) light — travel light — з мінімумом речей.",
+      "testLevel": 2
+    },
+    {
+      "text": "The tourist information centre gave us a free ___ of the city.",
+      "options": [
+        "map",
+        "menu",
+        "bill",
+        "receipt"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Map — карта міста.\n❌ Хибні: Б) menu — menu — меню; В) bill — bill — рахунок; Г) receipt — receipt — чек.\n✅ А) map — map — карта.",
+      "testLevel": 2
+    },
+    {
+      "text": "When you travel abroad, you should always take out travel ___.",
+      "options": [
+        "instruction",
+        "insurance",
+        "invitation",
+        "introduction"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Travel insurance — страховка.\n❌ Хибні: А) instruction — instruction — інструкція; В) invitation — invitation — запрошення; Г) introduction — introduction — вступ.\n✅ Б) insurance — travel insurance — страхування.",
+      "testLevel": 2
+    },
+    {
+      "text": "People who live in a country but were born in another country are ___.",
+      "options": [
+        "immigrants",
+        "passengers",
+        "guides",
+        "tourists"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Immigrants — іммігранти.\n❌ Хибні: Б) passengers — passengers — пасажири; В) guides — guides — гіди; Г) tourists — tourists — туристи.\n✅ А) immigrants — immigrants — іммігранти.",
+      "testLevel": 2
+    },
+    {
+      "text": "Hotel guests may order breakfast in their room. This service is called room ___.",
+      "options": [
+        "menu",
+        "service",
+        "number",
+        "bill"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Room service — обслуговування номерів.\n❌ Хибні: А) menu — menu — меню; В) number — number — номер; Г) bill — bill — рахунок.\n✅ Б) service — room service — обслуговування в номері.",
+      "testLevel": 2
+    },
+    {
+      "text": "The sky is full of dark clouds. It looks as if it is going to ___.",
+      "options": [
+        "rain",
+        "rise",
+        "rule",
+        "rest"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Dark clouds → rain.\n❌ Хибні: Б) rise — rise — підніматися; В) rule — rule — правити; Г) rest — rest — відпочивати.\n✅ А) rain — rain — іти дощу.",
+      "testLevel": 2
+    },
+    {
+      "text": "Temperatures in July are often above thirty degrees in Spain, so it is very ___.",
+      "options": [
+        "dull",
+        "hot",
+        "cool",
+        "wet"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Above thirty degrees — спека.\n❌ Хибні: А) dull — dull — тьмяно; В) cool — cool — прохолодно; Г) wet — wet — мокро.\n✅ Б) hot — hot — спекотно.",
+      "testLevel": 2
+    },
+    {
+      "text": "The air in big cities is often ___ because of the heavy traffic.",
+      "options": [
+        "produced",
+        "protected",
+        "prepared",
+        "polluted"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Polluted air — забруднене повітря.\n❌ Хибні: А) produced — produced — вироблений; Б) protected — protected — захищений; В) prepared — prepared — приготований.\n✅ Г) polluted — polluted — забруднений.",
+      "testLevel": 2
+    },
+    {
+      "text": "Many animals have lost their ___ because people have cut down forests.",
+      "options": [
+        "holidays",
+        "hobbies",
+        "habitats",
+        "handles"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Habitat — середовище існування.\n❌ Хибні: А) holidays — holidays — свята; Б) hobbies — hobbies — хобі; Г) handles — handles — ручки.\n✅ В) habitats — habitats — місця проживання.",
+      "testLevel": 2
+    },
+    {
+      "text": "A person who is paid to show tourists around is a tour ___.",
+      "options": [
+        "guest",
+        "guide",
+        "guess",
+        "guard"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Tour guide — екскурсовод.\n❌ Хибні: А) guest — guest — гість; В) guess — guess — здогад; Г) guard — guard — охоронець.\n✅ Б) guide — tour guide — гід.",
+      "testLevel": 2
+    },
+    {
+      "text": "At the campsite we put up a ___ and slept in sleeping bags.",
+      "options": [
+        "tank",
+        "tale",
+        "tent",
+        "term"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Tent — намет.\n❌ Хибні: А) tank — tank — бак чи танк; Б) tale — tale — казка; Г) term — term — термін.\n✅ В) tent — tent — намет.",
+      "testLevel": 2
+    },
+    {
+      "text": "You must wear a ___ belt when you are in a car.",
+      "options": [
+        "seat",
+        "sit",
+        "set",
+        "safe"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Seat belt — ремінь безпеки.\n❌ Хибні: Б) sit — sit — сидіти; В) set — set — набір; Г) safe — safe — безпечний.\n✅ А) seat — seat belt — ремінь безпеки.",
+      "testLevel": 2
+    },
+    {
+      "text": "The flight was ___ because of the heavy snow, so nobody could fly that day.",
+      "options": [
+        "cleaned",
+        "checked",
+        "booked",
+        "cancelled"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Cancelled — скасований.\n❌ Хибні: А) cleaned — cleaned — прибраний; Б) checked — checked — перевірений; В) booked — booked — забронований.\n✅ Г) cancelled — cancelled — скасований рейс.",
+      "testLevel": 2
+    },
+    {
+      "text": "The receptionist asked us if we wanted full ___ or half board.",
+      "options": [
+        "boss",
+        "board",
+        "boat",
+        "bored"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Full board — повний пансіон.\n❌ Хибні: А) boss — boss — начальник; В) boat — boat — човен; Г) bored — bored — знудьгований.\n✅ Б) board — full board — повний пансіон.",
+      "testLevel": 2
+    },
+    {
+      "text": "The council plans to ___ the damage caused by mass tourism by limiting the number of daily visitors.",
+      "options": [
+        "mitigate",
+        "multiply",
+        "maintain",
+        "mislead"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Mitigate damage — зменшити негативний вплив.\n❌ Б) збільшити; В) підтримувати; Г) вводити в оману.\n✅ А) mitigate.",
+      "testLevel": 3
+    },
+    {
+      "text": "Many coastal habitats are ___ by rising sea levels and increasingly severe storms.",
+      "options": [
+        "threatened",
+        "avoided",
+        "preserved",
+        "inhabited"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Threatened by — перебувають під загрозою через певний чинник.\n❌ Б) avoided — уникаються; В) preserved — збережені; Г) inhabited — заселені.\n✅ А) threatened.",
+      "testLevel": 3
+    },
+    {
+      "text": "The train was cancelled, so we had to ___ an alternative route through the mountains.",
+      "options": [
+        "look into",
+        "come up with",
+        "get away with",
+        "take after"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Come up with an idea/solution/route — придумати або запропонувати.\n❌ А) дослідити; В) уникнути покарання; Г) бути схожим на когось.\n✅ Б) come up with.",
+      "testLevel": 3
+    },
+    {
+      "text": "A species is described as endemic when it ___.",
+      "options": [
+        "migrates between several continents",
+        "is native to and restricted to a particular area",
+        "has recently become extinct",
+        "is kept in captivity"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Endemic species naturally occurs in a particular geographic area and nowhere else.\n❌ А) міграція не є визначенням; В) це extinct; Г) утримання в неволі не визначає endemic.\n✅ Б) обмежена певною територією.",
+      "testLevel": 3
+    },
+    {
+      "text": "The campsite was fully booked, so we had to ___ our stay until the following weekend.",
+      "options": [
+        "put off",
+        "set off",
+        "take in",
+        "turn up"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Put off a stay/visit — відкласти.\n❌ Б) вирушити; В) прийняти/зрозуміти; Г) з'явитися.\n✅ А) put off.",
+      "testLevel": 3
+    },
+    {
+      "text": "The government introduced incentives to encourage households to ___ to renewable energy.",
+      "options": [
+        "switch",
+        "replace",
+        "exchange",
+        "transfer"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Switch to renewable energy — перейти на відновлювану енергію.\n❌ Б) replace вимагає об'єкта; В) exchange означає обміняти; Г) transfer не є типовою collocation тут.\n✅ А) switch to.",
+      "testLevel": 3
+    },
+    {
+      "text": "Despite the spectacular scenery, the remote village remains largely ___ by tourists.",
+      "options": [
+        "untouched",
+        "unnoticed",
+        "uncovered",
+        "unpacked"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Untouched by tourism — майже не змінене туристичною діяльністю.\n❌ Б) непомічене; В) непокрите; Г) нерозпаковане.\n✅ А) untouched.",
+      "testLevel": 3
+    },
+    {
+      "text": "The airline will compensate passengers ___ any reasonable additional costs caused by the delay.",
+      "options": [
+        "for",
+        "with",
+        "of",
+        "at"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Compensate someone for something — компенсувати комусь щось.\n❌ Б), В), Г) не відповідають керуванню compensate.\n✅ А) for.",
+      "testLevel": 3
+    },
+    {
+      "text": "The report warns that intensive farming can ___ soil quality over time.",
+      "options": [
+        "deplete",
+        "replenish",
+        "restore",
+        "enrich"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Deplete soil quality/resources — виснажувати ґрунт або ресурси.\n❌ Б) replenish, В) restore, Г) enrich мають протилежний або позитивний зміст.\n✅ А) deplete.",
+      "testLevel": 3
+    },
+    {
+      "text": "We missed the connection because the first train arrived late; the delay was beyond our ___.",
+      "options": [
+        "control",
+        "command",
+        "influence",
+        "management"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Beyond our control — поза нашим контролем.\n❌ Б) command — наказ/команда; В) influence — вплив, але не ця стала конструкція; Г) management — управління.\n✅ А) control.",
+      "testLevel": 3
+    },
+    {
+      "text": "The ___ of rare animals is the main aim of this nature reserve.",
+      "options": [
+        "construction",
+        "conversion",
+        "conservation",
+        "conversation"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Conservation — охорона природи.\n❌ Хибні: А) construction — construction — будівництво; Б) conversion — conversion — перетворення; Г) conversation — conversation — розмова.\n✅ В) conservation — conservation — збереження.",
+      "testLevel": 3
+    },
+    {
+      "text": "This is a popular seaside ___ with hotels, beaches and restaurants.",
+      "options": [
+        "resident",
+        "resort",
+        "result",
+        "resource"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Seaside resort — морський курорт.\n❌ Хибні: А) resident — resident — мешканець; В) result — result — результат; Г) resource — resource — ресурс.\n✅ Б) resort — resort — курорт.",
+      "testLevel": 3
+    },
+    {
+      "text": "A holiday where the flight, the hotel and the meals are all sold together is a ___ holiday.",
+      "options": [
+        "parcel",
+        "pack",
+        "packet",
+        "package"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Package holiday — все включено.\n❌ Хибні: А) parcel — parcel — посилка; Б) pack — pack — пакунок чи зграя; В) packet — packet — пачка.\n✅ Г) package — package holiday — комплексний тур.",
+      "testLevel": 3
+    },
+    {
+      "text": "A short trip for a group of people, usually to a place of interest, is an ___.",
+      "options": [
+        "excuse",
+        "excursion",
+        "exclusion",
+        "exercise"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Excursion — організована поїздка.\n❌ Хибні: А) excuse — excuse — вибачення; В) exclusion — exclusion — виключення; Г) exercise — exercise — вправа.\n✅ Б) excursion — excursion — екскурсія.",
+      "testLevel": 3
+    },
+    {
+      "text": "You can buy a small ___ in the shop to remember your holiday.",
+      "options": [
+        "souvenir",
+        "supervisor",
+        "surveyor",
+        "survivor"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Souvenir — сувенір на згадку.\n❌ Хибні: Б) supervisor — supervisor — наглядач; В) surveyor — surveyor — землемір; Г) survivor — survivor — той, хто вижив.\n✅ А) souvenir — souvenir — сувенір.",
+      "testLevel": 3
+    },
+    {
+      "text": "We booked ___ in a small hostel, which was cheap and clean.",
+      "options": [
+        "accountant",
+        "accommodation",
+        "accompaniment",
+        "accomplishment"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Accommodation — місце проживання.\n❌ Хибні: А) accountant — accountant — бухгалтер; В) accompaniment — accompaniment — супровід; Г) accomplishment — accomplishment — досягнення.\n✅ Б) accommodation — accommodation — житло, незлічуване.",
+      "testLevel": 3
+    },
+    {
+      "text": "After landing, passengers pick up their suitcases at the baggage ___.",
+      "options": [
+        "order",
+        "request",
+        "claim",
+        "demand"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Baggage claim — видача багажу.\n❌ Хибні: А) order — order — замовлення; Б) request — request — прохання; Г) demand — demand — вимога.\n✅ В) claim — baggage claim — отримання багажу.",
+      "testLevel": 3
+    },
+    {
+      "text": "We had a two-hour ___ in Frankfurt before our flight to Rome.",
+      "options": [
+        "hangover",
+        "handover",
+        "takeover",
+        "stopover"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Stopover — зупинка під час перельоту.\n❌ Хибні: А) hangover — hangover — похмілля; Б) handover — handover — передача; В) takeover — takeover — поглинання.\n✅ Г) stopover — stopover — зупинка між рейсами.",
+      "testLevel": 3
+    },
+    {
+      "text": "The airline had ___ the flight, so more passengers had tickets than there were seats.",
+      "options": [
+        "overbooked",
+        "overtaken",
+        "overheard",
+        "overcome"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Overbook — продати більше місць.\n❌ Хибні: Б) overtaken — overtake — обігнати; В) overheard — overhear — підслухати; Г) overcome — overcome — подолати.\n✅ А) overbooked — overbook — продати забагато квитків.",
+      "testLevel": 3
+    },
+    {
+      "text": "We ___ from home at five in the morning to avoid the heavy traffic.",
+      "options": [
+        "set off",
+        "set about",
+        "set up",
+        "set in"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Set off — вирушити в дорогу.\n❌ Хибні: Б) set about — set about — взятися до; В) set up — set up — заснувати; Г) set in — set in — настати.\n✅ А) set off — set off — вирушити.",
+      "testLevel": 3
+    },
+    {
+      "text": "The car ___ down on the motorway, so we had to wait for help.",
+      "options": [
+        "ran",
+        "broke",
+        "turned",
+        "fell"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Break down — зламатися.\n❌ Хибні: А) ran — run down — збити чи зменшити; В) turned — turn down — відхилити; Г) fell — fall down — впасти.\n✅ Б) broke — break down — зламатися.",
+      "testLevel": 3
+    },
+    {
+      "text": "We bumped ___ an old school friend at the airport. What a surprise!",
+      "options": [
+        "by",
+        "on",
+        "at",
+        "into"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Bump into — випадково зустрітися.\n❌ Хибні: А) by — bump by — так не кажуть; Б) on — bump on — так не кажуть; В) at — bump at — так не кажуть.\n✅ Г) into — bump into — випадково зустріти.",
+      "testLevel": 3
+    },
+    {
+      "text": "While we were walking in the old town, we came ___ a lovely little café.",
+      "options": [
+        "over",
+        "across",
+        "along",
+        "round"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Come across — випадково знайти.\n❌ Хибні: А) over — come over — завітати; В) along — come along — прийти разом; Г) round — come round — прийти до тями.\n✅ Б) across — come across — натрапити на.",
+      "testLevel": 3
+    },
+    {
+      "text": "Please ___ your seat belts. The plane is going to take off in a few minutes.",
+      "options": [
+        "fasten",
+        "join",
+        "fix",
+        "hang"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Fasten seat belts — пристебнути.\n❌ Хибні: Б) join — join — приєднати; В) fix — fix — полагодити; Г) hang — hang — повісити.\n✅ А) fasten — fasten — застебнути.",
+      "testLevel": 3
+    },
+    {
+      "text": "Our flight was delayed because of bad weather ___.",
+      "options": [
+        "positions",
+        "directions",
+        "questions",
+        "conditions"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Weather conditions — погодні умови.\n❌ Хибні: А) positions — positions — позиції; Б) directions — directions — напрямки; В) questions — questions — питання.\n✅ Г) conditions — weather conditions — погодні умови.",
+      "testLevel": 3
+    },
+    {
+      "text": "The air is wet and heavy, and our clothes stick to our skin. It is a very ___ day.",
+      "options": [
+        "harsh",
+        "dull",
+        "mild",
+        "humid"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Humid — з високою вологістю.\n❌ Хибні: А) harsh — harsh — суворий; Б) dull — dull — похмурий; В) mild — mild — м’який.\n✅ Г) humid — humid — волого та задушливо.",
+      "testLevel": 3
+    },
+    {
+      "text": "It was a ___ day in April: it was neither hot nor cold.",
+      "options": [
+        "mile",
+        "wild",
+        "mild",
+        "mind"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Mild — м’який, помірний.\n❌ Хибні: А) mile — mile — миля; Б) wild — wild — дикий; Г) mind — mind — розум.\n✅ В) mild — mild — помірний.",
+      "testLevel": 3
+    },
+    {
+      "text": "A very strong wind that can break trees is a ___.",
+      "options": [
+        "drizzle",
+        "gale",
+        "haze",
+        "breeze"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Gale — сильний вітер.\n❌ Хибні: А) drizzle — drizzle — дрібний дощ; В) haze — haze — легка серпанкова імла; Г) breeze — breeze — легкий вітерець.\n✅ Б) gale — gale — шторм із сильним вітром.",
+      "testLevel": 3
+    },
+    {
+      "text": "Despite the bad forecast, the match will take place come rain or ___.",
+      "options": [
+        "wind",
+        "sun",
+        "shine",
+        "snow"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Come rain or shine — за будь-яких умов.\n❌ Хибні: А) wind — wind — так не кажуть; Б) sun — sun — так не кажуть; Г) snow — snow — так не кажуть.\n✅ В) shine — come rain or shine — за будь-якої погоди.",
+      "testLevel": 3
+    },
+    {
+      "text": "What does the idiom 'to be on cloud nine' mean?",
+      "options": [
+        "to be afraid of flying",
+        "to be lost in the fog",
+        "to be ill and tired",
+        "to be extremely happy"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: On cloud nine — дуже щасливий.\n❌ Хибні: А) to be afraid of flying — про страх літання не йдеться; Б) to be lost in the fog — про туман не йдеться; В) to be ill and tired — про хворобу не йдеться.\n✅ Г) to be extremely happy — on cloud nine — на сьомому небі.",
+      "testLevel": 3
+    },
+    {
+      "text": "What does the idiom 'a storm in a teacup' mean?",
+      "options": [
+        "a quiet and peaceful evening",
+        "a lot of fuss about something unimportant",
+        "a very strong storm at sea",
+        "a cup of hot tea in cold weather"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Storm in a teacup — буря у склянці води.\n❌ Хибні: А) a quiet and peaceful evening — це протилежний зміст; В) a very strong storm at sea — це буквальне тлумачення; Г) a cup of hot tea in cold weather — це буквальне тлумачення.\n✅ Б) a lot of fuss about something unimportant — storm in a teacup — шум з нічого.",
+      "testLevel": 3
+    },
+    {
+      "text": "What does the idiom 'once in a blue moon' mean?",
+      "options": [
+        "very rarely",
+        "every night",
+        "at midnight",
+        "very often"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Once in a blue moon — раз на сто років.\n❌ Хибні: Б) every night — це суперечить ідіомі; В) at midnight — це не ідіома; Г) very often — це протилежний зміст.\n✅ А) very rarely — once in a blue moon — дуже рідко.",
+      "testLevel": 3
+    },
+    {
+      "text": "What does the idiom 'a breath of fresh air' describe?",
+      "options": [
+        "a deep breath before swimming",
+        "bad weather in the mountains",
+        "something new and refreshing",
+        "a heavy cold"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Breath of fresh air — приємна новизна.\n❌ Хибні: А) a deep breath before swimming — це буквальне тлумачення; Б) bad weather in the mountains — це не про погоду; Г) a heavy cold — це не про хворобу.\n✅ В) something new and refreshing — breath of fresh air — свіже й приємне.",
+      "testLevel": 3
+    },
+    {
+      "text": "What does 'to break the ice' mean?",
+      "options": [
+        "to wash with cold water",
+        "to stop a talk",
+        "to make people feel relaxed when they first meet",
+        "to make a hole in the ice"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Break the ice — розпочати розмову.\n❌ Хибні: А) to wash with cold water — це не пов’язано; Б) to stop a talk — це протилежний зміст; Г) to make a hole in the ice — це буквальне тлумачення.\n✅ В) to make people feel relaxed when they first meet — break the ice — розрядити атмосферу.",
+      "testLevel": 3
+    },
+    {
+      "text": "Many tourists are attracted by the natural ___ of the area. (BEAUTIFUL)",
+      "options": [
+        "beautiful",
+        "beautify",
+        "beauty",
+        "beautifully"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Перед of і після the natural — іменник.\n❌ Хибні: А) beautiful — beautiful — прикметник; Б) beautify — beautify — дієслово; Г) beautifully — beautifully — прислівник.\n✅ В) beauty — beauty — краса, іменник.",
+      "testLevel": 3
+    },
+    {
+      "text": "The ___ of the rainforests is a serious threat to wildlife. (DESTROY)",
+      "options": [
+        "destroyer",
+        "destruction",
+        "destructive",
+        "destroying"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Після the і перед of — destruction.\n❌ Хибні: А) destroyer — destroyer — руйнівник; В) destructive — destructive — руйнівний; Г) destroying — destroying — герундій.\n✅ Б) destruction — destruction — руйнування.",
+      "testLevel": 3
+    },
+    {
+      "text": "Visitors to the museum are always ___ by its size. (IMPRESS)",
+      "options": [
+        "impressed",
+        "impressive",
+        "impressing",
+        "impression"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: -ed описує людину, яка вражена.\n❌ Хибні: Б) impressive — impressive — вражаючий; В) impressing — impressing — той, що вражає; Г) impression — impression — враження.\n✅ А) impressed — impressed — вражені.",
+      "testLevel": 3
+    },
+    {
+      "text": "It was a very ___ journey because the bus was hot and crowded. (COMFORT)",
+      "options": [
+        "uncomfortable",
+        "discomfortable",
+        "noncomfortable",
+        "incomfortable"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Comfortable має префікс un-.\n❌ Хибні: Б) discomfortable — discomfortable — так не кажуть; В) noncomfortable — noncomfortable — так не кажуть; Г) incomfortable — incomfortable — так не кажуть.\n✅ А) uncomfortable — uncomfortable — незручний.",
+      "testLevel": 3
+    },
+    {
+      "text": "He is a very ___ person who loves climbing mountains and travelling to wild places. (ADVENTURE)",
+      "options": [
+        "adventure",
+        "adventured",
+        "adventurous",
+        "adventurer"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Перед person потрібен прикметник.\n❌ Хибні: А) adventure — adventure — пригода; Б) adventured — adventured — так не кажуть; Г) adventurer — adventurer — шукач пригод.\n✅ В) adventurous — adventurous — схильний до пригод.",
+      "testLevel": 3
+    },
+    {
+      "text": "Ukraine has great ___ for tourism: the Carpathians, the Black Sea and many historic cities. (POTENT)",
+      "options": [
+        "potential",
+        "potent",
+        "potentially",
+        "potency"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Great potential — великий потенціал.\n❌ Хибні: Б) potent — potent — сильнодіючий; В) potentially — potentially — прислівник; Г) potency — potency — сила дії.\n✅ А) potential — potential — потенціал.",
+      "testLevel": 3
+    },
+    {
+      "text": "Environmental ___ say that we have only a few years to act. (SCIENCE)",
+      "options": [
+        "scientists",
+        "sciences",
+        "scientifically",
+        "scientific"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Після Environmental і перед say — scientists.\n❌ Хибні: Б) sciences — sciences — науки; В) scientifically — scientifically — науково; Г) scientific — scientific — науковий.\n✅ А) scientists — scientists — вчені.",
+      "testLevel": 3
+    },
+    {
+      "text": "Modern apps allow ___ to find places easily with the help of GPS. (TRAVEL)",
+      "options": [
+        "travels",
+        "travelling",
+        "travelled",
+        "travellers"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Після allow потрібен іменник у множині.\n❌ Хибні: А) travels — travels — подорожі; Б) travelling — travelling — подорожування; В) travelled — travelled — подорожував.\n✅ Г) travellers — travellers — мандрівники.",
+      "testLevel": 3
+    },
+    {
+      "text": "___ the heavy rain, we went for a long walk in the forest.",
+      "options": [
+        "However",
+        "Although",
+        "Because",
+        "Despite"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Despite + іменник, although + речення.\n❌ Хибні: А) However — however — проте, окреме речення; Б) Although — although + підмет і дієслово; В) Because — because — тому що.\n✅ Г) Despite — despite + іменник — незважаючи на.",
+      "testLevel": 3
+    },
+    {
+      "text": "___ it was raining, we decided to go for a walk.",
+      "options": [
+        "However",
+        "Although",
+        "Despite",
+        "In spite"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Although + підмет + дієслово.\n❌ Хибні: А) However — however — окреме слово; В) Despite — despite потребує іменника; Г) In spite — in spite потребує of.\n✅ Б) Although — although + речення — хоча.",
+      "testLevel": 3
+    },
+    {
+      "text": "You will get wet ___ you take an umbrella.",
+      "options": [
+        "if",
+        "until",
+        "because",
+        "unless"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Unless = if not.\n❌ Хибні: А) if — if — якщо; Б) until — until — доки; В) because — because — тому що.\n✅ Г) unless — unless — якщо не.",
+      "testLevel": 3
+    },
+    {
+      "text": "A: Excuse me, how do I get to the railway station? B: ___",
+      "options": [
+        "I have been there twice.",
+        "Go straight on and turn left at the traffic lights.",
+        "Yes, it is a nice station.",
+        "It takes two hours by train."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Питання про дорогу — відповідь з указівками.\n❌ Хибні: А) I have been there twice. — це відповідь про досвід; В) Yes, it is a nice station. — це не відповідь на запитання; Г) It takes two hours by train. — це відповідь про тривалість.\n✅ Б) Go straight on and turn left at the traffic lights. — це відповідь на запитання про дорогу.",
+      "testLevel": 3
+    },
+    {
+      "text": "A: Good evening. I have booked a double room for two nights. B: ___",
+      "options": [
+        "I am looking for a job.",
+        "You are welcome.",
+        "Could I have your name, please?",
+        "It was delicious."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Адміністратор перевіряє бронювання.\n❌ Хибні: А) I am looking for a job. — це недоречна репліка; Б) You are welcome. — це відповідь на подяку; Г) It was delicious. — це про їжу.\n✅ В) Could I have your name, please? — типова відповідь адміністратора.",
+      "testLevel": 3
+    },
+    {
+      "text": "A: Could I see your boarding pass, please? B: ___",
+      "options": [
+        "Never mind.",
+        "Here you are.",
+        "Not at all.",
+        "You are welcome."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Here you are — ось, будь ласка.\n❌ Хибні: А) Never mind. — це відповідь на вибачення; В) Not at all. — це відповідь на подяку; Г) You are welcome. — це відповідь на подяку.\n✅ Б) Here you are. — стандартна відповідь на прохання.",
+      "testLevel": 3
+    },
+    {
+      "text": "A: What is the weather like today? B: ___",
+      "options": [
+        "Yes, it is a good weather.",
+        "It was yesterday.",
+        "I like it very much.",
+        "It is cloudy but quite warm."
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: What is the weather like? — опис погоди.\n❌ Хибні: А) Yes, it is a good weather. — неправильна форма відповіді; Б) It was yesterday. — це відповідь про час; В) I like it very much. — це не відповідь про погоду.\n✅ Г) It is cloudy but quite warm. — це відповідь про погоду.",
+      "testLevel": 3
+    },
+    {
+      "text": "A: Would you like to come camping with us this weekend? B: ___",
+      "options": [
+        "I would love to, but I am afraid I have an exam.",
+        "Yes, I do, I like camping very much.",
+        "No, I would not come.",
+        "You are welcome, thank you."
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Ввічливо відмовляємо з поясненням.\n❌ Хибні: Б) Yes, I do, I like camping very much. — не відповідає на пропозицію; В) No, I would not come. — занадто різка відмова; Г) You are welcome, thank you. — це відповідь на подяку.\n✅ А) I would love to, but I am afraid I have an exam. — ввічлива відмова з причиною.",
+      "testLevel": 3
+    },
+    {
+      "text": "Look at those dark clouds. It ___ rain.",
+      "options": [
+        "will to",
+        "is going to",
+        "is will",
+        "shall to"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Be going to — висновок із фактів.\n❌ Хибні: А) will to — will to — так не кажуть; В) is will — is will — так не кажуть; Г) shall to — shall to — так не кажуть.\n✅ Б) is going to — is going to — прогноз за ознаками.",
+      "testLevel": 3
+    },
+    {
+      "text": "By 2050, sea levels ___ by about half a metre, according to some scientists.",
+      "options": [
+        "rise to",
+        "will have risen",
+        "have been risen",
+        "are rising to"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Future Perfect — до певної дати.\n❌ Хибні: А) rise to — rise to — не підходить за змістом; В) have been risen — have been risen — неправильна форма; Г) are rising to — are rising to — не про прогноз.\n✅ Б) will have risen — will have risen — до певного моменту.",
+      "testLevel": 3
+    },
+    {
+      "text": "The more we recycle, the ___ waste goes to landfill sites.",
+      "options": [
+        "least",
+        "fewer",
+        "lesser",
+        "less"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Waste — незлічуване, тому less.\n❌ Хибні: А) least — least — найменше; Б) fewer — fewer не вживається з waste; В) lesser — lesser — застаріла форма.\n✅ Г) less — the more … the less — чим більше, тим менше.",
+      "testLevel": 3
+    },
+    {
+      "text": "There are ___ cars on the roads than ten years ago, so the air in the city is dirtier.",
+      "options": [
+        "much",
+        "most",
+        "more",
+        "many"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Порівняння: more … than.\n❌ Хибні: А) much — much — багато без than; Б) most — most — найбільше; Г) many — many без than.\n✅ В) more — more — більше.",
+      "testLevel": 3
+    },
+    {
+      "text": "Nobody ___ the news about the storm until it was too late.",
+      "options": [
+        "has known",
+        "knows",
+        "was knowing",
+        "knew"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Until + минулий час — knew.\n❌ Хибні: А) has known — has known не з until; Б) knows — knows — теперішній час; В) was knowing — was knowing — так не кажуть.\n✅ Г) knew — knew — знав.",
+      "testLevel": 3
+    },
+    {
+      "text": "By the time the guide arrived, the tourists ___ already put up their tents.",
+      "options": [
+        "did",
+        "were",
+        "have",
+        "had"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Past Perfect: had + III форма.\n❌ Хибні: А) did — did — потребує інфінітива без already; Б) were — were — пасив тут не підходить; В) have — have — теперішній час не пасує.\n✅ Г) had — had already put — Past Perfect, дія до моменту.",
+      "testLevel": 3
+    }
+  ],
+  "cards": [
+    {
+      "question": "Environmental problems",
+      "answer": "pollution (air, water, noise), global warming, greenhouse effect, climate change, deforestation (вирубка лісів), litter (сміття), acid rain, endangered species."
+    },
+    {
+      "question": "Environmental solutions",
+      "answer": "recycle (переробляти), reduce (скорочувати), reuse (використовувати повторно), save energy, plant trees, use public transport, switch off the lights."
+    },
+    {
+      "question": "Energy",
+      "answer": "fossil fuels (coal, oil, gas) — викопне паливо; renewable energy: solar, wind, hydro (енергія сонця, вітру, води); nuclear power; power station."
+    },
+    {
+      "question": "Eco phrases",
+      "answer": "carbon footprint (вуглецевий слід), greenhouse gases, ozone layer, natural resources, nature reserve (заповідник), national park, go green (переходити на екопрактики)."
+    },
+    {
+      "question": "Weather words",
+      "answer": "sunny, cloudy, windy, rainy, foggy, stormy, freezing, humid (вологий), drizzle (дрібний дощ), thunder, lightning, forecast (прогноз), temperature, degrees."
+    },
+    {
+      "question": "Landscape",
+      "answer": "mountain, hill, valley, river, lake, waterfall, forest, desert, island, coast, cliff, bay, meadow (луг), field."
+    },
+    {
+      "question": "Animals and habitat",
+      "answer": "wildlife, habitat (середовище існування), endangered species, extinct (вимерлий), predator (хижак), prey (здобич), mammal, reptile, insect, nest."
+    },
+    {
+      "question": "Collective nouns",
+      "answer": "a flock of sheep/birds, a herd of cows/elephants, a pack of wolves, a swarm of bees, a school of fish."
+    },
+    {
+      "question": "Airport",
+      "answer": "check in, boarding pass, departure/arrival, gate, passport control, customs, luggage/baggage, flight, delayed (затриманий), cancelled (скасований), take off, land."
+    },
+    {
+      "question": "Hotel",
+      "answer": "book/reserve a room, single/double room, full board, half board, bed and breakfast, reception, check in/out, a view of the sea."
+    },
+    {
+      "question": "Transport",
+      "answer": "train, coach (міжміський автобус), tram, ferry (пором), taxi; platform, station, single/return ticket, fare, timetable, passenger, catch/miss a bus."
+    },
+    {
+      "question": "journey / trip / travel / voyage",
+      "answer": "journey — поїздка з пункту А до Б; trip — коротка поїздка з поверненням; travel — подорожі загалом (незлічуваний); voyage — морська подорож; tour — поїздка по кількох місцях."
+    },
+    {
+      "question": "sights / view / scenery",
+      "answer": "sights — визначні місця міста; view — вид з певного місця (a view of the sea); scenery — краєвиди, природа навколо (незлічуваний)."
+    },
+    {
+      "question": "Travel phrasal verbs",
+      "answer": "set off (вирушити), check in/out, get on/off, take off, pick up, drop off, see off (проводжати), look around, stop over."
+    },
+    {
+      "question": "Travel collocations",
+      "answer": "make a reservation, pack a suitcase, miss the flight, go sightseeing, catch a train, book tickets, go on holiday, travel light (мало багажу), take a taxi."
+    },
+    {
+      "question": "arrive at / in",
+      "answer": "arrive at — станція, аеропорт, готель, будівля; arrive in — місто чи країна: arrive at the station, arrive in Kyiv."
+    },
+    {
+      "question": "lose / miss",
+      "answer": "lose — втратити річ, гру; miss — пропустити транспорт, зустріч, також сумувати за кимось."
+    },
+    {
+      "question": "hire / rent",
+      "answer": "hire a car/bike — взяти на короткий час; rent a flat/house — зняти надовго."
+    },
+    {
+      "question": "bring / take",
+      "answer": "bring — принести сюди, до мене; take — віднести звідси, взяти з собою кудись."
+    },
+    {
+      "question": "steal / rob",
+      "answer": "steal something from somebody — вкрасти річ; rob a person/bank — пограбувати особу чи установу."
+    },
+    {
+      "question": "weather / whether",
+      "answer": "weather — погода (іменник); whether — чи (сполучник): I do not know whether it will rain."
+    },
+    {
+      "question": "Uncountable travel nouns",
+      "answer": "luggage, baggage, information, advice, weather, scenery, traffic, equipment — без -s та без a/an; лічильні: a journey, a trip, a flight, a suitcase."
+    },
+    {
+      "question": "Word formation: environment",
+      "answer": "pollute → pollution/polluted; protect → protection; danger → dangerous/endangered; tour → tourist/tourism; travel → traveller; nature → natural."
+    },
+    {
+      "question": "Environment idioms",
+      "answer": "a drop in the ocean (крапля в морі), it is raining cats and dogs (ллє як з відра), under the weather (недужий), every cloud has a silver lining, a storm in a teacup."
+    },
+    {
+      "question": "Travel by...",
+      "answer": "by car, by bus, by train, by plane, by boat — без артикля; але on foot — пішки; in a taxi, in a car — «у» конкретному транспорті."
+    }
+  ]
 }
