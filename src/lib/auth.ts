@@ -22,7 +22,11 @@ export const authOptions: NextAuthOptions = {
         const ok = await bcrypt.compare(credentials.password, user.passwordHash);
         if (!ok) return null;
 
-        return { id: user.id, name: user.username };
+        return {
+          id: user.id,
+          name: user.username,
+          isAdmin: Boolean(process.env.ADMIN_USERNAME) && user.username === process.env.ADMIN_USERNAME,
+        };
       },
     }),
   ],
@@ -31,13 +35,17 @@ export const authOptions: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
   callbacks: {
     async jwt({ token, user }) {
-      if (user) token.id = user.id;
+      if (user) {
+        token.id = user.id;
+        token.isAdmin = Boolean((user as { isAdmin?: boolean }).isAdmin);
+      }
       return token;
     },
     async session({ session, token }) {
       if (token && session.user) {
         session.user.name = token.name;
         session.user.id = token.id as string;
+        session.user.isAdmin = token.isAdmin === true;
       }
       return session;
     },
