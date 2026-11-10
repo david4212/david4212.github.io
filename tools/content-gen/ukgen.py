@@ -35,6 +35,8 @@ class Topic:
         ci = idxs.index(0)
         options = [opts[i][0] for i in idxs]
         wr = [f'{LET[p]}) {opts[i][0]} — {opts[i][1]}' for p, i in enumerate(idxs) if i != 0]
+        for p in (f'«{ans}» — ', f'«{ans}» = ', f'{ans} — ', f'{ans} = ', f'{ans}: '):
+            if sol.startswith(p) and len(sol) > len(p): sol = sol[len(p):]; break
         ex = f"💡 Пастка: {trap.rstrip('.')}.\n❌ Хибні: {'; '.join(w.rstrip('. ') for w in wr)}.\n✅ {LET[ci]}) {ans} — {sol.rstrip('.')}."
         key = text.strip() + '\x01' + '|'.join(sorted(options))
         if key in self.seen: return False
