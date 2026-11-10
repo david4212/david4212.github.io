@@ -72,6 +72,10 @@ function PhotoCard({item,index,quiz,revealed,onReveal,onOpen}:{item:HistoryPhoto
    </div>
  </article>;
 }
+function atlasImage(src:string) {
+ return src.startsWith("/img/history/map_") ? src.replace("/img/history/map_","/img/history/atlas/map_") : src;
+}
+
 function MapCard({item,quiz,revealed,onReveal,onOpen}:{item:VisualItem;quiz:boolean;revealed:boolean;onReveal:()=>void;onOpen:()=>void}){
  const note=getNote(item);
  if(!note)return null;
@@ -79,6 +83,25 @@ function MapCard({item,quiz,revealed,onReveal,onOpen}:{item:VisualItem;quiz:bool
  const labels=getAtlasLabels(item.src);
  const period=getAtlasPeriod(item.src);
  const isMap=item.category==="maps";
+ if(isMap) return <article className="rounded-3xl overflow-hidden border border-[#c7b99e] bg-[#fffcf2] shadow-lg hover:shadow-xl transition-shadow">
+   <div className="px-5 md:px-7 py-4 flex flex-wrap justify-between items-center gap-2 bg-[#213f3b] text-[#fff8e7]">
+     <div><p className="uppercase tracking-[0.16em] text-xs text-[#e7d3a4] font-bold">Атласна картосхема · {period}</p><h2 className="text-lg md:text-xl font-black mt-1">{visible?note.title:"Впізнай об'єкти на карті"}</h2></div>
+     <span className="text-xs font-bold rounded-full border border-[#baa77c] px-3 py-1.5">НМТ · ГЕОГРАФІЯ ПОДІЙ</span>
+   </div>
+   <button type="button" onClick={onOpen} aria-label={`Відкрити карту: ${note.title}`} className="block w-full bg-[#eee9dc] p-2 md:p-5 group text-left">
+     <img src={visible?atlasImage(item.src):item.src} alt={visible?note.title:"Картосхема для перевірки знань"}
+       className="block w-full h-auto rounded-lg shadow-md border border-[#cabfa7] group-hover:shadow-xl transition-shadow" loading="lazy" />
+     <span className="inline-flex items-center gap-2 mt-3 text-xs font-bold text-[#4b6057]"><Maximize2 size={16}/> Натисни для збільшення</span>
+   </button>
+   {visible?<div className="p-5 md:px-7 border-t border-[#d7c5a9] grid md:grid-cols-2 gap-4">
+     <div><h3 className="uppercase text-xs font-black tracking-[.12em] text-[#977440]">Що показано на карті</h3><p className="text-sm leading-relaxed text-[#43564e] mt-2">{note.description}</p></div>
+     <div className="bg-[#f3e6cc] rounded-xl p-4 text-sm text-[#5b492f]"><strong>Запам'ятай до НМТ:</strong> {note.tip}</div>
+   </div>:<div className="p-5 bg-[#fffaf0]">
+      <p className="text-sm text-[#5b5a4e] mb-3">Спробуй назвати міста, території, епоху та подію за цифрами.</p>
+      <button type="button" onClick={onReveal} className="rounded-xl bg-[#284d44] px-4 py-2 text-sm font-bold text-white">Показати атлас і легенду</button>
+   </div>}
+   <p className="px-5 md:px-7 pb-4 pt-2 text-xs text-[#877d66]">Сучасна географічна основа — орієнтир, а не історичні кордони. Схема не в масштабі.</p>
+ </article>;
  return <article className="overflow-hidden rounded-3xl bg-[#fffcf2] border border-[#d8cbb0] shadow-md hover:shadow-xl transition-shadow">
    <header className="relative flex flex-wrap items-center justify-between gap-3 px-5 md:px-7 py-5 bg-[#213f3b] text-[#fff8e7]">
      <div>
@@ -150,7 +173,7 @@ export default function HistoryAtlas(){
  const currentCount=tab==="maps"?mapItems.length:photoItems.length;
  const openMap=(item:VisualItem)=>{
    const n=getNote(item);if(!n)return;
-   setZoom(1);setOpened({src:item.src,title:n.title,description:n.description,tip:n.tip,labels:getAtlasLabels(item.src),period:getAtlasPeriod(item.src)});
+   setZoom(1);setOpened({src:item.category==="maps"?atlasImage(item.src):item.src,title:n.title,description:n.description,tip:n.tip,labels:getAtlasLabels(item.src),period:getAtlasPeriod(item.src)});
  };
  const openPhoto=(item:HistoryPhoto)=>{setZoom(1);setOpened({src:item.src,title:item.title,description:item.description});};
  const countFor=(key:Tab)=>key==="maps"?HISTORY_VISUALS.filter(item=>getNote(item)).length:
