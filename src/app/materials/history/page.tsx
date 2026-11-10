@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities, @next/next/no-img-element */
 "use client";
 
 import { useMemo, useState } from "react";
