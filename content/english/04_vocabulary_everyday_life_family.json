@@ -1095,15 +1095,15 @@
       "testLevel": 3
     },
     {
-      "text": "His explanation sounded convincing, but it did not ___ with the evidence in the email.",
+      "text": "His explanation sounded convincing, but it did not ___ the evidence in the email.",
       "options": [
         "match",
         "suit",
-        "fit in",
+        "fit in with",
         "agree"
       ],
       "correctIndex": 0,
-      "explanation": "💡 Match with the evidence — узгоджуватися з доказами.\n❌ Б) suit — пасувати людині/ситуації; В) fit in — вписуватися в групу; Г) agree зазвичай потребує agree with + особа/думка, але тут природніше match the evidence.\n✅ А) match.",
+      "explanation": "💡 Match the evidence — відповідати доказам або узгоджуватися з ними.\n❌ Б) suit — пасувати людині чи ситуації; В) fit in with — узгоджуватися з правилами/групою, але тут конструкція match the evidence є прямою; Г) agree потребує agree with + особа/думка.\n✅ А) match the evidence.",
       "testLevel": 3
     },
     {
