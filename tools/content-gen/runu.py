@@ -8,3 +8,7 @@ for a in m.H: T.add(*a)
 T.run(m.FAMS, target=target)
 cards = getattr(m, 'CARDS', [])
 T.save(cards)
+import glob, os
+used = {q['image'] for q in T.qs if q.get('image')}
+for f in glob.glob(f'{IMGDIR}/u{n}_*.svg'):
+    if '/img/ukrainian/' + os.path.basename(f) not in used: os.remove(f)
