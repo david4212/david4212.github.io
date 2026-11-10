@@ -1,1664 +1,1664 @@
 {
- "subject": "ENGLISH",
- "topic": "Vocabulary: Everyday Life, Family & Relationships",
- "questions": [
-  {
-   "text": "My mother's sister is my ___.",
-   "options": [
-    "aunt",
-    "uncle",
-    "cousin",
-    "niece"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Aunt = тітка.\n❌ Хибні: Б) uncle — uncle — чоловік (брат матері); В) cousin — cousin — син чи дочка тітки/дядька; Г) niece — niece — дочка брата чи сестри.\n✅ А) aunt — сестра матері — тітка.",
-   "testLevel": 1
-  },
-  {
-   "text": "My uncle's son is my ___.",
-   "options": [
-    "cousin",
-    "brother",
-    "nephew",
-    "grandson"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Cousin = двоюрідний брат/сестра.\n❌ Хибні: Б) brother — brother — рідний брат; В) nephew — nephew — син брата чи сестри; Г) grandson — grandson — онук.\n✅ А) cousin — син дядька — двоюрідний брат.",
-   "testLevel": 1
-  },
-  {
-   "text": "My sister's daughter is my ___.",
-   "options": [
-    "niece",
-    "nephew",
-    "cousin",
-    "aunt"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Niece = племінниця.\n❌ Хибні: Б) nephew — nephew — племінник; В) cousin — cousin — двоюрідна сестра; Г) aunt — aunt — тітка.\n✅ А) niece — дочка сестри — племінниця.",
-   "testLevel": 1
-  },
-  {
-   "text": "My father's father is my ___.",
-   "options": [
-    "stepfather",
-    "uncle",
-    "grandson",
-    "grandfather"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Grandfather = дід.\n❌ Хибні: А) stepfather — stepfather — вітчим; Б) uncle — uncle — дядько; В) grandson — grandson — онук.\n✅ Г) grandfather — батько батька — дід.",
-   "testLevel": 1
-  },
-  {
-   "text": "A person who has no brothers or sisters is an ___ child.",
-   "options": [
-    "lonely",
-    "alone",
-    "only",
-    "single"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Only child.\n❌ Хибні: А) lonely — lonely — самотній; Б) alone — alone — наодинці; Г) single — single — неодружений.\n✅ В) only — only child — єдина дитина.",
-   "testLevel": 1
-  },
-  {
-   "text": "My husband's mother is my ___.",
-   "options": [
-    "mother-in-law",
-    "stepmother",
-    "aunt",
-    "grandmother"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Mother-in-law.\n❌ Хибні: Б) stepmother — stepmother — мачуха; В) aunt — aunt — тітка; Г) grandmother — grandmother — бабуся.\n✅ А) mother-in-law — мати чоловіка — свекруха.",
-   "testLevel": 1
-  },
-  {
-   "text": "Brothers and sisters are called ___.",
-   "options": [
-    "twins",
-    "parents",
-    "relatives",
-    "siblings"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Siblings.\n❌ Хибні: А) twins — twins — лише близнюки; Б) parents — parents — батьки; В) relatives — relatives — усі родичі.\n✅ Г) siblings — siblings — брати й сестри.",
-   "testLevel": 1
-  },
-  {
-   "text": "I usually ___ up at 7 o'clock.",
-   "options": [
-    "do",
-    "make",
-    "take",
-    "get"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Get up.\n❌ Хибні: А) do — do up — застібати; Б) make — make up — вигадувати; В) take — take up — починати займатися.\n✅ Г) get — get up — вставати.",
-   "testLevel": 1
-  },
-  {
-   "text": "Don't forget to ___ your teeth before bed.",
-   "options": [
-    "wash",
-    "make",
-    "do",
-    "brush"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Brush your teeth.\n❌ Хибні: А) wash — wash teeth не вживається; Б) make — make teeth не вживається; В) do — do teeth не вживається.\n✅ Г) brush — brush teeth — чистити зуби.",
-   "testLevel": 1
-  },
-  {
-   "text": "I ___ the bed every morning.",
-   "options": [
-    "do",
-    "have",
-    "make",
-    "take"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Make the bed.\n❌ Хибні: А) do — do the bed не вживається; Б) have — have the bed не вживається; Г) take — take the bed не вживається.\n✅ В) make — make the bed — застеляти ліжко.",
-   "testLevel": 1
-  },
-  {
-   "text": "She ___ her homework after school.",
-   "options": [
-    "makes",
-    "does",
-    "takes",
-    "has"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Do homework.\n❌ Хибні: А) makes — make homework не вживається; В) takes — take homework — брати завдання; Г) has — have homework — мати завдання.\n✅ Б) does — do homework — робити домашнє завдання.",
-   "testLevel": 1
-  },
-  {
-   "text": "We usually ___ lunch at 1 p.m.",
-   "options": [
-    "do",
-    "play",
-    "go",
-    "have"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Have lunch.\n❌ Хибні: А) do — do lunch не вживається; Б) play — play lunch не вживається; В) go — go lunch не вживається.\n✅ Г) have — have lunch — обідати.",
-   "testLevel": 1
-  },
-  {
-   "text": "I ___ a shower every morning.",
-   "options": [
-    "do",
-    "go",
-    "make",
-    "take"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Take a shower.\n❌ Хибні: А) do — do a shower не вживається; Б) go — go a shower не вживається; В) make — make a shower не вживається.\n✅ Г) take — take a shower — приймати душ.",
-   "testLevel": 1
-  },
-  {
-   "text": "I ___ the dishes after dinner.",
-   "options": [
-    "wash",
-    "make",
-    "take",
-    "play"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Wash the dishes.\n❌ Хибні: Б) make — make the dishes не вживається; В) take — take the dishes — не про мийку; Г) play — play the dishes не вживається.\n✅ А) wash — wash the dishes — мити посуд.",
-   "testLevel": 1
-  },
-  {
-   "text": "Every Sunday we ___ the house.",
-   "options": [
-    "wash",
-    "cook",
-    "clean",
-    "paint"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Clean the house.\n❌ Хибні: А) wash — wash the house — мити стіни ззовні; Б) cook — cook the house не вживається; Г) paint — paint змінює значення.\n✅ В) clean — clean the house — прибирати.",
-   "testLevel": 1
-  },
-  {
-   "text": "You sleep in the ___.",
-   "options": [
-    "bedroom",
-    "bathroom",
-    "garage",
-    "kitchen"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Bedroom.\n❌ Хибні: Б) bathroom — bathroom — ванна кімната; В) garage — garage — гараж; Г) kitchen — kitchen — кухня.\n✅ А) bedroom — bedroom — спальня.",
-   "testLevel": 1
-  },
-  {
-   "text": "We cook meals in the ___.",
-   "options": [
-    "kitchen",
-    "hall",
-    "bedroom",
-    "garage"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Kitchen.\n❌ Хибні: Б) hall — hall — коридор; В) bedroom — bedroom — спальня; Г) garage — garage — гараж.\n✅ А) kitchen — kitchen — кухня.",
-   "testLevel": 1
-  },
-  {
-   "text": "A person who owns a flat and lets you live there for money is a ___.",
-   "options": [
-    "tenant",
-    "guest",
-    "neighbour",
-    "landlord"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Landlord.\n❌ Хибні: А) tenant — tenant — орендар; Б) guest — guest — гість; В) neighbour — neighbour — сусід.\n✅ Г) landlord — landlord — власник житла.",
-   "testLevel": 1
-  },
-  {
-   "text": "I live in a block of ___ on the fifth floor.",
-   "options": [
-    "buildings",
-    "houses",
-    "flats",
-    "rooms"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Block of flats.\n❌ Хибні: А) buildings — block of buildings не вживається; Б) houses — block of houses не вживається; Г) rooms — block of rooms не вживається.\n✅ В) flats — block of flats — багатоквартирний будинок.",
-   "testLevel": 1
-  },
-  {
-   "text": "You can return goods if you keep the ___.",
-   "options": [
-    "ticket",
-    "receptor",
-    "receipt",
-    "recipe"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Receipt = чек.\n❌ Хибні: А) ticket — ticket — квиток; Б) receptor — receptor — рецептор; Г) recipe — recipe — рецепт.\n✅ В) receipt — receipt — чек.",
-   "testLevel": 1
-  },
-  {
-   "text": "This shop has a ___ on shoes: 30% off.",
-   "options": [
-    "selling",
-    "sell",
-    "sale",
-    "sold"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Sale = розпродаж.\n❌ Хибні: А) selling — selling — продаж; Б) sell — sell — продавати; Г) sold — sold — проданий.\n✅ В) sale — sale — розпродаж.",
-   "testLevel": 1
-  },
-  {
-   "text": "How much does this jacket ___?",
-   "options": [
-    "cost",
-    "price",
-    "worth",
-    "pay"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Cost = коштувати.\n❌ Хибні: Б) price — price — це іменник; В) worth — worth — вартий; Г) pay — pay — платити.\n✅ А) cost — cost — коштувати.",
-   "testLevel": 1
-  },
-  {
-   "text": "Can I ___ these jeans on?",
-   "options": [
-    "try",
-    "check",
-    "test",
-    "taste"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Try on.\n❌ Хибні: Б) check — check on не вживається; В) test — test on не вживається; Г) taste — taste — куштувати.\n✅ А) try — try on — приміряти.",
-   "testLevel": 1
-  },
-  {
-   "text": "Please ___ the table for dinner.",
-   "options": [
-    "put",
-    "do",
-    "make",
-    "set"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Set the table.\n❌ Хибні: А) put — put the table — перемістити; Б) do — do the table не вживається; В) make — make the table — виготовити.\n✅ Г) set — set the table — накрити стіл.",
-   "testLevel": 1
-  },
-  {
-   "text": "A person who doesn't eat meat is a ___.",
-   "options": [
-    "vegetable",
-    "vegetarian",
-    "volunteer",
-    "veterinarian"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Vegetarian.\n❌ Хибні: А) vegetable — vegetable — овоч; В) volunteer — volunteer — волонтер; Г) veterinarian — veterinarian — ветеринар.\n✅ Б) vegetarian — vegetarian — вегетаріанець.",
-   "testLevel": 1
-  },
-  {
-   "text": "I haven't seen him for ages, but we keep in ___.",
-   "options": [
-    "link",
-    "reach",
-    "touch",
-    "hand"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Keep in touch.\n❌ Хибні: А) link — keep in link не вживається; Б) reach — keep in reach — тримати поруч; Г) hand — keep in hand не вживається.\n✅ В) touch — keep in touch — підтримувати зв'язок.",
-   "testLevel": 1
-  },
-  {
-   "text": "She ___ me a text message yesterday.",
-   "options": [
-    "talked",
-    "told",
-    "sent",
-    "said"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Send a message.\n❌ Хибні: А) talked — talk — говорити; Б) told — tell — розповісти; Г) said — say не потребує додатка.\n✅ В) sent — send a message — надіслати.",
-   "testLevel": 1
-  },
-  {
-   "text": "We ___ to music at weekends.",
-   "options": [
-    "listen",
-    "hear",
-    "look",
-    "watch"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Listen to.\n❌ Хибні: Б) hear — hear — чути без наміру; В) look — look — дивитись; Г) watch — watch — спостерігати.\n✅ А) listen — listen to — слухати.",
-   "testLevel": 1
-  },
-  {
-   "text": "My best friend and I get ___ very well.",
-   "options": [
-    "down",
-    "along",
-    "out",
-    "up"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Get along.\n❌ Хибні: А) down — get down — спускатись; В) out — get out — виходити; Г) up — get up — вставати.\n✅ Б) along — get along — ладнати.",
-   "testLevel": 1
-  },
-  {
-   "text": "My hobby is ___ stamps.",
-   "options": [
-    "collecting",
-    "taking",
-    "doing",
-    "making"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Collecting.\n❌ Хибні: Б) taking — take змінює значення; В) doing — do змінює значення; Г) making — make змінює значення.\n✅ А) collecting — collect stamps — колекціонувати.",
-   "testLevel": 1
-  },
-  {
-   "text": "What do you do in your ___ time?",
-   "options": [
-    "free",
-    "empty",
-    "busy",
-    "open"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Free time.\n❌ Хибні: Б) empty — empty — порожній; В) busy — busy — зайнятий; Г) open — open — відчинений.\n✅ А) free — free time — вільний час.",
-   "testLevel": 1
-  },
-  {
-   "text": "She was very ___ when she heard the good news.",
-   "options": [
-    "bored",
-    "scared",
-    "happy",
-    "angry"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Good news — happy.\n❌ Хибні: А) bored — bored — знуджений; Б) scared — scared — наляканий; Г) angry — angry — злий.\n✅ В) happy — happy — щасливий.",
-   "testLevel": 1
-  },
-  {
-   "text": "I ___ go to the cinema — only once a year.",
-   "options": [
-    "often",
-    "always",
-    "rarely",
-    "usually"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Once a year — rarely.\n❌ Хибні: А) often — often — часто; Б) always — always — завжди; Г) usually — usually — зазвичай.\n✅ В) rarely — rarely — рідко.",
-   "testLevel": 1
-  },
-  {
-   "text": "My parents' parents are my ___.",
-   "options": [
-    "ancestors",
-    "grandparents",
-    "cousins",
-    "relatives"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Grandparents.\n❌ Хибні: А) ancestors — ancestors — далекі предки; В) cousins — cousins — двоюрідні брати і сестри; Г) relatives — relatives — усі родичі.\n✅ Б) grandparents — grandparents — дідусь і бабуся.",
-   "testLevel": 1
-  },
-  {
-   "text": "— Thank you for your help. — ___",
-   "options": [
-    "Never mind.",
-    "Same to you.",
-    "Good luck.",
-    "You're welcome."
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Thanks → You're welcome.\n❌ Хибні: А) Never mind. — так відповідають на вибачення; Б) Same to you. — так відповідають на побажання; В) Good luck. — це побажання успіху.\n✅ Г) You're welcome. — відповідь на подяку.",
-   "testLevel": 1
-  },
-  {
-   "text": "— I'm sorry I'm late. — ___",
-   "options": [
-    "Good luck.",
-    "You're welcome.",
-    "Yes, please.",
-    "That's all right."
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Sorry → That's all right.\n❌ Хибні: А) Good luck. — це побажання успіху; Б) You're welcome. — це відповідь на подяку; В) Yes, please. — так відповідають на пропозицію.\n✅ Г) That's all right. — відповідь на вибачення.",
-   "testLevel": 1
-  },
-  {
-   "text": "— Would you like some more tea? — ___",
-   "options": [
-    "No, thanks. I've had enough.",
-    "I'm Tom.",
-    "Yes, I do.",
-    "At five o'clock."
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Would you like → thanks/please.\n❌ Хибні: Б) I'm Tom. — це відповідь про ім'я; В) Yes, I do. — не пасує до питання Would you like; Г) At five o'clock. — це відповідь про час.\n✅ А) No, thanks. I've had enough. — природна відповідь на пропозицію.",
-   "testLevel": 1
-  },
-  {
-   "text": "I get on well ___ my cousin.",
-   "options": [
-    "with",
-    "to",
-    "at",
-    "by"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Get on with.\n❌ Хибні: Б) to — to не вживається після get on; В) at — at не вживається після get on; Г) by — by не вживається після get on.\n✅ А) with — get on with — ладнати з кимось.",
-   "testLevel": 2
-  },
-  {
-   "text": "She takes ___ her mother — they have the same smile.",
-   "options": [
-    "off",
-    "over",
-    "after",
-    "up"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Take after = бути схожим.\n❌ Хибні: А) off — take off — знімати; Б) over — take over — перебирати контроль; Г) up — take up — починати займатися.\n✅ В) after — take after — бути схожим на.",
-   "testLevel": 2
-  },
-  {
-   "text": "He was brought ___ by his grandparents.",
-   "options": [
-    "up",
-    "out",
-    "on",
-    "in"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Bring up = виховувати.\n❌ Хибні: Б) out — bring out — випускати; В) on — bring on — спричиняти; Г) in — bring in — вводити.\n✅ А) up — bring up — виховувати.",
-   "testLevel": 2
-  },
-  {
-   "text": "I look ___ to my older brother; he's my role model.",
-   "options": [
-    "up",
-    "down",
-    "for",
-    "after"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Look up to = поважати.\n❌ Хибні: Б) down — look down on — зневажати; В) for — look for — шукати; Г) after — look after — доглядати.\n✅ А) up — look up to — поважати.",
-   "testLevel": 2
-  },
-  {
-   "text": "They fell ___ and haven't spoken since.",
-   "options": [
-    "out",
-    "over",
-    "off",
-    "down"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Fall out = посваритися.\n❌ Хибні: Б) over — fall over — перекинутись; В) off — fall off — падати; Г) down — fall down — впасти.\n✅ А) out — fall out — посваритися.",
-   "testLevel": 2
-  },
-  {
-   "text": "Tom and Ann broke ___ last month, so they're no longer a couple.",
-   "options": [
-    "out",
-    "down",
-    "up",
-    "over"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Break up = розійтися.\n❌ Хибні: А) out — break out — вибухнути (про війну); Б) down — break down — зламатися; Г) over — break over не вживається.\n✅ В) up — break up — розійтися.",
-   "testLevel": 2
-  },
-  {
-   "text": "I can't put ___ with his bad manners any more.",
-   "options": [
-    "on",
-    "off",
-    "out",
-    "up"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Put up with = терпіти.\n❌ Хибні: А) on — put on — одягати; Б) off — put off — відкладати; В) out — put out — гасити.\n✅ Г) up — put up with — терпіти.",
-   "testLevel": 2
-  },
-  {
-   "text": "She grew ___ in a small village.",
-   "options": [
-    "up",
-    "off",
-    "out",
-    "on"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Grow up.\n❌ Хибні: Б) off — grow off не вживається; В) out — grow out of — вирости з; Г) on — grow on — стати приємним.\n✅ А) up — grow up — дорослішати.",
-   "testLevel": 2
-  },
-  {
-   "text": "Could you look ___ my cat while I'm away?",
-   "options": [
-    "after",
-    "for",
-    "at",
-    "up"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Look after = доглядати.\n❌ Хибні: Б) for — look for — шукати; В) at — look at — дивитись; Г) up — look up — шукати в словнику.\n✅ А) after — look after — доглядати.",
-   "testLevel": 2
-  },
-  {
-   "text": "Please ___ out the rubbish before you go to bed.",
-   "options": [
-    "put",
-    "take",
-    "do",
-    "make"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Take out the rubbish.\n❌ Хибні: А) put — put out — гасити; В) do — do out не вживається; Г) make — make out не пасує за змістом.\n✅ Б) take — take out the rubbish — виносити сміття.",
-   "testLevel": 2
-  },
-  {
-   "text": "Let's ___ out tonight — I don't want to cook.",
-   "options": [
-    "do",
-    "take",
-    "eat",
-    "make"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Eat out.\n❌ Хибні: А) do — do out не вживається; Б) take — take out змінює значення; Г) make — make out не вживається.\n✅ В) eat — eat out — їсти поза домом.",
-   "testLevel": 2
-  },
-  {
-   "text": "He ___ a flat with his friend.",
-   "options": [
-    "splits",
-    "separates",
-    "divides",
-    "shares"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Share a flat.\n❌ Хибні: А) splits — split — розділяти; Б) separates — separate — відокремлювати; В) divides — divide — ділити на частини.\n✅ Г) shares — share a flat — ділити житло.",
-   "testLevel": 2
-  },
-  {
-   "text": "He ___ a mistake and apologised.",
-   "options": [
-    "did",
-    "took",
-    "made",
-    "had"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Make a mistake.\n❌ Хибні: А) did — do a mistake не вживається; Б) took — take a mistake не вживається; Г) had — have a mistake не вживається.\n✅ В) made — make a mistake — припуститися помилки.",
-   "testLevel": 2
-  },
-  {
-   "text": "Who ___ the cooking in your family?",
-   "options": [
-    "has",
-    "does",
-    "takes",
-    "makes"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Do the cooking.\n❌ Хибні: А) has — have the cooking не вживається; В) takes — take the cooking не вживається; Г) makes — make the cooking не вживається.\n✅ Б) does — do the cooking — готувати їжу.",
-   "testLevel": 2
-  },
-  {
-   "text": "I need to ___ a decision soon.",
-   "options": [
-    "have",
-    "do",
-    "go",
-    "make"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Make a decision.\n❌ Хибні: А) have — have a decision не вживається; Б) do — do a decision не вживається; В) go — go a decision не вживається.\n✅ Г) make — make a decision — ухвалити рішення.",
-   "testLevel": 2
-  },
-  {
-   "text": "Let's ___ a break — I'm tired.",
-   "options": [
-    "make",
-    "take",
-    "do",
-    "put"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Take a break.\n❌ Хибні: А) make — make a break не вживається; В) do — do a break не вживається; Г) put — put a break не вживається.\n✅ Б) take — take a break — зробити перерву.",
-   "testLevel": 2
-  },
-  {
-   "text": "She ___ a lot of money on clothes.",
-   "options": [
-    "spends",
-    "pays",
-    "takes",
-    "makes"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Spend on.\n❌ Хибні: Б) pays — pay потребує додатка for; В) takes — take money — брати; Г) makes — make money — заробляти.\n✅ А) spends — spend money on — витрачати.",
-   "testLevel": 2
-  },
-  {
-   "text": "I'm saving ___ for a new phone.",
-   "options": [
-    "out",
-    "up",
-    "in",
-    "off"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Save up.\n❌ Хибні: А) out — save out не вживається; В) in — save in не вживається; Г) off — save off не вживається.\n✅ Б) up — save up — відкладати гроші.",
-   "testLevel": 2
-  },
-  {
-   "text": "The shop assistant gave me a ___ on my purchase.",
-   "options": [
-    "discount",
-    "price",
-    "cost",
-    "rate"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Discount = знижка.\n❌ Хибні: Б) price — price — ціна; В) cost — cost — вартість; Г) rate — rate — ставка.\n✅ А) discount — discount — знижка.",
-   "testLevel": 2
-  },
-  {
-   "text": "Can you ___ me a favour?",
-   "options": [
-    "do",
-    "make",
-    "take",
-    "have"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Do a favour.\n❌ Хибні: Б) make — make a favour не вживається; В) take — take a favour не вживається; Г) have — have a favour не вживається.\n✅ А) do — do a favour — зробити послугу.",
-   "testLevel": 2
-  },
-  {
-   "text": "Thank you for your ___! (KIND)",
-   "options": [
-    "kindness",
-    "kinder",
-    "unkind",
-    "kindly"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Thank you for your kindness.\n❌ Хибні: Б) kinder — kinder — вищий ступінь; В) unkind — unkind — прикметник із запереченням; Г) kindly — kindly — прислівник.\n✅ А) kindness — іменник від kind.",
-   "testLevel": 2
-  },
-  {
-   "text": "We have a very ___ relationship. (FRIEND)",
-   "options": [
-    "friends",
-    "friendship",
-    "friendless",
-    "friendly"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Прикметник перед relationship.\n❌ Хибні: А) friends — friends — множина іменника; Б) friendship — friendship — іменник; В) friendless — friendless — без друзів.\n✅ Г) friendly — friendly — прикметник.",
-   "testLevel": 2
-  },
-  {
-   "text": "Their ___ lasted for fifty years. (MARRY)",
-   "options": [
-    "married",
-    "marriages",
-    "marrying",
-    "marriage"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Їхній шлюб — marriage.\n❌ Хибні: А) married — married — прикметник; Б) marriages — marriages — множина; В) marrying — marrying — герундій.\n✅ Г) marriage — marriage — іменник.",
-   "testLevel": 2
-  },
-  {
-   "text": "My grandfather is quite ___. (FORGET)",
-   "options": [
-    "forgettable",
-    "forgetting",
-    "forgetful",
-    "forgotten"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Forgetful = забудькуватий.\n❌ Хибні: А) forgettable — forgettable — легкий для забування; Б) forgetting — forgetting — герундій; Г) forgotten — forgotten — забутий.\n✅ В) forgetful — forgetful — забудькуватий.",
-   "testLevel": 2
-  },
-  {
-   "text": "It's ___ to live without a mobile phone these days. (POSSIBLE)",
-   "options": [
-    "dispossible",
-    "non-possible",
-    "unpossible",
-    "impossible"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Possible → impossible.\n❌ Хибні: А) dispossible — така форма не існує; Б) non-possible — така форма не існує; В) unpossible — така форма не існує.\n✅ Г) impossible — im- + possible.",
-   "testLevel": 2
-  },
-  {
-   "text": "He is a very ___ person — you can always trust him. (RELY)",
-   "options": [
-    "reliable",
-    "relied",
-    "reliance",
-    "reliant"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Reliable = надійний.\n❌ Хибні: Б) relied — relied — форма дієслова; В) reliance — reliance — залежність; Г) reliant — reliant — залежний.\n✅ А) reliable — reliable — надійний.",
-   "testLevel": 2
-  },
-  {
-   "text": "We were ___ to hear the news. (SURPRISE)",
-   "options": [
-    "surprisingly",
-    "surprising",
-    "surprised",
-    "surprise"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: We were surprised.\n❌ Хибні: А) surprisingly — surprisingly — прислівник; Б) surprising — -ing — що викликає здивування; Г) surprise — surprise — іменник.\n✅ В) surprised — -ed — як людина почувається.",
-   "testLevel": 2
-  },
-  {
-   "text": "The film was ___. I almost fell asleep. (BORE)",
-   "options": [
-    "boredom",
-    "bore",
-    "boring",
-    "bored"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: The film was boring.\n❌ Хибні: А) boredom — boredom — іменник; Б) bore — bore — іменник; Г) bored — -ed — як людина почувається.\n✅ В) boring — -ing — що викликає нудьгу.",
-   "testLevel": 2
-  },
-  {
-   "text": "My neighbour is very ___ — she always asks about other people's lives.",
-   "options": [
-    "lazy",
-    "shy",
-    "polite",
-    "nosy"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Nosy = цікавий до чужих справ.\n❌ Хибні: А) lazy — lazy — ледача; Б) shy — shy — сором'язлива; В) polite — polite — ввічлива.\n✅ Г) nosy — nosy — цікава до чужих справ.",
-   "testLevel": 2
-  },
-  {
-   "text": "A ___ is a person you know a little but who isn't a close friend.",
-   "options": [
-    "acquaintance",
-    "stranger",
-    "colleague",
-    "ancestor"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Acquaintance = знайомий.\n❌ Хибні: Б) stranger — stranger — незнайомець; В) colleague — colleague — колега; Г) ancestor — ancestor — предок.\n✅ А) acquaintance — acquaintance — знайомий.",
-   "testLevel": 2
-  },
-  {
-   "text": "Someone you work with is your ___.",
-   "options": [
-    "colleague",
-    "relative",
-    "neighbour",
-    "classmate"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Colleague.\n❌ Хибні: Б) relative — relative — родич; В) neighbour — neighbour — сусід; Г) classmate — classmate — однокласник.\n✅ А) colleague — colleague — колега.",
-   "testLevel": 2
-  },
-  {
-   "text": "If you are ___, you aren't married.",
-   "options": [
-    "divorced",
-    "lonely",
-    "single",
-    "alone"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Single.\n❌ Хибні: А) divorced — divorced — розлучений; Б) lonely — lonely — самотній; Г) alone — alone — наодинці.\n✅ В) single — single — неодружений.",
-   "testLevel": 2
-  },
-  {
-   "text": "When a couple stops being married by law, they get ___.",
-   "options": [
-    "divorced",
-    "retired",
-    "widowed",
-    "engaged"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Get divorced.\n❌ Хибні: Б) retired — retired — вийти на пенсію; В) widowed — widowed — овдовіти; Г) engaged — engaged — заручитися.\n✅ А) divorced — divorced — розлучитися.",
-   "testLevel": 2
-  },
-  {
-   "text": "Her husband died last year, so she is a ___.",
-   "options": [
-    "bride",
-    "orphan",
-    "widow",
-    "widower"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Widow.\n❌ Хибні: А) bride — bride — наречена; Б) orphan — orphan — сирота; Г) widower — widower — вдівець.\n✅ В) widow — widow — удова.",
-   "testLevel": 2
-  },
-  {
-   "text": "A newly married woman on her wedding day is a ___.",
-   "options": [
-    "guest",
-    "bridegroom",
-    "bride",
-    "widow"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Bride.\n❌ Хибні: А) guest — guest — гість; Б) bridegroom — bridegroom — наречений; Г) widow — widow — удова.\n✅ В) bride — bride — наречена.",
-   "testLevel": 2
-  },
-  {
-   "text": "— How about going to the cinema tonight? — ___",
-   "options": [
-    "It's two pounds.",
-    "I went there yesterday?",
-    "Yes, I was.",
-    "Great idea! What's on?"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: How about → Great idea.\n❌ Хибні: А) It's two pounds. — це відповідь про ціну; Б) I went there yesterday? — не пасує до пропозиції; В) Yes, I was. — не пасує до How about.\n✅ Г) Great idea! What's on? — погоджується й питає.",
-   "testLevel": 2
-  },
-  {
-   "text": "— Could you tell me the way to the station? — ___",
-   "options": [
-    "Yes, I could.",
-    "It's at six.",
-    "Sure. Go straight and turn left.",
-    "No, thank you."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Way → directions.\n❌ Хибні: А) Yes, I could. — це відповідь без користі; Б) It's at six. — це відповідь про час; Г) No, thank you. — не пасує до прохання.\n✅ В) Sure. Go straight and turn left. — дає чіткий напрямок.",
-   "testLevel": 2
-  },
-  {
-   "text": "— Thanks for helping me. — ___",
-   "options": [
-    "I don't mind.",
-    "Never mind.",
-    "You're welcome.",
-    "Same to you."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Thanks → You're welcome.\n❌ Хибні: А) I don't mind. — це відповідь на питання про дозвіл; Б) Never mind. — так відповідають на вибачення; Г) Same to you. — так відповідають на побажання.\n✅ В) You're welcome. — відповідь на подяку.",
-   "testLevel": 2
-  },
-  {
-   "text": "— Can I use your phone? — ___",
-   "options": [
-    "No, you are welcome.",
-    "Sure, go ahead.",
-    "Of course not, thanks.",
-    "Yes, I can't."
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Can I → Sure/Of course.\n❌ Хибні: А) No, you are welcome. — це суперечлива відповідь; В) Of course not, thanks. — це суперечлива відповідь; Г) Yes, I can't. — це суперечлива відповідь.\n✅ Б) Sure, go ahead. — дає дозвіл користуватись.",
-   "testLevel": 2
-  },
-  {
-   "text": "— What's your brother like? — ___",
-   "options": [
-    "He's tall.",
-    "He likes football.",
-    "He's kind and funny.",
-    "He's twenty."
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: What … like? → описує людину.\n❌ Хибні: А) He's tall. — описує зовнішність, не характер; Б) He likes football. — відповідає на What does he like; Г) He's twenty. — відповідає на How old is he.\n✅ В) He's kind and funny. — описує характер людини.",
-   "testLevel": 2
-  },
-  {
-   "text": "We're ___ a housewarming party since we've moved into a new house.",
-   "options": [
-    "having",
-    "taking",
-    "making",
-    "doing"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Have a party.\n❌ Хибні: Б) taking — take a party не вживається; В) making — make a party не вживається; Г) doing — do a party не вживається.\n✅ А) having — have a party — влаштовувати вечірку.",
-   "testLevel": 2
-  },
-  {
-   "text": "He ___ a lot of noise, so the neighbours complained.",
-   "options": [
-    "had",
-    "did",
-    "took",
-    "made"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Make noise.\n❌ Хибні: А) had — have noise не вживається; Б) did — do noise не вживається; В) took — take noise не вживається.\n✅ Г) made — make noise — шуміти.",
-   "testLevel": 2
-  },
-  {
-   "text": "She never ___ the washing-up — her brother always does it.",
-   "options": [
-    "does",
-    "takes",
-    "has",
-    "makes"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Do the washing-up.\n❌ Хибні: Б) takes — take the washing-up не вживається; В) has — have the washing-up не вживається; Г) makes — make the washing-up не вживається.\n✅ А) does — do the washing-up — мити посуд.",
-   "testLevel": 2
-  },
-  {
-   "text": "Their ___ in the village was very friendly. (NEIGHBOUR)",
-   "options": [
-    "neighbourly",
-    "neighbours",
-    "neighbouring",
-    "neighbourhood"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Neighbourhood = район.\n❌ Хибні: А) neighbourly — neighbourly — по-сусідськи; Б) neighbours — neighbours — множина; В) neighbouring — neighbouring — сусідній.\n✅ Г) neighbourhood — neighbourhood — околиця.",
-   "testLevel": 2
-  },
-  {
-   "text": "You can't trust him; he's very ___. (HONEST)",
-   "options": [
-    "dishonest",
-    "nonhonest",
-    "inhonest",
-    "unhonest"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Honest → dishonest.\n❌ Хибні: Б) nonhonest — така форма не існує; В) inhonest — така форма не існує; Г) unhonest — така форма не існує.\n✅ А) dishonest — dis- + honest.",
-   "testLevel": 2
-  },
-  {
-   "text": "It's ___ to talk loudly in the library. (POLITE)",
-   "options": [
-    "impolite",
-    "unpolite",
-    "inpolite",
-    "dispolite"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Polite → impolite.\n❌ Хибні: Б) unpolite — така форма не існує; В) inpolite — така форма не існує; Г) dispolite — така форма не існує.\n✅ А) impolite — im- + polite.",
-   "testLevel": 2
-  },
-  {
-   "text": "He is the black ___ of the family.",
-   "options": [
-    "horse",
-    "cow",
-    "goat",
-    "sheep"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Black sheep.\n❌ Хибні: А) horse — black horse не вживається; Б) cow — black cow не вживається; В) goat — black goat не вживається.\n✅ Г) sheep — black sheep — паршива вівця.",
-   "testLevel": 3
-  },
-  {
-   "text": "Blood is ___ than water.",
-   "options": [
-    "thinner",
-    "heavier",
-    "stronger",
-    "thicker"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Blood is thicker than water.\n❌ Хибні: А) thinner — thinner суперечить змісту; Б) heavier — heavier не вживається в ідіомі; В) stronger — stronger не вживається в ідіомі.\n✅ Г) thicker — родинні зв'язки міцніші.",
-   "testLevel": 3
-  },
-  {
-   "text": "He looks and speaks like his father — a chip off the old ___.",
-   "options": [
-    "tree",
-    "block",
-    "wood",
-    "stone"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Chip off the old block.\n❌ Хибні: А) tree — off the old tree не вживається; В) wood — off the old wood не вживається; Г) stone — off the old stone не вживається.\n✅ Б) block — a chip off the old block — весь у батька.",
-   "testLevel": 3
-  },
-  {
-   "text": "We never see eye to ___ on money.",
-   "options": [
-    "ear",
-    "nose",
-    "face",
-    "eye"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: See eye to eye.\n❌ Хибні: А) ear — see eye to ear не вживається; Б) nose — see eye to nose не вживається; В) face — see eye to face не вживається.\n✅ Г) eye — see eye to eye — погоджуватися.",
-   "testLevel": 3
-  },
-  {
-   "text": "They get on like a house on ___.",
-   "options": [
-    "air",
-    "water",
-    "wood",
-    "fire"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Like a house on fire.\n❌ Хибні: А) air — house on air не вживається; Б) water — house on water не вживається; В) wood — house on wood не вживається.\n✅ Г) fire — like a house on fire — дуже добре ладнають.",
-   "testLevel": 3
-  },
-  {
-   "text": "He gave all his money to charity; he really has a heart of ___.",
-   "options": [
-    "gold",
-    "iron",
-    "stone",
-    "ice"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Heart of gold.\n❌ Хибні: Б) iron — heart of iron — твердість; В) stone — heart of stone — черствість; Г) ice — heart of ice — холодність.\n✅ А) gold — heart of gold — добре серце.",
-   "testLevel": 3
-  },
-  {
-   "text": "I was over the ___ when I heard I'd passed the exam.",
-   "options": [
-    "sun",
-    "star",
-    "sky",
-    "moon"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Over the moon.\n❌ Хибні: А) sun — over the sun не вживається; Б) star — over the star не вживається; В) sky — over the sky не вживається.\n✅ Г) moon — over the moon — на сьомому небі.",
-   "testLevel": 3
-  },
-  {
-   "text": "She's feeling a bit under the ___ today.",
-   "options": [
-    "sky",
-    "weather",
-    "sea",
-    "rain"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Under the weather.\n❌ Хибні: А) sky — under the sky змінює значення; В) sea — under the sea змінює значення; Г) rain — under the rain змінює значення.\n✅ Б) weather — under the weather — трохи нездужає.",
-   "testLevel": 3
-  },
-  {
-   "text": "We see each other only once in a blue ___.",
-   "options": [
-    "sky",
-    "moon",
-    "sea",
-    "month"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Once in a blue moon.\n❌ Хибні: А) sky — blue sky не належить до ідіоми; В) sea — blue sea не належить до ідіоми; Г) month — blue month не існує.\n✅ Б) moon — once in a blue moon — дуже рідко.",
-   "testLevel": 3
-  },
-  {
-   "text": "Don't let the cat out of the ___ — it's a surprise!",
-   "options": [
-    "house",
-    "door",
-    "box",
-    "bag"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Let the cat out of the bag.\n❌ Хибні: А) house — out of the house не належить до ідіоми; Б) door — out of the door не належить до ідіоми; В) box — out of the box не належить до ідіоми.\n✅ Г) bag — let the cat out of the bag — розкрити секрет.",
-   "testLevel": 3
-  },
-  {
-   "text": "At the party everyone was shy until Tom ___ the ice with a joke.",
-   "options": [
-    "broke",
-    "cracked",
-    "melted",
-    "opened"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Break the ice.\n❌ Хибні: Б) cracked — crack the ice не вживається; В) melted — melt the ice не вживається; Г) opened — open the ice не вживається.\n✅ А) broke — break the ice — розпочати спілкування.",
-   "testLevel": 3
-  },
-  {
-   "text": "A friend in need is a friend ___.",
-   "options": [
-    "near",
-    "true",
-    "indeed",
-    "always"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: A friend in need is a friend indeed.\n❌ Хибні: А) near — near не вживається в приказці; Б) true — true не вживається в приказці; Г) always — always не вживається в приказці.\n✅ В) indeed — справжній друг у біді — друг справді.",
-   "testLevel": 3
-  },
-  {
-   "text": "He always lets me ___ when I need help.",
-   "options": [
-    "down",
-    "out",
-    "off",
-    "up"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Let down = підводити.\n❌ Хибні: Б) out — let out — випускати; В) off — let off — пробачити; Г) up — let up — слабшати.\n✅ А) down — let down — підводити.",
-   "testLevel": 3
-  },
-  {
-   "text": "You can always count ___ me.",
-   "options": [
-    "with",
-    "on",
-    "in",
-    "at"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Count on.\n❌ Хибні: А) with — count with не вживається; В) in — count in — включати до складу; Г) at — count at не вживається.\n✅ Б) on — count on — покладатися.",
-   "testLevel": 3
-  },
-  {
-   "text": "She stood up ___ her brother when he was bullied.",
-   "options": [
-    "for",
-    "at",
-    "to",
-    "by"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Stand up for.\n❌ Хибні: Б) at — stand up at не вживається; В) to — stand up to — протистояти; Г) by — stand up by не вживається.\n✅ А) for — stand up for — захищати.",
-   "testLevel": 3
-  },
-  {
-   "text": "He finally got ___ the shock of losing his job.",
-   "options": [
-    "off",
-    "over",
-    "up",
-    "out"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Get over.\n❌ Хибні: А) off — get off — виходити; В) up — get up — вставати; Г) out — get out — виходити.\n✅ Б) over — get over — оговтатися.",
-   "testLevel": 3
-  },
-  {
-   "text": "My grandfather passed ___ last year.",
-   "options": [
-    "away",
-    "over",
-    "off",
-    "out"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Pass away.\n❌ Хибні: Б) over — pass over — пропустити; В) off — pass off — минути; Г) out — pass out — знепритомніти.\n✅ А) away — pass away — померти.",
-   "testLevel": 3
-  },
-  {
-   "text": "She turned ___ the job offer because of the low salary.",
-   "options": [
-    "down",
-    "out",
-    "away",
-    "off"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Turn down.\n❌ Хибні: Б) out — turn out — виявитись; В) away — turn away — відвернути; Г) off — turn off — вимкнути.\n✅ А) down — turn down — відхилити.",
-   "testLevel": 3
-  },
-  {
-   "text": "I'm looking forward ___ you again.",
-   "options": [
-    "see",
-    "seeing",
-    "to seeing",
-    "to see"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Look forward to + V-ing.\n❌ Хибні: А) see — неправильна форма дієслова; Б) seeing — бракує to у конструкції; Г) to see — після to потрібне V-ing.\n✅ В) to seeing — look forward to + V-ing.",
-   "testLevel": 3
-  },
-  {
-   "text": "My parents told me ___ for coming home late.",
-   "options": [
-    "up",
-    "down",
-    "out",
-    "off"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Tell off.\n❌ Хибні: А) up — tell up не вживається; Б) down — tell down не вживається; В) out — tell out не вживається.\n✅ Г) off — tell off — вичитувати.",
-   "testLevel": 3
-  },
-  {
-   "text": "He fell ___ her the moment he saw her.",
-   "options": [
-    "at",
-    "for",
-    "to",
-    "on"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Fall for.\n❌ Хибні: А) at — fall at не вживається; В) to — fall to — припадати; Г) on — fall on — падати на.\n✅ Б) for — fall for — закохатися.",
-   "testLevel": 3
-  },
-  {
-   "text": "After the quarrel, they made ___ and are friends again.",
-   "options": [
-    "off",
-    "out",
-    "over",
-    "up"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Make up.\n❌ Хибні: А) off — make off — втекти; Б) out — make out — розрізнити; В) over — make over — змінювати вигляд.\n✅ Г) up — make up — помиритися.",
-   "testLevel": 3
-  },
-  {
-   "text": "Can you ___ me some money until Friday?",
-   "options": [
-    "owe",
-    "lend",
-    "borrow",
-    "rent"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Lend to someone.\n❌ Хибні: А) owe — owe — бути винним; В) borrow — borrow — позичити в когось; Г) rent — rent — орендувати.\n✅ Б) lend — lend — позичити комусь.",
-   "testLevel": 3
-  },
-  {
-   "text": "May I ___ your pen for a moment?",
-   "options": [
-    "owe",
-    "borrow",
-    "rent",
-    "lend"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Borrow from someone.\n❌ Хибні: А) owe — owe — бути винним; В) rent — rent — орендувати; Г) lend — lend — позичити комусь.\n✅ Б) borrow — borrow — позичити в когось.",
-   "testLevel": 3
-  },
-  {
-   "text": "Thieves ___ the bank last night.",
-   "options": [
-    "stole",
-    "lost",
-    "took",
-    "robbed"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте: Rob a bank.\n❌ Хибні: А) stole — steal не вживається з місцем; Б) lost — lose — втратити; В) took — take не передає насильство.\n✅ Г) robbed — rob a place — пограбувати.",
-   "testLevel": 3
-  },
-  {
-   "text": "Someone has ___ my bike.",
-   "options": [
-    "borrowed",
-    "lost",
-    "stolen",
-    "robbed"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Steal a thing.\n❌ Хибні: А) borrowed — borrow — позичити; Б) lost — lose — загубити; Г) robbed — rob — пограбувати людину чи місце.\n✅ В) stolen — steal — вкрасти річ.",
-   "testLevel": 3
-  },
-  {
-   "text": "He's very ___ — he cries at sad films.",
-   "options": [
-    "sensational",
-    "sensitive",
-    "sensible",
-    "senseless"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Sensitive ≠ sensible.\n❌ Хибні: А) sensational — sensational — сенсаційний; В) sensible — sensible — розсудливий; Г) senseless — senseless — безглуздий.\n✅ Б) sensitive — sensitive — вразливий.",
-   "testLevel": 3
-  },
-  {
-   "text": "It's ___ to take an umbrella — it might rain.",
-   "options": [
-    "sensational",
-    "sensible",
-    "senseless",
-    "sensitive"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Sensible ≠ sensitive.\n❌ Хибні: А) sensational — sensational — сенсаційний; В) senseless — senseless — безглуздий; Г) sensitive — sensitive — вразливий.\n✅ Б) sensible — sensible — розсудливо.",
-   "testLevel": 3
-  },
-  {
-   "text": "The party was great — we had a lot of ___.",
-   "options": [
-    "fun",
-    "funs",
-    "funnily",
-    "funny"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Fun ≠ funny.\n❌ Хибні: Б) funs — funs не існує; В) funnily — funnily — кумедно; Г) funny — funny — смішний.\n✅ А) fun — fun — задоволення (іменник).",
-   "testLevel": 3
-  },
-  {
-   "text": "The film was so ___ that we couldn't stop laughing.",
-   "options": [
-    "fun",
-    "fund",
-    "funny",
-    "funnily"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте: Funny = смішний.\n❌ Хибні: А) fun — fun — іменник; Б) fund — fund — фонд; Г) funnily — funnily — прислівник.\n✅ В) funny — funny — смішний.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence with the verbs tell/say is correct?",
-   "options": [
-    "He told me the truth.",
-    "He said to tell me the truth.",
-    "He said me the truth.",
-    "He tells to me the truth."
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: Tell somebody something.\n❌ Хибні: Б) He said to tell me the truth. — речення змінює значення; В) He said me the truth. — say не вживається з особою без to; Г) He tells to me the truth. — tell не вживається з to.\n✅ А) He told me the truth. — tell + особа + факт.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence with do/make is correct?",
-   "options": [
-    "I made my homework.",
-    "I did homework to myself.",
-    "I have made homework.",
-    "I did my homework."
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Do homework.\n❌ Хибні: А) I made my homework. — make homework не вживається; Б) I did homework to myself. — неправильна граматична конструкція; В) I have made homework. — make homework не вживається.\n✅ Г) I did my homework. — do homework — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which sentence about marriage is correct?",
-   "options": [
-    "She is married to a doctor.",
-    "She is married for a doctor.",
-    "She is married by a doctor.",
-    "She is married with a doctor."
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Married to.\n❌ Хибні: Б) She is married for a doctor. — for не вживається після married; В) She is married by a doctor. — by не вживається після married; Г) She is married with a doctor. — with не вживається після married.\n✅ А) She is married to a doctor. — married to — стала сполука.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which word does NOT belong to the group of family members?",
-   "options": [
-    "aunt",
-    "niece",
-    "landlord",
-    "cousin"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Landlord — не родинний зв'язок.\n❌ Хибні: А) aunt — aunt — родичка; Б) niece — niece — родичка; Г) cousin — cousin — родич.\n✅ В) landlord — landlord — не родич.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which word does NOT belong to the group of cutlery?",
-   "options": [
-    "cheese",
-    "knife",
-    "fork",
-    "spoon"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Spoon, fork, knife — cutlery.\n❌ Хибні: Б) knife — knife — столовий прилад; В) fork — fork — столовий прилад; Г) spoon — spoon — столовий прилад.\n✅ А) cheese — cheese — їжа, не столовий прилад.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which word does NOT belong to the group of furniture?",
-   "options": [
-    "chest of drawers",
-    "curtain",
-    "bookcase",
-    "wardrobe"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Wardrobe, bookcase — furniture.\n❌ Хибні: А) chest of drawers — chest of drawers — меблі; В) bookcase — bookcase — меблі; Г) wardrobe — wardrobe — меблі.\n✅ Б) curtain — curtain — предмет текстилю.",
-   "testLevel": 3
-  },
-  {
-   "text": "We're throwing a ___ party since we've just moved into our new house.",
-   "options": [
-    "birthday",
-    "housewarming",
-    "farewell",
-    "retirement"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Housewarming = новосілля.\n❌ Хибні: А) birthday — birthday — день народження; В) farewell — farewell — прощальна; Г) retirement — retirement — на честь виходу на пенсію.\n✅ Б) housewarming — housewarming — новосілля.",
-   "testLevel": 3
-  },
-  {
-   "text": "Which word means «to look after a child until he or she is an adult»?",
-   "options": [
-    "rise",
-    "educate",
-    "grow",
-    "bring up"
-   ],
-   "correctIndex": 3,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Bring up.\n❌ Хибні: А) rise — rise — підніматися; Б) educate — educate — навчати; В) grow — grow — рости.\n✅ Г) bring up — bring up — виховувати.",
-   "testLevel": 3
-  },
-  {
-   "text": "He is very ___ — he never gets angry.",
-   "options": [
-    "bossy",
-    "nosy",
-    "easy-going",
-    "strict"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Easy-going.\n❌ Хибні: А) bossy — bossy — владний; Б) nosy — nosy — цікавий до чужого; Г) strict — strict — суворий.\n✅ В) easy-going — easy-going — врівноважений.",
-   "testLevel": 3
-  },
-  {
-   "text": "My boss is quite ___; she tells everyone what to do.",
-   "options": [
-    "honest",
-    "bossy",
-    "generous",
-    "shy"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Bossy.\n❌ Хибні: А) honest — honest — чесний; В) generous — generous — щедрий; Г) shy — shy — сором'язливий.\n✅ Б) bossy — bossy — любить командувати.",
-   "testLevel": 3
-  },
-  {
-   "text": "She is so ___ that she always shares her sweets with everyone.",
-   "options": [
-    "selfish",
-    "generous",
-    "greedy",
-    "mean"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Generous.\n❌ Хибні: А) selfish — selfish — егоїстична; В) greedy — greedy — жадібна; Г) mean — mean — скупа.\n✅ Б) generous — generous — щедра.",
-   "testLevel": 3
-  },
-  {
-   "text": "He is ___: he only thinks about himself.",
-   "options": [
-    "selfish",
-    "polite",
-    "generous",
-    "modest"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Selfish.\n❌ Хибні: Б) polite — polite — ввічливий; В) generous — generous — щедрий; Г) modest — modest — скромний.\n✅ А) selfish — selfish — егоїстичний.",
-   "testLevel": 3
-  },
-  {
-   "text": "I'm not very good at ___ new people.",
-   "options": [
-    "meet",
-    "met",
-    "meeting",
-    "to meet"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Good at + V-ing.\n❌ Хибні: А) meet — після at потрібен герундій; Б) met — met — минулий час; Г) to meet — після at потрібен герундій.\n✅ В) meeting — meet — знайомитись.",
-   "testLevel": 3
-  },
-  {
-   "text": "They ___ their relationship after ten years together.",
-   "options": [
-    "ended",
-    "took",
-    "made",
-    "did"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте: End a relationship.\n❌ Хибні: Б) took — take a relationship не вживається; В) made — make a relationship не вживається; Г) did — do a relationship не вживається.\n✅ А) ended — end a relationship — завершити.",
-   "testLevel": 3
-  },
-  {
-   "text": "Please ___ me when you arrive so that I know you're safe.",
-   "options": [
-    "text",
-    "talk",
-    "tell",
-    "say"
-   ],
-   "correctIndex": 0,
-   "explanation": "💡 Пастка: Запам'ятайте правило: Text me.\n❌ Хибні: Б) talk — talk — розмовляти; В) tell — tell потребує додатка; Г) say — say потребує додатка.\n✅ А) text — text — написати SMS.",
-   "testLevel": 3
-  },
-  {
-   "text": "She's ___ — she never forgets her friends' birthdays.",
-   "options": [
-    "thoughtless",
-    "thoughtful",
-    "selfish",
-    "careless"
-   ],
-   "correctIndex": 1,
-   "explanation": "💡 Пастка: Запам'ятайте: Thoughtful = уважний.\n❌ Хибні: А) thoughtless — thoughtless — недбалий; В) selfish — selfish — егоїстичний; Г) careless — careless — недбалий.\n✅ Б) thoughtful — thoughtful — уважний до інших.",
-   "testLevel": 3
-  },
-  {
-   "text": "He's a ___ man; he always arrives on time and keeps his promises.",
-   "options": [
-    "relying",
-    "reliant",
-    "reliable",
-    "relied"
-   ],
-   "correctIndex": 2,
-   "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Reliable.\n❌ Хибні: А) relying — relying — форма дієслова; Б) reliant — reliant — залежний; Г) relied — relied — форма дієслова.\n✅ В) reliable — reliable — надійний.",
-   "testLevel": 3
-  }
- ],
- "cards": [
-  {
-   "question": "Family members",
-   "answer": "parents (mother, father), grandparents, siblings (brother, sister), aunt, uncle, cousin, niece, nephew; only child — єдина дитина."
-  },
-  {
-   "question": "In-laws and step-relatives",
-   "answer": "mother-in-law, father-in-law (батьки чоловіка/дружини); stepmother, stepfather, stepbrother (нерідні родичі через шлюб батьків)."
-  },
-  {
-   "question": "Marital status",
-   "answer": "single, engaged (заручений), married, divorced (розлучений), widow/widower (удова/вдівець), bride, bridegroom."
-  },
-  {
-   "question": "Relationship phrasal verbs",
-   "answer": "get on with (ладнати), fall out with (посваритися), make up (помиритися), break up (розійтися), look up to (поважати), take after (бути схожим), bring up (виховувати), grow up."
-  },
-  {
-   "question": "Household chores",
-   "answer": "do the dishes/washing-up, do the laundry, make the bed, clean the house, take out the rubbish, do the shopping, set the table, cook meals."
-  },
-  {
-   "question": "do vs make",
-   "answer": "do: homework, housework, a favour, the dishes, business; make: the bed, a mistake, a decision, a plan, noise, a phone call, money, a cake."
-  },
-  {
-   "question": "Daily routine verbs",
-   "answer": "get up, wake up, have breakfast/lunch/dinner, have/take a shower, brush teeth, go to bed, fall asleep, commute (їздити на роботу)."
-  },
-  {
-   "question": "House and flat",
-   "answer": "flat/apartment, house, block of flats, floor, kitchen, bathroom, bedroom, living room, hall, balcony, landlord (власник), tenant (орендар), rent."
-  },
-  {
-   "question": "Furniture",
-   "answer": "sofa, armchair, wardrobe, chest of drawers, bookcase, fridge, cooker, curtains, carpet."
-  },
-  {
-   "question": "Shopping",
-   "answer": "sale, discount, bargain, receipt, refund (повернення грошей), checkout, queue, shop assistant, try on, fit, suit, match."
-  },
-  {
-   "question": "Meals and food",
-   "answer": "breakfast, lunch, dinner, starter, main course, dessert; vegetarian; take away; eat out — їсти поза домом; set the table."
-  },
-  {
-   "question": "Free time",
-   "answer": "hobby, collect stamps, play computer games, go for a walk, hang out with friends, spend time, free time."
-  },
-  {
-   "question": "Character adjectives",
-   "answer": "kind, generous (щедрий), selfish, shy, bossy, easy-going, nosy (цікавий до чужих справ), lazy, reliable (надійний), honest, polite."
-  },
-  {
-   "question": "Feelings with -ed/-ing",
-   "answer": "-ed — як людина почувається (bored, tired, surprised); -ing — що викликає це відчуття (boring, tiring, surprising)."
-  },
-  {
-   "question": "Word formation: noun",
-   "answer": "friend → friendship; kind → kindness; marry → marriage; relation → relationship; neighbour → neighbourhood."
-  },
-  {
-   "question": "Word formation: adjective",
-   "answer": "friend → friendly; forget → forgetful; rely → reliable; care → careful/careless; help → helpful/helpless."
-  },
-  {
-   "question": "Negative prefixes",
-   "answer": "un- (unhappy, unfriendly), im- (impossible, impatient), in- (inactive), ir- (irregular), dis- (dislike), mis- (misunderstand)."
-  },
-  {
-   "question": "lend vs borrow",
-   "answer": "lend — давати в борг; borrow — брати в борг: Can you lend me your pen? May I borrow your pen?"
-  },
-  {
-   "question": "rob vs steal",
-   "answer": "rob a person/place (пограбувати): He robbed a bank; steal something (вкрасти): He stole a car."
-  },
-  {
-   "question": "Idioms about people",
-   "answer": "black sheep (паршива вівця), a chip off the old block (весь у батька), blood is thicker than water, see eye to eye, a heart of gold."
-  },
-  {
-   "question": "Polite responses",
-   "answer": "Thank you. — You're welcome. I'm sorry. — That's all right. / No problem. Would you like some tea? — Yes, please. / No, thanks."
-  },
-  {
-   "question": "Friends and acquaintances",
-   "answer": "friend, best friend, acquaintance (знайомий), colleague (колега), classmate, neighbour, stranger."
-  },
-  {
-   "question": "keep in touch",
-   "answer": "Залишатися на зв'язку: We keep in touch by phone. Також: get in touch with (зв'язатися)."
-  },
-  {
-   "question": "Housewarming",
-   "answer": "Новосілля: a housewarming party — вечірка з нагоди переїзду до нового будинку."
-  }
- ]
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Everyday Life, Family & Relationships",
+  "questions": [
+    {
+      "text": "My mother's sister is my ___.",
+      "options": [
+        "aunt",
+        "uncle",
+        "cousin",
+        "niece"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Aunt = тітка.\n❌ Хибні: Б) uncle — uncle — чоловік (брат матері); В) cousin — cousin — син чи дочка тітки/дядька; Г) niece — niece — дочка брата чи сестри.\n✅ А) aunt — сестра матері — тітка.",
+      "testLevel": 1
+    },
+    {
+      "text": "My uncle's son is my ___.",
+      "options": [
+        "cousin",
+        "brother",
+        "nephew",
+        "grandson"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Cousin = двоюрідний брат/сестра.\n❌ Хибні: Б) brother — brother — рідний брат; В) nephew — nephew — син брата чи сестри; Г) grandson — grandson — онук.\n✅ А) cousin — син дядька — двоюрідний брат.",
+      "testLevel": 1
+    },
+    {
+      "text": "My sister's daughter is my ___.",
+      "options": [
+        "niece",
+        "nephew",
+        "cousin",
+        "aunt"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Niece = племінниця.\n❌ Хибні: Б) nephew — nephew — племінник; В) cousin — cousin — двоюрідна сестра; Г) aunt — aunt — тітка.\n✅ А) niece — дочка сестри — племінниця.",
+      "testLevel": 1
+    },
+    {
+      "text": "My father's father is my ___.",
+      "options": [
+        "stepfather",
+        "uncle",
+        "grandson",
+        "grandfather"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Grandfather = дід.\n❌ Хибні: А) stepfather — stepfather — вітчим; Б) uncle — uncle — дядько; В) grandson — grandson — онук.\n✅ Г) grandfather — батько батька — дід.",
+      "testLevel": 1
+    },
+    {
+      "text": "A person who has no brothers or sisters is an ___ child.",
+      "options": [
+        "lonely",
+        "alone",
+        "only",
+        "single"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Only child.\n❌ Хибні: А) lonely — lonely — самотній; Б) alone — alone — наодинці; Г) single — single — неодружений.\n✅ В) only — only child — єдина дитина.",
+      "testLevel": 1
+    },
+    {
+      "text": "My husband's mother is my ___.",
+      "options": [
+        "mother-in-law",
+        "stepmother",
+        "aunt",
+        "grandmother"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Mother-in-law.\n❌ Хибні: Б) stepmother — stepmother — мачуха; В) aunt — aunt — тітка; Г) grandmother — grandmother — бабуся.\n✅ А) mother-in-law — мати чоловіка — свекруха.",
+      "testLevel": 1
+    },
+    {
+      "text": "Brothers and sisters are called ___.",
+      "options": [
+        "twins",
+        "parents",
+        "relatives",
+        "siblings"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Siblings.\n❌ Хибні: А) twins — twins — лише близнюки; Б) parents — parents — батьки; В) relatives — relatives — усі родичі.\n✅ Г) siblings — siblings — брати й сестри.",
+      "testLevel": 1
+    },
+    {
+      "text": "I usually ___ up at 7 o'clock.",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "get"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Get up.\n❌ Хибні: А) do — do up — застібати; Б) make — make up — вигадувати; В) take — take up — починати займатися.\n✅ Г) get — get up — вставати.",
+      "testLevel": 1
+    },
+    {
+      "text": "Don't forget to ___ your teeth before bed.",
+      "options": [
+        "wash",
+        "make",
+        "do",
+        "brush"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Brush your teeth.\n❌ Хибні: А) wash — wash teeth не вживається; Б) make — make teeth не вживається; В) do — do teeth не вживається.\n✅ Г) brush — brush teeth — чистити зуби.",
+      "testLevel": 1
+    },
+    {
+      "text": "I ___ the bed every morning.",
+      "options": [
+        "do",
+        "have",
+        "make",
+        "take"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Make the bed.\n❌ Хибні: А) do — do the bed не вживається; Б) have — have the bed не вживається; Г) take — take the bed не вживається.\n✅ В) make — make the bed — застеляти ліжко.",
+      "testLevel": 1
+    },
+    {
+      "text": "She ___ her homework after school.",
+      "options": [
+        "makes",
+        "does",
+        "takes",
+        "has"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Do homework.\n❌ Хибні: А) makes — make homework не вживається; В) takes — take homework — брати завдання; Г) has — have homework — мати завдання.\n✅ Б) does — do homework — робити домашнє завдання.",
+      "testLevel": 1
+    },
+    {
+      "text": "We usually ___ lunch at 1 p.m.",
+      "options": [
+        "do",
+        "play",
+        "go",
+        "have"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Have lunch.\n❌ Хибні: А) do — do lunch не вживається; Б) play — play lunch не вживається; В) go — go lunch не вживається.\n✅ Г) have — have lunch — обідати.",
+      "testLevel": 1
+    },
+    {
+      "text": "I ___ a shower every morning.",
+      "options": [
+        "do",
+        "go",
+        "make",
+        "take"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Take a shower.\n❌ Хибні: А) do — do a shower не вживається; Б) go — go a shower не вживається; В) make — make a shower не вживається.\n✅ Г) take — take a shower — приймати душ.",
+      "testLevel": 1
+    },
+    {
+      "text": "I ___ the dishes after dinner.",
+      "options": [
+        "wash",
+        "make",
+        "take",
+        "play"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Wash the dishes.\n❌ Хибні: Б) make — make the dishes не вживається; В) take — take the dishes — не про мийку; Г) play — play the dishes не вживається.\n✅ А) wash — wash the dishes — мити посуд.",
+      "testLevel": 1
+    },
+    {
+      "text": "Every Sunday we ___ the house.",
+      "options": [
+        "wash",
+        "cook",
+        "clean",
+        "paint"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Clean the house.\n❌ Хибні: А) wash — wash the house — мити стіни ззовні; Б) cook — cook the house не вживається; Г) paint — paint змінює значення.\n✅ В) clean — clean the house — прибирати.",
+      "testLevel": 1
+    },
+    {
+      "text": "You sleep in the ___.",
+      "options": [
+        "bedroom",
+        "bathroom",
+        "garage",
+        "kitchen"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Bedroom.\n❌ Хибні: Б) bathroom — bathroom — ванна кімната; В) garage — garage — гараж; Г) kitchen — kitchen — кухня.\n✅ А) bedroom — bedroom — спальня.",
+      "testLevel": 1
+    },
+    {
+      "text": "We cook meals in the ___.",
+      "options": [
+        "kitchen",
+        "hall",
+        "bedroom",
+        "garage"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Kitchen.\n❌ Хибні: Б) hall — hall — коридор; В) bedroom — bedroom — спальня; Г) garage — garage — гараж.\n✅ А) kitchen — kitchen — кухня.",
+      "testLevel": 1
+    },
+    {
+      "text": "A person who owns a flat and lets you live there for money is a ___.",
+      "options": [
+        "tenant",
+        "guest",
+        "neighbour",
+        "landlord"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Landlord.\n❌ Хибні: А) tenant — tenant — орендар; Б) guest — guest — гість; В) neighbour — neighbour — сусід.\n✅ Г) landlord — landlord — власник житла.",
+      "testLevel": 1
+    },
+    {
+      "text": "I live in a block of ___ on the fifth floor.",
+      "options": [
+        "buildings",
+        "houses",
+        "flats",
+        "rooms"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Block of flats.\n❌ Хибні: А) buildings — block of buildings не вживається; Б) houses — block of houses не вживається; Г) rooms — block of rooms не вживається.\n✅ В) flats — block of flats — багатоквартирний будинок.",
+      "testLevel": 1
+    },
+    {
+      "text": "You can return goods if you keep the ___.",
+      "options": [
+        "ticket",
+        "receptor",
+        "receipt",
+        "recipe"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Receipt = чек.\n❌ Хибні: А) ticket — ticket — квиток; Б) receptor — receptor — рецептор; Г) recipe — recipe — рецепт.\n✅ В) receipt — receipt — чек.",
+      "testLevel": 1
+    },
+    {
+      "text": "This shop has a ___ on shoes: 30% off.",
+      "options": [
+        "selling",
+        "sell",
+        "sale",
+        "sold"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Sale = розпродаж.\n❌ Хибні: А) selling — selling — продаж; Б) sell — sell — продавати; Г) sold — sold — проданий.\n✅ В) sale — sale — розпродаж.",
+      "testLevel": 1
+    },
+    {
+      "text": "How much does this jacket ___?",
+      "options": [
+        "cost",
+        "price",
+        "worth",
+        "pay"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Cost = коштувати.\n❌ Хибні: Б) price — price — це іменник; В) worth — worth — вартий; Г) pay — pay — платити.\n✅ А) cost — cost — коштувати.",
+      "testLevel": 1
+    },
+    {
+      "text": "Can I ___ these jeans on?",
+      "options": [
+        "try",
+        "check",
+        "test",
+        "taste"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Try on.\n❌ Хибні: Б) check — check on не вживається; В) test — test on не вживається; Г) taste — taste — куштувати.\n✅ А) try — try on — приміряти.",
+      "testLevel": 1
+    },
+    {
+      "text": "Please ___ the table for dinner.",
+      "options": [
+        "put",
+        "do",
+        "make",
+        "set"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Set the table.\n❌ Хибні: А) put — put the table — перемістити; Б) do — do the table не вживається; В) make — make the table — виготовити.\n✅ Г) set — set the table — накрити стіл.",
+      "testLevel": 1
+    },
+    {
+      "text": "A person who doesn't eat meat is a ___.",
+      "options": [
+        "vegetable",
+        "vegetarian",
+        "volunteer",
+        "veterinarian"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Vegetarian.\n❌ Хибні: А) vegetable — vegetable — овоч; В) volunteer — volunteer — волонтер; Г) veterinarian — veterinarian — ветеринар.\n✅ Б) vegetarian — vegetarian — вегетаріанець.",
+      "testLevel": 1
+    },
+    {
+      "text": "I haven't seen him for ages, but we keep in ___.",
+      "options": [
+        "link",
+        "reach",
+        "touch",
+        "hand"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Keep in touch.\n❌ Хибні: А) link — keep in link не вживається; Б) reach — keep in reach — тримати поруч; Г) hand — keep in hand не вживається.\n✅ В) touch — keep in touch — підтримувати зв'язок.",
+      "testLevel": 1
+    },
+    {
+      "text": "She ___ me a text message yesterday.",
+      "options": [
+        "talked",
+        "told",
+        "sent",
+        "said"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Send a message.\n❌ Хибні: А) talked — talk — говорити; Б) told — tell — розповісти; Г) said — say не потребує додатка.\n✅ В) sent — send a message — надіслати.",
+      "testLevel": 1
+    },
+    {
+      "text": "We ___ to music at weekends.",
+      "options": [
+        "listen",
+        "hear",
+        "look",
+        "watch"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Listen to.\n❌ Хибні: Б) hear — hear — чути без наміру; В) look — look — дивитись; Г) watch — watch — спостерігати.\n✅ А) listen — listen to — слухати.",
+      "testLevel": 1
+    },
+    {
+      "text": "My best friend and I get ___ very well.",
+      "options": [
+        "down",
+        "along",
+        "out",
+        "up"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Get along.\n❌ Хибні: А) down — get down — спускатись; В) out — get out — виходити; Г) up — get up — вставати.\n✅ Б) along — get along — ладнати.",
+      "testLevel": 1
+    },
+    {
+      "text": "My hobby is ___ stamps.",
+      "options": [
+        "collecting",
+        "taking",
+        "doing",
+        "making"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Collecting.\n❌ Хибні: Б) taking — take змінює значення; В) doing — do змінює значення; Г) making — make змінює значення.\n✅ А) collecting — collect stamps — колекціонувати.",
+      "testLevel": 1
+    },
+    {
+      "text": "What do you do in your ___ time?",
+      "options": [
+        "free",
+        "empty",
+        "busy",
+        "open"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Free time.\n❌ Хибні: Б) empty — empty — порожній; В) busy — busy — зайнятий; Г) open — open — відчинений.\n✅ А) free — free time — вільний час.",
+      "testLevel": 1
+    },
+    {
+      "text": "She was very ___ when she heard the good news.",
+      "options": [
+        "bored",
+        "scared",
+        "happy",
+        "angry"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Good news — happy.\n❌ Хибні: А) bored — bored — знуджений; Б) scared — scared — наляканий; Г) angry — angry — злий.\n✅ В) happy — happy — щасливий.",
+      "testLevel": 1
+    },
+    {
+      "text": "I ___ go to the cinema — only once a year.",
+      "options": [
+        "often",
+        "always",
+        "rarely",
+        "usually"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Once a year — rarely.\n❌ Хибні: А) often — often — часто; Б) always — always — завжди; Г) usually — usually — зазвичай.\n✅ В) rarely — rarely — рідко.",
+      "testLevel": 1
+    },
+    {
+      "text": "My parents' parents are my ___.",
+      "options": [
+        "ancestors",
+        "grandparents",
+        "cousins",
+        "relatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Grandparents.\n❌ Хибні: А) ancestors — ancestors — далекі предки; В) cousins — cousins — двоюрідні брати і сестри; Г) relatives — relatives — усі родичі.\n✅ Б) grandparents — grandparents — дідусь і бабуся.",
+      "testLevel": 1
+    },
+    {
+      "text": "— Thank you for your help. — ___",
+      "options": [
+        "Never mind.",
+        "Same to you.",
+        "Good luck.",
+        "You're welcome."
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Thanks → You're welcome.\n❌ Хибні: А) Never mind. — так відповідають на вибачення; Б) Same to you. — так відповідають на побажання; В) Good luck. — це побажання успіху.\n✅ Г) You're welcome. — відповідь на подяку.",
+      "testLevel": 1
+    },
+    {
+      "text": "— I'm sorry I'm late. — ___",
+      "options": [
+        "Good luck.",
+        "You're welcome.",
+        "Yes, please.",
+        "That's all right."
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Sorry → That's all right.\n❌ Хибні: А) Good luck. — це побажання успіху; Б) You're welcome. — це відповідь на подяку; В) Yes, please. — так відповідають на пропозицію.\n✅ Г) That's all right. — відповідь на вибачення.",
+      "testLevel": 1
+    },
+    {
+      "text": "— Would you like some more tea? — ___",
+      "options": [
+        "No, thanks. I've had enough.",
+        "I'm Tom.",
+        "Yes, I do.",
+        "At five o'clock."
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Would you like → thanks/please.\n❌ Хибні: Б) I'm Tom. — це відповідь про ім'я; В) Yes, I do. — не пасує до питання Would you like; Г) At five o'clock. — це відповідь про час.\n✅ А) No, thanks. I've had enough. — природна відповідь на пропозицію.",
+      "testLevel": 1
+    },
+    {
+      "text": "I get on well ___ my cousin.",
+      "options": [
+        "with",
+        "to",
+        "at",
+        "by"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Get on with.\n❌ Хибні: Б) to — to не вживається після get on; В) at — at не вживається після get on; Г) by — by не вживається після get on.\n✅ А) with — get on with — ладнати з кимось.",
+      "testLevel": 2
+    },
+    {
+      "text": "She takes ___ her mother — they have the same smile.",
+      "options": [
+        "off",
+        "over",
+        "after",
+        "up"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Take after = бути схожим.\n❌ Хибні: А) off — take off — знімати; Б) over — take over — перебирати контроль; Г) up — take up — починати займатися.\n✅ В) after — take after — бути схожим на.",
+      "testLevel": 2
+    },
+    {
+      "text": "He was brought ___ by his grandparents.",
+      "options": [
+        "up",
+        "out",
+        "on",
+        "in"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Bring up = виховувати.\n❌ Хибні: Б) out — bring out — випускати; В) on — bring on — спричиняти; Г) in — bring in — вводити.\n✅ А) up — bring up — виховувати.",
+      "testLevel": 2
+    },
+    {
+      "text": "I look ___ to my older brother; he's my role model.",
+      "options": [
+        "up",
+        "down",
+        "for",
+        "after"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Look up to = поважати.\n❌ Хибні: Б) down — look down on — зневажати; В) for — look for — шукати; Г) after — look after — доглядати.\n✅ А) up — look up to — поважати.",
+      "testLevel": 2
+    },
+    {
+      "text": "They fell ___ and haven't spoken since.",
+      "options": [
+        "out",
+        "over",
+        "off",
+        "down"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Fall out = посваритися.\n❌ Хибні: Б) over — fall over — перекинутись; В) off — fall off — падати; Г) down — fall down — впасти.\n✅ А) out — fall out — посваритися.",
+      "testLevel": 2
+    },
+    {
+      "text": "Tom and Ann broke ___ last month, so they're no longer a couple.",
+      "options": [
+        "out",
+        "down",
+        "up",
+        "over"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Break up = розійтися.\n❌ Хибні: А) out — break out — вибухнути (про війну); Б) down — break down — зламатися; Г) over — break over не вживається.\n✅ В) up — break up — розійтися.",
+      "testLevel": 2
+    },
+    {
+      "text": "I can't put ___ with his bad manners any more.",
+      "options": [
+        "on",
+        "off",
+        "out",
+        "up"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Put up with = терпіти.\n❌ Хибні: А) on — put on — одягати; Б) off — put off — відкладати; В) out — put out — гасити.\n✅ Г) up — put up with — терпіти.",
+      "testLevel": 2
+    },
+    {
+      "text": "She grew ___ in a small village.",
+      "options": [
+        "up",
+        "off",
+        "out",
+        "on"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Grow up.\n❌ Хибні: Б) off — grow off не вживається; В) out — grow out of — вирости з; Г) on — grow on — стати приємним.\n✅ А) up — grow up — дорослішати.",
+      "testLevel": 2
+    },
+    {
+      "text": "Could you look ___ my cat while I'm away?",
+      "options": [
+        "after",
+        "for",
+        "at",
+        "up"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Look after = доглядати.\n❌ Хибні: Б) for — look for — шукати; В) at — look at — дивитись; Г) up — look up — шукати в словнику.\n✅ А) after — look after — доглядати.",
+      "testLevel": 2
+    },
+    {
+      "text": "Please ___ out the rubbish before you go to bed.",
+      "options": [
+        "put",
+        "take",
+        "do",
+        "make"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Take out the rubbish.\n❌ Хибні: А) put — put out — гасити; В) do — do out не вживається; Г) make — make out не пасує за змістом.\n✅ Б) take — take out the rubbish — виносити сміття.",
+      "testLevel": 2
+    },
+    {
+      "text": "Let's ___ out tonight — I don't want to cook.",
+      "options": [
+        "do",
+        "take",
+        "eat",
+        "make"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Eat out.\n❌ Хибні: А) do — do out не вживається; Б) take — take out змінює значення; Г) make — make out не вживається.\n✅ В) eat — eat out — їсти поза домом.",
+      "testLevel": 2
+    },
+    {
+      "text": "He ___ a flat with his friend.",
+      "options": [
+        "splits",
+        "separates",
+        "divides",
+        "shares"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Share a flat.\n❌ Хибні: А) splits — split — розділяти; Б) separates — separate — відокремлювати; В) divides — divide — ділити на частини.\n✅ Г) shares — share a flat — ділити житло.",
+      "testLevel": 2
+    },
+    {
+      "text": "He ___ a mistake and apologised.",
+      "options": [
+        "did",
+        "took",
+        "made",
+        "had"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Make a mistake.\n❌ Хибні: А) did — do a mistake не вживається; Б) took — take a mistake не вживається; Г) had — have a mistake не вживається.\n✅ В) made — make a mistake — припуститися помилки.",
+      "testLevel": 2
+    },
+    {
+      "text": "Who ___ the cooking in your family?",
+      "options": [
+        "has",
+        "does",
+        "takes",
+        "makes"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Do the cooking.\n❌ Хибні: А) has — have the cooking не вживається; В) takes — take the cooking не вживається; Г) makes — make the cooking не вживається.\n✅ Б) does — do the cooking — готувати їжу.",
+      "testLevel": 2
+    },
+    {
+      "text": "I need to ___ a decision soon.",
+      "options": [
+        "have",
+        "do",
+        "go",
+        "make"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Make a decision.\n❌ Хибні: А) have — have a decision не вживається; Б) do — do a decision не вживається; В) go — go a decision не вживається.\n✅ Г) make — make a decision — ухвалити рішення.",
+      "testLevel": 2
+    },
+    {
+      "text": "Let's ___ a break — I'm tired.",
+      "options": [
+        "make",
+        "take",
+        "do",
+        "put"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Take a break.\n❌ Хибні: А) make — make a break не вживається; В) do — do a break не вживається; Г) put — put a break не вживається.\n✅ Б) take — take a break — зробити перерву.",
+      "testLevel": 2
+    },
+    {
+      "text": "She ___ a lot of money on clothes.",
+      "options": [
+        "spends",
+        "pays",
+        "takes",
+        "makes"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Spend on.\n❌ Хибні: Б) pays — pay потребує додатка for; В) takes — take money — брати; Г) makes — make money — заробляти.\n✅ А) spends — spend money on — витрачати.",
+      "testLevel": 2
+    },
+    {
+      "text": "I'm saving ___ for a new phone.",
+      "options": [
+        "out",
+        "up",
+        "in",
+        "off"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Save up.\n❌ Хибні: А) out — save out не вживається; В) in — save in не вживається; Г) off — save off не вживається.\n✅ Б) up — save up — відкладати гроші.",
+      "testLevel": 2
+    },
+    {
+      "text": "The shop assistant gave me a ___ on my purchase.",
+      "options": [
+        "discount",
+        "price",
+        "cost",
+        "rate"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Discount = знижка.\n❌ Хибні: Б) price — price — ціна; В) cost — cost — вартість; Г) rate — rate — ставка.\n✅ А) discount — discount — знижка.",
+      "testLevel": 2
+    },
+    {
+      "text": "Can you ___ me a favour?",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "have"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Do a favour.\n❌ Хибні: Б) make — make a favour не вживається; В) take — take a favour не вживається; Г) have — have a favour не вживається.\n✅ А) do — do a favour — зробити послугу.",
+      "testLevel": 2
+    },
+    {
+      "text": "Thank you for your ___! (KIND)",
+      "options": [
+        "kindness",
+        "kinder",
+        "unkind",
+        "kindly"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Thank you for your kindness.\n❌ Хибні: Б) kinder — kinder — вищий ступінь; В) unkind — unkind — прикметник із запереченням; Г) kindly — kindly — прислівник.\n✅ А) kindness — іменник від kind.",
+      "testLevel": 2
+    },
+    {
+      "text": "We have a very ___ relationship. (FRIEND)",
+      "options": [
+        "friends",
+        "friendship",
+        "friendless",
+        "friendly"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Прикметник перед relationship.\n❌ Хибні: А) friends — friends — множина іменника; Б) friendship — friendship — іменник; В) friendless — friendless — без друзів.\n✅ Г) friendly — friendly — прикметник.",
+      "testLevel": 2
+    },
+    {
+      "text": "Their ___ lasted for fifty years. (MARRY)",
+      "options": [
+        "married",
+        "marriages",
+        "marrying",
+        "marriage"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Їхній шлюб — marriage.\n❌ Хибні: А) married — married — прикметник; Б) marriages — marriages — множина; В) marrying — marrying — герундій.\n✅ Г) marriage — marriage — іменник.",
+      "testLevel": 2
+    },
+    {
+      "text": "My grandfather is quite ___. (FORGET)",
+      "options": [
+        "forgettable",
+        "forgetting",
+        "forgetful",
+        "forgotten"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Forgetful = забудькуватий.\n❌ Хибні: А) forgettable — forgettable — легкий для забування; Б) forgetting — forgetting — герундій; Г) forgotten — forgotten — забутий.\n✅ В) forgetful — forgetful — забудькуватий.",
+      "testLevel": 2
+    },
+    {
+      "text": "It's ___ to live without a mobile phone these days. (POSSIBLE)",
+      "options": [
+        "dispossible",
+        "non-possible",
+        "unpossible",
+        "impossible"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Possible → impossible.\n❌ Хибні: А) dispossible — така форма не існує; Б) non-possible — така форма не існує; В) unpossible — така форма не існує.\n✅ Г) impossible — im- + possible.",
+      "testLevel": 2
+    },
+    {
+      "text": "He is a very ___ person — you can always trust him. (RELY)",
+      "options": [
+        "reliable",
+        "relied",
+        "reliance",
+        "reliant"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Reliable = надійний.\n❌ Хибні: Б) relied — relied — форма дієслова; В) reliance — reliance — залежність; Г) reliant — reliant — залежний.\n✅ А) reliable — reliable — надійний.",
+      "testLevel": 2
+    },
+    {
+      "text": "We were ___ to hear the news. (SURPRISE)",
+      "options": [
+        "surprisingly",
+        "surprising",
+        "surprised",
+        "surprise"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: We were surprised.\n❌ Хибні: А) surprisingly — surprisingly — прислівник; Б) surprising — -ing — що викликає здивування; Г) surprise — surprise — іменник.\n✅ В) surprised — -ed — як людина почувається.",
+      "testLevel": 2
+    },
+    {
+      "text": "The film was ___. I almost fell asleep. (BORE)",
+      "options": [
+        "boredom",
+        "bore",
+        "boring",
+        "bored"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: The film was boring.\n❌ Хибні: А) boredom — boredom — іменник; Б) bore — bore — іменник; Г) bored — -ed — як людина почувається.\n✅ В) boring — -ing — що викликає нудьгу.",
+      "testLevel": 2
+    },
+    {
+      "text": "My neighbour is very ___ — she always asks about other people's lives.",
+      "options": [
+        "lazy",
+        "shy",
+        "polite",
+        "nosy"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Nosy = цікавий до чужих справ.\n❌ Хибні: А) lazy — lazy — ледача; Б) shy — shy — сором'язлива; В) polite — polite — ввічлива.\n✅ Г) nosy — nosy — цікава до чужих справ.",
+      "testLevel": 2
+    },
+    {
+      "text": "A ___ is a person you know a little but who isn't a close friend.",
+      "options": [
+        "acquaintance",
+        "stranger",
+        "colleague",
+        "ancestor"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Acquaintance = знайомий.\n❌ Хибні: Б) stranger — stranger — незнайомець; В) colleague — colleague — колега; Г) ancestor — ancestor — предок.\n✅ А) acquaintance — acquaintance — знайомий.",
+      "testLevel": 2
+    },
+    {
+      "text": "Someone you work with is your ___.",
+      "options": [
+        "colleague",
+        "relative",
+        "neighbour",
+        "classmate"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Colleague.\n❌ Хибні: Б) relative — relative — родич; В) neighbour — neighbour — сусід; Г) classmate — classmate — однокласник.\n✅ А) colleague — colleague — колега.",
+      "testLevel": 2
+    },
+    {
+      "text": "If you are ___, you aren't married.",
+      "options": [
+        "divorced",
+        "lonely",
+        "single",
+        "alone"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Single.\n❌ Хибні: А) divorced — divorced — розлучений; Б) lonely — lonely — самотній; Г) alone — alone — наодинці.\n✅ В) single — single — неодружений.",
+      "testLevel": 2
+    },
+    {
+      "text": "When a couple stops being married by law, they get ___.",
+      "options": [
+        "divorced",
+        "retired",
+        "widowed",
+        "engaged"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Get divorced.\n❌ Хибні: Б) retired — retired — вийти на пенсію; В) widowed — widowed — овдовіти; Г) engaged — engaged — заручитися.\n✅ А) divorced — divorced — розлучитися.",
+      "testLevel": 2
+    },
+    {
+      "text": "Her husband died last year, so she is a ___.",
+      "options": [
+        "bride",
+        "orphan",
+        "widow",
+        "widower"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Widow.\n❌ Хибні: А) bride — bride — наречена; Б) orphan — orphan — сирота; Г) widower — widower — вдівець.\n✅ В) widow — widow — удова.",
+      "testLevel": 2
+    },
+    {
+      "text": "A newly married woman on her wedding day is a ___.",
+      "options": [
+        "guest",
+        "bridegroom",
+        "bride",
+        "widow"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Bride.\n❌ Хибні: А) guest — guest — гість; Б) bridegroom — bridegroom — наречений; Г) widow — widow — удова.\n✅ В) bride — bride — наречена.",
+      "testLevel": 2
+    },
+    {
+      "text": "— How about going to the cinema tonight? — ___",
+      "options": [
+        "It's two pounds.",
+        "I went there yesterday?",
+        "Yes, I was.",
+        "Great idea! What's on?"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: How about → Great idea.\n❌ Хибні: А) It's two pounds. — це відповідь про ціну; Б) I went there yesterday? — не пасує до пропозиції; В) Yes, I was. — не пасує до How about.\n✅ Г) Great idea! What's on? — погоджується й питає.",
+      "testLevel": 2
+    },
+    {
+      "text": "— Could you tell me the way to the station? — ___",
+      "options": [
+        "Yes, I could.",
+        "It's at six.",
+        "Sure. Go straight and turn left.",
+        "No, thank you."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Way → directions.\n❌ Хибні: А) Yes, I could. — це відповідь без користі; Б) It's at six. — це відповідь про час; Г) No, thank you. — не пасує до прохання.\n✅ В) Sure. Go straight and turn left. — дає чіткий напрямок.",
+      "testLevel": 2
+    },
+    {
+      "text": "— Thanks for helping me. — ___",
+      "options": [
+        "I don't mind.",
+        "Never mind.",
+        "You're welcome.",
+        "Same to you."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Thanks → You're welcome.\n❌ Хибні: А) I don't mind. — це відповідь на питання про дозвіл; Б) Never mind. — так відповідають на вибачення; Г) Same to you. — так відповідають на побажання.\n✅ В) You're welcome. — відповідь на подяку.",
+      "testLevel": 2
+    },
+    {
+      "text": "— Can I use your phone? — ___",
+      "options": [
+        "No, you are welcome.",
+        "Sure, go ahead.",
+        "Of course not, thanks.",
+        "Yes, I can't."
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Can I → Sure/Of course.\n❌ Хибні: А) No, you are welcome. — це суперечлива відповідь; В) Of course not, thanks. — це суперечлива відповідь; Г) Yes, I can't. — це суперечлива відповідь.\n✅ Б) Sure, go ahead. — дає дозвіл користуватись.",
+      "testLevel": 2
+    },
+    {
+      "text": "— What's your brother like? — ___",
+      "options": [
+        "He's tall.",
+        "He likes football.",
+        "He's kind and funny.",
+        "He's twenty."
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: What … like? → описує людину.\n❌ Хибні: А) He's tall. — описує зовнішність, не характер; Б) He likes football. — відповідає на What does he like; Г) He's twenty. — відповідає на How old is he.\n✅ В) He's kind and funny. — описує характер людини.",
+      "testLevel": 2
+    },
+    {
+      "text": "We're ___ a housewarming party since we've moved into a new house.",
+      "options": [
+        "having",
+        "taking",
+        "making",
+        "doing"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Have a party.\n❌ Хибні: Б) taking — take a party не вживається; В) making — make a party не вживається; Г) doing — do a party не вживається.\n✅ А) having — have a party — влаштовувати вечірку.",
+      "testLevel": 2
+    },
+    {
+      "text": "He ___ a lot of noise, so the neighbours complained.",
+      "options": [
+        "had",
+        "did",
+        "took",
+        "made"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Make noise.\n❌ Хибні: А) had — have noise не вживається; Б) did — do noise не вживається; В) took — take noise не вживається.\n✅ Г) made — make noise — шуміти.",
+      "testLevel": 2
+    },
+    {
+      "text": "She never ___ the washing-up — her brother always does it.",
+      "options": [
+        "does",
+        "takes",
+        "has",
+        "makes"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Do the washing-up.\n❌ Хибні: Б) takes — take the washing-up не вживається; В) has — have the washing-up не вживається; Г) makes — make the washing-up не вживається.\n✅ А) does — do the washing-up — мити посуд.",
+      "testLevel": 2
+    },
+    {
+      "text": "Their ___ in the village was very friendly. (NEIGHBOUR)",
+      "options": [
+        "neighbourly",
+        "neighbours",
+        "neighbouring",
+        "neighbourhood"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Neighbourhood = район.\n❌ Хибні: А) neighbourly — neighbourly — по-сусідськи; Б) neighbours — neighbours — множина; В) neighbouring — neighbouring — сусідній.\n✅ Г) neighbourhood — neighbourhood — околиця.",
+      "testLevel": 2
+    },
+    {
+      "text": "You can't trust him; he's very ___. (HONEST)",
+      "options": [
+        "dishonest",
+        "nonhonest",
+        "inhonest",
+        "unhonest"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Honest → dishonest.\n❌ Хибні: Б) nonhonest — така форма не існує; В) inhonest — така форма не існує; Г) unhonest — така форма не існує.\n✅ А) dishonest — dis- + honest.",
+      "testLevel": 2
+    },
+    {
+      "text": "It's ___ to talk loudly in the library. (POLITE)",
+      "options": [
+        "impolite",
+        "unpolite",
+        "inpolite",
+        "dispolite"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Polite → impolite.\n❌ Хибні: Б) unpolite — така форма не існує; В) inpolite — така форма не існує; Г) dispolite — така форма не існує.\n✅ А) impolite — im- + polite.",
+      "testLevel": 2
+    },
+    {
+      "text": "Although Liam and his sister often argue, they always ___ when one of them needs help.",
+      "options": [
+        "turn each other down",
+        "stand by each other",
+        "fall out with each other",
+        "look down on each other"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Контраст although показує: попри суперечки, вони підтримують одне одного.\n❌ А) відмовляти; В) сваритися; Г) зневажати.\n✅ Б) stand by each other — підтримувати одне одного.",
+      "testLevel": 3
+    },
+    {
+      "text": "The flat looked inexpensive at first, but the contract included several hidden ___ that made it much more costly.",
+      "options": [
+        "charges",
+        "bargains",
+        "wages",
+        "refunds"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Hidden charges — приховані платежі або збори.\n❌ Б) bargains — вигідні покупки; В) wages — зарплата; Г) refunds — повернення коштів.\n✅ А) charges — додаткові платежі.",
+      "testLevel": 3
+    },
+    {
+      "text": "I was going to buy the jacket, but I changed my ___ after seeing the price.",
+      "options": [
+        "brain",
+        "mind",
+        "thought",
+        "opinion"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Стала конструкція: change your mind — передумати.\n❌ А), В), Г) не утворюють цієї сталої сполуки в такому значенні.\n✅ Б) mind.",
+      "testLevel": 3
+    },
+    {
+      "text": "My grandparents have lived in the same house for decades, so they are deeply ___ to the neighbourhood.",
+      "options": [
+        "attached",
+        "accustomed",
+        "aware",
+        "responsible"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Attached to означає емоційно прив'язаний до місця.\n❌ Б) accustomed to — звиклий, але не обов'язково емоційно прив'язаний; В) aware of — обізнаний; Г) responsible for — відповідальний.\n✅ А) attached to.",
+      "testLevel": 3
+    },
+    {
+      "text": "The neighbours complained because the music was so loud that it ___ their sleep.",
+      "options": [
+        "disturbed",
+        "interrupted",
+        "prevented",
+        "refused"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Disturb someone's sleep — порушувати чийсь сон.\n❌ Б) interrupt вимагає іншого контексту; В) prevent потребує конструкції prevent someone from doing; Г) refuse не підходить за значенням.\n✅ А) disturbed.",
+      "testLevel": 3
+    },
+    {
+      "text": "We had to ___ the appointment because the dentist was unexpectedly ill.",
+      "options": [
+        "put off",
+        "take after",
+        "bring up",
+        "get over"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Контекст: зустріч переносять на пізніше.\n❌ Б) бути схожим на; В) виховувати або порушити тему; Г) одужати / подолати.\n✅ А) put off — відкласти.",
+      "testLevel": 3
+    },
+    {
+      "text": "She earns a steady income, but she still finds it difficult to make ___ meet.",
+      "options": [
+        "ends",
+        "limits",
+        "edges",
+        "sides"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Make ends meet — мати достатньо грошей на основні витрати.\n❌ Б), В), Г) не входять до цієї ідіоми.\n✅ А) ends.",
+      "testLevel": 3
+    },
+    {
+      "text": "When the washing machine broke down, the landlord agreed to ___ the cost of the repair.",
+      "options": [
+        "cover",
+        "fill",
+        "charge",
+        "earn"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Cover the cost — оплатити або взяти на себе витрати.\n❌ Б) fill the cost — неправильне сполучення; В) charge the cost змінює значення; Г) earn the cost — не вживається.\n✅ А) cover the cost.",
+      "testLevel": 3
+    },
+    {
+      "text": "His explanation sounded convincing, but it did not ___ with the evidence in the email.",
+      "options": [
+        "match",
+        "suit",
+        "fit in",
+        "agree"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Match with the evidence — узгоджуватися з доказами.\n❌ Б) suit — пасувати людині/ситуації; В) fit in — вписуватися в групу; Г) agree зазвичай потребує agree with + особа/думка, але тут природніше match the evidence.\n✅ А) match.",
+      "testLevel": 3
+    },
+    {
+      "text": "The hotel offered a full ___ after admitting that the room had not been cleaned properly.",
+      "options": [
+        "repayment",
+        "refund",
+        "salary",
+        "deposit"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Refund — повернення грошей покупцеві або клієнту.\n❌ А) repayment — погашення боргу; В) salary — зарплата; Г) deposit — завдаток.\n✅ Б) refund.",
+      "testLevel": 3
+    },
+    {
+      "text": "At the party everyone was shy until Tom ___ the ice with a joke.",
+      "options": [
+        "broke",
+        "cracked",
+        "melted",
+        "opened"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Break the ice.\n❌ Хибні: Б) cracked — crack the ice не вживається; В) melted — melt the ice не вживається; Г) opened — open the ice не вживається.\n✅ А) broke — break the ice — розпочати спілкування.",
+      "testLevel": 3
+    },
+    {
+      "text": "A friend in need is a friend ___.",
+      "options": [
+        "near",
+        "true",
+        "indeed",
+        "always"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: A friend in need is a friend indeed.\n❌ Хибні: А) near — near не вживається в приказці; Б) true — true не вживається в приказці; Г) always — always не вживається в приказці.\n✅ В) indeed — справжній друг у біді — друг справді.",
+      "testLevel": 3
+    },
+    {
+      "text": "He always lets me ___ when I need help.",
+      "options": [
+        "down",
+        "out",
+        "off",
+        "up"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Let down = підводити.\n❌ Хибні: Б) out — let out — випускати; В) off — let off — пробачити; Г) up — let up — слабшати.\n✅ А) down — let down — підводити.",
+      "testLevel": 3
+    },
+    {
+      "text": "You can always count ___ me.",
+      "options": [
+        "with",
+        "on",
+        "in",
+        "at"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Count on.\n❌ Хибні: А) with — count with не вживається; В) in — count in — включати до складу; Г) at — count at не вживається.\n✅ Б) on — count on — покладатися.",
+      "testLevel": 3
+    },
+    {
+      "text": "She stood up ___ her brother when he was bullied.",
+      "options": [
+        "for",
+        "at",
+        "to",
+        "by"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Stand up for.\n❌ Хибні: Б) at — stand up at не вживається; В) to — stand up to — протистояти; Г) by — stand up by не вживається.\n✅ А) for — stand up for — захищати.",
+      "testLevel": 3
+    },
+    {
+      "text": "He finally got ___ the shock of losing his job.",
+      "options": [
+        "off",
+        "over",
+        "up",
+        "out"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Get over.\n❌ Хибні: А) off — get off — виходити; В) up — get up — вставати; Г) out — get out — виходити.\n✅ Б) over — get over — оговтатися.",
+      "testLevel": 3
+    },
+    {
+      "text": "My grandfather passed ___ last year.",
+      "options": [
+        "away",
+        "over",
+        "off",
+        "out"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Pass away.\n❌ Хибні: Б) over — pass over — пропустити; В) off — pass off — минути; Г) out — pass out — знепритомніти.\n✅ А) away — pass away — померти.",
+      "testLevel": 3
+    },
+    {
+      "text": "She turned ___ the job offer because of the low salary.",
+      "options": [
+        "down",
+        "out",
+        "away",
+        "off"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Turn down.\n❌ Хибні: Б) out — turn out — виявитись; В) away — turn away — відвернути; Г) off — turn off — вимкнути.\n✅ А) down — turn down — відхилити.",
+      "testLevel": 3
+    },
+    {
+      "text": "I'm looking forward ___ you again.",
+      "options": [
+        "see",
+        "seeing",
+        "to seeing",
+        "to see"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Look forward to + V-ing.\n❌ Хибні: А) see — неправильна форма дієслова; Б) seeing — бракує to у конструкції; Г) to see — після to потрібне V-ing.\n✅ В) to seeing — look forward to + V-ing.",
+      "testLevel": 3
+    },
+    {
+      "text": "My parents told me ___ for coming home late.",
+      "options": [
+        "up",
+        "down",
+        "out",
+        "off"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Tell off.\n❌ Хибні: А) up — tell up не вживається; Б) down — tell down не вживається; В) out — tell out не вживається.\n✅ Г) off — tell off — вичитувати.",
+      "testLevel": 3
+    },
+    {
+      "text": "He fell ___ her the moment he saw her.",
+      "options": [
+        "at",
+        "for",
+        "to",
+        "on"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Fall for.\n❌ Хибні: А) at — fall at не вживається; В) to — fall to — припадати; Г) on — fall on — падати на.\n✅ Б) for — fall for — закохатися.",
+      "testLevel": 3
+    },
+    {
+      "text": "After the quarrel, they made ___ and are friends again.",
+      "options": [
+        "off",
+        "out",
+        "over",
+        "up"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Make up.\n❌ Хибні: А) off — make off — втекти; Б) out — make out — розрізнити; В) over — make over — змінювати вигляд.\n✅ Г) up — make up — помиритися.",
+      "testLevel": 3
+    },
+    {
+      "text": "Can you ___ me some money until Friday?",
+      "options": [
+        "owe",
+        "lend",
+        "borrow",
+        "rent"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Lend to someone.\n❌ Хибні: А) owe — owe — бути винним; В) borrow — borrow — позичити в когось; Г) rent — rent — орендувати.\n✅ Б) lend — lend — позичити комусь.",
+      "testLevel": 3
+    },
+    {
+      "text": "May I ___ your pen for a moment?",
+      "options": [
+        "owe",
+        "borrow",
+        "rent",
+        "lend"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Borrow from someone.\n❌ Хибні: А) owe — owe — бути винним; В) rent — rent — орендувати; Г) lend — lend — позичити комусь.\n✅ Б) borrow — borrow — позичити в когось.",
+      "testLevel": 3
+    },
+    {
+      "text": "Thieves ___ the bank last night.",
+      "options": [
+        "stole",
+        "lost",
+        "took",
+        "robbed"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте: Rob a bank.\n❌ Хибні: А) stole — steal не вживається з місцем; Б) lost — lose — втратити; В) took — take не передає насильство.\n✅ Г) robbed — rob a place — пограбувати.",
+      "testLevel": 3
+    },
+    {
+      "text": "Someone has ___ my bike.",
+      "options": [
+        "borrowed",
+        "lost",
+        "stolen",
+        "robbed"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Steal a thing.\n❌ Хибні: А) borrowed — borrow — позичити; Б) lost — lose — загубити; Г) robbed — rob — пограбувати людину чи місце.\n✅ В) stolen — steal — вкрасти річ.",
+      "testLevel": 3
+    },
+    {
+      "text": "He's very ___ — he cries at sad films.",
+      "options": [
+        "sensational",
+        "sensitive",
+        "sensible",
+        "senseless"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Sensitive ≠ sensible.\n❌ Хибні: А) sensational — sensational — сенсаційний; В) sensible — sensible — розсудливий; Г) senseless — senseless — безглуздий.\n✅ Б) sensitive — sensitive — вразливий.",
+      "testLevel": 3
+    },
+    {
+      "text": "It's ___ to take an umbrella — it might rain.",
+      "options": [
+        "sensational",
+        "sensible",
+        "senseless",
+        "sensitive"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Sensible ≠ sensitive.\n❌ Хибні: А) sensational — sensational — сенсаційний; В) senseless — senseless — безглуздий; Г) sensitive — sensitive — вразливий.\n✅ Б) sensible — sensible — розсудливо.",
+      "testLevel": 3
+    },
+    {
+      "text": "The party was great — we had a lot of ___.",
+      "options": [
+        "fun",
+        "funs",
+        "funnily",
+        "funny"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Fun ≠ funny.\n❌ Хибні: Б) funs — funs не існує; В) funnily — funnily — кумедно; Г) funny — funny — смішний.\n✅ А) fun — fun — задоволення (іменник).",
+      "testLevel": 3
+    },
+    {
+      "text": "The film was so ___ that we couldn't stop laughing.",
+      "options": [
+        "fun",
+        "fund",
+        "funny",
+        "funnily"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте: Funny = смішний.\n❌ Хибні: А) fun — fun — іменник; Б) fund — fund — фонд; Г) funnily — funnily — прислівник.\n✅ В) funny — funny — смішний.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which sentence with the verbs tell/say is correct?",
+      "options": [
+        "He told me the truth.",
+        "He said to tell me the truth.",
+        "He said me the truth.",
+        "He tells to me the truth."
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: Tell somebody something.\n❌ Хибні: Б) He said to tell me the truth. — речення змінює значення; В) He said me the truth. — say не вживається з особою без to; Г) He tells to me the truth. — tell не вживається з to.\n✅ А) He told me the truth. — tell + особа + факт.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which sentence with do/make is correct?",
+      "options": [
+        "I made my homework.",
+        "I did homework to myself.",
+        "I have made homework.",
+        "I did my homework."
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Do homework.\n❌ Хибні: А) I made my homework. — make homework не вживається; Б) I did homework to myself. — неправильна граматична конструкція; В) I have made homework. — make homework не вживається.\n✅ Г) I did my homework. — do homework — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which sentence about marriage is correct?",
+      "options": [
+        "She is married to a doctor.",
+        "She is married for a doctor.",
+        "She is married by a doctor.",
+        "She is married with a doctor."
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Married to.\n❌ Хибні: Б) She is married for a doctor. — for не вживається після married; В) She is married by a doctor. — by не вживається після married; Г) She is married with a doctor. — with не вживається після married.\n✅ А) She is married to a doctor. — married to — стала сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which word does NOT belong to the group of family members?",
+      "options": [
+        "aunt",
+        "niece",
+        "landlord",
+        "cousin"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Landlord — не родинний зв'язок.\n❌ Хибні: А) aunt — aunt — родичка; Б) niece — niece — родичка; Г) cousin — cousin — родич.\n✅ В) landlord — landlord — не родич.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which word does NOT belong to the group of cutlery?",
+      "options": [
+        "cheese",
+        "knife",
+        "fork",
+        "spoon"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Spoon, fork, knife — cutlery.\n❌ Хибні: Б) knife — knife — столовий прилад; В) fork — fork — столовий прилад; Г) spoon — spoon — столовий прилад.\n✅ А) cheese — cheese — їжа, не столовий прилад.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which word does NOT belong to the group of furniture?",
+      "options": [
+        "chest of drawers",
+        "curtain",
+        "bookcase",
+        "wardrobe"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Wardrobe, bookcase — furniture.\n❌ Хибні: А) chest of drawers — chest of drawers — меблі; В) bookcase — bookcase — меблі; Г) wardrobe — wardrobe — меблі.\n✅ Б) curtain — curtain — предмет текстилю.",
+      "testLevel": 3
+    },
+    {
+      "text": "We're throwing a ___ party since we've just moved into our new house.",
+      "options": [
+        "birthday",
+        "housewarming",
+        "farewell",
+        "retirement"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Housewarming = новосілля.\n❌ Хибні: А) birthday — birthday — день народження; В) farewell — farewell — прощальна; Г) retirement — retirement — на честь виходу на пенсію.\n✅ Б) housewarming — housewarming — новосілля.",
+      "testLevel": 3
+    },
+    {
+      "text": "Which word means «to look after a child until he or she is an adult»?",
+      "options": [
+        "rise",
+        "educate",
+        "grow",
+        "bring up"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Bring up.\n❌ Хибні: А) rise — rise — підніматися; Б) educate — educate — навчати; В) grow — grow — рости.\n✅ Г) bring up — bring up — виховувати.",
+      "testLevel": 3
+    },
+    {
+      "text": "He is very ___ — he never gets angry.",
+      "options": [
+        "bossy",
+        "nosy",
+        "easy-going",
+        "strict"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Easy-going.\n❌ Хибні: А) bossy — bossy — владний; Б) nosy — nosy — цікавий до чужого; Г) strict — strict — суворий.\n✅ В) easy-going — easy-going — врівноважений.",
+      "testLevel": 3
+    },
+    {
+      "text": "My boss is quite ___; she tells everyone what to do.",
+      "options": [
+        "honest",
+        "bossy",
+        "generous",
+        "shy"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Bossy.\n❌ Хибні: А) honest — honest — чесний; В) generous — generous — щедрий; Г) shy — shy — сором'язливий.\n✅ Б) bossy — bossy — любить командувати.",
+      "testLevel": 3
+    },
+    {
+      "text": "She is so ___ that she always shares her sweets with everyone.",
+      "options": [
+        "selfish",
+        "generous",
+        "greedy",
+        "mean"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Generous.\n❌ Хибні: А) selfish — selfish — егоїстична; В) greedy — greedy — жадібна; Г) mean — mean — скупа.\n✅ Б) generous — generous — щедра.",
+      "testLevel": 3
+    },
+    {
+      "text": "He is ___: he only thinks about himself.",
+      "options": [
+        "selfish",
+        "polite",
+        "generous",
+        "modest"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Selfish.\n❌ Хибні: Б) polite — polite — ввічливий; В) generous — generous — щедрий; Г) modest — modest — скромний.\n✅ А) selfish — selfish — егоїстичний.",
+      "testLevel": 3
+    },
+    {
+      "text": "I'm not very good at ___ new people.",
+      "options": [
+        "meet",
+        "met",
+        "meeting",
+        "to meet"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Good at + V-ing.\n❌ Хибні: А) meet — після at потрібен герундій; Б) met — met — минулий час; Г) to meet — після at потрібен герундій.\n✅ В) meeting — meet — знайомитись.",
+      "testLevel": 3
+    },
+    {
+      "text": "They ___ their relationship after ten years together.",
+      "options": [
+        "ended",
+        "took",
+        "made",
+        "did"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте: End a relationship.\n❌ Хибні: Б) took — take a relationship не вживається; В) made — make a relationship не вживається; Г) did — do a relationship не вживається.\n✅ А) ended — end a relationship — завершити.",
+      "testLevel": 3
+    },
+    {
+      "text": "Please ___ me when you arrive so that I know you're safe.",
+      "options": [
+        "text",
+        "talk",
+        "tell",
+        "say"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Пастка: Запам'ятайте правило: Text me.\n❌ Хибні: Б) talk — talk — розмовляти; В) tell — tell потребує додатка; Г) say — say потребує додатка.\n✅ А) text — text — написати SMS.",
+      "testLevel": 3
+    },
+    {
+      "text": "She's ___ — she never forgets her friends' birthdays.",
+      "options": [
+        "thoughtless",
+        "thoughtful",
+        "selfish",
+        "careless"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: Запам'ятайте: Thoughtful = уважний.\n❌ Хибні: А) thoughtless — thoughtless — недбалий; В) selfish — selfish — егоїстичний; Г) careless — careless — недбалий.\n✅ Б) thoughtful — thoughtful — уважний до інших.",
+      "testLevel": 3
+    },
+    {
+      "text": "He's a ___ man; he always arrives on time and keeps his promises.",
+      "options": [
+        "relying",
+        "reliant",
+        "reliable",
+        "relied"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: Запам'ятайте цю сполуку: Reliable.\n❌ Хибні: А) relying — relying — форма дієслова; Б) reliant — reliant — залежний; Г) relied — relied — форма дієслова.\n✅ В) reliable — reliable — надійний.",
+      "testLevel": 3
+    }
+  ],
+  "cards": [
+    {
+      "question": "Family members",
+      "answer": "parents (mother, father), grandparents, siblings (brother, sister), aunt, uncle, cousin, niece, nephew; only child — єдина дитина."
+    },
+    {
+      "question": "In-laws and step-relatives",
+      "answer": "mother-in-law, father-in-law (батьки чоловіка/дружини); stepmother, stepfather, stepbrother (нерідні родичі через шлюб батьків)."
+    },
+    {
+      "question": "Marital status",
+      "answer": "single, engaged (заручений), married, divorced (розлучений), widow/widower (удова/вдівець), bride, bridegroom."
+    },
+    {
+      "question": "Relationship phrasal verbs",
+      "answer": "get on with (ладнати), fall out with (посваритися), make up (помиритися), break up (розійтися), look up to (поважати), take after (бути схожим), bring up (виховувати), grow up."
+    },
+    {
+      "question": "Household chores",
+      "answer": "do the dishes/washing-up, do the laundry, make the bed, clean the house, take out the rubbish, do the shopping, set the table, cook meals."
+    },
+    {
+      "question": "do vs make",
+      "answer": "do: homework, housework, a favour, the dishes, business; make: the bed, a mistake, a decision, a plan, noise, a phone call, money, a cake."
+    },
+    {
+      "question": "Daily routine verbs",
+      "answer": "get up, wake up, have breakfast/lunch/dinner, have/take a shower, brush teeth, go to bed, fall asleep, commute (їздити на роботу)."
+    },
+    {
+      "question": "House and flat",
+      "answer": "flat/apartment, house, block of flats, floor, kitchen, bathroom, bedroom, living room, hall, balcony, landlord (власник), tenant (орендар), rent."
+    },
+    {
+      "question": "Furniture",
+      "answer": "sofa, armchair, wardrobe, chest of drawers, bookcase, fridge, cooker, curtains, carpet."
+    },
+    {
+      "question": "Shopping",
+      "answer": "sale, discount, bargain, receipt, refund (повернення грошей), checkout, queue, shop assistant, try on, fit, suit, match."
+    },
+    {
+      "question": "Meals and food",
+      "answer": "breakfast, lunch, dinner, starter, main course, dessert; vegetarian; take away; eat out — їсти поза домом; set the table."
+    },
+    {
+      "question": "Free time",
+      "answer": "hobby, collect stamps, play computer games, go for a walk, hang out with friends, spend time, free time."
+    },
+    {
+      "question": "Character adjectives",
+      "answer": "kind, generous (щедрий), selfish, shy, bossy, easy-going, nosy (цікавий до чужих справ), lazy, reliable (надійний), honest, polite."
+    },
+    {
+      "question": "Feelings with -ed/-ing",
+      "answer": "-ed — як людина почувається (bored, tired, surprised); -ing — що викликає це відчуття (boring, tiring, surprising)."
+    },
+    {
+      "question": "Word formation: noun",
+      "answer": "friend → friendship; kind → kindness; marry → marriage; relation → relationship; neighbour → neighbourhood."
+    },
+    {
+      "question": "Word formation: adjective",
+      "answer": "friend → friendly; forget → forgetful; rely → reliable; care → careful/careless; help → helpful/helpless."
+    },
+    {
+      "question": "Negative prefixes",
+      "answer": "un- (unhappy, unfriendly), im- (impossible, impatient), in- (inactive), ir- (irregular), dis- (dislike), mis- (misunderstand)."
+    },
+    {
+      "question": "lend vs borrow",
+      "answer": "lend — давати в борг; borrow — брати в борг: Can you lend me your pen? May I borrow your pen?"
+    },
+    {
+      "question": "rob vs steal",
+      "answer": "rob a person/place (пограбувати): He robbed a bank; steal something (вкрасти): He stole a car."
+    },
+    {
+      "question": "Idioms about people",
+      "answer": "black sheep (паршива вівця), a chip off the old block (весь у батька), blood is thicker than water, see eye to eye, a heart of gold."
+    },
+    {
+      "question": "Polite responses",
+      "answer": "Thank you. — You're welcome. I'm sorry. — That's all right. / No problem. Would you like some tea? — Yes, please. / No, thanks."
+    },
+    {
+      "question": "Friends and acquaintances",
+      "answer": "friend, best friend, acquaintance (знайомий), colleague (колега), classmate, neighbour, stranger."
+    },
+    {
+      "question": "keep in touch",
+      "answer": "Залишатися на зв'язку: We keep in touch by phone. Також: get in touch with (зв'язатися)."
+    },
+    {
+      "question": "Housewarming",
+      "answer": "Новосілля: a housewarming party — вечірка з нагоди переїзду до нового будинку."
+    }
+  ]
 }
