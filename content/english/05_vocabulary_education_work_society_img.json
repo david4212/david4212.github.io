@@ -1,0 +1,1138 @@
+{
+ "subject": "ENGLISH",
+ "topic": "Vocabulary: Education, Work & Society",
+ "questions": [
+  {
+   "text": "Look at the timetable. What lesson do the pupils have on Monday at 8:30?",
+   "options": [
+    "History",
+    "Physics",
+    "Maths",
+    "English"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Перший урок у понеділок — Maths.\n❌ Хибні: А) History — це четвертий урок у понеділок; Б) Physics — це третій урок у понеділок; Г) English — це другий урок у понеділок.\n✅ В) Maths — так у розкладі в понеділок.",
+   "testLevel": 1,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. How many lessons do the pupils have on Wednesday?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Порожню клітинку не рахуємо.\n❌ Хибні: А) 3 — це лише три уроки; Б) 4 — це лише чотири уроки; Г) 6 — шостий урок порожній.\n✅ В) 5 — п’ять уроків заповнено.",
+   "testLevel": 1,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. On which day do the pupils have Art?",
+   "options": [
+    "Monday",
+    "Friday",
+    "Wednesday",
+    "Tuesday"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Art є лише один раз на тиждень.\n❌ Хибні: А) Monday — у понеділок Art немає; Б) Friday — у п’ятницю Art немає; В) Wednesday — у середу Art немає.\n✅ Г) Tuesday — Art у вівторок, шостий урок.",
+   "testLevel": 1,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. What is the last lesson on Thursday?",
+   "options": [
+    "Ukrainian",
+    "PE",
+    "IT",
+    "English"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Останній урок — шостий.\n❌ Хибні: Б) PE — це п’ятий урок у четвер; В) IT — це четвертий урок у четвер; Г) English — це третій урок у четвер.\n✅ А) Ukrainian — шостий урок у четвер.",
+   "testLevel": 1,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. How many English lessons do the pupils have a week?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Рахуйте English у кожному стовпці.\n❌ Хибні: А) 3 — англійських уроків більше; Б) 4 — не вистачає одного уроку; Г) 6 — забагато для цього розкладу.\n✅ В) 5 — по одному щодня.",
+   "testLevel": 2,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. Which lesson comes right after Biology on Tuesday?",
+   "options": [
+    "Maths",
+    "Art",
+    "English",
+    "Chemistry"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Біологія — третій урок, а потім четвертий.\n❌ Хибні: А) Maths — це другий урок; Б) Art — це шостий урок; Г) Chemistry — це п’ятий урок.\n✅ В) English — четвертий урок після Biology.",
+   "testLevel": 2,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. At what time does the Geography lesson start?",
+   "options": [
+    "9:25",
+    "8:30",
+    "11:25",
+    "10:30"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Geography — другий урок у середу.\n❌ Хибні: Б) 8:30 — це час першого уроку; В) 11:25 — це час четвертого уроку; Г) 10:30 — це час третього уроку.\n✅ А) 9:25 — другий урок у середу.",
+   "testLevel": 2,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. Which subject do the pupils have every day?",
+   "options": [
+    "English",
+    "History",
+    "Ukrainian",
+    "Maths"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Перевірте всі п’ять днів.\n❌ Хибні: Б) History — є лише три дні на тиждень; В) Ukrainian — у понеділок Ukrainian немає; Г) Maths — у п’ятницю Maths немає.\n✅ А) English — є в кожному стовпці.",
+   "testLevel": 2,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. How many Maths lessons start before 11:00 in the whole week?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Рахуйте уроки Maths в усіх днях.\n❌ Хибні: А) 2 — Maths більше двох разів; Б) 3 — пропущено один урок математики; Г) 5 — Maths лише чотири на тиждень.\n✅ В) 4 — усі Maths починаються до 11:00.",
+   "testLevel": 3,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. Between which two lessons is the IT lesson on Thursday?",
+   "options": [
+    "Maths and English",
+    "Physics and Maths",
+    "PE and Ukrainian",
+    "English and PE"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: IT — четвертий урок у четвер.\n❌ Хибні: А) Maths and English — IT не між цими уроками; Б) Physics and Maths — IT після цих уроків; В) PE and Ukrainian — IT перед цими уроками.\n✅ Г) English and PE — IT стоїть між ними.",
+   "testLevel": 3,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. On which days do the pupils have PE?",
+   "options": [
+    "Tuesday and Friday",
+    "Monday and Thursday",
+    "Wednesday and Thursday",
+    "Monday and Wednesday"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: PE є лише двічі на тиждень.\n❌ Хибні: А) Tuesday and Friday — у ці дні PE немає; В) Wednesday and Thursday — у середу PE немає; Г) Monday and Wednesday — у середу PE немає.\n✅ Б) Monday and Thursday — PE п’ятим уроком у ці дні.",
+   "testLevel": 3,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "Look at the timetable. Which statement is TRUE?",
+   "options": [
+    "The pupils have no lessons on Friday.",
+    "The pupils have Biology on Monday.",
+    "The pupils have Physics on Monday and on Thursday.",
+    "The pupils have History four times a week."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Звіряйте кожне твердження з таблицею.\n❌ Хибні: А) The pupils have no lessons on Friday. — у п’ятницю є п’ять уроків; Б) The pupils have Biology on Monday. — Biology у вівторок і п’ятницю; Г) The pupils have History four times a week. — History лише три рази.\n✅ В) The pupils have Physics on Monday and on Thursday. — Physics є в обидва дні.",
+   "testLevel": 3,
+   "image": "/img/english/e5_timetable.svg"
+  },
+  {
+   "text": "What job does the café offer?",
+   "options": [
+    "Cleaner",
+    "Cook",
+    "Manager",
+    "Waiter or waitress"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Job: part-time waiter/waitress.\n❌ Хибні: А) Cleaner — про прибиральника не йдеться; Б) Cook — про кухаря не йдеться; В) Manager — про керівника не йдеться.\n✅ Г) Waiter or waitress — так сказано в оголошенні.",
+   "testLevel": 1,
+   "image": "/img/english/e5_job_ad.svg"
+  },
+  {
+   "text": "On which days would the employee work?",
+   "options": [
+    "Friday, Saturday and Sunday",
+    "Monday to Friday",
+    "Every day",
+    "Only on Sundays"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Friday to Sunday = три дні.\n❌ Хибні: Б) Monday to Friday — це робочі дні тижня; В) Every day — графік не охоплює щодня; Г) Only on Sundays — графік довший за один день.\n✅ А) Friday, Saturday and Sunday — так у графіку роботи.",
+   "testLevel": 1,
+   "image": "/img/english/e5_job_ad.svg"
+  },
+  {
+   "text": "What is NOT necessary for this job?",
+   "options": [
+    "Some English",
+    "Being 16 or older",
+    "Being friendly",
+    "Previous experience"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: NOT necessary — не потрібно.\n❌ Хибні: А) Some English — це вимога в оголошенні; Б) Being 16 or older — це вимога в оголошенні; В) Being friendly — це вимога в оголошенні.\n✅ Г) Previous experience — experience is not necessary.",
+   "testLevel": 2,
+   "image": "/img/english/e5_job_ad.svg"
+  },
+  {
+   "text": "How should applicants apply?",
+   "options": [
+    "By filling in an online test",
+    "By visiting the café on Friday",
+    "By sending their CV by email",
+    "By phoning the café"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Send your CV by 20 May.\n❌ Хибні: А) By filling in an online test — про тест не йдеться; Б) By visiting the café on Friday — про візит не йдеться; Г) By phoning the café — телефону в оголошенні немає.\n✅ В) By sending their CV by email — send your CV to the email.",
+   "testLevel": 2,
+   "image": "/img/english/e5_job_ad.svg"
+  },
+  {
+   "text": "How much would a person earn if he or she worked all the hours in one week?",
+   "options": [
+    "£54",
+    "£162",
+    "£216",
+    "£108"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: 6 годин × 3 дні × £9 = £162.\n❌ Хибні: А) £54 — це лише одна зміна; В) £216 — це чотири повні зміни; Г) £108 — це лише дві повні зміни.\n✅ Б) £162 — шість годин, три дні по дев’ять.",
+   "testLevel": 3,
+   "image": "/img/english/e5_job_ad.svg"
+  },
+  {
+   "text": "Which person is suitable for the job according to the advertisement?",
+   "options": [
+    "Anna, 25, can only work on weekday mornings.",
+    "Ivan, 17, is friendly and speaks English but has never worked before.",
+    "Peter, 30, is friendly but speaks no English.",
+    "Tom, 15, is friendly and speaks good English."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Звіряйте вік, мову та графік.\n❌ Хибні: А) Anna, 25, can only work on weekday mornings. — це не збігається з графіком; В) Peter, 30, is friendly but speaks no English. — Peter не знає англійської; Г) Tom, 15, is friendly and speaks good English. — Tom ще не досяг шістнадцяти.\n✅ Б) Ivan, 17, is friendly and speaks English but has never worked before. — відповідає всім вимогам оголошення.",
+   "testLevel": 3,
+   "image": "/img/english/e5_job_ad.svg"
+  },
+  {
+   "text": "The advertisement says that full training is provided. What does it mean?",
+   "options": [
+    "Workers must pay for a training course.",
+    "Workers must have a training certificate.",
+    "The café will teach new workers what to do.",
+    "Only trained waiters can apply."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Provided = надається роботодавцем.\n❌ Хибні: А) Workers must pay for a training course. — про оплату курсу не йдеться; Б) Workers must have a training certificate. — сертифіката не вимагають; Г) Only trained waiters can apply. — досвід не потрібен.\n✅ В) The café will teach new workers what to do. — training provided — навчання надається.",
+   "testLevel": 3,
+   "image": "/img/english/e5_job_ad.svg"
+  },
+  {
+   "text": "What did Olena study at university?",
+   "options": [
+    "Law",
+    "Languages",
+    "Economics",
+    "Medicine"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Education: BA in Economics.\n❌ Хибні: А) Law — про право не йдеться; Б) Languages — про філологію не йдеться; Г) Medicine — про медицину не йдеться.\n✅ В) Economics — BA in Economics у резюме.",
+   "testLevel": 1,
+   "image": "/img/english/e5_cv.svg"
+  },
+  {
+   "text": "What job did Olena do in 2023–2024?",
+   "options": [
+    "Shop assistant",
+    "Camp leader",
+    "Teacher",
+    "Waitress"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Part-time shop assistant.\n❌ Хибні: Б) Camp leader — це було влітку 2022; В) Teacher — про вчителя не йдеться; Г) Waitress — про офіціантку не йдеться.\n✅ А) Shop assistant — так у розділі Work experience.",
+   "testLevel": 1,
+   "image": "/img/english/e5_cv.svg"
+  },
+  {
+   "text": "Which language does Olena know at the lowest level?",
+   "options": [
+    "Polish",
+    "English",
+    "Ukrainian",
+    "German"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Elementary — початковий рівень.\n❌ Хибні: А) Polish — про польську не йдеться; Б) English — upper-intermediate — вищий рівень; В) Ukrainian — про українську не вказано.\n✅ Г) German — elementary — найнижчий рівень.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cv.svg"
+  },
+  {
+   "text": "In which year did Olena finish university?",
+   "options": [
+    "2020",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Education: 2020 – 2024.\n❌ Хибні: А) 2020 — це рік початку навчання; Б) 2022 — тоді вона була волонтером; В) 2023 — тоді вона почала працювати.\n✅ Г) 2024 — навчання до червня 2024.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cv.svg"
+  },
+  {
+   "text": "Which part of the CV tells the employer about the applicant's hobbies?",
+   "options": [
+    "Skills",
+    "Education",
+    "Interests",
+    "Work experience"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Interests = захоплення.\n❌ Хибні: А) Skills — це вміння та знання; Б) Education — це розділ про навчання; Г) Work experience — це досвід роботи.\n✅ В) Interests — tennis, reading, travelling.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cv.svg"
+  },
+  {
+   "text": "How old was Olena when she started university?",
+   "options": [
+    "16",
+    "17",
+    "18",
+    "19"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Народилася у березні 2003, вступила у вересні 2020.\n❌ Хибні: А) 16 — вона вже була старшою; В) 18 — їй ще не виповнилося вісімнадцять; Г) 19 — вона була молодшою.\n✅ Б) 17 — їй виповнилося сімнадцять.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cv.svg"
+  },
+  {
+   "text": "Look at the chart. What is the most popular choice after school?",
+   "options": [
+    "College",
+    "University",
+    "Work",
+    "Abroad"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Найвищий стовпчик — University.\n❌ Хибні: А) College — це лише 20 учнів; В) Work — це лише 14 учнів; Г) Abroad — найнижчий стовпчик — 8.\n✅ Б) University — найвищий стовпчик — 46.",
+   "testLevel": 1,
+   "image": "/img/english/e5_bar_plans.svg"
+  },
+  {
+   "text": "Look at the chart. How many students want to take a gap year?",
+   "options": [
+    "8",
+    "12",
+    "14",
+    "20"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Дивіться на підпис Gap year.\n❌ Хибні: А) 8 — це кількість тих, хто за кордоном; В) 14 — це кількість тих, хто працює; Г) 20 — це кількість тих, хто в коледжі.\n✅ Б) 12 — так на стовпчику Gap year.",
+   "testLevel": 1,
+   "image": "/img/english/e5_bar_plans.svg"
+  },
+  {
+   "text": "Look at the chart. How many more students choose university than college?",
+   "options": [
+    "20",
+    "26",
+    "46",
+    "66"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Різниця: 46 − 20.\n❌ Хибні: А) 20 — це число для коледжу; В) 46 — це число для університету; Г) 66 — це сума, а не різниця.\n✅ Б) 26 — 46 мінус 20.",
+   "testLevel": 2,
+   "image": "/img/english/e5_bar_plans.svg"
+  },
+  {
+   "text": "Look at the chart. What percentage of the students plan to start work?",
+   "options": [
+    "46%",
+    "14%",
+    "20%",
+    "12%"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: З 100 учнів відсоток дорівнює кількості.\n❌ Хибні: А) 46% — це частка університету; В) 20% — це частка коледжу; Г) 12% — це частка gap year.\n✅ Б) 14% — їх 14 зі 100.",
+   "testLevel": 2,
+   "image": "/img/english/e5_bar_plans.svg"
+  },
+  {
+   "text": "Look at the chart. How many students do NOT plan to go to university?",
+   "options": [
+    "34",
+    "42",
+    "46",
+    "54"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: 100 − 46 = 54.\n❌ Хибні: А) 34 — це сума коледжу і роботи; Б) 42 — не збігається з даними; В) 46 — це ті, хто йде в університет.\n✅ Г) 54 — 100 мінус 46.",
+   "testLevel": 3,
+   "image": "/img/english/e5_bar_plans.svg"
+  },
+  {
+   "text": "Look at the chart. Which two choices together are chosen by exactly one fifth of the students?",
+   "options": [
+    "Work and Abroad",
+    "College and Work",
+    "Work and Gap year",
+    "Gap year and Abroad"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Одна п’ята від 100 — це 20.\n❌ Хибні: А) Work and Abroad — 14 + 8 = 22; Б) College and Work — 20 + 14 = 34; В) Work and Gap year — 14 + 12 = 26.\n✅ Г) Gap year and Abroad — 12 + 8 = 20.",
+   "testLevel": 3,
+   "image": "/img/english/e5_bar_plans.svg"
+  },
+  {
+   "text": "Look at the pie chart. What is the most common way to get to school?",
+   "options": [
+    "On foot",
+    "By bus",
+    "By bike",
+    "By car"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Найбільший сектор — By bus.\n❌ Хибні: А) On foot — це 30% — другий сектор; В) By bike — це лише 10%; Г) By car — це лише 20%.\n✅ Б) By bus — найбільший сектор — 35%.",
+   "testLevel": 1,
+   "image": "/img/english/e5_pie_transport.svg"
+  },
+  {
+   "text": "Look at the pie chart. Which two ways of getting to school together make exactly half of all pupils?",
+   "options": [
+    "On foot and by bike",
+    "By bus and by car",
+    "By bus and by bike",
+    "On foot and by car"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Складіть відсотки: потрібно 50%.\n❌ Хибні: А) On foot and by bike — 30% + 10% = 40%; Б) By bus and by car — 35% + 20% = 55%; В) By bus and by bike — 35% + 10% = 45%.\n✅ Г) On foot and by car — 30% + 20% = 50%.",
+   "testLevel": 2,
+   "image": "/img/english/e5_pie_transport.svg"
+  },
+  {
+   "text": "Look at the pie chart. If 200 pupils were asked, how many of them cycle to school?",
+   "options": [
+    "10",
+    "20",
+    "35",
+    "70"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: 10% від 200 дорівнює 20.\n❌ Хибні: А) 10 — це 10% від ста; В) 35 — це відсоток автобуса; Г) 70 — це кількість тих, хто їде автобусом.\n✅ Б) 20 — 10% від 200.",
+   "testLevel": 3,
+   "image": "/img/english/e5_pie_transport.svg"
+  },
+  {
+   "text": "Look at the pie chart. If 200 pupils were asked, how many of them come by bus?",
+   "options": [
+    "35",
+    "40",
+    "60",
+    "70"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: 35% × 200 = 70.\n❌ Хибні: А) 35 — це відсоток, а не кількість; Б) 40 — це кількість тих, хто їде авто; В) 60 — це кількість тих, хто йде пішки.\n✅ Г) 70 — 35% від 200.",
+   "testLevel": 3,
+   "image": "/img/english/e5_pie_transport.svg"
+  },
+  {
+   "text": "Look at the pie chart. Which statement is TRUE?",
+   "options": [
+    "Fewer than half of the pupils come by bus.",
+    "The same number of pupils walk and come by bus.",
+    "Fewer pupils come by car than by bike.",
+    "Only five pupils out of a hundred cycle."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Перевіряйте кожне твердження.\n❌ Хибні: Б) The same number of pupils walk and come by bus. — 30% не дорівнює 35%; В) Fewer pupils come by car than by bike. — авто — 20%, велосипед — 10%; Г) Only five pupils out of a hundred cycle. — велосипедистів десять зі ста.\n✅ А) Fewer than half of the pupils come by bus. — автобусом їде лише 35%.",
+   "testLevel": 3,
+   "image": "/img/english/e5_pie_transport.svg"
+  },
+  {
+   "text": "Look at the graph. In which year was unemployment the highest?",
+   "options": [
+    "2018",
+    "2020",
+    "2022",
+    "2023"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Шукайте найвищу точку лінії.\n❌ Хибні: А) 2018 — тоді було лише 8%; В) 2022 — тоді було лише 8%; Г) 2023 — найнижча точка — 6%.\n✅ Б) 2020 — найвища точка — 11%.",
+   "testLevel": 1,
+   "image": "/img/english/e5_line_unemployment.svg"
+  },
+  {
+   "text": "Look at the graph. What was the unemployment rate in 2021?",
+   "options": [
+    "11%",
+    "8%",
+    "7%",
+    "10%"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Дивіться на підпис над точкою 2021.\n❌ Хибні: А) 11% — це показник 2020 року; Б) 8% — це показник 2022 року; В) 7% — це показник 2019 року.\n✅ Г) 10% — так на точці 2021.",
+   "testLevel": 2,
+   "image": "/img/english/e5_line_unemployment.svg"
+  },
+  {
+   "text": "Look at the graph. In which year did the unemployment rate fall below 7% for the first time?",
+   "options": [
+    "2019",
+    "2021",
+    "2022",
+    "2023"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Below 7% — менше за 7%, а не 7%.\n❌ Хибні: А) 2019 — тоді показник рівно 7%; Б) 2021 — тоді показник 10%; В) 2022 — тоді показник 8%.\n✅ Г) 2023 — тоді показник 6%.",
+   "testLevel": 2,
+   "image": "/img/english/e5_line_unemployment.svg"
+  },
+  {
+   "text": "Look at the graph. Between which two years did the unemployment rate rise the most?",
+   "options": [
+    "2018 and 2019",
+    "2020 and 2021",
+    "2019 and 2020",
+    "2022 and 2023"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Лише між 2019 і 2020 є зростання.\n❌ Хибні: А) 2018 and 2019 — тоді показник знизився; Б) 2020 and 2021 — тоді показник знизився; Г) 2022 and 2023 — тоді показник знизився.\n✅ В) 2019 and 2020 — зростання з 7% до 11%.",
+   "testLevel": 3,
+   "image": "/img/english/e5_line_unemployment.svg"
+  },
+  {
+   "text": "Look at the graph. Which statement is TRUE?",
+   "options": [
+    "Unemployment in 2021 was lower than in 2023.",
+    "Unemployment in 2018 and 2022 was the same.",
+    "Unemployment fell every year after 2018.",
+    "The lowest rate was in 2019."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Звіряйте твердження з усіма точками.\n❌ Хибні: А) Unemployment in 2021 was lower than in 2023. — у 2021 показник вищий; В) Unemployment fell every year after 2018. — у 2020 році був ріст; Г) The lowest rate was in 2019. — найнижчий показник у 2023.\n✅ Б) Unemployment in 2018 and 2022 was the same. — в обидва роки було 8%.",
+   "testLevel": 3,
+   "image": "/img/english/e5_line_unemployment.svg"
+  },
+  {
+   "text": "Look at the table. Which job is the best paid?",
+   "options": [
+    "Cook",
+    "Programmer",
+    "Teacher",
+    "Engineer"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Шукайте найбільше число.\n❌ Хибні: А) Cook — найнижча платня — £1,700; В) Teacher — це лише £2,400; Г) Engineer — це лише £3,500.\n✅ Б) Programmer — найвища платня — £4,200.",
+   "testLevel": 1,
+   "image": "/img/english/e5_salary_table.svg"
+  },
+  {
+   "text": "Look at the table. How much more does an engineer earn than a teacher?",
+   "options": [
+    "£1,100",
+    "£1,200",
+    "£5,900",
+    "£900"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Різниця: 3,500 − 2,400.\n❌ Хибні: Б) £1,200 — це неправильна різниця; В) £5,900 — це сума, а не різниця; Г) £900 — це неправильна різниця.\n✅ А) £1,100 — 3,500 мінус 2,400.",
+   "testLevel": 2,
+   "image": "/img/english/e5_salary_table.svg"
+  },
+  {
+   "text": "Look at the table. Which job is paid the least?",
+   "options": [
+    "Driver",
+    "Nurse",
+    "Teacher",
+    "Cook"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Шукайте найменше число.\n❌ Хибні: А) Driver — платня £1,900 — вища; Б) Nurse — платня £2,300 — вища; В) Teacher — платня £2,400 — вища.\n✅ Г) Cook — платня лише £1,700.",
+   "testLevel": 2,
+   "image": "/img/english/e5_salary_table.svg"
+  },
+  {
+   "text": "Look at the table. Which two jobs together are paid exactly £4,000 a month?",
+   "options": [
+    "Nurse and cook",
+    "Teacher and cook",
+    "Driver and cook",
+    "Teacher and driver"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Складіть кожну пару.\n❌ Хибні: Б) Teacher and cook — 2,400 + 1,700 = 4,100; В) Driver and cook — 1,900 + 1,700 = 3,600; Г) Teacher and driver — 2,400 + 1,900 = 4,300.\n✅ А) Nurse and cook — 2,300 + 1,700 = 4,000.",
+   "testLevel": 3,
+   "image": "/img/english/e5_salary_table.svg"
+  },
+  {
+   "text": "What is the email about?",
+   "options": [
+    "A job offer",
+    "A library card",
+    "A school party",
+    "A scholarship offer"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Тема листа: Merit Scholarship.\n❌ Хибні: А) A job offer — про роботу не йдеться; Б) A library card — про бібліотеку не йдеться; В) A school party — про вечірку не йдеться.\n✅ Г) A scholarship offer — application has been successful.",
+   "testLevel": 1,
+   "image": "/img/english/e5_scholarship_email.svg"
+  },
+  {
+   "text": "What must Maria do to accept the offer?",
+   "options": [
+    "Come to an interview",
+    "Pay the tuition fees",
+    "Phone the university",
+    "Sign the form and send it back"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Please sign the attached form.\n❌ Хибні: А) Come to an interview — про співбесіду не йдеться; Б) Pay the tuition fees — гроші платити не потрібно; В) Phone the university — про дзвінок не йдеться.\n✅ Г) Sign the form and send it back — так сказано в листі.",
+   "testLevel": 1,
+   "image": "/img/english/e5_scholarship_email.svg"
+  },
+  {
+   "text": "By what date must Maria reply?",
+   "options": [
+    "1 June",
+    "31 July",
+    "The first day of the course",
+    "30 June"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Return it by 30 June.\n❌ Хибні: А) 1 June — такої дати немає; Б) 31 July — такої дати немає; В) The first day of the course — крайній термін названо чітко.\n✅ Г) 30 June — так сказано в листі.",
+   "testLevel": 2,
+   "image": "/img/english/e5_scholarship_email.svg"
+  },
+  {
+   "text": "How much of the tuition fees will the scholarship pay for the first year?",
+   "options": [
+    "Half",
+    "A quarter",
+    "All of them",
+    "Nothing"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Cover half — покрити половину.\n❌ Хибні: Б) A quarter — чверть не згадана; В) All of them — повна оплата не згадана; Г) Nothing — стипендія покриває половину.\n✅ А) Half — half of your tuition fees.",
+   "testLevel": 2,
+   "image": "/img/english/e5_scholarship_email.svg"
+  },
+  {
+   "text": "What may happen if Maria does not reply by the deadline?",
+   "options": [
+    "The scholarship may be given to someone else.",
+    "Maria will lose her place at the university.",
+    "She will have to pay a fine.",
+    "The university will phone her."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: May be offered — можуть запропонувати іншому.\n❌ Хибні: Б) Maria will lose her place at the university. — про місце в університеті не йдеться; В) She will have to pay a fine. — про штраф не йдеться; Г) The university will phone her. — про дзвінок не йдеться.\n✅ А) The scholarship may be given to someone else. — another candidate may receive it.",
+   "testLevel": 3,
+   "image": "/img/english/e5_scholarship_email.svg"
+  },
+  {
+   "text": "Why does the writer say \"We are pleased to inform you\"?",
+   "options": [
+    "Because the writer wants money.",
+    "Because the news is bad.",
+    "Because the news is good.",
+    "Because the writer is angry."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Pleased = задоволений, це добра новина.\n❌ Хибні: А) Because the writer wants money. — про гроші як прохання не йдеться; Б) Because the news is bad. — для поганих новин кажуть інакше; Г) Because the writer is angry. — тон листа ввічливий.\n✅ В) Because the news is good. — pleased — задоволені, радісна новина.",
+   "testLevel": 3,
+   "image": "/img/english/e5_scholarship_email.svg"
+  },
+  {
+   "text": "According to the rules, what must students do with their mobile phones?",
+   "options": [
+    "Use them for dictionaries",
+    "Keep them on the desk",
+    "Give them to the teacher",
+    "Switch them off"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Switch off and put in your bag.\n❌ Хибні: А) Use them for dictionaries — словники тут заборонені; Б) Keep them on the desk — їх треба прибрати в сумку; В) Give them to the teacher — про вчителя не йдеться.\n✅ Г) Switch them off — так сказано в правилі два.",
+   "testLevel": 1,
+   "image": "/img/english/e5_exam_rules.svg"
+  },
+  {
+   "text": "When may students leave the room?",
+   "options": [
+    "Only when the exam finishes",
+    "After 15 minutes",
+    "At any time",
+    "After 45 minutes"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Leave after 45 minutes.\n❌ Хибні: А) Only when the exam finishes — можна раніше, після 45 хвилин; Б) After 15 minutes — п’ятнадцять хвилин — це час приходу; В) At any time — є обмеження за часом.\n✅ Г) After 45 minutes — not before 45 minutes.",
+   "testLevel": 2,
+   "image": "/img/english/e5_exam_rules.svg"
+  },
+  {
+   "text": "Which of these things may students NOT use in the exam?",
+   "options": [
+    "A ruler",
+    "A dictionary",
+    "A pencil",
+    "A pen"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Not allowed — заборонено.\n❌ Хибні: А) A ruler — лінійку принести потрібно; В) A pencil — олівець принести потрібно; Г) A pen — ручку принести потрібно.\n✅ Б) A dictionary — dictionaries are not allowed.",
+   "testLevel": 2,
+   "image": "/img/english/e5_exam_rules.svg"
+  },
+  {
+   "text": "The exam begins at 9:00. Which student has broken the rules?",
+   "options": [
+    "A student who came at 8:50",
+    "A student who came at 8:40",
+    "A student who came at 8:45",
+    "A student who came at 8:30"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: At least 15 minutes — не менше 15 хвилин.\n❌ Хибні: Б) A student who came at 8:40 — він прийшов раніше за 8:45; В) A student who came at 8:45 — це рівно п’ятнадцять хвилин; Г) A student who came at 8:30 — він прийшов дуже рано.\n✅ А) A student who came at 8:50 — він запізнився на п’ять хвилин.",
+   "testLevel": 3,
+   "image": "/img/english/e5_exam_rules.svg"
+  },
+  {
+   "text": "When does the careers fair start?",
+   "options": [
+    "At 3 p.m.",
+    "At 10 a.m.",
+    "At 12 a.m.",
+    "At 11 a.m."
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Fair: 10 a.m. – 3 p.m.\n❌ Хибні: А) At 3 p.m. — це час закриття; В) At 12 a.m. — такого часу немає; Г) At 11 a.m. — це час майстер-класу.\n✅ Б) At 10 a.m. — так сказано на плакаті.",
+   "testLevel": 1,
+   "image": "/img/english/e5_careers_fair.svg"
+  },
+  {
+   "text": "What can visitors do at 11 a.m.?",
+   "options": [
+    "Sign a work contract",
+    "Take part in a CV workshop",
+    "Enter a competition",
+    "Meet the Mayor"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Workshop = майстер-клас.\n❌ Хибні: А) Sign a work contract — про контракт не йдеться; В) Enter a competition — про конкурс не йдеться; Г) Meet the Mayor — про мера не йдеться.\n✅ Б) Take part in a CV workshop — free CV workshop at 11 a.m.",
+   "testLevel": 2,
+   "image": "/img/english/e5_careers_fair.svg"
+  },
+  {
+   "text": "How much does it cost to enter the fair?",
+   "options": [
+    "£10",
+    "£15",
+    "£5",
+    "Nothing"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Free = безкоштовно.\n❌ Хибні: А) £10 — про плату не йдеться; Б) £15 — про плату не йдеться; В) £5 — про плату не йдеться.\n✅ Г) Nothing — entrance is free.",
+   "testLevel": 2,
+   "image": "/img/english/e5_careers_fair.svg"
+  },
+  {
+   "text": "Why are visitors asked to bring a copy of their CV?",
+   "options": [
+    "To use it at the workshop",
+    "To book a place",
+    "To get a free book",
+    "To pay the entrance fee"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Bring your CV to the CV workshop.\n❌ Хибні: Б) To book a place — бронювання не потрібне; В) To get a free book — про книжку не йдеться; Г) To pay the entrance fee — вхід на ярмарок безкоштовний.\n✅ А) To use it at the workshop — workshop on CVs needs a CV.",
+   "testLevel": 3,
+   "image": "/img/english/e5_careers_fair.svg"
+  },
+  {
+   "text": "What time will Ivan and Olya meet?",
+   "options": [
+    "At 8:00",
+    "At 9:00",
+    "At 8:30",
+    "At midnight"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: See you at 8:30.\n❌ Хибні: А) At 8:00 — такого часу немає; Б) At 9:00 — це час іспиту; Г) At midnight — це лише ідіома.\n✅ В) At 8:30 — так у повідомленні Ivan.",
+   "testLevel": 1,
+   "image": "/img/english/e5_chat_exam.svg"
+  },
+  {
+   "text": "What does Olya mean by \"burn the midnight oil\"?",
+   "options": [
+    "She will study late into the night.",
+    "She will buy some oil.",
+    "She will cook a meal at night.",
+    "She will go to bed early."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Burn the midnight oil — працювати допізна.\n❌ Хибні: Б) She will buy some oil. — це не буквальний зміст; В) She will cook a meal at night. — їжа тут ні до чого; Г) She will go to bed early. — суперечить змісту ідіоми.\n✅ А) She will study late into the night. — ідіома означає вчитися допізна.",
+   "testLevel": 2,
+   "image": "/img/english/e5_chat_exam.svg"
+  },
+  {
+   "text": "What can we say about Olya from the conversation?",
+   "options": [
+    "She has not finished preparing for the exam.",
+    "She has already passed the exam.",
+    "She does not want to take the exam.",
+    "She is ready for the exam."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Not yet — ще ні.\n❌ Хибні: Б) She has already passed the exam. — іспит буде завтра; В) She does not want to take the exam. — про це не йдеться; Г) She is ready for the exam. — вона ще не закінчила повторення.\n✅ А) She has not finished preparing for the exam. — вона ще читає п’ятий розділ.",
+   "testLevel": 3,
+   "image": "/img/english/e5_chat_exam.svg"
+  },
+  {
+   "text": "When is the history exam?",
+   "options": [
+    "Today at 8:30",
+    "Next week",
+    "Tomorrow at 8:30",
+    "Tomorrow at 9"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: It is tomorrow at 9.\n❌ Хибні: А) Today at 8:30 — 8:30 — час зустрічі; Б) Next week — іспит уже завтра; В) Tomorrow at 8:30 — 8:30 — час зустрічі.\n✅ Г) Tomorrow at 9 — it is tomorrow at 9.",
+   "testLevel": 3,
+   "image": "/img/english/e5_chat_exam.svg"
+  },
+  {
+   "text": "Look at the signs. Where should you go if you have lost your umbrella?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Lost property = загублені речі.\n❌ Хибні: А) 1 — тут просять мовчати; Б) 2 — тут вхід тільки для персоналу; Г) 4 — тут черга до їдальні.\n✅ В) 3 — Lost property — бюро знахідок.",
+   "testLevel": 1,
+   "image": "/img/english/e5_school_signs.svg"
+  },
+  {
+   "text": "Look at the signs. Which sign asks people to be quiet?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: Silence = тиша.\n❌ Хибні: Б) 2 — тут вхід лише для персоналу; В) 3 — тут бюро знахідок; Г) 4 — тут черга до їдальні.\n✅ А) 1 — SILENCE — тиша.",
+   "testLevel": 2,
+   "image": "/img/english/e5_school_signs.svg"
+  },
+  {
+   "text": "Look at the signs. Who may enter the room marked with sign 2?",
+   "options": [
+    "Everybody who has lunch",
+    "All the pupils",
+    "Only the visitors",
+    "Only members of staff"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Staff = співробітники.\n❌ Хибні: А) Everybody who has lunch — вхід лише для персоналу; Б) All the pupils — учні не належать до персоналу; В) Only the visitors — відвідувачі не належать до персоналу.\n✅ Г) Only members of staff — staff only — тільки персонал.",
+   "testLevel": 2,
+   "image": "/img/english/e5_school_signs.svg"
+  },
+  {
+   "text": "Look at the signs. At which place would you see the sign with number 4?",
+   "options": [
+    "In an exam room",
+    "In the school office",
+    "In the teachers' room",
+    "Near the canteen"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Queue here — ставати в чергу.\n❌ Хибні: А) In an exam room — там просять про тишу; Б) In the school office — там Lost property; В) In the teachers' room — там Staff only.\n✅ Г) Near the canteen — lunch break — їдальня.",
+   "testLevel": 3,
+   "image": "/img/english/e5_school_signs.svg"
+  },
+  {
+   "text": "Text about studying abroad. Choose the word that fits gap (1).",
+   "options": [
+    "outside",
+    "abroad",
+    "aboard",
+    "broad"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Abroad = за кордоном.\n❌ Хибні: А) outside — outside — зовні, не про країну; В) aboard — aboard — на борту транспорту; Г) broad — broad — широкий.\n✅ Б) abroad — study abroad — навчатися за кордоном.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cloze_abroad.svg"
+  },
+  {
+   "text": "Text about studying abroad. Choose the word that fits gap (2).",
+   "options": [
+    "fine",
+    "scholarship",
+    "salary",
+    "fare"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Scholarship pays for tuition.\n❌ Хибні: А) fine — fine — штраф; В) salary — salary — зарплата; Г) fare — fare — плата за проїзд.\n✅ Б) scholarship — scholarship — стипендія.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cloze_abroad.svg"
+  },
+  {
+   "text": "Text about studying abroad. Choose the word that fits gap (3).",
+   "options": [
+    "owe",
+    "borrow",
+    "lend",
+    "afford"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Borrow from a bank.\n❌ Хибні: А) owe — owe — бути винним; В) lend — lend — давати в позику; Г) afford — afford — дозволити собі.\n✅ Б) borrow — borrow — позичати в банку.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cloze_abroad.svg"
+  },
+  {
+   "text": "Text about studying abroad. Choose the word that fits gap (4).",
+   "options": [
+    "adept",
+    "adapt",
+    "adopt",
+    "adjoin"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Adapt to a new culture.\n❌ Хибні: А) adept — adept — вправний, прикметник; В) adopt — adopt — усиновити чи прийняти; Г) adjoin — adjoin — межувати з.\n✅ Б) adapt — adapt to — пристосовуватися до.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_abroad.svg"
+  },
+  {
+   "text": "Text about studying abroad. Choose the word that fits gap (5).",
+   "options": [
+    "hold",
+    "do",
+    "make",
+    "take"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте правило: Make friends.\n❌ Хибні: А) hold — hold friends — так не кажуть; Б) do — do friends — так не кажуть; Г) take — take friends — так не кажуть.\n✅ В) make — make friends — заводити друзів.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_abroad.svg"
+  },
+  {
+   "text": "Text about studying abroad. Choose the word that fits gap (6).",
+   "options": [
+    "graduation",
+    "gradual",
+    "graduated",
+    "graduate"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Після they потрібне дієслово.\n❌ Хибні: А) graduation — graduation — випуск, іменник; Б) gradual — gradual — поступовий, прикметник; В) graduated — graduated — потрібен теперішній час.\n✅ Г) graduate — after they graduate — після випуску.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_abroad.svg"
+  },
+  {
+   "text": "Text about studying abroad. Choose the word that fits gap (7).",
+   "options": [
+    "run",
+    "do",
+    "hold",
+    "build"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Build a career.\n❌ Хибні: А) run — run a career — так не кажуть; Б) do — do a career — так не кажуть; В) hold — hold a career — так не кажуть.\n✅ Г) build — build a career — будувати кар’єру.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_abroad.svg"
+  },
+  {
+   "text": "Text about studying abroad. Choose the word that fits gap (8).",
+   "options": [
+    "benefit",
+    "advantage",
+    "success",
+    "profit"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Advantage over somebody.\n❌ Хибні: А) benefit — benefit over — так не кажуть; В) success — success over — так не кажуть; Г) profit — profit over — так не кажуть.\n✅ Б) advantage — advantage over — перевага над.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_abroad.svg"
+  },
+  {
+   "text": "Text about a volunteer. Choose the word that fits gap (1).",
+   "options": [
+    "volunteer",
+    "customer",
+    "employer",
+    "boss"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Not paid → volunteer.\n❌ Хибні: Б) customer — customer — клієнт; В) employer — employer — той, хто наймає; Г) boss — boss — начальник.\n✅ А) volunteer — volunteer — працює без оплати.",
+   "testLevel": 1,
+   "image": "/img/english/e5_cloze_volunteer.svg"
+  },
+  {
+   "text": "Text about a volunteer. Choose the word that fits gap (2).",
+   "options": [
+    "responsible",
+    "responsive",
+    "responsibility",
+    "responsibly"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Після My потрібен іменник.\n❌ Хибні: А) responsible — responsible — прикметник; Б) responsive — responsive — чуйний; Г) responsibly — responsibly — прислівник.\n✅ В) responsibility — responsibility — обов’язок, іменник.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_volunteer.svg"
+  },
+  {
+   "text": "Text about a volunteer. Choose the word that fits gap (3).",
+   "options": [
+    "put",
+    "get",
+    "make",
+    "take"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Get up = вставати.\n❌ Хибні: А) put — put up — повісити; В) make — make up — вигадувати; Г) take — take up — почати займатися.\n✅ Б) get — get up — вставати.",
+   "testLevel": 1,
+   "image": "/img/english/e5_cloze_volunteer.svg"
+  },
+  {
+   "text": "Text about a volunteer. Choose the word that fits gap (4).",
+   "options": [
+    "make",
+    "give",
+    "say",
+    "do"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте правило: Give advice.\n❌ Хибні: А) make — make advice — так не кажуть; В) say — say advice — так не кажуть; Г) do — do advice — так не кажуть.\n✅ Б) give — give advice — давати пораду.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cloze_volunteer.svg"
+  },
+  {
+   "text": "Text about a volunteer. Choose the word that fits gap (5).",
+   "options": [
+    "pride",
+    "proud",
+    "prouder",
+    "proudly"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Після very потрібен прикметник.\n❌ Хибні: А) pride — pride — іменник; В) prouder — prouder — вищий ступінь; Г) proudly — proudly — прислівник.\n✅ Б) proud — proud of — пишатися.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cloze_volunteer.svg"
+  },
+  {
+   "text": "Text about a volunteer. Choose the word that fits gap (6).",
+   "options": [
+    "lay",
+    "hold",
+    "turn",
+    "help"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте правило: Help others.\n❌ Хибні: А) lay — lay the community — так не кажуть; Б) hold — hold the community — так не кажуть; В) turn — turn the community — так не кажуть.\n✅ Г) help — help the community — допомагати.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cloze_volunteer.svg"
+  },
+  {
+   "text": "Text about a job interview. Choose the word that fits gap (1).",
+   "options": [
+    "do",
+    "make",
+    "take",
+    "hold"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте правило: Do research.\n❌ Хибні: Б) make — make research — так кажуть рідко; В) take — take research — так не кажуть; Г) hold — hold research — так не кажуть.\n✅ А) do — do research — проводити пошук.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cloze_interview.svg"
+  },
+  {
+   "text": "Text about a job interview. Choose the word that fits gap (2).",
+   "options": [
+    "put",
+    "wear",
+    "cover",
+    "dress"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте правило: Dress smartly.\n❌ Хибні: А) put — put smartly — так не кажуть; Б) wear — wear потребує додатка; В) cover — cover smartly — так не кажуть.\n✅ Г) dress — dress smartly — гарно вдягатися.",
+   "testLevel": 2,
+   "image": "/img/english/e5_cloze_interview.svg"
+  },
+  {
+   "text": "Text about a job interview. Choose the word that fits gap (3).",
+   "options": [
+    "with",
+    "at",
+    "to",
+    "on"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Arrive on time.\n❌ Хибні: А) with — with time — інше значення; Б) at — at time — так не кажуть; В) to — to time — так не кажуть.\n✅ Г) on — on time — вчасно.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_interview.svg"
+  },
+  {
+   "text": "Text about a job interview. Choose the word that fits gap (4).",
+   "options": [
+    "clearly",
+    "clear",
+    "clearing",
+    "clearness"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Після answer потрібен прислівник.\n❌ Хибні: Б) clear — clear — прикметник; В) clearing — clearing — лісова галявина; Г) clearness — clearness — рідкісний іменник.\n✅ А) clearly — clearly — чітко, прислівник.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_interview.svg"
+  },
+  {
+   "text": "Text about a job interview. Choose the word that fits gap (5).",
+   "options": [
+    "hold",
+    "make",
+    "show",
+    "put"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте правило: Show interest.\n❌ Хибні: А) hold — hold interest — так не кажуть; Б) make — make interest — так не кажуть; Г) put — put interest — так не кажуть.\n✅ В) show — show interest — виявляти інтерес.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_interview.svg"
+  },
+  {
+   "text": "Text about a job interview. Choose the word that fits gap (6).",
+   "options": [
+    "succeed",
+    "success",
+    "successfully",
+    "successful"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Після are потрібен прикметник.\n❌ Хибні: А) succeed — succeed — дієслово; Б) success — success — іменник; В) successfully — successfully — прислівник.\n✅ Г) successful — successful — успішний, прикметник.",
+   "testLevel": 3,
+   "image": "/img/english/e5_cloze_interview.svg"
+  }
+ ],
+ "cards": []
+}

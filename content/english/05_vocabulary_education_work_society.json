@@ -1,0 +1,2156 @@
+{
+ "subject": "ENGLISH",
+ "topic": "Vocabulary: Education, Work & Society",
+ "questions": [
+  {
+   "text": "A person who teaches pupils at school is called a ___.",
+   "options": [
+    "teacher",
+    "waiter",
+    "doctor",
+    "driver"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Запам'ятайте: teach → teacher (-er позначає особу).\n❌ Хибні: Б) waiter — waiter — офіціант у ресторані; В) doctor — doctor — лікар, лікує людей; Г) driver — driver — водій транспорту.\n✅ А) teacher — вчитель — той, хто навчає.",
+   "testLevel": 1
+  },
+  {
+   "text": "At school we study different ___, such as maths, history and English.",
+   "options": [
+    "sports",
+    "subjects",
+    "seats",
+    "seasons"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Предмети в школі — це subjects, а не seasons.\n❌ Хибні: А) sports — sports — види спорту; В) seats — seats — сидіння чи місця; Г) seasons — seasons — пори року.\n✅ Б) subjects — subjects — шкільні предмети.",
+   "testLevel": 1
+  },
+  {
+   "text": "I got a very good ___ in the English test.",
+   "options": [
+    "sign",
+    "sale",
+    "mark",
+    "prize"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Оцінка за тест — mark або grade.\n❌ Хибні: А) sign — sign — знак чи вивіска; Б) sale — sale — розпродаж у магазині; Г) prize — prize — приз чи нагорода.\n✅ В) mark — mark — оцінка за роботу.",
+   "testLevel": 1
+  },
+  {
+   "text": "To be ready for the exam, you must ___ hard.",
+   "options": [
+    "sell",
+    "study",
+    "play",
+    "sleep"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Study hard означає «наполегливо вчитися».\n❌ Хибні: А) sell — sell — продавати щось; В) play — play — гратися, а не готуватися; Г) sleep — sleep — спати, не вчитися.\n✅ Б) study — study — наполегливо вчитися.",
+   "testLevel": 1
+  },
+  {
+   "text": "If you do not pass an exam, you ___ it.",
+   "options": [
+    "win",
+    "fail",
+    "pass",
+    "miss"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Fail — протилежне до pass.\n❌ Хибні: А) win — win — виграти змагання; В) pass — pass — скласти успішно; Г) miss — miss — пропустити подію.\n✅ Б) fail — fail — не скласти, провалити.",
+   "testLevel": 1
+  },
+  {
+   "text": "A young person who studies at a university is a ___.",
+   "options": [
+    "child",
+    "pupil",
+    "student",
+    "teacher"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: У школі учні — pupils, в університеті — students.\n❌ Хибні: А) child — child — просто дитина; Б) pupil — pupil — школяр, учень школи; Г) teacher — teacher — вчитель, не учень.\n✅ В) student — student — студент університету.",
+   "testLevel": 1
+  },
+  {
+   "text": "Children from six to eleven years old go to ___ school in Britain.",
+   "options": [
+    "primary",
+    "summer",
+    "night",
+    "dining"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Primary school — початкова школа.\n❌ Хибні: Б) summer — summer school — літня школа; В) night — night school — вечірня школа для дорослих; Г) dining — dining — обідній, не тип школи.\n✅ А) primary — primary school — початкова школа.",
+   "testLevel": 1
+  },
+  {
+   "text": "The person who is in charge of a school is the ___.",
+   "options": [
+    "headteacher",
+    "waiter",
+    "doctor",
+    "mayor"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Директор школи — headteacher (амер. principal).\n❌ Хибні: Б) waiter — waiter — офіціант; В) doctor — doctor — лікар; Г) mayor — mayor — мер міста.\n✅ А) headteacher — headteacher — директор школи.",
+   "testLevel": 1
+  },
+  {
+   "text": "You can borrow books from the school ___ for two weeks.",
+   "options": [
+    "library",
+    "cinema",
+    "bakery",
+    "station"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Library — бібліотека; не плутайте з bookshop.\n❌ Хибні: Б) cinema — cinema — кінотеатр; В) bakery — bakery — пекарня, хліб; Г) station — station — вокзал чи станція.\n✅ А) library — library — бібліотека, де беруть книжки.",
+   "testLevel": 1
+  },
+  {
+   "text": "I have English every Monday morning. It is on my ___.",
+   "options": [
+    "diary",
+    "receipt",
+    "timetable",
+    "passport"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Розклад уроків — timetable (амер. schedule).\n❌ Хибні: А) diary — diary — особистий щоденник; Б) receipt — receipt — чек з магазину; Г) passport — passport — паспорт для подорожей.\n✅ В) timetable — timetable — розклад занять.",
+   "testLevel": 1
+  },
+  {
+   "text": "A job that you do for about eight hours a day, five days a week, is a ___ job.",
+   "options": [
+    "full-time",
+    "part-time",
+    "free-time",
+    "half-time"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Full-time протилежне до part-time.\n❌ Хибні: Б) part-time — part-time — неповний робочий день; В) free-time — free-time — вільний час, не робота; Г) half-time — half-time — перерва у грі.\n✅ А) full-time — full-time — повний робочий день.",
+   "testLevel": 1
+  },
+  {
+   "text": "The money you get every month for your work is your ___.",
+   "options": [
+    "prize",
+    "salary",
+    "gift",
+    "ticket"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Зарплата за місяць — salary.\n❌ Хибні: А) prize — prize — приз за перемогу; В) gift — gift — подарунок; Г) ticket — ticket — квиток на подію.\n✅ Б) salary — salary — щомісячна зарплата.",
+   "testLevel": 1
+  },
+  {
+   "text": "A person who works for a company and gets a salary is an ___.",
+   "options": [
+    "employee",
+    "employment",
+    "employer",
+    "unemployed"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Суфікс -ee позначає того, хто отримує дію: employee.\n❌ Хибні: Б) employment — employment — зайнятість, абстрактне; В) employer — employer — роботодавець, хто наймає; Г) unemployed — unemployed — безробітний.\n✅ А) employee — employee — працівник за наймом.",
+   "testLevel": 1
+  },
+  {
+   "text": "A person or company that gives jobs to other people is an ___.",
+   "options": [
+    "employer",
+    "customer",
+    "employee",
+    "unemployed"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Суфікс -er — той, хто виконує дію: employer.\n❌ Хибні: Б) customer — customer — клієнт магазину; В) employee — employee — найманий працівник; Г) unemployed — unemployed — без роботи.\n✅ А) employer — employer — роботодавець.",
+   "testLevel": 1
+  },
+  {
+   "text": "A person who has no job is ___.",
+   "options": [
+    "famous",
+    "retired",
+    "employed",
+    "unemployed"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Префікс un- додає значення «не»: unemployed.\n❌ Хибні: А) famous — famous — відомий; Б) retired — retired — на пенсії; В) employed — employed — має роботу.\n✅ Г) unemployed — unemployed — безробітний.",
+   "testLevel": 1
+  },
+  {
+   "text": "A doctor usually works in a ___.",
+   "options": [
+    "shop",
+    "bank",
+    "school",
+    "hospital"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Лікар працює в лікарні — hospital.\n❌ Хибні: А) shop — shop — магазин; Б) bank — bank — банк; В) school — school — школа.\n✅ Г) hospital — hospital — лікарня.",
+   "testLevel": 1
+  },
+  {
+   "text": "A person who prepares food in a restaurant kitchen is a ___.",
+   "options": [
+    "driver",
+    "waiter",
+    "nurse",
+    "cook"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Кухар — cook або chef, офіціант — waiter.\n❌ Хибні: А) driver — driver — водій; Б) waiter — waiter — той, хто подає страви; В) nurse — nurse — медсестра.\n✅ Г) cook — cook — кухар.",
+   "testLevel": 1
+  },
+  {
+   "text": "Dear Sir, I am writing to ___ for the position of shop assistant.",
+   "options": [
+    "do",
+    "apply",
+    "take",
+    "make"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Apply for a job/position — усталена сполука.\n❌ Хибні: А) do — do for — не про заявку; В) take — take for — означає «вважати кимось»; Г) make — make for — такого значення немає.\n✅ Б) apply — apply for — подати заявку на посаду.",
+   "testLevel": 1
+  },
+  {
+   "text": "Mr Brown is my ___. He tells all of us what to do in the office.",
+   "options": [
+    "pupil",
+    "boss",
+    "guest",
+    "neighbour"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Boss — неформальне слово для начальника.\n❌ Хибні: А) pupil — pupil — школяр; В) guest — guest — гість; Г) neighbour — neighbour — сусід.\n✅ Б) boss — boss — начальник, керівник.",
+   "testLevel": 1
+  },
+  {
+   "text": "People who legally live in a country are its ___.",
+   "options": [
+    "patients",
+    "customers",
+    "tourists",
+    "citizens"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Громадяни країни — citizens.\n❌ Хибні: А) patients — patients — пацієнти лікаря; Б) customers — customers — покупці; В) tourists — tourists — туристи, тимчасово.\n✅ Г) citizens — citizens — громадяни країни.",
+   "testLevel": 1
+  },
+  {
+   "text": "People who help others and do not get any money for it are ___.",
+   "options": [
+    "volunteers",
+    "drivers",
+    "pupils",
+    "employees"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Volunteer працює добровільно, без оплати.\n❌ Хибні: Б) drivers — drivers — водії; В) pupils — pupils — школярі; Г) employees — employees — працівники за зарплату.\n✅ А) volunteers — volunteers — волонтери, працюють безкоштовно.",
+   "testLevel": 1
+  },
+  {
+   "text": "The police arrest ___ and take them to court.",
+   "options": [
+    "doctors",
+    "pupils",
+    "teachers",
+    "criminals"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Злочинців затримує поліція — criminals.\n❌ Хибні: А) doctors — doctors — лікарі; Б) pupils — pupils — школярі; В) teachers — teachers — вчителі.\n✅ Г) criminals — criminals — злочинці.",
+   "testLevel": 1
+  },
+  {
+   "text": "Every citizen must ___ the law.",
+   "options": [
+    "lose",
+    "obey",
+    "sell",
+    "break"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Obey the law — дотримуватися закону.\n❌ Хибні: А) lose — lose — втрачати; В) sell — sell — продавати; Г) break — break — порушувати закон.\n✅ Б) obey — obey — підкорятися, дотримуватися.",
+   "testLevel": 1
+  },
+  {
+   "text": "In a democracy people ___ for a new president every few years.",
+   "options": [
+    "fly",
+    "sell",
+    "vote",
+    "paint"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Голосувати на виборах — vote (for somebody).\n❌ Хибні: А) fly — fly — літати; Б) sell — sell — продавати; Г) paint — paint — малювати.\n✅ В) vote — vote — голосувати на виборах.",
+   "testLevel": 1
+  },
+  {
+   "text": "The ___ makes the laws in a country.",
+   "options": [
+    "cinema",
+    "parliament",
+    "hospital",
+    "bank"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Закони ухвалює parliament.\n❌ Хибні: А) cinema — cinema — кінотеатр; В) hospital — hospital — лікарня; Г) bank — bank — банк.\n✅ Б) parliament — parliament — парламент, ухвалює закони.",
+   "testLevel": 1
+  },
+  {
+   "text": "Many young people use ___ media, such as Instagram and TikTok, every day.",
+   "options": [
+    "socialist",
+    "sociable",
+    "society",
+    "social"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Прикметник перед media — social.\n❌ Хибні: А) socialist — socialist — соціаліст; Б) sociable — sociable — товариський, про людину; В) society — society — суспільство, іменник.\n✅ Г) social — social media — соціальні мережі.",
+   "testLevel": 1
+  },
+  {
+   "text": "A year that a student takes between school and university is a ___ year.",
+   "options": [
+    "empty",
+    "hole",
+    "free",
+    "gap"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Gap year — усталений вислів.\n❌ Хибні: А) empty — empty year — такого вислову немає; Б) hole — hole year — такого вислову немає; В) free — free year — такого вислову немає.\n✅ Г) gap — gap year — рік перерви перед університетом.",
+   "testLevel": 1
+  },
+  {
+   "text": "A written or spoken test at the end of a course is an ___.",
+   "options": [
+    "example",
+    "exit",
+    "exam",
+    "exercise"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Exam — це скорочене examination.\n❌ Хибні: А) example — example — приклад; Б) exit — exit — вихід; Г) exercise — exercise — вправа.\n✅ В) exam — exam — іспит.",
+   "testLevel": 1
+  },
+  {
+   "text": "My grandfather is 70. He stopped working and is now ___.",
+   "options": [
+    "fired",
+    "retired",
+    "tired",
+    "hired"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Retired = вийшов на пенсію.\n❌ Хибні: А) fired — fired — звільнений з роботи; В) tired — tired — втомлений; Г) hired — hired — найнятий на роботу.\n✅ Б) retired — retired — на пенсії.",
+   "testLevel": 1
+  },
+  {
+   "text": "The company ___ fifty new workers last month, so now it has more employees.",
+   "options": [
+    "tired",
+    "retired",
+    "fired",
+    "hired"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Hire — наймати, fire — звільняти.\n❌ Хибні: А) tired — tired — втомилася; Б) retired — retired — вийшла на пенсію; В) fired — fired — звільнила з роботи.\n✅ Г) hired — hired — найняла працівників.",
+   "testLevel": 1
+  },
+  {
+   "text": "I want to ___ money for a new laptop, so I do not buy sweets.",
+   "options": [
+    "spend",
+    "waste",
+    "lose",
+    "save"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Save money — відкладати гроші.\n❌ Хибні: А) spend — spend — витрачати; Б) waste — waste — марнувати даремно; В) lose — lose — втрачати.\n✅ Г) save — save — заощаджувати гроші.",
+   "testLevel": 1
+  },
+  {
+   "text": "My mother works from nine to five in an ___ in the city centre.",
+   "options": [
+    "office",
+    "onion",
+    "ocean",
+    "orange"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Office — місце, де працюють за столом.\n❌ Хибні: Б) onion — onion — цибуля; В) ocean — ocean — океан; Г) orange — orange — апельсин.\n✅ А) office — office — офіс.",
+   "testLevel": 1
+  },
+  {
+   "text": "Please fill ___ this form with your name and address.",
+   "options": [
+    "on",
+    "at",
+    "in",
+    "up"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Форму заповнюють — fill in (амер. fill out).\n❌ Хибні: А) on — fill on — такого звороту немає; Б) at — fill at — такого звороту немає; Г) up — fill up — наповнити ємність.\n✅ В) in — fill in — заповнити форму.",
+   "testLevel": 1
+  },
+  {
+   "text": "Please ___ your homework to the teacher by Friday.",
+   "options": [
+    "hand off",
+    "hand in",
+    "hand out",
+    "hand up"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Hand in = здати, hand out = роздати.\n❌ Хибні: А) hand off — hand off — такого звороту немає; В) hand out — hand out — роздати іншим; Г) hand up — hand up — такого звороту немає.\n✅ Б) hand in — hand in — здати роботу вчителю.",
+   "testLevel": 1
+  },
+  {
+   "text": "The teacher gave us a lot of ___ for the weekend.",
+   "options": [
+    "jobs",
+    "housework",
+    "homework",
+    "works"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Homework — незлічуваний іменник, без -s.\n❌ Хибні: А) jobs — jobs — роботи, місця праці; Б) housework — housework — хатня робота; Г) works — works — твори, заводи.\n✅ В) homework — homework — домашнє завдання.",
+   "testLevel": 1
+  },
+  {
+   "text": "At many schools students wear a school ___.",
+   "options": [
+    "union",
+    "unique",
+    "unit",
+    "uniform"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Шкільна форма — school uniform.\n❌ Хибні: А) union — union — союз чи профспілка; Б) unique — unique — унікальний; В) unit — unit — одиниця виміру.\n✅ Г) uniform — uniform — шкільна форма.",
+   "testLevel": 1
+  },
+  {
+   "text": "My sister wants to be a ___ and work in a court.",
+   "options": [
+    "nurse",
+    "farmer",
+    "baker",
+    "lawyer"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Юрист у суді — lawyer.\n❌ Хибні: А) nurse — nurse — медсестра; Б) farmer — farmer — фермер; В) baker — baker — пекар.\n✅ Г) lawyer — lawyer — юрист, працює із законом.",
+   "testLevel": 1
+  },
+  {
+   "text": "My dad works as a bus ___; he drives a big bus every day.",
+   "options": [
+    "singer",
+    "farmer",
+    "driver",
+    "artist"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Той, хто веде транспорт, — driver.\n❌ Хибні: А) singer — singer — співак; Б) farmer — farmer — фермер; Г) artist — artist — художник.\n✅ В) driver — driver — водій автобуса.",
+   "testLevel": 1
+  },
+  {
+   "text": "Our teacher asked us to ___ up the new word in a dictionary.",
+   "options": [
+    "put",
+    "look",
+    "give",
+    "take"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Look up a word — знайти слово в словнику.\n❌ Хибні: А) put — put up — повісити чи поставити; В) give — give up — кинути робити; Г) take — take up — почати займатися.\n✅ Б) look — look up — шукати слово в словнику.",
+   "testLevel": 1
+  },
+  {
+   "text": "She did not study at all, so she ___ the test.",
+   "options": [
+    "made",
+    "passed",
+    "won",
+    "failed"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Не вчилася — отже failed.\n❌ Хибні: А) made — made — зробила; Б) passed — passed — склала тест; В) won — won — виграла.\n✅ Г) failed — failed — не склала тест.",
+   "testLevel": 1
+  },
+  {
+   "text": "I have to ___ for the exam. It is next Monday!",
+   "options": [
+    "receive",
+    "resist",
+    "repeat",
+    "revise"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Revise for an exam — повторювати до іспиту.\n❌ Хибні: А) receive — receive — отримувати щось; Б) resist — resist — чинити опір; В) repeat — repeat — повторювати за кимось.\n✅ Г) revise — revise — повторювати матеріал.",
+   "testLevel": 1
+  },
+  {
+   "text": "In many countries, children must go to school until they are sixteen. It is ___ education.",
+   "options": [
+    "private",
+    "foreign",
+    "optional",
+    "compulsory"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Запам'ятайте: Compulsory = обов'язковий.\n❌ Хибні: А) private — private — приватний; Б) foreign — foreign — іноземний; В) optional — optional — за бажанням.\n✅ Г) compulsory — compulsory — обов'язковий.",
+   "testLevel": 1
+  },
+  {
+   "text": "A person who finishes university successfully is a ___.",
+   "options": [
+    "graduate",
+    "visitor",
+    "prisoner",
+    "beginner"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Випускник університету — graduate.\n❌ Хибні: Б) visitor — visitor — відвідувач; В) prisoner — prisoner — в'язень; Г) beginner — beginner — початківець.\n✅ А) graduate — graduate — випускник.",
+   "testLevel": 1
+  },
+  {
+   "text": "My cousin studies law at the university. He is a law ___.",
+   "options": [
+    "cleaner",
+    "guard",
+    "pilot",
+    "student"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Хто вчиться в університеті — student.\n❌ Хибні: А) cleaner — cleaner — прибиральник; Б) guard — guard — охоронець; В) pilot — pilot — льотчик.\n✅ Г) student — student — навчається в університеті.",
+   "testLevel": 1
+  },
+  {
+   "text": "Students who have very good marks can get a ___ to pay for their studies.",
+   "options": [
+    "punishment",
+    "scholarship",
+    "bill",
+    "loan"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Scholarship — стипендія, її не повертають.\n❌ Хибні: А) punishment — punishment — покарання; В) bill — bill — рахунок; Г) loan — loan — позика, її треба повернути.\n✅ Б) scholarship — scholarship — стипендія.",
+   "testLevel": 1
+  },
+  {
+   "text": "The money you pay to study at a university is called ___ fees.",
+   "options": [
+    "ticket",
+    "bus",
+    "market",
+    "tuition"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Плата за навчання — tuition fees.\n❌ Хибні: А) ticket — ticket fees — так не кажуть; Б) bus — bus fees — так не кажуть; В) market — market fees — не про навчання.\n✅ Г) tuition — tuition fees — плата за навчання.",
+   "testLevel": 1
+  },
+  {
+   "text": "Students who live at the university in a special building live in a ___.",
+   "options": [
+    "bakery",
+    "garage",
+    "library",
+    "dormitory"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Гуртожиток — dormitory (скорочено dorm).\n❌ Хибні: А) bakery — bakery — пекарня, хліб; Б) garage — garage — гараж для машини; В) library — library — бібліотека, книжки.\n✅ Г) dormitory — dormitory — студентський гуртожиток.",
+   "testLevel": 1
+  },
+  {
+   "text": "My brother works in a hospital and takes care of sick people. He is a ___.",
+   "options": [
+    "nurse",
+    "pilot",
+    "judge",
+    "baker"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Хто доглядає хворих у лікарні — nurse.\n❌ Хибні: Б) pilot — pilot — льотчик; В) judge — judge — суддя; Г) baker — baker — пекар.\n✅ А) nurse — nurse — медбрат чи медсестра, доглядає хворих.",
+   "testLevel": 1
+  },
+  {
+   "text": "At the end of the month the company pays its ___ for their work.",
+   "options": [
+    "customers",
+    "employees",
+    "guests",
+    "strangers"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Запам'ятайте: Компанія платить employees.\n❌ Хибні: А) customers — customers — клієнти; В) guests — guests — гості; Г) strangers — strangers — чужі люди.\n✅ Б) employees — employees — працівники отримують платню.",
+   "testLevel": 1
+  },
+  {
+   "text": "When you want to be a doctor, you have to study at a medical ___.",
+   "options": [
+    "university",
+    "kindergarten",
+    "market",
+    "station"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Лікарем стають після університету.\n❌ Хибні: Б) kindergarten — kindergarten — дитячий садок; В) market — market — ринок; Г) station — station — станція.\n✅ А) university — university — вищий навчальний заклад.",
+   "testLevel": 1
+  },
+  {
+   "text": "There is a ___ for a waiter in the new café. Please call this number.",
+   "options": [
+    "vocation",
+    "vacancy",
+    "vacation",
+    "valley"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Vacancy — вакансія, не плутайте з vacation.\n❌ Хибні: А) vocation — vocation — покликання; В) vacation — vacation — відпустка; Г) valley — valley — долина.\n✅ Б) vacancy — vacancy — вільна посада.",
+   "testLevel": 1
+  },
+  {
+   "text": "My dad had a job interview yesterday. He answered all the manager's ___.",
+   "options": [
+    "questions",
+    "answers",
+    "bills",
+    "jokes"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: На співбесіді менеджер ставить questions.\n❌ Хибні: Б) answers — answers — відповіді; В) bills — bills — рахунки; Г) jokes — jokes — жарти.\n✅ А) questions — questions — питання на співбесіді.",
+   "testLevel": 1
+  },
+  {
+   "text": "A teenager who earns some pocket money by delivering newspapers has a ___ job.",
+   "options": [
+    "nine-to-five",
+    "permanent",
+    "full-time",
+    "part-time"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Підліток працює part-time, поки навчається.\n❌ Хибні: А) nine-to-five — nine-to-five — стандартний офісний графік; Б) permanent — permanent — постійна робота; В) full-time — full-time — повний день.\n✅ Г) part-time — part-time — неповний день.",
+   "testLevel": 1
+  },
+  {
+   "text": "Could you ___ me your pen, please? I have forgotten mine.",
+   "options": [
+    "owe",
+    "spend",
+    "lend",
+    "borrow"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Lend = дати в борг, borrow = взяти в борг.\n❌ Хибні: А) owe — owe — бути винним гроші; Б) spend — spend — витрачати час чи гроші; Г) borrow — borrow — позичити в когось.\n✅ В) lend — lend — позичити комусь.",
+   "testLevel": 2
+  },
+  {
+   "text": "May I ___ your dictionary for a few minutes? I need to check a word.",
+   "options": [
+    "owe",
+    "lend",
+    "borrow",
+    "rent"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Borrow from somebody, lend to somebody.\n❌ Хибні: А) owe — owe — бути винним; Б) lend — lend — дати позичити; Г) rent — rent — орендувати за гроші.\n✅ В) borrow — borrow — взяти позичити.",
+   "testLevel": 2
+  },
+  {
+   "text": "My brother is paid by the hour, so his ___ depends on how many hours he works.",
+   "options": [
+    "wage",
+    "scholarship",
+    "salary",
+    "pension"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Wage — оплата за години, salary — фіксований місячний оклад.\n❌ Хибні: Б) scholarship — scholarship — стипендія для студента; В) salary — salary — фіксована платня за місяць; Г) pension — pension — виплата пенсіонерам.\n✅ А) wage — wage — погодинна чи тижнева оплата.",
+   "testLevel": 2
+  },
+  {
+   "text": "The bus ___ to the city centre is only fifteen hryvnias.",
+   "options": [
+    "fee",
+    "fare",
+    "fine",
+    "wage"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Fare — це гроші за проїзд транспортом.\n❌ Хибні: А) fee — fee — плата за послугу; В) fine — fine — штраф за порушення; Г) wage — wage — оплата праці.\n✅ Б) fare — fare — плата за проїзд.",
+   "testLevel": 2
+  },
+  {
+   "text": "The driver had to pay a ___ of fifty pounds for parking on the pavement.",
+   "options": [
+    "wage",
+    "fare",
+    "fine",
+    "fee"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Fine — штраф, його платять за порушення.\n❌ Хибні: А) wage — wage — оплата праці; Б) fare — fare — плата за проїзд; Г) fee — fee — плата за послугу чи навчання.\n✅ В) fine — fine — штраф за порушення правил.",
+   "testLevel": 2
+  },
+  {
+   "text": "The school charges a small ___ for each trip to the museum.",
+   "options": [
+    "fee",
+    "fine",
+    "wage",
+    "fare"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Fee — плата за послугу, наприклад tuition fees.\n❌ Хибні: Б) fine — fine — штраф; В) wage — wage — зарплата; Г) fare — fare — квиток на транспорт.\n✅ А) fee — fee — плата за послугу.",
+   "testLevel": 2
+  },
+  {
+   "text": "Lack of sleep can badly ___ your results at school.",
+   "options": [
+    "affection",
+    "affect",
+    "effective",
+    "effect"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Affect — дієслово, effect — іменник.\n❌ Хибні: А) affection — affection — прихильність, любов; В) effective — effective — ефективний; Г) effect — effect — іменник, наслідок.\n✅ Б) affect — affect — дієслово, впливати на щось.",
+   "testLevel": 2
+  },
+  {
+   "text": "Lack of sleep has a bad ___ on your results at school.",
+   "options": [
+    "effort",
+    "affection",
+    "affect",
+    "effect"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Після артикля a і прикметника потрібен іменник effect.\n❌ Хибні: А) effort — effort — зусилля, не вплив; Б) affection — affection — прихильність; В) affect — affect — дієслово, а тут потрібен іменник.\n✅ Г) effect — effect — іменник, наслідок чи вплив.",
+   "testLevel": 2
+  },
+  {
+   "text": "The government wants to improve the ___ situation in the country.",
+   "options": [
+    "economical",
+    "economic",
+    "economics",
+    "economy"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Economic — про економіку, economical — економний.\n❌ Хибні: А) economical — economical — економний у витратах; В) economics — economics — наука про економіку; Г) economy — economy — іменник, а потрібен прикметник.\n✅ Б) economic — economic — економічний, про економіку.",
+   "testLevel": 2
+  },
+  {
+   "text": "This car is very ___; it uses only four litres of petrol per hundred kilometres.",
+   "options": [
+    "economics",
+    "economical",
+    "economic",
+    "economy"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Економний автомобіль — economical.\n❌ Хибні: А) economics — economics — наука економіка; В) economic — economic — пов'язаний з економікою країни; Г) economy — economy — іменник, економіка.\n✅ Б) economical — economical — економний, не витрачає багато.",
+   "testLevel": 2
+  },
+  {
+   "text": "She loves reading ___ novels about kings and queens of the Middle Ages.",
+   "options": [
+    "historic",
+    "historical",
+    "historian",
+    "history"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Historical novel — історичний роман.\n❌ Хибні: А) historic — historic — історично значущий; В) historian — historian — історик, людина; Г) history — history — іменник, історія.\n✅ Б) historical — historical — історичний, про минуле.",
+   "testLevel": 2
+  },
+  {
+   "text": "Because of the crisis, the company had to ___ two hundred workers.",
+   "options": [
+    "put off",
+    "turn off",
+    "lay off",
+    "take off"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Lay off = звільнити працівників через кризу.\n❌ Хибні: А) put off — put off — відкласти на потім; Б) turn off — turn off — вимкнути прилад; Г) take off — take off — зняти одяг чи злетіти.\n✅ В) lay off — lay off — звільнити через скорочення.",
+   "testLevel": 2
+  },
+  {
+   "text": "After university, Olena decided to ___ her own business.",
+   "options": [
+    "set in",
+    "set off",
+    "set up",
+    "set down"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Set up a business — створити власну справу.\n❌ Хибні: А) set in — set in — настати, про погоду чи хворобу; Б) set off — set off — вирушити в дорогу; Г) set down — set down — покласти вниз.\n✅ В) set up — set up — заснувати, започаткувати.",
+   "testLevel": 2
+  },
+  {
+   "text": "The firm needs to ___ more staff before Christmas, because it is very busy.",
+   "options": [
+    "take over",
+    "take on",
+    "take out",
+    "take off"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Take on staff — найняти людей.\n❌ Хибні: А) take over — take over — перейняти керування; В) take out — take out — вийняти назовні; Г) take off — take off — зняти чи злетіти.\n✅ Б) take on — take on — найняти працівників.",
+   "testLevel": 2
+  },
+  {
+   "text": "The meeting was ___ because the manager was ill.",
+   "options": [
+    "called up",
+    "called at",
+    "called after",
+    "called off"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Call off = скасувати.\n❌ Хибні: А) called up — call up — зателефонувати чи призвати; Б) called at — call at — зайти в гості; В) called after — call after — назвати на честь.\n✅ Г) called off — call off — скасувати захід.",
+   "testLevel": 2
+  },
+  {
+   "text": "I was ill for two weeks, so now I have to ___ with my classmates.",
+   "options": [
+    "catch up",
+    "keep off",
+    "put up",
+    "run out"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Catch up with — наздогнати інших.\n❌ Хибні: Б) keep off — keep off — триматися осторонь; В) put up — put up — поставити чи повісити; Г) run out — run out — закінчитися.\n✅ А) catch up — catch up — наздогнати відставання.",
+   "testLevel": 2
+  },
+  {
+   "text": "Do not ___ doing your homework until the last minute!",
+   "options": [
+    "put off",
+    "put on",
+    "put up",
+    "put in"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Put off + -ing = відкладати.\n❌ Хибні: Б) put on — put on — одягнути; В) put up — put up — повісити чи підняти; Г) put in — put in — вставити.\n✅ А) put off — put off — відкладати на потім.",
+   "testLevel": 2
+  },
+  {
+   "text": "Olga did not like the university, so she decided to ___ after the first year.",
+   "options": [
+    "drop out",
+    "drop down",
+    "drop off",
+    "drop in"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Drop out = кинути навчання.\n❌ Хибні: Б) drop down — drop down — впасти вниз; В) drop off — drop off — підвезти чи заснути; Г) drop in — drop in — завітати ненадовго.\n✅ А) drop out — drop out — кинути навчання.",
+   "testLevel": 2
+  },
+  {
+   "text": "The teacher asked the pupils to ___ working quietly.",
+   "options": [
+    "carry through",
+    "carry off",
+    "carry in",
+    "carry on"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Carry on + -ing = продовжувати.\n❌ Хибні: А) carry through — carry through — довести до кінця; Б) carry off — carry off — виграти, винести; В) carry in — carry in — внести всередину.\n✅ Г) carry on — carry on — продовжувати робити.",
+   "testLevel": 2
+  },
+  {
+   "text": "She did very well in the company and was ___ to head of department.",
+   "options": [
+    "promoted",
+    "lifted",
+    "advanced",
+    "raised"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Get promoted — отримати підвищення на роботі.\n❌ Хибні: Б) lifted — lifted — підняла фізично; В) advanced — advanced — просунулася загалом; Г) raised — raised — підняла чи виростила.\n✅ А) promoted — promoted — отримала підвищення.",
+   "testLevel": 2
+  },
+  {
+   "text": "He ___ a living by selling second-hand cars at the market.",
+   "options": [
+    "has",
+    "does",
+    "takes",
+    "makes"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Make a living — заробляти на життя.\n❌ Хибні: А) has — have a living — так не кажуть; Б) does — do a living — так не кажуть; В) takes — take a living — так не кажуть.\n✅ Г) makes — make a living — заробляти на життя.",
+   "testLevel": 2
+  },
+  {
+   "text": "Tomorrow I have to ___ my final exam in physics.",
+   "options": [
+    "hold",
+    "put",
+    "make",
+    "take"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Take або sit an exam — складати іспит.\n❌ Хибні: А) hold — hold an exam — проводити іспит як викладач; Б) put — put an exam — так не кажуть; В) make — make an exam — так не кажуть.\n✅ Г) take — take an exam — складати іспит.",
+   "testLevel": 2
+  },
+  {
+   "text": "She passed the exam with flying ___.",
+   "options": [
+    "feathers",
+    "marks",
+    "colours",
+    "wings"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Ідіома pass with flying colours.\n❌ Хибні: А) feathers — flying feathers — так не кажуть; Б) marks — flying marks — так не кажуть; Г) wings — flying wings — так не кажуть.\n✅ В) colours — with flying colours — з відзнакою.",
+   "testLevel": 2
+  },
+  {
+   "text": "He failed the test because he did not ___ attention in class.",
+   "options": [
+    "make",
+    "put",
+    "pay",
+    "do"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Pay attention — усталена сполука.\n❌ Хибні: А) make — make attention — так не кажуть; Б) put — put attention — так не кажуть; Г) do — do attention — так не кажуть.\n✅ В) pay — pay attention — звертати увагу.",
+   "testLevel": 2
+  },
+  {
+   "text": "Many students ___ the midnight oil before their final exams.",
+   "options": [
+    "burn",
+    "keep",
+    "spend",
+    "light"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Burn the midnight oil — працювати допізна.\n❌ Хибні: Б) keep — keep the oil — так не кажуть; В) spend — spend the oil — так не кажуть; Г) light — light the oil — так не кажуть.\n✅ А) burn — burn the midnight oil — вчитися до ночі.",
+   "testLevel": 2
+  },
+  {
+   "text": "The test was ___. I finished it in ten minutes.",
+   "options": [
+    "a piece of cake",
+    "a slice of luck",
+    "a piece of bread",
+    "a bit of pie"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: A piece of cake означає «дуже просто».\n❌ Хибні: Б) a slice of luck — a slice of luck — такої ідіоми немає; В) a piece of bread — a piece of bread — такої ідіоми немає; Г) a bit of pie — a bit of pie — такої ідіоми немає.\n✅ А) a piece of cake — a piece of cake — дуже легко.",
+   "testLevel": 2
+  },
+  {
+   "text": "If somebody gets the sack, they ___.",
+   "options": [
+    "get a bonus",
+    "lose their job",
+    "get a new job",
+    "go on holiday"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Get the sack = бути звільненим з роботи.\n❌ Хибні: А) get a bonus — get a bonus — отримати премію; В) get a new job — get a new job — отримати роботу; Г) go on holiday — go on holiday — піти у відпустку.\n✅ Б) lose their job — get the sack — бути звільненим.",
+   "testLevel": 2
+  },
+  {
+   "text": "Our teacher asked us to learn the poem ___.",
+   "options": [
+    "by heart",
+    "with heart",
+    "in heart",
+    "from heart"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Learn by heart — вивчити напам'ять.\n❌ Хибні: Б) with heart — with heart — так не кажуть; В) in heart — in heart — так не кажуть; Г) from heart — from heart — так не кажуть.\n✅ А) by heart — learn by heart — вивчити напам'ять.",
+   "testLevel": 2
+  },
+  {
+   "text": "She is a very ___ student who always does her homework on time. (RESPONSIBILITY)",
+   "options": [
+    "responsible",
+    "responsibility",
+    "irresponsible",
+    "responsibly"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Перед іменником student потрібен прикметник.\n❌ Хибні: Б) responsibility — responsibility — іменник; В) irresponsible — irresponsible — безвідповідальний; Г) responsibly — responsibly — прислівник.\n✅ А) responsible — responsible — відповідальний, прикметник.",
+   "testLevel": 2
+  },
+  {
+   "text": "The ___ of the new law surprised everybody in the country. (ANNOUNCE)",
+   "options": [
+    "announced",
+    "announce",
+    "announcing",
+    "announcement"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Після the і перед of потрібен іменник.\n❌ Хибні: А) announced — announced — минулий час; Б) announce — announce — дієслово; В) announcing — announcing — герундій.\n✅ Г) announcement — announcement — оголошення, іменник.",
+   "testLevel": 2
+  },
+  {
+   "text": "Many people think that ___ is a serious problem in big cities. (EMPLOY)",
+   "options": [
+    "unemployment",
+    "employer",
+    "employment",
+    "employee"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Проблема міст — unemployment (un- + employ + -ment).\n❌ Хибні: Б) employer — employer — роботодавець; В) employment — employment — зайнятість, не проблема; Г) employee — employee — працівник.\n✅ А) unemployment — unemployment — безробіття.",
+   "testLevel": 2
+  },
+  {
+   "text": "Her ___ to the university was successful, and she got a place. (APPLY)",
+   "options": [
+    "application",
+    "applicable",
+    "applicant",
+    "applicants"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Перед to потрібен іменник application.\n❌ Хибні: Б) applicable — applicable — той, що підходить; В) applicant — applicant — той, хто подає заявку; Г) applicants — applicants — подавці заявок.\n✅ А) application — application — заявка, подання.",
+   "testLevel": 2
+  },
+  {
+   "text": "Volunteers show great ___ when they help other people. (KIND)",
+   "options": [
+    "kinder",
+    "kindness",
+    "kindly",
+    "kindest"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Після great потрібен іменник kindness.\n❌ Хибні: А) kinder — kinder — вищий ступінь; В) kindly — kindly — прислівник; Г) kindest — kindest — найвищий ступінь.\n✅ Б) kindness — kindness — доброта, іменник.",
+   "testLevel": 2
+  },
+  {
+   "text": "It is very ___ to be late for a job interview. (POLITE)",
+   "options": [
+    "unpolite",
+    "nonpolite",
+    "dispolite",
+    "impolite"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Префікс im- перед p: impolite.\n❌ Хибні: А) unpolite — unpolite — такого слова немає; Б) nonpolite — nonpolite — такого слова немає; В) dispolite — dispolite — такого слова немає.\n✅ Г) impolite — impolite — неввічливий.",
+   "testLevel": 2
+  },
+  {
+   "text": "It is ___ to cheat in an exam. (HONEST)",
+   "options": [
+    "unhonest",
+    "nonhonest",
+    "dishonest",
+    "inhonest"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Honest має префікс dis-: dishonest.\n❌ Хибні: А) unhonest — unhonest — такого слова немає; Б) nonhonest — nonhonest — такого слова немає; Г) inhonest — inhonest — такого слова немає.\n✅ В) dishonest — dishonest — нечесний.",
+   "testLevel": 2
+  },
+  {
+   "text": "Our doctor was very ___ and explained everything slowly. (PATIENCE)",
+   "options": [
+    "patience",
+    "impatient",
+    "patiently",
+    "patient"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Після was very потрібен прикметник patient.\n❌ Хибні: А) patience — patience — іменник, терпіння; Б) impatient — impatient — нетерплячий, суперечить змісту; В) patiently — patiently — прислівник.\n✅ Г) patient — patient — терплячий.",
+   "testLevel": 2
+  },
+  {
+   "text": "There is a big ___ between rich and poor people in that country. (DIFFERENT)",
+   "options": [
+    "differ",
+    "difference",
+    "differently",
+    "different"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Після a big потрібен іменник difference.\n❌ Хибні: А) differ — differ — дієслово; В) differently — differently — прислівник; Г) different — different — прикметник.\n✅ Б) difference — difference — різниця, іменник.",
+   "testLevel": 2
+  },
+  {
+   "text": "On Friday our class went on an ___ trip to the science museum. (EDUCATE)",
+   "options": [
+    "educational",
+    "educator",
+    "educated",
+    "education"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Перед trip потрібен прикметник educational.\n❌ Хибні: Б) educator — educator — вихователь; В) educated — educated — освічений; Г) education — education — освіта, іменник.\n✅ А) educational — educational — навчальний, прикметник.",
+   "testLevel": 2
+  },
+  {
+   "text": "In Ukraine, you must be eighteen to ___ in elections.",
+   "options": [
+    "select",
+    "win",
+    "vote",
+    "elect"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Vote in elections — голосувати на виборах.\n❌ Хибні: А) select — select — вибирати; Б) win — win — перемагати; Г) elect — elect — обирати когось.\n✅ В) vote — vote — голосувати.",
+   "testLevel": 2
+  },
+  {
+   "text": "Charity organisations help people who live in ___.",
+   "options": [
+    "richness",
+    "wealth",
+    "luxury",
+    "poverty"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Charity допомагає тим, хто живе в poverty.\n❌ Хибні: А) richness — richness — багатство чи насиченість; Б) wealth — wealth — багатство; В) luxury — luxury — розкіш.\n✅ Г) poverty — poverty — бідність.",
+   "testLevel": 2
+  },
+  {
+   "text": "A: What do you do? B: ___",
+   "options": [
+    "I do a nurse at the city hospital.",
+    "I'm nurse at the city hospital.",
+    "I'm a nurse at the city hospital.",
+    "I work nurse at the city hospital."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Перед назвою професії ставимо артикль a/an.\n❌ Хибні: А) I do a nurse at the city hospital. — do не вживається так; Б) I'm nurse at the city hospital. — немає артикля перед професією; Г) I work nurse at the city hospital. — після work потрібне as.\n✅ В) I'm a nurse at the city hospital. — перед професією потрібен артикль a.",
+   "testLevel": 2
+  },
+  {
+   "text": "A: How long have you worked here? B: ___",
+   "options": [
+    "For five years.",
+    "During five years.",
+    "Since five years.",
+    "From five years."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: For — скільки триває, since — з якого моменту.\n❌ Хибні: Б) During five years. — during не вживається з числом років; В) Since five years. — since + момент початку, а не період; Г) From five years. — from не вживається так.\n✅ А) For five years. — for + період часу.",
+   "testLevel": 2
+  },
+  {
+   "text": "A: Could I speak to the manager, please? B: ___",
+   "options": [
+    "It was nice to meet you yesterday.",
+    "You are welcome, the manager is here.",
+    "Never mind, I do not know.",
+    "I'm afraid he is in a meeting right now."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Відповідь має бути ввічливою і по суті.\n❌ Хибні: А) It was nice to meet you yesterday. — про зустріч у минулому; Б) You are welcome, the manager is here. — це відповідь на подяку; В) Never mind, I do not know. — це недоречна відповідь.\n✅ Г) I'm afraid he is in a meeting right now. — ввічливий і логічний варіант.",
+   "testLevel": 2
+  },
+  {
+   "text": "Which word does NOT belong to the group: lecturer, tutor, professor, tenant?",
+   "options": [
+    "lecturer",
+    "tutor",
+    "tenant",
+    "professor"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Три слова про освіту, tenant — про оренду.\n❌ Хибні: А) lecturer — lecturer — викладач університету; Б) tutor — tutor — наставник, репетитор; Г) professor — professor — професор.\n✅ В) tenant — tenant — орендар житла.",
+   "testLevel": 2
+  },
+  {
+   "text": "Which word is NOT connected with crime: witness, suspect, scholarship, victim?",
+   "options": [
+    "victim",
+    "scholarship",
+    "witness",
+    "suspect"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Scholarship — про навчання, не про злочин.\n❌ Хибні: А) victim — victim — жертва злочину; В) witness — witness — свідок злочину; Г) suspect — suspect — підозрюваний.\n✅ Б) scholarship — scholarship — стипендія, освіта.",
+   "testLevel": 2
+  },
+  {
+   "text": "Which word means the money paid regularly to old people who no longer work?",
+   "options": [
+    "fee",
+    "salary",
+    "pension",
+    "fine"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Пенсіонерам платять pension.\n❌ Хибні: А) fee — fee — плата за послугу; Б) salary — salary — зарплата тих, хто працює; Г) fine — fine — штраф.\n✅ В) pension — pension — пенсія.",
+   "testLevel": 2
+  },
+  {
+   "text": "People pay ___ to the government from their income.",
+   "options": [
+    "marks",
+    "fares",
+    "prizes",
+    "taxes"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Податки до бюджету — taxes.\n❌ Хибні: А) marks — marks — оцінки; Б) fares — fares — плата за проїзд; В) prizes — prizes — призи.\n✅ Г) taxes — taxes — податки.",
+   "testLevel": 2
+  },
+  {
+   "text": "Anna is a freelance journalist, which means that she ___.",
+   "options": [
+    "works without being paid",
+    "works for herself and not for one company",
+    "works only at night",
+    "works for a newspaper full-time"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Freelance — людина без постійного роботодавця.\n❌ Хибні: А) works without being paid — freelancer теж отримує гроші; В) works only at night — freelance не про нічний час; Г) works for a newspaper full-time — це штатна робота.\n✅ Б) works for herself and not for one company — freelance — працює сама на себе.",
+   "testLevel": 2
+  },
+  {
+   "text": "She is very good ___ maths and wants to become an engineer.",
+   "options": [
+    "with",
+    "in",
+    "on",
+    "at"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Good at + предмет чи вміння.\n❌ Хибні: А) with — good with — вправний з речами чи людьми; Б) in — in не вживається з good тут; В) on — on не вживається з good.\n✅ Г) at — good at — добре вміти щось.",
+   "testLevel": 2
+  },
+  {
+   "text": "The manager is responsible ___ the safety of all the workers.",
+   "options": [
+    "to",
+    "with",
+    "for",
+    "of"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Responsible for something, responsible to somebody.\n❌ Хибні: А) to — responsible to — підзвітний комусь; Б) with — with не вживається тут; Г) of — of не вживається після responsible.\n✅ В) for — responsible for — відповідальний за.",
+   "testLevel": 2
+  },
+  {
+   "text": "We are very proud ___ our school football team.",
+   "options": [
+    "for",
+    "with",
+    "of",
+    "about"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Proud of something.\n❌ Хибні: А) for — proud for — так не кажуть; Б) with — proud with — так не кажуть; Г) about — proud about — так не кажуть.\n✅ В) of — proud of — пишатися чимось.",
+   "testLevel": 2
+  },
+  {
+   "text": "He graduated ___ Kyiv National University in 2020.",
+   "options": [
+    "at",
+    "from",
+    "of",
+    "in"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Graduate from + заклад.\n❌ Хибні: А) at — graduate at — рідковживане; В) of — graduate of — так не кажуть; Г) in — graduate in — відносно спеціальності.\n✅ Б) from — graduate from — закінчити заклад.",
+   "testLevel": 2
+  },
+  {
+   "text": "Maria has applied ___ a scholarship at a university in Poland.",
+   "options": [
+    "on",
+    "for",
+    "at",
+    "about"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Apply for + що, apply to + куди.\n❌ Хибні: А) on — apply on — так не кажуть; В) at — apply at — так не кажуть; Г) about — apply about — так не кажуть.\n✅ Б) for — apply for — подавати заявку на щось.",
+   "testLevel": 2
+  },
+  {
+   "text": "He is interested ___ becoming a pilot.",
+   "options": [
+    "about",
+    "at",
+    "on",
+    "in"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Interested in + іменник чи -ing.\n❌ Хибні: А) about — interested about — так не кажуть; Б) at — interested at — так не кажуть; В) on — interested on — так не кажуть.\n✅ Г) in — interested in — цікавитися чимось.",
+   "testLevel": 2
+  },
+  {
+   "text": "Students should ___ notes during the lecture.",
+   "options": [
+    "take",
+    "draw",
+    "put",
+    "hold"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Take notes — вести записи на лекції.\n❌ Хибні: Б) draw — draw notes — так не кажуть; В) put — put notes — так не кажуть; Г) hold — hold notes — так не кажуть.\n✅ А) take — take notes — конспектувати.",
+   "testLevel": 2
+  },
+  {
+   "text": "He is not old ___ to vote in the elections.",
+   "options": [
+    "very",
+    "much",
+    "too",
+    "enough"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Adjective + enough: old enough.\n❌ Хибні: А) very — very не дає значення «достатньо»; Б) much — much не вживається з прикметником; В) too — too стоїть перед прикметником.\n✅ Г) enough — enough стоїть після прикметника.",
+   "testLevel": 2
+  },
+  {
+   "text": "It was ___ difficult exam that nobody finished it on time.",
+   "options": [
+    "such",
+    "so a",
+    "such a",
+    "so"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Such a + adj + noun, so + adj.\n❌ Хибні: А) such — потрібен артикль a; Б) so a — так не кажуть; Г) so — so + прикметник без іменника.\n✅ В) such a — such a + прикметник + іменник.",
+   "testLevel": 2
+  },
+  {
+   "text": "The student ___ the teacher some questions about the homework.",
+   "options": [
+    "spoke",
+    "said",
+    "told",
+    "asked"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Ask somebody a question.\n❌ Хибні: А) spoke — speak не вживається з questions; Б) said — say не вживається з особою; В) told — tell не вживається з questions.\n✅ Г) asked — ask somebody questions — запитати.",
+   "testLevel": 2
+  },
+  {
+   "text": "Please ___ your phones off during the exam.",
+   "options": [
+    "put",
+    "switch",
+    "take",
+    "make"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Switch off — вимкнути пристрій.\n❌ Хибні: А) put — put off — відкласти; В) take — take off — зняти або злетіти; Г) make — make off — втекти.\n✅ Б) switch — switch off — вимкнути.",
+   "testLevel": 2
+  },
+  {
+   "text": "The exam results will be ___ on the school website next week.",
+   "options": [
+    "polished",
+    "pushed",
+    "punished",
+    "published"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Результати публікують — published.\n❌ Хибні: А) polished — polished — відполіровані; Б) pushed — pushed — штовхнуті; В) punished — punished — покарані.\n✅ Г) published — published — опубліковані.",
+   "testLevel": 2
+  },
+  {
+   "text": "My sister is studying to be a vet, so she looks after sick ___.",
+   "options": [
+    "buildings",
+    "machines",
+    "documents",
+    "animals"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Ветеринар лікує тварин — animals.\n❌ Хибні: А) buildings — buildings — будівлі; Б) machines — machines — машини; В) documents — documents — документи.\n✅ Г) animals — animals — тварини.",
+   "testLevel": 2
+  },
+  {
+   "text": "It is not very ___ to go out without a coat in the middle of winter.",
+   "options": [
+    "sensational",
+    "sensitive",
+    "sensible",
+    "sentimental"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Sensible = розумний, sensitive = чутливий — це «хибні друзі».\n❌ Хибні: А) sensational — sensational — сенсаційний; Б) sensitive — sensitive — чутливий; Г) sentimental — sentimental — сентиментальний.\n✅ В) sensible — sensible — розсудливий, доцільний.",
+   "testLevel": 3
+  },
+  {
+   "text": "Our youngest pupil is very ___ to criticism and often cries when somebody corrects her.",
+   "options": [
+    "sensual",
+    "sensible",
+    "sensitive",
+    "sensational"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Sensitive to criticism — чутливий до критики.\n❌ Хибні: А) sensual — sensual — чуттєвий, тілесний; Б) sensible — sensible — розсудливий; Г) sensational — sensational — сенсаційний.\n✅ В) sensitive — sensitive — чутливий до критики.",
+   "testLevel": 3
+  },
+  {
+   "text": "Professor Brown gave a fascinating ___ on climate change to three hundred first-year students in the main hall.",
+   "options": [
+    "lecturer",
+    "lectern",
+    "literature",
+    "lecture"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Перед на потрібен іменник: lecture.\n❌ Хибні: А) lecturer — lecturer — викладач, людина; Б) lectern — lectern — кафедра, підставка; В) literature — literature — література.\n✅ Г) lecture — lecture — лекція в університеті.",
+   "testLevel": 3
+  },
+  {
+   "text": "Physics is my favourite ___ at school, and I want to study it at university.",
+   "options": [
+    "course",
+    "theme",
+    "topic",
+    "subject"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: At school we study subjects.\n❌ Хибні: А) course — course — курс чи напрям; Б) theme — theme — тема твору; В) topic — topic — тема розмови.\n✅ Г) subject — subject — шкільний предмет.",
+   "testLevel": 3
+  },
+  {
+   "text": "I am taking a three-month evening ___ in computer programming.",
+   "options": [
+    "lesson",
+    "subject",
+    "lecture",
+    "course"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Course — тривалий курс навчання.\n❌ Хибні: А) lesson — lesson — окремий урок; Б) subject — subject — предмет у школі; В) lecture — lecture — окрема лекція.\n✅ Г) course — course — курс навчання.",
+   "testLevel": 3
+  },
+  {
+   "text": "She had a very strict ___ and was always taught to respect older people.",
+   "options": [
+    "education",
+    "growth",
+    "formation",
+    "upbringing"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Upbringing — виховання вдома, education — навчання.\n❌ Хибні: А) education — education — освіта в закладі; Б) growth — growth — ріст, збільшення; В) formation — formation — утворення, формування.\n✅ Г) upbringing — upbringing — виховання в сім'ї.",
+   "testLevel": 3
+  },
+  {
+   "text": "After twenty years of hard work, he has built a successful ___ in banking.",
+   "options": [
+    "carrier",
+    "career",
+    "trade",
+    "job"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Career — кар'єра, carrier — перевізник.\n❌ Хибні: А) carrier — carrier — перевізник; В) trade — trade — торгівля чи ремесло; Г) job — job — окрема робота, не шлях.\n✅ Б) career — career — професійна кар'єра.",
+   "testLevel": 3
+  },
+  {
+   "text": "He did not agree with the company's policy, so he handed in his notice and ___.",
+   "options": [
+    "was promoted",
+    "retired",
+    "was dismissed",
+    "resigned"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Handed in his notice = написав заяву, отже resigned.\n❌ Хибні: А) was promoted — was promoted — його підвищили; Б) retired — retire — піти на пенсію; В) was dismissed — was dismissed — його звільнили.\n✅ Г) resigned — resign — звільнитися за власним бажанням.",
+   "testLevel": 3
+  },
+  {
+   "text": "People with a low ___ often find it hard to pay for housing.",
+   "options": [
+    "upkeep",
+    "income",
+    "outcome",
+    "intake"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Low income — низький дохід.\n❌ Хибні: А) upkeep — upkeep — утримання; В) outcome — outcome — результат; Г) intake — intake — споживання чи набір.\n✅ Б) income — income — дохід.",
+   "testLevel": 3
+  },
+  {
+   "text": "The government gives unemployment ___ to people who have lost their jobs.",
+   "options": [
+    "bonuses",
+    "benefactors",
+    "benefits",
+    "profits"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Unemployment benefit — допомога з безробіття.\n❌ Хибні: А) bonuses — bonuses — премії працівникам; Б) benefactors — benefactors — благодійники; Г) profits — profits — прибутки компаній.\n✅ В) benefits — benefits — соціальна допомога.",
+   "testLevel": 3
+  },
+  {
+   "text": "The company made a huge ___ last year, so it paid bonuses to all its staff.",
+   "options": [
+    "interest",
+    "salary",
+    "benefit",
+    "profit"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Make a profit — отримати прибуток.\n❌ Хибні: А) interest — interest — відсоток чи інтерес; Б) salary — salary — зарплата; В) benefit — benefit — користь чи пільга.\n✅ Г) profit — profit — прибуток.",
+   "testLevel": 3
+  },
+  {
+   "text": "I must finish the report by Friday; that is the final ___.",
+   "options": [
+    "outline",
+    "borderline",
+    "deadline",
+    "headline"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Deadline — останній термін здачі.\n❌ Хибні: А) outline — outline — план чи контур; Б) borderline — borderline — межа; Г) headline — headline — заголовок.\n✅ В) deadline — deadline — крайній термін.",
+   "testLevel": 3
+  },
+  {
+   "text": "Our team has ___ a great idea for the school project.",
+   "options": [
+    "come in with",
+    "come round with",
+    "come up with",
+    "come along with"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Come up with an idea — придумати ідею.\n❌ Хибні: А) come in with — come in with — так не кажуть; Б) come round with — come round with — так не кажуть; Г) come along with — come along with — супроводжувати.\n✅ В) come up with — come up with — придумати ідею.",
+   "testLevel": 3
+  },
+  {
+   "text": "Do you ___ well with your new colleagues?",
+   "options": [
+    "get over",
+    "get out",
+    "get on",
+    "get off"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Get on with somebody — ладнати з кимось.\n❌ Хибні: А) get over — get over — одужати чи пережити; Б) get out — get out — вийти назовні; Г) get off — get off — вийти чи зійти.\n✅ В) get on — get on with — ладнати з людьми.",
+   "testLevel": 3
+  },
+  {
+   "text": "We look forward to ___ from you soon.",
+   "options": [
+    "to hear",
+    "hearing",
+    "hear",
+    "heard"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Look forward to + герундій.\n❌ Хибні: А) to hear — look forward to не має інфінітива; В) hear — to — тут прийменник, потрібне -ing; Г) heard — minuле не вживається після to.\n✅ Б) hearing — look forward to + -ing — з нетерпінням чекати.",
+   "testLevel": 3
+  },
+  {
+   "text": "What does 'took up' mean in this sentence: After he retired, he took up painting.",
+   "options": [
+    "sold it",
+    "collected it",
+    "stopped doing it",
+    "began doing it as a hobby"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Take up + хобі = почати займатися.\n❌ Хибні: А) sold it — take up не означає «продати»; Б) collected it — take up не означає «колекціонувати»; В) stopped doing it — take up не означає «кинути».\n✅ Г) began doing it as a hobby — take up — почати займатися чимось.",
+   "testLevel": 3
+  },
+  {
+   "text": "Because of the illness, he ___ with his studies and had to repeat the year.",
+   "options": [
+    "fell off",
+    "fell for",
+    "fell behind",
+    "fell out"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Fall behind with = відстати в навчанні.\n❌ Хибні: А) fell off — fall off — зменшитися, впасти; Б) fell for — fall for — закохатися чи піддатися; Г) fell out — fall out — посваритися.\n✅ В) fell behind — fall behind — відстати.",
+   "testLevel": 3
+  },
+  {
+   "text": "We have ___ of paper. Could you buy some more, please?",
+   "options": [
+    "run out",
+    "run up",
+    "run away",
+    "run off"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Run out of something — закінчився запас.\n❌ Хибні: Б) run up — run up — набирати борги; В) run away — run away — втекти з дому; Г) run off — run off — втекти.\n✅ А) run out — run out of — закінчитися.",
+   "testLevel": 3
+  },
+  {
+   "text": "The exam ___ to be much easier than we expected.",
+   "options": [
+    "turned off",
+    "turned in",
+    "turned up",
+    "turned out"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Turn out to be — виявитися.\n❌ Хибні: А) turned off — turn off — вимкнути; Б) turned in — turn in — здати чи лягти спати; В) turned up — turn up — з'явитися.\n✅ Г) turned out — turn out — виявитися.",
+   "testLevel": 3
+  },
+  {
+   "text": "Do not worry about your first week; it takes time to learn the ___.",
+   "options": [
+    "chains",
+    "ropes",
+    "knots",
+    "strings"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Learn the ropes — освоїтися.\n❌ Хибні: А) chains — learn the chains — так не кажуть; В) knots — learn the knots — так не кажуть; Г) strings — learn the strings — так не кажуть.\n✅ Б) ropes — learn the ropes — освоїтися на новій справі.",
+   "testLevel": 3
+  },
+  {
+   "text": "He wanted to start his own business, but at the last moment he got cold ___.",
+   "options": [
+    "feet",
+    "nose",
+    "hands",
+    "ears"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Get cold feet — злякатися.\n❌ Хибні: Б) nose — get cold nose — не ідіома; В) hands — get cold hands — так не кажуть в ідіомі; Г) ears — get cold ears — не ідіома.\n✅ А) feet — get cold feet — злякатися в останню мить.",
+   "testLevel": 3
+  },
+  {
+   "text": "Which sentence best explains the meaning of 'a nine-to-five job'?",
+   "options": [
+    "A job that lasts for exactly nine months",
+    "A regular job with normal office hours",
+    "A job with a salary of nine or five thousand",
+    "A job in a shop that opens at nine"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Nine-to-five — стандартна робота з 9 до 17.\n❌ Хибні: А) A job that lasts for exactly nine months — це неправильне тлумачення цифр; В) A job with a salary of nine or five thousand — цифри не про гроші; Г) A job in a shop that opens at nine — це надто вузьке значення.\n✅ Б) A regular job with normal office hours — nine-to-five — звичайний робочий день.",
+   "testLevel": 3
+  },
+  {
+   "text": "I cannot go out tonight; I need to hit the books. What will the speaker do?",
+   "options": [
+    "Study hard",
+    "Buy some books",
+    "Hurt somebody",
+    "Play a game"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Hit the books — інтенсивно вчитися.\n❌ Хибні: Б) Buy some books — hit the books не про купівлю; В) Hurt somebody — hit the books не про бійку; Г) Play a game — hit the books не про гру.\n✅ А) Study hard — hit the books — сісти за навчання.",
+   "testLevel": 3
+  },
+  {
+   "text": "His lack of ___ cost him the job. (RESPONSIBLE)",
+   "options": [
+    "responsibly",
+    "responsibility",
+    "irresponsible",
+    "responsible"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Після lack of потрібен іменник.\n❌ Хибні: А) responsibly — responsibly — прислівник; В) irresponsible — irresponsible — прикметник; Г) responsible — responsible — прикметник.\n✅ Б) responsibility — responsibility — відповідальність.",
+   "testLevel": 3
+  },
+  {
+   "text": "Maria is a very ___ person who never misses a deadline. (RELY)",
+   "options": [
+    "reliance",
+    "reliable",
+    "reliably",
+    "reliant"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Reliable — той, на кого можна покластися.\n❌ Хибні: А) reliance — reliance — залежність; В) reliably — reliably — прислівник; Г) reliant — reliant — залежний.\n✅ Б) reliable — reliable — надійний.",
+   "testLevel": 3
+  },
+  {
+   "text": "The company is looking for ___ people with good communication skills. (EXPERIENCE)",
+   "options": [
+    "experience",
+    "experienced",
+    "inexperienced",
+    "experiencing"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Looking for experienced — досвідчених працівників.\n❌ Хибні: А) experience — experience — досвід, іменник; В) inexperienced — inexperienced — недосвідчений; Г) experiencing — experiencing — той, що переживає.\n✅ Б) experienced — experienced — досвідчений.",
+   "testLevel": 3
+  },
+  {
+   "text": "Many ___ come to this country every year to find work. (IMMIGRATE)",
+   "options": [
+    "immigrated",
+    "immigration",
+    "immigrate",
+    "immigrants"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Many + іменник у множині: immigrants.\n❌ Хибні: А) immigrated — immigrated — минулий час; Б) immigration — immigration — імміграція; В) immigrate — immigrate — дієслово.\n✅ Г) immigrants — immigrants — іммігранти, множина.",
+   "testLevel": 3
+  },
+  {
+   "text": "She felt very ___ when she heard that she had not got the scholarship. (DISAPPOINT)",
+   "options": [
+    "disappointment",
+    "disappointed",
+    "disappointing",
+    "disappoint"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: -ed описує почуття людини.\n❌ Хибні: А) disappointment — disappointment — розчарування, іменник; В) disappointing — disappointing — той, що розчаровує; Г) disappoint — disappoint — дієслово.\n✅ Б) disappointed — disappointed — розчарований.",
+   "testLevel": 3
+  },
+  {
+   "text": "The lecture was so ___ that half of the students fell asleep. (BORE)",
+   "options": [
+    "bored",
+    "bore",
+    "boredom",
+    "boring"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: -ing описує те, що викликає почуття.\n❌ Хибні: А) bored — bored — знудьгований; Б) bore — bore — нудьга або набридлива людина; В) boredom — boredom — нудьга.\n✅ Г) boring — boring — нудний.",
+   "testLevel": 3
+  },
+  {
+   "text": "It is ___ to expect to learn English perfectly in one week. (REAL)",
+   "options": [
+    "nonrealistic",
+    "irrealistic",
+    "unrealistic",
+    "disrealistic"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Realistic має префікс un-: unrealistic.\n❌ Хибні: А) nonrealistic — nonrealistic — такого слова немає; Б) irrealistic — irrealistic — такого слова немає; Г) disrealistic — disrealistic — такого слова немає.\n✅ В) unrealistic — unrealistic — нереалістичний.",
+   "testLevel": 3
+  },
+  {
+   "text": "The ___ between the two candidates for the job was very close. (COMPETE)",
+   "options": [
+    "competing",
+    "competitor",
+    "competition",
+    "competitive"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: The ___ between — потрібен іменник competition.\n❌ Хибні: А) competing — competing — той, що змагається; Б) competitor — competitor — суперник; Г) competitive — competitive — конкурентний.\n✅ В) competition — competition — змагання.",
+   "testLevel": 3
+  },
+  {
+   "text": "Teachers should treat all their students ___. (EQUAL)",
+   "options": [
+    "equally",
+    "equality",
+    "equals",
+    "equal"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Після treat потрібен прислівник.\n❌ Хибні: Б) equality — equality — рівність, іменник; В) equals — equals — рівні, множина; Г) equal — equal — прикметник.\n✅ А) equally — equally — однаково, прислівник.",
+   "testLevel": 3
+  },
+  {
+   "text": "The number of students who study abroad ___ every year.",
+   "options": [
+    "is increasing",
+    "increase",
+    "have increased",
+    "are increasing"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: The number of + однина, a number of + множина.\n❌ Хибні: Б) increase — потрібна форма з is чи -s; В) have increased — have не узгоджується з number; Г) are increasing — are не узгоджується з number.\n✅ А) is increasing — the number of → однина.",
+   "testLevel": 3
+  },
+  {
+   "text": "A: Congratulations on your new job! B: ___",
+   "options": [
+    "Thank you very much! I am really excited about it.",
+    "Never mind, it is not important.",
+    "It does not matter at all.",
+    "You are welcome, I am really excited."
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: На вітання відповідаємо подякою.\n❌ Хибні: Б) Never mind, it is not important. — Never mind — відповідь на вибачення; В) It does not matter at all. — It does not matter — відповідь на вибачення; Г) You are welcome, I am really excited. — You are welcome — відповідь на подяку.\n✅ А) Thank you very much! I am really excited about it. — відповідь на вітання — подяка.",
+   "testLevel": 3
+  },
+  {
+   "text": "A: Would you mind telling me what the salary is? B: ___",
+   "options": [
+    "No, please. It is about thirty thousand a year.",
+    "Yes, I do. It is about thirty thousand a year.",
+    "Yes, please. It is about thirty thousand a year.",
+    "Not at all. It is about thirty thousand a year."
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: На Would you mind… відповідь Not at all означає «з радістю».\n❌ Хибні: А) No, please. It is about thirty thousand a year. — No, please суперечить відповіді; Б) Yes, I do. It is about thirty thousand a year. — Yes, I do суперечить відповіді; В) Yes, please. It is about thirty thousand a year. — Yes, please суперечить відповіді.\n✅ Г) Not at all. It is about thirty thousand a year. — Not at all = не заперечую.",
+   "testLevel": 3
+  },
+  {
+   "text": "A: I am afraid I failed my driving test again. B: ___",
+   "options": [
+    "You are welcome, I am happy for you.",
+    "Never mind, better luck next time!",
+    "Congratulations, you are the winner!",
+    "What a lovely surprise, thank you!"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Після невдачі підтримуємо співрозмовника.\n❌ Хибні: А) You are welcome, I am happy for you. — You are welcome — відповідь на подяку; В) Congratulations, you are the winner! — це вітання недоречне тут; Г) What a lovely surprise, thank you! — це реакція на подарунок.\n✅ Б) Never mind, better luck next time! — підтримка після невдачі.",
+   "testLevel": 3
+  },
+  {
+   "text": "Read: 'The new school library will open on Monday at 8 a.m. Students will be able to borrow up to five books for two weeks.' How many books can a student borrow?",
+   "options": [
+    "fifteen",
+    "five",
+    "eight",
+    "two"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Увага: two weeks — це строк, не кількість.\n❌ Хибні: А) fifteen — такої цифри в тексті немає; В) eight — eight — година відкриття; Г) two — two — це кількість тижнів.\n✅ Б) five — up to five books — до п'яти книжок.",
+   "testLevel": 3
+  },
+  {
+   "text": "You begin a formal letter with 'Dear Sir or Madam'. How should you finish it?",
+   "options": [
+    "Yours faithfully",
+    "Yours sincerely",
+    "See you soon",
+    "Lots of love"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Dear Sir/Madam → Yours faithfully, Dear Mr Brown → Yours sincerely.\n❌ Хибні: Б) Yours sincerely — sincerely — коли знаємо ім'я адресата; В) See you soon — це неформальне завершення; Г) Lots of love — це занадто особисте завершення.\n✅ А) Yours faithfully — Dear Sir or Madam → Yours faithfully.",
+   "testLevel": 3
+  },
+  {
+   "text": "You begin a formal letter with 'Dear Mr Brown'. How should you finish it?",
+   "options": [
+    "Cheers",
+    "Yours sincerely",
+    "Best of luck",
+    "Yours faithfully"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: З іменем адресата — Yours sincerely.\n❌ Хибні: А) Cheers — це розмовне завершення; В) Best of luck — це неформальне побажання; Г) Yours faithfully — faithfully — коли імені немає.\n✅ Б) Yours sincerely — Dear + прізвище → Yours sincerely.",
+   "testLevel": 3
+  },
+  {
+   "text": "Crimes are ___ by people of all ages and all backgrounds.",
+   "options": [
+    "made",
+    "committed",
+    "performed",
+    "done"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Commit a crime — вчинити злочин.\n❌ Хибні: А) made — make a crime — так не кажуть; В) performed — perform — виконувати вистави; Г) done — do a crime — так не кажуть.\n✅ Б) committed — commit a crime — вчинити злочин.",
+   "testLevel": 3
+  },
+  {
+   "text": "The judge ___ the thief to two years in prison.",
+   "options": [
+    "accused",
+    "arrested",
+    "sentenced",
+    "convicted"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Sentence to + покарання.\n❌ Хибні: А) accused — accuse of — звинуватити в; Б) arrested — arrest for — заарештувати за; Г) convicted — convict of — визнати винним у.\n✅ В) sentenced — sentence somebody to — засудити до.",
+   "testLevel": 3
+  },
+  {
+   "text": "In a ___, people choose their government in free elections.",
+   "options": [
+    "democracy",
+    "bureaucracy",
+    "dictatorship",
+    "monarchy"
+   ],
+   "correctIndex": 0,
+   "explanation": "💡 Пастка: Free elections — ознака демократії.\n❌ Хибні: Б) bureaucracy — bureaucracy — бюрократія; В) dictatorship — dictatorship — диктатура; Г) monarchy — monarchy — монархія.\n✅ А) democracy — democracy — демократія.",
+   "testLevel": 3
+  },
+  {
+   "text": "He borrowed too much money from the bank and is now deeply in ___.",
+   "options": [
+    "deal",
+    "dept",
+    "debt",
+    "doubt"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Debt = борг, doubt = сумнів.\n❌ Хибні: А) deal — in deal — так не кажуть; Б) dept — dept — скорочення, а не слово; Г) doubt — in doubt — у сумніві.\n✅ В) debt — in debt — у боргах.",
+   "testLevel": 3
+  },
+  {
+   "text": "I would like to buy a new laptop, but I cannot ___ it.",
+   "options": [
+    "offend",
+    "effort",
+    "offer",
+    "afford"
+   ],
+   "correctIndex": 3,
+   "explanation": "💡 Пастка: Cannot afford = немає грошей на це.\n❌ Хибні: А) offend — offend — образити; Б) effort — effort — зусилля; В) offer — offer — запропонувати.\n✅ Г) afford — afford — дозволити собі.",
+   "testLevel": 3
+  },
+  {
+   "text": "This job is not ___ the stress. I am going to look for a new one.",
+   "options": [
+    "value",
+    "worth",
+    "worthy",
+    "worthless"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Worth + іменник: not worth the stress.\n❌ Хибні: А) value — value — цінність, не прикметник; В) worthy — worthy of — гідний чогось; Г) worthless — worthless — нікчемний.\n✅ Б) worth — worth + іменник — вартий чогось.",
+   "testLevel": 3
+  },
+  {
+   "text": "He studied very hard ___ pass the final exam.",
+   "options": [
+    "so to",
+    "in order that to",
+    "in order to",
+    "for to"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: In order to + дієслово — мета.\n❌ Хибні: А) so to — so to — так не кажуть; Б) in order that to — такого поєднання немає; Г) for to — for to — застаріле.\n✅ В) in order to — in order to + інфінітив — щоб.",
+   "testLevel": 3
+  },
+  {
+   "text": "She spends a lot of time ___ for her exams.",
+   "options": [
+    "prepared",
+    "prepare",
+    "preparing",
+    "to prepare"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Spend time doing something.\n❌ Хибні: А) prepared — -ed тут не підходить; Б) prepare — після spend потрібне -ing; Г) to prepare — spend time to — не вживається.\n✅ В) preparing — spend time + -ing — витрачати час на.",
+   "testLevel": 3
+  },
+  {
+   "text": "He managed ___ the exam despite being ill.",
+   "options": [
+    "for passing",
+    "pass",
+    "to pass",
+    "passing"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Manage to do — вдалося зробити.\n❌ Хибні: А) for passing — for не вживається тут; Б) pass — після manage потрібне to; Г) passing — manage не вживається з -ing.\n✅ В) to pass — manage + to-інфінітив — зуміти.",
+   "testLevel": 3
+  },
+  {
+   "text": "She avoided ___ the question and changed the subject.",
+   "options": [
+    "answer",
+    "to answer",
+    "answering",
+    "for answering"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Запам'ятайте: Avoid doing something.\n❌ Хибні: А) answer — після avoid потрібне -ing; Б) to answer — avoid не вживається з to; Г) for answering — for не вживається.\n✅ В) answering — avoid + -ing — уникати.",
+   "testLevel": 3
+  },
+  {
+   "text": "The company has decided to ___ its workers a pay rise because of the high profits.",
+   "options": [
+    "do",
+    "give",
+    "make",
+    "take"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Give somebody a pay rise.\n❌ Хибні: А) do — do a pay rise — так не кажуть; В) make — make a pay rise — так не кажуть; Г) take — take a pay rise — так не кажуть.\n✅ Б) give — give a pay rise — дати підвищення.",
+   "testLevel": 3
+  },
+  {
+   "text": "Which sentence is grammatically correct?",
+   "options": [
+    "I work at this school since 2015.",
+    "I am working at this school since 2015.",
+    "I have been working at this school since 2015.",
+    "I have worked at this school for 2015."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Since 2015 — момент початку, потрібен Present Perfect.\n❌ Хибні: А) I work at this school since 2015. — since потребує Present Perfect; Б) I am working at this school since 2015. — since потребує Present Perfect; Г) I have worked at this school for 2015. — for потребує проміжок часу.\n✅ В) I have been working at this school since 2015. — since + момент у минулому.",
+   "testLevel": 3
+  },
+  {
+   "text": "Which sentence uses the correct word?",
+   "options": [
+    "The teacher gave us some useful advices.",
+    "The teacher gave us a useful advices.",
+    "The teacher gave us some useful advice.",
+    "The teacher gave us an useful advice."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Advice — незлічуваний, no -s.\n❌ Хибні: А) The teacher gave us some useful advices. — advice не має множини; Б) The teacher gave us a useful advices. — advice без a і без -s; Г) The teacher gave us an useful advice. — advice без a, і потрібен a useful.\n✅ В) The teacher gave us some useful advice. — advice — незлічуваний іменник.",
+   "testLevel": 3
+  },
+  {
+   "text": "Which sentence is correct?",
+   "options": [
+    "He asked me what does my job.",
+    "He asked me what is my job.",
+    "He asked me what my job was.",
+    "He asked me what was my job."
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Непряме питання: what + підмет + дієслово.\n❌ Хибні: А) He asked me what does my job. — після what потрібне was; Б) He asked me what is my job. — час має бути узгоджений; Г) He asked me what was my job. — в непрямому питанні немає інверсії.\n✅ В) He asked me what my job was. — непряме питання — прямий порядок слів.",
+   "testLevel": 3
+  },
+  {
+   "text": "The lawyer advised him ___ the contract before signing it.",
+   "options": [
+    "for reading",
+    "to read",
+    "read",
+    "reading"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Advise somebody to do something.\n❌ Хибні: А) for reading — for не вживається; В) read — після advised потрібне to; Г) reading — advise somebody to + інфінітив.\n✅ Б) to read — advise somebody to do.",
+   "testLevel": 3
+  },
+  {
+   "text": "The government plans to ___ taxes on cigarettes next year.",
+   "options": [
+    "arouse",
+    "arise",
+    "raise",
+    "rise"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Raise + додаток, rise — без додатка.\n❌ Хибні: А) arouse — arouse — збуджувати, викликати; Б) arise — arise — виникати; Г) rise — rise — зростати самому, без додатка.\n✅ В) raise — raise — підвищувати, перехідне дієслово.",
+   "testLevel": 3
+  },
+  {
+   "text": "Young people today are under a lot of ___ to get good grades at school.",
+   "options": [
+    "presence",
+    "pressure",
+    "pleasure",
+    "pressing"
+   ],
+   "correctIndex": 1,
+   "explanation": "💡 Пастка: Under pressure — під тиском.\n❌ Хибні: А) presence — presence — присутність; В) pleasure — pleasure — задоволення; Г) pressing — pressing — терміновий.\n✅ Б) pressure — under pressure — під тиском.",
+   "testLevel": 3
+  },
+  {
+   "text": "I was ___ for the job last Friday and now I am waiting for the results. (INTERVIEW)",
+   "options": [
+    "interview",
+    "interviewer",
+    "interviewed",
+    "interviewing"
+   ],
+   "correctIndex": 2,
+   "explanation": "💡 Пастка: Після was потрібна форма -ed: пасив.\n❌ Хибні: А) interview — interview — іменник чи інфінітив; Б) interviewer — interviewer — той, хто проводить співбесіду; Г) interviewing — interviewing — тривала дія.\n✅ В) interviewed — interviewed — мене співбесідували.",
+   "testLevel": 3
+  }
+ ],
+ "cards": [
+  {
+   "question": "School and education",
+   "answer": "primary school, secondary school, compulsory education (обов'язкова), headteacher, pupil (школяр), student (студент), subject, timetable, uniform, mark/grade, term."
+  },
+  {
+   "question": "Exams",
+   "answer": "take/sit an exam, pass (скласти), fail (провалити), revise for (повторювати), cheat, retake, pass with flying colours (з відзнакою), mark/grade, result."
+  },
+  {
+   "question": "University life",
+   "answer": "lecture, seminar, tutor, degree (bachelor's, master's), scholarship (стипендія), tuition fees (плата за навчання), campus, dormitory, graduate, drop out (кинути навчання)."
+  },
+  {
+   "question": "Study phrasal verbs",
+   "answer": "look up (a word), hand in (homework), fill in (a form), catch up with, fall behind, give up, take up (a subject), carry on, find out, drop out."
+  },
+  {
+   "question": "Jobs and workplaces",
+   "answer": "teacher, doctor, nurse, driver, cook, waiter, lawyer, engineer, farmer; office, factory, hospital, shop, school."
+  },
+  {
+   "question": "Employment words",
+   "answer": "employer (роботодавець), employee (працівник), employment, unemployment, unemployed (безробітний), vacancy (вакансія), applicant, application, interview, CV (резюме)."
+  },
+  {
+   "question": "Salary vs wage",
+   "answer": "salary — місячна фіксована платня; wage — оплата за годину чи тиждень; income — загальний дохід; pension — пенсія."
+  },
+  {
+   "question": "Work phrasal verbs",
+   "answer": "set up (a business), lay off (звільняти через скорочення), take on (наймати), look into (розслідувати), carry on, call off (скасувати), put off (відкладати), turn up."
+  },
+  {
+   "question": "Work collocations",
+   "answer": "earn a living, make money, work overtime, hold a meeting, run a business, get promoted, get the sack (бути звільненим), resign, retire (піти на пенсію), work full-time/part-time."
+  },
+  {
+   "question": "Full-time / part-time",
+   "answer": "full-time — повний робочий день (близько 40 годин); part-time — неповний робочий день; freelance — працює сам на себе без постійного боса."
+  },
+  {
+   "question": "Society words",
+   "answer": "citizen, government, parliament, law, election, vote, rights, equality, community, tolerance (терпимість), poverty (бідність), charity, volunteer."
+  },
+  {
+   "question": "Crime and law",
+   "answer": "crime, criminal, police, witness (свідок), victim (жертва), suspect (підозрюваний), judge, guilty, fine (штраф), prison, break/obey the law."
+  },
+  {
+   "question": "fine / fare / fee",
+   "answer": "fine — штраф (за порушення); fare — плата за проїзд; fee — плата за послугу чи навчання (tuition fees)."
+  },
+  {
+   "question": "Money verbs",
+   "answer": "earn (заробляти), spend (витрачати), save (заощаджувати), waste, owe (бути винним), borrow, lend, afford (дозволити собі), pay taxes."
+  },
+  {
+   "question": "Word formation: -ment, -tion",
+   "answer": "employ → employment; educate → education; apply → application; govern → government; organise → organisation."
+  },
+  {
+   "question": "Word formation: -er, -ee, -ant",
+   "answer": "employ → employer, employee; apply → applicant; teach → teacher; assist → assistant; volunteer."
+  },
+  {
+   "question": "Negative prefixes",
+   "answer": "un- (unemployed, unreliable), dis- (dishonest), in-/im- (incorrect, impolite), ir- (irresponsible)."
+  },
+  {
+   "question": "Education idioms",
+   "answer": "burn the midnight oil (працювати допізна), hit the books (сісти за підручники), learn by heart (вивчити напам'ять), a piece of cake (дуже легко), pass with flying colours."
+  },
+  {
+   "question": "Work idioms",
+   "answer": "get the sack (бути звільненим), a nine-to-five job (звичайна робота), climb the career ladder (будувати кар'єру), learn the ropes (освоїтися), get cold feet (злякатися)."
+  },
+  {
+   "question": "affect vs effect",
+   "answer": "affect — дієслово (впливати): It affects me; effect — іменник (вплив, наслідок): a bad effect."
+  },
+  {
+   "question": "economic vs economical",
+   "answer": "economic — економічний (economic crisis); economical — економний (an economical car)."
+  },
+  {
+   "question": "historic vs historical",
+   "answer": "historic — історично важливий (a historic moment); historical — історичний, пов'язаний з минулим (historical novel)."
+  },
+  {
+   "question": "False friends",
+   "answer": "attend (відвідувати, не «асистувати»), eventually (зрештою, не «можливо»), actually (насправді), sympathetic (співчутливий)."
+  },
+  {
+   "question": "Gap year",
+   "answer": "Рік перерви між школою й університетом (подорожі, робота, волонтерство)."
+  }
+ ]
+}
