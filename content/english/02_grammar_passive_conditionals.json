@@ -1217,13 +1217,13 @@
     {
       "text": "If the data ___ before the update, the error could have been avoided.",
       "options": [
-        "had backed up",
-        "were backed up",
-        "would be backed up",
+        "had been backed up",
+        "were backing up",
+        "would have been backed up",
         "have been backed up"
       ],
       "correctIndex": 0,
-      "explanation": "💡 Third Conditional: if + Past Perfect, would/could have + V3. У цьому реченні підмет data виконує дію backup у значенні зробив резервну копію.\n❌ Б) пасивна форма змінює значення; В) would не ставимо в if-clause; Г) Present Perfect не відповідає минулій нереальній умові.\n✅ А) had backed up — Past Perfect Active.",
+      "explanation": "💡 Third Conditional: if + Past Perfect Passive, could have + V3. Дані не зберігають самі себе — їх резервно копіюють.\n❌ Б) Past Continuous Active; В) would не ставимо в if-clause; Г) Present Perfect не відповідає минулій нереальній умові.\n✅ А) had been backed up — Past Perfect Passive.",
       "testLevel": 3
     },
     {
