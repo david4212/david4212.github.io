@@ -1359,7 +1359,7 @@
       "testLevel": 3
     },
     {
-      "text": "The report warns that intensive farming can ___ soil quality over time.",
+      "text": "The report warns that intensive farming can ___ essential nutrients from the soil over time.",
       "options": [
         "deplete",
         "replenish",
@@ -1367,7 +1367,7 @@
         "enrich"
       ],
       "correctIndex": 0,
-      "explanation": "💡 Deplete soil quality/resources — виснажувати ґрунт або ресурси.\n❌ Б) replenish, В) restore, Г) enrich мають протилежний або позитивний зміст.\n✅ А) deplete.",
+      "explanation": "💡 Deplete nutrients/resources — виснажувати запаси поживних речовин або ресурсів.\n❌ Б) replenish, В) restore, Г) enrich означають поповнювати, відновлювати або збагачувати — протилежне за змістом.\n✅ А) deplete — виснажувати.",
       "testLevel": 3
     },
     {
