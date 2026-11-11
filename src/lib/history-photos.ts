@@ -1,7 +1,7 @@
 // Зображення з тематичних добірок Освіта.ua для візуального розпізнавання НМТ.
 // Файли підвантажуються безпосередньо в картках; перевірений перелік URL.
 // Авторські права на фотографії та репродукції належать їхнім правовласникам.
-export type HistoryPhoto = { title: string; src: string; category: "figures" | "architecture" | "art" | "cinema"; group: string; description: string; source: string };
+export type HistoryPhoto = { title: string; src: string; category: "figures" | "architecture" | "art" | "cinema"; group: string; description: string; source: string; recognition?: string; views?: string[]; catalogNumber?: number };
 export const HISTORY_PHOTOS: HistoryPhoto[] = [
   {
     "title": "Михайло Драгоманов",
