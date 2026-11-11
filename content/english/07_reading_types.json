@@ -1,0 +1,504 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Reading Comprehension & Text Analysis",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match the headings with the paragraphs about learning a new skill.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) «Progress through small steps»: Текст про регулярні невеликі кроки до результату. Текст: When Noor began learning to code, she could barely write a simple instruction. Fifteen minutes of practice each day gradually helped her complete a useful project. 2) «The value of making mistakes»: Основна думка — навчання на власних помилках. Текст: After his first presentation went badly, Tomas watched the recording and noted his weak points. His next talk was much clearer because he used what the experience had taught him. 3) «Finding motivation in a group»: Мотивація зростає завдяки груповій підтримці. Текст: The language learners agreed to meet online every weekend. Their conversations made difficult exercises feel less frustrating and encouraged everyone to continue. 4) «Choosing the right learning resources»: Ідеться про усвідомлений відбір джерел. Текст: Marta stopped downloading every free study guide she found. Instead, she compared the materials with the course goals and selected two reliable sources.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Progress through small steps",
+            "When Noor began learning to code, she could barely write a simple instruction. Fifteen minutes of practice each day gradually helped her complete a useful project."
+          ],
+          [
+            "The value of making mistakes",
+            "After his first presentation went badly, Tomas watched the recording and noted his weak points. His next talk was much clearer because he used what the experience had taught him."
+          ],
+          [
+            "Finding motivation in a group",
+            "The language learners agreed to meet online every weekend. Their conversations made difficult exercises feel less frustrating and encouraged everyone to continue."
+          ],
+          [
+            "Choosing the right learning resources",
+            "Marta stopped downloading every free study guide she found. Instead, she compared the materials with the course goals and selected two reliable sources."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / purpose / inference"
+        ],
+        "rightLabels": [
+          "Paragraph / excerpt"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the paragraphs about a town project.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) «An unexpected obstacle»: Несподівана проблема змінила місце проведення. Текст: The organisers had already booked the venue when a burst water pipe made the building unusable. They moved the event to a nearby school at short notice. 2) «A surprising source of help»: Неочікувана людина надала вирішальну допомогу. Текст: Nobody expected the retired engineer to become involved. However, she offered free advice that solved the team's biggest technical problem. 3) «Listening to residents»: Проєкт змінили на основі побажань громади. Текст: Before deciding how to use the empty square, the council held several open discussions. The final design included a playground and a quiet garden requested by local families. 4) «Measuring long-term success»: Підсумки оцінюють за даними після запуску. Текст: Six months after the opening, researchers surveyed visitors and counted daily users. Their findings helped the council decide whether the project was meeting its original goals.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "An unexpected obstacle",
+            "The organisers had already booked the venue when a burst water pipe made the building unusable. They moved the event to a nearby school at short notice."
+          ],
+          [
+            "A surprising source of help",
+            "Nobody expected the retired engineer to become involved. However, she offered free advice that solved the team's biggest technical problem."
+          ],
+          [
+            "Listening to residents",
+            "Before deciding how to use the empty square, the council held several open discussions. The final design included a playground and a quiet garden requested by local families."
+          ],
+          [
+            "Measuring long-term success",
+            "Six months after the opening, researchers surveyed visitors and counted daily users. Their findings helped the council decide whether the project was meeting its original goals."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / purpose / inference"
+        ],
+        "rightLabels": [
+          "Paragraph / excerpt"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the paragraphs about technology.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) «Convenience with hidden costs»: Зручність технології супроводжується ризиком для приватності. Текст: A smart device can perform routine tasks without constant attention. Yet its operation may rely on collecting more personal information than users realise. 2) «A solution for remote communities»: Дистанційні консультації долають географічну ізоляцію. Текст: The small village lacked reliable access to specialist doctors. New online appointments now allow residents to receive advice without travelling several hours. 3) «When automation needs supervision»: Автоматизована система потребує людської перевірки. Текст: The system processes thousands of forms every day, but it sometimes misreads unusual entries. Staff review flagged cases before any final decision is made. 4) «Designing for different users»: Різні способи користування визначили дизайн інтерфейсу. Текст: Developers tested the website with people who use screen readers and those who cannot operate a mouse. They then changed the menus to make the service easier to navigate.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Convenience with hidden costs",
+            "A smart device can perform routine tasks without constant attention. Yet its operation may rely on collecting more personal information than users realise."
+          ],
+          [
+            "A solution for remote communities",
+            "The small village lacked reliable access to specialist doctors. New online appointments now allow residents to receive advice without travelling several hours."
+          ],
+          [
+            "When automation needs supervision",
+            "The system processes thousands of forms every day, but it sometimes misreads unusual entries. Staff review flagged cases before any final decision is made."
+          ],
+          [
+            "Designing for different users",
+            "Developers tested the website with people who use screen readers and those who cannot operate a mouse. They then changed the menus to make the service easier to navigate."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / purpose / inference"
+        ],
+        "rightLabels": [
+          "Paragraph / excerpt"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the paragraphs about travel experiences.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) «A change that improved the journey»: Неприємна затримка несподівано дала позитивний досвід. Текст: A delayed ferry forced the travellers to spend an extra night on the island. They discovered a local music festival they would otherwise have missed. 2) «Learning before arriving»: Попередня підготовка робить поїздку зручнішою. Текст: Instead of booking activities immediately, the visitors read about local customs and public transport. This preparation helped them avoid confusion on their first day. 3) «Seeing a familiar place differently»: Звичне місто відкривається з нового боку. Текст: Having lived in the city for years, Julia assumed she knew every street. A guided walking tour revealed stories about buildings she passed every morning. 4) «Respecting the place you visit»: Відповідальна поведінка допомагає природі. Текст: The group stayed on designated trails and carried all their rubbish back with them. Their guide explained why even small actions protect sensitive ecosystems.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A change that improved the journey",
+            "A delayed ferry forced the travellers to spend an extra night on the island. They discovered a local music festival they would otherwise have missed."
+          ],
+          [
+            "Learning before arriving",
+            "Instead of booking activities immediately, the visitors read about local customs and public transport. This preparation helped them avoid confusion on their first day."
+          ],
+          [
+            "Seeing a familiar place differently",
+            "Having lived in the city for years, Julia assumed she knew every street. A guided walking tour revealed stories about buildings she passed every morning."
+          ],
+          [
+            "Respecting the place you visit",
+            "The group stayed on designated trails and carried all their rubbish back with them. Their guide explained why even small actions protect sensitive ecosystems."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / purpose / inference"
+        ],
+        "rightLabels": [
+          "Paragraph / excerpt"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the paragraphs about scientific discoveries.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) «An observation that raised questions»: Незвичне спостереження стало приводом для нового дослідження. Текст: During a routine survey, researchers noticed that plants near the coast were flowering earlier than expected. They began collecting weather records to investigate the pattern. 2) «Repeating an experiment for confidence»: Повторення перевіряє надійність результату. Текст: The first measurements suggested an important result, but the team did not publish immediately. They repeated the procedure under identical conditions to see whether the effect would appear again. 3) «A practical use for an old idea»: Старе рішення виявилося корисним для нової технології. Текст: A technique described in a little-known paper decades ago seemed outdated. Engineers adapted it and found that it reduced energy consumption in modern equipment. 4) «Admitting the limits of a study»: Автори чесно пояснюють обмеження вибірки. Текст: The researchers reported improvements in a small group of volunteers. They warned that broader trials would be needed before drawing conclusions about the general population.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "An observation that raised questions",
+            "During a routine survey, researchers noticed that plants near the coast were flowering earlier than expected. They began collecting weather records to investigate the pattern."
+          ],
+          [
+            "Repeating an experiment for confidence",
+            "The first measurements suggested an important result, but the team did not publish immediately. They repeated the procedure under identical conditions to see whether the effect would appear again."
+          ],
+          [
+            "A practical use for an old idea",
+            "A technique described in a little-known paper decades ago seemed outdated. Engineers adapted it and found that it reduced energy consumption in modern equipment."
+          ],
+          [
+            "Admitting the limits of a study",
+            "The researchers reported improvements in a small group of volunteers. They warned that broader trials would be needed before drawing conclusions about the general population."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / purpose / inference"
+        ],
+        "rightLabels": [
+          "Paragraph / excerpt"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the paragraphs about public communication.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) «Correcting false information»: Перевірені документи допомагають спростувати чутки. Текст: A misleading story spread quickly through local social media groups. The library published a clear explanation with links to the original documents. 2) «Using clear language»: Спрощення формулювань підвищує зрозумілість повідомлення. Текст: The notice contained several technical expressions that residents did not understand. A revised version replaced them with common words and practical examples. 3) «Reaching people through several channels»: Кілька способів поширення охоплюють різні групи. Текст: Some residents rarely use the internet, while others do not read printed notices. The council therefore shared the information online, by post and at community meetings. 4) «Inviting questions rather than assumptions»: Зворотний зв'язок виявляє непередбачені запитання. Текст: At the end of the presentation, the organisers asked the audience to explain what remained unclear. Their answers revealed concerns the team had not anticipated.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Correcting false information",
+            "A misleading story spread quickly through local social media groups. The library published a clear explanation with links to the original documents."
+          ],
+          [
+            "Using clear language",
+            "The notice contained several technical expressions that residents did not understand. A revised version replaced them with common words and practical examples."
+          ],
+          [
+            "Reaching people through several channels",
+            "Some residents rarely use the internet, while others do not read printed notices. The council therefore shared the information online, by post and at community meetings."
+          ],
+          [
+            "Inviting questions rather than assumptions",
+            "At the end of the presentation, the organisers asked the audience to explain what remained unclear. Their answers revealed concerns the team had not anticipated."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / purpose / inference"
+        ],
+        "rightLabels": [
+          "Paragraph / excerpt"
+        ]
+      }
+    },
+    {
+      "text": "Match each reader's goal with the most relevant excerpt.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) «You need a source that acknowledges uncertainty.»: Фрагмент прямо вказує на обмеження й потребу додаткових досліджень. Текст: The findings suggest a link, although the limited sample prevents a firm conclusion. Further research will be necessary. 2) «You want practical steps rather than background information.»: Покрокові інструкції допомагають виконати дію. Текст: First, switch off the device and disconnect the cable. Next, wait for the indicator to stop flashing before opening the cover. 3) «You want to compare two different opinions.»: Фрагмент зіставляє позиції прихильників і критиків. Текст: Supporters argue that the policy will save money. Critics, however, question whether it will provide equal access. 4) «You need to identify the writer's recommendation.»: Автор робить конкретну рекомендацію на основі даних. Текст: The survey reveals growing demand for evening services. We therefore suggest extending opening hours twice a week.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "You need a source that acknowledges uncertainty.",
+            "The findings suggest a link, although the limited sample prevents a firm conclusion. Further research will be necessary."
+          ],
+          [
+            "You want practical steps rather than background information.",
+            "First, switch off the device and disconnect the cable. Next, wait for the indicator to stop flashing before opening the cover."
+          ],
+          [
+            "You want to compare two different opinions.",
+            "Supporters argue that the policy will save money. Critics, however, question whether it will provide equal access."
+          ],
+          [
+            "You need to identify the writer's recommendation.",
+            "The survey reveals growing demand for evening services. We therefore suggest extending opening hours twice a week."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / purpose / inference"
+        ],
+        "rightLabels": [
+          "Paragraph / excerpt"
+        ]
+      }
+    },
+    {
+      "text": "Match the implied claim with the supporting paragraph.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) «Correlation does not establish causation.»: Наявний зв'язок не доводить прямої причини. Текст: Students who exercised regularly also reported better grades. The researchers noted that other factors, such as sleep, could explain the association. 2) «An attractive headline can conceal limited evidence.»: Гучний заголовок перебільшує вагу невеликого дослідження. Текст: The article promised a revolutionary discovery in its title. Only near the end did it admit that the test involved eight volunteers. 3) «The most useful solution may depend on local circumstances.»: Однакова стратегія не підходить для всіх місць. Текст: One village saved money by introducing a shared bus, whereas another required smaller vehicles on narrow roads. Both programmes succeeded because they were adapted to local needs. 4) «A short-term benefit can have a delayed disadvantage.»: Негайний позитивний результат змінився віддаленим негативним. Текст: The new road immediately reduced journey times. Several years later, increased car use caused traffic levels to rise again.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Correlation does not establish causation.",
+            "Students who exercised regularly also reported better grades. The researchers noted that other factors, such as sleep, could explain the association."
+          ],
+          [
+            "An attractive headline can conceal limited evidence.",
+            "The article promised a revolutionary discovery in its title. Only near the end did it admit that the test involved eight volunteers."
+          ],
+          [
+            "The most useful solution may depend on local circumstances.",
+            "One village saved money by introducing a shared bus, whereas another required smaller vehicles on narrow roads. Both programmes succeeded because they were adapted to local needs."
+          ],
+          [
+            "A short-term benefit can have a delayed disadvantage.",
+            "The new road immediately reduced journey times. Several years later, increased car use caused traffic levels to rise again."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / purpose / inference"
+        ],
+        "rightLabels": [
+          "Paragraph / excerpt"
+        ]
+      }
+    },
+    {
+      "text": "Complete the short text using each word from the box once: but, because, therefore. The class wanted to visit the museum, (1)___ the tickets were too expensive. A local organisation offered a discount, and the students could afford the trip. The group (2)___ decided to go on Saturday. They took the early bus (3)___ the museum opened at ten.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) but — But з'єднує дві частини речення з протилежним змістом. (2) therefore — Therefore підсумовує результат знижки. (3) because — Because пояснює причину раннього виїзду.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "but"
+          },
+          {
+            "answer": "therefore"
+          },
+          {
+            "answer": "because"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the text using each word from the box once: audience, evidence, conclusion. The speaker began with a surprising question to engage the (1)___. She then presented statistics as (2)___ for her main argument. In the (3)___, she summarised her findings without introducing new facts.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) audience — Audience — слухачі презентації. (2) evidence — Evidence — дані, що підтверджують аргумент. (3) conclusion — Conclusion — завершальна частина виступу.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "audience"
+          },
+          {
+            "answer": "evidence"
+          },
+          {
+            "answer": "conclusion"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the text using each word from the box once: source, headline, summary. At first, I read only the (1)___ and thought the article was about a new invention. The short (2)___ below the title gave me more context. Before sharing the story, I checked the original (3)___ to make sure it was reliable.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) headline — Headline — заголовок статті. (2) summary — Summary — короткий виклад змісту. (3) source — Original source — першоджерело для перевірки.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "headline"
+          },
+          {
+            "answer": "summary"
+          },
+          {
+            "answer": "source"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the text using each word from the box once: whereas, despite, consequently. The first town introduced free buses, (1)___ the second invested in cycling paths. (2)___ having different approaches, both places reported lower traffic levels. Public transport use increased considerably; (3)___, the local council decided to extend the service.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) whereas — Whereas протиставляє рішення двох міст. (2) despite — Despite + gerund виражає поступку. (3) consequently — Consequently показує наслідок зростання попиту.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "whereas"
+          },
+          {
+            "answer": "despite"
+          },
+          {
+            "answer": "consequently"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the text using each word from the box once: claim, verify, misleading. An online post made a dramatic (1)___ about a new health product. The language sounded convincing, but the headline was (2)___ because the research was incomplete. The journalist decided to (3)___ the information before writing a report.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) claim — Make a claim — висунути твердження. (2) misleading — Misleading — такий, що створює хибне враження. (3) verify — Verify — перевірити достовірність відомостей.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "claim"
+          },
+          {
+            "answer": "misleading"
+          },
+          {
+            "answer": "verify"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the text using each word from the box once: implication, limitation, sample, findings. The researchers surveyed a (1)___ of just thirty students. Their main (2)___ suggested that longer breaks were linked to better concentration. They recognised one important (3)___: the participants came from a single school. A possible (4)___ was that future studies should include a wider range of ages.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) sample — Sample — вибірка учасників дослідження. (2) findings — Findings — результати наукової роботи. (3) limitation — Limitation — обмеження дослідження. (4) implication — Implication — висновок або можливий наслідок отриманих даних.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "sample"
+          },
+          {
+            "answer": "findings"
+          },
+          {
+            "answer": "limitation"
+          },
+          {
+            "answer": "implication"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the text using each word from the box once: nevertheless, assumption, contradicts, reliable. The article presented a popular (1)___ as if it were a proven fact. A later study (2)___ this idea by reporting opposite results. The author (3)___ insisted that the first explanation remained correct. Readers therefore had to decide which source was more (4)___.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) assumption — Assumption — припущення без достатніх доказів. (2) contradicts — Contradicts означає суперечить попередній ідеї. (3) nevertheless — Nevertheless підкреслює незгоду попри нові докази. (4) reliable — Reliable source — надійне джерело.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "assumption"
+          },
+          {
+            "answer": "contradicts"
+          },
+          {
+            "answer": "nevertheless"
+          },
+          {
+            "answer": "reliable"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the text using each word from the box once: perspective, bias, balanced, overlook. The documentary included interviews with experts from several backgrounds to provide a more (1)___ account. Even so, the editor worried that an unconscious (2)___ could affect which comments were selected. She invited an independent reviewer to offer another (3)___. The reviewer noticed that the film had managed to (4)___ an important group of local residents.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) balanced — Balanced account — збалансований виклад з різних боків. (2) bias — Bias — упередженість у відборі інформації. (3) perspective — Perspective — погляд або точка зору. (4) overlook — Overlook — не помітити або не врахувати когось.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "balanced"
+          },
+          {
+            "answer": "bias"
+          },
+          {
+            "answer": "perspective"
+          },
+          {
+            "answer": "overlook"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the text using each word from the box once: inference, explicit, context, ambiguous. The author never stated directly why the character refused the invitation. Readers had to make an (1)___ from his earlier behaviour. One sentence remained (2)___ because it allowed two interpretations. The surrounding (3)___ offered some clues, but there was no (4)___ explanation of his decision.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) inference — Inference — висновок, зроблений із непрямих підказок. (2) ambiguous — Ambiguous — двозначний, такий, що допускає кілька тлумачень. (3) context — Context — навколишній текст, що допомагає зрозуміти значення. (4) explicit — Explicit — прямо сформульований.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "inference"
+          },
+          {
+            "answer": "ambiguous"
+          },
+          {
+            "answer": "context"
+          },
+          {
+            "answer": "explicit"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the text using each word from the box once: qualify, generalisation, counterargument, nuanced. The opinion piece began with a broad (1)___ about the impact of technology on teenagers. A researcher introduced a (2)___, pointing to benefits for students with disabilities. The author then had to (3)___ the original claim rather than defend it without exceptions. The final conclusion became more (4)___ and acknowledged both strengths and risks.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) generalisation — Generalisation — широке узагальнення. (2) counterargument — Counterargument — аргумент проти початкової тези. (3) qualify — Qualify a claim — уточнити або обмежити твердження. (4) nuanced — Nuanced — такий, що враховує тонкі відмінності та винятки.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "generalisation"
+          },
+          {
+            "answer": "counterargument"
+          },
+          {
+            "answer": "qualify"
+          },
+          {
+            "answer": "nuanced"
+          }
+        ]
+      }
+    }
+  ]
+}
