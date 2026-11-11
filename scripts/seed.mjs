@@ -82,6 +82,9 @@ async function importContent(prisma) {
       const fresh = [];
       let filled = 0;
       for (const q of data.questions ?? []) {
+        // Legacy 78 hand-drawn history illustrations are under factual review.
+        // Do not reimport their 292 unverified questions until individually approved.
+        if (data.subject === "HISTORY" && typeof q.image === "string" && q.image.startsWith("/img/history/")) continue;
         const ok = typeof q.text === "string" && Array.isArray(q.options) && q.options.length >= 2 && q.options.length <= 5
           && Number.isInteger(q.correctIndex) && q.correctIndex >= 0 && q.correctIndex < q.options.length
           && typeof q.explanation === "string" && q.explanation.trim();
