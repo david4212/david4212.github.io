@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight, Images } from "lucide-react";
 import { EXTRA_MATERIALS } from "@/lib/materials-extra";
+import { MATERIALS_NMT_EXTENDED } from "@/lib/materials-nmt-extended";
 import { MATERIALS } from "@/lib/materials";
 import { SUBJECT_DETAILS, SUBJECT_ORDER, type Subject } from "@/types";
 
@@ -13,7 +14,7 @@ export default function MaterialsTabs() {
   const theme = SUBJECT_DETAILS[subject];
   const q = query.trim().toLowerCase();
 
-  const sections = [...MATERIALS[subject], ...(EXTRA_MATERIALS[subject] ?? [])]
+  const sections = [...MATERIALS[subject], ...(EXTRA_MATERIALS[subject] ?? []), ...(MATERIALS_NMT_EXTENDED[subject] ?? [])]
     .map((sec) => ({ ...sec, rows: q ? sec.rows.filter((r) => r.some((c) => c.toLowerCase().includes(q))) : sec.rows }))
     .filter((sec) => sec.rows.length > 0);
 
@@ -34,6 +35,8 @@ export default function MaterialsTabs() {
           );
         })}
       </div>
+
+      {subject === "MATH" && <a href="https://testportal.gov.ua/wp-content/uploads/2026/01/NMT-2026_matematyka_demo.pdf" target="_blank" rel="noopener noreferrer" className="mb-5 block text-sm font-semibold text-indigo-700 hover:underline">Офіційні довідкові матеріали УЦОЯО (НМТ-2026, PDF) ↗</a>}
 
       {subject === "HISTORY" && (
         <Link href="/materials/history" className="mb-5 flex items-center justify-between gap-4 p-5 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 text-white hover:shadow-lg transition group">
