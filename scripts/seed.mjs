@@ -1,7 +1,8 @@
 // Додає/оновлює офіційні теми НМТ. Безпечно запускати скільки завгодно разів:
-// нічого з питань, карток і результатів не видаляє.
+// нічого з питань, карток і результатів не видаляє (крім технічних дублів питань нових типів).
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { normalizeQuestion, questionKey, sameMeta } from "./normalize-question.mjs";
 
 // Старі тестові теми з першої версії сайту — видаляємо лише якщо вони порожні
 const OLD_PLACEHOLDERS = [
@@ -9,6 +10,12 @@ const OLD_PLACEHOLDERS = [
   "Морфологія (Іменник, Прикметник)", "Числа і вирази", "Рівняння, нерівності та їх системи",
   "Функції", "Вступ до історії України", "Київська держава (Русь-Україна)",
   "Grammar: Tenses", "Vocabulary & Word Formation",
+];
+
+// Питання, вилучені з контенту через неоднозначність (замінено новими формулюваннями)
+const RETIRED_QUESTIONS = [
+  "У якому столітті було засновано Київ (згідно з літописною традицією)?",
+  "Скільки мільйонів людей (мінімальна оцінка) загинуло під час Голодомору?",
 ];
 
 let prisma;
@@ -64,6 +71,8 @@ function listJson(dir) {
 }
 
 async function importContent(prisma) {
+  const retired = await prisma.question.deleteMany({ where: { text: { in: RETIRED_QUESTIONS } } });
+  if (retired.count) console.log(`[content] вилучено застарілих питань: ${retired.count}`);
   const root = new URL("../content", import.meta.url).pathname;
   for (const file of listJson(root)) {
     try {
@@ -77,12 +86,26 @@ async function importContent(prisma) {
         subtopicId = sub ? sub.id : (await prisma.subtopic.create({ data: { topicId: topic.id, title: data.subtopic, order: 99 } })).id;
       }
 
-      const existingQ = await prisma.question.findMany({ where: { topicId: topic.id }, select: { id: true, text: true, options: true, explanation: true, imageUrl: true } });
-      const known = new Map(existingQ.map((q) => [q.text + "\u0001" + [...q.options].sort().join("|"), q]));
+      const existingQ = await prisma.question.findMany({ where: { topicId: topic.id }, select: { id: true, text: true, options: true, explanation: true, imageUrl: true, questionType: true, metadata: true }, orderBy: { createdAt: "asc" } });
+      // Прибираємо дублі нових типів, що з'явилися через старий ключ дубліката (баг до листопада 2026); лишаємо найстарішу копію
+      const known = new Map();
+      const dupIds = [];
+      for (const q of existingQ) {
+        const k = questionKey(q);
+        if (known.has(k)) { if (q.questionType !== "single_choice") dupIds.push(q.id); continue; }
+        known.set(k, q);
+      }
+      if (dupIds.length) {
+        await prisma.question.deleteMany({ where: { id: { in: dupIds } } });
+        console.log(`[content] ${data.topic}: видалено дублів нових типів: ${dupIds.length}`);
+      }
       const VALID_TYPES = ["single_choice", "matching", "sequencing", "choose_multi", "fill_blanks", "short_answer"];
       const fresh = [];
       let filled = 0;
-      for (const q of data.questions ?? []) {
+      for (const rawQ of data.questions ?? []) {
+        const norm = normalizeQuestion(rawQ);
+        if (norm.error) { console.log(`[content] пропущено (${norm.error}): ${String(rawQ.text ?? rawQ.question).slice(0, 40)}`); continue; }
+        const q = norm.q;
         // Legacy 78 hand-drawn history illustrations are under factual review.
         // Do not reimport their 292 unverified questions until individually approved.
         if (data.subject === "HISTORY" && typeof q.image === "string" && q.image.startsWith("/img/history/")) continue;
@@ -104,17 +127,19 @@ async function importContent(prisma) {
         }
 
         if (!ok) { console.log(`[content] пропущено некоректне питання (${qType}): ${String(q.text).slice(0, 40)}`); continue; }
-        const key = q.text + "\u0001" + (q.options ? [...q.options].sort().join("|") : JSON.stringify(q.metadata ?? ""));
+        const key = questionKey(q);
         if (known.has(key)) {
           const ex = known.get(key);
+          if (!ex.id) continue; // дубль усередині контенту — уже додано
           const img = q.image ?? null;
-          if (ex.explanation !== q.explanation || (ex.imageUrl ?? null) !== img) {
+          const metaChanged = qType !== "single_choice" && (!sameMeta(ex.metadata, q.metadata) || [...(ex.options ?? [])].join("|") !== [...(q.options ?? [])].join("|"));
+          if (ex.explanation !== q.explanation || (ex.imageUrl ?? null) !== img || metaChanged) {
             await prisma.question.update({ where: { id: ex.id }, data: { options: q.options ?? [], correctIndex: q.correctIndex ?? 0, explanation: q.explanation, imageUrl: img, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1, questionType: qType, metadata: q.metadata ?? null } });
             filled++;
           }
           continue;
         }
-        known.set(key, { id: null, explanation: q.explanation, imageUrl: q.image ?? null });
+        known.set(key, { id: null, explanation: q.explanation, imageUrl: q.image ?? null, metadata: q.metadata, options: q.options });
         fresh.push({ text: q.text, options: q.options ?? [], correctIndex: q.correctIndex ?? 0, explanation: q.explanation, imageUrl: q.image ?? null, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1, questionType: qType, metadata: q.metadata ?? null, topicId: topic.id, subtopicId });
       }
       if (fresh.length) await prisma.question.createMany({ data: fresh });

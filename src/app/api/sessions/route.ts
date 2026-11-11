@@ -80,7 +80,7 @@ export async function PATCH(req: Request) {
       // single_choice: number; matching/sequencing/choose_multi: number[]; fill_blanks: string[]; short_answer: string
       if (typeof v === "number" && Number.isInteger(v) && v >= 0 && v < 10) { clean[k] = v; continue; }
       if (typeof v === "string" && v.length <= 200) { clean[k] = v; continue; }
-      if (Array.isArray(v) && v.length <= 20) { clean[k] = v; continue; }
+      if (Array.isArray(v) && v.length <= 20 && v.every((x) => (Number.isInteger(x) && x >= -1 && x < 20) || (typeof x === "string" && x.length <= 100))) { clean[k] = v; continue; }
     }
   }
   const currentIdx = Math.min(Math.max(Number(body?.currentIdx) || 0, 0), s.questionIds.length - 1);

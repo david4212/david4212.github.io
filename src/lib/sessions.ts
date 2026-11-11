@@ -83,10 +83,10 @@ export async function buildQuestionIds(kind: Kind, difficulty: ProbnikDifficulty
 /** Максимальна кількість балів за питання (як на НМТ). */
 export function maxPoints(subject: Subject, qType: string, meta: any): number {
   if (qType === "matching") return meta?.pairs?.length ?? 1;
-  if (qType === "sequencing") return Math.min(3, Math.max(1, (meta?.items?.length ?? 2) - 1));
+  if (qType === "sequencing") return 3;
   if (qType === "choose_multi") return meta?.requiredCount ?? 3;
   if (qType === "fill_blanks") return meta?.blanks?.length ?? 1;
-  if (qType === "short_answer") return subject === "MATH" ? 2 : 1;
+  if (qType === "short_answer") return 2;
   return 1;
 }
 
@@ -134,9 +134,13 @@ export async function finishSession(sessionId: string, userId: string) {
         // пари в БД записані у правильній відповідності: лівий i ↔ правий i; 1 бал за кожну пару
         points = meta.pairs.reduce((n: number, _: unknown, i: number) => n + (ans[i] === i ? 1 : 0), 0);
       } else if (qType === "sequencing" && Array.isArray(ans) && Array.isArray(meta?.correctOrder)) {
-        const right = meta.correctOrder.reduce((n: number, v: number, i: number) => n + (ans[i] === v ? 1 : 0), 0);
-        points = right === meta.correctOrder.length ? max : Math.min(max, right);
-        if (right < meta.correctOrder.length) points = Math.min(points, max - 1);
+        // Правило УЦОЯО: 3 — увесь порядок; 2 — перша й остання на місцях; 1 — лише перша або лише остання
+        const co: number[] = meta.correctOrder;
+        const last = co.length - 1;
+        const all = co.every((v, i) => ans[i] === v);
+        const first = ans[0] === co[0];
+        const end = ans[last] === co[last];
+        points = all ? 3 : first && end ? 2 : first || end ? 1 : 0;
       } else if (qType === "choose_multi" && Array.isArray(ans) && Array.isArray(meta?.correctIndices)) {
         points = Math.min(max, new Set(ans.filter((v: number) => meta.correctIndices.includes(v))).size);
       } else if (qType === "fill_blanks" && Array.isArray(ans) && Array.isArray(meta?.blanks)) {
@@ -147,9 +151,15 @@ export async function finishSession(sessionId: string, userId: string) {
       } else if (qType === "short_answer" && (typeof ans === "string" || typeof ans === "number") && meta?.answer !== undefined) {
         const userVal = String(ans).trim();
         let ok: boolean;
-        if (typeof meta.answer === "number") {
-          const num = parseFloat(userVal.replace(",", "."));
-          ok = !isNaN(num) && Math.abs(num - meta.answer) <= (meta.tolerance ?? 1e-9);
+        // кома й крапка рівноцінні, пробіли ігноруються, «−» = «-»
+        const toNum = (v: unknown) => {
+          const t = String(v ?? "").replace(/\s+/g, "").replace(/[−–—]/g, "-").replace(",", ".");
+          return /^[-+]?(\d+\.?\d*|\.\d+)$/.test(t) ? Number(t) : NaN;
+        };
+        const expected = typeof meta.answer === "number" ? meta.answer : toNum(meta.answer);
+        if (!isNaN(expected)) {
+          const num = toNum(userVal);
+          ok = !isNaN(num) && Math.abs(num - expected) <= (meta.tolerance ?? 1e-9);
         } else ok = norm(userVal) === norm(meta.answer);
         points = ok ? max : 0;
       }

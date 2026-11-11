@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
-import { ArrowUp, ArrowDown, GripVertical } from "lucide-react";
+import { useState, useCallback, useMemo } from "react";
 import type { QuestionType, MatchingMeta, SequencingMeta, ChooseMultiMeta, FillBlanksMeta } from "@/types";
 
 /* ────── answer format per type ──────
@@ -42,64 +41,103 @@ function SingleChoice({ options, answer, onChange }: { options: string[]; answer
   );
 }
 
+/* ═══════ Спільна сітка «рядки × літери» як у бланку НМТ ═══════ */
+function AnswerGrid({ rows, cols, value, onPick }: { rows: string[]; cols: number; value: number[]; onPick: (row: number, col: number) => void }) {
+  return (
+    <div className="overflow-x-auto">
+      <table className="mx-auto border-separate border-spacing-1">
+        <thead>
+          <tr>
+            <th />
+            {Array.from({ length: cols }, (_, c) => (
+              <th key={c} className="w-10 text-center text-sm font-bold text-slate-500">{LETTERS[c]}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((label, r) => (
+            <tr key={r}>
+              <th className="pr-2 text-right text-sm font-bold text-slate-500 whitespace-nowrap">{label}</th>
+              {Array.from({ length: cols }, (_, c) => {
+                const on = value[r] === c;
+                return (
+                  <td key={c}>
+                    <button
+                      type="button"
+                      aria-label={`${label} — ${LETTERS[c]}`}
+                      aria-pressed={on}
+                      onClick={() => onPick(r, c)}
+                      className={`w-10 h-10 rounded-lg border-2 transition flex items-center justify-center ${on ? "bg-indigo-600 border-indigo-600 text-white" : "bg-white border-slate-300 hover:border-indigo-400"}`}
+                    >
+                      {on && <span className="text-sm font-bold">✕</span>}
+                    </button>
+                  </td>
+                );
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+// У кожному стовпчику може бути лише одна позначка (як у бланку НМТ)
+const pickUnique = (cur: number[], row: number, col: number) => {
+  const next = cur.map((v) => (v === col ? -1 : v));
+  next[row] = cur[row] === col ? -1 : col;
+  return next;
+};
+
 /* ═══════ MATCHING ═══════ */
 function Matching({ metadata, answer, onChange }: { metadata: MatchingMeta; answer: number[] | undefined; onChange: (v: number[]) => void }) {
   const pairs = metadata.pairs;
-  const leftItems = pairs.map(p => p[0]);
+  const leftItems = pairs.map((p) => p[0]);
   // Права колонка: правильні відповіді + зайві варіанти (як А–Д на НМТ); індекс ≥ pairs.length — дистрактор
-  const rightItems = [...pairs.map(p => p[1]), ...(metadata.distractors ?? [])];
-  // Shuffled right side (stable via metadata — but we shuffle once)
+  const rightItems = [...pairs.map((p) => p[1]), ...(metadata.distractors ?? [])];
   const [shuffledRight] = useState(() => {
-    const indices = rightItems.map((_, i) => i);
-    for (let i = indices.length - 1; i > 0; i--) {
+    const idx = rightItems.map((_, i) => i);
+    for (let i = idx.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [indices[i], indices[j]] = [indices[j], indices[i]];
+      [idx[i], idx[j]] = [idx[j], idx[i]];
     }
-    return indices;
+    return idx;
   });
+  // answer[i] — початковий індекс правого варіанта; у сітці зберігаємо позицію літери
   const current = answer ?? leftItems.map(() => -1);
-  const [activeLeft, setActiveLeft] = useState<number | null>(null);
-
-  const handleRightClick = useCallback((rightOrigIdx: number) => {
-    if (activeLeft === null) return;
-    const next = [...current];
-    // Clear any previous assignment of this right item
-    const prevLeft = next.indexOf(rightOrigIdx);
-    if (prevLeft !== -1) next[prevLeft] = -1;
-    next[activeLeft] = rightOrigIdx;
-    setActiveLeft(null);
-    onChange(next);
-  }, [activeLeft, current, onChange]);
+  const asCols = current.map((orig) => (orig < 0 ? -1 : shuffledRight.indexOf(orig)));
+  const L = metadata.leftLabels?.[0];
+  const R = metadata.rightLabels?.[0];
 
   return (
     <div className="space-y-4">
-      <p className="text-sm text-slate-500">Натисни ліву частину, потім праву, щоб з&apos;єднати пару</p>
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid sm:grid-cols-2 gap-4">
         <div className="space-y-2">
-          {leftItems.map((item, i) => {
-            const isActive = activeLeft === i;
-            const matched = current[i] !== -1;
-            return (
-              <button key={i} onClick={() => setActiveLeft(i)} className={`w-full text-left px-3 py-2.5 rounded-xl border text-sm transition ${isActive ? "bg-indigo-100 border-indigo-400 ring-2 ring-indigo-300" : matched ? "bg-emerald-50 border-emerald-300" : "bg-slate-50 border-slate-200 hover:border-indigo-200"}`}>
-                <span className="font-bold text-slate-400 mr-2">{i + 1}.</span>
-                {item}
-                {matched && <span className="float-right text-emerald-600 text-xs font-bold">→ {LETTERS[shuffledRight.indexOf(current[i])]}</span>}
-              </button>
-            );
-          })}
+          {L && <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">{L}</p>}
+          {leftItems.map((item, i) => (
+            <div key={i} className="flex gap-2 px-3 py-2 rounded-xl bg-slate-50 border border-slate-200 text-sm">
+              <span className="font-bold text-indigo-500">{i + 1}</span>
+              <span>{item}</span>
+            </div>
+          ))}
         </div>
         <div className="space-y-2">
-          {shuffledRight.map((origIdx, dispIdx) => {
-            const used = current.includes(origIdx);
-            return (
-              <button key={dispIdx} onClick={() => handleRightClick(origIdx)} className={`w-full text-left px-3 py-2.5 rounded-xl border text-sm transition ${used ? "bg-emerald-50 border-emerald-300 opacity-60" : activeLeft !== null ? "bg-white border-indigo-200 hover:bg-indigo-50 cursor-pointer" : "bg-slate-50 border-slate-200"}`}>
-                <span className="font-bold text-slate-400 mr-2">{LETTERS[dispIdx]}</span>
-                {rightItems[origIdx]}
-              </button>
-            );
-          })}
+          {R && <p className="text-xs font-semibold uppercase tracking-wide text-slate-400">{R}</p>}
+          {shuffledRight.map((orig, d) => (
+            <div key={d} className="flex gap-2 px-3 py-2 rounded-xl bg-slate-50 border border-slate-200 text-sm">
+              <span className="font-bold text-indigo-500">{LETTERS[d]}</span>
+              <span>{rightItems[orig]}</span>
+            </div>
+          ))}
         </div>
       </div>
+      <p className="text-sm text-slate-500 text-center">Познач відповідність у таблиці: рядок — цифра, стовпчик — літера</p>
+      <AnswerGrid
+        rows={leftItems.map((_, i) => String(i + 1))}
+        cols={rightItems.length}
+        value={asCols}
+        onPick={(r, c) => onChange(pickUnique(asCols, r, c).map((col) => (col < 0 ? -1 : shuffledRight[col])))}
+      />
     </div>
   );
 }
@@ -107,37 +145,20 @@ function Matching({ metadata, answer, onChange }: { metadata: MatchingMeta; answ
 /* ═══════ SEQUENCING ═══════ */
 function Sequencing({ metadata, answer, onChange }: { metadata: SequencingMeta; answer: number[] | undefined; onChange: (v: number[]) => void }) {
   const items = metadata.items;
-  // Start with shuffled order
-  const [initial] = useState(() => {
-    const arr = items.map((_, i) => i);
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
-  });
-  const order = answer ?? initial;
-
-  const move = useCallback((from: number, dir: -1 | 1) => {
-    const to = from + dir;
-    if (to < 0 || to >= order.length) return;
-    const next = [...order];
-    [next[from], next[to]] = [next[to], next[from]];
-    onChange(next);
-  }, [order, onChange]);
-
+  // answer[pos] — індекс події (літери), яку учень поставив на позицію pos
+  const current = answer ?? items.map(() => -1);
   return (
-    <div className="space-y-2">
-      <p className="text-sm text-slate-500">Розташуй у правильній послідовності (використовуй стрілки)</p>
-      {order.map((itemIdx, pos) => (
-        <div key={itemIdx} className="flex items-center gap-2 px-3 py-2.5 rounded-xl border bg-white border-slate-200 shadow-sm">
-          <GripVertical className="w-4 h-4 text-slate-300 flex-shrink-0" />
-          <span className="font-bold text-indigo-500 mr-1">{pos + 1}.</span>
-          <span className="flex-1 text-sm">{items[itemIdx]}</span>
-          <button onClick={() => move(pos, -1)} disabled={pos === 0} className="p-1 rounded hover:bg-slate-100 disabled:opacity-30"><ArrowUp className="w-4 h-4" /></button>
-          <button onClick={() => move(pos, 1)} disabled={pos === order.length - 1} className="p-1 rounded hover:bg-slate-100 disabled:opacity-30"><ArrowDown className="w-4 h-4" /></button>
-        </div>
-      ))}
+    <div className="space-y-4">
+      <div className="space-y-2">
+        {items.map((item, i) => (
+          <div key={i} className="flex gap-2 px-3 py-2 rounded-xl bg-slate-50 border border-slate-200 text-sm">
+            <span className="font-bold text-indigo-500">{LETTERS[i]}</span>
+            <span>{item}</span>
+          </div>
+        ))}
+      </div>
+      <p className="text-sm text-slate-500 text-center">Для кожної позиції (1 — найраніша) познач літеру події</p>
+      <AnswerGrid rows={items.map((_, i) => `${i + 1}`)} cols={items.length} value={current} onPick={(r, c) => onChange(pickUnique(current, r, c))} />
     </div>
   );
 }
@@ -145,14 +166,14 @@ function Sequencing({ metadata, answer, onChange }: { metadata: SequencingMeta; 
 /* ═══════ CHOOSE MULTI (3 of 7) ═══════ */
 function ChooseMulti({ options, metadata, answer, onChange }: { options: string[]; metadata: ChooseMultiMeta; answer: number[] | undefined; onChange: (v: number[]) => void }) {
   const required = metadata.requiredCount;
-  const selected = answer ?? [];
+  const selected = useMemo(() => answer ?? [], [answer]);
 
   const toggle = useCallback((idx: number) => {
     let next: number[];
     if (selected.includes(idx)) {
-      next = selected.filter(x => x !== idx);
+      next = selected.filter((x) => x !== idx);
     } else {
-      if (selected.length >= required) return; // max reached
+      if (selected.length >= required) return; // після 3-го вибору решта блокується
       next = [...selected, idx].sort((a, b) => a - b);
     }
     onChange(next);
@@ -165,9 +186,9 @@ function ChooseMulti({ options, metadata, answer, onChange }: { options: string[
         const isSelected = selected.includes(i);
         const maxReached = selected.length >= required && !isSelected;
         return (
-          <button key={i} onClick={() => toggle(i)} disabled={maxReached} className={`w-full text-left px-4 py-3 rounded-xl border transition flex gap-3 ${isSelected ? "bg-indigo-600 text-white border-indigo-600 shadow-md" : maxReached ? "bg-slate-100 border-slate-200 opacity-50 cursor-not-allowed" : "bg-slate-50 border-slate-200 hover:bg-white hover:border-indigo-300"}`}>
-            <span className={`w-5 h-5 rounded border-2 flex items-center justify-center flex-shrink-0 mt-0.5 ${isSelected ? "bg-white border-white" : "border-slate-300"}`}>
-              {isSelected && <span className="text-indigo-600 text-xs font-bold">✓</span>}
+          <button key={i} type="button" role="checkbox" aria-checked={isSelected} onClick={() => toggle(i)} disabled={maxReached} className={`w-full text-left px-4 py-3 rounded-xl border transition flex gap-3 items-start ${isSelected ? "bg-indigo-600 text-white border-indigo-600 shadow-md" : maxReached ? "bg-slate-100 border-slate-200 opacity-50 cursor-not-allowed" : "bg-slate-50 border-slate-200 hover:bg-white hover:border-indigo-300"}`}>
+            <span className={`w-6 h-6 rounded border-2 flex items-center justify-center flex-shrink-0 text-xs font-bold ${isSelected ? "bg-white border-white text-indigo-600" : "border-slate-300 text-slate-500"}`}>
+              {isSelected ? "✓" : i + 1}
             </span>
             <span>{opt}</span>
           </button>
@@ -212,13 +233,15 @@ function FillBlanks({ metadata, answer, onChange }: { metadata: FillBlanksMeta; 
 function ShortAnswer({ answer, onChange }: { answer: string | undefined; onChange: (v: string) => void }) {
   return (
     <div className="space-y-2">
-      <p className="text-sm text-slate-500">Введи відповідь (число або текст)</p>
+      <p className="text-sm text-slate-500">Запиши відповідь числом (десятковий дріб — через кому або крапку)</p>
       <input
         type="text"
+        inputMode="decimal"
+        autoComplete="off"
         value={answer ?? ""}
-        onChange={(e) => onChange(e.target.value)}
-        placeholder="Твоя відповідь…"
-        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:border-indigo-400 focus:ring-2 focus:ring-indigo-200 outline-none text-base transition"
+        onChange={(e) => onChange(e.target.value.replace(/[^0-9.,\-−\s/]/g, "").slice(0, 30))}
+        placeholder="Наприклад: −3,5"
+        className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:border-indigo-400 focus:ring-2 focus:ring-indigo-200 outline-none text-lg font-mono transition"
       />
     </div>
   );

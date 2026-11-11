@@ -1,6 +1,7 @@
 // Перевірка файлів content/: node scripts/validate-content.mjs
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { normalizeQuestion, questionKey } from "./normalize-question.mjs";
 
 const root = new URL("../content", import.meta.url).pathname;
 const files = [];
@@ -20,9 +21,12 @@ for (const f of files) {
   if (!seenTopic.has(tk)) seenTopic.set(tk, new Set());
   const seen = seenTopic.get(tk);
   if (!perTopic.has(tk)) perTopic.set(tk, [0, 0, 0]);
-  d.questions.forEach((q, i) => {
+  d.questions.forEach((q0, i) => {
     total++;
     const err = (m) => { bad++; console.log(`✗ ${f.split("/").pop()} #${i + 1}: ${m}`); };
+    const nq = normalizeQuestion(q0);
+    if (nq.error) { err(nq.error); return; }
+    const q = nq.q;
     if (!q.text) err("немає тексту");
     if (q.image) {
       const p = new URL("../public" + q.image, import.meta.url).pathname;
@@ -31,7 +35,7 @@ for (const f of files) {
     if ([1, 2, 3].includes(q.testLevel)) perTopic.get(tk)[q.testLevel - 1]++;
     const qt = q.questionType || "single_choice";
     const m = q.metadata || {};
-    const key = q.text + "\u0001" + (qt === "single_choice" ? [...(q.options || [])].sort().join("|") : JSON.stringify(m));
+    const key = questionKey(q);
     if (seen.has(key)) err("дубль");
     seen.add(key);
     if (![1, 2, 3].includes(q.testLevel)) err("testLevel");

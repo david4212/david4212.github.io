@@ -7,7 +7,7 @@ import { ChevronLeft, ChevronRight, Clock, Lightbulb, Zap, Shield, Flame } from 
 import ZoomImage from "@/components/shared/ZoomImage";
 import LoginPrompt from "@/components/shared/LoginPrompt";
 import QuestionRenderer, { type FlexAnswer } from "@/components/session/QuestionRenderer";
-import { SUBJECT_DETAILS, SUBJECT_ORDER, NMT_CONFIG, DIFFICULTY_LABELS, type Subject, type ProbnikDifficulty, type QuestionType } from "@/types";
+import { SUBJECT_DETAILS, SUBJECT_ORDER, NMT_CONFIG, nmtQuestionCount, DIFFICULTY_LABELS, type Subject, type ProbnikDifficulty, type QuestionType } from "@/types";
 
 const LETTERS = ["А", "Б", "В", "Г", "Д"];
 
@@ -173,12 +173,12 @@ export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATI
                 return (
                   <div key={s} className="flex justify-between px-3 py-2 rounded-xl bg-white border border-slate-100">
                     <span className={`font-medium ${th.text}`}>{th.title}</span>
-                    <span className="text-slate-500">{cfg.questions} питань</span>
+                    <span className="text-slate-500">{nmtQuestionCount(s)} питань · {cfg.maxRaw} б.</span>
                   </div>
                 );
               })}
             </div>
-            <p className="mt-2 text-xs text-slate-500">Загалом 114 питань · 4 години · Шкала 100–200</p>
+            <p className="mt-2 text-xs text-slate-500">Загалом {SUBJECT_ORDER.reduce((n, s) => n + nmtQuestionCount(s), 0)} питань · 4 години · Шкала 100–200</p>
           </div>
         )}
 

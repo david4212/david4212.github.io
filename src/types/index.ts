@@ -89,8 +89,11 @@ export const NMT_STRUCTURE: Record<Subject, Partial<Record<QuestionType, number>
   UKRAINIAN: { single_choice: 25, matching: 5 },                                // 25 + 5×4 = 45
   MATH:      { single_choice: 15, matching: 3, short_answer: 4 },               // 15 + 3×3 + 4×2 = 32
   HISTORY:   { single_choice: 20, matching: 4, sequencing: 3, choose_multi: 3 }, // 20 + 16 + 9 + 9 = 54
-  ENGLISH:   { single_choice: 24, matching: 4, fill_blanks: 4 },
+  ENGLISH:   { single_choice: 16, matching: 4 },                                // 5 + 11 (gap-fill) + 4×4 = 32
 };
+
+/** Кількість питань пробника за предметом (питання на відповідність = одне питання з кількома парами). */
+export const nmtQuestionCount = (s: Subject) => Object.values(NMT_STRUCTURE[s]).reduce((n, v) => n + (v ?? 0), 0);
 
 export const NMT_TOTAL_QUESTIONS = Object.values(NMT_CONFIG).reduce((s, c) => s + c.questions, 0); // 114
 
