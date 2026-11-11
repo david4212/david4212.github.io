@@ -42,20 +42,21 @@ function getNote(item:VisualItem):MapNote|null{
  const key=item.src.split("/").pop()?.replace(/\.svg$/,"")||"";
  return HISTORY_MAP_NOTES[key]||null;
 }
-function ImageWithFallback({src,title,large=false}:{src:string;title:string;large?:boolean}) {
- const [failed,setFailed]=useState(false);
- if(failed)return <div className="w-full min-h-48 p-6 flex flex-col items-center justify-center gap-2 bg-slate-100 text-center text-slate-600">
-  <Images size={26} className="text-slate-400" /><strong className="text-sm">Фото тимчасово недоступне</strong>
-  <span className="text-xs">Не показуємо зламане посилання. Назву та пояснення можна вивчити нижче.</span>
+function ImageWithFallback({src,title,large=false,fallbacks=[]}:{src:string;title:string;large?:boolean;fallbacks?:string[]}) {
+ const [failedIndex,setFailedIndex]=useState(0);
+ const candidates=[...new Set([src,...fallbacks])];
+ if(failedIndex>=candidates.length)return <div role="img" aria-label={title} className="w-full min-h-48 p-6 flex flex-col items-center justify-center gap-2 bg-slate-100 text-center text-slate-600">
+  <Images size={26} className="text-slate-400"/><strong className="text-sm">Зображення недоступне</strong>
+  <span className="text-xs">Усі ракурси із джерела тимчасово не завантажуються. Назва й опис доступні нижче.</span>
  </div>;
- return <img src={src} alt={title} loading={large?"eager":"lazy"} onError={()=>setFailed(true)}
+ return <img src={candidates[failedIndex]} alt={title} loading={large?"eager":"lazy"} onError={()=>setFailedIndex(i=>i+1)}
   className={large?"max-h-[72vh] w-full object-contain":"w-full h-56 object-contain p-3 transition-transform duration-300 group-hover:scale-[1.03]"} />;
 }
 function PhotoCard({item,index,quiz,revealed,onReveal,onOpen}:{item:HistoryPhoto;index:number;quiz:boolean;revealed:boolean;onReveal:()=>void;onOpen:()=>void}){
  const isVisible=!quiz||revealed;
  return <article className="rounded-3xl bg-white border border-slate-200 shadow-sm overflow-hidden hover:shadow-lg transition-shadow flex flex-col">
    <button type="button" onClick={onOpen} aria-label={`Збільшити фото: ${item.title}`} className="group relative w-full bg-gradient-to-br from-slate-50 to-amber-50/40 min-h-56 grid place-items-center">
-     <ImageWithFallback src={item.src} title={item.title}/>
+     <ImageWithFallback src={item.src} title={item.title} fallbacks={item.views}/>
      <span className="absolute right-3 bottom-3 rounded-full bg-white/90 px-3 py-1.5 shadow text-xs font-bold text-slate-600 flex items-center gap-1"><Maximize2 size={13}/> Збільшити</span>
    </button>
    <div className="p-4 sm:p-5 flex-1 flex flex-col">
@@ -157,6 +158,7 @@ export default function HistoryAtlas(){
  const [tab,setTab]=useState<Tab>("figures");
  const [query,setQuery]=useState("");
  const [period,setPeriod]=useState("all");
+ const [artGroup,setArtGroup]=useState("all");
  const [quiz,setQuiz]=useState(false);
  const [revealed,setRevealed]=useState<string[]>([]);
  const [opened,setOpened]=useState<OpenVisual|null>(null);
@@ -165,7 +167,7 @@ export default function HistoryAtlas(){
  const photoItems=useMemo(()=>[
    ...HISTORY_PHOTOS.filter(item=>tab==="figures"?item.category==="figures":tab==="art"?item.category==="art":item.category==="cinema"),
    ...(tab==="art"?HISTORY_ARCHITECTURE:[]),
- ].filter(item=>(`${item.title} ${item.group} ${item.description} ${item.recognition||""}`).toLocaleLowerCase("uk").includes(q)),[tab,q]);
+ ].filter(item=>(tab!=="art"||artGroup==="all"||(artGroup==="art"?item.category==="art":item.group===artGroup))&&(`${item.title} ${item.group} ${item.description} ${item.recognition||""}`).toLocaleLowerCase("uk").includes(q)),[tab,q,artGroup]);
  const mapItems=useMemo(()=>HISTORY_VISUALS.filter(item=>{
    const n=getNote(item);
    if(!n)return false;
@@ -202,6 +204,14 @@ export default function HistoryAtlas(){
        <Search size={18} className="absolute left-3 top-3 text-slate-400"/>
        <input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Пошук імен, дат, назв, міст…" className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-10 pr-3 focus:outline-none focus:ring-2 focus:ring-orange-400"/>
      </label>
+     {tab==="art"&&<select value={artGroup} onChange={e=>setArtGroup(e.target.value)} aria-label="Вид архітектури чи мистецтва"
+       className="rounded-xl border border-slate-200 bg-slate-50 py-2.5 px-3 text-sm text-slate-700 max-w-full">
+       <option value="all">Усі пам'ятки й мистецтво</option>
+       <option value="Культові споруди">Культові споруди · 26</option>
+       <option value="Фортифікаційні споруди">Фортифікації · 8</option>
+       <option value="Світські споруди та містобудування">Світські будівлі · 10</option>
+       <option value="art">Картини й графіка</option>
+     </select>}
      {tab==="maps"&&<select value={period} onChange={e=>setPeriod(e.target.value)} aria-label="Історичний період"
        className="rounded-xl border border-slate-200 bg-slate-50 py-2.5 px-3 text-sm text-slate-700 max-w-full">
        {PERIODS.map(p=><option key={p.value} value={p.value}>{p.label}</option>)}
@@ -236,7 +246,7 @@ export default function HistoryAtlas(){
        <div className="overflow-y-auto min-h-0 grid grid-cols-1 md:grid-cols-2">
          <div className="bg-gradient-to-br from-[#e7e9e2] to-[#e6ddcd] p-5 sm:p-8 flex flex-col items-center justify-center min-h-[260px] md:min-h-[450px]">
            <div className="w-full max-w-lg rounded-2xl bg-white/70 p-3 sm:p-5 border border-[#cdbfa4] shadow-lg">
-             <ImageWithFallback key={opened.src} src={opened.src} title={opened.title} large/>
+             <ImageWithFallback key={opened.src} src={opened.src} title={opened.title} large fallbacks={opened.views}/>
            </div>
            {opened.views&&opened.views.length>1&&<div className="mt-4 flex flex-wrap justify-center gap-2">
              {opened.views.map((src,i)=><button key={src} type="button" onClick={()=>setOpened(current=>current?{...current,src}:current)}
