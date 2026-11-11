@@ -1,5 +1,6 @@
 import prisma from "@/lib/prisma";
 import { kyivDate } from "@/lib/kyiv";
+import { isUnverifiedHistoryQuestion, verifiedQuestionWhere } from "@/lib/history-review";
 
 const MIN_ANSWERS = 5;
 
@@ -7,7 +8,11 @@ const MIN_ANSWERS = 5;
 // Якщо статистики ще немає — випадкове. Результат кешується в DailyQuestion на добу.
 export async function getDailyQuestionId(date = kyivDate()): Promise<string | null> {
   const existing = await prisma.dailyQuestion.findUnique({ where: { date } });
-  if (existing) return existing.questionId;
+  if (existing) {
+    const q = await prisma.question.findUnique({ where: { id: existing.questionId }, select: { imageUrl: true } });
+    // Do not show an already-cached daily question if its historical illustration is under review.
+    return q && !isUnverifiedHistoryQuestion(q.imageUrl) ? existing.questionId : null;
+  }
 
   const used = (await prisma.dailyQuestion.findMany({ orderBy: { date: "desc" }, take: 60, select: { questionId: true } })).map((d) => d.questionId);
 
@@ -21,10 +26,15 @@ export async function getDailyQuestionId(date = kyivDate()): Promise<string | nu
     .map((t) => ({ id: t.questionId, rate: (okMap.get(t.questionId) ?? 0) / t._count._all }))
     .sort((a, b) => a.rate - b.rate)[0];
 
-  let questionId = trap?.id ?? null;
+  // Trap questions also go through the same review guard as ordinary quizzes.
+  const safeTrap = trap ? await prisma.question.findFirst({
+    where: { id: trap.id, ...verifiedQuestionWhere },
+    select: { id: true },
+  }) : null;
+  let questionId = safeTrap?.id ?? null;
   if (!questionId) {
-    const all = await prisma.question.findMany({ where: { id: { notIn: used } }, select: { id: true } });
-    const pool = all.length ? all : await prisma.question.findMany({ select: { id: true } });
+    const all = await prisma.question.findMany({ where: { id: { notIn: used }, ...verifiedQuestionWhere }, select: { id: true } });
+    const pool = all.length ? all : await prisma.question.findMany({ where: verifiedQuestionWhere, select: { id: true } });
     if (pool.length === 0) return null;
     questionId = pool[Math.floor(Math.random() * pool.length)].id;
   }
