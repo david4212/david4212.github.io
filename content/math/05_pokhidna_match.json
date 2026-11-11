@@ -1,0 +1,211 @@
+{
+  "subject": "MATH",
+  "topic": "Елементи математичного аналізу (похідна та інтеграл)",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Установіть відповідність між функцією (1–3) та її похідною (А–Д).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: y = x³ — 3x²; y = sin x — cos x; y = eˣ — eˣ.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "y = x³",
+            "3x²"
+          ],
+          [
+            "y = sin x",
+            "cos x"
+          ],
+          [
+            "y = eˣ",
+            "eˣ"
+          ]
+        ],
+        "leftLabels": [
+          "Умова"
+        ],
+        "rightLabels": [
+          "Відповідь"
+        ],
+        "distractors": [
+          "−cos x",
+          "x²"
+        ]
+      }
+    },
+    {
+      "text": "Установіть відповідність між функцією (1–3) та її первісною (А–Д).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: f(x) = 2x — x² + C; f(x) = cos x — sin x + C; f(x) = 1/x, x > 0 — ln x + C.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "f(x) = 2x",
+            "x² + C"
+          ],
+          [
+            "f(x) = cos x",
+            "sin x + C"
+          ],
+          [
+            "f(x) = 1/x, x > 0",
+            "ln x + C"
+          ]
+        ],
+        "leftLabels": [
+          "Умова"
+        ],
+        "rightLabels": [
+          "Відповідь"
+        ],
+        "distractors": [
+          "−sin x + C",
+          "2x² + C"
+        ]
+      }
+    },
+    {
+      "text": "Установіть відповідність між функцією (1–3) та значенням її похідної в точці x₀ = 1 (А–Д).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: f(x) = x⁴ — 4; f(x) = 3x² − 5x — 1; f(x) = √x — 1/2. f'(x) = 4x³; f'(x) = 6x − 5; f'(x) = 1/(2√x).",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "f(x) = x⁴",
+            "4"
+          ],
+          [
+            "f(x) = 3x² − 5x",
+            "1"
+          ],
+          [
+            "f(x) = √x",
+            "1/2"
+          ]
+        ],
+        "leftLabels": [
+          "Умова"
+        ],
+        "rightLabels": [
+          "Відповідь"
+        ],
+        "distractors": [
+          "2",
+          "0"
+        ]
+      }
+    },
+    {
+      "text": "Установіть відповідність між інтегралом (1–3) та його значенням (А–Д).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: ∫₀² x dx — 2; ∫₀¹ 3x² dx — 1; ∫₁³ 2x dx — 8. x²/2 від 0 до 2 = 2; x³ від 0 до 1 = 1; x² від 1 до 3 = 9 − 1 = 8.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "∫₀² x dx",
+            "2"
+          ],
+          [
+            "∫₀¹ 3x² dx",
+            "1"
+          ],
+          [
+            "∫₁³ 2x dx",
+            "8"
+          ]
+        ],
+        "leftLabels": [
+          "Умова"
+        ],
+        "rightLabels": [
+          "Відповідь"
+        ],
+        "distractors": [
+          "4",
+          "3"
+        ]
+      }
+    },
+    {
+      "text": "Установіть відповідність між функцією (1–3) та її точкою мінімуму (А–Д).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: f(x) = x² − 6x — 3; f(x) = x³ − 3x — 1; f(x) = x · eˣ — −1. f'(x) = 2x − 6; f'(x) = 3x² − 3 (мінімум у 1, максимум у −1); f'(x) = eˣ(x + 1).",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "f(x) = x² − 6x",
+            "3"
+          ],
+          [
+            "f(x) = x³ − 3x",
+            "1"
+          ],
+          [
+            "f(x) = x · eˣ",
+            "−1"
+          ]
+        ],
+        "leftLabels": [
+          "Умова"
+        ],
+        "rightLabels": [
+          "Відповідь"
+        ],
+        "distractors": [
+          "0",
+          "−3"
+        ]
+      }
+    },
+    {
+      "text": "Установіть відповідність між задачею (1–3) та відповіддю до неї (А–Д).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Кутовий коефіцієнт дотичної до y = x² + 3x у точці x₀ = 1 — 5; Площа фігури, обмеженої y = x², y = 0 і x = 3 — 9; Швидкість точки, що рухається за законом s(t) = t³ − 2t, у момент t = 2 — 10. y' = 2x + 3; ∫₀³ x² dx = 9; v = s' = 3t² − 2.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Кутовий коефіцієнт дотичної до y = x² + 3x у точці x₀ = 1",
+            "5"
+          ],
+          [
+            "Площа фігури, обмеженої y = x², y = 0 і x = 3",
+            "9"
+          ],
+          [
+            "Швидкість точки, що рухається за законом s(t) = t³ − 2t, у момент t = 2",
+            "10"
+          ]
+        ],
+        "leftLabels": [
+          "Умова"
+        ],
+        "rightLabels": [
+          "Відповідь"
+        ],
+        "distractors": [
+          "6",
+          "4"
+        ]
+      }
+    }
+  ]
+}
