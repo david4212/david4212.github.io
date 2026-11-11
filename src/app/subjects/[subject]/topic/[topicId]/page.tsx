@@ -42,6 +42,14 @@ export default async function TopicPage({
   });
   const countByLevel = new Map<number, number>(perLevel.map((r) => [r.testLevel, r._count._all] as [number, number]));
 
+  // До кнопок практики зараховуються лише перевірені питання.
+  const vettedSubtopicCounts = await prisma.question.groupBy({
+    by: ["subtopicId"],
+    where: { topicId: topic.id, ...verifiedQuestionWhere },
+    _count: { _all: true },
+  });
+  const safeSubtopicCount = new Map(vettedSubtopicCounts.filter((r) => r.subtopicId !== null).map((r) => [r.subtopicId as string, r._count._all]));
+
   const levelStats = (await getLevelStats(userId, [topic.id])).get(topic.id);
   const subStats = await getSubtopicStats(userId, topic.subtopics.map((u) => u.id));
 
@@ -153,10 +161,10 @@ export default async function TopicPage({
               );
             })}
           </div>
-          {selected && selected._count.questions > 0 && (
+          {selected && (safeSubtopicCount.get(selected.id) ?? 0) > 0 && (
             <div className="mb-2">
               <Link href={`${base}/test?sub=${selected.id}`} className="inline-block px-4 py-2 bg-slate-900 text-white rounded-lg text-sm font-semibold hover:bg-slate-800 transition">
-                Практика по підрозділу ({selected._count.questions} питань)
+                Практика по підрозділу ({safeSubtopicCount.get(selected.id) ?? 0} питань)
               </Link>
             </div>
           )}
