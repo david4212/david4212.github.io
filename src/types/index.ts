@@ -51,3 +51,44 @@ export const SUBJECT_DETAILS: Record<Subject, SubjectTheme> = {
 };
 
 export const SUBJECT_ORDER: Subject[] = ["UKRAINIAN", "MATH", "HISTORY", "ENGLISH"];
+
+// ───────── Типи питань НМТ ─────────
+export type QuestionType = "single_choice" | "matching" | "sequencing" | "choose_multi" | "fill_blanks" | "short_answer";
+
+// Metadata для кожного типу питання:
+// matching: { pairs: [[left, right], ...], leftLabels?: string[], rightLabels?: string[] }
+//   — завдання на відповідність. Відповідь = масив індексів правильних пар
+// sequencing: { items: string[], correctOrder: number[] }
+//   — завдання на послідовність. Відповідь = порядок індексів
+// choose_multi: { correctIndices: number[], requiredCount: number }
+//   — вибір кількох відповідей (3 із 7). Відповідь = масив обраних індексів
+// fill_blanks: { blanks: { answer: string, alternatives?: string[] }[] }
+//   — заповнення пропусків. Відповідь = масив текстових значень
+// short_answer: { answer: number | string, tolerance?: number }
+//   — коротка відповідь (зазвичай число). Відповідь = рядок або число
+
+export type MatchingMeta = { pairs: [string, string][]; leftLabels?: string[]; rightLabels?: string[] };
+export type SequencingMeta = { items: string[]; correctOrder: number[] };
+export type ChooseMultiMeta = { correctIndices: number[]; requiredCount: number };
+export type FillBlanksMeta = { blanks: { answer: string; alternatives?: string[] }[] };
+export type ShortAnswerMeta = { answer: number | string; tolerance?: number };
+
+export type QuestionMeta = MatchingMeta | SequencingMeta | ChooseMultiMeta | FillBlanksMeta | ShortAnswerMeta;
+
+// ───────── Конфігурація пробника НМТ ─────────
+export const NMT_CONFIG = {
+  UKRAINIAN: { questions: 30, minutes: 60, maxRaw: 45 },
+  MATH:      { questions: 22, minutes: 60, maxRaw: 32 },
+  HISTORY:   { questions: 30, minutes: 60, maxRaw: 54 },
+  ENGLISH:   { questions: 32, minutes: 60, maxRaw: 32 },
+} as const;
+
+export const NMT_TOTAL_QUESTIONS = Object.values(NMT_CONFIG).reduce((s, c) => s + c.questions, 0); // 114
+
+// Рівні складності пробника
+export type ProbnikDifficulty = 1 | 2 | 3;
+export const DIFFICULTY_LABELS: Record<ProbnikDifficulty, { label: string; description: string; hardPercent: number }> = {
+  1: { label: "Легкий", description: "30% складних питань", hardPercent: 30 },
+  2: { label: "Середній", description: "50% складних питань", hardPercent: 50 },
+  3: { label: "Важкий", description: "80% складних питань", hardPercent: 80 },
+};

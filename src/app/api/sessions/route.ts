@@ -2,13 +2,15 @@ import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 import { getUserId } from "@/lib/session-user";
 import { buildQuestionIds, finishSession, KINDS, loadQuestions, type Kind } from "@/lib/sessions";
+import type { ProbnikDifficulty } from "@/types";
 
 export const dynamic = "force-dynamic";
 
-async function payload(s: { id: string; kind: string; questionIds: string[]; answers: unknown; currentIdx: number; startedAt: Date; deadlineAt: Date | null }) {
+async function payload(s: { id: string; kind: string; difficulty: number; questionIds: string[]; answers: unknown; currentIdx: number; startedAt: Date; deadlineAt: Date | null }) {
   return {
     id: s.id,
     kind: s.kind,
+    difficulty: s.difficulty,
     startedAt: s.startedAt,
     deadlineAt: s.deadlineAt,
     currentIdx: s.currentIdx,
@@ -17,7 +19,7 @@ async function payload(s: { id: string; kind: string; questionIds: string[]; ans
   };
 }
 
-// POST { kind: "DIAGNOSTIC" | "SIMULATION" } — стартує нову сесію або відновлює незавершену
+// POST { kind: "DIAGNOSTIC" | "SIMULATION", difficulty?: 1|2|3 } — стартує нову сесію або відновлює незавершену
 export async function POST(req: Request) {
   const userId = await getUserId();
   if (!userId) return NextResponse.json({ error: "Потрібен вхід" }, { status: 401 });
@@ -26,6 +28,7 @@ export async function POST(req: Request) {
   const kind = body?.kind as Kind;
   if (!(kind in KINDS)) return NextResponse.json({ error: "Невірний тип" }, { status: 400 });
   const fresh = body?.restart === true;
+  const difficulty = ([1, 2, 3].includes(body?.difficulty) ? body.difficulty : 2) as ProbnikDifficulty;
 
   const open = await prisma.testSession.findFirst({
     where: { userId, kind, status: "IN_PROGRESS" },
@@ -41,12 +44,18 @@ export async function POST(req: Request) {
     }
   }
 
-  const questionIds = await buildQuestionIds(kind);
+  const questionIds = await buildQuestionIds(kind, difficulty);
   if (questionIds.length === 0) return NextResponse.json({ error: "У базі немає питань" }, { status: 404 });
 
   const minutes = KINDS[kind].minutes;
   const s = await prisma.testSession.create({
-    data: { userId, kind, questionIds, deadlineAt: minutes ? new Date(Date.now() + minutes * 60_000) : null },
+    data: {
+      userId,
+      kind,
+      difficulty,
+      questionIds,
+      deadlineAt: minutes ? new Date(Date.now() + minutes * 60_000) : null,
+    },
   });
   return NextResponse.json({ resumed: false, ...(await payload(s)) });
 }
@@ -64,10 +73,15 @@ export async function PATCH(req: Request) {
   if (s.deadlineAt && s.deadlineAt < new Date()) return NextResponse.json({ error: "Час вийшов", expired: true }, { status: 409 });
 
   const allowed = new Set(s.questionIds);
-  const clean: Record<string, number> = {};
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const clean: Record<string, any> = {};
   if (body?.answers && typeof body.answers === "object") {
     for (const [k, v] of Object.entries(body.answers as Record<string, unknown>)) {
-      if (allowed.has(k) && typeof v === "number" && Number.isInteger(v) && v >= 0 && v < 10) clean[k] = v;
+      if (!allowed.has(k)) continue;
+      // single_choice: number; matching/sequencing/choose_multi: number[]; fill_blanks: string[]; short_answer: string
+      if (typeof v === "number" && Number.isInteger(v) && v >= 0 && v < 10) { clean[k] = v; continue; }
+      if (typeof v === "string" && v.length <= 200) { clean[k] = v; continue; }
+      if (Array.isArray(v) && v.length <= 20) { clean[k] = v; continue; }
     }
   }
   const currentIdx = Math.min(Math.max(Number(body?.currentIdx) || 0, 0), s.questionIds.length - 1);

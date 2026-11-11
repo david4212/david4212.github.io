@@ -79,29 +79,43 @@ async function importContent(prisma) {
 
       const existingQ = await prisma.question.findMany({ where: { topicId: topic.id }, select: { id: true, text: true, options: true, explanation: true, imageUrl: true } });
       const known = new Map(existingQ.map((q) => [q.text + "\u0001" + [...q.options].sort().join("|"), q]));
+      const VALID_TYPES = ["single_choice", "matching", "sequencing", "choose_multi", "fill_blanks", "short_answer"];
       const fresh = [];
       let filled = 0;
       for (const q of data.questions ?? []) {
         // Legacy 78 hand-drawn history illustrations are under factual review.
         // Do not reimport their 292 unverified questions until individually approved.
         if (data.subject === "HISTORY" && typeof q.image === "string" && q.image.startsWith("/img/history/")) continue;
-        const ok = typeof q.text === "string" && Array.isArray(q.options) && q.options.length >= 2 && q.options.length <= 5
-          && Number.isInteger(q.correctIndex) && q.correctIndex >= 0 && q.correctIndex < q.options.length
-          && typeof q.explanation === "string" && q.explanation.trim();
-        if (!ok) { console.log(`[content] пропущено некоректне питання: ${String(q.text).slice(0, 40)}`); continue; }
-        const key = q.text + "\u0001" + [...q.options].sort().join("|");
+        const qType = VALID_TYPES.includes(q.questionType) ? q.questionType : "single_choice";
+
+        // Валідація залежно від типу питання
+        let ok;
+        if (qType === "single_choice") {
+          ok = typeof q.text === "string" && Array.isArray(q.options) && q.options.length >= 2 && q.options.length <= 5
+            && Number.isInteger(q.correctIndex) && q.correctIndex >= 0 && q.correctIndex < q.options.length
+            && typeof q.explanation === "string" && q.explanation.trim();
+        } else if (qType === "short_answer") {
+          ok = typeof q.text === "string" && q.metadata && (typeof q.metadata.answer === "number" || typeof q.metadata.answer === "string")
+            && typeof q.explanation === "string" && q.explanation.trim();
+        } else {
+          // matching, sequencing, choose_multi, fill_blanks — потребують metadata + text + explanation
+          ok = typeof q.text === "string" && q.metadata && typeof q.metadata === "object"
+            && typeof q.explanation === "string" && q.explanation.trim();
+        }
+
+        if (!ok) { console.log(`[content] пропущено некоректне питання (${qType}): ${String(q.text).slice(0, 40)}`); continue; }
+        const key = q.text + "\u0001" + (q.options ? [...q.options].sort().join("|") : JSON.stringify(q.metadata ?? ""));
         if (known.has(key)) {
-          // файл — джерело істини: оновлюємо варіанти, відповідь, обґрунтування та рівень
           const ex = known.get(key);
           const img = q.image ?? null;
           if (ex.explanation !== q.explanation || (ex.imageUrl ?? null) !== img) {
-            await prisma.question.update({ where: { id: ex.id }, data: { options: q.options, correctIndex: q.correctIndex, explanation: q.explanation, imageUrl: img, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1 } });
+            await prisma.question.update({ where: { id: ex.id }, data: { options: q.options ?? [], correctIndex: q.correctIndex ?? 0, explanation: q.explanation, imageUrl: img, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1, questionType: qType, metadata: q.metadata ?? null } });
             filled++;
           }
           continue;
         }
         known.set(key, { id: null, explanation: q.explanation, imageUrl: q.image ?? null });
-        fresh.push({ text: q.text, options: q.options, correctIndex: q.correctIndex, explanation: q.explanation, imageUrl: q.image ?? null, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1, topicId: topic.id, subtopicId });
+        fresh.push({ text: q.text, options: q.options ?? [], correctIndex: q.correctIndex ?? 0, explanation: q.explanation, imageUrl: q.image ?? null, testLevel: [1, 2, 3].includes(q.testLevel) ? q.testLevel : 1, questionType: qType, metadata: q.metadata ?? null, topicId: topic.id, subtopicId });
       }
       if (fresh.length) await prisma.question.createMany({ data: fresh });
 

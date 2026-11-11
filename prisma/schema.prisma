@@ -62,14 +62,18 @@ model Subtopic {
 }
 
 // Питання тесту. testLevel: 1 = Базовий, 2 = Середній, 3 = Поглиблений
+// questionType: single_choice | matching | sequencing | choose_multi | fill_blanks | short_answer
+// metadata: JSON із додатковими даними для нестандартних типів
 model Question {
   id           String    @id @default(cuid())
   text         String
   options      String[]
-  correctIndex Int
+  correctIndex Int       @default(0)
   imageUrl     String?
   explanation  String?
   testLevel    Int       @default(1)
+  questionType String    @default("single_choice")
+  metadata     Json?
   topicId      String
   topic        Topic     @relation(fields: [topicId], references: [id], onDelete: Cascade)
   subtopicId   String?
@@ -81,6 +85,7 @@ model Question {
 
   @@index([topicId])
   @@index([topicId, testLevel])
+  @@index([topicId, questionType])
   @@index([subtopicId])
   @@index([createdAt])
 }
@@ -229,12 +234,14 @@ model UserError {
 
 // Діагностичний тест / симуляція НМТ: збирається на льоту, зберігає проміжний стан
 // kind: DIAGNOSTIC | SIMULATION; status: IN_PROGRESS | FINISHED
+// difficulty: 1 = Easy (30% hard), 2 = Medium (50% hard), 3 = Hard (80% hard)
 model TestSession {
   id          String    @id @default(cuid())
   userId      String
   user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
   kind        String
   status      String    @default("IN_PROGRESS")
+  difficulty  Int       @default(2)
   questionIds String[]
   answers     Json      @default("{}")
   currentIdx  Int       @default(0)
@@ -244,10 +251,13 @@ model TestSession {
   correct     Int?
   total       Int?
   percent     Int?
+  nmtScore    Int?
+  subjectScores Json?
   updatedAt   DateTime  @updatedAt
 
   @@index([userId, kind, status])
   @@index([userId, startedAt])
+  @@index([userId, kind, finishedAt])
 }
 
 // Питання дня (одне на календарну дату YYYY-MM-DD, київський час)

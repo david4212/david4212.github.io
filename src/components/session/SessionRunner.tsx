@@ -3,15 +3,16 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
-import { ChevronLeft, ChevronRight, Clock, Lightbulb } from "lucide-react";
+import { ChevronLeft, ChevronRight, Clock, Lightbulb, Zap, Shield, Flame } from "lucide-react";
 import ZoomImage from "@/components/shared/ZoomImage";
 import LoginPrompt from "@/components/shared/LoginPrompt";
-import { SUBJECT_DETAILS, SUBJECT_ORDER, type Subject } from "@/types";
+import QuestionRenderer, { type FlexAnswer } from "@/components/session/QuestionRenderer";
+import { SUBJECT_DETAILS, SUBJECT_ORDER, NMT_CONFIG, DIFFICULTY_LABELS, type Subject, type ProbnikDifficulty, type QuestionType } from "@/types";
 
 const LETTERS = ["А", "Б", "В", "Г", "Д"];
 
-type Q = { id: string; text: string; options: string[]; imageUrl?: string | null; subject: Subject };
-type Run = { id: string; kind: string; deadlineAt: string | null; currentIdx: number; answers: Record<string, number>; questions: Q[]; resumed: boolean };
+type Q = { id: string; text: string; options: string[]; imageUrl?: string | null; subject: Subject; questionType?: QuestionType; metadata?: unknown };
+type Run = { id: string; kind: string; difficulty: number; deadlineAt: string | null; currentIdx: number; answers: Record<string, FlexAnswer>; questions: Q[]; resumed: boolean };
 type Detail = { id: string; subject: Subject; chosen: number | null; correctIndex: number; explanation: string | null; isCorrect: boolean };
 type Result = {
   correct: number;
@@ -33,15 +34,23 @@ const fmt = (ms: number) => {
 const level = (p: number) =>
   p > 80 ? { label: "Сильно", cls: "bg-green-100 text-green-700" } : p >= 60 ? { label: "Середньо", cls: "bg-yellow-100 text-yellow-700" } : { label: "Слабко", cls: "bg-red-100 text-red-700" };
 
+const DIFF_ICONS = { 1: Zap, 2: Shield, 3: Flame } as const;
+const DIFF_COLORS = {
+  1: "from-green-500 to-emerald-600",
+  2: "from-blue-500 to-indigo-600",
+  3: "from-red-500 to-rose-600",
+} as const;
+
 export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATION" }) {
   const { status } = useSession();
   const [run, setRun] = useState<Run | null>(null);
-  const [answers, setAnswers] = useState<Record<string, number>>({});
+  const [answers, setAnswers] = useState<Record<string, FlexAnswer>>({});
   const [index, setIndex] = useState(0);
   const [result, setResult] = useState<Result | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [left, setLeft] = useState<number | null>(null);
+  const [difficulty, setDifficulty] = useState<ProbnikDifficulty>(2);
   const finishing = useRef(false);
   const latest = useRef({ answers, index });
   latest.current = { answers, index };
@@ -53,7 +62,7 @@ export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATI
       const res = await fetch("/api/sessions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ kind, restart }),
+        body: JSON.stringify({ kind, restart, difficulty }),
       });
       if (!res.ok) throw new Error();
       const d: Run = await res.json();
@@ -119,16 +128,68 @@ export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATI
   if (status === "loading") return null;
   if (status === "unauthenticated") return <LoginPrompt text="Увійди, щоб проходити тести й зберігати прогрес." />;
 
-  /* ---------- Старт ---------- */
+  const isProbnik = kind === "SIMULATION";
+  const kindLabel = isProbnik ? "Пробник НМТ" : "Діагностика";
+
+  /* ---------- Старт з вибором складності ---------- */
   if (!run) {
     return (
-      <div className="text-center p-8 mt-8 rounded-3xl bg-white border border-slate-200 shadow-xl">
-        <p className="text-5xl mb-3">{kind === "DIAGNOSTIC" ? "🧭" : "⏱️"}</p>
-        <button onClick={() => start(false)} disabled={loading} className="px-6 py-3 rounded-xl bg-gradient-to-r from-violet-500 to-pink-500 text-white font-semibold shadow-md disabled:opacity-60">
-          {loading ? "Готую питання…" : "Почати / продовжити"}
-        </button>
-        <p className="text-xs text-slate-500 mt-3">Якщо в тебе є незавершена спроба — вона відновиться з того ж місця.</p>
-        {error && <p className="text-red-500 text-sm mt-3">{error}</p>}
+      <div className="mt-8">
+        {isProbnik && (
+          <div className="mb-6">
+            <h2 className="text-lg font-bold text-slate-800 mb-3">Обери рівень складності</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              {([1, 2, 3] as ProbnikDifficulty[]).map((d) => {
+                const cfg = DIFFICULTY_LABELS[d];
+                const Icon = DIFF_ICONS[d];
+                const selected = difficulty === d;
+                return (
+                  <button
+                    key={d}
+                    onClick={() => setDifficulty(d)}
+                    className={`relative p-4 rounded-2xl border-2 transition-all text-left ${
+                      selected
+                        ? `border-transparent bg-gradient-to-br ${DIFF_COLORS[d]} text-white shadow-lg scale-[1.02]`
+                        : "border-slate-200 bg-white text-slate-700 hover:border-slate-300"
+                    }`}
+                  >
+                    <Icon className={`w-6 h-6 mb-2 ${selected ? "text-white" : "text-slate-400"}`} />
+                    <p className="font-bold text-lg">{cfg.label}</p>
+                    <p className={`text-sm ${selected ? "text-white/80" : "text-slate-500"}`}>{cfg.description}</p>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {isProbnik && (
+          <div className="rounded-2xl bg-slate-50 border border-slate-200 p-4 mb-6 text-sm text-slate-600">
+            <p className="font-semibold text-slate-800 mb-2">📋 Структура пробника</p>
+            <div className="grid grid-cols-2 gap-2">
+              {SUBJECT_ORDER.map((s) => {
+                const cfg = NMT_CONFIG[s];
+                const th = SUBJECT_DETAILS[s];
+                return (
+                  <div key={s} className="flex justify-between px-3 py-2 rounded-xl bg-white border border-slate-100">
+                    <span className={`font-medium ${th.text}`}>{th.title}</span>
+                    <span className="text-slate-500">{cfg.questions} питань</span>
+                  </div>
+                );
+              })}
+            </div>
+            <p className="mt-2 text-xs text-slate-500">Загалом 114 питань · 4 години · Шкала 100–200</p>
+          </div>
+        )}
+
+        <div className="text-center p-8 rounded-3xl bg-white border border-slate-200 shadow-xl">
+          <p className="text-5xl mb-3">{isProbnik ? "📝" : "🧭"}</p>
+          <button onClick={() => start(false)} disabled={loading} className="px-6 py-3 rounded-xl bg-gradient-to-r from-violet-500 to-pink-500 text-white font-semibold shadow-md disabled:opacity-60">
+            {loading ? "Готую питання…" : "Почати / продовжити"}
+          </button>
+          <p className="text-xs text-slate-500 mt-3">Якщо в тебе є незавершена спроба — вона відновиться з того ж місця.</p>
+          {error && <p className="text-red-500 text-sm mt-3">{error}</p>}
+        </div>
       </div>
     );
   }
@@ -141,10 +202,13 @@ export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATI
     return (
       <div className="mt-8">
         <div className="text-center p-8 rounded-3xl bg-white border border-slate-200 shadow-xl">
-          <p className="text-slate-500 mb-1">{kind === "DIAGNOSTIC" ? "Твій стартовий розклад знань" : "Результат симуляції"}</p>
-          <p className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-pink-500">{result.percent}%</p>
-          <p className="text-slate-600 mt-1">{result.correct} з {result.total} правильно</p>
-          <p className="mt-2 text-sm font-semibold text-slate-700">Орієнтовний бал НМТ: {result.avgNmt !== null ? <span className="text-violet-600 text-lg">{result.avgNmt}</span> : <span className="text-red-600">поріг не подолано хоча б з одного предмета</span>}</p>
+          <p className="text-slate-500 mb-1">{isProbnik ? `Результат пробника (${DIFFICULTY_LABELS[run.difficulty as ProbnikDifficulty]?.label ?? ""})` : "Твій стартовий розклад знань"}</p>
+          {result.avgNmt !== null ? (
+            <p className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-pink-500">{result.avgNmt}</p>
+          ) : (
+            <p className="text-4xl font-extrabold text-red-600">Поріг не подолано</p>
+          )}
+          <p className="text-slate-600 mt-1">{result.correct} з {result.total} правильно ({result.percent}%)</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6 text-left">
             {result.perSubject.map((s) => {
@@ -170,7 +234,7 @@ export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATI
 
           <div className="flex flex-wrap gap-3 justify-center mt-6">
             <Link href="/errors" className="px-5 py-2 rounded-xl bg-slate-900 text-white font-semibold">Повторити помилки</Link>
-            <button onClick={() => start(true)} className="px-5 py-2 rounded-xl bg-white border border-slate-200 text-slate-700 font-semibold">Нова спроба</button>
+            <button onClick={() => { setRun(null); setResult(null); }} className="px-5 py-2 rounded-xl bg-white border border-slate-200 text-slate-700 font-semibold">Новий пробник</button>
             <Link href="/profile" className="px-5 py-2 rounded-xl bg-white border border-slate-200 text-slate-700 font-semibold">Профіль</Link>
           </div>
         </div>
@@ -186,8 +250,14 @@ export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATI
                   <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${SUBJECT_DETAILS[d.subject].pill}`}>{SUBJECT_DETAILS[d.subject].title}</span>
                   {q.imageUrl && <ZoomImage src={q.imageUrl} className="max-h-40 my-3" />}
                   <p className="font-semibold text-slate-800 my-3">{q.text}</p>
-                  <p className="text-sm text-red-600">Твоя відповідь: {d.chosen === null ? "не відповів" : `${LETTERS[d.chosen]}. ${q.options[d.chosen]}`}</p>
-                  <p className="text-sm text-green-700">Правильно: {LETTERS[d.correctIndex]}. {q.options[d.correctIndex]}</p>
+                  {(!q.questionType || q.questionType === "single_choice") ? (
+                    <>
+                      <p className="text-sm text-red-600">Твоя відповідь: {d.chosen === null ? "не відповів" : `${LETTERS[d.chosen]}. ${q.options[d.chosen]}`}</p>
+                      <p className="text-sm text-green-700">Правильно: {LETTERS[d.correctIndex]}. {q.options[d.correctIndex]}</p>
+                    </>
+                  ) : (
+                    <p className="text-sm text-red-600">Неправильна відповідь</p>
+                  )}
                   {d.explanation && (
                     <p className="mt-3 text-sm text-slate-700 bg-amber-50 rounded-xl p-3 flex gap-2"><Lightbulb className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />{d.explanation}</p>
                   )}
@@ -249,21 +319,13 @@ export default function SessionRunner({ kind }: { kind: "DIAGNOSTIC" | "SIMULATI
         <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${SUBJECT_DETAILS[q.subject].pill}`}>{SUBJECT_DETAILS[q.subject].title}</span>
         {q.imageUrl && <div className="flex justify-center my-4"><ZoomImage src={q.imageUrl} className="max-h-72" /></div>}
         <h2 className="text-xl font-semibold text-slate-900 my-4">{q.text}</h2>
-        <div className="space-y-3">
-          {q.options.map((opt, i) => {
-            const selected = answers[q.id] === i;
-            return (
-              <button
-                key={i}
-                onClick={() => setAnswers((a) => ({ ...a, [q.id]: i }))}
-                className={`w-full text-left px-4 py-3 rounded-xl border transition flex gap-3 ${selected ? "bg-indigo-600 text-white border-indigo-600 shadow-md" : "bg-slate-50 border-slate-200 hover:bg-white hover:border-indigo-300"}`}
-              >
-                <span className={`font-bold ${selected ? "text-white" : "text-slate-400"}`}>{LETTERS[i]}</span>
-                <span>{opt}</span>
-              </button>
-            );
-          })}
-        </div>
+        <QuestionRenderer
+          questionType={(q.questionType ?? "single_choice") as QuestionType}
+          options={q.options}
+          metadata={q.metadata}
+          answer={answers[q.id]}
+          onChange={(v: FlexAnswer) => setAnswers((a) => ({ ...a, [q.id]: v }))}
+        />
       </div>
 
       {error && <p className="text-red-500 text-sm text-center mt-4">{error}</p>}

@@ -8,7 +8,7 @@ const NAV = [
   { href: "/materials", label: "Матеріали" },
   { href: "/errors", label: "Помилки" },
   { href: "/diagnostic", label: "Діагностика" },
-  { href: "/simulation", label: "Симуляція" },
+  { href: "/simulation", label: "Пробник НМТ" },
 ];
 
 export default function UserBar() {
