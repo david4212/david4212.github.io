@@ -276,16 +276,16 @@
       }
     },
     {
-      "text": "Fill in the gaps with the correct forms. Our school library (1)___ (open) every weekday at eight. The books (2)___ (arrange) by subject. New titles (3)___ (add) to the catalogue each month.",
+      "text": "Fill in the gaps with the correct forms. The doors of our school library (1)___ (unlock) every weekday at eight. The books (2)___ (arrange) by subject. New titles (3)___ (add) to the catalogue each month.",
       "options": [],
       "correctIndex": 0,
-      "explanation": "(1) is opened — Present Simple Passive описує регулярне відкриття бібліотеки; у контексті дію виконує персонал. (2) are arranged — Books — множина, тому are + V3. (3) are added — Each month вказує на регулярне поповнення, отже Present Simple Passive.",
+      "explanation": "(1) are unlocked — Двері бібліотеки регулярно відмикають о восьмій: Present Simple Passive, множина. (2) are arranged — Books — множина, тому are + V3. (3) are added — Each month вказує на регулярне поповнення, отже Present Simple Passive.",
       "testLevel": 1,
       "questionType": "fill_blanks",
       "metadata": {
         "blanks": [
           {
-            "answer": "is opened"
+            "answer": "are unlocked"
           },
           {
             "answer": "are arranged"
@@ -351,10 +351,7 @@
             "answer": "is being painted"
           },
           {
-            "answer": "will be finished",
-            "alternatives": [
-              "is scheduled to be finished"
-            ]
+            "answer": "will be finished"
           },
           {
             "answer": "are asked"
