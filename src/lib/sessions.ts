@@ -2,6 +2,7 @@ import { calculateNmtScore, averageNmt } from "@/lib/score";
 import prisma from "@/lib/prisma";
 import { recordAnswers, shuffle, type AnswerSource } from "@/lib/answers";
 import { SUBJECT_DETAILS, type Subject } from "@/types";
+import { verifiedQuestionWhere } from "@/lib/history-review";
 
 export const SUBJECTS: Subject[] = ["UKRAINIAN", "MATH", "HISTORY", "ENGLISH"];
 
@@ -17,7 +18,7 @@ export async function buildQuestionIds(kind: Kind): Promise<string[]> {
   const { perSubject } = KINDS[kind];
   const ids: string[] = [];
   for (const subject of SUBJECTS) {
-    const rows = await prisma.question.findMany({ where: { topic: { subject } }, select: { id: true } });
+    const rows = await prisma.question.findMany({ where: { topic: { subject }, ...verifiedQuestionWhere }, select: { id: true } });
     ids.push(...shuffle(rows.map((r) => r.id)).slice(0, perSubject));
   }
   return shuffle(ids);
@@ -25,7 +26,7 @@ export async function buildQuestionIds(kind: Kind): Promise<string[]> {
 
 export async function loadQuestions(ids: string[]) {
   const rows = await prisma.question.findMany({
-    where: { id: { in: ids } },
+    where: { id: { in: ids }, ...verifiedQuestionWhere },
     select: { id: true, text: true, options: true, imageUrl: true, topic: { select: { subject: true } } },
   });
   const map = new Map(rows.map((r) => [r.id, r]));
@@ -42,7 +43,7 @@ export async function finishSession(sessionId: string, userId: string) {
 
   const saved = (s.answers && typeof s.answers === "object" ? s.answers : {}) as Record<string, number>;
   const qs = await prisma.question.findMany({
-    where: { id: { in: s.questionIds } },
+    where: { id: { in: s.questionIds }, ...verifiedQuestionWhere },
     select: { id: true, correctIndex: true, explanation: true, topic: { select: { subject: true } } },
   });
   const map = new Map(qs.map((q) => [q.id, q]));
