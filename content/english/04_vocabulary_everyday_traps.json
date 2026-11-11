@@ -1,0 +1,79 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Everyday Life, Family & Relationships",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Excuse me, could you ___ me the way to the station?",
+      "options": [
+        "say",
+        "speak",
+        "tell",
+        "talk"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 tell + людина (+ the way, the truth); say — без особового додатка.\n❌ Хибні: А) say — say me — помилка, кажемо say to me; Б) speak — speak — говорити (мовою, з кимось), не пояснювати дорогу; Г) talk — talk — розмовляти, не поєднується з the way.\n✅ В) tell — tell somebody the way.",
+      "testLevel": 2
+    },
+    {
+      "text": "These trousers are too ___ — I need a belt.",
+      "options": [
+        "loss",
+        "lost",
+        "loose",
+        "lose"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 loose — вільний, завеликий; lose — губити.\n❌ Хибні: А) loss — loss — іменник «втрата»; Б) lost — lost — загублений; Г) lose — lose — дієслово «губити».\n✅ В) loose — прикметник loose.",
+      "testLevel": 2
+    },
+    {
+      "text": "Oh no, I've ___ my keys again!",
+      "options": [
+        "missed",
+        "loosed",
+        "loose",
+        "lost"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 lose — lost — lost; miss — пропустити, сумувати.\n❌ Хибні: А) missed — missed означає «пропустив / сумую», а не «загубив»; Б) loosed — loosed — від loosen/loose, «послабити»; В) loose — loose — прикметник.\n✅ Г) lost — Present Perfect від lose.",
+      "testLevel": 3
+    },
+    {
+      "text": "My grandmother ___ me how to bake bread.",
+      "options": [
+        "learned",
+        "educated",
+        "taught",
+        "studied"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 teach sb (to) do — навчити когось; learn — вчитися самому.\n❌ Хибні: А) learned — learned me — помилка, learn не має особового додатка в цьому значенні; Б) educated — educated — давав освіту загалом; Г) studied — studied — вивчав предмет.\n✅ В) taught — teach — taught — taught.",
+      "testLevel": 3
+    },
+    {
+      "text": "He ___ me of my father — they laugh in the same way.",
+      "options": [
+        "memorises",
+        "remembers",
+        "recalls",
+        "reminds"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 remind sb of sb/sth — нагадувати.\n❌ Хибні: А) memorises — memorise — завчати напам'ять; Б) remembers — remember — пам'ятати самому; В) recalls — recall — пригадувати.\n✅ Г) reminds — remind me of.",
+      "testLevel": 3
+    },
+    {
+      "text": "She ___ married last summer.",
+      "options": [
+        "took",
+        "did",
+        "got",
+        "made"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 get married — одружитися.\n❌ Хибні: А) took — take married не вживається; Б) did — do married не вживається; Г) made — make married не вживається.\n✅ В) got — стійка сполука get married.",
+      "testLevel": 2
+    }
+  ]
+}

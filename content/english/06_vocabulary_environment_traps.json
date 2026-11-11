@@ -1,0 +1,79 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Environment, Nature & Travel",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Our flight was ___ because of the storm.",
+      "options": [
+        "lost",
+        "missed",
+        "cancelled",
+        "failed"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 cancel a flight — скасувати рейс.\n❌ Хибні: А) lost — lost — загублений; Б) missed — missed — ми спізнилися, а не рейс скасували; Г) failed — failed — зазнав невдачі.\n✅ В) cancelled — рейс скасували.",
+      "testLevel": 2
+    },
+    {
+      "text": "Did you have a good ___ to Lviv?",
+      "options": [
+        "journeys",
+        "trip",
+        "travel",
+        "travels"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 travel — незлічуване (подорожування загалом); trip — конкретна поїздка.\n❌ Хибні: А) journeys — множина не поєднується з a; В) travel — travel незлічуваний, з a не вживається; Г) travels — travels — мемуари про подорожі.\n✅ Б) trip — a good trip.",
+      "testLevel": 2
+    },
+    {
+      "text": "Our hotel room had a beautiful ___ of the sea.",
+      "options": [
+        "sight",
+        "scene",
+        "look",
+        "view"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 view — краєвид із певного місця.\n❌ Хибні: А) sight — sight — зір або визначна пам'ятка; Б) scene — scene — сцена, місце події; В) look — look — погляд.\n✅ Г) view — a view of the sea.",
+      "testLevel": 3
+    },
+    {
+      "text": "Many species are ___ extinction.",
+      "options": [
+        "in danger of",
+        "in danger from",
+        "at danger of",
+        "under danger of"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 in danger of + іменник / -ing.\n❌ Хибні: Б) in danger from — in danger from — небезпека від когось, не від вимирання; В) at danger of — at danger не вживається; Г) under danger of — under danger не вживається.\n✅ А) in danger of — in danger of extinction.",
+      "testLevel": 3
+    },
+    {
+      "text": "Global temperatures continue to ___.",
+      "options": [
+        "raise",
+        "rouse",
+        "rise",
+        "arise"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 rise — неперехідне: щось підвищується саме.\n❌ Хибні: А) raise — raise потребує додатка; Б) rouse — rouse — будити; Г) arise — arise — виникати (про проблеми).\n✅ В) rise — температури зростають.",
+      "testLevel": 3
+    },
+    {
+      "text": "Please don't ___ litter in the park.",
+      "options": [
+        "fall",
+        "lose",
+        "leak",
+        "drop"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 drop litter — смітити.\n❌ Хибні: А) fall — fall — неперехідне; Б) lose — lose — губити; В) leak — leak — протікати.\n✅ Г) drop — drop litter.",
+      "testLevel": 2
+    }
+  ]
+}

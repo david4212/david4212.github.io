@@ -1,0 +1,151 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Education, Work & Society",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Prices ___ by 10 % last year.",
+      "options": [
+        "rised",
+        "raised",
+        "rose",
+        "arose"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 rise (rose, risen) — неперехідне «підніматися»; raise (raised) — перехідне «піднімати щось».\n❌ Хибні: А) rised — rised — неіснуюча форма; Б) raised — raised потребує додатка (raised prices); Г) arose — arose — «виникли».\n✅ В) rose — ціни самі зросли.",
+      "testLevel": 2
+    },
+    {
+      "text": "The government has ___ taxes again.",
+      "options": [
+        "rose",
+        "arisen",
+        "risen",
+        "raised"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 raise + додаток — піднімати щось.\n❌ Хибні: А) rose — rose — неперехідне і не V3; Б) arisen — arisen — «виникли»; В) risen — risen неперехідне.\n✅ Г) raised — has raised taxes.",
+      "testLevel": 2
+    },
+    {
+      "text": "She ___ the documents on the desk and left the office.",
+      "options": [
+        "lied",
+        "lay",
+        "lain",
+        "laid"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 lay (laid, laid) — класти щось; lie (lay, lain) — лежати; lie (lied) — брехати.\n❌ Хибні: А) lied — lied — «брехала»; Б) lay — lay — минулий час від lie «лежати», неперехідне; В) lain — lain — V3 від lie «лежати».\n✅ Г) laid — поклала документи.",
+      "testLevel": 3
+    },
+    {
+      "text": "He was so tired that he ___ on the sofa and fell asleep.",
+      "options": [
+        "layed",
+        "laid",
+        "lied",
+        "lay"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 lie — lay — lain: лягти, лежати (без додатка).\n❌ Хибні: А) layed — layed — неіснуюча форма; Б) laid — laid потребує додатка (laid something); В) lied — lied — «збрехав».\n✅ Г) lay — lay — минулий час від lie.",
+      "testLevel": 3
+    },
+    {
+      "text": "Air pollution has a serious ___ on public health.",
+      "options": [
+        "effect",
+        "efficiency",
+        "affect",
+        "affection"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 effect — іменник «вплив»; affect — дієслово «впливати».\n❌ Хибні: Б) efficiency — efficiency — ефективність; В) affect — affect — дієслово; Г) affection — affection — прихильність.\n✅ А) effect — have an effect on.",
+      "testLevel": 3
+    },
+    {
+      "text": "Lack of sleep can ___ your concentration.",
+      "options": [
+        "affect",
+        "effective",
+        "infect",
+        "effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 affect — дієслово «впливати на».\n❌ Хибні: Б) effective — effective — прикметник; В) infect — infect — заражати; Г) effect — effect як дієслово означає «здійснити» і тут не підходить.\n✅ А) affect — affect concentration.",
+      "testLevel": 3
+    },
+    {
+      "text": "The country is going through a serious ___ crisis.",
+      "options": [
+        "economical",
+        "economy",
+        "economic",
+        "economist"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 economic — економічний (пов'язаний з економікою); economical — ощадливий.\n❌ Хибні: А) economical — economical — ощадливий, не про кризу; Б) economy — economy — іменник; Г) economist — economist — людина.\n✅ В) economic — economic crisis.",
+      "testLevel": 3
+    },
+    {
+      "text": "This small car is very ___ — it uses little fuel.",
+      "options": [
+        "economical",
+        "economic",
+        "economy",
+        "economics"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 economical — ощадливий, економний.\n❌ Хибні: Б) economic — economic — пов'язаний з економікою країни; В) economy — economy — іменник; Г) economics — economics — наука.\n✅ А) economical — економна машина.",
+      "testLevel": 3
+    },
+    {
+      "text": "Could you ___ me your pen for a minute?",
+      "options": [
+        "lend",
+        "borrow",
+        "rent",
+        "owe"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 lend sb sth — позичити комусь; borrow sth from sb — позичити в когось.\n❌ Хибні: Б) borrow — borrow me — помилка, borrow from sb; В) rent — rent — орендувати; Г) owe — owe — бути винним.\n✅ А) lend — lend me.",
+      "testLevel": 2
+    },
+    {
+      "text": "Could you ___ me a favour and post this letter?",
+      "options": [
+        "do",
+        "make",
+        "take",
+        "give"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 do sb a favour — зробити послугу.\n❌ Хибні: Б) make — make a favour не вживається; В) take — take a favour не вживається; Г) give — give a favour не вживається.\n✅ А) do — стійка сполука.",
+      "testLevel": 3
+    },
+    {
+      "text": "The ___ sentenced him to five years in prison.",
+      "options": [
+        "witness",
+        "lawyer",
+        "judge",
+        "jury"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Вирок виносить суддя (judge); присяжні (jury) лише вирішують, винен чи ні.\n❌ Хибні: А) witness — witness — свідок; Б) lawyer — lawyer — адвокат; Г) jury — jury — присяжні, вирок не виносять.\n✅ В) judge — суддя виносить вирок.",
+      "testLevel": 3
+    },
+    {
+      "text": "She was ___ from her job for stealing.",
+      "options": [
+        "hired",
+        "retired",
+        "resigned",
+        "fired"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 be fired — бути звільненим роботодавцем.\n❌ Хибні: А) hired — hired — найнята; Б) retired — retire — вийти на пенсію; В) resigned — resign — звільнитися самому, пасив тут неможливий.\n✅ Г) fired — звільнили за крадіжку.",
+      "testLevel": 3
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Reading Comprehension & Text Analysis",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Read the text and match the gaps (1–4) with the sentences (A–E). One sentence is extra.\n\nLast year our school started a recycling project. (1) They persuaded the head teacher to support it. Students from every class collected paper, plastic and glass. (2) Each one had a different colour for a different material. At first, not everyone was enthusiastic. (3) However, their opinion changed when they saw the results. After three months, the school had collected over two tonnes of waste and sold it to a recycling company. (4)",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Gap 1 — The idea came from a group of ninth-graders who had watched a documentary about plastic in the ocean.; Gap 2 — Special bins were placed in every corridor.; Gap 3 — Some students thought it would be a waste of time.; Gap 4 — The money was spent on new books for the library.. Підказки-зв'язки: They → ninth-graders; Each one → bins; their opinion → some students; The money → продали відходи.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Gap 1",
+            "The idea came from a group of ninth-graders who had watched a documentary about plastic in the ocean."
+          ],
+          [
+            "Gap 2",
+            "Special bins were placed in every corridor."
+          ],
+          [
+            "Gap 3",
+            "Some students thought it would be a waste of time."
+          ],
+          [
+            "Gap 4",
+            "The money was spent on new books for the library."
+          ]
+        ],
+        "leftLabels": [
+          "Gap"
+        ],
+        "rightLabels": [
+          "Sentence"
+        ],
+        "distractors": [
+          "The school canteen was closed for repairs."
+        ]
+      }
+    },
+    {
+      "text": "Read the text and match the gaps (1–4) with the sentences (A–E). One sentence is extra.\n\nKateryna Bilokur never had any formal art training. (1) Her parents did not approve of her passion and often took away her paints. (2) Instead, she made her own brushes from cat fur and painted on rough cloth. (3) Her flower paintings were shown in Paris in 1954. (4)",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Gap 1 — As a child, she drew with charcoal on any surface she could find.; Gap 2 — Besides, she could not afford to buy professional materials.; Gap 3 — Gradually, her work attracted the attention of famous artists.; Gap 4 — There, Pablo Picasso is said to have admired them greatly.. Зайве речення суперечить першому (не мала художньої освіти); Instead протиставляє покупці матеріалів; There → Paris.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Gap 1",
+            "As a child, she drew with charcoal on any surface she could find."
+          ],
+          [
+            "Gap 2",
+            "Besides, she could not afford to buy professional materials."
+          ],
+          [
+            "Gap 3",
+            "Gradually, her work attracted the attention of famous artists."
+          ],
+          [
+            "Gap 4",
+            "There, Pablo Picasso is said to have admired them greatly."
+          ]
+        ],
+        "leftLabels": [
+          "Gap"
+        ],
+        "rightLabels": [
+          "Sentence"
+        ],
+        "distractors": [
+          "She later moved to Kyiv to study at the Academy of Arts."
+        ]
+      }
+    },
+    {
+      "text": "Read the text and match the gaps (1–4) with the sentences (A–E). One sentence is extra.\n\nDear Mr Smith,\nI am writing to apply for the summer job at your café. (1) I have worked as a waitress at my aunt's restaurant for two summers. (2) I can start any time after 15 June. (3) I look forward to hearing from you.\n(4)",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Gap 1 — I saw your advertisement in yesterday's newspaper.; Gap 2 — Therefore, I am used to working with customers and under pressure.; Gap 3 — I would also be happy to work at weekends.; Gap 4 — Yours sincerely, Olena Koval. Зайве речення суперечить досвіду роботи офіціанткою; Therefore випливає з досвіду; also доповнює дату початку.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Gap 1",
+            "I saw your advertisement in yesterday's newspaper."
+          ],
+          [
+            "Gap 2",
+            "Therefore, I am used to working with customers and under pressure."
+          ],
+          [
+            "Gap 3",
+            "I would also be happy to work at weekends."
+          ],
+          [
+            "Gap 4",
+            "Yours sincerely, Olena Koval"
+          ]
+        ],
+        "leftLabels": [
+          "Gap"
+        ],
+        "rightLabels": [
+          "Sentence"
+        ],
+        "distractors": [
+          "I have never worked with customers before."
+        ]
+      }
+    },
+    {
+      "text": "Read the text and match the gaps (1–4) with the sentences (A–E). One sentence is extra.\n\nScientists have discovered that octopuses can solve surprisingly complex problems. (1) In one experiment, an octopus was given a jar with a crab inside. (2) Within minutes, it had unscrewed the lid and eaten the crab. (3) Some researchers believe this is because each of the octopus's arms contains its own cluster of neurons. (4)",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Gap 1 — This ability was long thought to be typical only of mammals and birds.; Gap 2 — The lid was tightly closed, and the jar was placed in the corner of the tank.; Gap 3 — Even more surprisingly, it later learned to open the jar from the inside.; Gap 4 — As a result, the arms can act almost independently of the brain.. This ability → розв'язання задач; The lid → jar; it later → той самий восьминіг; As a result → нейрони в кожній кінцівці. Зайве речення хибне: восьминоги живуть 1–2 роки.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Gap 1",
+            "This ability was long thought to be typical only of mammals and birds."
+          ],
+          [
+            "Gap 2",
+            "The lid was tightly closed, and the jar was placed in the corner of the tank."
+          ],
+          [
+            "Gap 3",
+            "Even more surprisingly, it later learned to open the jar from the inside."
+          ],
+          [
+            "Gap 4",
+            "As a result, the arms can act almost independently of the brain."
+          ]
+        ],
+        "leftLabels": [
+          "Gap"
+        ],
+        "rightLabels": [
+          "Sentence"
+        ],
+        "distractors": [
+          "Octopuses usually live for many decades."
+        ]
+      }
+    }
+  ]
+}

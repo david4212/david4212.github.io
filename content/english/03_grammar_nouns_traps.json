@@ -1,0 +1,175 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Grammar: Nouns, Pronouns, Prepositions & Articles",
+  "cards": [],
+  "questions": [
+    {
+      "text": "She is perfectly capable ___ solving this problem herself.",
+      "options": [
+        "of",
+        "to",
+        "in",
+        "for"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 capable of + -ing (але able to + інфінітив).\n❌ Хибні: Б) to — to — після able, а не capable; В) in — in не вживається після capable; Г) for — for не вживається після capable.\n✅ А) of — capable of doing.",
+      "testLevel": 2
+    },
+    {
+      "text": "He insisted ___ paying for dinner.",
+      "options": [
+        "in",
+        "to",
+        "at",
+        "on"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 insist on + -ing.\n❌ Хибні: А) in — in не вживається після insist; Б) to — to не вживається після insist; В) at — at не вживається після insist.\n✅ Г) on — insist on doing.",
+      "testLevel": 2
+    },
+    {
+      "text": "I'm looking forward ___ from you.",
+      "options": [
+        "to hearing",
+        "for hearing",
+        "hearing",
+        "to hear"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 look forward to + -ing: to тут прийменник.\n❌ Хибні: Б) for hearing — прийменник for не вживається; В) hearing — пропущено прийменник to; Г) to hear — інфінітив після прийменника to не вживається.\n✅ А) to hearing — look forward to doing.",
+      "testLevel": 2
+    },
+    {
+      "text": "She is very proud ___ her son.",
+      "options": [
+        "for",
+        "of",
+        "about",
+        "with"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 proud of.\n❌ Хибні: А) for — for не вживається після proud; В) about — about не вживається після proud; Г) with — with не вживається після proud.\n✅ Б) of — proud of somebody.",
+      "testLevel": 2
+    },
+    {
+      "text": "He apologised ___ being late.",
+      "options": [
+        "of",
+        "for",
+        "about",
+        "to"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 apologise to sb for sth.\n❌ Хибні: А) of — of не вживається після apologise; В) about — about не вживається в цьому значенні; Г) to — to вводить людину, перед якою вибачаються, а не причину.\n✅ Б) for — причину вводимо for.",
+      "testLevel": 2
+    },
+    {
+      "text": "She isn't accustomed ___ getting up so early.",
+      "options": [
+        "to",
+        "for",
+        "with",
+        "at"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 be accustomed to + -ing (як be used to).\n❌ Хибні: Б) for — for не вживається після accustomed; В) with — with не вживається після accustomed; Г) at — at не вживається після accustomed.\n✅ А) to — accustomed to doing.",
+      "testLevel": 3
+    },
+    {
+      "text": "The flight was cancelled due ___ thick fog.",
+      "options": [
+        "of",
+        "from",
+        "for",
+        "to"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 due to — через, унаслідок.\n❌ Хибні: А) of — due of не вживається; Б) from — due from не вживається; В) for — due for має інше значення («має відбутися»).\n✅ Г) to — due to + іменник.",
+      "testLevel": 3
+    },
+    {
+      "text": "Can you account ___ the missing money?",
+      "options": [
+        "of",
+        "for",
+        "with",
+        "to"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 account for — пояснити, дати звіт.\n❌ Хибні: А) of — of не вживається після account; В) with — with не вживається в цьому значенні; Г) to — to не вживається в цьому значенні.\n✅ Б) for — account for sth.",
+      "testLevel": 3
+    },
+    {
+      "text": "He was accused ___ stealing the documents.",
+      "options": [
+        "with",
+        "for",
+        "in",
+        "of"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 accuse sb of sth (але charge sb with sth).\n❌ Хибні: А) with — with — після charge, а не accuse; Б) for — for не вживається після accuse; В) in — in не вживається після accuse.\n✅ Г) of — accused of doing.",
+      "testLevel": 3
+    },
+    {
+      "text": "Who will look ___ the children while we're away?",
+      "options": [
+        "after",
+        "up",
+        "for",
+        "into"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 look after — доглядати.\n❌ Хибні: Б) up — look up — шукати в довіднику; В) for — look for — шукати; Г) into — look into — розслідувати.\n✅ А) after — доглядати дітей.",
+      "testLevel": 2
+    },
+    {
+      "text": "The meeting has been put ___ until next week.",
+      "options": [
+        "off",
+        "out",
+        "on",
+        "up"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 put off — відкласти.\n❌ Хибні: Б) out — put out — загасити; В) on — put on — вдягнути; Г) up — put up — розмістити, підняти.\n✅ А) off — перенести на пізніше.",
+      "testLevel": 3
+    },
+    {
+      "text": "I can't put up ___ this noise any longer.",
+      "options": [
+        "for",
+        "on",
+        "with",
+        "to"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 put up with — терпіти.\n❌ Хибні: А) for — put up for — не має значення «терпіти»; Б) on — put up on — не вживається; Г) to — put up to — підбурювати.\n✅ В) with — терпіти шум.",
+      "testLevel": 3
+    },
+    {
+      "text": "She takes ___ her mother — they have exactly the same smile.",
+      "options": [
+        "off",
+        "over",
+        "after",
+        "up"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 take after — бути схожим на старшого родича.\n❌ Хибні: А) off — take off — злітати, знімати; Б) over — take over — перебрати контроль; Г) up — take up — почати займатися.\n✅ В) after — бути схожою на маму.",
+      "testLevel": 2
+    },
+    {
+      "text": "I ran ___ an old friend in the supermarket yesterday.",
+      "options": [
+        "out",
+        "off",
+        "into",
+        "over"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 run into — випадково зустріти.\n❌ Хибні: А) out — run out — закінчитися; Б) off — run off — утекти; Г) over — run over — переїхати (автомобілем).\n✅ В) into — випадкова зустріч.",
+      "testLevel": 3
+    }
+  ]
+}

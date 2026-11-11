@@ -1,0 +1,320 @@
+"""English: цільові «пастки» НМТ (single_choice з 💡❌✅) + contextual matching 4×5 для Reading."""
+import json
+import os
+from matching_lib import ROOT, topic_name, q as mq
+
+LET = ["А", "Б", "В", "Г"]
+
+
+def sc(level, text, options, correct, rule, why_wrong, why_right):
+    """options: 4 варіанти; correct — індекс; why_wrong — пояснення для кожного хибного варіанта (у порядку options)."""
+    assert len(options) == 4 and len(set(options)) == 4 and len(why_wrong) == 3, text
+    import random
+    whys = dict(zip([i for i in range(4) if i != correct], why_wrong))
+    perm = list(range(4))
+    random.Random("traps:" + text).shuffle(perm)  # перемішуємо, щоб правильна відповідь не стояла завжди під Б
+    options = [options[i] for i in perm]
+    why_wrong = [whys[i] for i in perm if i != correct]
+    correct = perm.index(correct)
+    wrong = [i for i in range(4) if i != correct]
+    expl = (f"💡 {rule}\n❌ Хибні: "
+            + "; ".join(f"{LET[i]}) {options[i]} — {w}" for i, w in zip(wrong, why_wrong))
+            + f".\n✅ {LET[correct]}) {options[correct]} — {why_right}")
+    return {"text": text, "options": options, "correctIndex": correct, "explanation": expl, "testLevel": level}
+
+
+T = {}
+
+T["01"] = [
+    sc(2, "I'll call you as soon as I ___ home.", ["get", "will get", "got", "am getting"], 0,
+       "Пастка: у підрядних часу (as soon as, when, until, before) майбутнє виражаємо Present Simple.",
+       ["will після as soon as не вживається", "минулий час не відповідає майбутній ситуації", "Continuous не передає завершеної дії"],
+       "Present Simple у підрядному часу з майбутнім значенням."),
+    sc(3, "By the time the police arrived, the thieves ___.", ["escaped", "had escaped", "have escaped", "were escaping"], 1,
+       "By the time + Past Simple → у головному реченні Past Perfect (дія завершилася раніше).",
+       ["Past Simple не показує, що втеча сталася до приїзду поліції", "Present Perfect не поєднується з минулою ситуацією", "Continuous означає незавершену дію, а злодії вже зникли"],
+       "Past Perfect — дія, що завершилася до іншої минулої дії."),
+    sc(3, "When she ___ her homework, she went out with her friends.", ["has finished", "will finish", "had finished", "is finishing"], 2,
+       "Послідовність минулих дій: спочатку завершила, потім пішла → Past Perfect у підрядному.",
+       ["Present Perfect не вживається в розповіді про минуле", "майбутній час суперечить went", "Present Continuous не відповідає минулому"],
+       "Past Perfect підкреслює, що домашнє завдання було зроблене до виходу."),
+    sc(3, "We won't start the meeting until everybody ___.", ["will arrive", "has arrived", "arrived", "would arrive"], 1,
+       "Пастка: після until у майбутньому значенні — Present Simple або Present Perfect (наголос на завершенні).",
+       ["will після until не вживається", "Past Simple суперечить майбутньому won't start", "would — форма умовного способу, тут не потрібна"],
+       "Present Perfect: почнемо, коли всі вже прийдуть."),
+    sc(2, "Hardly ___ the house when it started to rain.", ["we had left", "had we left", "did we leave", "we left"], 1,
+       "Hardly / Scarcely … when на початку речення → інверсія + Past Perfect.",
+       ["без інверсії після Hardly речення неграматичне", "did we leave — інверсія з Past Simple, а потрібен Past Perfect", "без інверсії й не той час"],
+       "інверсія had + підмет + V3."),
+    sc(3, "No sooner ___ the phone than it rang again.", ["I had put down", "did I put down", "had I put down", "I put down"], 2,
+       "No sooner … than → інверсія + Past Perfect.",
+       ["немає інверсії після No sooner", "Past Simple з інверсією — не та часова форма", "немає інверсії, не той час"],
+       "had + I + put down — правильна інверсія."),
+    sc(2, "This is the first time I ___ sushi.", ["ate", "have eaten", "am eating", "eat"], 1,
+       "This is the first / second time … → Present Perfect.",
+       ["Past Simple після This is the first time не вживається", "Continuous не виражає досвід", "Present Simple не виражає досвід"],
+       "Present Perfect — досвід до моменту мовлення."),
+    sc(3, "It's high time you ___ to bed — it's almost midnight.", ["go", "will go", "went", "have gone"], 2,
+       "It's (high) time + підмет + Past Simple — «давно пора».",
+       ["Present Simple після It's high time не вживається", "will не вживається в цій конструкції", "Present Perfect не вживається в цій конструкції"],
+       "Past Simple з теперішнім значенням після It's high time."),
+    sc(3, "By 2030 scientists ___ a cure for this disease, I hope.", ["will find", "find", "have found", "will have found"], 3,
+       "By + майбутній момент → Future Perfect (дія завершиться до цього моменту).",
+       ["Future Simple не показує завершеності до 2030 р.", "Present Simple не виражає майбутнього результату", "Present Perfect не поєднується з майбутньою датою"],
+       "Future Perfect — завершиться до 2030 р."),
+    sc(2, "I clearly remember ___ the door, but now it's open!", ["to lock", "locking", "lock", "locked"], 1,
+       "remember + -ing — пам'ятати те, що вже зробив; remember + to — не забути зробити.",
+       ["to lock означав би «не забути замкнути» (у майбутньому)", "голий інфінітив після remember не вживається", "V2 після remember не вживається"],
+       "спогад про вже виконану дію."),
+    sc(2, "Please remember ___ off the lights before you leave.", ["switching", "to switch", "switch", "switched"], 1,
+       "remember + to-infinitive — не забути виконати дію.",
+       ["switching — спогад про минуле, а тут прохання на майбутнє", "голий інфінітив після remember не вживається", "V2 після remember не вживається"],
+       "прохання не забути вимкнути світло."),
+    sc(3, "On the way home, he stopped ___ a newspaper at the kiosk.", ["buying", "to buy", "buy", "bought"], 1,
+       "stop + to-infinitive — зупинитися, щоб щось зробити; stop + -ing — припинити дію.",
+       ["buying означало б «перестав купувати газету»", "голий інфінітив після stop не вживається", "V2 після stop не вживається"],
+       "зупинився, щоб купити газету."),
+    sc(3, "You must stop ___ — it's really bad for your health.", ["to smoke", "smoking", "smoke", "smoked"], 1,
+       "stop + -ing — припинити робити щось.",
+       ["to smoke — «зупинитися, щоб покурити», протилежне значення", "голий інфінітив після stop не вживається", "V2 після stop не вживається"],
+       "припинити палити."),
+    sc(3, "We regret ___ you that your application has been rejected.", ["informing", "to inform", "inform", "informed"], 1,
+       "regret + to-infinitive — «з жалем повідомляємо» (офіційно); regret + -ing — шкодувати про зроблене.",
+       ["informing — шкодувати, що вже повідомили, тут не підходить", "голий інфінітив після regret не вживається", "V2 після regret не вживається"],
+       "офіційна формула поганої новини."),
+    sc(3, "I'll never forget ___ the Carpathians for the first time.", ["to see", "seeing", "see", "saw"], 1,
+       "forget + -ing — не забути пережите; forget + to — забути зробити.",
+       ["to see — «забути побачити», зміст не підходить", "голий інфінітив після forget не вживається", "V2 після forget не вживається"],
+       "спогад про пережите в минулому."),
+    sc(2, "She avoided ___ the journalist's question.", ["to answer", "answer", "answering", "answered"], 2,
+       "avoid, enjoy, mind, finish, suggest + -ing.",
+       ["після avoid інфінітив не вживається", "голий інфінітив після avoid не вживається", "V2 після avoid не вживається"],
+       "avoid + герундій."),
+    sc(2, "After a long discussion, they decided ___ the trip.", ["postponing", "to postpone", "postpone", "postponed"], 1,
+       "decide, agree, refuse, promise, hope + to-infinitive.",
+       ["після decide герундій не вживається", "голий інфінітив після decide не вживається", "V2 після decide не вживається"],
+       "decide + to-infinitive."),
+    sc(3, "I'm used to ___ up early, so the 6 a.m. train isn't a problem.", ["get", "getting", "got", "have got"], 1,
+       "be used to + -ing — мати звичку; used to + інфінітив — колишня звичка.",
+       ["get — так було б після used to (без be), але тут be used to", "V2 після прийменника to не вживається", "have got після прийменника to не вживається"],
+       "to тут прийменник, після нього — герундій."),
+]
+
+T["02"] = [
+    sc(3, "___ harder, she would have passed the exam.", ["If she studied", "Had she studied", "Did she study", "Has she studied"], 1,
+       "Інверсія в Third Conditional: Had + підмет + V3 замість If + Past Perfect.",
+       ["Past Simple — це Second Conditional, не поєднується з would have passed", "did-інверсія не вживається в умовних", "Present Perfect не вживається в умовних реченнях"],
+       "інверсія третього типу."),
+    sc(3, "___ you need any help, don't hesitate to call me.", ["Would", "Had", "Should", "Were"], 2,
+       "Should + підмет + інфінітив — інверсія в First Conditional («якщо раптом»).",
+       ["Would не вживається для інверсії в умовних", "Had — інверсія Third Conditional, а тут реальна майбутня умова", "Were — інверсія Second Conditional, не поєднується з don't hesitate"],
+       "ввічлива форма реальної умови."),
+    sc(3, "___ I in your position, I would accept the offer.", ["Was", "Were", "Had", "Should"], 1,
+       "Were + підмет — інверсія в Second Conditional.",
+       ["Was в інверсії не вживається", "Had вимагав би V3 і would have", "Should — інверсія для реальної умови"],
+       "Were I in your position = If I were in your position."),
+    sc(3, "If I had taken that job in London, I ___ there now.", ["would have lived", "would be living", "will live", "lived"], 1,
+       "Mixed Conditional: умова в минулому (Past Perfect) → результат у теперішньому (would + інфінітив).",
+       ["would have lived — минулий результат, а є слово now", "will — First Conditional", "lived — немає would"],
+       "now вказує на теперішній результат."),
+    sc(3, "If she weren't so impatient, she ___ that mistake yesterday.", ["wouldn't make", "wouldn't have made", "didn't make", "hadn't made"], 1,
+       "Mixed Conditional: постійна риса (Past Simple) → минулий результат (would have + V3).",
+       ["wouldn't make — теперішній результат, а є yesterday", "didn't make — немає would", "hadn't made — немає would"],
+       "yesterday вимагає would have + V3."),
+    sc(2, "I wish I ___ to the party last night — everyone says it was great.", ["went", "had gone", "would go", "have gone"], 1,
+       "wish + Past Perfect — жаль про минуле.",
+       ["wish + Past Simple — жаль про теперішнє", "wish + would — бажання змін від інших", "Present Perfect після wish не вживається"],
+       "жаль про минуле (last night)."),
+    sc(3, "I wish you ___ interrupting me all the time!", ["stopped", "had stopped", "would stop", "stop"], 2,
+       "wish + would — роздратування чужою поведінкою, бажання, щоб вона змінилася.",
+       ["stopped — жаль про стан, а не прохання змінити поведінку", "had stopped — жаль про минуле", "Present Simple після wish не вживається"],
+       "дратує поведінка іншої людини."),
+    sc(2, "Unless you ___ now, you'll miss the last bus.", ["will leave", "don't leave", "leave", "left"], 2,
+       "Пастка: unless = if … not, тому після нього стверджувальна форма.",
+       ["will після unless не вживається", "подвійне заперечення: unless + don't", "Past Simple не відповідає реальній умові"],
+       "Unless you leave = If you don't leave."),
+    sc(2, "I'm going to ___ my car serviced tomorrow.", ["make", "let", "have", "do"], 2,
+       "Causative: have + об'єкт + V3 — хтось робить це для нас.",
+       ["make вимагає голого інфінітива (make sb do)", "let вимагає голого інфінітива (let sb do)", "do не утворює каузативу"],
+       "have something done."),
+    sc(3, "After the storm, we had our roof ___.", ["repair", "repairing", "repaired", "to repair"], 2,
+       "have + об'єкт + V3: дію виконав хтось інший.",
+       ["інфінітив означав би, що дах сам щось робить", "-ing не утворює пасивного каузативу", "to-infinitive після have + об'єкт не вживається"],
+       "дах полагодили майстри."),
+    sc(3, "She got her brother ___ her with the move.", ["help", "to help", "helped", "helping"], 1,
+       "get + людина + to-infinitive — умовити когось зробити.",
+       ["голий інфінітив — після have / make / let, не після get", "V3 — коли об'єкт є річчю (get the car repaired)", "-ing після get sb має інше значення"],
+       "get sb to do."),
+    sc(3, "In the passive, «The teacher made us rewrite the essay» becomes: «We ___ rewrite the essay».", ["were made", "were made to", "made to", "were making"], 1,
+       "Пастка: make sb do → у пасиві be made to do (з'являється to).",
+       ["без to пасив від make неграматичний", "немає be", "Active Continuous, а не пасив"],
+       "be made to do."),
+    sc(2, "«I saw him yesterday,» he said. → He said he had seen him ___.", ["yesterday", "tomorrow", "the day before", "the next day"], 2,
+       "У непрямій мові yesterday → the day before (the previous day).",
+       ["yesterday не змінено — помилка непрямої мови", "tomorrow змінює зміст", "the next day — заміна для tomorrow, а не yesterday"],
+       "зсув часових слів."),
+    sc(3, "«Where do you live?» she asked me. → She asked me where ___.", ["did I live", "I lived", "do I live", "I did live"], 1,
+       "У непрямому питанні — прямий порядок слів і зсув часу.",
+       ["інверсія в непрямому питанні не вживається", "інверсія й без зсуву часу", "емфатичне did тут неможливе"],
+       "прямий порядок + Past Simple."),
+    sc(3, "He asked me ___ I could help him with the project.", ["that", "if", "what", "—"], 1,
+       "Загальне питання в непрямій мові вводимо if / whether.",
+       ["that вводить твердження, а не питання", "what — для спеціального питання, а тут yes/no", "без сполучника речення неграматичне"],
+       "питання «так / ні» → if."),
+    sc(3, "The suspect is believed ___ the country last night.", ["to leave", "leaving", "to have left", "having left"], 2,
+       "Особовий пасив: be believed / said / known + to have V3, якщо дія відбулася раніше.",
+       ["to leave — одночасна дія, а є last night", "-ing після is believed не вживається", "having left після is believed не вживається"],
+       "дія в минулому → перфектний інфінітив."),
+    sc(2, "The new bridge ___ at the moment.", ["is building", "has built", "is being built", "builds"], 2,
+       "Present Continuous Passive: is / are being + V3.",
+       ["актив — міст сам будує", "актив Present Perfect", "актив Present Simple"],
+       "міст будують зараз."),
+    sc(3, "«Don't touch the wires!» the electrician told us. → The electrician told us ___ the wires.", ["don't touch", "not touch", "not to touch", "to not touching"], 2,
+       "Наказ у непрямій мові: tell sb (not) to do.",
+       ["пряма форма наказу в непрямій мові", "немає to", "-ing після to тут неможливе"],
+       "told us not to touch."),
+]
+
+T["03"] = [
+    sc(2, "She is perfectly capable ___ solving this problem herself.", ["to", "of", "in", "for"], 1,
+       "capable of + -ing (але able to + інфінітив).",
+       ["to — після able, а не capable", "in не вживається після capable", "for не вживається після capable"],
+       "capable of doing."),
+    sc(2, "He insisted ___ paying for dinner.", ["in", "on", "to", "at"], 1, "insist on + -ing.",
+       ["in не вживається після insist", "to не вживається після insist", "at не вживається після insist"], "insist on doing."),
+    sc(2, "I'm looking forward ___ from you.", ["to hear", "hearing", "to hearing", "for hearing"], 2,
+       "look forward to + -ing: to тут прийменник.",
+       ["інфінітив після прийменника to не вживається", "пропущено прийменник to", "прийменник for не вживається"],
+       "look forward to doing."),
+    sc(2, "She is very proud ___ her son.", ["for", "of", "with", "about"], 1, "proud of.",
+       ["for не вживається після proud", "with не вживається після proud", "about не вживається після proud"], "proud of somebody."),
+    sc(2, "He apologised ___ being late.", ["of", "for", "about", "to"], 1, "apologise to sb for sth.",
+       ["of не вживається після apologise", "about не вживається в цьому значенні", "to вводить людину, перед якою вибачаються, а не причину"],
+       "причину вводимо for."),
+    sc(3, "She isn't accustomed ___ getting up so early.", ["with", "to", "for", "at"], 1, "be accustomed to + -ing (як be used to).",
+       ["with не вживається після accustomed", "for не вживається після accustomed", "at не вживається після accustomed"], "accustomed to doing."),
+    sc(3, "The flight was cancelled due ___ thick fog.", ["of", "to", "for", "from"], 1, "due to — через, унаслідок.",
+       ["due of не вживається", "due for має інше значення («має відбутися»)", "due from не вживається"], "due to + іменник."),
+    sc(3, "Can you account ___ the missing money?", ["of", "for", "to", "with"], 1, "account for — пояснити, дати звіт.",
+       ["of не вживається після account", "to не вживається в цьому значенні", "with не вживається в цьому значенні"], "account for sth."),
+    sc(3, "He was accused ___ stealing the documents.", ["for", "of", "in", "with"], 1, "accuse sb of sth (але charge sb with sth).",
+       ["for не вживається після accuse", "in не вживається після accuse", "with — після charge, а не accuse"], "accused of doing."),
+    sc(2, "Who will look ___ the children while we're away?", ["for", "after", "up", "into"], 1, "look after — доглядати.",
+       ["look for — шукати", "look up — шукати в довіднику", "look into — розслідувати"], "доглядати дітей."),
+    sc(3, "The meeting has been put ___ until next week.", ["on", "off", "up", "out"], 1, "put off — відкласти.",
+       ["put on — вдягнути", "put up — розмістити, підняти", "put out — загасити"], "перенести на пізніше."),
+    sc(3, "I can't put up ___ this noise any longer.", ["for", "with", "to", "on"], 1, "put up with — терпіти.",
+       ["put up for — не має значення «терпіти»", "put up to — підбурювати", "put up on — не вживається"], "терпіти шум."),
+    sc(2, "She takes ___ her mother — they have exactly the same smile.", ["over", "after", "up", "off"], 1,
+       "take after — бути схожим на старшого родича.",
+       ["take over — перебрати контроль", "take up — почати займатися", "take off — злітати, знімати"], "бути схожою на маму."),
+    sc(3, "I ran ___ an old friend in the supermarket yesterday.", ["over", "into", "out", "off"], 1, "run into — випадково зустріти.",
+       ["run over — переїхати (автомобілем)", "run out — закінчитися", "run off — утекти"], "випадкова зустріч."),
+]
+
+T["04"] = [
+    sc(2, "Excuse me, could you ___ me the way to the station?", ["say", "tell", "speak", "talk"], 1,
+       "tell + людина (+ the way, the truth); say — без особового додатка.",
+       ["say me — помилка, кажемо say to me", "speak — говорити (мовою, з кимось), не пояснювати дорогу", "talk — розмовляти, не поєднується з the way"],
+       "tell somebody the way."),
+    sc(2, "These trousers are too ___ — I need a belt.", ["lose", "loose", "lost", "loss"], 1, "loose — вільний, завеликий; lose — губити.",
+       ["lose — дієслово «губити»", "lost — загублений", "loss — іменник «втрата»"], "прикметник loose."),
+    sc(3, "Oh no, I've ___ my keys again!", ["loosed", "lost", "missed", "loose"], 1, "lose — lost — lost; miss — пропустити, сумувати.",
+       ["loosed — від loosen/loose, «послабити»", "missed означає «пропустив / сумую», а не «загубив»", "loose — прикметник"], "Present Perfect від lose."),
+    sc(3, "My grandmother ___ me how to bake bread.", ["learned", "taught", "studied", "educated"], 1, "teach sb (to) do — навчити когось; learn — вчитися самому.",
+       ["learned me — помилка, learn не має особового додатка в цьому значенні", "studied — вивчав предмет", "educated — давав освіту загалом"], "teach — taught — taught."),
+    sc(3, "He ___ me of my father — they laugh in the same way.", ["remembers", "reminds", "recalls", "memorises"], 1, "remind sb of sb/sth — нагадувати.",
+       ["remember — пам'ятати самому", "recall — пригадувати", "memorise — завчати напам'ять"], "remind me of."),
+    sc(2, "She ___ married last summer.", ["made", "got", "did", "took"], 1, "get married — одружитися.",
+       ["make married не вживається", "do married не вживається", "take married не вживається"], "стійка сполука get married."),
+]
+
+T["05"] = [
+    sc(2, "Prices ___ by 10 % last year.", ["raised", "rose", "arose", "rised"], 1, "rise (rose, risen) — неперехідне «підніматися»; raise (raised) — перехідне «піднімати щось».",
+       ["raised потребує додатка (raised prices)", "arose — «виникли»", "rised — неіснуюча форма"], "ціни самі зросли."),
+    sc(2, "The government has ___ taxes again.", ["risen", "raised", "rose", "arisen"], 1, "raise + додаток — піднімати щось.",
+       ["risen неперехідне", "rose — неперехідне і не V3", "arisen — «виникли»"], "has raised taxes."),
+    sc(3, "She ___ the documents on the desk and left the office.", ["lay", "laid", "lied", "lain"], 1, "lay (laid, laid) — класти щось; lie (lay, lain) — лежати; lie (lied) — брехати.",
+       ["lay — минулий час від lie «лежати», неперехідне", "lied — «брехала»", "lain — V3 від lie «лежати»"], "поклала документи."),
+    sc(3, "He was so tired that he ___ on the sofa and fell asleep.", ["laid", "lay", "lied", "layed"], 1, "lie — lay — lain: лягти, лежати (без додатка).",
+       ["laid потребує додатка (laid something)", "lied — «збрехав»", "layed — неіснуюча форма"], "lay — минулий час від lie."),
+    sc(3, "Air pollution has a serious ___ on public health.", ["affect", "effect", "affection", "efficiency"], 1, "effect — іменник «вплив»; affect — дієслово «впливати».",
+       ["affect — дієслово", "affection — прихильність", "efficiency — ефективність"], "have an effect on."),
+    sc(3, "Lack of sleep can ___ your concentration.", ["effect", "affect", "effective", "infect"], 1, "affect — дієслово «впливати на».",
+       ["effect як дієслово означає «здійснити» і тут не підходить", "effective — прикметник", "infect — заражати"], "affect concentration."),
+    sc(3, "The country is going through a serious ___ crisis.", ["economical", "economic", "economy", "economist"], 1, "economic — економічний (пов'язаний з економікою); economical — ощадливий.",
+       ["economical — ощадливий, не про кризу", "economy — іменник", "economist — людина"], "economic crisis."),
+    sc(3, "This small car is very ___ — it uses little fuel.", ["economic", "economical", "economy", "economics"], 1, "economical — ощадливий, економний.",
+       ["economic — пов'язаний з економікою країни", "economy — іменник", "economics — наука"], "економна машина."),
+    sc(2, "Could you ___ me your pen for a minute?", ["borrow", "lend", "rent", "owe"], 1, "lend sb sth — позичити комусь; borrow sth from sb — позичити в когось.",
+       ["borrow me — помилка, borrow from sb", "rent — орендувати", "owe — бути винним"], "lend me."),
+    sc(3, "Could you ___ me a favour and post this letter?", ["make", "do", "give", "take"], 1, "do sb a favour — зробити послугу.",
+       ["make a favour не вживається", "give a favour не вживається", "take a favour не вживається"], "стійка сполука."),
+    sc(3, "The ___ sentenced him to five years in prison.", ["lawyer", "judge", "jury", "witness"], 1, "Вирок виносить суддя (judge); присяжні (jury) лише вирішують, винен чи ні.",
+       ["lawyer — адвокат", "jury — присяжні, вирок не виносять", "witness — свідок"], "суддя виносить вирок."),
+    sc(3, "She was ___ from her job for stealing.", ["resigned", "fired", "retired", "hired"], 1, "be fired — бути звільненим роботодавцем.",
+       ["resign — звільнитися самому, пасив тут неможливий", "retire — вийти на пенсію", "hired — найнята"], "звільнили за крадіжку."),
+]
+
+T["06"] = [
+    sc(2, "Our flight was ___ because of the storm.", ["missed", "cancelled", "lost", "failed"], 1, "cancel a flight — скасувати рейс.",
+       ["missed — ми спізнилися, а не рейс скасували", "lost — загублений", "failed — зазнав невдачі"], "рейс скасували."),
+    sc(2, "Did you have a good ___ to Lviv?", ["travel", "trip", "travels", "journeys"], 1, "travel — незлічуване (подорожування загалом); trip — конкретна поїздка.",
+       ["travel незлічуваний, з a не вживається", "travels — мемуари про подорожі", "множина не поєднується з a"], "a good trip."),
+    sc(3, "Our hotel room had a beautiful ___ of the sea.", ["sight", "view", "look", "scene"], 1, "view — краєвид із певного місця.",
+       ["sight — зір або визначна пам'ятка", "look — погляд", "scene — сцена, місце події"], "a view of the sea."),
+    sc(3, "Many species are ___ extinction.", ["at danger of", "in danger of", "under danger of", "in danger from"], 1, "in danger of + іменник / -ing.",
+       ["at danger не вживається", "under danger не вживається", "in danger from — небезпека від когось, не від вимирання"], "in danger of extinction."),
+    sc(3, "Global temperatures continue to ___.", ["raise", "rise", "arise", "rouse"], 1, "rise — неперехідне: щось підвищується саме.",
+       ["raise потребує додатка", "arise — виникати (про проблеми)", "rouse — будити"], "температури зростають."),
+    sc(2, "Please don't ___ litter in the park.", ["fall", "drop", "lose", "leak"], 1, "drop litter — смітити.",
+       ["fall — неперехідне", "lose — губити", "leak — протікати"], "drop litter."),
+]
+
+H = "Read the text and match the gaps (1–4) with the sentences (A–E). One sentence is extra."
+T["07_match"] = [
+    mq(2, H + "\n\nLast year our school started a recycling project. (1) They persuaded the head teacher to support it. Students from every class collected paper, plastic and glass. (2) Each one had a different colour for a different material. At first, not everyone was enthusiastic. (3) However, their opinion changed when they saw the results. After three months, the school had collected over two tonnes of waste and sold it to a recycling company. (4)",
+       "Gap", "Sentence", [
+           ("Gap 1", "The idea came from a group of ninth-graders who had watched a documentary about plastic in the ocean."),
+           ("Gap 2", "Special bins were placed in every corridor."),
+           ("Gap 3", "Some students thought it would be a waste of time."),
+           ("Gap 4", "The money was spent on new books for the library.")],
+       "The school canteen was closed for repairs.",
+       "Підказки-зв'язки: They → ninth-graders; Each one → bins; their opinion → some students; The money → продали відходи."),
+    mq(3, H + "\n\nKateryna Bilokur never had any formal art training. (1) Her parents did not approve of her passion and often took away her paints. (2) Instead, she made her own brushes from cat fur and painted on rough cloth. (3) Her flower paintings were shown in Paris in 1954. (4)",
+       "Gap", "Sentence", [
+           ("Gap 1", "As a child, she drew with charcoal on any surface she could find."),
+           ("Gap 2", "Besides, she could not afford to buy professional materials."),
+           ("Gap 3", "Gradually, her work attracted the attention of famous artists."),
+           ("Gap 4", "There, Pablo Picasso is said to have admired them greatly.")],
+       "She later moved to Kyiv to study at the Academy of Arts.",
+       "Зайве речення суперечить першому (не мала художньої освіти); Instead протиставляє покупці матеріалів; There → Paris."),
+    mq(2, H + "\n\nDear Mr Smith,\nI am writing to apply for the summer job at your café. (1) I have worked as a waitress at my aunt's restaurant for two summers. (2) I can start any time after 15 June. (3) I look forward to hearing from you.\n(4)",
+       "Gap", "Sentence", [
+           ("Gap 1", "I saw your advertisement in yesterday's newspaper."),
+           ("Gap 2", "Therefore, I am used to working with customers and under pressure."),
+           ("Gap 3", "I would also be happy to work at weekends."),
+           ("Gap 4", "Yours sincerely, Olena Koval")],
+       "I have never worked with customers before.",
+       "Зайве речення суперечить досвіду роботи офіціанткою; Therefore випливає з досвіду; also доповнює дату початку."),
+    mq(3, H + "\n\nScientists have discovered that octopuses can solve surprisingly complex problems. (1) In one experiment, an octopus was given a jar with a crab inside. (2) Within minutes, it had unscrewed the lid and eaten the crab. (3) Some researchers believe this is because each of the octopus's arms contains its own cluster of neurons. (4)",
+       "Gap", "Sentence", [
+           ("Gap 1", "This ability was long thought to be typical only of mammals and birds."),
+           ("Gap 2", "The lid was tightly closed, and the jar was placed in the corner of the tank."),
+           ("Gap 3", "Even more surprisingly, it later learned to open the jar from the inside."),
+           ("Gap 4", "As a result, the arms can act almost independently of the brain.")],
+       "Octopuses usually live for many decades.",
+       "This ability → розв'язання задач; The lid → jar; it later → той самий восьминіг; As a result → нейрони в кожній кінцівці. Зайве речення хибне: восьминоги живуть 1–2 роки."),
+]
+
+FILES = {"01": "01_grammar_tenses", "02": "02_grammar_passive", "03": "03_grammar_nouns", "04": "04_vocabulary_everyday",
+         "05": "05_vocabulary_education", "06": "06_vocabulary_environment", "07_match": "07_reading"}
+
+if __name__ == "__main__":
+    for k, qs in T.items():
+        prefix = FILES[k]
+        subject, topic = topic_name("english", prefix)
+        path = os.path.join(ROOT, "content", "english", prefix + "_traps.json")
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump({"subject": subject, "topic": topic, "cards": [], "questions": qs}, fh, ensure_ascii=False, indent=2)
+        print(path, len(qs))

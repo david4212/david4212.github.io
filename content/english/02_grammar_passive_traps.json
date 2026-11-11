@@ -1,0 +1,223 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Grammar: Passive Voice & Conditionals",
+  "cards": [],
+  "questions": [
+    {
+      "text": "___ harder, she would have passed the exam.",
+      "options": [
+        "Had she studied",
+        "Has she studied",
+        "Did she study",
+        "If she studied"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Інверсія в Third Conditional: Had + підмет + V3 замість If + Past Perfect.\n❌ Хибні: Б) Has she studied — Present Perfect не вживається в умовних реченнях; В) Did she study — did-інверсія не вживається в умовних; Г) If she studied — Past Simple — це Second Conditional, не поєднується з would have passed.\n✅ А) Had she studied — інверсія третього типу.",
+      "testLevel": 3
+    },
+    {
+      "text": "___ you need any help, don't hesitate to call me.",
+      "options": [
+        "Should",
+        "Were",
+        "Would",
+        "Had"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Should + підмет + інфінітив — інверсія в First Conditional («якщо раптом»).\n❌ Хибні: Б) Were — Were — інверсія Second Conditional, не поєднується з don't hesitate; В) Would — Would не вживається для інверсії в умовних; Г) Had — Had — інверсія Third Conditional, а тут реальна майбутня умова.\n✅ А) Should — ввічлива форма реальної умови.",
+      "testLevel": 3
+    },
+    {
+      "text": "___ I in your position, I would accept the offer.",
+      "options": [
+        "Were",
+        "Was",
+        "Should",
+        "Had"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Were + підмет — інверсія в Second Conditional.\n❌ Хибні: Б) Was — Was в інверсії не вживається; В) Should — Should — інверсія для реальної умови; Г) Had — Had вимагав би V3 і would have.\n✅ А) Were — Were I in your position = If I were in your position.",
+      "testLevel": 3
+    },
+    {
+      "text": "If I had taken that job in London, I ___ there now.",
+      "options": [
+        "lived",
+        "will live",
+        "would have lived",
+        "would be living"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Mixed Conditional: умова в минулому (Past Perfect) → результат у теперішньому (would + інфінітив).\n❌ Хибні: А) lived — lived — немає would; Б) will live — will — First Conditional; В) would have lived — would have lived — минулий результат, а є слово now.\n✅ Г) would be living — now вказує на теперішній результат.",
+      "testLevel": 3
+    },
+    {
+      "text": "If she weren't so impatient, she ___ that mistake yesterday.",
+      "options": [
+        "hadn't made",
+        "didn't make",
+        "wouldn't make",
+        "wouldn't have made"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Mixed Conditional: постійна риса (Past Simple) → минулий результат (would have + V3).\n❌ Хибні: А) hadn't made — hadn't made — немає would; Б) didn't make — didn't make — немає would; В) wouldn't make — wouldn't make — теперішній результат, а є yesterday.\n✅ Г) wouldn't have made — yesterday вимагає would have + V3.",
+      "testLevel": 3
+    },
+    {
+      "text": "I wish I ___ to the party last night — everyone says it was great.",
+      "options": [
+        "have gone",
+        "went",
+        "would go",
+        "had gone"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 wish + Past Perfect — жаль про минуле.\n❌ Хибні: А) have gone — Present Perfect після wish не вживається; Б) went — wish + Past Simple — жаль про теперішнє; В) would go — wish + would — бажання змін від інших.\n✅ Г) had gone — жаль про минуле (last night).",
+      "testLevel": 2
+    },
+    {
+      "text": "I wish you ___ interrupting me all the time!",
+      "options": [
+        "stopped",
+        "would stop",
+        "stop",
+        "had stopped"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 wish + would — роздратування чужою поведінкою, бажання, щоб вона змінилася.\n❌ Хибні: А) stopped — stopped — жаль про стан, а не прохання змінити поведінку; В) stop — Present Simple після wish не вживається; Г) had stopped — had stopped — жаль про минуле.\n✅ Б) would stop — дратує поведінка іншої людини.",
+      "testLevel": 3
+    },
+    {
+      "text": "Unless you ___ now, you'll miss the last bus.",
+      "options": [
+        "will leave",
+        "left",
+        "leave",
+        "don't leave"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: unless = if … not, тому після нього стверджувальна форма.\n❌ Хибні: А) will leave — will після unless не вживається; Б) left — Past Simple не відповідає реальній умові; Г) don't leave — подвійне заперечення: unless + don't.\n✅ В) leave — Unless you leave = If you don't leave.",
+      "testLevel": 2
+    },
+    {
+      "text": "I'm going to ___ my car serviced tomorrow.",
+      "options": [
+        "let",
+        "do",
+        "have",
+        "make"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Causative: have + об'єкт + V3 — хтось робить це для нас.\n❌ Хибні: А) let — let вимагає голого інфінітива (let sb do); Б) do — do не утворює каузативу; Г) make — make вимагає голого інфінітива (make sb do).\n✅ В) have — have something done.",
+      "testLevel": 2
+    },
+    {
+      "text": "After the storm, we had our roof ___.",
+      "options": [
+        "repairing",
+        "to repair",
+        "repaired",
+        "repair"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 have + об'єкт + V3: дію виконав хтось інший.\n❌ Хибні: А) repairing — -ing не утворює пасивного каузативу; Б) to repair — to-infinitive після have + об'єкт не вживається; Г) repair — інфінітив означав би, що дах сам щось робить.\n✅ В) repaired — дах полагодили майстри.",
+      "testLevel": 3
+    },
+    {
+      "text": "She got her brother ___ her with the move.",
+      "options": [
+        "to help",
+        "help",
+        "helping",
+        "helped"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 get + людина + to-infinitive — умовити когось зробити.\n❌ Хибні: Б) help — голий інфінітив — після have / make / let, не після get; В) helping — -ing після get sb має інше значення; Г) helped — V3 — коли об'єкт є річчю (get the car repaired).\n✅ А) to help — get sb to do.",
+      "testLevel": 3
+    },
+    {
+      "text": "In the passive, «The teacher made us rewrite the essay» becomes: «We ___ rewrite the essay».",
+      "options": [
+        "made to",
+        "were made to",
+        "were making",
+        "were made"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Пастка: make sb do → у пасиві be made to do (з'являється to).\n❌ Хибні: А) made to — немає be; В) were making — Active Continuous, а не пасив; Г) were made — без to пасив від make неграматичний.\n✅ Б) were made to — be made to do.",
+      "testLevel": 3
+    },
+    {
+      "text": "«I saw him yesterday,» he said. → He said he had seen him ___.",
+      "options": [
+        "tomorrow",
+        "yesterday",
+        "the day before",
+        "the next day"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 У непрямій мові yesterday → the day before (the previous day).\n❌ Хибні: А) tomorrow — tomorrow змінює зміст; Б) yesterday — yesterday не змінено — помилка непрямої мови; Г) the next day — the next day — заміна для tomorrow, а не yesterday.\n✅ В) the day before — зсув часових слів.",
+      "testLevel": 2
+    },
+    {
+      "text": "«Where do you live?» she asked me. → She asked me where ___.",
+      "options": [
+        "I lived",
+        "did I live",
+        "I did live",
+        "do I live"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 У непрямому питанні — прямий порядок слів і зсув часу.\n❌ Хибні: Б) did I live — інверсія в непрямому питанні не вживається; В) I did live — емфатичне did тут неможливе; Г) do I live — інверсія й без зсуву часу.\n✅ А) I lived — прямий порядок + Past Simple.",
+      "testLevel": 3
+    },
+    {
+      "text": "He asked me ___ I could help him with the project.",
+      "options": [
+        "what",
+        "that",
+        "—",
+        "if"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Загальне питання в непрямій мові вводимо if / whether.\n❌ Хибні: А) what — what — для спеціального питання, а тут yes/no; Б) that — that вводить твердження, а не питання; В) — — без сполучника речення неграматичне.\n✅ Г) if — питання «так / ні» → if.",
+      "testLevel": 3
+    },
+    {
+      "text": "The suspect is believed ___ the country last night.",
+      "options": [
+        "to have left",
+        "to leave",
+        "having left",
+        "leaving"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Особовий пасив: be believed / said / known + to have V3, якщо дія відбулася раніше.\n❌ Хибні: Б) to leave — to leave — одночасна дія, а є last night; В) having left — having left після is believed не вживається; Г) leaving — -ing після is believed не вживається.\n✅ А) to have left — дія в минулому → перфектний інфінітив.",
+      "testLevel": 3
+    },
+    {
+      "text": "The new bridge ___ at the moment.",
+      "options": [
+        "builds",
+        "is building",
+        "has built",
+        "is being built"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Present Continuous Passive: is / are being + V3.\n❌ Хибні: А) builds — актив Present Simple; Б) is building — актив — міст сам будує; В) has built — актив Present Perfect.\n✅ Г) is being built — міст будують зараз.",
+      "testLevel": 2
+    },
+    {
+      "text": "«Don't touch the wires!» the electrician told us. → The electrician told us ___ the wires.",
+      "options": [
+        "not to touch",
+        "not touch",
+        "don't touch",
+        "to not touching"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 Наказ у непрямій мові: tell sb (not) to do.\n❌ Хибні: Б) not touch — немає to; В) don't touch — пряма форма наказу в непрямій мові; Г) to not touching — -ing після to тут неможливе.\n✅ А) not to touch — told us not to touch.",
+      "testLevel": 3
+    }
+  ]
+}

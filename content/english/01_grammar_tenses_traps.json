@@ -1,0 +1,223 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Grammar: Tenses & Verb Forms",
+  "cards": [],
+  "questions": [
+    {
+      "text": "I'll call you as soon as I ___ home.",
+      "options": [
+        "will get",
+        "am getting",
+        "get",
+        "got"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 Пастка: у підрядних часу (as soon as, when, until, before) майбутнє виражаємо Present Simple.\n❌ Хибні: А) will get — will після as soon as не вживається; Б) am getting — Continuous не передає завершеної дії; Г) got — минулий час не відповідає майбутній ситуації.\n✅ В) get — Present Simple у підрядному часу з майбутнім значенням.",
+      "testLevel": 2
+    },
+    {
+      "text": "By the time the police arrived, the thieves ___.",
+      "options": [
+        "have escaped",
+        "escaped",
+        "had escaped",
+        "were escaping"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 By the time + Past Simple → у головному реченні Past Perfect (дія завершилася раніше).\n❌ Хибні: А) have escaped — Present Perfect не поєднується з минулою ситуацією; Б) escaped — Past Simple не показує, що втеча сталася до приїзду поліції; Г) were escaping — Continuous означає незавершену дію, а злодії вже зникли.\n✅ В) had escaped — Past Perfect — дія, що завершилася до іншої минулої дії.",
+      "testLevel": 3
+    },
+    {
+      "text": "When she ___ her homework, she went out with her friends.",
+      "options": [
+        "is finishing",
+        "had finished",
+        "will finish",
+        "has finished"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Послідовність минулих дій: спочатку завершила, потім пішла → Past Perfect у підрядному.\n❌ Хибні: А) is finishing — Present Continuous не відповідає минулому; В) will finish — майбутній час суперечить went; Г) has finished — Present Perfect не вживається в розповіді про минуле.\n✅ Б) had finished — Past Perfect підкреслює, що домашнє завдання було зроблене до виходу.",
+      "testLevel": 3
+    },
+    {
+      "text": "We won't start the meeting until everybody ___.",
+      "options": [
+        "would arrive",
+        "will arrive",
+        "arrived",
+        "has arrived"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 Пастка: після until у майбутньому значенні — Present Simple або Present Perfect (наголос на завершенні).\n❌ Хибні: А) would arrive — would — форма умовного способу, тут не потрібна; Б) will arrive — will після until не вживається; В) arrived — Past Simple суперечить майбутньому won't start.\n✅ Г) has arrived — Present Perfect: почнемо, коли всі вже прийдуть.",
+      "testLevel": 3
+    },
+    {
+      "text": "Hardly ___ the house when it started to rain.",
+      "options": [
+        "did we leave",
+        "had we left",
+        "we left",
+        "we had left"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 Hardly / Scarcely … when на початку речення → інверсія + Past Perfect.\n❌ Хибні: А) did we leave — did we leave — інверсія з Past Simple, а потрібен Past Perfect; В) we left — без інверсії й не той час; Г) we had left — без інверсії після Hardly речення неграматичне.\n✅ Б) had we left — інверсія had + підмет + V3.",
+      "testLevel": 2
+    },
+    {
+      "text": "No sooner ___ the phone than it rang again.",
+      "options": [
+        "I put down",
+        "I had put down",
+        "did I put down",
+        "had I put down"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 No sooner … than → інверсія + Past Perfect.\n❌ Хибні: А) I put down — немає інверсії, не той час; Б) I had put down — немає інверсії після No sooner; В) did I put down — Past Simple з інверсією — не та часова форма.\n✅ Г) had I put down — had + I + put down — правильна інверсія.",
+      "testLevel": 3
+    },
+    {
+      "text": "This is the first time I ___ sushi.",
+      "options": [
+        "ate",
+        "am eating",
+        "have eaten",
+        "eat"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 This is the first / second time … → Present Perfect.\n❌ Хибні: А) ate — Past Simple після This is the first time не вживається; Б) am eating — Continuous не виражає досвід; Г) eat — Present Simple не виражає досвід.\n✅ В) have eaten — Present Perfect — досвід до моменту мовлення.",
+      "testLevel": 2
+    },
+    {
+      "text": "It's high time you ___ to bed — it's almost midnight.",
+      "options": [
+        "went",
+        "will go",
+        "have gone",
+        "go"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 It's (high) time + підмет + Past Simple — «давно пора».\n❌ Хибні: Б) will go — will не вживається в цій конструкції; В) have gone — Present Perfect не вживається в цій конструкції; Г) go — Present Simple після It's high time не вживається.\n✅ А) went — Past Simple з теперішнім значенням після It's high time.",
+      "testLevel": 3
+    },
+    {
+      "text": "By 2030 scientists ___ a cure for this disease, I hope.",
+      "options": [
+        "will have found",
+        "will find",
+        "have found",
+        "find"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 By + майбутній момент → Future Perfect (дія завершиться до цього моменту).\n❌ Хибні: Б) will find — Future Simple не показує завершеності до 2030 р.; В) have found — Present Perfect не поєднується з майбутньою датою; Г) find — Present Simple не виражає майбутнього результату.\n✅ А) will have found — Future Perfect — завершиться до 2030 р.",
+      "testLevel": 3
+    },
+    {
+      "text": "I clearly remember ___ the door, but now it's open!",
+      "options": [
+        "locked",
+        "lock",
+        "to lock",
+        "locking"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 remember + -ing — пам'ятати те, що вже зробив; remember + to — не забути зробити.\n❌ Хибні: А) locked — V2 після remember не вживається; Б) lock — голий інфінітив після remember не вживається; В) to lock — to lock означав би «не забути замкнути» (у майбутньому).\n✅ Г) locking — спогад про вже виконану дію.",
+      "testLevel": 2
+    },
+    {
+      "text": "Please remember ___ off the lights before you leave.",
+      "options": [
+        "switch",
+        "switched",
+        "switching",
+        "to switch"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 remember + to-infinitive — не забути виконати дію.\n❌ Хибні: А) switch — голий інфінітив після remember не вживається; Б) switched — V2 після remember не вживається; В) switching — switching — спогад про минуле, а тут прохання на майбутнє.\n✅ Г) to switch — прохання не забути вимкнути світло.",
+      "testLevel": 2
+    },
+    {
+      "text": "On the way home, he stopped ___ a newspaper at the kiosk.",
+      "options": [
+        "to buy",
+        "bought",
+        "buy",
+        "buying"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 stop + to-infinitive — зупинитися, щоб щось зробити; stop + -ing — припинити дію.\n❌ Хибні: Б) bought — V2 після stop не вживається; В) buy — голий інфінітив після stop не вживається; Г) buying — buying означало б «перестав купувати газету».\n✅ А) to buy — зупинився, щоб купити газету.",
+      "testLevel": 3
+    },
+    {
+      "text": "You must stop ___ — it's really bad for your health.",
+      "options": [
+        "smoke",
+        "to smoke",
+        "smoking",
+        "smoked"
+      ],
+      "correctIndex": 2,
+      "explanation": "💡 stop + -ing — припинити робити щось.\n❌ Хибні: А) smoke — голий інфінітив після stop не вживається; Б) to smoke — to smoke — «зупинитися, щоб покурити», протилежне значення; Г) smoked — V2 після stop не вживається.\n✅ В) smoking — припинити палити.",
+      "testLevel": 3
+    },
+    {
+      "text": "We regret ___ you that your application has been rejected.",
+      "options": [
+        "inform",
+        "to inform",
+        "informed",
+        "informing"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 regret + to-infinitive — «з жалем повідомляємо» (офіційно); regret + -ing — шкодувати про зроблене.\n❌ Хибні: А) inform — голий інфінітив після regret не вживається; В) informed — V2 після regret не вживається; Г) informing — informing — шкодувати, що вже повідомили, тут не підходить.\n✅ Б) to inform — офіційна формула поганої новини.",
+      "testLevel": 3
+    },
+    {
+      "text": "I'll never forget ___ the Carpathians for the first time.",
+      "options": [
+        "to see",
+        "see",
+        "saw",
+        "seeing"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 forget + -ing — не забути пережите; forget + to — забути зробити.\n❌ Хибні: А) to see — to see — «забути побачити», зміст не підходить; Б) see — голий інфінітив після forget не вживається; В) saw — V2 після forget не вживається.\n✅ Г) seeing — спогад про пережите в минулому.",
+      "testLevel": 3
+    },
+    {
+      "text": "She avoided ___ the journalist's question.",
+      "options": [
+        "answering",
+        "to answer",
+        "answered",
+        "answer"
+      ],
+      "correctIndex": 0,
+      "explanation": "💡 avoid, enjoy, mind, finish, suggest + -ing.\n❌ Хибні: Б) to answer — після avoid інфінітив не вживається; В) answered — V2 після avoid не вживається; Г) answer — голий інфінітив після avoid не вживається.\n✅ А) answering — avoid + герундій.",
+      "testLevel": 2
+    },
+    {
+      "text": "After a long discussion, they decided ___ the trip.",
+      "options": [
+        "postponing",
+        "to postpone",
+        "postponed",
+        "postpone"
+      ],
+      "correctIndex": 1,
+      "explanation": "💡 decide, agree, refuse, promise, hope + to-infinitive.\n❌ Хибні: А) postponing — після decide герундій не вживається; В) postponed — V2 після decide не вживається; Г) postpone — голий інфінітив після decide не вживається.\n✅ Б) to postpone — decide + to-infinitive.",
+      "testLevel": 2
+    },
+    {
+      "text": "I'm used to ___ up early, so the 6 a.m. train isn't a problem.",
+      "options": [
+        "get",
+        "got",
+        "have got",
+        "getting"
+      ],
+      "correctIndex": 3,
+      "explanation": "💡 be used to + -ing — мати звичку; used to + інфінітив — колишня звичка.\n❌ Хибні: А) get — get — так було б після used to (без be), але тут be used to; Б) got — V2 після прийменника to не вживається; В) have got — have got після прийменника to не вживається.\n✅ Г) getting — to тут прийменник, після нього — герундій.",
+      "testLevel": 3
+    }
+  ]
+}
