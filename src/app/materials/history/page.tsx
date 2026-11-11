@@ -8,10 +8,11 @@ import { HISTORY_VISUALS, type VisualItem } from "@/lib/history-gallery";
 import { HISTORY_MAP_NOTES, type MapNote } from "@/lib/history-map-notes";
 import { getAtlasLabels, getAtlasPeriod } from "@/lib/history-atlas-legends";
 import { HISTORY_PHOTOS, type HistoryPhoto } from "@/lib/history-photos";
+import { HISTORY_ARCHITECTURE } from "@/lib/history-architecture";
 import { HISTORY_ENTRY_DETAILS } from "@/lib/history-entry-details";
 
 type Tab = "figures" | "maps" | "art" | "cinema";
-type OpenVisual = {src:string;title:string;description:string;tip?:string;labels?:{number:number;label:string}[];period?:string;photo?:boolean;source?:string;category?:HistoryPhoto["category"];group?:string};
+type OpenVisual = {src:string;title:string;description:string;tip?:string;labels?:{number:number;label:string}[];period?:string;photo?:boolean;source?:string;category?:HistoryPhoto["category"];group?:string;recognition?:string;views?:string[];catalogNumber?:number};
 const TABS: {id:Tab;title:string;subtitle:string;icon:typeof Images}[] = [
   {id:"figures",title:"Обличчя історії",subtitle:"Фото й портрети",icon:Images},
   {id:"maps",title:"Атлас подій",subtitle:"Карти, схеми, дати",icon:MapIcon},
@@ -58,7 +59,7 @@ function PhotoCard({item,index,quiz,revealed,onReveal,onOpen}:{item:HistoryPhoto
      <span className="absolute right-3 bottom-3 rounded-full bg-white/90 px-3 py-1.5 shadow text-xs font-bold text-slate-600 flex items-center gap-1"><Maximize2 size={13}/> Збільшити</span>
    </button>
    <div className="p-4 sm:p-5 flex-1 flex flex-col">
-     <span className="uppercase tracking-wide text-[11px] font-extrabold text-amber-700">{item.group}</span>
+     <span className="uppercase tracking-wide text-[11px] font-extrabold text-amber-700">{item.catalogNumber?`№${item.catalogNumber} · `:""}{item.group}</span>
      {isVisible ? <>
        <h2 className="font-black text-lg text-slate-900 mt-1">{item.title}</h2>
        <p className="text-sm text-slate-600 leading-relaxed mt-2 flex-1">{item.description}</p>
@@ -161,10 +162,10 @@ export default function HistoryAtlas(){
  const [opened,setOpened]=useState<OpenVisual|null>(null);
  const [zoom,setZoom]=useState(1);
  const q=query.toLocaleLowerCase("uk").trim();
- const photoItems=useMemo(()=>HISTORY_PHOTOS.filter(item=>
-   (tab==="figures" ? item.category==="figures" : tab==="art" ? ["art","architecture"].includes(item.category) : item.category==="cinema") &&
-   (`${item.title} ${item.group} ${item.description}`).toLocaleLowerCase("uk").includes(q)
- ),[tab,q]);
+ const photoItems=useMemo(()=>[
+   ...HISTORY_PHOTOS.filter(item=>tab==="figures"?item.category==="figures":tab==="art"?item.category==="art":item.category==="cinema"),
+   ...(tab==="art"?HISTORY_ARCHITECTURE:[]),
+ ].filter(item=>(`${item.title} ${item.group} ${item.description} ${item.recognition||""}`).toLocaleLowerCase("uk").includes(q)),[tab,q]);
  const mapItems=useMemo(()=>HISTORY_VISUALS.filter(item=>{
    const n=getNote(item);
    if(!n)return false;
@@ -176,9 +177,9 @@ export default function HistoryAtlas(){
    const n=getNote(item);if(!n)return;
    setZoom(1);setOpened({src:item.category==="maps"?atlasImage(item.src):item.src,title:n.title,description:n.description,tip:n.tip,labels:getAtlasLabels(item.src),period:getAtlasPeriod(item.src)});
  };
- const openPhoto=(item:HistoryPhoto)=>{setZoom(1);setOpened({src:item.src,title:item.title,description:item.description,photo:true,source:item.source,category:item.category,group:item.group});};
+ const openPhoto=(item:HistoryPhoto)=>{setZoom(1);setOpened({src:item.src,title:item.title,description:item.description,photo:true,source:item.source,category:item.category,group:item.group,recognition:item.recognition,views:item.views,catalogNumber:item.catalogNumber});};
  const countFor=(key:Tab)=>key==="maps"?HISTORY_VISUALS.filter(item=>getNote(item)).length:
-   HISTORY_PHOTOS.filter(item=>key==="figures"?item.category==="figures":key==="art"?["art","architecture"].includes(item.category):item.category==="cinema").length;
+   key==="art"?HISTORY_PHOTOS.filter(item=>item.category==="art").length+HISTORY_ARCHITECTURE.length:HISTORY_PHOTOS.filter(item=>key==="figures"?item.category==="figures":item.category==="cinema").length;
  return <main className="container mx-auto max-w-6xl px-4 py-6 min-h-screen">
    <Link href="/materials" className="inline-flex gap-2 items-center text-sm text-slate-500 hover:text-indigo-700 mb-5"><ArrowLeft size={16}/> Назад до матеріалів</Link>
    <header className="bg-gradient-to-br from-amber-600 via-orange-600 to-rose-600 rounded-3xl p-6 md:p-9 text-white shadow-xl overflow-hidden">
@@ -235,8 +236,14 @@ export default function HistoryAtlas(){
        <div className="overflow-y-auto min-h-0 grid grid-cols-1 md:grid-cols-2">
          <div className="bg-gradient-to-br from-[#e7e9e2] to-[#e6ddcd] p-5 sm:p-8 flex flex-col items-center justify-center min-h-[260px] md:min-h-[450px]">
            <div className="w-full max-w-lg rounded-2xl bg-white/70 p-3 sm:p-5 border border-[#cdbfa4] shadow-lg">
-             <ImageWithFallback src={opened.src} title={opened.title} large/>
+             <ImageWithFallback key={opened.src} src={opened.src} title={opened.title} large/>
            </div>
+           {opened.views&&opened.views.length>1&&<div className="mt-4 flex flex-wrap justify-center gap-2">
+             {opened.views.map((src,i)=><button key={src} type="button" onClick={()=>setOpened(current=>current?{...current,src}:current)}
+               className={`rounded-lg px-3 py-2 text-xs font-bold border transition ${opened.src===src?"bg-[#284d44] text-white border-[#284d44]":"bg-white text-[#425148] border-[#d8ccb6] hover:border-[#907e5c]"}`}>
+               Ракурс {i+1}
+             </button>)}
+           </div>}
            <p className="text-xs text-[#636659] text-center mt-4">Оглянь портрет або пам'ятку. Порівняй із характерними ознаками справа.</p>
          </div>
          <div className="p-5 md:p-8 flex flex-col gap-5">
@@ -245,7 +252,7 @@ export default function HistoryAtlas(){
            </div>
            <div className="border-l-4 border-amber-500 bg-amber-50 rounded-r-2xl px-5 py-4">
              <p className="text-xs uppercase tracking-widest font-black text-amber-800">{opened.category==="architecture"||opened.category==="art"?"Як упізнати на фото":"Асоціації для НМТ"}</p>
-             <p className="text-sm sm:text-base leading-relaxed text-slate-800 mt-2">{HISTORY_ENTRY_DETAILS[opened.title]?.recognition||(opened.category==="figures"||opened.category==="cinema"?"Запам'ятай обличчя та пов'яжи його з ключовими датами і подіями. "+opened.description:"Звертай увагу на форму, силует, оздоблення й епоху. "+opened.description)}</p>
+             <p className="text-sm sm:text-base leading-relaxed text-slate-800 mt-2">{opened.recognition||HISTORY_ENTRY_DETAILS[opened.title]?.recognition||(opened.category==="figures"||opened.category==="cinema"?"Запам'ятай обличчя та пов'яжи його з ключовими датами і подіями. "+opened.description:"Звертай увагу на форму, силует, оздоблення й епоху. "+opened.description)}</p>
            </div>
            <div className="rounded-2xl bg-slate-50 border border-slate-100 p-4">
              <p className="text-sm font-bold text-slate-800">Перевір себе</p>
