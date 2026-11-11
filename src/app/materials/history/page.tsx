@@ -4,9 +4,10 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, ExternalLink, Map as MapIcon, Images, Landmark, Clapperboard, Search, Maximize2, Eye, EyeOff, BookOpen, ZoomIn, ZoomOut, X, CheckCircle2 } from "lucide-react";
-import { HISTORY_VISUALS, type VisualItem } from "@/lib/history-gallery";
-import { HISTORY_MAP_NOTES, type MapNote } from "@/lib/history-map-notes";
-import { getAtlasLabels, getAtlasPeriod } from "@/lib/history-atlas-legends";
+import { VERIFIED_EXAM_MAPS } from "@/lib/verified-exam-maps";
+import { NMT_CULTURE_WORKS } from "@/lib/history-culture";
+import VerifiedMapsPanel from "@/components/materials/VerifiedMapsPanel";
+import CultureWorksPanel from "@/components/materials/CultureWorksPanel";
 import { HISTORY_PHOTOS, type HistoryPhoto } from "@/lib/history-photos";
 import { HISTORY_ARCHITECTURE } from "@/lib/history-architecture";
 import { HISTORY_ENTRY_DETAILS } from "@/lib/history-entry-details";
@@ -29,19 +30,6 @@ const PERIODS:{value:string;label:string}[]=[
  {value:"h7",label:"1945–1991"},
  {value:"h8",label:"Незалежність"}
 ];
-function mapPeriod(src:string) {
- const n=src.split("/").pop() || "";
- const found=n.match(/(?:map_|tl_)?(h[3-8])_/);
- if(found)return found[1];
- if(/rus|halych|vkl/.test(n))return "early";
- if(/kozak|klejnody|sich|reestr|hetman/.test(n))return "h3";
- if(/avstro|vidrodzhennya|prapory/.test(n))return "h4";
- return "h5";
-}
-function getNote(item:VisualItem):MapNote|null{
- const key=item.src.split("/").pop()?.replace(/\.svg$/,"")||"";
- return HISTORY_MAP_NOTES[key]||null;
-}
 function ImageWithFallback({src,title,large=false,fallbacks=[]}:{src:string;title:string;large?:boolean;fallbacks?:string[]}) {
  const [failedIndex,setFailedIndex]=useState(0);
  const candidates=[...new Set([src,...fallbacks])];
@@ -75,89 +63,9 @@ function PhotoCard({item,index,quiz,revealed,onReveal,onOpen}:{item:HistoryPhoto
    </div>
  </article>;
 }
-function atlasImage(src:string) {
- return src.startsWith("/img/history/map_") ? src.replace("/img/history/map_","/img/history/atlas/map_") : src;
-}
-
-function MapCard({item,quiz,revealed,onReveal,onOpen}:{item:VisualItem;quiz:boolean;revealed:boolean;onReveal:()=>void;onOpen:()=>void}){
- const note=getNote(item);
- if(!note)return null;
- const visible=!quiz||revealed;
- const labels=getAtlasLabels(item.src);
- const period=getAtlasPeriod(item.src);
- const isMap=item.category==="maps";
- if(isMap) return <article className="rounded-3xl overflow-hidden border border-[#c7b99e] bg-[#fffcf2] shadow-lg hover:shadow-xl transition-shadow">
-   <div className="px-5 md:px-7 py-4 flex flex-wrap justify-between items-center gap-2 bg-[#213f3b] text-[#fff8e7]">
-     <div><p className="uppercase tracking-[0.16em] text-xs text-[#e7d3a4] font-bold">Атласна картосхема · {period}</p><h2 className="text-lg md:text-xl font-black mt-1">{visible?note.title:"Впізнай об'єкти на карті"}</h2></div>
-     <span className="text-xs font-bold rounded-full border border-[#baa77c] px-3 py-1.5">НМТ · ГЕОГРАФІЯ ПОДІЙ</span>
-   </div>
-   <button type="button" onClick={onOpen} aria-label={`Відкрити карту: ${note.title}`} className="block w-full bg-[#eee9dc] p-2 md:p-5 group text-left">
-     <img src={visible?atlasImage(item.src):item.src} alt={visible?note.title:"Картосхема для перевірки знань"}
-       className="block w-full h-auto rounded-lg shadow-md border border-[#cabfa7] group-hover:shadow-xl transition-shadow" loading="lazy" />
-     <span className="inline-flex items-center gap-2 mt-3 text-xs font-bold text-[#4b6057]"><Maximize2 size={16}/> Натисни для збільшення</span>
-   </button>
-   {visible?<div className="p-5 md:px-7 border-t border-[#d7c5a9] grid md:grid-cols-2 gap-4">
-     <div><h3 className="uppercase text-xs font-black tracking-[.12em] text-[#977440]">Що показано на карті</h3><p className="text-sm leading-relaxed text-[#43564e] mt-2">{note.description}</p></div>
-     <div className="bg-[#f3e6cc] rounded-xl p-4 text-sm text-[#5b492f]"><strong>Запам'ятай до НМТ:</strong> {note.tip}</div>
-   </div>:<div className="p-5 bg-[#fffaf0]">
-      <p className="text-sm text-[#5b5a4e] mb-3">Спробуй назвати міста, території, епоху та подію за цифрами.</p>
-      <button type="button" onClick={onReveal} className="rounded-xl bg-[#284d44] px-4 py-2 text-sm font-bold text-white">Показати атлас і легенду</button>
-   </div>}
-   <p className="px-5 md:px-7 pb-4 pt-2 text-xs text-[#877d66]">Сучасна географічна основа — орієнтир, а не історичні кордони. Схема не в масштабі.</p>
- </article>;
- return <article className="overflow-hidden rounded-3xl bg-[#fffcf2] border border-[#d8cbb0] shadow-md hover:shadow-xl transition-shadow">
-   <header className="relative flex flex-wrap items-center justify-between gap-3 px-5 md:px-7 py-5 bg-[#213f3b] text-[#fff8e7]">
-     <div>
-       <p className="text-[11px] font-bold tracking-[0.17em] text-[#e6cea0] uppercase">Історичний атлас · {period} · НМТ</p>
-       <h2 className="text-xl md:text-2xl font-black mt-2 tracking-tight">{visible?note.title:"Упізнай історичну картосхему"}</h2>
-     </div>
-     <span className="rounded-full border border-[#b8a26e] bg-[#34584d] text-[#fce9c8] px-3 py-1.5 text-xs font-bold">{isMap?"КАРТА":item.category==="timeline"?"ХРОНОЛОГІЯ":"СХЕМА"}</span>
-   </header>
-   <div className="lg:grid lg:grid-cols-[minmax(0,1.65fr)_minmax(285px,1fr)]">
-     <div className="relative bg-[#e8e9df] p-3 md:p-5 border-b lg:border-b-0 lg:border-r border-[#d9c9ad]">
-       <div className="relative rounded-xl border-2 border-[#9f977e] bg-[#e1ece7] p-2 md:p-4 shadow-inner overflow-hidden">
-         <button type="button" onClick={onOpen} aria-label={`Відкрити карту: ${note.title}`} className="group w-full block relative text-left">
-           <img src={item.src} alt={note.title} loading="lazy" className="block w-full h-auto object-contain rounded-md sepia-[.08] saturate-[.78] contrast-[1.08] group-hover:scale-[1.015] transition-transform duration-300" />
-           <span className="absolute right-2 bottom-2 rounded-xl bg-white/90 px-3 py-2 text-xs font-bold text-[#27443a] shadow flex gap-2 items-center"><Maximize2 size={15}/> Відкрити велику карту</span>
-         </button>
-         <div aria-hidden="true" className="absolute top-2 right-2 flex flex-col items-center justify-center w-10 h-14 text-[#284b44] pointer-events-none bg-[#f8f4e9]/90 rounded-lg border border-[#c9c3ab]">
-           <span className="text-sm font-black leading-none">Пн</span>
-           <span className="text-lg leading-none">↑</span>
-         </div>
-       </div>
-       <p className="flex gap-2 items-start text-xs leading-relaxed mt-3 px-1 text-[#626355]"><span aria-hidden="true">◈</span> Географічна основа — сучасний контур України для орієнтування; це не історичний державний кордон. Масштаб умовний.</p>
-     </div>
-     <div className="flex flex-col p-5 md:p-6 bg-[#fffdf7]">
-       {visible?<>
-         <h3 className="font-extrabold text-xs tracking-[0.14em] uppercase text-[#94713e] pb-3 border-b-2 border-[#cfb988]">Умовні позначення</h3>
-         {labels.length>0?<ol className="my-4 space-y-3">
-           {labels.map(({number,label})=><li key={number} className="flex gap-3 items-center">
-             <span className="grid shrink-0 size-9 place-items-center rounded-full bg-[#284d44] text-white font-black text-sm shadow-sm">{number}</span>
-             <span className="font-semibold text-[#30423d] text-sm md:text-base">{label}</span>
-           </li>)}
-         </ol>:<p className="mt-4 text-sm text-[#58665c] leading-relaxed">Цифри на цій схемі позначають події або установи. Їх розшифрування наведено у поясненні нижче.</p>}
-         {labels.length>0&&labels.length<4&&<p className="text-xs mt-1 text-[#766851]">Підписано лише позначки, що вдалося однозначно звірити із завданнями.</p>}
-       </>:<>
-         <h3 className="font-extrabold text-xs tracking-[0.14em] uppercase text-[#94713e] pb-3 border-b-2 border-[#cfb988]">Самоперевірка</h3>
-         <p className="mt-4 text-sm text-[#4c554c] leading-relaxed">Подивися на цифри й географічні орієнтири. Назви кожне місто або територію, епоху та пов'язану подію.</p>
-         <button type="button" onClick={onReveal} className="mt-5 w-fit rounded-xl px-4 py-2.5 bg-[#284d44] text-white font-bold text-sm hover:bg-[#1c3933]">Показати легенду й пояснення</button>
-       </>}
-       <div className="mt-auto pt-4 border-t border-[#e3dbc8]">
-         <p className="flex items-center gap-2 text-xs text-[#847554] font-extrabold uppercase tracking-wide"><BookOpen size={15}/> Як читати карту</p>
-         <p className="mt-2 text-sm text-[#43564e] leading-relaxed">{visible?note.description:"Спершу назви позначені об'єкти, а потім поясни їхній зв'язок із темою."}</p>
-       </div>
-     </div>
-   </div>
-   {visible&&<footer className="bg-[#f3e6cc] border-t border-[#dbcaac] p-4 md:px-7 text-sm text-[#5b492f] leading-relaxed">
-     <strong className="text-[#80612d]">Запам'ятай до НМТ: </strong>{note.tip}
-   </footer>}
- </article>;
-}
-
 export default function HistoryAtlas(){
  const [tab,setTab]=useState<Tab>("figures");
  const [query,setQuery]=useState("");
- const [period,setPeriod]=useState("all");
  const [artGroup,setArtGroup]=useState("all");
  const [quiz,setQuiz]=useState(false);
  const [revealed,setRevealed]=useState<string[]>([]);
@@ -168,26 +76,16 @@ export default function HistoryAtlas(){
    ...(tab==="art"?HISTORY_ARCHITECTURE:[]),
    ...HISTORY_PHOTOS.filter(item=>tab==="figures"?item.category==="figures":tab==="art"?item.category==="art":item.category==="cinema"),
  ].filter(item=>(tab!=="art"||artGroup==="all"||(artGroup==="art"?item.category==="art":item.group===artGroup))&&(`${item.title} ${item.group} ${item.description} ${item.recognition||""}`).toLocaleLowerCase("uk").includes(q)),[tab,q,artGroup]);
- const mapItems=useMemo(()=>HISTORY_VISUALS.filter(item=>{
-   const n=getNote(item);
-   if(!n)return false;
-   if(period!=="all"&&mapPeriod(item.src)!==period)return false;
-   return !q||(`${n.title} ${n.description} ${n.tip}`).toLocaleLowerCase("uk").includes(q);
- }),[period,q]);
- const currentCount=tab==="maps"?mapItems.length:photoItems.length;
- const openMap=(item:VisualItem)=>{
-   const n=getNote(item);if(!n)return;
-   setZoom(1);setOpened({src:item.category==="maps"?atlasImage(item.src):item.src,title:n.title,description:n.description,tip:n.tip,labels:getAtlasLabels(item.src),period:getAtlasPeriod(item.src)});
- };
+ const currentCount=tab==="maps"?VERIFIED_EXAM_MAPS.filter(item=>(item.title+" "+item.period+" "+item.explanation).toLocaleLowerCase("uk").includes(q)).length:photoItems.length+(tab==="cinema"?NMT_CULTURE_WORKS.filter(item=>(item.title+" "+item.director+" "+item.nmtHint).toLocaleLowerCase("uk").includes(q)).length:0);
  const openPhoto=(item:HistoryPhoto)=>{setZoom(1);setOpened({src:item.src,title:item.title,description:item.description,photo:true,source:item.source,category:item.category,group:item.group,recognition:item.recognition,views:item.views,catalogNumber:item.catalogNumber});};
- const countFor=(key:Tab)=>key==="maps"?HISTORY_VISUALS.filter(item=>getNote(item)).length:
-   key==="art"?HISTORY_PHOTOS.filter(item=>item.category==="art").length+HISTORY_ARCHITECTURE.length:HISTORY_PHOTOS.filter(item=>key==="figures"?item.category==="figures":item.category==="cinema").length;
+ const countFor=(key:Tab)=>key==="maps"?VERIFIED_EXAM_MAPS.length:
+   key==="art"?HISTORY_PHOTOS.filter(item=>item.category==="art").length+HISTORY_ARCHITECTURE.length:HISTORY_PHOTOS.filter(item=>key==="figures"?item.category==="figures":item.category==="cinema").length+(key==="cinema"?NMT_CULTURE_WORKS.length:0);
  return <main className="container mx-auto max-w-6xl px-4 py-6 min-h-screen">
    <Link href="/materials" className="inline-flex gap-2 items-center text-sm text-slate-500 hover:text-indigo-700 mb-5"><ArrowLeft size={16}/> Назад до матеріалів</Link>
    <header className="bg-gradient-to-br from-amber-600 via-orange-600 to-rose-600 rounded-3xl p-6 md:p-9 text-white shadow-xl overflow-hidden">
      <span className="uppercase tracking-widest text-xs font-bold text-amber-100">Візуальна підготовка до НМТ</span>
      <h1 className="font-black text-3xl md:text-5xl mt-2">Історія в кадрі</h1>
-     <p className="text-sm md:text-base text-white/95 max-w-3xl mt-3 leading-relaxed">Фото та репродукції з <a className="font-extrabold underline underline-offset-2" href="https://osvita.ua/test/training/materialy-instrumenty/93357/" target="_blank" rel="noopener noreferrer">добірок Освіта.ua для НМТ</a>, а також підписані карти, схеми та хронології з навчального банку сайту. Розпізнавай об'єкти одразу на сторінці, не переходячи за пошуковими посиланнями.</p>
+     <p className="text-sm md:text-base text-white/95 max-w-3xl mt-3 leading-relaxed">Фото та репродукції з <a className="font-extrabold underline underline-offset-2" href="https://osvita.ua/test/training/materialy-instrumenty/93357/" target="_blank" rel="noopener noreferrer">добірок Освіта.ua для НМТ</a>, а також підтверджені картосхеми з реальних НМТ/ЗНО. Саморобні карти та неперевірені схеми знято з показу. Розпізнавай об'єкти одразу на сторінці, не переходячи за пошуковими посиланнями.</p>
      <p className="mt-3 text-xs text-white/80">Це навчальна добірка, що доповнюється, а не обіцянка показати всі можливі зображення на іспиті.</p>
    </header>
    <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-6" role="tablist" aria-label="Розділи атласу">
@@ -212,10 +110,6 @@ export default function HistoryAtlas(){
        <option value="Світські споруди та містобудування">Світські будівлі · 10</option>
        <option value="art">Картини й графіка</option>
      </select>}
-     {tab==="maps"&&<select value={period} onChange={e=>setPeriod(e.target.value)} aria-label="Історичний період"
-       className="rounded-xl border border-slate-200 bg-slate-50 py-2.5 px-3 text-sm text-slate-700 max-w-full">
-       {PERIODS.map(p=><option key={p.value} value={p.value}>{p.label}</option>)}
-     </select>}
      <button type="button" onClick={()=>{setQuiz(v=>!v);setRevealed([]);}} aria-pressed={quiz}
        className={`flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-bold ${quiz?"bg-orange-500 text-white":"bg-slate-100 text-slate-800 hover:bg-slate-200"}`}>
        {quiz?<Eye size={16}/>:<EyeOff size={16}/>} {quiz?"Режим перевірки: увімк.":"Приховати відповіді"}
@@ -226,16 +120,17 @@ export default function HistoryAtlas(){
      <span>Знайдено: <b className="text-slate-900">{currentCount}</b></span>
      <span className="text-slate-400 hidden sm:inline">Натисни на зображення, щоб збільшити</span>
    </div>
-   {tab==="maps"?<section className="space-y-5">
-     {mapItems.map(item=><MapCard key={item.id} item={item} quiz={quiz} revealed={revealed.includes(item.id)} onReveal={()=>setRevealed(r=>[...r,item.id])} onOpen={()=>openMap(item)}/>)}
-   </section>:<section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-     {photoItems.map((item,i)=><PhotoCard key={item.src} item={item} index={i} quiz={quiz} revealed={revealed.includes(item.src)} onReveal={()=>setRevealed(r=>[...r,item.src])} onOpen={()=>openPhoto(item)}/>)}
-   </section>}
+   {tab==="maps"?<VerifiedMapsPanel query={query} quiz={quiz}/>:<>
+     {tab==="cinema"&&<CultureWorksPanel query={query}/>}
+     <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+       {photoItems.map((item,i)=><PhotoCard key={item.src} item={item} index={i} quiz={quiz} revealed={revealed.includes(item.src)} onReveal={()=>setRevealed(r=>[...r,item.src])} onOpen={()=>openPhoto(item)}/>)}
+     </section>
+   </>}
    {currentCount===0&&<p className="text-center text-slate-500 py-14 bg-white rounded-2xl border border-slate-200">За цим запитом нічого не знайдено. Спробуй інше слово або період.</p>}
    <aside className="my-8 bg-indigo-50 rounded-2xl p-5 text-indigo-900 text-sm leading-relaxed">
      <div className="flex items-center gap-2 font-bold mb-2"><CheckCircle2 size={19}/> Як підготуватися</div>
      Спочатку впізнай зображення, а тоді поясни, <strong>хто / що це, коли й де відбувалася подія та з чим її пов'язують</strong>.
-     Увімкни режим перевірки, щоб приховати підписи та згадати відповідь самостійно. Карти — спрощені навчальні картосхеми, а не історичні атласи з точними державними кордонами.
+     Увімкни режим перевірки, щоб приховати підписи та згадати відповідь самостійно. У розділі карт залишено лише ілюстрації з підтвердженим екзаменаційним джерелом і перевіреною відповіддю.
    </aside>
    {opened?.photo&&<div role="dialog" aria-modal="true" aria-label={opened.title} className="fixed inset-0 z-[90] bg-slate-950/85 backdrop-blur-sm p-3 sm:p-6 flex items-center justify-center" onClick={()=>setOpened(null)}>
      <section className="bg-white rounded-3xl w-full max-w-6xl max-h-full overflow-hidden flex flex-col shadow-2xl" onClick={e=>e.stopPropagation()}>
@@ -275,28 +170,6 @@ export default function HistoryAtlas(){
          </div>
        </div>
      </section>
-   </div>}
-   {opened&&!opened.photo&&<div className="fixed inset-0 z-50 bg-slate-950/95 flex flex-col" role="dialog" aria-label={opened.title} aria-modal="true">
-     <div className="p-3 sm:p-4 border-b border-white/20 text-white flex justify-between gap-3 items-center">
-       <strong className="text-sm sm:text-lg truncate">{opened.title}</strong>
-       <div className="flex items-center gap-2 shrink-0">
-         <button type="button" onClick={()=>setZoom(z=>Math.max(1,z-0.5))} aria-label="Зменшити" className="p-2 rounded-xl hover:bg-white/10"><ZoomOut size={21}/></button>
-         <span className="text-xs sm:text-sm w-10 text-center">{Math.round(zoom*100)}%</span>
-         <button type="button" onClick={()=>setZoom(z=>Math.min(3,z+0.5))} aria-label="Збільшити" className="p-2 rounded-xl hover:bg-white/10"><ZoomIn size={21}/></button>
-         <button type="button" onClick={()=>setOpened(null)} aria-label="Закрити" className="p-2 rounded-xl hover:bg-white/10"><X size={24}/></button>
-       </div>
-     </div>
-     <div className="flex-1 min-h-0 overflow-auto flex items-start justify-center p-5">
-       <div className="min-w-min mx-auto" style={{width:`${Math.round(zoom*100)}%`,maxWidth:zoom===1?"1200px":undefined}}>
-         <ImageWithFallback key={opened.src} src={opened.src} title={opened.title} large/>
-       </div>
-     </div>
-     <div className="p-4 sm:px-6 bg-slate-900 text-white text-sm border-t border-white/15">
-       {opened.period&&<p className="text-amber-200 text-xs font-semibold mb-2">Атлас · {opened.period}</p>}
-       {opened.labels&&opened.labels.length>0&&<div className="flex flex-wrap gap-x-4 gap-y-2 pb-2">{opened.labels.map(v=><span key={v.number} className="font-bold text-sm"><span className="text-[#eac984]">{v.number}.</span> {v.label}</span>)}</div>}
-       <p>{opened.description}</p>
-       {opened.tip&&<p className="text-amber-200 mt-1"><strong>Запам'ятай:</strong> {opened.tip}</p>}
-     </div>
    </div>}
  </main>;
 }
