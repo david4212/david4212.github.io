@@ -3,6 +3,7 @@ import { randomUUID } from "crypto";
 import prisma from "@/lib/prisma";
 import { getUserId } from "@/lib/session-user";
 import { recordAnswers, RESOLVE_AFTER, shuffle } from "@/lib/answers";
+import { verifiedQuestionWhere, isUnverifiedHistoryQuestion } from "@/lib/history-review";
 
 export const dynamic = "force-dynamic";
 
@@ -15,7 +16,7 @@ export async function GET(req: Request) {
   const limit = Math.min(Math.max(Number(url.searchParams.get("limit")) || 20, 1), 50);
   const topicId = url.searchParams.get("topicId");
 
-  const where = { userId, isResolved: false, ...(topicId ? { question: { topicId } } : {}) };
+  const where = { userId, isResolved: false, question: { ...(topicId ? { topicId } : {}), ...verifiedQuestionWhere } };
   const [open, resolved, rows] = await Promise.all([
     prisma.userError.count({ where }),
     prisma.userError.count({ where: { userId, isResolved: true } }),
@@ -54,9 +55,10 @@ export async function POST(req: Request) {
 
   const q = await prisma.question.findUnique({
     where: { id: questionId },
-    select: { correctIndex: true, explanation: true, options: true },
+    select: { correctIndex: true, explanation: true, options: true, imageUrl: true },
   });
   if (!q) return NextResponse.json({ error: "Питання не знайдено" }, { status: 404 });
+  if (isUnverifiedHistoryQuestion(q.imageUrl)) return NextResponse.json({ error: "Питання тимчасово вилучене для перевірки" }, { status: 409 });
   if (chosen !== null && (!Number.isInteger(chosen) || chosen < 0 || chosen >= q.options.length)) {
     return NextResponse.json({ error: "Невірний варіант" }, { status: 400 });
   }
