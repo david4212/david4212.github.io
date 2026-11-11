@@ -96,7 +96,6 @@ export async function finishSession(sessionId: string, userId: string) {
   const s = await prisma.testSession.findFirst({ where: { id: sessionId, userId } });
   if (!s) return null;
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const saved = (s.answers && typeof s.answers === "object" ? s.answers : {}) as Record<string, any>;
   const qs = await prisma.question.findMany({
     where: { id: { in: s.questionIds }, ...verifiedQuestionWhere },
@@ -110,7 +109,6 @@ export async function finishSession(sessionId: string, userId: string) {
     .map((q) => {
       const ans = saved[q.id];
       const qType = q.questionType ?? "single_choice";
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const meta = q.metadata as any;
       let isCorrect = false;
       let chosen: number | null = null;

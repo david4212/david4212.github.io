@@ -12,7 +12,6 @@ import type { QuestionType, MatchingMeta, SequencingMeta, ChooseMultiMeta, FillB
  *  fill_blanks   → string[] (one per blank)
  *  short_answer  → string
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type FlexAnswer = any;
 
 const LETTERS = ["А", "Б", "В", "Г", "Д", "Е", "Є"];
@@ -21,7 +20,6 @@ const LETTERS = ["А", "Б", "В", "Г", "Д", "Е", "Є"];
 interface Props {
   questionType: QuestionType;
   options: string[];
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   metadata: any;
   answer: FlexAnswer | undefined;
   onChange: (v: FlexAnswer) => void;

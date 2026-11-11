@@ -73,7 +73,6 @@ export async function PATCH(req: Request) {
   if (s.deadlineAt && s.deadlineAt < new Date()) return NextResponse.json({ error: "Час вийшов", expired: true }, { status: 409 });
 
   const allowed = new Set(s.questionIds);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const clean: Record<string, any> = {};
   if (body?.answers && typeof body.answers === "object") {
     for (const [k, v] of Object.entries(body.answers as Record<string, unknown>)) {
