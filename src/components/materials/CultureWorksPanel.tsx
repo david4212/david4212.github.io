@@ -1,41 +1,55 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 
-import { Clapperboard, Theater, ExternalLink } from "lucide-react";
-import { NMT_CULTURE_WORKS } from "@/lib/history-culture";
+import { useState } from "react";
+import { Clapperboard, Theater, ExternalLink, EyeOff, Eye } from "lucide-react";
+import { NMT_CINEMA_PEOPLE } from "@/lib/history-cinema-people";
 
 export default function CultureWorksPanel({query}:{query:string}){
+ const [hideRoles,setHideRoles]=useState(false);
  const q=query.trim().toLocaleLowerCase("uk");
- const items=NMT_CULTURE_WORKS.filter(item=>
-   `${item.title} ${item.director} ${item.author} ${item.year} ${item.nmtHint} ${item.cast||""}`.toLocaleLowerCase("uk").includes(q)
+ const people=NMT_CINEMA_PEOPLE.filter(person=>
+  (`${person.name} ${person.field} ${person.period} ${person.focus} ${person.works.map(w=>w.title+" "+w.role+" "+w.year).join(" ")}`).toLocaleLowerCase("uk").includes(q)
  );
- return <section className="mb-8 space-y-4">
+ return <section className="mb-8 space-y-5">
    <div className="rounded-2xl bg-indigo-50 border border-indigo-100 p-5">
-     <h2 className="font-black text-lg text-indigo-950">Кіно й театр: хто створив і чим відоме</h2>
-     <p className="text-sm text-indigo-950/80 mt-2">Окремо від портретів — фільми, театральні об'єднання, режисери, оператори, сценаристи, актори та важливі для історії культурні події. Для давніх фільмів зазначаємо кіностудію, а не вигадуємо сучасну посаду продюсера.</p>
-   </div>
-   {items.map(item=><article key={item.title} className="rounded-2xl border border-slate-200 p-5 md:p-6 bg-white shadow-sm">
-     <div className="flex justify-between gap-4 items-start">
-       <div><span className="text-[11px] tracking-widest uppercase font-bold text-indigo-700">{item.category} · {item.year}</span>
-         <h3 className="font-black text-xl sm:text-2xl text-slate-900 mt-1">{item.title}</h3>
+     <div className="flex flex-wrap items-center justify-between gap-3">
+       <div>
+         <h2 className="font-black text-lg text-indigo-950">Кіно НМТ: діяч → фільм → конкретна роль</h2>
+         <p className="text-sm text-indigo-950/80 mt-2">Не випадкова добірка фільмів, а люди, твори й ролі з тем історії України та завдань ЗНО/НМТ. Розрізняй <strong>режисера, сценариста, оператора й актора</strong>.</p>
        </div>
-       {item.category==="Кіно"?<Clapperboard size={26} className="text-indigo-500 shrink-0"/>:<Theater size={26} className="text-indigo-500 shrink-0"/>}
+       <button type="button" className="inline-flex items-center gap-2 rounded-xl bg-white border border-indigo-200 px-3 py-2 text-indigo-900 text-sm font-semibold" onClick={()=>setHideRoles(v=>!v)}>{hideRoles?<Eye size={15}/>:<EyeOff size={15}/>} {hideRoles?"Показати ролі":"Приховати ролі"}</button>
      </div>
-     <div className="grid sm:grid-cols-2 gap-x-7 gap-y-3 mt-5 text-sm leading-relaxed">
-       <p><strong>Режисер / керівник:</strong> {item.director}</p>
-       <p><strong>Автор / літературна основа:</strong> {item.author}</p>
-       {item.studio&&<p><strong>Кіностудія:</strong> {item.studio}</p>}
-       {item.script&&<p><strong>Сценаристи:</strong> {item.script}</p>}
-       {item.camera&&<p><strong>Оператор:</strong> {item.camera}</p>}
-       {item.cast&&<p><strong>Актори:</strong> {item.cast}</p>}
+     <p className="text-xs text-indigo-800 mt-3">Позначка «основне» — ключовий матеріал для впізнавання; «контекст» — додаткова робота діяча, а не обіцянка, що саме цей твір буде в тесті.</p>
+   </div>
+   {people.map(person=><article key={person.name} className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
+     <div className="px-5 py-4 sm:px-6 bg-slate-50 border-b border-slate-100 flex items-start justify-between gap-3">
+       <div>
+         <p className="text-xs uppercase tracking-wide text-indigo-700 font-bold">{person.period} · {person.field}</p>
+         <h3 className="text-xl font-black text-slate-900 mt-1">{person.name}</h3>
+       </div>
+       {person.field.includes("Театр")||person.field.includes("театраль")?<Theater size={25} className="text-indigo-600 shrink-0"/>:<Clapperboard size={25} className="text-indigo-600 shrink-0"/>}
      </div>
-     <p className="mt-5 text-sm text-slate-700 leading-relaxed">{item.historicalContext}</p>
-     <div className="rounded-xl mt-4 p-4 bg-indigo-50 border-l-4 border-indigo-400 text-sm text-indigo-950 leading-relaxed"><strong>Що потрібно пов'язати для НМТ:</strong> {item.nmtHint}</div>
-     <div className="mt-4 flex flex-wrap gap-4 text-sm">
-       <a className="font-semibold text-indigo-700 hover:underline inline-flex gap-1 items-center" href={item.sourceUrl} target="_blank" rel="noopener noreferrer">Джерело відомостей <ExternalLink size={13}/></a>
-       <a className="font-semibold text-indigo-700 hover:underline inline-flex gap-1 items-center" href={item.examSourceUrl} target="_blank" rel="noopener noreferrer">Візуальні завдання ЗНО/НМТ <ExternalLink size={13}/></a>
+     <div className="p-5 sm:p-6">
+       <div className="overflow-x-auto">
+         <table className="w-full text-sm min-w-[360px]">
+           <thead><tr className="text-left text-slate-500 border-b border-slate-200"><th className="pb-2 pr-3 w-2/5">Фільм або твір</th><th className="pb-2 pr-3">Рік</th><th className="pb-2">Хто він у цьому творі?</th></tr></thead>
+           <tbody>{person.works.map(work=><tr key={work.title} className="border-b border-slate-100 last:border-0 align-top">
+             <td className="py-3 pr-3 font-bold text-slate-900">{work.title}{work.level==="основне"&&<span className="block text-[11px] text-emerald-700 font-semibold mt-1">Ключовий зв’язок</span>}<span className="block text-xs text-slate-500 font-normal mt-1">{work.fact}</span></td>
+             <td className="py-3 pr-3 text-slate-600">{work.year}</td>
+             <td className="py-3 text-slate-800 font-semibold">{hideRoles?"Приховано для самоперевірки":work.role}</td>
+           </tr>)}</tbody>
+         </table>
+       </div>
+       <div className="mt-4 rounded-xl bg-indigo-50 p-4 text-indigo-950 text-sm leading-relaxed">
+         <strong>Що запам'ятати для НМТ:</strong> {hideRoles?"Пригадай професію діяча, його головний твір і конкретну роль у ньому.":person.focus}
+       </div>
+       <details className="mt-4 text-xs text-slate-500">
+         <summary className="cursor-pointer text-indigo-700 font-bold">Перевірити джерела</summary>
+         <div className="pt-2 space-y-2">{person.sources.map((url,i)=><a key={url} href={url} target="_blank" rel="noopener noreferrer" className="flex gap-1 items-center text-indigo-700 hover:underline">Джерело {i+1} <ExternalLink size={12}/></a>)}</div>
+       </details>
      </div>
    </article>)}
-   {items.length===0&&<p className="text-sm text-center text-slate-500 p-6 bg-white border rounded-xl">За цим пошуком культурних творів немає.</p>}
+   {people.length===0&&<p className="rounded-xl bg-white p-6 border text-center text-slate-500">За цим пошуком немає діячів або фільмів.</p>}
  </section>;
 }
