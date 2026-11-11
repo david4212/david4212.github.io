@@ -43,6 +43,7 @@ function PhotoCard({item,index,quiz,revealed,onReveal,onOpen}:{item:HistoryPhoto
      {isVisible ? <>
        <h2 className="font-black text-lg text-slate-900 mt-1">{item.title}</h2>
        <p className="text-sm text-slate-600 leading-relaxed mt-2 flex-1">{item.description}</p>
+       {item.recognition&&<div className="mt-3 rounded-xl bg-amber-50 border border-amber-100 p-3 text-sm text-amber-950"><strong className="block mb-1">Легенда: як упізнати</strong>{item.recognition}</div>}
      </> : <>
        <h2 className="font-black text-lg text-slate-800 mt-1">Зображення №{index+1}</h2>
        <p className="text-sm text-slate-500 mt-2">Спробуй назвати людину або пам'ятку та пояснити, чим вона відома.</p>
