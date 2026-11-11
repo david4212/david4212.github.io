@@ -1,0 +1,504 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Grammar: Nouns, Pronouns, Prepositions & Articles",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match each noun category to the most suitable example.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Countable singular noun: an appointment — Appointment можна порахувати й має форму однини. 2) Uncountable material noun: furniture — Furniture у значенні меблів не має звичайної множини. 3) Plural-only noun: scissors — Scissors має граматичну форму множини. 4) Collective noun: a committee — Committee називає організовану групу осіб.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Countable singular noun",
+            "an appointment"
+          ],
+          [
+            "Uncountable material noun",
+            "furniture"
+          ],
+          [
+            "Plural-only noun",
+            "scissors"
+          ],
+          [
+            "Collective noun",
+            "a committee"
+          ]
+        ],
+        "leftLabels": [
+          "Category / expression"
+        ],
+        "rightLabels": [
+          "Example / meaning"
+        ]
+      }
+    },
+    {
+      "text": "Match each determiner to the sentence it completes.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) an: It took us ___ hour to reach the village. — Перед hour початковий звук голосний, тому an. 2) a: She hopes to study at ___ European university. — European починається зі звука [j], тому a. 3) the: We finally visited ___ museum you recommended yesterday. — Йдеться про конкретний уже згаданий музей. 4) no article: ___ information is available online for all applicants. — Information у загальному значенні не вимагає артикля.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "an",
+            "It took us ___ hour to reach the village."
+          ],
+          [
+            "a",
+            "She hopes to study at ___ European university."
+          ],
+          [
+            "the",
+            "We finally visited ___ museum you recommended yesterday."
+          ],
+          [
+            "no article",
+            "___ information is available online for all applicants."
+          ]
+        ],
+        "leftLabels": [
+          "Category / expression"
+        ],
+        "rightLabels": [
+          "Example / meaning"
+        ]
+      }
+    },
+    {
+      "text": "Match the pronoun type to the example.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Reflexive pronoun: The children prepared the decorations themselves. — Themselves стосується тих самих виконавців дії. 2) Possessive pronoun: This jacket is mine, not yours. — Mine замінює possessive determiner + noun. 3) Relative pronoun: The student whose bag was missing called reception. — Whose виражає належність у підрядному означальному. 4) Indefinite pronoun: Nobody noticed the mistake at first. — Nobody позначає невизначену відсутність осіб.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Reflexive pronoun",
+            "The children prepared the decorations themselves."
+          ],
+          [
+            "Possessive pronoun",
+            "This jacket is mine, not yours."
+          ],
+          [
+            "Relative pronoun",
+            "The student whose bag was missing called reception."
+          ],
+          [
+            "Indefinite pronoun",
+            "Nobody noticed the mistake at first."
+          ]
+        ],
+        "leftLabels": [
+          "Category / expression"
+        ],
+        "rightLabels": [
+          "Example / meaning"
+        ]
+      }
+    },
+    {
+      "text": "Match the quantity expression with its meaning.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) few opportunities: Almost no chances were available. — Few без a підкреслює недостатню кількість. 2) a few opportunities: Several chances remained available. — A few має позитивне значення деякої кількості. 3) little progress: Hardly any improvement had been made. — Little з незлічуваним іменником указує на нестачу. 4) a little progress: Some improvement had been made. — A little позначає невелику, але реальну кількість.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "few opportunities",
+            "Almost no chances were available."
+          ],
+          [
+            "a few opportunities",
+            "Several chances remained available."
+          ],
+          [
+            "little progress",
+            "Hardly any improvement had been made."
+          ],
+          [
+            "a little progress",
+            "Some improvement had been made."
+          ]
+        ],
+        "leftLabels": [
+          "Category / expression"
+        ],
+        "rightLabels": [
+          "Example / meaning"
+        ]
+      }
+    },
+    {
+      "text": "Match each adjective or verb to its fixed preposition.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) responsible: for organising the exhibition — Responsible for + gerund є сталою конструкцією. 2) interested: in learning new languages — Interested in + gerund, не to learning. 3) depend: on public transport every day — Depend on є сталою дієслівною сполукою. 4) apologise: for arriving late — Apologise for + gerund позначає причину вибачення.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "responsible",
+            "for organising the exhibition"
+          ],
+          [
+            "interested",
+            "in learning new languages"
+          ],
+          [
+            "depend",
+            "on public transport every day"
+          ],
+          [
+            "apologise",
+            "for arriving late"
+          ]
+        ],
+        "leftLabels": [
+          "Category / expression"
+        ],
+        "rightLabels": [
+          "Example / meaning"
+        ]
+      }
+    },
+    {
+      "text": "Match each sentence opening with its natural ending.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Neither of the two proposals: was accepted by the committee. — Neither of у формальному британському варіанті може узгоджуватися з одниною. 2) The number of visitors: has increased significantly this year. — The number — граматично однина. 3) A number of students: have already registered for the course. — A number of означає кількох, узгоджується з множиною. 4) Every piece of advice: was carefully considered before the decision. — Every piece — злічувана одиниця при незлічуваному advice.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Neither of the two proposals",
+            "was accepted by the committee."
+          ],
+          [
+            "The number of visitors",
+            "has increased significantly this year."
+          ],
+          [
+            "A number of students",
+            "have already registered for the course."
+          ],
+          [
+            "Every piece of advice",
+            "was carefully considered before the decision."
+          ]
+        ],
+        "leftLabels": [
+          "Category / expression"
+        ],
+        "rightLabels": [
+          "Example / meaning"
+        ]
+      }
+    },
+    {
+      "text": "Match each relative clause pattern with the sentence.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A defining clause identifying a person: The researcher who discovered the error corrected the data. — Обмежувальна частина визначає конкретного дослідника. 2) A non-defining clause adding extra information: My aunt, who lives in York, works at a hospital. — Коми відмежовують додаткову інформацію. 3) A preposition before a relative pronoun: The colleague to whom I spoke was very helpful. — Формальна конструкція preposition + whom. 4) A clause referring to an entire previous statement: The train was delayed, which made us miss the meeting. — Which відноситься до всієї попередньої ситуації.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A defining clause identifying a person",
+            "The researcher who discovered the error corrected the data."
+          ],
+          [
+            "A non-defining clause adding extra information",
+            "My aunt, who lives in York, works at a hospital."
+          ],
+          [
+            "A preposition before a relative pronoun",
+            "The colleague to whom I spoke was very helpful."
+          ],
+          [
+            "A clause referring to an entire previous statement",
+            "The train was delayed, which made us miss the meeting."
+          ]
+        ],
+        "leftLabels": [
+          "Category / expression"
+        ],
+        "rightLabels": [
+          "Example / meaning"
+        ]
+      }
+    },
+    {
+      "text": "Match the advanced determiner or reference pattern with its interpretation.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) another two weeks: An additional period of fourteen days — Another + число + plural noun означає додатковий проміжок. 2) the other candidate: The remaining person out of the two being discussed — The other відсилає до останнього з двох. 3) each other's ideas: Ideas shared reciprocally between group members — Each other виражає взаємність. 4) a great deal of research: A large quantity of academic investigation — A great deal of вживають із незлічуваним іменником.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "another two weeks",
+            "An additional period of fourteen days"
+          ],
+          [
+            "the other candidate",
+            "The remaining person out of the two being discussed"
+          ],
+          [
+            "each other's ideas",
+            "Ideas shared reciprocally between group members"
+          ],
+          [
+            "a great deal of research",
+            "A large quantity of academic investigation"
+          ]
+        ],
+        "leftLabels": [
+          "Category / expression"
+        ],
+        "rightLabels": [
+          "Example / meaning"
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct articles. My sister bought (1)___ (article) umbrella yesterday. She left (2)___ (article) umbrella on the bus. Luckily, (3)___ (article) driver found it and returned it to her.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) an — Umbrella починається з голосного звука й уперше згадується. (2) the — Повторна згадка про конкретну парасольку потребує the. (3) the — Йдеться про конкретного водія вже згаданого автобуса.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "an"
+          },
+          {
+            "answer": "the"
+          },
+          {
+            "answer": "the"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct pronouns. This is my brother's bicycle; it is (1)___ (possessive pronoun). I have my own bicycle, so the blue one is (2)___ (possessive pronoun). We always check the brakes (3)___ (reflexive pronoun) before riding.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) his — His замінює his bicycle і не потребує іменника. (2) mine — Mine — самостійний присвійний займенник для I. (3) ourselves — We виконуємо дію самостійно, тому ourselves.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "his"
+          },
+          {
+            "answer": "mine"
+          },
+          {
+            "answer": "ourselves"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with suitable prepositions. The exhibition opens (1)___ (preposition) Monday morning. It starts (2)___ (preposition) nine o'clock. The museum is closed (3)___ (preposition) Sundays.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) on — On Monday morning — конкретний день. (2) at — At nine o'clock — точний час. (3) on — On Sundays уживають для днів тижня.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "on"
+          },
+          {
+            "answer": "at"
+          },
+          {
+            "answer": "on"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with appropriate quantifiers. There are (1)___ (few / little) seats left, so we should book soon. We have (2)___ (few / little) time to decide because the offer ends in ten minutes. Fortunately, I have (3)___ (a few / a little) useful contacts who can help us organise the event.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) few — Seats — злічуваний іменник у множині, а без a підкреслюємо нестачу. (2) little — Time — незлічуваний іменник, little позначає нестачу. (3) a few — Contacts — злічувана множина, a few означає кількох.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "few"
+          },
+          {
+            "answer": "little"
+          },
+          {
+            "answer": "a few"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with appropriate forms. The report contains several useful (1)___ (piece / plural) of advice. Each recommendation (2)___ (be / present) checked by an expert. Neither of the two suggestions (3)___ (be / past) suitable for the final plan.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) pieces — Piece of advice є злічуваною одиницею; several потребує множини. (2) is — Each recommendation — граматична однина у Present Simple Passive. (3) was — Neither of the two suggestions у формальному узгодженні має однину; контекст past.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "pieces"
+          },
+          {
+            "answer": "is"
+          },
+          {
+            "answer": "was"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with correct relative words. The journalist (1)___ (relative pronoun) interviewed the scientist later published an article. The laboratory in (2)___ (relative pronoun) the discovery was made is open to visitors. The experiment failed twice, (3)___ (relative pronoun) surprised the research team. The scientist's assistant, (4)___ (relative pronoun) had prepared the samples, was disappointed.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) who — Who відсилає до журналіста як особи; виконавець дії. (2) which — In which — формальна відносна конструкція для місця, лабораторії. (3) which — Which відсилає до попередньої події цілком. (4) who — Who у відокремленому підрядному уточнює особу асистента.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "who"
+          },
+          {
+            "answer": "which"
+          },
+          {
+            "answer": "which"
+          },
+          {
+            "answer": "who"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct prepositions. Many graduates are interested (1)___ (preposition) working abroad. Their choices often depend (2)___ (preposition) language skills and experience. A recruiter may ask candidates to account (3)___ (preposition) gaps in their employment history. Applicants should also be aware (4)___ (preposition) local employment regulations.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) in — Interested in + gerund — стала конструкція. (2) on — Depend on + noun позначає залежність. (3) for — Account for означає пояснити причину або надати звіт. (4) of — Aware of + noun означає бути обізнаним.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "in"
+          },
+          {
+            "answer": "on"
+          },
+          {
+            "answer": "for"
+          },
+          {
+            "answer": "of"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct determiners. Two applicants were interviewed, but only one accepted the offer; (1)___ (determiner) applicant declined. We need (2)___ (another / other) two days to review the remaining documents. There is not (3)___ (much / many) information on the website yet. However, (4)___ (every / all) candidate will receive an email individually.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) the other — The other позначає другого з двох конкретних претендентів. (2) another — Another + число + множина означає додаткову кількість. (3) much — Information — незлічуваний іменник, тому much. (4) every — Every + singular noun у значенні кожного окремо.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "the other"
+          },
+          {
+            "answer": "another"
+          },
+          {
+            "answer": "much"
+          },
+          {
+            "answer": "every"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with suitable pronouns. The two partners accused (1)___ (reciprocal pronoun) of ignoring the contract, although neither was completely right. One of them eventually admitted that the mistake was (2)___ (possessive pronoun, his). The other insisted that the responsibility was not (3)___ (possessive pronoun, hers). In the end, both agreed to resolve the dispute (4)___ (reflexive pronoun, they).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) each other — Each other виражає взаємні звинувачення двох осіб. (2) his — His — незалежний присвійний займенник, форма не змінюється. (3) hers — Hers уживають без повторення іменника responsibility. (4) themselves — Both / they потребує зворотного themselves, коли вирішують самі.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "each other"
+          },
+          {
+            "answer": "his"
+          },
+          {
+            "answer": "hers"
+          },
+          {
+            "answer": "themselves"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with appropriate grammatical forms. A number of researchers (1)___ (be / present) examining the results, but the number of final conclusions (2)___ (be / present) still small. None of the evidence (3)___ (be / present) convincing enough to support the claim. Every one of the experiments (4)___ (need / present) to be repeated under controlled conditions.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) are — A number of researchers має узгодження в множині. (2) is — The number of — однина попри множинний додаток. (3) is — Evidence — незлічуваний іменник, стандартне узгодження з is. (4) needs — Every one є граматичною одниною, тому needs.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "are"
+          },
+          {
+            "answer": "is"
+          },
+          {
+            "answer": "is"
+          },
+          {
+            "answer": "needs"
+          }
+        ]
+      }
+    }
+  ]
+}
