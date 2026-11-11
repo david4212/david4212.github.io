@@ -1,0 +1,504 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Education, Work & Society",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match each student with the most useful notice.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A first-year student needs help finding academic books. — Оголошення присвячене роботі з бібліотечним каталогом. Приклад: LIBRARY ORIENTATION: Learn how to search the catalogue, reserve textbooks and use online journals. 2) A student wants guidance on choosing a career. — Кар'єрна консультація допоможе визначитися з професією. Приклад: CAREERS OFFICE: Book a meeting to discuss professional interests, training routes and job applications. 3) A student has missed lessons due to illness and needs support. — Служба допомагає наздогнати навчання після пропусків. Приклад: STUDENT SUPPORT: Contact your tutor to arrange missed assignments and access course materials. 4) A student wants to improve public speaking skills. — Дебатний клуб розвиває навички публічного мовлення. Приклад: DEBATE CLUB: Practise making clear arguments and responding confidently to questions.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A first-year student needs help finding academic books.",
+            "LIBRARY ORIENTATION: Learn how to search the catalogue, reserve textbooks and use online journals."
+          ],
+          [
+            "A student wants guidance on choosing a career.",
+            "CAREERS OFFICE: Book a meeting to discuss professional interests, training routes and job applications."
+          ],
+          [
+            "A student has missed lessons due to illness and needs support.",
+            "STUDENT SUPPORT: Contact your tutor to arrange missed assignments and access course materials."
+          ],
+          [
+            "A student wants to improve public speaking skills.",
+            "DEBATE CLUB: Practise making clear arguments and responding confidently to questions."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / term / situation"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the paragraphs about learning.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Learning from feedback — Переопрацювання тексту спирається на коментарі викладача. Приклад: After receiving comments on her essay, Priya rewrote the introduction. Her second draft was clearer because she addressed each suggestion. 2) Balancing study and rest — Ідея полягає в чергуванні занять і перерв. Приклад: Noah divides his afternoons into focused sessions and short breaks. He finds that this schedule helps him remember material without feeling exhausted. 3) Practical experience before graduation — Виробнича практика пов'язує теорію з реальними задачами. Приклад: During the summer, Lena worked with engineers on a local project. She applied classroom knowledge to real technical problems. 4) Studying with others — Групова робота допомагає взаємному поясненню. Приклад: Four classmates meet online every Thursday to compare notes. They explain difficult topics to one another instead of memorising answers alone.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Learning from feedback",
+            "After receiving comments on her essay, Priya rewrote the introduction. Her second draft was clearer because she addressed each suggestion."
+          ],
+          [
+            "Balancing study and rest",
+            "Noah divides his afternoons into focused sessions and short breaks. He finds that this schedule helps him remember material without feeling exhausted."
+          ],
+          [
+            "Practical experience before graduation",
+            "During the summer, Lena worked with engineers on a local project. She applied classroom knowledge to real technical problems."
+          ],
+          [
+            "Studying with others",
+            "Four classmates meet online every Thursday to compare notes. They explain difficult topics to one another instead of memorising answers alone."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / term / situation"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the education term with its definition.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) curriculum — Curriculum — навчальна програма. Приклад: The complete set of subjects and learning goals in a course. 2) assessment — Assessment — оцінювання досягнень. Приклад: A process used to measure how well someone has learned. 3) scholarship — Scholarship — стипендія або освітній грант. Приклад: Financial support awarded to help a learner continue studying. 4) prerequisite — Prerequisite — попередня обов'язкова умова. Приклад: Something that must be completed before a course can be taken.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "curriculum",
+            "The complete set of subjects and learning goals in a course."
+          ],
+          [
+            "assessment",
+            "A process used to measure how well someone has learned."
+          ],
+          [
+            "scholarship",
+            "Financial support awarded to help a learner continue studying."
+          ],
+          [
+            "prerequisite",
+            "Something that must be completed before a course can be taken."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / term / situation"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the employment term with its definition.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) vacancy — Vacancy — вільна вакансія. Приклад: A job position that an employer currently needs to fill. 2) probation — Probation — випробувальний строк. Приклад: An initial period during which an employee's suitability is evaluated. 3) promotion — Promotion — підвищення на посаді. Приклад: Moving to a job with greater responsibility or seniority. 4) reference — Reference — рекомендація для роботодавця. Приклад: A recommendation or statement about someone's work or character.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "vacancy",
+            "A job position that an employer currently needs to fill."
+          ],
+          [
+            "probation",
+            "An initial period during which an employee's suitability is evaluated."
+          ],
+          [
+            "promotion",
+            "Moving to a job with greater responsibility or seniority."
+          ],
+          [
+            "reference",
+            "A recommendation or statement about someone's work or character."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / term / situation"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each workplace request with a suitable response.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Could you clarify the deadline for the report? — Clarify the deadline означає уточнити конкретний термін. Приклад: The completed document must reach me by Friday at noon. 2) Would it be possible to work remotely tomorrow? — Remote work — виконання роботи з дому. Приклад: Yes, you may complete your duties from home for one day. 3) May I have some feedback on my presentation? — Feedback — коментарі щодо якості виконаної роботи. Приклад: Your evidence was strong, but the conclusion could be more concise. 4) Could we postpone the meeting until next week? — Postpone означає відкласти подію. Приклад: Certainly; I'll move it to Tuesday at ten.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Could you clarify the deadline for the report?",
+            "The completed document must reach me by Friday at noon."
+          ],
+          [
+            "Would it be possible to work remotely tomorrow?",
+            "Yes, you may complete your duties from home for one day."
+          ],
+          [
+            "May I have some feedback on my presentation?",
+            "Your evidence was strong, but the conclusion could be more concise."
+          ],
+          [
+            "Could we postpone the meeting until next week?",
+            "Certainly; I'll move it to Tuesday at ten."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / term / situation"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each expression with its professional meaning.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) meet a deadline — Meet a deadline — встигнути до визначеного терміну. Приклад: Finish an assigned task by the agreed time. 2) take on responsibility — Take on — взяти на себе обов'язок. Приклад: Agree to be accountable for an additional duty. 3) carry out research — Carry out research — проводити дослідження. Приклад: Conduct a systematic investigation into a question. 4) draw a conclusion — Draw a conclusion — дійти висновку. Приклад: Form a judgement based on information or evidence.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "meet a deadline",
+            "Finish an assigned task by the agreed time."
+          ],
+          [
+            "take on responsibility",
+            "Agree to be accountable for an additional duty."
+          ],
+          [
+            "carry out research",
+            "Conduct a systematic investigation into a question."
+          ],
+          [
+            "draw a conclusion",
+            "Form a judgement based on information or evidence."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / term / situation"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the paragraphs about society.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Making public spaces accessible — Доступність просторів завдяки фізичним змінам. Приклад: The council installed ramps and clearer signs near the station. Residents with different mobility needs can now use the entrance more easily. 2) Encouraging local participation — Громадяни беруть участь у прийнятті місцевих рішень. Приклад: Residents were invited to suggest improvements at an open meeting. Several of their ideas were added to next year's budget proposal. 3) Supporting people who change careers — Перекваліфікація та підтримка дорослих. Приклад: A charity offers evening classes to adults seeking different jobs. Participants can also practise interview skills with volunteers. 4) Reducing unequal access to information — Скорочення цифрової нерівності. Приклад: The town opened a free internet centre near the market. People without home connections can now apply for services online.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Making public spaces accessible",
+            "The council installed ramps and clearer signs near the station. Residents with different mobility needs can now use the entrance more easily."
+          ],
+          [
+            "Encouraging local participation",
+            "Residents were invited to suggest improvements at an open meeting. Several of their ideas were added to next year's budget proposal."
+          ],
+          [
+            "Supporting people who change careers",
+            "A charity offers evening classes to adults seeking different jobs. Participants can also practise interview skills with volunteers."
+          ],
+          [
+            "Reducing unequal access to information",
+            "The town opened a free internet centre near the market. People without home connections can now apply for services online."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / term / situation"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each organisational problem with the most appropriate measure.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Staff turnover has risen sharply. — Turnover персоналу — частота звільнень і заміни працівників. Приклад: Introduce regular development discussions and investigate why employees leave. 2) A company cannot prove how decisions are made. — Transparency вимагає зрозумілих критеріїв та обліку рішень. Приклад: Publish clear criteria and document the selection process. 3) Employees report that a new rule is applied unfairly. — Справедливий розгляд скарг потребує незалежного механізму. Приклад: Establish an independent procedure for reviewing complaints. 4) Different departments have conflicting priorities. — Узгодження цілей різних команд зменшує суперечки. Приклад: Hold a joint planning meeting and agree on measurable shared goals.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Staff turnover has risen sharply.",
+            "Introduce regular development discussions and investigate why employees leave."
+          ],
+          [
+            "A company cannot prove how decisions are made.",
+            "Publish clear criteria and document the selection process."
+          ],
+          [
+            "Employees report that a new rule is applied unfairly.",
+            "Establish an independent procedure for reviewing complaints."
+          ],
+          [
+            "Different departments have conflicting priorities.",
+            "Hold a joint planning meeting and agree on measurable shared goals."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / term / situation"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: homework, lecture, revision. On Monday, our teacher gave us extra (1)___ to complete at home. On Tuesday, we attended a guest (2)___ about renewable energy. Before Friday's test, we planned a final (3)___ session.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) homework — Homework — домашнє завдання, яке виконують удома. (2) lecture — Lecture — навчальна лекція, особливо запрошеного фахівця. (3) revision — Revision session у британській англійській — повторення перед іспитом.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "homework"
+          },
+          {
+            "answer": "lecture"
+          },
+          {
+            "answer": "revision"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: interview, application, experience. Daniel submitted his job (1)___ on Monday. He was invited to an (2)___ two days later. He hoped his volunteering (3)___ would help him answer the questions confidently.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) application — Job application — заява на роботу. (2) interview — Interview — співбесіда з роботодавцем. (3) experience — Volunteering experience — досвід волонтерства.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "application"
+          },
+          {
+            "answer": "interview"
+          },
+          {
+            "answer": "experience"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: community, volunteer, charity. Our local (1)___ organised a clean-up near the river. I decided to (2)___ at the event instead of staying home. The organisers were a small (3)___ that supports environmental projects.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) community — Local community — місцева громада. (2) volunteer — Volunteer як дієслово означає добровільно допомагати. (3) charity — Charity — благодійна організація.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "community"
+          },
+          {
+            "answer": "volunteer"
+          },
+          {
+            "answer": "charity"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: vacancy, qualifications, recruit. The company advertised a new (1)___ on its website. Applicants needed specific technical (2)___ to be considered. The manager hoped to (3)___ a new colleague before September.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) vacancy — A vacancy — незайнята посада. (2) qualifications — Qualifications — формально підтверджені навички та освіта. (3) recruit — Recruit — найняти або залучити працівника.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "vacancy"
+          },
+          {
+            "answer": "qualifications"
+          },
+          {
+            "answer": "recruit"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: contract, probation, reference. Before starting work, Nora signed an employment (1)___. Her first three months were a period of (2)___ during which her performance was assessed. Her previous manager had also provided a positive (3)___ about her reliability.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) contract — Employment contract — трудовий договір. (2) probation — Probation — початковий випробувальний період. (3) reference — Reference — професійна рекомендація.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "contract"
+          },
+          {
+            "answer": "probation"
+          },
+          {
+            "answer": "reference"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: citation, plagiarism, enrolment, credentials. Before the course began, students completed online (1)___. They had to upload documents confirming their academic (2)___. During the first seminar, the tutor explained that copying another writer's work without acknowledgement is (3)___. To avoid this, students must provide a proper (4)___ for borrowed ideas.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) enrolment — Enrolment означає офіційне зарахування на курс. (2) credentials — Credentials — документи, що підтверджують кваліфікацію. (3) plagiarism — Plagiarism — привласнення чужого тексту чи ідей. (4) citation — Citation — посилання на джерело використаних відомостей.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "enrolment"
+          },
+          {
+            "answer": "credentials"
+          },
+          {
+            "answer": "plagiarism"
+          },
+          {
+            "answer": "citation"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: incentive, retention, turnover, appraisal. A company noticed that staff (1)___ was increasing, with many employees leaving after one year. To improve worker (2)___, the management introduced more flexible schedules. An annual performance (3)___ allowed employees to discuss their goals. A training allowance became an extra (4)___ to stay.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) turnover — Staff turnover — плинність кадрів. (2) retention — Worker retention — утримання працівників у компанії. (3) appraisal — Performance appraisal — оцінювання роботи працівника. (4) incentive — Incentive — заохочення або стимул.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "turnover"
+          },
+          {
+            "answer": "retention"
+          },
+          {
+            "answer": "appraisal"
+          },
+          {
+            "answer": "incentive"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: accessibility, inequality, outreach, policy. The town's digital services were difficult for many older residents to use. Officials recognised that this created an information (1)___. They introduced a new (2)___ requiring clearer websites. Local libraries organised (3)___ visits to teach residents how to use the online forms. The changes improved (4)___ for people with different needs.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) inequality — Inequality — нерівність у доступі до можливостей. (2) policy — Policy — встановлена організаційна чи державна політика. (3) outreach — Outreach visits — активні виїзні заходи для допомоги громадам. (4) accessibility — Accessibility — доступність сервісів для різних користувачів.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "inequality"
+          },
+          {
+            "answer": "policy"
+          },
+          {
+            "answer": "outreach"
+          },
+          {
+            "answer": "accessibility"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: grievance, compliance, mediation, legislation. New employment (1)___ required companies to update workplace rules. The director introduced training to ensure (2)___ with these requirements. When an employee submitted a formal (3)___, the company offered an independent review. Both sides eventually agreed to try (4)___ rather than continue the dispute.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) legislation — Legislation — законодавство, що встановлює правила. (2) compliance — Compliance with requirements — дотримання вимог. (3) grievance — Grievance — офіційна скарга працівника. (4) mediation — Mediation — переговори за участю незалежного посередника.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "legislation"
+          },
+          {
+            "answer": "compliance"
+          },
+          {
+            "answer": "grievance"
+          },
+          {
+            "answer": "mediation"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: stakeholders, accountability, transparent, consensus. The project affected students, teachers and local employers, all of whom were important (1)___. The committee wanted its decisions to be (2)___, so it published clear selection criteria. After several meetings, the members reached a (3)___ on the final budget. They also introduced public reporting to ensure greater (4)___ for the results.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) stakeholders — Stakeholders — усі сторони, на яких впливають рішення. (2) transparent — Transparent — відкритий і зрозумілий для перевірки. (3) consensus — Reach a consensus — дійти спільної згоди. (4) accountability — Accountability — підзвітність за дії та результати.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "stakeholders"
+          },
+          {
+            "answer": "transparent"
+          },
+          {
+            "answer": "consensus"
+          },
+          {
+            "answer": "accountability"
+          }
+        ]
+      }
+    }
+  ]
+}
