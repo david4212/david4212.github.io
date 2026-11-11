@@ -5,6 +5,7 @@ import prisma from "@/lib/prisma";
 import { authOptions } from "@/lib/auth";
 import TestRunner from "@/components/cards/TestRunner";
 import ExamCountdown from "@/components/shared/ExamCountdown";
+import { isUnverifiedHistoryQuestion } from "@/lib/history-review";
 
 export const dynamic = "force-dynamic";
 
@@ -17,6 +18,7 @@ export default async function ExamPage({ params }: { params: { id: string } }) {
     include: { questions: { select: { id: true, text: true, options: true, imageUrl: true }, orderBy: { createdAt: "asc" } } },
   });
 
+  const safeQuestions = exam?.questions.filter((q) => !isUnverifiedHistoryQuestion(q.imageUrl)) ?? [];
   const now = new Date();
   const available = !!exam && exam.isActive && exam.startTime <= now && exam.endTime > now;
 
@@ -38,15 +40,15 @@ export default async function ExamPage({ params }: { params: { id: string } }) {
             </div>
             <h1 className="text-2xl font-extrabold">{exam.title}</h1>
             <p className="text-white/90 text-sm mt-1">
-              Питань: {exam.questions.length} · до кінця: <ExamCountdown endTime={exam.endTime.toISOString()} />
+              Питань: {safeQuestions.length} · до кінця: <ExamCountdown endTime={exam.endTime.toISOString()} />
             </p>
           </div>
 
-          {exam.questions.length === 0 ? (
+          {safeQuestions.length === 0 ? (
             <p className="text-center text-slate-500 mt-8">У цьому пробному ще немає питань.</p>
           ) : (
             <TestRunner
-              questions={exam.questions}
+              questions={safeQuestions}
               submitUrl="/api/exam/submit"
               payload={{ examId: exam.id }}
               backHref="/"
