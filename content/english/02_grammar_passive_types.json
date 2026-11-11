@@ -1,0 +1,507 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Grammar: Passive Voice & Conditionals",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match each passive sentence to its use.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A general fact → Fresh bread is sold here every morning.: Present Simple Passive виражає повторювану дію. 2) A completed past event → The bridge was repaired after the floods in 2019.: Past Simple Passive має конкретну дату завершеної дії. 3) Work happening at this moment → The main entrance is being painted today.: Present Continuous Passive: is being + третя форма. 4) A completed result relevant now → All the seats have been booked for the concert.: Present Perfect Passive указує на теперішній результат.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A general fact",
+            "Fresh bread is sold here every morning."
+          ],
+          [
+            "A completed past event",
+            "The bridge was repaired after the floods in 2019."
+          ],
+          [
+            "Work happening at this moment",
+            "The main entrance is being painted today."
+          ],
+          [
+            "A completed result relevant now",
+            "All the seats have been booked for the concert."
+          ]
+        ],
+        "leftLabels": [
+          "Structure / meaning"
+        ],
+        "rightLabels": [
+          "Example / paraphrase"
+        ]
+      }
+    },
+    {
+      "text": "Match the conditional type with its example.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Zero conditional → If you cool water below zero degrees Celsius, it freezes under normal atmospheric pressure.: Загальна закономірність: Present Simple в обох частинах. 2) First conditional → If the weather improves tomorrow, we'll go cycling.: Реальна майбутня умова: Present Simple + will. 3) Second conditional → If I owned a car, I would drive to work.: Нереальна теперішня ситуація: Past Simple + would. 4) Third conditional → If she had checked the address, she wouldn't have got lost.: Умова всупереч фактам минулого: had + V3 і would have + V3.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Zero conditional",
+            "If you cool water below zero degrees Celsius, it freezes under normal atmospheric pressure."
+          ],
+          [
+            "First conditional",
+            "If the weather improves tomorrow, we'll go cycling."
+          ],
+          [
+            "Second conditional",
+            "If I owned a car, I would drive to work."
+          ],
+          [
+            "Third conditional",
+            "If she had checked the address, she wouldn't have got lost."
+          ]
+        ],
+        "leftLabels": [
+          "Structure / meaning"
+        ],
+        "rightLabels": [
+          "Example / paraphrase"
+        ]
+      }
+    },
+    {
+      "text": "Match the active statement with its equivalent passive.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) People grow coffee in this region. → Coffee is grown in this region.: Present Simple: множинний актив перетворюється на is + V3 для coffee. 2) Someone stole my bicycle last night. → My bicycle was stolen last night.: Past Simple Passive: was stolen. 3) They are interviewing the candidates now. → The candidates are being interviewed now.: Present Continuous Passive: are being interviewed. 4) They will publish the report tomorrow. → The report will be published tomorrow.: Future Passive: will be + V3.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "People grow coffee in this region.",
+            "Coffee is grown in this region."
+          ],
+          [
+            "Someone stole my bicycle last night.",
+            "My bicycle was stolen last night."
+          ],
+          [
+            "They are interviewing the candidates now.",
+            "The candidates are being interviewed now."
+          ],
+          [
+            "They will publish the report tomorrow.",
+            "The report will be published tomorrow."
+          ]
+        ],
+        "leftLabels": [
+          "Structure / meaning"
+        ],
+        "rightLabels": [
+          "Example / paraphrase"
+        ]
+      }
+    },
+    {
+      "text": "Match each modal meaning with its passive example.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A strict requirement → Safety helmets must be worn on the construction site.: Must be + V3 виражає обов'язок. 2) A possible outcome → The missing documents might be found later.: Might be + V3 виражає ймовірність. 3) Advice about a procedure → The application should be submitted online.: Should be + V3 позначає пораду. 4) An ability or available option → The museum tickets can be purchased in advance.: Can be + V3 показує можливість.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A strict requirement",
+            "Safety helmets must be worn on the construction site."
+          ],
+          [
+            "A possible outcome",
+            "The missing documents might be found later."
+          ],
+          [
+            "Advice about a procedure",
+            "The application should be submitted online."
+          ],
+          [
+            "An ability or available option",
+            "The museum tickets can be purchased in advance."
+          ]
+        ],
+        "leftLabels": [
+          "Structure / meaning"
+        ],
+        "rightLabels": [
+          "Example / paraphrase"
+        ]
+      }
+    },
+    {
+      "text": "Match the conditional structure with its communicative function.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Unless we hurry, → we'll miss the last train.: Unless означає if not, отже реальна умова. 2) Provided that you follow the instructions, → you can use the software without difficulty.: Provided that вводить умову, за якої результат можливий. 3) Even if it rains heavily, → the charity event will take place indoors.: Even if підкреслює, що умова не змінить рішення. 4) If only I'd kept the receipt, → I could have returned the faulty item.: If only + Past Perfect висловлює жаль про минуле.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Unless we hurry,",
+            "we'll miss the last train."
+          ],
+          [
+            "Provided that you follow the instructions,",
+            "you can use the software without difficulty."
+          ],
+          [
+            "Even if it rains heavily,",
+            "the charity event will take place indoors."
+          ],
+          [
+            "If only I'd kept the receipt,",
+            "I could have returned the faulty item."
+          ]
+        ],
+        "leftLabels": [
+          "Structure / meaning"
+        ],
+        "rightLabels": [
+          "Example / paraphrase"
+        ]
+      }
+    },
+    {
+      "text": "Match the reporting or causative structure with its meaning.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) It is believed that the painting is genuine. → People generally consider the painting authentic.: Impersonal passive передає поширене переконання. 2) He had his laptop repaired yesterday. → He arranged for a technician to fix his computer.: Have something done — замовити послугу. 3) She got her passport renewed last week. → She arranged to have her travel document updated.: Get something done — результат послуги. 4) The manager is said to have resigned. → According to reports, the manager left the job earlier.: Is said to have + V3 указує на попередню подію.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "It is believed that the painting is genuine.",
+            "People generally consider the painting authentic."
+          ],
+          [
+            "He had his laptop repaired yesterday.",
+            "He arranged for a technician to fix his computer."
+          ],
+          [
+            "She got her passport renewed last week.",
+            "She arranged to have her travel document updated."
+          ],
+          [
+            "The manager is said to have resigned.",
+            "According to reports, the manager left the job earlier."
+          ]
+        ],
+        "leftLabels": [
+          "Structure / meaning"
+        ],
+        "rightLabels": [
+          "Example / paraphrase"
+        ]
+      }
+    },
+    {
+      "text": "Match the mixed conditional with the correct interpretation.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) If Marta had taken the job, she would be living abroad now. → A past choice would have changed her present location.: Минуле рішення впливає на теперішній результат. 2) If I were less shy, I would have spoken at yesterday's meeting. → A current personality trait affected a past action.: Теперішня нереальна риса спричинила минулий результат. 3) Had they informed us, we would have prepared earlier. → They failed to notify us, so preparation was delayed.: Had they informed = If they had informed. 4) Were the museum open today, we could visit it. → The museum is closed, so visiting is not possible now.: Were + підмет інвертує Second Conditional.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "If Marta had taken the job, she would be living abroad now.",
+            "A past choice would have changed her present location."
+          ],
+          [
+            "If I were less shy, I would have spoken at yesterday's meeting.",
+            "A current personality trait affected a past action."
+          ],
+          [
+            "Had they informed us, we would have prepared earlier.",
+            "They failed to notify us, so preparation was delayed."
+          ],
+          [
+            "Were the museum open today, we could visit it.",
+            "The museum is closed, so visiting is not possible now."
+          ]
+        ],
+        "leftLabels": [
+          "Structure / meaning"
+        ],
+        "rightLabels": [
+          "Example / paraphrase"
+        ]
+      }
+    },
+    {
+      "text": "Match each advanced passive construction with its equivalent.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) The documents should have been signed yesterday. → Signing the papers was expected but did not happen by the deadline.: Should have been + V3 може вказувати на невиконаний обов'язок. 2) She is thought to be working in Brussels. → People believe she currently has a job in Brussels.: Is thought to be + V-ing стосується теперішнього процесу. 3) The suspect is reported to have left the country. → Reports suggest the person departed earlier.: Perfect infinitive позначає дію до повідомлення. 4) The road will have been completed by June. → Construction is expected to be finished before a future deadline.: Future Perfect Passive вказує на завершення до майбутньої межі.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "The documents should have been signed yesterday.",
+            "Signing the papers was expected but did not happen by the deadline."
+          ],
+          [
+            "She is thought to be working in Brussels.",
+            "People believe she currently has a job in Brussels."
+          ],
+          [
+            "The suspect is reported to have left the country.",
+            "Reports suggest the person departed earlier."
+          ],
+          [
+            "The road will have been completed by June.",
+            "Construction is expected to be finished before a future deadline."
+          ]
+        ],
+        "leftLabels": [
+          "Structure / meaning"
+        ],
+        "rightLabels": [
+          "Example / paraphrase"
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. Our school library (1)___ (open) every weekday at eight. The books (2)___ (arrange) by subject. New titles (3)___ (add) to the catalogue each month.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) is opened — Present Simple Passive описує регулярне відкриття бібліотеки; у контексті дію виконує персонал. (2) are arranged — Books — множина, тому are + V3. (3) are added — Each month вказує на регулярне поповнення, отже Present Simple Passive.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "is opened"
+          },
+          {
+            "answer": "are arranged"
+          },
+          {
+            "answer": "are added"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. The old bridge (1)___ (build) in 1920. It (2)___ (damage) by a storm in 1998. The local council (3)___ (repair) it the following year.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) was built — Пасивна дія з датою в минулому: was built. (2) was damaged — A storm спричинив дію, тому Past Simple Passive. (3) repaired — The council є виконавцем, отже активний Past Simple.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "was built"
+          },
+          {
+            "answer": "was damaged"
+          },
+          {
+            "answer": "repaired"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. If you (1)___ (heat) ice, it melts. If it (2)___ (rain) tomorrow, we'll take the bus. If I (3)___ (have) more free time, I would learn Italian.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) heat — Zero Conditional має Present Simple в підрядній частині. (2) rains — У First Conditional після if вживаємо Present Simple. (3) had — Second Conditional: Past Simple щодо уявної ситуації тепер.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "heat"
+          },
+          {
+            "answer": "rains"
+          },
+          {
+            "answer": "had"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. Please use the side door because the main entrance (1)___ (paint) at the moment. The work (2)___ (finish) by the end of the week, according to the schedule. All visitors (3)___ (ask) to follow the signs until then.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) is being painted — At the moment вимагає Present Continuous Passive. (2) will be finished — By the end of the week — майбутнє завершення; Future Simple Passive. (3) are asked — Visitors — множина, теперішнє прохання в Passive.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "is being painted"
+          },
+          {
+            "answer": "will be finished",
+            "alternatives": [
+              "is scheduled to be finished"
+            ]
+          },
+          {
+            "answer": "are asked"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. The invitations (1)___ (already / send), so we cannot change the guest list. If someone (2)___ (cancel), we'll offer the place to another guest. The menu (3)___ (prepare) by the chef tomorrow morning.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) have already been sent — Already й результат зараз: Present Perfect Passive. (2) cancels — У First Conditional після if потрібен Present Simple. (3) will be prepared — By the chef й tomorrow указують на Future Simple Passive.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "have already been sent"
+          },
+          {
+            "answer": "cancels"
+          },
+          {
+            "answer": "will be prepared"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. If the warning (1)___ (issue) earlier, the hikers would have changed their route. The path (2)___ (close) before the rescue teams arrived, but nobody had noticed the sign. By the time the investigation ended, several mistakes (3)___ (identify). The final report (4)___ (publish) the following month.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) had been issued — Third Conditional: попередня нереальна дія в Past Perfect Passive. (2) had been closed — Before іншої минулої події: Past Perfect Passive. (3) had been identified — By the time підкреслює завершення до минулої межі. (4) was published — The following month — конкретна подія в минулому, Past Simple Passive.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "had been issued"
+          },
+          {
+            "answer": "had been closed"
+          },
+          {
+            "answer": "had been identified"
+          },
+          {
+            "answer": "was published"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. If I (1)___ (know) about the scholarship last year, I would be studying abroad now. Had the university (2)___ (receive) my papers on time, I would have been considered. The application portal (3)___ (close) before I discovered the mistake. I wish I (4)___ (check) the dates more carefully.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) had known — Минула нереальна умова з теперішнім наслідком — Mixed Conditional. (2) received — Інверсія Had the university received = If the university had received. (3) had closed — Попередня минула подія потребує Past Perfect. (4) had checked — Wish про жаль у минулому потребує Past Perfect.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "had known"
+          },
+          {
+            "answer": "received"
+          },
+          {
+            "answer": "had closed"
+          },
+          {
+            "answer": "had checked"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. The new hospital (1)___ (expect) to open next autumn. Its design (2)___ (approve) by the council last year. The equipment must (3)___ (test) before any patients are admitted. By October, all staff (4)___ (train), according to the official plan.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) is expected — It is expected / The hospital is expected to: reporting passive. (2) was approved — Last year позначає Past Simple Passive. (3) be tested — Після must утворюємо пасив be + V3. (4) will have been trained — By October визначає майбутню межу завершення: Future Perfect Passive.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "is expected"
+          },
+          {
+            "answer": "was approved"
+          },
+          {
+            "answer": "be tested"
+          },
+          {
+            "answer": "will have been trained"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. Unless the results (1)___ (verify) independently, the editor will not publish the article. If the figures (2)___ (be) inaccurate, readers could be misled. The data should (3)___ (check) twice before publication. Had the researcher followed this rule, the error (4)___ (avoid).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) are verified — Unless = if not; у реальній умові потрібен Present Simple Passive. (2) were — Second Conditional: if the figures were, уявна умова. (3) be checked — Should be + V3 — модальна пасивна форма. (4) would have been avoided — Інверсія Had указує на Third Conditional; результат у пасиві.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "are verified"
+          },
+          {
+            "answer": "were"
+          },
+          {
+            "answer": "be checked"
+          },
+          {
+            "answer": "would have been avoided"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct forms. The author is believed (1)___ (write) the novel during a long stay overseas in the 1990s. Her manuscript is said (2)___ (reject) by several publishers before one accepted it. She later had the first edition (3)___ (translate) into French. By the end of next year, the book (4)___ (publish) in twelve languages.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) to have written — Is believed + perfect infinitive відносить написання до минулого. (2) to have been rejected — Пасивний perfect infinitive після is said стосується попередніх відмов. (3) translated — Have + object + V3 означає замовити переклад. (4) will have been published — Future Perfect Passive позначає результат до майбутньої дати.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "to have written"
+          },
+          {
+            "answer": "to have been rejected"
+          },
+          {
+            "answer": "translated"
+          },
+          {
+            "answer": "will have been published"
+          }
+        ]
+      }
+    }
+  ]
+}
