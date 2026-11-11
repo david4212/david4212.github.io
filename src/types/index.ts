@@ -67,7 +67,7 @@ export type QuestionType = "single_choice" | "matching" | "sequencing" | "choose
 // short_answer: { answer: number | string, tolerance?: number }
 //   — коротка відповідь (зазвичай число). Відповідь = рядок або число
 
-export type MatchingMeta = { pairs: [string, string][]; leftLabels?: string[]; rightLabels?: string[] };
+export type MatchingMeta = { pairs: [string, string][]; distractors?: string[]; leftLabels?: string[]; rightLabels?: string[] };
 export type SequencingMeta = { items: string[]; correctOrder: number[] };
 export type ChooseMultiMeta = { correctIndices: number[]; requiredCount: number };
 export type FillBlanksMeta = { blanks: { answer: string; alternatives?: string[] }[] };
@@ -82,6 +82,15 @@ export const NMT_CONFIG = {
   HISTORY:   { questions: 30, minutes: 60, maxRaw: 54 },
   ENGLISH:   { questions: 32, minutes: 60, maxRaw: 32 },
 } as const;
+
+// Склад пробника як на реальному НМТ (кількість питань кожного типу).
+// Якщо питань якогось типу в базі не вистачає — добирається single_choice.
+export const NMT_STRUCTURE: Record<Subject, Partial<Record<QuestionType, number>>> = {
+  UKRAINIAN: { single_choice: 25, matching: 5 },                                // 25 + 5×4 = 45
+  MATH:      { single_choice: 15, matching: 3, short_answer: 4 },               // 15 + 3×3 + 4×2 = 32
+  HISTORY:   { single_choice: 20, matching: 4, sequencing: 3, choose_multi: 3 }, // 20 + 16 + 9 + 9 = 54
+  ENGLISH:   { single_choice: 24, matching: 4, fill_blanks: 4 },
+};
 
 export const NMT_TOTAL_QUESTIONS = Object.values(NMT_CONFIG).reduce((s, c) => s + c.questions, 0); // 114
 

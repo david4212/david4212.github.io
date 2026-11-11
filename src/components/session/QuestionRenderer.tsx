@@ -46,7 +46,8 @@ function SingleChoice({ options, answer, onChange }: { options: string[]; answer
 function Matching({ metadata, answer, onChange }: { metadata: MatchingMeta; answer: number[] | undefined; onChange: (v: number[]) => void }) {
   const pairs = metadata.pairs;
   const leftItems = pairs.map(p => p[0]);
-  const rightItems = pairs.map(p => p[1]);
+  // Права колонка: правильні відповіді + зайві варіанти (як А–Д на НМТ); індекс ≥ pairs.length — дистрактор
+  const rightItems = [...pairs.map(p => p[1]), ...(metadata.distractors ?? [])];
   // Shuffled right side (stable via metadata — but we shuffle once)
   const [shuffledRight] = useState(() => {
     const indices = rightItems.map((_, i) => i);

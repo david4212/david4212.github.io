@@ -46,7 +46,11 @@ for (const f of files) {
     } else if (qt === "matching") {
       const p = m.pairs;
       if (!Array.isArray(p) || p.length < 3 || p.length > 5 || !p.every((x) => Array.isArray(x) && x.length === 2 && x[0] && x[1])) err("matching: pairs");
-      else if (new Set(p.map((x) => x[1])).size !== p.length || new Set(p.map((x) => x[0])).size !== p.length) err("matching: однакові частини");
+      else {
+        const rights = [...p.map((x) => x[1]), ...(m.distractors || [])];
+        if (new Set(rights).size !== rights.length || new Set(p.map((x) => x[0])).size !== p.length) err("matching: однакові частини");
+        if (rights.length > 7) err("matching: забагато варіантів справа (макс. 7)");
+      }
     } else if (qt === "sequencing") {
       const it = m.items, co = m.correctOrder;
       if (!Array.isArray(it) || it.length < 3 || !Array.isArray(co) || co.length !== it.length || [...co].sort((a, b) => a - b).some((v, k) => v !== k)) err("sequencing: items/correctOrder");

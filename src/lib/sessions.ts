@@ -1,7 +1,7 @@
 import { calculateNmtScore, averageNmt } from "@/lib/score";
 import prisma from "@/lib/prisma";
 import { recordAnswers, shuffle, type AnswerSource } from "@/lib/answers";
-import { SUBJECT_DETAILS, SUBJECT_ORDER, NMT_CONFIG, type Subject, type ProbnikDifficulty } from "@/types";
+import { SUBJECT_DETAILS, SUBJECT_ORDER, NMT_STRUCTURE, type Subject, type ProbnikDifficulty, type QuestionType } from "@/types";
 import { verifiedQuestionWhere } from "@/lib/history-review";
 
 export const SUBJECTS: Subject[] = ["UKRAINIAN", "MATH", "HISTORY", "ENGLISH"];
@@ -36,47 +36,58 @@ export async function buildQuestionIds(kind: Kind, difficulty: ProbnikDifficulty
     return shuffle(ids);
   }
 
-  // Пробник НМТ — реальна кількість питань по предметах
+  // Пробник НМТ — реальний склад за типами питань (NMT_STRUCTURE), порядок: предмет → тип
   const hardPercent = { 1: 30, 2: 50, 3: 80 }[difficulty] ?? 50;
   const ids: string[] = [];
+  const TYPE_ORDER: QuestionType[] = ["single_choice", "matching", "sequencing", "choose_multi", "fill_blanks", "short_answer"];
 
-  for (const subject of SUBJECTS) {
-    const needed = NMT_CONFIG[subject].questions;
-    const hardCount = Math.round((needed * hardPercent) / 100);
-    const easyMedCount = needed - hardCount;
-
-    // Отримуємо hard (testLevel=3) і easy/medium (testLevel 1-2) окремо
+  for (const subject of SUBJECT_ORDER) {
     const hFilter = historyFilter(subject);
-    const [hardRows, easyMedRows] = await Promise.all([
-      prisma.question.findMany({
-        where: { topic: { subject }, testLevel: 3, questionType: "single_choice", ...hFilter },
-        select: { id: true },
-      }),
-      prisma.question.findMany({
-        where: { topic: { subject }, testLevel: { in: [1, 2] }, questionType: "single_choice", ...hFilter },
-        select: { id: true },
-      }),
-    ]);
+    const rows: { id: string; testLevel: number; questionType: string }[] = await prisma.question.findMany({
+      where: { topic: { subject }, ...hFilter },
+      select: { id: true, testLevel: true, questionType: true },
+    });
+    const used = new Set<string>();
+    const pick = (type: QuestionType, count: number) => {
+      const pool = rows.filter((r) => r.questionType === type && !used.has(r.id));
+      const hardCount = Math.round((count * hardPercent) / 100);
+      const hard = shuffle(pool.filter((r) => r.testLevel === 3).map((r) => r.id)).slice(0, hardCount);
+      const rest = shuffle(pool.filter((r) => r.testLevel !== 3).map((r) => r.id)).slice(0, count - hard.length);
+      let got: string[] = [...hard, ...rest];
+      if (got.length < count) {
+        const taken = new Set(got);
+        got.push(...shuffle(pool.map((r) => r.id).filter((id) => !taken.has(id))).slice(0, count - got.length));
+      }
+      got.forEach((id) => used.add(id));
+      return got;
+    };
 
-    const hard = shuffle(hardRows.map((r) => r.id)).slice(0, hardCount);
-    const easyMed = shuffle(easyMedRows.map((r) => r.id)).slice(0, easyMedCount);
-
-    // Якщо одного рівня не вистачає — добираємо з іншого
-    let pool = [...hard, ...easyMed];
-    if (pool.length < needed) {
-      const usedSet = new Set(pool);
-      const allRows = await prisma.question.findMany({
-        where: { topic: { subject }, questionType: "single_choice", ...hFilter },
-        select: { id: true },
-      });
-      const extra = shuffle(allRows.map((r) => r.id).filter((id) => !usedSet.has(id)));
-      pool.push(...extra.slice(0, needed - pool.length));
+    const structure = NMT_STRUCTURE[subject];
+    const byType: Partial<Record<QuestionType, string[]>> = {};
+    let missing = 0;
+    for (const type of TYPE_ORDER) {
+      if (type === "single_choice") continue;
+      const need = structure[type] ?? 0;
+      if (!need) continue;
+      byType[type] = pick(type, need);
+      missing += need - byType[type]!.length;
     }
-
-    ids.push(...pool.slice(0, needed));
+    // Нестача рідкісних типів компенсується питаннями з однією відповіддю
+    byType.single_choice = pick("single_choice", (structure.single_choice ?? 0) + missing);
+    for (const type of TYPE_ORDER) ids.push(...(byType[type] ?? []));
   }
 
-  return shuffle(ids);
+  return ids;
+}
+
+/** Максимальна кількість балів за питання (як на НМТ). */
+export function maxPoints(subject: Subject, qType: string, meta: any): number {
+  if (qType === "matching") return meta?.pairs?.length ?? 1;
+  if (qType === "sequencing") return Math.min(3, Math.max(1, (meta?.items?.length ?? 2) - 1));
+  if (qType === "choose_multi") return meta?.requiredCount ?? 3;
+  if (qType === "fill_blanks") return meta?.blanks?.length ?? 1;
+  if (qType === "short_answer") return subject === "MATH" ? 2 : 1;
+  return 1;
 }
 
 export async function loadQuestions(ids: string[]) {
@@ -110,37 +121,41 @@ export async function finishSession(sessionId: string, userId: string) {
       const ans = saved[q.id];
       const qType = q.questionType ?? "single_choice";
       const meta = q.metadata as any;
-      let isCorrect = false;
+      const subject = q.topic.subject as Subject;
+      const max = maxPoints(subject, qType, meta);
+      let points = 0;
       let chosen: number | null = null;
+      const norm = (v: unknown) => String(v ?? "").trim().toLowerCase().replace(/\s+/g, " ").replace(/’|ʼ|`/g, "'");
 
       if (qType === "single_choice") {
         chosen = typeof ans === "number" ? ans : null;
-        isCorrect = chosen === q.correctIndex;
+        points = chosen === q.correctIndex ? 1 : 0;
       } else if (qType === "matching" && Array.isArray(ans) && meta?.pairs) {
-        // correct when user's order matches 0,1,2,... (pairs are in correct order in DB)
-        isCorrect = ans.length === meta.pairs.length && ans.every((v: number, i: number) => v === i);
-      } else if (qType === "sequencing" && Array.isArray(ans) && meta?.correctOrder) {
-        isCorrect = JSON.stringify(ans) === JSON.stringify(meta.correctOrder);
-      } else if (qType === "choose_multi" && Array.isArray(ans) && meta?.correctIndices) {
-        isCorrect = JSON.stringify([...ans].sort()) === JSON.stringify([...meta.correctIndices].sort());
-      } else if (qType === "fill_blanks" && Array.isArray(ans) && meta?.blanks) {
-        isCorrect = meta.blanks.every((b: { answer: string; alternatives?: string[] }, i: number) => {
-          const userVal = (ans[i] ?? "").trim().toLowerCase();
-          if (userVal === b.answer.trim().toLowerCase()) return true;
-          return b.alternatives?.some((a: string) => a.trim().toLowerCase() === userVal) ?? false;
-        });
-      } else if (qType === "short_answer" && typeof ans === "string" && meta?.answer !== undefined) {
-        const userVal = ans.trim();
+        // пари в БД записані у правильній відповідності: лівий i ↔ правий i; 1 бал за кожну пару
+        points = meta.pairs.reduce((n: number, _: unknown, i: number) => n + (ans[i] === i ? 1 : 0), 0);
+      } else if (qType === "sequencing" && Array.isArray(ans) && Array.isArray(meta?.correctOrder)) {
+        const right = meta.correctOrder.reduce((n: number, v: number, i: number) => n + (ans[i] === v ? 1 : 0), 0);
+        points = right === meta.correctOrder.length ? max : Math.min(max, right);
+        if (right < meta.correctOrder.length) points = Math.min(points, max - 1);
+      } else if (qType === "choose_multi" && Array.isArray(ans) && Array.isArray(meta?.correctIndices)) {
+        points = Math.min(max, new Set(ans.filter((v: number) => meta.correctIndices.includes(v))).size);
+      } else if (qType === "fill_blanks" && Array.isArray(ans) && Array.isArray(meta?.blanks)) {
+        points = meta.blanks.reduce((n: number, b: { answer: string; alternatives?: string[] }, i: number) => {
+          const u = norm(ans[i]);
+          return n + (u && [b.answer, ...(b.alternatives ?? [])].some((a) => norm(a) === u) ? 1 : 0);
+        }, 0);
+      } else if (qType === "short_answer" && (typeof ans === "string" || typeof ans === "number") && meta?.answer !== undefined) {
+        const userVal = String(ans).trim();
+        let ok: boolean;
         if (typeof meta.answer === "number") {
-          const num = parseFloat(userVal);
-          const tolerance = meta.tolerance ?? 0;
-          isCorrect = !isNaN(num) && Math.abs(num - meta.answer) <= tolerance;
-        } else {
-          isCorrect = userVal.toLowerCase() === String(meta.answer).trim().toLowerCase();
-        }
+          const num = parseFloat(userVal.replace(",", "."));
+          ok = !isNaN(num) && Math.abs(num - meta.answer) <= (meta.tolerance ?? 1e-9);
+        } else ok = norm(userVal) === norm(meta.answer);
+        points = ok ? max : 0;
       }
+      const isCorrect = points === max;
 
-      return { id: q.id, subject: q.topic.subject as Subject, chosen, correctIndex: q.correctIndex, explanation: q.explanation, isCorrect };
+      return { id: q.id, subject, chosen, correctIndex: q.correctIndex, explanation: q.explanation, isCorrect, points, maxPoints: max };
     });
 
   const correct = details.filter((d) => d.isCorrect).length;
@@ -150,7 +165,10 @@ export async function finishSession(sessionId: string, userId: string) {
   const perSubject = SUBJECTS.map((subject) => {
     const part = details.filter((d) => d.subject === subject);
     const c = part.filter((d) => d.isCorrect).length;
-    return { subject, title: SUBJECT_DETAILS[subject].title, correct: c, total: part.length, percent: part.length ? Math.round((c / part.length) * 100) : 0, nmt: calculateNmtScore(subject, c, part.length) };
+    // НМТ-бал рахуємо за тестовими балами (часткові бали за відповідність/послідовність/3 із 7)
+    const raw = part.reduce((n, d) => n + d.points, 0);
+    const rawMax = part.reduce((n, d) => n + d.maxPoints, 0);
+    return { subject, title: SUBJECT_DETAILS[subject].title, correct: c, total: part.length, percent: rawMax ? Math.round((raw / rawMax) * 100) : 0, raw, rawMax, nmt: calculateNmtScore(subject, raw, rawMax) };
   });
   const avgNmt = averageNmt(perSubject.filter((p) => p.total).map((p) => p.nmt));
 
