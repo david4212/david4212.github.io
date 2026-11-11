@@ -3,7 +3,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, ExternalLink, Map as MapIcon, Images, Landmark, Clapperboard, Search, Maximize2, Eye, EyeOff, BookOpen, ZoomIn, ZoomOut, X, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, ExternalLink, Map as MapIcon, Images, Landmark, Clapperboard, Search, Maximize2, Eye, EyeOff, X, CheckCircle2 } from "lucide-react";
 import { VERIFIED_EXAM_MAPS } from "@/lib/verified-exam-maps";
 import { NMT_CULTURE_WORKS } from "@/lib/history-culture";
 import VerifiedMapsPanel from "@/components/materials/VerifiedMapsPanel";
@@ -19,16 +19,6 @@ const TABS: {id:Tab;title:string;subtitle:string;icon:typeof Images}[] = [
   {id:"maps",title:"Атлас подій",subtitle:"Карти, схеми, дати",icon:MapIcon},
   {id:"art",title:"Галерея епох",subtitle:"Архітектура й мистецтво",icon:Landmark},
   {id:"cinema",title:"Кадри культури",subtitle:"Режисери та кіно",icon:Clapperboard}
-];
-const PERIODS:{value:string;label:string}[]=[
- {value:"all",label:"Усі епохи"},
- {value:"early",label:"Русь і Литовська доба"},
- {value:"h3",label:"Козацтво"},
- {value:"h4",label:"XVIII–XIX століття"},
- {value:"h5",label:"Революція 1917–1921"},
- {value:"h6",label:"1919–1945"},
- {value:"h7",label:"1945–1991"},
- {value:"h8",label:"Незалежність"}
 ];
 function ImageWithFallback({src,title,large=false,fallbacks=[]}:{src:string;title:string;large?:boolean;fallbacks?:string[]}) {
  const [failedIndex,setFailedIndex]=useState(0);
@@ -70,14 +60,13 @@ export default function HistoryAtlas(){
  const [quiz,setQuiz]=useState(false);
  const [revealed,setRevealed]=useState<string[]>([]);
  const [opened,setOpened]=useState<OpenVisual|null>(null);
- const [zoom,setZoom]=useState(1);
  const q=query.toLocaleLowerCase("uk").trim();
  const photoItems=useMemo(()=>[
    ...(tab==="art"?HISTORY_ARCHITECTURE:[]),
    ...HISTORY_PHOTOS.filter(item=>tab==="figures"?item.category==="figures":tab==="art"?item.category==="art":item.category==="cinema"),
  ].filter(item=>(tab!=="art"||artGroup==="all"||(artGroup==="art"?item.category==="art":item.group===artGroup))&&(`${item.title} ${item.group} ${item.description} ${item.recognition||""}`).toLocaleLowerCase("uk").includes(q)),[tab,q,artGroup]);
  const currentCount=tab==="maps"?VERIFIED_EXAM_MAPS.filter(item=>(item.title+" "+item.period+" "+item.explanation).toLocaleLowerCase("uk").includes(q)).length:photoItems.length+(tab==="cinema"?NMT_CULTURE_WORKS.filter(item=>(item.title+" "+item.director+" "+item.nmtHint).toLocaleLowerCase("uk").includes(q)).length:0);
- const openPhoto=(item:HistoryPhoto)=>{setZoom(1);setOpened({src:item.src,title:item.title,description:item.description,photo:true,source:item.source,category:item.category,group:item.group,recognition:item.recognition,views:item.views,catalogNumber:item.catalogNumber});};
+ const openPhoto=(item:HistoryPhoto)=>{setOpened({src:item.src,title:item.title,description:item.description,photo:true,source:item.source,category:item.category,group:item.group,recognition:item.recognition,views:item.views,catalogNumber:item.catalogNumber});};
  const countFor=(key:Tab)=>key==="maps"?VERIFIED_EXAM_MAPS.length:
    key==="art"?HISTORY_PHOTOS.filter(item=>item.category==="art").length+HISTORY_ARCHITECTURE.length:HISTORY_PHOTOS.filter(item=>key==="figures"?item.category==="figures":item.category==="cinema").length+(key==="cinema"?NMT_CULTURE_WORKS.length:0);
  return <main className="container mx-auto max-w-6xl px-4 py-6 min-h-screen">
