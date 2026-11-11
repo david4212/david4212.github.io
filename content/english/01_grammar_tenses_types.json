@@ -477,10 +477,10 @@
       }
     },
     {
-      "text": "Fill in the gaps with the correct verb forms. If Nora (1)___ (be) more confident, she would have applied for the position last year. By next spring, she (2)___ (complete) her professional course. She is due (3)___ (meet) a mentor tomorrow, and she hopes she (4)___ (not / make) the same mistake again.",
+      "text": "Fill in the gaps with the correct verb forms. If Nora (1)___ (be) more confident, she would have applied for the position last year. By next spring, she (2)___ (complete) her professional course. She is due (3)___ (meet) a mentor tomorrow, and she promises that she (4)___ (not / make) the same mistake again.",
       "options": [],
       "correctIndex": 0,
-      "explanation": "(1) were — Змішана умовна конструкція: нереальна постійна риса у теперішньому. (2) will have completed — By next spring — завершення до майбутнього терміну. (3) to meet — Be due + to-infinitive позначає заплановану подію. (4) will not make — Hope щодо майбутньої події допускає Future Simple; тут прогноз.",
+      "explanation": "(1) were — Змішана умовна конструкція: нереальна постійна риса у теперішньому. (2) will have completed — By next spring — завершення до майбутнього терміну. (3) to meet — Be due + to-infinitive позначає заплановану подію. (4) will not make — Promise стосується майбутнього: will not make; скорочена форма won't make також правильна.",
       "testLevel": 3,
       "questionType": "fill_blanks",
       "metadata": {
@@ -495,7 +495,10 @@
             "answer": "to meet"
           },
           {
-            "answer": "will not make"
+            "answer": "will not make",
+            "alternatives": [
+              "won't make"
+            ]
           }
         ]
       }
