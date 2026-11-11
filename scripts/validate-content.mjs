@@ -29,17 +29,39 @@ for (const f of files) {
       if (!existsSync(p)) err("немає файлу зображення " + q.image);
     }
     if ([1, 2, 3].includes(q.testLevel)) perTopic.get(tk)[q.testLevel - 1]++;
-    const key = q.text + "\u0001" + [...(q.options || [])].sort().join("|");
+    const qt = q.questionType || "single_choice";
+    const m = q.metadata || {};
+    const key = q.text + "\u0001" + (qt === "single_choice" ? [...(q.options || [])].sort().join("|") : JSON.stringify(m));
     if (seen.has(key)) err("дубль");
     seen.add(key);
-    if (!Array.isArray(q.options) || q.options.length < 2 || q.options.length > 5) err("кількість варіантів");
-    else {
-      if (new Set(q.options).size !== q.options.length) err("однакові варіанти");
-      if (!(q.correctIndex >= 0 && q.correctIndex < q.options.length)) err("correctIndex");
-    }
-    if (!q.explanation || q.explanation.length < 30) err("коротке/відсутнє explanation");
     if (![1, 2, 3].includes(q.testLevel)) err("testLevel");
-    if (!(d.legacy) && (!/💡/.test(q.explanation || "") || !/❌/.test(q.explanation || "") || !/✅/.test(q.explanation || ""))) err("explanation без 💡/❌/✅");
+    if (!q.explanation || q.explanation.length < (qt === "short_answer" ? 10 : 30)) err("коротке/відсутнє explanation");
+    if (qt === "single_choice") {
+      if (!Array.isArray(q.options) || q.options.length < 2 || q.options.length > 5) err("кількість варіантів");
+      else {
+        if (new Set(q.options).size !== q.options.length) err("однакові варіанти");
+        if (!(q.correctIndex >= 0 && q.correctIndex < q.options.length)) err("correctIndex");
+      }
+      if (!(d.legacy) && (!/💡/.test(q.explanation || "") || !/❌/.test(q.explanation || "") || !/✅/.test(q.explanation || ""))) err("explanation без 💡/❌/✅");
+    } else if (qt === "matching") {
+      const p = m.pairs;
+      if (!Array.isArray(p) || p.length < 3 || p.length > 5 || !p.every((x) => Array.isArray(x) && x.length === 2 && x[0] && x[1])) err("matching: pairs");
+      else if (new Set(p.map((x) => x[1])).size !== p.length || new Set(p.map((x) => x[0])).size !== p.length) err("matching: однакові частини");
+    } else if (qt === "sequencing") {
+      const it = m.items, co = m.correctOrder;
+      if (!Array.isArray(it) || it.length < 3 || !Array.isArray(co) || co.length !== it.length || [...co].sort((a, b) => a - b).some((v, k) => v !== k)) err("sequencing: items/correctOrder");
+    } else if (qt === "choose_multi") {
+      const ci = m.correctIndices;
+      if (!Array.isArray(q.options) || q.options.length !== 7 || new Set(q.options).size !== 7) err("choose_multi: потрібно 7 різних варіантів");
+      if (!Array.isArray(ci) || ci.length !== m.requiredCount || new Set(ci).size !== ci.length || ci.some((v) => !(v >= 0 && v < 7))) err("choose_multi: correctIndices");
+    } else if (qt === "fill_blanks") {
+      const b = m.blanks;
+      const gaps = (q.text.match(/\(\d+\)_{2,}/g) || []).length;
+      if (!Array.isArray(b) || !b.length || !b.every((x) => x && typeof x.answer === "string" && x.answer.trim())) err("fill_blanks: blanks");
+      else if (gaps !== b.length) err(`fill_blanks: у тексті ${gaps} пропусків, а blanks ${b.length}`);
+    } else if (qt === "short_answer") {
+      if (!(typeof m.answer === "number" || (typeof m.answer === "string" && m.answer.trim()))) err("short_answer: answer");
+    } else err("невідомий questionType " + qt);
   });
   const lv = [1, 2, 3].map((l) => d.questions.filter((q) => q.testLevel === l).length);
   console.log(`${f.split("/").pop()}: ${d.questions.length} питань (рівні ${lv.join("/")}), карток ${d.cards.length}`);
