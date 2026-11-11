@@ -1,0 +1,504 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Everyday Life, Family & Relationships",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match the headings with the short paragraphs about everyday routines.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A busy start to the day — Абзац описує ранкові справи та поспіх перед виходом. Відповідний фрагмент: Before leaving home, Ella prepares breakfast and checks her timetable. She then cycles to the bus stop to catch the early service. 2) Sharing responsibilities — Розподіл домашніх обов'язків є головною ідеєю. Відповідний фрагмент: Everyone in the flat has a task. One person cooks while the others wash dishes and tidy the common rooms. 3) Finding time to relax — Основна тема — відпочинок після занять. Відповідний фрагмент: After studying, Hugo switches off his phone for an hour. He reads by the window or listens to a podcast. 4) Keeping in touch from a distance — Ідеться про підтримування спілкування попри відстань. Відповідний фрагмент: The cousins live in different cities but call each other every Sunday. They also send photos of important family events.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A busy start to the day",
+            "Before leaving home, Ella prepares breakfast and checks her timetable. She then cycles to the bus stop to catch the early service."
+          ],
+          [
+            "Sharing responsibilities",
+            "Everyone in the flat has a task. One person cooks while the others wash dishes and tidy the common rooms."
+          ],
+          [
+            "Finding time to relax",
+            "After studying, Hugo switches off his phone for an hour. He reads by the window or listens to a podcast."
+          ],
+          [
+            "Keeping in touch from a distance",
+            "The cousins live in different cities but call each other every Sunday. They also send photos of important family events."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / phrase / situation"
+        ],
+        "rightLabels": [
+          "Paragraph / notice / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each situation with the most suitable notice.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) You want a small appliance fixed without replacing it. — Оголошення про волонтерський ремонт побутової техніки. Відповідний фрагмент: REPAIR DESK: Bring broken kettles and toasters on Saturdays. Volunteers will examine them free of charge. 2) You need temporary care for a pet while travelling. — Послуга догляду за домашніми тваринами під час відсутності власника. Відповідний фрагмент: PET SITTING: Home visits available for cats and dogs when owners are away. Book at least two days ahead. 3) You have outgrown several jackets but want to exchange them. — Swap означає обмін одягом без купівлі. Відповідний фрагмент: CLOTHES SWAP: Bring clean garments in good condition and choose items in your size. No money involved. 4) You want to borrow tools for a home project. — Це пункт тимчасової видачі інструментів. Відповідний фрагмент: TOOL LIBRARY: Members can take drills and gardening equipment home for up to three days.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "You want a small appliance fixed without replacing it.",
+            "REPAIR DESK: Bring broken kettles and toasters on Saturdays. Volunteers will examine them free of charge."
+          ],
+          [
+            "You need temporary care for a pet while travelling.",
+            "PET SITTING: Home visits available for cats and dogs when owners are away. Book at least two days ahead."
+          ],
+          [
+            "You have outgrown several jackets but want to exchange them.",
+            "CLOTHES SWAP: Bring clean garments in good condition and choose items in your size. No money involved."
+          ],
+          [
+            "You want to borrow tools for a home project.",
+            "TOOL LIBRARY: Members can take drills and gardening equipment home for up to three days."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / phrase / situation"
+        ],
+        "rightLabels": [
+          "Paragraph / notice / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the relationship adjective with its meaning.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) reliable — Reliable означає надійний, відповідальний за обіцянки. Відповідний фрагмент: Someone who can be trusted to do what they promise. 2) considerate — Considerate — уважний до потреб інших. Відповідний фрагмент: Someone who thinks about other people's feelings and needs. 3) stubborn — Stubborn — впертий і негнучкий. Відповідний фрагмент: Someone who refuses to change their opinion despite good reasons. 4) supportive — Supportive — той, хто підтримує та підбадьорює. Відповідний фрагмент: Someone who offers encouragement during difficult situations.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "reliable",
+            "Someone who can be trusted to do what they promise."
+          ],
+          [
+            "considerate",
+            "Someone who thinks about other people's feelings and needs."
+          ],
+          [
+            "stubborn",
+            "Someone who refuses to change their opinion despite good reasons."
+          ],
+          [
+            "supportive",
+            "Someone who offers encouragement during difficult situations."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / phrase / situation"
+        ],
+        "rightLabels": [
+          "Paragraph / notice / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the beginning of each statement with the ending.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Although my brother and I have different hobbies, — Although вводить протиставлення різних інтересів і дружнього спілкування. Відповідний фрагмент: we still enjoy spending weekends together. 2) Before you borrow someone's belongings, — Правило ввічливості в побуті: спершу запитати дозволу. Відповідний фрагмент: make sure you have their permission. 3) If the neighbours make too much noise, — За першої проблеми рекомендується спокійна розмова. Відповідний фрагмент: try speaking to them politely before complaining. 4) When friends disagree about a plan, — Compromise допомагає врегулювати розбіжність. Відповідний фрагмент: they can look for a compromise that suits everyone.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Although my brother and I have different hobbies,",
+            "we still enjoy spending weekends together."
+          ],
+          [
+            "Before you borrow someone's belongings,",
+            "make sure you have their permission."
+          ],
+          [
+            "If the neighbours make too much noise,",
+            "try speaking to them politely before complaining."
+          ],
+          [
+            "When friends disagree about a plan,",
+            "they can look for a compromise that suits everyone."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / phrase / situation"
+        ],
+        "rightLabels": [
+          "Paragraph / notice / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each phrasal verb with its definition.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) look after — Look after означає доглядати за людиною або твариною. Відповідний фрагмент: Take responsibility for someone's care and well-being. 2) get along with — Get along with означає добре ладнати. Відповідний фрагмент: Have a friendly relationship with another person. 3) make up — Make up у контексті конфлікту — помиритися. Відповідний фрагмент: Become friendly again after an argument. 4) put off — Put off означає перенести на пізніше. Відповідний фрагмент: Delay an activity until a later date.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "look after",
+            "Take responsibility for someone's care and well-being."
+          ],
+          [
+            "get along with",
+            "Have a friendly relationship with another person."
+          ],
+          [
+            "make up",
+            "Become friendly again after an argument."
+          ],
+          [
+            "put off",
+            "Delay an activity until a later date."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / phrase / situation"
+        ],
+        "rightLabels": [
+          "Paragraph / notice / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the paragraphs about changes at home.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A quieter place to study — Наголос на новому робочому місці та зменшенні відволікань. Відповідний фрагмент: Sofia moved her desk into a spare room. With fewer interruptions, she finishes assignments more efficiently. 2) Learning from older relatives — Основна ідея — досвід, що передається між поколіннями. Відповідний фрагмент: Once a week, Max visits his grandfather, who teaches him traditional recipes. Their conversations also help him understand family history. 3) Adapting to a new neighbourhood — Текст про соціальне пристосування після переїзду. Відповідний фрагмент: At first, the family knew nobody on their street. Joining a local club helped them meet people and feel more comfortable. 4) An unexpected change of plans — Замість запланованої події родина знайшла інший варіант. Відповідний фрагмент: The picnic was cancelled when the weather suddenly worsened. Instead, everyone gathered indoors for board games.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A quieter place to study",
+            "Sofia moved her desk into a spare room. With fewer interruptions, she finishes assignments more efficiently."
+          ],
+          [
+            "Learning from older relatives",
+            "Once a week, Max visits his grandfather, who teaches him traditional recipes. Their conversations also help him understand family history."
+          ],
+          [
+            "Adapting to a new neighbourhood",
+            "At first, the family knew nobody on their street. Joining a local club helped them meet people and feel more comfortable."
+          ],
+          [
+            "An unexpected change of plans",
+            "The picnic was cancelled when the weather suddenly worsened. Instead, everyone gathered indoors for board games."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / phrase / situation"
+        ],
+        "rightLabels": [
+          "Paragraph / notice / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each social phrase with the situation in which it is appropriate.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) I appreciate your help, but I can manage from here. — Ввічлива відмова з подякою та без грубості. Відповідний фрагмент: You are politely declining further assistance after receiving support. 2) Would you mind lowering the volume a little? — Would you mind — непряме ввічливе прохання. Відповідний фрагмент: You need to make a respectful request to someone nearby. 3) I'm sorry I overlooked your message. — Apologise за пропущене повідомлення. Відповідний фрагмент: You are acknowledging that you failed to reply earlier. 4) That's a fair point; I hadn't considered it. — Вислів визнає аргумент співрозмовника. Відповідний фрагмент: You recognise the value of an opinion that differs from yours.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "I appreciate your help, but I can manage from here.",
+            "You are politely declining further assistance after receiving support."
+          ],
+          [
+            "Would you mind lowering the volume a little?",
+            "You need to make a respectful request to someone nearby."
+          ],
+          [
+            "I'm sorry I overlooked your message.",
+            "You are acknowledging that you failed to reply earlier."
+          ],
+          [
+            "That's a fair point; I hadn't considered it.",
+            "You recognise the value of an opinion that differs from yours."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / phrase / situation"
+        ],
+        "rightLabels": [
+          "Paragraph / notice / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each heading with the implied message of the paragraph.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Respecting personal boundaries — У тексті про право відмовитися та повагу до особистих меж. Відповідний фрагмент: When her friends suggested another event, Maya explained that she needed an evening alone. They accepted her decision without pressuring her to attend. 2) Managing expectations — Реалістичні очікування й поступові цілі. Відповідний фрагмент: The coach explained that improvement would take several weeks. The team therefore set small weekly goals instead of expecting immediate results. 3) Resolving a misunderstanding — Конфлікт виявився наслідком помилки в комунікації. Відповідний фрагмент: Omar thought his colleague had ignored his request. After a short conversation, he discovered that the email had gone to the wrong address. 4) Valuing different perspectives — Компроміс виник через увагу до різних поглядів. Відповідний фрагмент: The neighbours initially disagreed about how to use the shared garden. Listening to one another led to a plan that included both vegetables and flowers.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Respecting personal boundaries",
+            "When her friends suggested another event, Maya explained that she needed an evening alone. They accepted her decision without pressuring her to attend."
+          ],
+          [
+            "Managing expectations",
+            "The coach explained that improvement would take several weeks. The team therefore set small weekly goals instead of expecting immediate results."
+          ],
+          [
+            "Resolving a misunderstanding",
+            "Omar thought his colleague had ignored his request. After a short conversation, he discovered that the email had gone to the wrong address."
+          ],
+          [
+            "Valuing different perspectives",
+            "The neighbours initially disagreed about how to use the shared garden. Listening to one another led to a plan that included both vegetables and flowers."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / phrase / situation"
+        ],
+        "rightLabels": [
+          "Paragraph / notice / definition"
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: laundry, breakfast, tidy. Every Saturday, Mia prepares (1)___ for her younger brother. Then she helps with the (2)___, putting the clothes into the washing machine. Before lunch, they (3)___ their shared room.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) breakfast — Prepare breakfast — готувати ранкову їжу. (2) laundry — Do/help with the laundry стосується прання. (3) tidy — Tidy a room — прибирати приміщення.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "breakfast"
+          },
+          {
+            "answer": "laundry"
+          },
+          {
+            "answer": "tidy"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: neighbour, entrance, parcel. Our (1)___ knocked on the door this afternoon. A delivery driver had left a (2)___ for us while we were out. We thanked her and carried it inside through the main (3)___.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) neighbour — Людина, що живе поруч, — neighbour. (2) parcel — Посилка від служби доставки — parcel. (3) entrance — Main entrance — головний вхід.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "neighbour"
+          },
+          {
+            "answer": "parcel"
+          },
+          {
+            "answer": "entrance"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: invitation, celebrate, guests. We received an (1)___ to my aunt's birthday party. She is planning to (2)___ at home this year. About twenty (3)___ are expected to arrive on Sunday.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) invitation — Invitation означає запрошення на подію. (2) celebrate — Celebrate — святкувати нагоду. (3) guests — Guests — люди, запрошені на свято.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "invitation"
+          },
+          {
+            "answer": "celebrate"
+          },
+          {
+            "answer": "guests"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: chores, commute, flexible. My father's working hours are (1)___, so he sometimes starts after lunch. His daily (2)___ takes only fifteen minutes by bicycle. In the evening, everyone shares the household (3)___ to save time.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) flexible — Flexible hours — гнучкий графік. (2) commute — Commute — регулярна дорога між домом і роботою. (3) chores — Household chores — домашні обов'язки.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "flexible"
+          },
+          {
+            "answer": "commute"
+          },
+          {
+            "answer": "chores"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: considerate, conflict, compromise. Two flatmates had a (1)___ about late-night music. Rather than blaming each other, they agreed on a (2)___ about quiet hours. Both tried to be more (3)___ of the other's need for sleep.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) conflict — Conflict — зіткнення інтересів або суперечка. (2) compromise — Compromise — взаємна поступка для розв'язання проблеми. (3) considerate — Considerate of — уважний до потреб іншої людини.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "conflict"
+          },
+          {
+            "answer": "compromise"
+          },
+          {
+            "answer": "considerate"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: confidential, reassurance, trustworthy, boundaries. The youth adviser explained that personal information would remain (1)___. That promise gave the students (2)___ before the meeting began. They regarded the adviser as (3)___ because she never broke their confidence. The group also agreed to respect everyone's (4)___ during discussions.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) confidential — Confidential означає таку інформацію, яку не розголошують. (2) reassurance — Reassurance — слова або дії, що заспокоюють і додають упевненості. (3) trustworthy — Trustworthy означає надійну особу, якій можна довіряти. (4) boundaries — Personal boundaries — особисті межі людини.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "confidential"
+          },
+          {
+            "answer": "reassurance"
+          },
+          {
+            "answer": "trustworthy"
+          },
+          {
+            "answer": "boundaries"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: overlooked, misunderstanding, clarify, apologised. I had (1)___ an important detail in my friend's message. This led to a (2)___ about the meeting time. I called to (3)___ what had happened. Afterwards, I (4)___ for the confusion.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) overlooked — Overlook означає ненавмисно не помітити деталь. (2) misunderstanding — Misunderstanding — непорозуміння через неправильне тлумачення. (3) clarify — Clarify означає зробити інформацію зрозумілою. (4) apologised — Apologised — вибачився за спричинену плутанину.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "overlooked"
+          },
+          {
+            "answer": "misunderstanding"
+          },
+          {
+            "answer": "clarify"
+          },
+          {
+            "answer": "apologised"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: reluctant, initiative, overwhelmed, delegate. Our class captain felt (1)___ by the number of tasks before the charity fair. At first, she was (2)___ to ask for help, believing she should manage alone. Her teacher encouraged her to (3)___ some responsibilities. Other students then took the (4)___ and organised the stalls.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) overwhelmed — Overwhelmed — перевантажений великою кількістю справ. (2) reluctant — Reluctant to — неохочий, який вагається щось робити. (3) delegate — Delegate responsibilities означає передавати завдання іншим. (4) initiative — Take the initiative — проявити ініціативу.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "overwhelmed"
+          },
+          {
+            "answer": "reluctant"
+          },
+          {
+            "answer": "delegate"
+          },
+          {
+            "answer": "initiative"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: mutual, resentment, acknowledge, reconcile. After months of disagreement, the cousins wanted to (1)___. First, each agreed to (2)___ their own mistakes. This helped reduce the (3)___ that had built up over time. They decided that future decisions should be based on (4)___ respect.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) reconcile — Reconcile — відновити добрі взаємини після конфлікту. (2) acknowledge — Acknowledge mistakes — визнавати власні помилки. (3) resentment — Resentment — прихована образа чи накопичене обурення. (4) mutual — Mutual respect — взаємна повага.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "reconcile"
+          },
+          {
+            "answer": "acknowledge"
+          },
+          {
+            "answer": "resentment"
+          },
+          {
+            "answer": "mutual"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: tactful, intrusive, rapport, disclose. The interviewer avoided (1)___ questions about the candidate's private life. Instead, she made a (2)___ comment to put the visitor at ease. This helped establish (3)___ between them. As a result, the candidate felt comfortable enough to (4)___ relevant information about previous work.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) intrusive — Intrusive questions — надмірно особисті, нав'язливі питання. (2) tactful — Tactful — делікатний, тактовний. (3) rapport — Rapport означає взаєморозуміння та контакт між людьми. (4) disclose — Disclose — відкрито повідомити раніше неозвучені відомості.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "intrusive"
+          },
+          {
+            "answer": "tactful"
+          },
+          {
+            "answer": "rapport"
+          },
+          {
+            "answer": "disclose"
+          }
+        ]
+      }
+    }
+  ]
+}

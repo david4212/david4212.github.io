@@ -1,0 +1,504 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Environment, Nature & Travel",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match each traveller with a suitable notice.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A passenger wants to check in before an early international flight. — Завчасна онлайн-реєстрація перед авіарейсом. Фрагмент: AIRPORT: Online check-in opens 24 hours before departure; please keep travel documents ready. 2) A visitor needs step-free access to a museum. — Оголошення описує безбар'єрний вхід і ліфт. Фрагмент: MUSEUM ACCESS: A lift is available beside the main entrance; ask staff for assistance if required. 3) A hiker wants to avoid a closed mountain path. — Попередження повідомляє про закритий маршрут і обхід. Фрагмент: TRAIL ALERT: The northern route is temporarily shut due to fallen trees. Use the marked southern trail. 4) A tourist wishes to travel between towns without a car. — Залізниця дає міжміське сполучення без автомобіля. Фрагмент: REGIONAL RAIL: Trains leave every two hours and tickets can be purchased through the mobile application.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A passenger wants to check in before an early international flight.",
+            "AIRPORT: Online check-in opens 24 hours before departure; please keep travel documents ready."
+          ],
+          [
+            "A visitor needs step-free access to a museum.",
+            "MUSEUM ACCESS: A lift is available beside the main entrance; ask staff for assistance if required."
+          ],
+          [
+            "A hiker wants to avoid a closed mountain path.",
+            "TRAIL ALERT: The northern route is temporarily shut due to fallen trees. Use the marked southern trail."
+          ],
+          [
+            "A tourist wishes to travel between towns without a car.",
+            "REGIONAL RAIL: Trains leave every two hours and tickets can be purchased through the mobile application."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / situation / term"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the environmental paragraphs.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Protecting a local river — Очищення берегів та запобігання потраплянню пластику. Фрагмент: Volunteers collected plastic waste along the banks. They also asked nearby shops to reduce unnecessary packaging. 2) Using less energy at home — Домашня економія енергії. Фрагмент: The family replaced old bulbs with efficient lighting. They also switched off electrical appliances when not needed. 3) Rebuilding natural habitats — Відновлення місць існування диких тварин. Фрагмент: A damaged wetland was restored with native plants. Birds began nesting there again after several seasons. 4) Travelling with a smaller footprint — Відповідальні туристичні рішення з меншим впливом. Фрагмент: During their holiday, the students used buses and stayed in locally owned guesthouses. They avoided unnecessary flights.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Protecting a local river",
+            "Volunteers collected plastic waste along the banks. They also asked nearby shops to reduce unnecessary packaging."
+          ],
+          [
+            "Using less energy at home",
+            "The family replaced old bulbs with efficient lighting. They also switched off electrical appliances when not needed."
+          ],
+          [
+            "Rebuilding natural habitats",
+            "A damaged wetland was restored with native plants. Birds began nesting there again after several seasons."
+          ],
+          [
+            "Travelling with a smaller footprint",
+            "During their holiday, the students used buses and stayed in locally owned guesthouses. They avoided unnecessary flights."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / situation / term"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each environmental word with its definition.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) habitat — Habitat — природне середовище існування виду. Фрагмент: The natural surroundings in which a plant or animal lives. 2) biodiversity — Biodiversity — різноманіття живих організмів. Фрагмент: The variety of living organisms within an area or ecosystem. 3) erosion — Erosion — руйнування або змивання ґрунту й порід. Фрагмент: The gradual wearing away of soil or rock by water, wind or other processes. 4) conservation — Conservation — охорона та ощадне використання природи. Фрагмент: The protection and careful management of natural resources.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "habitat",
+            "The natural surroundings in which a plant or animal lives."
+          ],
+          [
+            "biodiversity",
+            "The variety of living organisms within an area or ecosystem."
+          ],
+          [
+            "erosion",
+            "The gradual wearing away of soil or rock by water, wind or other processes."
+          ],
+          [
+            "conservation",
+            "The protection and careful management of natural resources."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / situation / term"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each transport term to its meaning.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) connection — Connection — пересадка або стикування рейсів. Фрагмент: A second service you need to catch to continue a journey. 2) delay — Delay — запізнення транспорту. Фрагмент: A period by which a service departs or arrives later than planned. 3) itinerary — Itinerary — детальний маршрут подорожі. Фрагмент: A planned sequence of destinations and activities during a trip. 4) fare — Fare — вартість проїзду. Фрагмент: The amount paid for a journey on public transport.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "connection",
+            "A second service you need to catch to continue a journey."
+          ],
+          [
+            "delay",
+            "A period by which a service departs or arrives later than planned."
+          ],
+          [
+            "itinerary",
+            "A planned sequence of destinations and activities during a trip."
+          ],
+          [
+            "fare",
+            "The amount paid for a journey on public transport."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / situation / term"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the start of each travel advice sentence with the ending.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) If you are travelling during the busy season, — Популярний сезон потребує раннього бронювання. Фрагмент: book accommodation well in advance. 2) Before you enter a protected nature reserve, — Заповідні території мають правила відвідування. Фрагмент: read the local rules and stay on marked paths. 3) When public transport is disrupted, — У разі збою руху варто перевірити офіційні повідомлення. Фрагмент: check the operator's updates for alternative routes. 4) To reduce unnecessary waste while sightseeing, — Багаторазова пляшка зменшує використання одноразової тари. Фрагмент: carry a refillable bottle instead of buying disposable ones.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "If you are travelling during the busy season,",
+            "book accommodation well in advance."
+          ],
+          [
+            "Before you enter a protected nature reserve,",
+            "read the local rules and stay on marked paths."
+          ],
+          [
+            "When public transport is disrupted,",
+            "check the operator's updates for alternative routes."
+          ],
+          [
+            "To reduce unnecessary waste while sightseeing,",
+            "carry a refillable bottle instead of buying disposable ones."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / situation / term"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match each climate-related term with a practical example.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) adaptation — Adaptation — пристосування до наслідків змін клімату. Фрагмент: A coastal town raises flood barriers to cope with higher sea levels. 2) mitigation — Mitigation — скорочення причин змін клімату. Фрагмент: A city replaces diesel buses with electric vehicles to lower emissions. 3) resilience — Resilience — здатність відновитися після порушень. Фрагмент: A community restores essential services quickly after severe weather. 4) carbon footprint — Carbon footprint — сукупні викиди, пов'язані з діяльністю. Фрагмент: A company calculates greenhouse gases linked to its activities.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "adaptation",
+            "A coastal town raises flood barriers to cope with higher sea levels."
+          ],
+          [
+            "mitigation",
+            "A city replaces diesel buses with electric vehicles to lower emissions."
+          ],
+          [
+            "resilience",
+            "A community restores essential services quickly after severe weather."
+          ],
+          [
+            "carbon footprint",
+            "A company calculates greenhouse gases linked to its activities."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / situation / term"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the headings with the paragraphs about responsible tourism.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Pressure on local services — Текст описує перевантаження інфраструктури туристами. Фрагмент: A small coastal town receives far more visitors than its public transport can handle in summer. Residents struggle to reach work during peak hours. 2) Benefits for small businesses — Гроші туристів підтримують місцеву економіку. Фрагмент: Visitors choose family-run cafés and buy products from local craftspeople. More of their spending stays within the community. 3) Limiting harm to wildlife — Йдеться про захист поведінки тварин під час екскурсій. Фрагмент: A nature guide asks guests to observe animals from a distance. Feeding them is not allowed because it changes their behaviour. 4) Learning from local people — Культурний обмін через участь у заняттях. Фрагмент: Travellers join workshops run by residents rather than taking photographs from outside. They gain a deeper understanding of regional traditions.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Pressure on local services",
+            "A small coastal town receives far more visitors than its public transport can handle in summer. Residents struggle to reach work during peak hours."
+          ],
+          [
+            "Benefits for small businesses",
+            "Visitors choose family-run cafés and buy products from local craftspeople. More of their spending stays within the community."
+          ],
+          [
+            "Limiting harm to wildlife",
+            "A nature guide asks guests to observe animals from a distance. Feeding them is not allowed because it changes their behaviour."
+          ],
+          [
+            "Learning from local people",
+            "Travellers join workshops run by residents rather than taking photographs from outside. They gain a deeper understanding of regional traditions."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / situation / term"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Match the cause with the most plausible environmental consequence.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Large areas of forest are removed from steep hillsides. — Вирубування лісів підсилює ерозію ґрунтів. Фрагмент: Heavy rain washes exposed soil into nearby rivers. 2) Fertilisers enter a lake in unusually high quantities. — Надлишок поживних речовин спричиняє евтрофікацію. Фрагмент: Rapid algal growth reduces oxygen available to aquatic life. 3) A long period passes with very little rainfall. — Тривала посуха погіршує доступність води та врожаї. Фрагмент: Farmers face water shortages and declining crop yields. 4) An invasive species spreads without natural predators. — Інвазійний вид витісняє місцеві популяції. Фрагмент: Native populations decline as competition for resources increases.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Large areas of forest are removed from steep hillsides.",
+            "Heavy rain washes exposed soil into nearby rivers."
+          ],
+          [
+            "Fertilisers enter a lake in unusually high quantities.",
+            "Rapid algal growth reduces oxygen available to aquatic life."
+          ],
+          [
+            "A long period passes with very little rainfall.",
+            "Farmers face water shortages and declining crop yields."
+          ],
+          [
+            "An invasive species spreads without natural predators.",
+            "Native populations decline as competition for resources increases."
+          ]
+        ],
+        "leftLabels": [
+          "Heading / situation / term"
+        ],
+        "rightLabels": [
+          "Notice / paragraph / definition"
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: platform, suitcase, departure. Emma packed her (1)___ the night before her trip. She checked the train's (2)___ time online. At the station, she waited on (3)___ four.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) suitcase — Suitcase — валіза для особистих речей. (2) departure — Departure time — час відправлення. (3) platform — Platform — залізнична платформа.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "suitcase"
+          },
+          {
+            "answer": "departure"
+          },
+          {
+            "answer": "platform"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: forecast, raincoat, shelter. The weather (1)___ warned of heavy rain in the afternoon. Liam packed a (2)___ before leaving home. When the storm arrived, the hikers found (3)___ in a small visitor centre.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) forecast — Weather forecast — прогноз погоди. (2) raincoat — Raincoat — верхній одяг для захисту від дощу. (3) shelter — Find shelter — знайти прихисток від негоди.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "forecast"
+          },
+          {
+            "answer": "raincoat"
+          },
+          {
+            "answer": "shelter"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: wildlife, habitat, reserve. Our class visited a protected nature (1)___ last weekend. The guide explained how plastic waste can damage the natural (2)___ of animals. We also learned why observing (3)___ from a distance is important.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) reserve — Nature reserve — природоохоронна територія. (2) habitat — Natural habitat — природне місце існування. (3) wildlife — Wildlife позначає диких тварин і природу загалом.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "reserve"
+          },
+          {
+            "answer": "habitat"
+          },
+          {
+            "answer": "wildlife"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: renewable, conserve, emissions. The town is investing in (1)___ energy from wind and solar panels. Residents are encouraged to (2)___ electricity at home. The local council hopes these changes will reduce carbon (3)___ over time.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) renewable — Renewable energy — енергія з відновлюваних джерел. (2) conserve — Conserve electricity — ощадно використовувати електроенергію. (3) emissions — Carbon emissions — викиди парникових газів.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "renewable"
+          },
+          {
+            "answer": "conserve"
+          },
+          {
+            "answer": "emissions"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: route, delay, connection. Our first train arrived late because of a signalling problem. The unexpected (1)___ meant we missed our (2)___ to the next city. A staff member suggested a different (3)___, which took only twenty minutes longer.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) delay — Delay означає затримку рейсу. (2) connection — Miss a connection — не встигнути на пересадку. (3) route — Alternative route — інший маршрут.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "delay"
+          },
+          {
+            "answer": "connection"
+          },
+          {
+            "answer": "route"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: species, biodiversity, erosion, deforestation. Scientists are studying the decline in local (1)___ caused by changes to the landscape. Widespread (2)___ has removed many trees from steep slopes. Without roots holding the soil together, (3)___ has become more severe. Some rare (4)___ may disappear from the area if conditions do not improve.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) biodiversity — Biodiversity — різноманітність живих організмів. (2) deforestation — Deforestation — знищення лісового покриву. (3) erosion — Erosion — руйнування ґрунту водою або вітром. (4) species — Species — види живих організмів.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "biodiversity"
+          },
+          {
+            "answer": "deforestation"
+          },
+          {
+            "answer": "erosion"
+          },
+          {
+            "answer": "species"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: adaptation, mitigation, resilience, drought. The region experienced a severe (1)___ after months of unusually low rainfall. Engineers discussed (2)___ measures such as improved water storage to cope with future shortages. They also recommended climate (3)___ through reducing greenhouse-gas emissions. The goal was to strengthen the community's (4)___ to extreme weather.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) drought — Drought — тривала посуха. (2) adaptation — Adaptation — пристосування до наслідків кліматичних змін. (3) mitigation — Mitigation — скорочення причин, зокрема викидів. (4) resilience — Resilience — здатність витримувати та долати потрясіння.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "drought"
+          },
+          {
+            "answer": "adaptation"
+          },
+          {
+            "answer": "mitigation"
+          },
+          {
+            "answer": "resilience"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: conservation, infrastructure, overcrowding, sustainable. A popular national park began to suffer from (1)___ during the summer months. The authorities improved visitor (2)___, including paths and waste collection points. They introduced (3)___ rules to protect sensitive habitats. The park now promotes more (4)___ tourism throughout the year.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) overcrowding — Overcrowding — надмірне скупчення відвідувачів. (2) infrastructure — Infrastructure — системи та споруди для обслуговування відвідувачів. (3) conservation — Conservation rules — природоохоронні правила. (4) sustainable — Sustainable tourism — відповідальний туризм з меншим впливом на довкілля.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "overcrowding"
+          },
+          {
+            "answer": "infrastructure"
+          },
+          {
+            "answer": "conservation"
+          },
+          {
+            "answer": "sustainable"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: biodegradable, contamination, landfill, recycling. The school replaced plastic cups with (1)___ alternatives that break down naturally. It introduced separate containers to encourage (2)___. Teachers explained that careless waste disposal can cause soil (3)___. They also discussed ways to reduce the amount of rubbish sent to a (4)___.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) biodegradable — Biodegradable — матеріал, здатний біологічно розкладатися. (2) recycling — Recycling — повторне перероблення матеріалів. (3) contamination — Soil contamination — забруднення ґрунту. (4) landfill — Landfill — місце захоронення відходів.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "biodegradable"
+          },
+          {
+            "answer": "recycling"
+          },
+          {
+            "answer": "contamination"
+          },
+          {
+            "answer": "landfill"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Complete the passage using each word from the box once: runoff, watershed, flooding, vegetation. After the storm, heavy (1)___ carried mud from the fields into the river. The scientists examined the whole (2)___ rather than only one stream. They discovered that removing natural (3)___ had increased the risk of (4)___ in nearby villages.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) runoff — Runoff — поверхневий стік води після опадів. (2) watershed — Watershed — водозбірний басейн річки. (3) vegetation — Vegetation — рослинний покрив території. (4) flooding — Flooding — затоплення територій водою.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "runoff"
+          },
+          {
+            "answer": "watershed"
+          },
+          {
+            "answer": "vegetation"
+          },
+          {
+            "answer": "flooding"
+          }
+        ]
+      }
+    }
+  ]
+}

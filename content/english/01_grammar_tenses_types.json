@@ -1,0 +1,507 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Grammar: Tenses & Verb Forms",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match each everyday situation to its appropriate tense.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A regular timetable — The last bus leaves the station at 10:15 every evening.. Розклад передається Present Simple незалежно від майбутнього значення. 2) An action happening at the moment — Please be quiet: the baby is sleeping upstairs.. Подія відбувається зараз, отже використано Present Continuous. 3) A finished action at a stated past time — We visited the exhibition last Saturday.. Визначений час у минулому потребує Past Simple. 4) Experience without a specified date — Nina has never travelled outside Europe.. Досвід без конкретної дати виражено Present Perfect.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A regular timetable",
+            "The last bus leaves the station at 10:15 every evening."
+          ],
+          [
+            "An action happening at the moment",
+            "Please be quiet: the baby is sleeping upstairs."
+          ],
+          [
+            "A finished action at a stated past time",
+            "We visited the exhibition last Saturday."
+          ],
+          [
+            "Experience without a specified date",
+            "Nina has never travelled outside Europe."
+          ]
+        ],
+        "leftLabels": [
+          "Meaning / situation"
+        ],
+        "rightLabels": [
+          "Sentence / example"
+        ]
+      }
+    },
+    {
+      "text": "Match each time expression to a natural sentence.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) For the past three years — She has worked at this library since 2023.. Тривалість до теперішнього моменту: Present Perfect. 2) At seven yesterday evening — We were preparing dinner when the lights went out.. Процес у конкретний момент минулого: Past Continuous. 3) By the end of next month — The team will have completed the new website.. Future Perfect позначає завершення до майбутньої межі. 4) When I was a child — I used to spend summers at my grandparents' farm.. Used to вказує на колишню звичку.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "For the past three years",
+            "She has worked at this library since 2023."
+          ],
+          [
+            "At seven yesterday evening",
+            "We were preparing dinner when the lights went out."
+          ],
+          [
+            "By the end of next month",
+            "The team will have completed the new website."
+          ],
+          [
+            "When I was a child",
+            "I used to spend summers at my grandparents' farm."
+          ]
+        ],
+        "leftLabels": [
+          "Meaning / situation"
+        ],
+        "rightLabels": [
+          "Sentence / example"
+        ]
+      }
+    },
+    {
+      "text": "Match the start of each sentence with its grammatically correct ending.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) While the teacher was explaining the task, — several students were taking notes in their notebooks.. While вводить одночасну тривалу минулу дію. 2) By the time we got to the platform, — the train had already departed.. Попередня завершена дія перед іншою минулою: Past Perfect. 3) If you need help with the report, — I will be available after lunch.. Реальна умова Present Simple поєднується з will. 4) I have not spoken to Daniel — since he moved to another city two years ago.. Since задає початковий момент періоду Present Perfect.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "While the teacher was explaining the task,",
+            "several students were taking notes in their notebooks."
+          ],
+          [
+            "By the time we got to the platform,",
+            "the train had already departed."
+          ],
+          [
+            "If you need help with the report,",
+            "I will be available after lunch."
+          ],
+          [
+            "I have not spoken to Daniel",
+            "since he moved to another city two years ago."
+          ]
+        ],
+        "leftLabels": [
+          "Meaning / situation"
+        ],
+        "rightLabels": [
+          "Sentence / example"
+        ]
+      }
+    },
+    {
+      "text": "Match each speaker's intention with the sentence.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A spontaneous decision — The phone is ringing; I'll answer it.. Will передає рішення, ухвалене в момент мовлення. 2) A plan decided before speaking — We're going to repaint the kitchen this weekend.. Be going to позначає попередньо заплановану дію. 3) An arranged meeting — I'm seeing the dentist at half past nine tomorrow.. Present Continuous уживається для погодженої домовленості. 4) A future event in a published programme — The film starts at six according to the cinema website.. Present Simple виражає подію за розкладом.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A spontaneous decision",
+            "The phone is ringing; I'll answer it."
+          ],
+          [
+            "A plan decided before speaking",
+            "We're going to repaint the kitchen this weekend."
+          ],
+          [
+            "An arranged meeting",
+            "I'm seeing the dentist at half past nine tomorrow."
+          ],
+          [
+            "A future event in a published programme",
+            "The film starts at six according to the cinema website."
+          ]
+        ],
+        "leftLabels": [
+          "Meaning / situation"
+        ],
+        "rightLabels": [
+          "Sentence / example"
+        ]
+      }
+    },
+    {
+      "text": "Match the meaning with the sentence that expresses it.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) An action lasting until a past event — They had been travelling for six hours before the coach broke down.. Past Perfect Continuous підкреслює тривалість перед минулою подією. 2) A recent event with a present result — I have just cleaned the windows, so they are spotless.. Present Perfect із just показує результат тепер. 3) A repeated irritation — My brother is always borrowing my headphones without asking.. Always із Continuous підкреслює роздратування від повторення. 4) An activity in progress at a future time — This time tomorrow, we'll be flying across the Atlantic.. Future Continuous указує на процес у майбутній момент.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "An action lasting until a past event",
+            "They had been travelling for six hours before the coach broke down."
+          ],
+          [
+            "A recent event with a present result",
+            "I have just cleaned the windows, so they are spotless."
+          ],
+          [
+            "A repeated irritation",
+            "My brother is always borrowing my headphones without asking."
+          ],
+          [
+            "An activity in progress at a future time",
+            "This time tomorrow, we'll be flying across the Atlantic."
+          ]
+        ],
+        "leftLabels": [
+          "Meaning / situation"
+        ],
+        "rightLabels": [
+          "Sentence / example"
+        ]
+      }
+    },
+    {
+      "text": "Match each subtle contrast to the example.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) A completed achievement within an unfinished period — She has written three essays this week, and it is only Wednesday.. Present Perfect показує результат протягом ще незавершеного тижня. 2) An ongoing activity with a visible consequence — Your hands are covered in paint; you've been decorating the hall.. Perfect Continuous пояснює теперішні сліди тривалої роботи. 3) An earlier event already completed before a deadline — The guests had left by the time the storm began.. Past Perfect розміщує подію перед іншою минулою. 4) A temporary behaviour different from someone's usual character — Leo is being unusually quiet today.. Be being описує тимчасову поведінку, не сталу рису.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "A completed achievement within an unfinished period",
+            "She has written three essays this week, and it is only Wednesday."
+          ],
+          [
+            "An ongoing activity with a visible consequence",
+            "Your hands are covered in paint; you've been decorating the hall."
+          ],
+          [
+            "An earlier event already completed before a deadline",
+            "The guests had left by the time the storm began."
+          ],
+          [
+            "A temporary behaviour different from someone's usual character",
+            "Leo is being unusually quiet today."
+          ]
+        ],
+        "leftLabels": [
+          "Meaning / situation"
+        ],
+        "rightLabels": [
+          "Sentence / example"
+        ]
+      }
+    },
+    {
+      "text": "Match the advanced grammatical pattern to the sentence.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) Future viewed from a point in the past — She said she was going to apply for the scholarship.. Was going to переносить майбутній намір у минулий план. 2) An unreal present with a past consequence — If he were more organised, he would not have missed the deadline.. Змішана умова: нереальна теперішня риса вплинула на минуле. 3) An expectation continuing up to a future date — By June, they will have been renovating the house for a year.. Future Perfect Continuous підкреслює тривалість до майбутньої дати. 4) A past habit without implying it happens now — My grandmother would tell us stories every winter evening.. Would + інфінітив може позначати повторювані дії в минулому.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Future viewed from a point in the past",
+            "She said she was going to apply for the scholarship."
+          ],
+          [
+            "An unreal present with a past consequence",
+            "If he were more organised, he would not have missed the deadline."
+          ],
+          [
+            "An expectation continuing up to a future date",
+            "By June, they will have been renovating the house for a year."
+          ],
+          [
+            "A past habit without implying it happens now",
+            "My grandmother would tell us stories every winter evening."
+          ]
+        ],
+        "leftLabels": [
+          "Meaning / situation"
+        ],
+        "rightLabels": [
+          "Sentence / example"
+        ]
+      }
+    },
+    {
+      "text": "Match the grammatical problem to the corrected sentence.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "1) An incorrect stative verb in a continuous form — I understand what you mean now.. Understand переважно є дієсловом стану, тому Simple. 2) Wrong tense after a future time conjunction — We'll leave as soon as the rain stops.. Після as soon as про майбутнє вживається Present Simple. 3) Confusion between been and gone — Maya has gone to the bank, so she isn't at home.. Has gone означає, що особа ще не повернулася. 4) A double past marking after an auxiliary — They didn't know the answer.. Після did not уживається початкова форма дієслова.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "An incorrect stative verb in a continuous form",
+            "I understand what you mean now."
+          ],
+          [
+            "Wrong tense after a future time conjunction",
+            "We'll leave as soon as the rain stops."
+          ],
+          [
+            "Confusion between been and gone",
+            "Maya has gone to the bank, so she isn't at home."
+          ],
+          [
+            "A double past marking after an auxiliary",
+            "They didn't know the answer."
+          ]
+        ],
+        "leftLabels": [
+          "Meaning / situation"
+        ],
+        "rightLabels": [
+          "Sentence / example"
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. Every weekday, Ben (1)___ (take) the 7:30 bus to school. His sister usually (2)___ (walk) because she lives nearby. They both (3)___ (enjoy) their morning routine.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) takes — Підмет Ben — третя особа однини в Present Simple. (2) walks — Usually вказує на звичку; she потребує -s. (3) enjoy — They — множина, тому початкова форма в Present Simple.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "takes"
+          },
+          {
+            "answer": "walks"
+          },
+          {
+            "answer": "enjoy"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. Listen! Someone (1)___ (play) the piano next door. My parents (2)___ (watch) a documentary in the living room right now. I (3)___ (write) an email, so I cannot join them yet.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) is playing — Listen сигналізує дію зараз; someone = is + V-ing. (2) are watching — Right now і множина parents потребують are + V-ing. (3) am writing — I у Present Continuous вимагає am + V-ing.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "is playing"
+          },
+          {
+            "answer": "are watching"
+          },
+          {
+            "answer": "am writing"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. Yesterday, our class (1)___ (visit) a science museum. We (2)___ (see) an exhibition about space travel. Afterwards, the guide (3)___ (give) us a short quiz.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) visited — Yesterday визначає Past Simple; visit — правильне дієслово. (2) saw — See має неправильну минулу форму saw. (3) gave — Give у Past Simple має форму gave.",
+      "testLevel": 1,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "visited"
+          },
+          {
+            "answer": "saw"
+          },
+          {
+            "answer": "gave"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. At nine last night, I (1)___ (revise) for a test. My brother (2)___ (cook) dinner when the doorbell rang. By the time our guests arrived, he (3)___ (finish) everything.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) was revising — At nine last night позначає процес у минулому. (2) was cooking — When увів коротку подію, яка перервала процес. (3) had finished — By the time показує завершення перед іншою минулою подією.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "was revising"
+          },
+          {
+            "answer": "was cooking"
+          },
+          {
+            "answer": "had finished"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. I (1)___ (know) Mia since primary school. She (2)___ (move) to Bristol in 2022, but we still keep in touch. We (3)___ (exchange) messages every weekend since then.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) have known — Since primary school задає тривалість стану до тепер. (2) moved — In 2022 — конкретний завершений час, Past Simple. (3) have exchanged — Since then пов'язує регулярну дію в минулому з теперішнім.",
+      "testLevel": 2,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "have known"
+          },
+          {
+            "answer": "moved"
+          },
+          {
+            "answer": "have exchanged"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. By the time the interview began, I (1)___ (wait) for nearly an hour. I was nervous because I (2)___ (never / attend) such an interview before. However, when the manager smiled, I suddenly (3)___ (feel) much calmer. Later I realised that my preparation (4)___ (pay) off.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) had been waiting — For nearly an hour до минулої події потребує Past Perfect Continuous. (2) had never attended — Before і минулий орієнтир: Past Perfect заперечного досвіду. (3) felt — Реакція в послідовності подій передається Past Simple. (4) had paid — Підготовка принесла результат до пізнішого усвідомлення.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "had been waiting"
+          },
+          {
+            "answer": "had never attended"
+          },
+          {
+            "answer": "felt"
+          },
+          {
+            "answer": "had paid"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. The engineers (1)___ (test) the new system for six months by the end of December next year. At this time tomorrow, the director (2)___ (present) their results abroad. Once the report (3)___ (arrive), the team will update the website. The project (4)___ (already / attract) several sponsors this month.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) will have been testing — Тривалість до конкретної майбутньої межі: Future Perfect Continuous. (2) will be presenting — This time tomorrow вказує на майбутній процес. (3) arrives — Після once про майбутнє використовується Present Simple. (4) has already attracted — This month ще триває, а результат уже є; Present Perfect.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "will have been testing"
+          },
+          {
+            "answer": "will be presenting"
+          },
+          {
+            "answer": "arrives"
+          },
+          {
+            "answer": "has already attracted"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. I wish I (1)___ (listen) to the instructions yesterday. If I had paid attention, I (2)___ (avoid) the mistake. Now the instructor expects me (3)___ (rewrite) the whole report. I would rather (4)___ (correct) only the final paragraph, but that isn't possible.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) had listened — Wish щодо жалю про минуле потребує Past Perfect. (2) would have avoided — Нереальна минула умова: would have + V3. (3) to rewrite — Expect + object + to-infinitive. (4) correct — Would rather + bare infinitive без to.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "had listened"
+          },
+          {
+            "answer": "would have avoided"
+          },
+          {
+            "answer": "to rewrite"
+          },
+          {
+            "answer": "correct"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. Rarely (1)___ (I / see) such an impressive performance before last night. No sooner (2)___ (the lights / go) out than the audience fell silent. It was the first time my cousin (3)___ (attend) a live opera. She (4)___ (talk) about it ever since.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) had I seen — Rarely на початку речення викликає інверсію Past Perfect, бо before last night. (2) had the lights gone — No sooner + Past Perfect з інверсією, далі than + Past Simple. (3) had attended — It was the first time + Past Perfect щодо минулого досвіду. (4) has been talking — Ever since до тепер вказує на тривалий повторюваний процес.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "had I seen"
+          },
+          {
+            "answer": "had the lights gone"
+          },
+          {
+            "answer": "had attended"
+          },
+          {
+            "answer": "has been talking"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fill in the gaps with the correct verb forms. If Nora (1)___ (be) more confident, she would have applied for the position last year. By next spring, she (2)___ (complete) her professional course. She is due (3)___ (meet) a mentor tomorrow, and she promises that she (4)___ (not / make) the same mistake again.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "(1) were — Змішана умовна конструкція: нереальна постійна риса у теперішньому. (2) will have completed — By next spring — завершення до майбутнього терміну. (3) to meet — Be due + to-infinitive позначає заплановану подію. (4) will not make — Promise стосується майбутнього: will not make; скорочена форма won't make також правильна.",
+      "testLevel": 3,
+      "questionType": "fill_blanks",
+      "metadata": {
+        "blanks": [
+          {
+            "answer": "were"
+          },
+          {
+            "answer": "will have completed"
+          },
+          {
+            "answer": "to meet"
+          },
+          {
+            "answer": "will not make",
+            "alternatives": [
+              "won't make"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
