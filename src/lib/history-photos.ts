@@ -554,13 +554,77 @@ export const HISTORY_PHOTOS: HistoryPhoto[] = [
     "group": "Архітектура",
     "description": "1864–1873 роки. Ансамбль архітектора Йозефа Главки.",
     "source": "https://osvita.ua/test/training/history/59830/"
+  },
+  {
+    "title": "Іван Миколайчук",
+    "src": "https://osvita.ua/doc/images/news/605/60512/53_1.png",
+    "category": "cinema",
+    "group": "Актор і режисер",
+    "description": "Актор «Тіней забутих предків» і режисер фільму «Вавилон XX» (1979).",
+    "source": "https://osvita.ua/test/training/history/60512/"
+  },
+  {
+    "title": "Роман Шухевич",
+    "src": "https://osvita.ua/doc/images/news/605/60512/imgonline-com-ua-Resize-OKyZMg376wsc.jpg",
+    "category": "figures",
+    "group": "Громадсько-політичні й військові діячі",
+    "description": "Головнокомандувач Української повстанської армії, відомий під псевдонімом Тарас Чупринка; один із лідерів українського підпільного руху 1940-х років.",
+    "source": "https://osvita.ua/test/training/history/76772/"
+  },
+  {
+    "title": "Петро Григоренко",
+    "src": "https://osvita.ua/doc/images/news/605/60512/43_1.png",
+    "category": "figures",
+    "group": "Правозахисники й дисиденти",
+    "description": "Радянський генерал і дисидент, який виступав на захист прав людини, зокрема кримських татар, і був учасником Української Гельсінської групи.",
+    "source": "https://osvita.ua/test/training/history/76772/"
+  },
+  {
+    "title": "Леонід Кравчук",
+    "src": "https://osvita.ua/doc/images/news/605/60512/44.png",
+    "category": "figures",
+    "group": "Політичні діячі незалежної України",
+    "description": "Перший Президент незалежної України (1991–1994), до обрання очолював Верховну Раду України.",
+    "source": "https://osvita.ua/test/training/history/76772/"
+  },
+  {
+    "title": "Леонід Кучма",
+    "src": "https://osvita.ua/doc/images/news/605/60512/45.png",
+    "category": "figures",
+    "group": "Політичні діячі незалежної України",
+    "description": "Другий Президент України (1994–2005); за час його президентства було ухвалено Конституцію України 1996 року.",
+    "source": "https://osvita.ua/test/training/history/76772/"
+  },
+  {
+    "title": "Віктор Ющенко",
+    "src": "https://osvita.ua/doc/images/news/605/60512/1_46.png",
+    "category": "figures",
+    "group": "Політичні діячі незалежної України",
+    "description": "Третій Президент України (2005–2010), один із ключових учасників Помаранчевої революції 2004 року.",
+    "source": "https://osvita.ua/test/training/history/76772/"
+  },
+  {
+    "title": "Петро Порошенко",
+    "src": "https://osvita.ua/doc/images/news/605/60512/47.png",
+    "category": "figures",
+    "group": "Політичні діячі незалежної України",
+    "description": "П’ятий Президент України (2014–2019), перебував на посаді під час початку російської війни проти України та набуття безвізового режиму з ЄС.",
+    "source": "https://osvita.ua/test/training/history/76772/"
+  },
+  {
+    "title": "Петро Могила",
+    "src": "https://osvita.ua/doc/images/news/605/60512/13_1_novyj_razmer.jpg",
+    "category": "figures",
+    "group": "Освіта й духовне життя",
+    "description": "Київський православний митрополит XVII століття, реформатор церковного й освітнього життя; з його діяльністю пов'язане утворення Києво-Могилянської колегії 1632 року.",
+    "source": "https://osvita.ua/test/training/history/60512/"
+  },
+  {
+    "title": "Любомир Гузар",
+    "src": "https://osvita.ua/doc/images/news/605/60512/54_1.png",
+    "category": "figures",
+    "group": "Духовні й культурні діячі",
+    "description": "Предстоятель Української греко-католицької церкви у 2001–2011 роках, впливова постать громадського та духовного життя України.",
+    "source": "https://osvita.ua/test/training/history/60512/"
   }
-  ,{
-  "title": "Іван Миколайчук",
-  "src": "https://osvita.ua/doc/images/news/605/60512/53_1.png",
-  "category": "cinema",
-  "group": "Актор і режисер",
-  "description": "Актор «Тіней забутих предків» і режисер фільму «Вавилон XX» (1979).",
-  "source": "https://osvita.ua/test/training/history/60512/"
-}
 ];
