@@ -2,11 +2,10 @@
 
 import Link from "next/link";
 import { signOut, useSession } from "next-auth/react";
-import { BookOpen, GraduationCap } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 
 const NAV = [
   { href: "/materials", label: "Матеріали" },
-  { href: "/materials/history", label: "Атлас історії" },
   { href: "/errors", label: "Помилки" },
   { href: "/diagnostic", label: "Діагностика" },
   { href: "/simulation", label: "Симуляція" },
@@ -42,7 +41,6 @@ export default function UserBar() {
           <Link href="/" className="shrink-0 rounded-lg px-3 py-2 font-semibold text-slate-600 transition-colors hover:bg-indigo-50 hover:text-indigo-700">Головна</Link>
           {NAV.map(n => <Link key={n.href} href={n.href} className="shrink-0 rounded-lg px-3 py-2 font-semibold text-slate-600 transition-colors hover:bg-indigo-50 hover:text-indigo-700">{n.label}</Link>)}
           {data?.user?.isAdmin && <Link href="/admin" className="shrink-0 rounded-lg px-3 py-2 font-semibold text-indigo-700 hover:bg-indigo-50 sm:hidden">Адмінка</Link>}
-          <BookOpen aria-hidden="true" size={18} className="ml-auto hidden text-indigo-300 md:block" />
         </nav>
       </div>
     </header>
