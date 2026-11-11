@@ -6,6 +6,7 @@ import { authOptions } from "@/lib/auth";
 import { LEVELS } from "@/lib/levels";
 import { getLevelStats, getSubtopicStats, isPassed, isUnlocked, percentBadge } from "@/lib/progress";
 import FlashcardViewer from "@/components/cards/FlashcardViewer";
+import { verifiedQuestionWhere } from "@/lib/history-review";
 
 export const dynamic = "force-dynamic";
 
@@ -36,7 +37,7 @@ export default async function TopicPage({
 
   const perLevel = await prisma.question.groupBy({
     by: ["testLevel"],
-    where: { topicId: topic.id },
+    where: { topicId: topic.id, ...verifiedQuestionWhere },
     _count: { _all: true },
   });
   const countByLevel = new Map<number, number>(perLevel.map((r) => [r.testLevel, r._count._all] as [number, number]));
@@ -55,6 +56,8 @@ export default async function TopicPage({
       </Link>
 
       <h1 className="text-3xl font-extrabold text-slate-900 mb-6">{topic.title}</h1>
+
+      {topic.subject === "HISTORY" && <p className="mb-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">Триває перевірка історичних карт. Непідтверджені візуальні завдання тимчасово не включені до тестів, щоб уникнути помилкових відповідей.</p>}
 
       {/* 3 тести теми */}
       <h2 className="text-lg font-bold text-slate-800 mb-3">Тести теми</h2>
