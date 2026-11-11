@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
 import { CheckCircle2, Lightbulb, X, XCircle } from "lucide-react";
@@ -37,10 +38,11 @@ export default function DailyQuestion() {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
     document.addEventListener("keydown", onKey);
+    const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     return () => {
       document.removeEventListener("keydown", onKey);
-      document.body.style.overflow = "";
+      document.body.style.overflow = previousOverflow;
     };
   }, [open]);
 
@@ -86,8 +88,8 @@ export default function DailyQuestion() {
         )}
       </div>
 
-      {open && (
-        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-3 bg-black/50 backdrop-blur-sm" onClick={() => setOpen(false)}>
+      {open && createPortal(
+        <div role="dialog" aria-modal="true" aria-label="Питання дня" className="fixed inset-0 z-[100] flex items-end sm:items-center justify-center p-3 bg-black/55 backdrop-blur-sm" onClick={() => setOpen(false)}>
           <div className="w-full max-w-lg max-h-[90vh] overflow-y-auto rounded-3xl bg-white shadow-2xl" onClick={(e) => e.stopPropagation()}>
             <div className="px-5 py-3 flex justify-between items-center text-white font-bold bg-gradient-to-r from-violet-600 to-pink-500 rounded-t-3xl">
               <span>🎯 Питання дня · 🔥 {streak}</span>
@@ -129,7 +131,8 @@ export default function DailyQuestion() {
               )}
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );
