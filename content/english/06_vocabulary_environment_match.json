@@ -1,0 +1,303 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Environment, Nature & Travel",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match the words (1–4) with their definitions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: pollution — damage to air, water or land caused by harmful substances; recycling — processing used materials so they can be used again; drought — a long period with little or no rain; flood — a large amount of water covering land that is usually dry.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "pollution",
+            "damage to air, water or land caused by harmful substances"
+          ],
+          [
+            "recycling",
+            "processing used materials so they can be used again"
+          ],
+          [
+            "drought",
+            "a long period with little or no rain"
+          ],
+          [
+            "flood",
+            "a large amount of water covering land that is usually dry"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Definition"
+        ],
+        "distractors": [
+          "a violent storm with very strong winds"
+        ]
+      }
+    },
+    {
+      "text": "Match the words (1–4) with their definitions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: luggage — the bags you take with you on a journey; departure — the act of leaving at the start of a journey; boarding pass — a card that allows you to get on a plane; souvenir — a thing you buy to remember a place you visited.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "luggage",
+            "the bags you take with you on a journey"
+          ],
+          [
+            "departure",
+            "the act of leaving at the start of a journey"
+          ],
+          [
+            "boarding pass",
+            "a card that allows you to get on a plane"
+          ],
+          [
+            "souvenir",
+            "a thing you buy to remember a place you visited"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Definition"
+        ],
+        "distractors": [
+          "a document that allows you to enter a country"
+        ]
+      }
+    },
+    {
+      "text": "Match the notices (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: GATE CLOSES 20 MINUTES BEFORE DEPARTURE — Passengers must reach the gate in good time.; NO CAMPING — You cannot put up a tent here.; PLEASE DO NOT FEED THE ANIMALS — Visitors must not give food to the animals.; BOTTLES AND CANS ONLY — This bin is only for drink containers..",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "GATE CLOSES 20 MINUTES BEFORE DEPARTURE",
+            "Passengers must reach the gate in good time."
+          ],
+          [
+            "NO CAMPING",
+            "You cannot put up a tent here."
+          ],
+          [
+            "PLEASE DO NOT FEED THE ANIMALS",
+            "Visitors must not give food to the animals."
+          ],
+          [
+            "BOTTLES AND CANS ONLY",
+            "This bin is only for drink containers."
+          ]
+        ],
+        "leftLabels": [
+          "Notice"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "You must buy a ticket in advance."
+        ]
+      }
+    },
+    {
+      "text": "Match the phrasal verbs (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: set off — to start a journey; check in — to register at a hotel or airport; get away — to go somewhere for a holiday or rest; look around — to explore a place.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "set off",
+            "to start a journey"
+          ],
+          [
+            "check in",
+            "to register at a hotel or airport"
+          ],
+          [
+            "get away",
+            "to go somewhere for a holiday or rest"
+          ],
+          [
+            "look around",
+            "to explore a place"
+          ]
+        ],
+        "leftLabels": [
+          "Phrasal verb"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "to return home"
+        ]
+      }
+    },
+    {
+      "text": "Match the terms (1–4) with their definitions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: endangered species — animals or plants that may soon disappear; habitat — the natural home of an animal or plant; deforestation — cutting down large areas of forest; global warming — a rise in the average temperature of the Earth.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "endangered species",
+            "animals or plants that may soon disappear"
+          ],
+          [
+            "habitat",
+            "the natural home of an animal or plant"
+          ],
+          [
+            "deforestation",
+            "cutting down large areas of forest"
+          ],
+          [
+            "global warming",
+            "a rise in the average temperature of the Earth"
+          ]
+        ],
+        "leftLabels": [
+          "Term"
+        ],
+        "rightLabels": [
+          "Definition"
+        ],
+        "distractors": [
+          "animals that hunt other animals"
+        ]
+      }
+    },
+    {
+      "text": "Match the words (1–4) with the words they go with (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: carbon — footprint; renewable — energy; greenhouse — effect; acid — rain.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "carbon",
+            "footprint"
+          ],
+          [
+            "renewable",
+            "energy"
+          ],
+          [
+            "greenhouse",
+            "effect"
+          ],
+          [
+            "acid",
+            "rain"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Collocation"
+        ],
+        "distractors": [
+          "species"
+        ]
+      }
+    },
+    {
+      "text": "Match the idioms (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: off the beaten track — in a quiet place that few tourists visit; to hit the road — to start a journey; to travel light — to travel with very little luggage; a tourist trap — a place that charges tourists too much.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "off the beaten track",
+            "in a quiet place that few tourists visit"
+          ],
+          [
+            "to hit the road",
+            "to start a journey"
+          ],
+          [
+            "to travel light",
+            "to travel with very little luggage"
+          ],
+          [
+            "a tourist trap",
+            "a place that charges tourists too much"
+          ]
+        ],
+        "leftLabels": [
+          "Idiom"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "to miss a flight"
+        ]
+      }
+    },
+    {
+      "text": "Match the words (1–4) with their definitions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: journey — the act of travelling from one place to another; trip — a short visit to a place and back, often for pleasure; voyage — a long journey by sea or in space; excursion — a short organised trip, often as part of a holiday.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "journey",
+            "the act of travelling from one place to another"
+          ],
+          [
+            "trip",
+            "a short visit to a place and back, often for pleasure"
+          ],
+          [
+            "voyage",
+            "a long journey by sea or in space"
+          ],
+          [
+            "excursion",
+            "a short organised trip, often as part of a holiday"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Definition"
+        ],
+        "distractors": [
+          "the area where you live"
+        ]
+      }
+    }
+  ]
+}

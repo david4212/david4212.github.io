@@ -1,0 +1,300 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Grammar: Nouns, Pronouns, Prepositions & Articles",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match the nouns (1–4) with their plural forms (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: child — children; mouse — mice; tooth — teeth; sheep — sheep.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "child",
+            "children"
+          ],
+          [
+            "mouse",
+            "mice"
+          ],
+          [
+            "tooth",
+            "teeth"
+          ],
+          [
+            "sheep",
+            "sheep"
+          ]
+        ],
+        "leftLabels": [
+          "Noun"
+        ],
+        "rightLabels": [
+          "Plural"
+        ],
+        "distractors": [
+          "childs"
+        ]
+      }
+    },
+    {
+      "text": "Match the phrases (1–4) with the correct prepositions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: ___ Monday — on; ___ July — in; ___ midnight — at; ___ 2010 ___ 2015 — from … to.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "___ Monday",
+            "on"
+          ],
+          [
+            "___ July",
+            "in"
+          ],
+          [
+            "___ midnight",
+            "at"
+          ],
+          [
+            "___ 2010 ___ 2015",
+            "from … to"
+          ]
+        ],
+        "leftLabels": [
+          "Phrase"
+        ],
+        "rightLabels": [
+          "Preposition"
+        ],
+        "distractors": [
+          "since"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the correct articles (A–D).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: She is ___ honest woman. — an; ___ Nile is the longest river in Africa. — the; I play ___ tennis on Saturdays. — — (no article); He is ___ university student. — a. honest починається з голосного звука; назви річок — з the; види спорту — без артикля; university починається зі звука [j].",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "She is ___ honest woman.",
+            "an"
+          ],
+          [
+            "___ Nile is the longest river in Africa.",
+            "the"
+          ],
+          [
+            "I play ___ tennis on Saturdays.",
+            "— (no article)"
+          ],
+          [
+            "He is ___ university student.",
+            "a"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Article"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the correct words (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: This book is ___, not yours. — mine; They really enjoyed ___ at the party. — themselves; ___ of the two answers is correct — both are wrong. — Neither; Is there ___ milk left in the fridge? — any.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "This book is ___, not yours.",
+            "mine"
+          ],
+          [
+            "They really enjoyed ___ at the party.",
+            "themselves"
+          ],
+          [
+            "___ of the two answers is correct — both are wrong.",
+            "Neither"
+          ],
+          [
+            "Is there ___ milk left in the fridge?",
+            "any"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Word"
+        ],
+        "distractors": [
+          "myself"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the correct quantifiers (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: How ___ money do you have? — much; How ___ books did you buy? — many; There are very ___ people here — the hall is almost empty. — few; We have very ___ time, so let's hurry. — little. much/little — з незлічуваними, many/few — зі злічуваними; few і little без a мають значення «майже немає».",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "How ___ money do you have?",
+            "much"
+          ],
+          [
+            "How ___ books did you buy?",
+            "many"
+          ],
+          [
+            "There are very ___ people here — the hall is almost empty.",
+            "few"
+          ],
+          [
+            "We have very ___ time, so let's hurry.",
+            "little"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Quantifier"
+        ],
+        "distractors": [
+          "a lot of"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the correct prepositions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: She is very good ___ maths. — at; He is interested ___ history. — in; I'm afraid ___ spiders. — of; It depends ___ the weather. — on.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "She is very good ___ maths.",
+            "at"
+          ],
+          [
+            "He is interested ___ history.",
+            "in"
+          ],
+          [
+            "I'm afraid ___ spiders.",
+            "of"
+          ],
+          [
+            "It depends ___ the weather.",
+            "on"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Preposition"
+        ],
+        "distractors": [
+          "for"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the correct relative words (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: The man ___ car was stolen called the police. — whose; This is the house ___ I grew up. — where; The girl ___ you met yesterday is my sister. — whom; That's the reason ___ I left early. — why.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "The man ___ car was stolen called the police.",
+            "whose"
+          ],
+          [
+            "This is the house ___ I grew up.",
+            "where"
+          ],
+          [
+            "The girl ___ you met yesterday is my sister.",
+            "whom"
+          ],
+          [
+            "That's the reason ___ I left early.",
+            "why"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Relative word"
+        ],
+        "distractors": [
+          "which"
+        ]
+      }
+    },
+    {
+      "text": "Match the phrases (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: in time — early enough, before it is too late; on time — at exactly the planned time; at the end — at the final point of something; in the end — finally, after a long process.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "in time",
+            "early enough, before it is too late"
+          ],
+          [
+            "on time",
+            "at exactly the planned time"
+          ],
+          [
+            "at the end",
+            "at the final point of something"
+          ],
+          [
+            "in the end",
+            "finally, after a long process"
+          ]
+        ],
+        "leftLabels": [
+          "Phrase"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "occasionally"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Education, Work & Society",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match the words (1–4) with their definitions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: salary — a fixed amount of money paid for work every month; tuition fee — money you pay to be taught at a college or university; deadline — the latest time by which something must be done; colleague — a person you work with.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "salary",
+            "a fixed amount of money paid for work every month"
+          ],
+          [
+            "tuition fee",
+            "money you pay to be taught at a college or university"
+          ],
+          [
+            "deadline",
+            "the latest time by which something must be done"
+          ],
+          [
+            "colleague",
+            "a person you work with"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Definition"
+        ],
+        "distractors": [
+          "a person who is learning a trade from a skilled worker"
+        ]
+      }
+    },
+    {
+      "text": "Match the jobs (1–4) with their descriptions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: surgeon — performs medical operations; accountant — keeps and checks financial records; plumber — repairs water pipes and taps; architect — designs buildings.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "surgeon",
+            "performs medical operations"
+          ],
+          [
+            "accountant",
+            "keeps and checks financial records"
+          ],
+          [
+            "plumber",
+            "repairs water pipes and taps"
+          ],
+          [
+            "architect",
+            "designs buildings"
+          ]
+        ],
+        "leftLabels": [
+          "Job"
+        ],
+        "rightLabels": [
+          "Description"
+        ],
+        "distractors": [
+          "defends people in court"
+        ]
+      }
+    },
+    {
+      "text": "Match the verbs (1–4) with the words they go with (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: apply — for a job; pass — an exam; earn — a living; chair — a meeting.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "apply",
+            "for a job"
+          ],
+          [
+            "pass",
+            "an exam"
+          ],
+          [
+            "earn",
+            "a living"
+          ],
+          [
+            "chair",
+            "a meeting"
+          ]
+        ],
+        "leftLabels": [
+          "Verb"
+        ],
+        "rightLabels": [
+          "Collocation"
+        ],
+        "distractors": [
+          "homework"
+        ]
+      }
+    },
+    {
+      "text": "Match the phrasal verbs (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: drop out — to leave school or university before finishing; fill in — to complete a form; take on — to employ someone; lay off — to dismiss workers because there is not enough work.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "drop out",
+            "to leave school or university before finishing"
+          ],
+          [
+            "fill in",
+            "to complete a form"
+          ],
+          [
+            "take on",
+            "to employ someone"
+          ],
+          [
+            "lay off",
+            "to dismiss workers because there is not enough work"
+          ]
+        ],
+        "leftLabels": [
+          "Phrasal verb"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "to get a higher position at work"
+        ]
+      }
+    },
+    {
+      "text": "Match the words (1–4) with their definitions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: unemployment — the state of not having a job; poverty — the state of being extremely poor; discrimination — unfair treatment of people because of their race, sex or age; volunteering — doing work without pay to help others.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "unemployment",
+            "the state of not having a job"
+          ],
+          [
+            "poverty",
+            "the state of being extremely poor"
+          ],
+          [
+            "discrimination",
+            "unfair treatment of people because of their race, sex or age"
+          ],
+          [
+            "volunteering",
+            "doing work without pay to help others"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Definition"
+        ],
+        "distractors": [
+          "moving to another country to live"
+        ]
+      }
+    },
+    {
+      "text": "Match the words (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: employer — a person or company that gives people work; employee — a person who is paid to work for someone; unemployed — without a paid job; employment — the state of having paid work.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "employer",
+            "a person or company that gives people work"
+          ],
+          [
+            "employee",
+            "a person who is paid to work for someone"
+          ],
+          [
+            "unemployed",
+            "without a paid job"
+          ],
+          [
+            "employment",
+            "the state of having paid work"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "a person who trains new workers"
+        ]
+      }
+    },
+    {
+      "text": "Match the words (1–4) with their definitions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: undergraduate — a student studying for a first degree; postgraduate — a student studying after receiving a first degree; scholarship — money given to a student to pay for their studies; dissertation — a long piece of writing done for a university degree.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "undergraduate",
+            "a student studying for a first degree"
+          ],
+          [
+            "postgraduate",
+            "a student studying after receiving a first degree"
+          ],
+          [
+            "scholarship",
+            "money given to a student to pay for their studies"
+          ],
+          [
+            "dissertation",
+            "a long piece of writing done for a university degree"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Definition"
+        ],
+        "distractors": [
+          "the head of a university"
+        ]
+      }
+    },
+    {
+      "text": "Match the idioms (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: to climb the career ladder — to get promoted step by step; to burn the midnight oil — to work or study late at night; to be on the same page — to understand and agree with each other; to get the sack — to be dismissed from your job.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "to climb the career ladder",
+            "to get promoted step by step"
+          ],
+          [
+            "to burn the midnight oil",
+            "to work or study late at night"
+          ],
+          [
+            "to be on the same page",
+            "to understand and agree with each other"
+          ],
+          [
+            "to get the sack",
+            "to be dismissed from your job"
+          ]
+        ],
+        "leftLabels": [
+          "Idiom"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "to work part-time"
+        ]
+      }
+    }
+  ]
+}

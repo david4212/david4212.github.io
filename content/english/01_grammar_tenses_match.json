@@ -1,0 +1,303 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Grammar: Tenses & Verb Forms",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match the sentences (1–4) with the tenses (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: She reads a newspaper every day. — Present Simple; She is reading a newspaper now. — Present Continuous; She has already read today's newspaper. — Present Perfect; She read the newspaper yesterday. — Past Simple.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "She reads a newspaper every day.",
+            "Present Simple"
+          ],
+          [
+            "She is reading a newspaper now.",
+            "Present Continuous"
+          ],
+          [
+            "She has already read today's newspaper.",
+            "Present Perfect"
+          ],
+          [
+            "She read the newspaper yesterday.",
+            "Past Simple"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Tense"
+        ],
+        "distractors": [
+          "Future Simple"
+        ]
+      }
+    },
+    {
+      "text": "Match the time expressions (1–4) with the tenses they are typically used with (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: every morning — Present Simple; at the moment — Present Continuous; two days ago — Past Simple; by the time she arrived — Past Perfect.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "every morning",
+            "Present Simple"
+          ],
+          [
+            "at the moment",
+            "Present Continuous"
+          ],
+          [
+            "two days ago",
+            "Past Simple"
+          ],
+          [
+            "by the time she arrived",
+            "Past Perfect"
+          ]
+        ],
+        "leftLabels": [
+          "Time expression"
+        ],
+        "rightLabels": [
+          "Tense"
+        ],
+        "distractors": [
+          "Future Continuous"
+        ]
+      }
+    },
+    {
+      "text": "Match the beginnings (1–4) with the endings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: By the time we arrived at the cinema, — the film had already started.; While I was cooking dinner, — the phone rang.; I have known Andrii — for ten years.; This time tomorrow — I will be flying to Rome..",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "By the time we arrived at the cinema,",
+            "the film had already started."
+          ],
+          [
+            "While I was cooking dinner,",
+            "the phone rang."
+          ],
+          [
+            "I have known Andrii",
+            "for ten years."
+          ],
+          [
+            "This time tomorrow",
+            "I will be flying to Rome."
+          ]
+        ],
+        "leftLabels": [
+          "Beginning"
+        ],
+        "rightLabels": [
+          "Ending"
+        ],
+        "distractors": [
+          "since ten years."
+        ]
+      }
+    },
+    {
+      "text": "Match the verbs (1–4) with their past participles (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: go — gone; write — written; bring — brought; choose — chosen.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "go",
+            "gone"
+          ],
+          [
+            "write",
+            "written"
+          ],
+          [
+            "bring",
+            "brought"
+          ],
+          [
+            "choose",
+            "chosen"
+          ]
+        ],
+        "leftLabels": [
+          "Verb"
+        ],
+        "rightLabels": [
+          "Past participle"
+        ],
+        "distractors": [
+          "brang"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the correct verb forms (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Look! It ___ (rain). — is raining; Water ___ (boil) at 100 °C. — boils; I ___ (never / be) to Japan. — have never been; When I came home, my parents ___ (already / eat). — had already eaten. Look! — дія зараз; загальна істина — Present Simple; досвід — Present Perfect; дія до іншої в минулому — Past Perfect.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Look! It ___ (rain).",
+            "is raining"
+          ],
+          [
+            "Water ___ (boil) at 100 °C.",
+            "boils"
+          ],
+          [
+            "I ___ (never / be) to Japan.",
+            "have never been"
+          ],
+          [
+            "When I came home, my parents ___ (already / eat).",
+            "had already eaten"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Verb form"
+        ],
+        "distractors": [
+          "was raining"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the tenses (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: By next June she will have graduated. — Future Perfect; He had been waiting for two hours when the bus finally came. — Past Perfect Continuous; They have been arguing all morning. — Present Perfect Continuous; I was going to call you, but I forgot. — Future in the Past.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "By next June she will have graduated.",
+            "Future Perfect"
+          ],
+          [
+            "He had been waiting for two hours when the bus finally came.",
+            "Past Perfect Continuous"
+          ],
+          [
+            "They have been arguing all morning.",
+            "Present Perfect Continuous"
+          ],
+          [
+            "I was going to call you, but I forgot.",
+            "Future in the Past"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Tense"
+        ],
+        "distractors": [
+          "Future Continuous"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the meanings of the verb forms (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: I'm meeting Tom at six tonight. — a fixed personal arrangement; The train leaves at 7:15. — an event on a timetable; You're always losing your keys! — an annoying repeated habit; Don't worry, I'll carry that bag for you. — a decision made at the moment of speaking.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "I'm meeting Tom at six tonight.",
+            "a fixed personal arrangement"
+          ],
+          [
+            "The train leaves at 7:15.",
+            "an event on a timetable"
+          ],
+          [
+            "You're always losing your keys!",
+            "an annoying repeated habit"
+          ],
+          [
+            "Don't worry, I'll carry that bag for you.",
+            "a decision made at the moment of speaking"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "a completed action in the past"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the meanings of the verbs in them (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: I think she's right. — to have an opinion; I'm thinking about moving abroad. — to consider a possibility; This soup tastes too salty. — to have a particular flavour; The chef is tasting the soup. — to try food to check its flavour. Стативні дієслова (think = вважати, taste = мати смак) не вживаються в Continuous; у динамічному значенні — вживаються.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "I think she's right.",
+            "to have an opinion"
+          ],
+          [
+            "I'm thinking about moving abroad.",
+            "to consider a possibility"
+          ],
+          [
+            "This soup tastes too salty.",
+            "to have a particular flavour"
+          ],
+          [
+            "The chef is tasting the soup.",
+            "to try food to check its flavour"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "to own something"
+        ]
+      }
+    }
+  ]
+}

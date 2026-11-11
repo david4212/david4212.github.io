@@ -1,0 +1,303 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Grammar: Passive Voice & Conditionals",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match the active sentences (1–4) with their passive forms (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: They built the bridge in 1990. — The bridge was built in 1990.; People speak English here. — English is spoken here.; Someone has stolen my bike. — My bike has been stolen.; They will finish the project soon. — The project will be finished soon..",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "They built the bridge in 1990.",
+            "The bridge was built in 1990."
+          ],
+          [
+            "People speak English here.",
+            "English is spoken here."
+          ],
+          [
+            "Someone has stolen my bike.",
+            "My bike has been stolen."
+          ],
+          [
+            "They will finish the project soon.",
+            "The project will be finished soon."
+          ]
+        ],
+        "leftLabels": [
+          "Active"
+        ],
+        "rightLabels": [
+          "Passive"
+        ],
+        "distractors": [
+          "The bridge has built in 1990."
+        ]
+      }
+    },
+    {
+      "text": "Match the types of conditionals (1–4) with the examples (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Zero conditional — If you heat ice, it melts.; First conditional — If it rains, we will stay at home.; Second conditional — If I had a car, I would drive to work.; Third conditional — If she had studied, she would have passed..",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Zero conditional",
+            "If you heat ice, it melts."
+          ],
+          [
+            "First conditional",
+            "If it rains, we will stay at home."
+          ],
+          [
+            "Second conditional",
+            "If I had a car, I would drive to work."
+          ],
+          [
+            "Third conditional",
+            "If she had studied, she would have passed."
+          ]
+        ],
+        "leftLabels": [
+          "Type"
+        ],
+        "rightLabels": [
+          "Example"
+        ],
+        "distractors": [
+          "If I will see him, I tell him."
+        ]
+      }
+    },
+    {
+      "text": "Match the beginnings (1–4) with the endings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: If I were you, — I would apologise to her.; Unless you hurry, — you will miss the bus.; If they had left earlier, — they wouldn't have missed the flight.; If you mix red and blue, — you get purple..",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "If I were you,",
+            "I would apologise to her."
+          ],
+          [
+            "Unless you hurry,",
+            "you will miss the bus."
+          ],
+          [
+            "If they had left earlier,",
+            "they wouldn't have missed the flight."
+          ],
+          [
+            "If you mix red and blue,",
+            "you get purple."
+          ]
+        ],
+        "leftLabels": [
+          "Beginning"
+        ],
+        "rightLabels": [
+          "Ending"
+        ],
+        "distractors": [
+          "you would have got purple yesterday."
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the correct passive forms (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: The letter ___ (send) yesterday. — was sent; The room ___ (clean) every day. — is cleaned; The road ___ (repair) at the moment. — is being repaired; The results ___ (announce) next week. — will be announced.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "The letter ___ (send) yesterday.",
+            "was sent"
+          ],
+          [
+            "The room ___ (clean) every day.",
+            "is cleaned"
+          ],
+          [
+            "The road ___ (repair) at the moment.",
+            "is being repaired"
+          ],
+          [
+            "The results ___ (announce) next week.",
+            "will be announced"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Verb form"
+        ],
+        "distractors": [
+          "had been sending"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: I wish I had more free time. — regret about the present; I wish I had studied harder. — regret about the past; If only it would stop raining! — wanting an annoying situation to change; I'd rather you didn't smoke here. — a preference about another person's action.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "I wish I had more free time.",
+            "regret about the present"
+          ],
+          [
+            "I wish I had studied harder.",
+            "regret about the past"
+          ],
+          [
+            "If only it would stop raining!",
+            "wanting an annoying situation to change"
+          ],
+          [
+            "I'd rather you didn't smoke here.",
+            "a preference about another person's action"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "a real possibility in the future"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: I had my hair cut yesterday. — a hairdresser cut my hair for me; I cut my hair yesterday. — I cut my hair myself; I'm having my car repaired. — a mechanic is repairing my car by arrangement; She had her phone stolen on the bus. — something unpleasant happened to her.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "I had my hair cut yesterday.",
+            "a hairdresser cut my hair for me"
+          ],
+          [
+            "I cut my hair yesterday.",
+            "I cut my hair myself"
+          ],
+          [
+            "I'm having my car repaired.",
+            "a mechanic is repairing my car by arrangement"
+          ],
+          [
+            "She had her phone stolen on the bus.",
+            "something unpleasant happened to her"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "she stole someone's phone"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the structures used in them (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: If I had taken that job, I would be rich now. — mixed conditional: past condition, present result; If I weren't so shy, I would have spoken to her at the party. — mixed conditional: present condition, past result; Had I known about the problem, I would have helped. — inverted third conditional; Should you need any help, call me. — inverted first conditional.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "If I had taken that job, I would be rich now.",
+            "mixed conditional: past condition, present result"
+          ],
+          [
+            "If I weren't so shy, I would have spoken to her at the party.",
+            "mixed conditional: present condition, past result"
+          ],
+          [
+            "Had I known about the problem, I would have helped.",
+            "inverted third conditional"
+          ],
+          [
+            "Should you need any help, call me.",
+            "inverted first conditional"
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Structure"
+        ],
+        "distractors": [
+          "zero conditional"
+        ]
+      }
+    },
+    {
+      "text": "Match the sentences (1–4) with the sentences that have the same meaning (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: It is said that he is very rich. — He is said to be very rich.; It is believed that they left yesterday. — They are believed to have left yesterday.; It is known that she is working abroad. — She is known to be working abroad.; It was reported that the minister had resigned. — The minister was reported to have resigned.. Дія одночасна — to be / to be doing; дія раніше — to have done.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "It is said that he is very rich.",
+            "He is said to be very rich."
+          ],
+          [
+            "It is believed that they left yesterday.",
+            "They are believed to have left yesterday."
+          ],
+          [
+            "It is known that she is working abroad.",
+            "She is known to be working abroad."
+          ],
+          [
+            "It was reported that the minister had resigned.",
+            "The minister was reported to have resigned."
+          ]
+        ],
+        "leftLabels": [
+          "Sentence"
+        ],
+        "rightLabels": [
+          "Same meaning"
+        ],
+        "distractors": [
+          "He is said being very rich."
+        ]
+      }
+    }
+  ]
+}

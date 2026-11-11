@@ -1,0 +1,303 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Reading Comprehension & Text Analysis",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Read the texts (1–4) and match them with the headings (A–E). One heading is extra.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Our school opens at 8 a.m. Lessons last 45 minutes, and there is a long break at 11. — Daily timetable; After classes, students can join the chess club, the choir or the football team. — After-school activities; The canteen serves hot meals and fresh salads at low prices. — School meals; Every May we organise a trip to the Carpathians for all classes. — Annual excursion.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Our school opens at 8 a.m. Lessons last 45 minutes, and there is a long break at 11.",
+            "Daily timetable"
+          ],
+          [
+            "After classes, students can join the chess club, the choir or the football team.",
+            "After-school activities"
+          ],
+          [
+            "The canteen serves hot meals and fresh salads at low prices.",
+            "School meals"
+          ],
+          [
+            "Every May we organise a trip to the Carpathians for all classes.",
+            "Annual excursion"
+          ]
+        ],
+        "leftLabels": [
+          "Text"
+        ],
+        "rightLabels": [
+          "Heading"
+        ],
+        "distractors": [
+          "Exam results"
+        ]
+      }
+    },
+    {
+      "text": "Read the texts (1–4) and match them with the headings (A–E). One heading is extra.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Doctors recommend that teenagers sleep at least eight hours a night. — Rest well; Fresh fruit and vegetables should make up half of your plate. — Eat smart; Just thirty minutes of walking a day can make your heart stronger. — Keep moving; Drinking enough water helps you concentrate and prevents headaches. — Stay hydrated.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Doctors recommend that teenagers sleep at least eight hours a night.",
+            "Rest well"
+          ],
+          [
+            "Fresh fruit and vegetables should make up half of your plate.",
+            "Eat smart"
+          ],
+          [
+            "Just thirty minutes of walking a day can make your heart stronger.",
+            "Keep moving"
+          ],
+          [
+            "Drinking enough water helps you concentrate and prevents headaches.",
+            "Stay hydrated"
+          ]
+        ],
+        "leftLabels": [
+          "Text"
+        ],
+        "rightLabels": [
+          "Heading"
+        ],
+        "distractors": [
+          "Visit your dentist"
+        ]
+      }
+    },
+    {
+      "text": "Read the texts (1–4) and match them with the headings (A–E). One heading is extra.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Admission is free for children under seven. Students pay half price with a valid card. — Ticket prices; Large bags and umbrellas must be left in the cloakroom on the ground floor. — Before you go in; You may take photos, but flash can damage old paintings and is not allowed. — Taking pictures; Guided tours in English start every hour from the main hall. — Explore with an expert.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Admission is free for children under seven. Students pay half price with a valid card.",
+            "Ticket prices"
+          ],
+          [
+            "Large bags and umbrellas must be left in the cloakroom on the ground floor.",
+            "Before you go in"
+          ],
+          [
+            "You may take photos, but flash can damage old paintings and is not allowed.",
+            "Taking pictures"
+          ],
+          [
+            "Guided tours in English start every hour from the main hall.",
+            "Explore with an expert"
+          ]
+        ],
+        "leftLabels": [
+          "Text"
+        ],
+        "rightLabels": [
+          "Heading"
+        ],
+        "distractors": [
+          "Opening hours"
+        ]
+      }
+    },
+    {
+      "text": "Read the texts (1–4) and match them with the headings (A–E). One heading is extra.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Last summer Olena spent two weeks cleaning a beach near Odesa with other students. — Helping nature; Ivan, a retired teacher, gives free maths lessons to children from his village. — Sharing knowledge; Every Saturday a group of students cooks hot meals for homeless people. — Feeding those in need; Many volunteers say the experience helped them choose their future careers. — An unexpected benefit.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Last summer Olena spent two weeks cleaning a beach near Odesa with other students.",
+            "Helping nature"
+          ],
+          [
+            "Ivan, a retired teacher, gives free maths lessons to children from his village.",
+            "Sharing knowledge"
+          ],
+          [
+            "Every Saturday a group of students cooks hot meals for homeless people.",
+            "Feeding those in need"
+          ],
+          [
+            "Many volunteers say the experience helped them choose their future careers.",
+            "An unexpected benefit"
+          ]
+        ],
+        "leftLabels": [
+          "Text"
+        ],
+        "rightLabels": [
+          "Heading"
+        ],
+        "distractors": [
+          "Well-paid summer jobs"
+        ]
+      }
+    },
+    {
+      "text": "Read the texts (1–4) and match them with the headings (A–E). One heading is extra.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Smartphones let us read the news, pay for shopping and talk to friends from anywhere. — Everything in your pocket; However, scientists warn that the blue light from screens can disturb our sleep. — A hidden danger at night; Some families now have 'phone-free dinners' so that they can talk face to face. — Disconnecting together; Experts expect that in ten years most devices will be controlled by voice. — Looking ahead.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Smartphones let us read the news, pay for shopping and talk to friends from anywhere.",
+            "Everything in your pocket"
+          ],
+          [
+            "However, scientists warn that the blue light from screens can disturb our sleep.",
+            "A hidden danger at night"
+          ],
+          [
+            "Some families now have 'phone-free dinners' so that they can talk face to face.",
+            "Disconnecting together"
+          ],
+          [
+            "Experts expect that in ten years most devices will be controlled by voice.",
+            "Looking ahead"
+          ]
+        ],
+        "leftLabels": [
+          "Text"
+        ],
+        "rightLabels": [
+          "Heading"
+        ],
+        "distractors": [
+          "The history of the telephone"
+        ]
+      }
+    },
+    {
+      "text": "Read the texts (1–4) and match them with the headings (A–E). One heading is extra.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: When the first tourists came, the village had no hotel, so local families opened their homes to guests. — Hospitality born of necessity; Within ten years the quiet fishing port had become a busy resort with traffic jams every weekend. — A rapid transformation; Older residents complain that they hardly recognise the place where they grew up. — Missing the old days; The council has now limited new construction to protect the coastline. — Taking control of growth. Зайвий заголовок суперечить тексту 2: селище перетворилося на курорт.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "When the first tourists came, the village had no hotel, so local families opened their homes to guests.",
+            "Hospitality born of necessity"
+          ],
+          [
+            "Within ten years the quiet fishing port had become a busy resort with traffic jams every weekend.",
+            "A rapid transformation"
+          ],
+          [
+            "Older residents complain that they hardly recognise the place where they grew up.",
+            "Missing the old days"
+          ],
+          [
+            "The council has now limited new construction to protect the coastline.",
+            "Taking control of growth"
+          ]
+        ],
+        "leftLabels": [
+          "Text"
+        ],
+        "rightLabels": [
+          "Heading"
+        ],
+        "distractors": [
+          "Fishing is still the main industry"
+        ]
+      }
+    },
+    {
+      "text": "Read the texts (1–4) and match them with the headings (A–E). One heading is extra.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: Bees pollinate about a third of the crops that end up on our plates. — Why bees matter; Yet the number of bees has fallen sharply because of pesticides and the loss of wild flowers. — A worrying decline; In several European cities, residents now keep hives on the roofs of their buildings. — Beekeeping in the city; Researchers are even testing tiny drones that could pollinate plants if bees disappear. — A high-tech plan B.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "Bees pollinate about a third of the crops that end up on our plates.",
+            "Why bees matter"
+          ],
+          [
+            "Yet the number of bees has fallen sharply because of pesticides and the loss of wild flowers.",
+            "A worrying decline"
+          ],
+          [
+            "In several European cities, residents now keep hives on the roofs of their buildings.",
+            "Beekeeping in the city"
+          ],
+          [
+            "Researchers are even testing tiny drones that could pollinate plants if bees disappear.",
+            "A high-tech plan B"
+          ]
+        ],
+        "leftLabels": [
+          "Text"
+        ],
+        "rightLabels": [
+          "Heading"
+        ],
+        "distractors": [
+          "How honey is made"
+        ]
+      }
+    },
+    {
+      "text": "Read the texts (1–4) and match them with the headings (A–E). One heading is extra.",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: At first Mark thought working from home would be a dream: no traffic and no dress code. — High expectations; But after a month he realised that he hardly spoke to anyone all day. — The loneliness problem; So he started going to a co-working space twice a week just to be among people. — Finding a balance; Now he says the secret is not where you work, but how you organise your day. — The real lesson.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "At first Mark thought working from home would be a dream: no traffic and no dress code.",
+            "High expectations"
+          ],
+          [
+            "But after a month he realised that he hardly spoke to anyone all day.",
+            "The loneliness problem"
+          ],
+          [
+            "So he started going to a co-working space twice a week just to be among people.",
+            "Finding a balance"
+          ],
+          [
+            "Now he says the secret is not where you work, but how you organise your day.",
+            "The real lesson"
+          ]
+        ],
+        "leftLabels": [
+          "Text"
+        ],
+        "rightLabels": [
+          "Heading"
+        ],
+        "distractors": [
+          "Asking for a pay rise"
+        ]
+      }
+    }
+  ]
+}

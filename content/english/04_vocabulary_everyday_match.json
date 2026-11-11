@@ -1,0 +1,303 @@
+{
+  "subject": "ENGLISH",
+  "topic": "Vocabulary: Everyday Life, Family & Relationships",
+  "cards": [],
+  "questions": [
+    {
+      "text": "Match the words (1–4) with their definitions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: niece — the daughter of your brother or sister; nephew — the son of your brother or sister; stepfather — your mother's husband who is not your father; in-laws — the parents and relatives of your husband or wife.",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "niece",
+            "the daughter of your brother or sister"
+          ],
+          [
+            "nephew",
+            "the son of your brother or sister"
+          ],
+          [
+            "stepfather",
+            "your mother's husband who is not your father"
+          ],
+          [
+            "in-laws",
+            "the parents and relatives of your husband or wife"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Definition"
+        ],
+        "distractors": [
+          "the brother of your mother or father"
+        ]
+      }
+    },
+    {
+      "text": "Match the situations (1–4) with what people say (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: You meet someone for the first time. — Nice to meet you.; Someone sneezes. — Bless you!; You didn't hear what someone said. — Sorry, could you repeat that?; Someone thanks you for your help. — You're welcome..",
+      "testLevel": 1,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "You meet someone for the first time.",
+            "Nice to meet you."
+          ],
+          [
+            "Someone sneezes.",
+            "Bless you!"
+          ],
+          [
+            "You didn't hear what someone said.",
+            "Sorry, could you repeat that?"
+          ],
+          [
+            "Someone thanks you for your help.",
+            "You're welcome."
+          ]
+        ],
+        "leftLabels": [
+          "Situation"
+        ],
+        "rightLabels": [
+          "Phrase"
+        ],
+        "distractors": [
+          "Congratulations!"
+        ]
+      }
+    },
+    {
+      "text": "Match the phrasal verbs (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: bring up — to raise a child; get on with — to have a good relationship with; look after — to take care of; take after — to look or behave like an older relative.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "bring up",
+            "to raise a child"
+          ],
+          [
+            "get on with",
+            "to have a good relationship with"
+          ],
+          [
+            "look after",
+            "to take care of"
+          ],
+          [
+            "take after",
+            "to look or behave like an older relative"
+          ]
+        ],
+        "leftLabels": [
+          "Phrasal verb"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "to end a romantic relationship"
+        ]
+      }
+    },
+    {
+      "text": "Match the verbs (1–4) with the words they go with (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: do — the washing-up; make — the bed; take out — the rubbish; set — the table.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "do",
+            "the washing-up"
+          ],
+          [
+            "make",
+            "the bed"
+          ],
+          [
+            "take out",
+            "the rubbish"
+          ],
+          [
+            "set",
+            "the table"
+          ]
+        ],
+        "leftLabels": [
+          "Verb"
+        ],
+        "rightLabels": [
+          "Collocation"
+        ],
+        "distractors": [
+          "a shower"
+        ]
+      }
+    },
+    {
+      "text": "Match the adjectives (1–4) with the descriptions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: generous — happy to give money, time or presents; stubborn — refusing to change their opinion; reliable — always doing what they promised; sociable — enjoying meeting and talking to people.",
+      "testLevel": 2,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "generous",
+            "happy to give money, time or presents"
+          ],
+          [
+            "stubborn",
+            "refusing to change their opinion"
+          ],
+          [
+            "reliable",
+            "always doing what they promised"
+          ],
+          [
+            "sociable",
+            "enjoying meeting and talking to people"
+          ]
+        ],
+        "leftLabels": [
+          "Adjective"
+        ],
+        "rightLabels": [
+          "Description"
+        ],
+        "distractors": [
+          "nervous and uncomfortable with other people"
+        ]
+      }
+    },
+    {
+      "text": "Match the idioms (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: the black sheep of the family — a family member others are ashamed of; like two peas in a pod — very similar to each other; to tie the knot — to get married; to run in the family — to be common among relatives.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "the black sheep of the family",
+            "a family member others are ashamed of"
+          ],
+          [
+            "like two peas in a pod",
+            "very similar to each other"
+          ],
+          [
+            "to tie the knot",
+            "to get married"
+          ],
+          [
+            "to run in the family",
+            "to be common among relatives"
+          ]
+        ],
+        "leftLabels": [
+          "Idiom"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "to argue all the time"
+        ]
+      }
+    },
+    {
+      "text": "Match the notices (1–4) with their meanings (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: OUT OF ORDER — The machine is not working.; KEEP OFF THE GRASS — Do not walk on the lawn.; MIND THE GAP — Be careful when getting on or off the train.; FULLY BOOKED — There are no free rooms or tables..",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "OUT OF ORDER",
+            "The machine is not working."
+          ],
+          [
+            "KEEP OFF THE GRASS",
+            "Do not walk on the lawn."
+          ],
+          [
+            "MIND THE GAP",
+            "Be careful when getting on or off the train."
+          ],
+          [
+            "FULLY BOOKED",
+            "There are no free rooms or tables."
+          ]
+        ],
+        "leftLabels": [
+          "Notice"
+        ],
+        "rightLabels": [
+          "Meaning"
+        ],
+        "distractors": [
+          "The shop is closed for lunch."
+        ]
+      }
+    },
+    {
+      "text": "Match the words (1–4) with their definitions (A–E).",
+      "options": [],
+      "correctIndex": 0,
+      "explanation": "Правильно: spouse — a husband or wife; sibling — a brother or sister; fiancé — a man who is engaged to be married; widow — a woman whose husband has died.",
+      "testLevel": 3,
+      "questionType": "matching",
+      "metadata": {
+        "pairs": [
+          [
+            "spouse",
+            "a husband or wife"
+          ],
+          [
+            "sibling",
+            "a brother or sister"
+          ],
+          [
+            "fiancé",
+            "a man who is engaged to be married"
+          ],
+          [
+            "widow",
+            "a woman whose husband has died"
+          ]
+        ],
+        "leftLabels": [
+          "Word"
+        ],
+        "rightLabels": [
+          "Definition"
+        ],
+        "distractors": [
+          "a child whose parents have died"
+        ]
+      }
+    }
+  ]
+}
