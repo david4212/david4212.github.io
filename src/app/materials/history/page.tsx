@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, ExternalLink, Map as MapIcon, Images, Landmark, Clapperboard, Search, Maximize2, Eye, EyeOff, X, CheckCircle2 } from "lucide-react";
 import { VERIFIED_EXAM_MAPS } from "@/lib/verified-exam-maps";
+import { HISTORY_EDUCATIONAL_MAPS } from "@/lib/history-educational-maps";
 import { NMT_CINEMA_PEOPLE } from "@/lib/history-cinema-people";
 import VerifiedMapsPanel from "@/components/materials/VerifiedMapsPanel";
 import CultureWorksPanel from "@/components/materials/CultureWorksPanel";
@@ -67,9 +68,9 @@ export default function HistoryAtlas(){
    ...(tab==="art"?[...HISTORY_ARCHAEOLOGY,...HISTORY_ARCHITECTURE]:[]),
    ...HISTORY_PHOTOS.filter(item=>tab==="figures"?item.category==="figures":tab==="art"?item.category==="art":item.category==="cinema"),
  ].filter(item=>(tab!=="art"||artGroup==="all"||(artGroup==="art"?item.category==="art":item.group===artGroup))&&(`${item.title} ${item.group} ${item.description} ${item.recognition||""}`).toLocaleLowerCase("uk").includes(q)),[tab,q,artGroup]);
- const currentCount=tab==="maps"?VERIFIED_EXAM_MAPS.filter(item=>(item.title+" "+item.period+" "+item.explanation).toLocaleLowerCase("uk").includes(q)).length:photoItems.length+(tab==="cinema"?NMT_CINEMA_PEOPLE.filter(person=>(person.name+" "+person.field+" "+person.focus+" "+person.works.map(w=>w.title+" "+w.role).join(" ")).toLocaleLowerCase("uk").includes(q)).length:0);
+ const currentCount=tab==="maps"?[...VERIFIED_EXAM_MAPS,...HISTORY_EDUCATIONAL_MAPS].filter(item=>(item.title+" "+item.period+" "+item.explanation+" "+item.key).toLocaleLowerCase("uk").includes(q)).length:photoItems.length+(tab==="cinema"?NMT_CINEMA_PEOPLE.filter(person=>(person.name+" "+person.field+" "+person.focus+" "+person.works.map(w=>w.title+" "+w.role).join(" ")).toLocaleLowerCase("uk").includes(q)).length:0);
  const openPhoto=(item:HistoryPhoto)=>{setOpened({src:item.src,title:item.title,description:item.description,photo:true,source:item.source,category:item.category,group:item.group,recognition:item.recognition,views:item.views,catalogNumber:item.catalogNumber});};
- const countFor=(key:Tab)=>key==="maps"?VERIFIED_EXAM_MAPS.length:
+ const countFor=(key:Tab)=>key==="maps"?VERIFIED_EXAM_MAPS.length+HISTORY_EDUCATIONAL_MAPS.length:
    key==="art"?HISTORY_PHOTOS.filter(item=>item.category==="art").length+HISTORY_ARCHAEOLOGY.length+HISTORY_ARCHITECTURE.length:HISTORY_PHOTOS.filter(item=>key==="figures"?item.category==="figures":item.category==="cinema").length+(key==="cinema"?NMT_CINEMA_PEOPLE.length:0);
  return <main className="container mx-auto max-w-6xl px-4 py-6 min-h-screen">
    <Link href="/materials" className="inline-flex gap-2 items-center text-sm text-slate-500 hover:text-indigo-700 mb-5"><ArrowLeft size={16}/> Назад до матеріалів</Link>
