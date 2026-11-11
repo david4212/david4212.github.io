@@ -165,8 +165,8 @@ export default function HistoryAtlas(){
  const [zoom,setZoom]=useState(1);
  const q=query.toLocaleLowerCase("uk").trim();
  const photoItems=useMemo(()=>[
-   ...HISTORY_PHOTOS.filter(item=>tab==="figures"?item.category==="figures":tab==="art"?item.category==="art":item.category==="cinema"),
    ...(tab==="art"?HISTORY_ARCHITECTURE:[]),
+   ...HISTORY_PHOTOS.filter(item=>tab==="figures"?item.category==="figures":tab==="art"?item.category==="art":item.category==="cinema"),
  ].filter(item=>(tab!=="art"||artGroup==="all"||(artGroup==="art"?item.category==="art":item.group===artGroup))&&(`${item.title} ${item.group} ${item.description} ${item.recognition||""}`).toLocaleLowerCase("uk").includes(q)),[tab,q,artGroup]);
  const mapItems=useMemo(()=>HISTORY_VISUALS.filter(item=>{
    const n=getNote(item);
@@ -187,7 +187,7 @@ export default function HistoryAtlas(){
    <header className="bg-gradient-to-br from-amber-600 via-orange-600 to-rose-600 rounded-3xl p-6 md:p-9 text-white shadow-xl overflow-hidden">
      <span className="uppercase tracking-widest text-xs font-bold text-amber-100">Візуальна підготовка до НМТ</span>
      <h1 className="font-black text-3xl md:text-5xl mt-2">Історія в кадрі</h1>
-     <p className="text-sm md:text-base text-white/95 max-w-3xl mt-3 leading-relaxed">Фото та репродукції з <a className="font-extrabold underline underline-offset-2" href="https://osvita.ua/test/training/history/" target="_blank" rel="noopener noreferrer">добірок Освіта.ua для НМТ</a>, а також підписані карти, схеми та хронології з навчального банку сайту. Розпізнавай об'єкти одразу на сторінці, не переходячи за пошуковими посиланнями.</p>
+     <p className="text-sm md:text-base text-white/95 max-w-3xl mt-3 leading-relaxed">Фото та репродукції з <a className="font-extrabold underline underline-offset-2" href="https://osvita.ua/test/training/materialy-instrumenty/93357/" target="_blank" rel="noopener noreferrer">добірок Освіта.ua для НМТ</a>, а також підписані карти, схеми та хронології з навчального банку сайту. Розпізнавай об'єкти одразу на сторінці, не переходячи за пошуковими посиланнями.</p>
      <p className="mt-3 text-xs text-white/80">Це навчальна добірка, що доповнюється, а не обіцянка показати всі можливі зображення на іспиті.</p>
    </header>
    <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-6" role="tablist" aria-label="Розділи атласу">
@@ -221,6 +221,7 @@ export default function HistoryAtlas(){
        {quiz?<Eye size={16}/>:<EyeOff size={16}/>} {quiz?"Режим перевірки: увімк.":"Приховати відповіді"}
      </button>
    </div>
+   {tab==="art"&&<p className="text-sm text-slate-600 mt-4 leading-relaxed">44 архітектурні пам’ятки за списками Освіта.ua — 26 культових, 8 фортифікаційних та 10 світських. У картках доступний 91 ракурс із поясненнями, як упізнавати об’єкти. Окремо додані твори мистецтва.</p>}
    <div className="my-5 flex items-center justify-between text-sm text-slate-600">
      <span>Знайдено: <b className="text-slate-900">{currentCount}</b></span>
      <span className="text-slate-400 hidden sm:inline">Натисни на зображення, щоб збільшити</span>
