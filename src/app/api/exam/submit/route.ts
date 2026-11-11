@@ -3,6 +3,7 @@ import { getServerSession } from "next-auth";
 import prisma from "@/lib/prisma";
 import { authOptions } from "@/lib/auth";
 import { calculateNmtScore, averageNmt, mockScore } from "@/lib/score";
+import { isUnverifiedHistoryQuestion } from "@/lib/history-review";
 
 export const dynamic = "force-dynamic";
 
@@ -14,20 +15,21 @@ export async function POST(req: Request) {
 
   const exam = await prisma.weeklyExam.findUnique({
     where: { id: examId },
-    include: { questions: { select: { id: true, correctIndex: true, subject: true } } },
+    include: { questions: { select: { id: true, correctIndex: true, subject: true, imageUrl: true } } },
   });
   const now = new Date();
   if (!exam || !exam.isActive || exam.startTime > now || exam.endTime < now) {
     return NextResponse.json({ error: "Пробне НМТ зараз недоступне" }, { status: 403 });
   }
-  if (exam.questions.length === 0) return NextResponse.json({ error: "У пробному немає питань" }, { status: 404 });
+  const safeQuestions = exam.questions.filter((q) => !isUnverifiedHistoryQuestion(q.imageUrl));
+  if (safeQuestions.length === 0) return NextResponse.json({ error: "У пробному немає питань" }, { status: 404 });
 
-  const details = exam.questions.map((q) => {
+  const details = safeQuestions.map((q) => {
     const chosen = typeof answers[q.id] === "number" ? answers[q.id] : null;
     return { id: q.id, correctIndex: q.correctIndex, chosen, subject: (q.subject as string | null) ?? null };
   });
   const correct = details.filter((d) => d.chosen === d.correctIndex).length;
-  const total = exam.questions.length;
+  const total = safeQuestions.length;
   const percent = Math.round((correct / total) * 100);
 
   // Окремий розрахунок по кожному предмету за офіційною шкалою 100–200
