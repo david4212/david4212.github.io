@@ -51,7 +51,7 @@ function PhotoCard({item,index,quiz,revealed,onReveal,onOpen}:{item:HistoryPhoto
        <button type="button" onClick={onReveal} className="mt-3 w-fit rounded-xl bg-orange-50 text-orange-700 text-sm font-bold px-4 py-2 hover:bg-orange-100">Показати відповідь</button>
      </>}
      <a href={item.source} target="_blank" rel="noopener noreferrer" className="mt-4 text-xs text-indigo-700 hover:underline flex gap-1 items-center w-fit">
-       Джерело добірки: Освіта.ua <ExternalLink size={12}/>
+       Джерело зображення та опису <ExternalLink size={12}/>
      </a>
    </div>
  </article>;
@@ -97,7 +97,7 @@ export default function HistoryAtlas(){
      {tab==="art"&&<select value={artGroup} onChange={e=>setArtGroup(e.target.value)} aria-label="Вид архітектури чи мистецтва"
        className="rounded-xl border border-slate-200 bg-slate-50 py-2.5 px-3 text-sm text-slate-700 max-w-full">
        <option value="all">Усі пам'ятки й мистецтво</option>
-       <option value="Археологічні пам’ятки">Археологія · 6</option>
+       <option value="Археологічні пам’ятки">Археологія · 12</option>
        <option value="Культові споруди">Культові споруди · 26</option>
        <option value="Фортифікаційні споруди">Фортифікації · 8</option>
        <option value="Світські споруди та містобудування">Світські будівлі · 10</option>
@@ -108,7 +108,7 @@ export default function HistoryAtlas(){
        {quiz?<Eye size={16}/>:<EyeOff size={16}/>} {quiz?"Режим перевірки: увімк.":"Приховати відповіді"}
      </button>
    </div>
-   {tab==="art"&&<p className="text-sm text-slate-600 mt-4 leading-relaxed">6 археологічних пам’яток (зокрема скіфська пектораль і гребінь) та 44 архітектурні пам’ятки за списками Освіта.ua — 26 культових, 8 фортифікаційних та 10 світських. У картках доступний 91 ракурс із поясненнями, як упізнавати об’єкти. Окремо додані твори мистецтва. Для археологічних об’єктів є доба, місце знахідки й ознаки впізнавання.</p>}
+   {tab==="art"&&<p className="text-sm text-slate-600 mt-4 leading-relaxed">12 археологічних пам’яток: шість основних позицій із навчальної добірки НМТ та шість додаткових для впізнавання; також 44 архітектурні пам’ятки за списками Освіта.ua — 26 культових, 8 фортифікаційних та 10 світських. У картках доступний 91 ракурс із поясненнями, як упізнавати об’єкти. Окремо додані твори мистецтва. Для археологічних об’єктів є доба, місце знахідки й ознаки впізнавання.</p>}
    <div className="my-5 flex items-center justify-between text-sm text-slate-600">
      <span>Знайдено: <b className="text-slate-900">{currentCount}</b></span>
      <span className="text-slate-400 hidden sm:inline">Натисни на зображення, щоб збільшити</span>
