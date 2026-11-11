@@ -5,6 +5,7 @@ import { authOptions } from "@/lib/auth";
 import { getLevel } from "@/lib/levels";
 import { recordAnswers } from "@/lib/answers";
 import { randomUUID } from "crypto";
+import { verifiedQuestionWhere } from "@/lib/history-review";
 
 export const dynamic = "force-dynamic";
 
@@ -21,7 +22,7 @@ export async function POST(req: Request) {
   if (!subtopicId && !getLevel(level)) return NextResponse.json({ error: "Невірний рівень тесту" }, { status: 400 });
 
   const questions = await prisma.question.findMany({
-    where: subtopicId ? { topicId, subtopicId } : { topicId, testLevel: level },
+    where: { ...(subtopicId ? { topicId, subtopicId } : { topicId, testLevel: level }), ...verifiedQuestionWhere },
     select: { id: true, correctIndex: true, explanation: true },
   });
   if (questions.length === 0) return NextResponse.json({ error: "Немає питань" }, { status: 404 });
