@@ -8,9 +8,10 @@ import { HISTORY_VISUALS, type VisualItem } from "@/lib/history-gallery";
 import { HISTORY_MAP_NOTES, type MapNote } from "@/lib/history-map-notes";
 import { getAtlasLabels, getAtlasPeriod } from "@/lib/history-atlas-legends";
 import { HISTORY_PHOTOS, type HistoryPhoto } from "@/lib/history-photos";
+import { HISTORY_ENTRY_DETAILS } from "@/lib/history-entry-details";
 
 type Tab = "figures" | "maps" | "art" | "cinema";
-type OpenVisual = {src:string;title:string;description:string;tip?:string;labels?:{number:number;label:string}[];period?:string};
+type OpenVisual = {src:string;title:string;description:string;tip?:string;labels?:{number:number;label:string}[];period?:string;photo?:boolean;source?:string;category?:HistoryPhoto["category"];group?:string};
 const TABS: {id:Tab;title:string;subtitle:string;icon:typeof Images}[] = [
   {id:"figures",title:"Обличчя історії",subtitle:"Фото й портрети",icon:Images},
   {id:"maps",title:"Атлас подій",subtitle:"Карти, схеми, дати",icon:MapIcon},
@@ -175,7 +176,7 @@ export default function HistoryAtlas(){
    const n=getNote(item);if(!n)return;
    setZoom(1);setOpened({src:item.category==="maps"?atlasImage(item.src):item.src,title:n.title,description:n.description,tip:n.tip,labels:getAtlasLabels(item.src),period:getAtlasPeriod(item.src)});
  };
- const openPhoto=(item:HistoryPhoto)=>{setZoom(1);setOpened({src:item.src,title:item.title,description:item.description});};
+ const openPhoto=(item:HistoryPhoto)=>{setZoom(1);setOpened({src:item.src,title:item.title,description:item.description,photo:true,source:item.source,category:item.category,group:item.group});};
  const countFor=(key:Tab)=>key==="maps"?HISTORY_VISUALS.filter(item=>getNote(item)).length:
    HISTORY_PHOTOS.filter(item=>key==="figures"?item.category==="figures":key==="art"?["art","architecture"].includes(item.category):item.category==="cinema").length;
  return <main className="container mx-auto max-w-6xl px-4 py-6 min-h-screen">
@@ -224,7 +225,40 @@ export default function HistoryAtlas(){
      Спочатку впізнай зображення, а тоді поясни, <strong>хто / що це, коли й де відбувалася подія та з чим її пов'язують</strong>.
      Увімкни режим перевірки, щоб приховати підписи та згадати відповідь самостійно. Карти — спрощені навчальні картосхеми, а не історичні атласи з точними державними кордонами.
    </aside>
-   {opened&&<div className="fixed inset-0 z-50 bg-slate-950/95 flex flex-col" role="dialog" aria-label={opened.title} aria-modal="true">
+   {opened?.photo&&<div role="dialog" aria-modal="true" aria-label={opened.title} className="fixed inset-0 z-[90] bg-slate-950/85 backdrop-blur-sm p-3 sm:p-6 flex items-center justify-center" onClick={()=>setOpened(null)}>
+     <section className="bg-white rounded-3xl w-full max-w-6xl max-h-full overflow-hidden flex flex-col shadow-2xl" onClick={e=>e.stopPropagation()}>
+       <header className="px-5 py-4 border-b border-slate-200 flex items-center justify-between gap-3">
+         <div className="min-w-0"><p className="text-[11px] uppercase font-extrabold tracking-widest text-amber-700">{opened.group||"Візуальний довідник НМТ"}</p>
+         <h2 className="text-xl sm:text-2xl font-black text-slate-900 truncate mt-1">{opened.title}</h2></div>
+         <button type="button" onClick={()=>setOpened(null)} aria-label="Закрити картку" className="rounded-xl bg-slate-100 p-2.5 hover:bg-slate-200 text-slate-700 shrink-0"><X size={22}/></button>
+       </header>
+       <div className="overflow-y-auto min-h-0 grid grid-cols-1 md:grid-cols-2">
+         <div className="bg-gradient-to-br from-[#e7e9e2] to-[#e6ddcd] p-5 sm:p-8 flex flex-col items-center justify-center min-h-[260px] md:min-h-[450px]">
+           <div className="w-full max-w-lg rounded-2xl bg-white/70 p-3 sm:p-5 border border-[#cdbfa4] shadow-lg">
+             <ImageWithFallback src={opened.src} title={opened.title} large/>
+           </div>
+           <p className="text-xs text-[#636659] text-center mt-4">Оглянь портрет або пам'ятку. Порівняй із характерними ознаками справа.</p>
+         </div>
+         <div className="p-5 md:p-8 flex flex-col gap-5">
+           <div><span className="text-xs font-extrabold tracking-widest uppercase text-orange-700">{opened.category==="figures"||opened.category==="cinema"?"Коротка біографія":opened.category==="architecture"?"Про пам'ятку":"Про твір мистецтва"}</span>
+             <p className="text-slate-800 leading-relaxed text-sm sm:text-base mt-2">{HISTORY_ENTRY_DETAILS[opened.title]?.bio||opened.description}</p>
+           </div>
+           <div className="border-l-4 border-amber-500 bg-amber-50 rounded-r-2xl px-5 py-4">
+             <p className="text-xs uppercase tracking-widest font-black text-amber-800">{opened.category==="architecture"||opened.category==="art"?"Як упізнати на фото":"Асоціації для НМТ"}</p>
+             <p className="text-sm sm:text-base leading-relaxed text-slate-800 mt-2">{HISTORY_ENTRY_DETAILS[opened.title]?.recognition||(opened.category==="figures"||opened.category==="cinema"?"Запам'ятай обличчя та пов'яжи його з ключовими датами і подіями. "+opened.description:"Звертай увагу на форму, силует, оздоблення й епоху. "+opened.description)}</p>
+           </div>
+           <div className="rounded-2xl bg-slate-50 border border-slate-100 p-4">
+             <p className="text-sm font-bold text-slate-800">Перевір себе</p>
+             <p className="text-sm text-slate-600 mt-1">Закрий підказки й назви, кого або що зображено, до якої епохи належить об'єкт і з якою подією пов'язаний.</p>
+           </div>
+           {opened.source&&<a href={opened.source} rel="noopener noreferrer" target="_blank" className="inline-flex items-center gap-2 text-sm font-semibold text-indigo-700 hover:underline w-fit mt-auto">
+             Джерело зображення та добірки <ExternalLink size={15}/>
+           </a>}
+         </div>
+       </div>
+     </section>
+   </div>}
+   {opened&&!opened.photo&&<div className="fixed inset-0 z-50 bg-slate-950/95 flex flex-col" role="dialog" aria-label={opened.title} aria-modal="true">
      <div className="p-3 sm:p-4 border-b border-white/20 text-white flex justify-between gap-3 items-center">
        <strong className="text-sm sm:text-lg truncate">{opened.title}</strong>
        <div className="flex items-center gap-2 shrink-0">
