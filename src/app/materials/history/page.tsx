@@ -10,6 +10,7 @@ import VerifiedMapsPanel from "@/components/materials/VerifiedMapsPanel";
 import CultureWorksPanel from "@/components/materials/CultureWorksPanel";
 import { HISTORY_PHOTOS, type HistoryPhoto } from "@/lib/history-photos";
 import { HISTORY_ARCHITECTURE } from "@/lib/history-architecture";
+import { HISTORY_ARCHAEOLOGY } from "@/lib/history-archaeology";
 import { HISTORY_ENTRY_DETAILS } from "@/lib/history-entry-details";
 
 type Tab = "figures" | "maps" | "art" | "cinema";
@@ -62,13 +63,13 @@ export default function HistoryAtlas(){
  const [opened,setOpened]=useState<OpenVisual|null>(null);
  const q=query.toLocaleLowerCase("uk").trim();
  const photoItems=useMemo(()=>[
-   ...(tab==="art"?HISTORY_ARCHITECTURE:[]),
+   ...(tab==="art"?[...HISTORY_ARCHAEOLOGY,...HISTORY_ARCHITECTURE]:[]),
    ...HISTORY_PHOTOS.filter(item=>tab==="figures"?item.category==="figures":tab==="art"?item.category==="art":item.category==="cinema"),
  ].filter(item=>(tab!=="art"||artGroup==="all"||(artGroup==="art"?item.category==="art":item.group===artGroup))&&(`${item.title} ${item.group} ${item.description} ${item.recognition||""}`).toLocaleLowerCase("uk").includes(q)),[tab,q,artGroup]);
  const currentCount=tab==="maps"?VERIFIED_EXAM_MAPS.filter(item=>(item.title+" "+item.period+" "+item.explanation).toLocaleLowerCase("uk").includes(q)).length:photoItems.length+(tab==="cinema"?NMT_CULTURE_WORKS.filter(item=>(item.title+" "+item.director+" "+item.nmtHint).toLocaleLowerCase("uk").includes(q)).length:0);
  const openPhoto=(item:HistoryPhoto)=>{setOpened({src:item.src,title:item.title,description:item.description,photo:true,source:item.source,category:item.category,group:item.group,recognition:item.recognition,views:item.views,catalogNumber:item.catalogNumber});};
  const countFor=(key:Tab)=>key==="maps"?VERIFIED_EXAM_MAPS.length:
-   key==="art"?HISTORY_PHOTOS.filter(item=>item.category==="art").length+HISTORY_ARCHITECTURE.length:HISTORY_PHOTOS.filter(item=>key==="figures"?item.category==="figures":item.category==="cinema").length+(key==="cinema"?NMT_CULTURE_WORKS.length:0);
+   key==="art"?HISTORY_PHOTOS.filter(item=>item.category==="art").length+HISTORY_ARCHAEOLOGY.length+HISTORY_ARCHITECTURE.length:HISTORY_PHOTOS.filter(item=>key==="figures"?item.category==="figures":item.category==="cinema").length+(key==="cinema"?NMT_CULTURE_WORKS.length:0);
  return <main className="container mx-auto max-w-6xl px-4 py-6 min-h-screen">
    <Link href="/materials" className="inline-flex gap-2 items-center text-sm text-slate-500 hover:text-indigo-700 mb-5"><ArrowLeft size={16}/> Назад до матеріалів</Link>
    <header className="bg-gradient-to-br from-amber-600 via-orange-600 to-rose-600 rounded-3xl p-6 md:p-9 text-white shadow-xl overflow-hidden">
@@ -94,6 +95,7 @@ export default function HistoryAtlas(){
      {tab==="art"&&<select value={artGroup} onChange={e=>setArtGroup(e.target.value)} aria-label="Вид архітектури чи мистецтва"
        className="rounded-xl border border-slate-200 bg-slate-50 py-2.5 px-3 text-sm text-slate-700 max-w-full">
        <option value="all">Усі пам'ятки й мистецтво</option>
+       <option value="Археологічні пам’ятки">Археологія · 6</option>
        <option value="Культові споруди">Культові споруди · 26</option>
        <option value="Фортифікаційні споруди">Фортифікації · 8</option>
        <option value="Світські споруди та містобудування">Світські будівлі · 10</option>
@@ -104,7 +106,7 @@ export default function HistoryAtlas(){
        {quiz?<Eye size={16}/>:<EyeOff size={16}/>} {quiz?"Режим перевірки: увімк.":"Приховати відповіді"}
      </button>
    </div>
-   {tab==="art"&&<p className="text-sm text-slate-600 mt-4 leading-relaxed">44 архітектурні пам’ятки за списками Освіта.ua — 26 культових, 8 фортифікаційних та 10 світських. У картках доступний 91 ракурс із поясненнями, як упізнавати об’єкти. Окремо додані твори мистецтва.</p>}
+   {tab==="art"&&<p className="text-sm text-slate-600 mt-4 leading-relaxed">6 археологічних пам’яток (зокрема скіфська пектораль і гребінь) та 44 архітектурні пам’ятки за списками Освіта.ua — 26 культових, 8 фортифікаційних та 10 світських. У картках доступний 91 ракурс із поясненнями, як упізнавати об’єкти. Окремо додані твори мистецтва. Для археологічних об’єктів є доба, місце знахідки й ознаки впізнавання.</p>}
    <div className="my-5 flex items-center justify-between text-sm text-slate-600">
      <span>Знайдено: <b className="text-slate-900">{currentCount}</b></span>
      <span className="text-slate-400 hidden sm:inline">Натисни на зображення, щоб збільшити</span>
