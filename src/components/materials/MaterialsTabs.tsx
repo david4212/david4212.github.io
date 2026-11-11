@@ -36,7 +36,7 @@ export default function MaterialsTabs() {
         })}
       </div>
 
-      {subject === "MATH" && <a href="https://testportal.gov.ua/wp-content/uploads/2026/01/NMT-2026_matematyka_demo.pdf" target="_blank" rel="noopener noreferrer" className="mb-5 block text-sm font-semibold text-indigo-700 hover:underline">Офіційні довідкові матеріали УЦОЯО (НМТ-2026, PDF) ↗</a>}
+      {subject === "MATH" && <a href="https://testportal.gov.ua/" target="_blank" rel="noopener noreferrer" className="mb-5 block text-sm font-semibold text-indigo-700 hover:underline">УЦОЯО: офіційні матеріали та демонстраційні тести НМТ ↗</a>}
 
       {subject === "HISTORY" && (
         <Link href="/materials/history" className="mb-5 flex items-center justify-between gap-4 p-5 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 text-white hover:shadow-lg transition group">
