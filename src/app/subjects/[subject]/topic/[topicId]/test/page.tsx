@@ -7,6 +7,7 @@ import { authOptions } from "@/lib/auth";
 import { getLevel } from "@/lib/levels";
 import { getLevelStats, isUnlocked } from "@/lib/progress";
 import TestRunner from "@/components/cards/TestRunner";
+import { verifiedQuestionWhere } from "@/lib/history-review";
 
 export const dynamic = "force-dynamic";
 
@@ -33,7 +34,7 @@ export default async function TestPage({
     include: {
       subtopics: { select: { id: true, title: true } },
       questions: {
-        where: subId ? { subtopicId: subId } : { testLevel: level },
+        where: { ...(subId ? { subtopicId: subId } : { testLevel: level }), ...verifiedQuestionWhere },
         select: { id: true, text: true, options: true, imageUrl: true },
         orderBy: { createdAt: "asc" },
       },
@@ -70,7 +71,7 @@ export default async function TestPage({
         </div>
       ) : topic.questions.length === 0 ? (
         <div className="text-center p-10 mt-8 bg-white rounded-3xl border border-slate-100 shadow-md">
-          <p className="text-slate-500">Тут поки немає питань. Додай їх через Telegram-бота.</p>
+          <p className="text-slate-500">У цій темі немає перевірених питань. Частина старих картосхем тимчасово знята з тестування для фактчекінгу.</p>
         </div>
       ) : (
         <TestRunner
