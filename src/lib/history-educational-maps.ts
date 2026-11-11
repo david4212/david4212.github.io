@@ -3,7 +3,7 @@
  * UINP explicitly permits noncommercial distribution of this series with attribution.
  */
 export type EducationalMap = {
- id:string; title:string; period:string; periodKey:string; sourceName:string; sourceType:"institution"|"textbook"; imageUrl:string; sourceUrl:string; key:string; explanation:string; legend:string[]; kind:"educational";
+ id:string; title:string; period:string; periodKey:string; sourceName:string; sourceType:"institution"|"textbook"|"commons"; imageUrl:string; sourceUrl:string; key:string; explanation:string; legend:string[]; kind:"educational";
 };
 export const HISTORY_EDUCATIONAL_MAPS: EducationalMap[] = [
   {
@@ -816,4 +816,158 @@ export const HISTORY_EDUCATIONAL_MAPS: EducationalMap[] = [
     ],
     "kind": "educational"
   }
+,
+ {
+  "id": "historical-early-1",
+  "title": "Скіфія та античні грецькі міста Причорномор’я",
+  "period": "VI–III ст. до н. е.",
+  "periodKey": "ancient",
+  "sourceName": "Wikimedia Commons · історична мапа",
+  "sourceType": "commons",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_ancient_Greek_colonies_in_northern_Black_Sea-en.svg",
+  "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_ancient_Greek_colonies_in_northern_Black_Sea-en.svg",
+  "key": "Античні поліси на узбережжі",
+  "explanation": "Знайди Ольвію біля Дніпрово-Бузького лиману, Херсонес у Криму, Пантікапей біля Керченської протоки й Тіру на Дністрі.",
+  "legend": [
+    "Позначення поселень — античні поліси; не змішуй з кордонами сучасних держав.",
+    "Історичне навчальне зображення, а не скан конкретного завдання НМТ."
+  ],
+  "kind": "educational"
+},
+ {
+  "id": "historical-early-2",
+  "title": "Київська держава в IX — середині XI ст.",
+  "period": "IX — середина XI ст.",
+  "periodKey": "early",
+  "sourceName": "Навчальна історична мапа · підручник",
+  "sourceType": "textbook",
+  "sourceUrl": "https://uahistory.co/pidruchniki/pometyn-ukraine-history-reissue-7-class-2024/3.php",
+  "imageUrl": "https://uahistory.co/pidruchniki/pometyn-ukraine-history-reissue-7-class-2024/pometyn-ukraine-history-reissue-7-class-2024.files/image014.jpg",
+  "key": "Кордони та розширення держави",
+  "explanation": "На схемі послідовно показано землі, приєднані за Ігоря, Святослава, Володимира й Ярослава; Київ — політичний центр.",
+  "legend": [
+    "Шлях «із варягів у греки» зв'язував Балтійське й Чорне моря; не трактуй усі розширення як одночасні.",
+    "Історичне навчальне зображення, а не скан конкретного завдання НМТ."
+  ],
+  "kind": "educational"
+},
+ {
+  "id": "historical-early-3",
+  "title": "Київська держава за перших князів",
+  "period": "Кінець IX — X ст.",
+  "periodKey": "early",
+  "sourceName": "Навчальна історична мапа · підручник",
+  "sourceType": "textbook",
+  "sourceUrl": "https://geomap.com.ua/uk-uh7/279.html",
+  "imageUrl": "https://geomap.com.ua/images/uh7a/Maps/7_11.jpg",
+  "key": "Розширення ранньої Русі",
+  "explanation": "Підписані землі полян, деревлян, сіверян та інші регіони; стрілки відображають ранні князівські походи.",
+  "legend": [
+    "Умовні позначення відрізняють торговельні шляхи, напрямки походів і територіальні межі.",
+    "Історичне навчальне зображення, а не скан конкретного завдання НМТ."
+  ],
+  "kind": "educational"
+},
+ {
+  "id": "historical-early-4",
+  "title": "Русь за князювання Ігоря, Ольги та Святослава",
+  "period": "912–972",
+  "periodKey": "early",
+  "sourceName": "Навчальна історична мапа · підручник",
+  "sourceType": "textbook",
+  "sourceUrl": "https://geomap.com.ua/uk-uh7/971.html",
+  "imageUrl": "https://geomap.com.ua/images/uh7b/history7_files/image042.jpg",
+  "key": "Князівська влада та зовнішні зв'язки",
+  "explanation": "Окремо впізнавай дипломатичні зв'язки з Візантією, походи Святослава і території східнослов'янських племен.",
+  "legend": [
+    "На карті поряд із кордонами показано напрями походів і історичні ілюстрації.",
+    "Історичне навчальне зображення, а не скан конкретного завдання НМТ."
+  ],
+  "kind": "educational"
+},
+ {
+  "id": "historical-early-5",
+  "title": "Київська держава за Ярослава Мудрого",
+  "period": "1019–1054",
+  "periodKey": "early",
+  "sourceName": "Навчальна історична мапа · підручник",
+  "sourceType": "textbook",
+  "sourceUrl": "https://uahistory.co/pidruchniki/moroz-explore-history-and-society-integrated-course-5-class-2022/6.php",
+  "imageUrl": "https://uahistory.co/pidruchniki/moroz-explore-history-and-society-integrated-course-5-class-2022/moroz-explore-history-and-society-integrated-course-5-class-2022.files/image040.jpg",
+  "key": "Територія Русі в першій половині XI століття",
+  "explanation": "Знайди Київ, Чернігів, Новгород; зверни увагу на західні кордони та сусідів — Польщу, Угорщину, Візантію.",
+  "legend": [
+    "Зеленою лінією показано території за Ярослава Мудрого; різні лінії стосуються сусідніх народів і держав.",
+    "Історичне навчальне зображення, а не скан конкретного завдання НМТ."
+  ],
+  "kind": "educational"
+},
+ {
+  "id": "historical-early-6",
+  "title": "Роздробленість Русі: окремі князівства",
+  "period": "Середина XII — перша половина XIII ст.",
+  "periodKey": "early",
+  "sourceName": "Навчальна історична мапа · підручник",
+  "sourceType": "textbook",
+  "sourceUrl": "https://uahistory.co/pidruchniki/pometyn-ukraine-history-reissue-7-class-2024/14.php",
+  "imageUrl": "https://uahistory.co/pidruchniki/pometyn-ukraine-history-reissue-7-class-2024/pometyn-ukraine-history-reissue-7-class-2024.files/image069.jpg",
+  "key": "Київське, Чернігівське, Переяславське, Галицьке та Волинське князівства",
+  "explanation": "Розпізнавай окремі князівства за кольорами й столиці: Київ, Чернігів, Переяслав, Галич, Володимир.",
+  "legend": [
+    "На цій карті вже немає єдиної політичної площини Русі, як у часи Ярослава.",
+    "Історичне навчальне зображення, а не скан конкретного завдання НМТ."
+  ],
+  "kind": "educational"
+},
+ {
+  "id": "historical-early-7",
+  "title": "Королівство Руське: Галичина і Волинь",
+  "period": "1199 — початок XIV ст.",
+  "periodKey": "early",
+  "sourceName": "Навчальна історична мапа · підручник",
+  "sourceType": "textbook",
+  "sourceUrl": "https://uahistory.co/pidruchniki/kovalenko-ukraine-literature-6-class-2023/17.php",
+  "imageUrl": "https://uahistory.co/pidruchniki/kovalenko-ukraine-literature-6-class-2023/kovalenko-ukraine-literature-6-class-2023.files/image051.jpg",
+  "key": "Королівство Руське (Галицько-Волинська держава)",
+  "explanation": "1199 року Роман Мстиславович об'єднав Галичину й Волинь; за Данила Романовича посилилися державні позиції та з'явилася королівська титулатура.",
+  "legend": [
+    "Різні контури вказують на початкові землі, залежні території й пізніші межі; неподалік позначено Золоту Орду.",
+    "Історичне навчальне зображення, а не скан конкретного завдання НМТ."
+  ],
+  "kind": "educational"
+},
+ {
+  "id": "historical-early-8",
+  "title": "Боротьба за Гетьманщину в середині XVII ст.",
+  "period": "1651–1657",
+  "periodKey": "h3",
+  "sourceName": "Навчальна історична мапа · підручник",
+  "sourceType": "textbook",
+  "sourceUrl": "https://geomap.com.ua/uk-uh8/311.html",
+  "imageUrl": "https://geomap.com.ua/images/uh8a/Maps/8_08.jpg",
+  "key": "Національно-визвольна війна за Богдана Хмельницького",
+  "explanation": "На карті показано зміну контролю над українськими землями, основні політичні сили й події після 1651 року.",
+  "legend": [
+    "Вставки позначають Берестецьку битву 1651 року і битву під Батогом 1652 року; легенда містить окремі кольори й стрілки сторін.",
+    "Історичне навчальне зображення, а не скан конкретного завдання НМТ."
+  ],
+  "kind": "educational"
+},
+ {
+  "id": "historical-early-9",
+  "title": "Пізня Русь і політичні землі XI–XII століть",
+  "period": "XI–XII ст.",
+  "periodKey": "early",
+  "sourceName": "Навчальна історична мапа · підручник",
+  "sourceType": "textbook",
+  "sourceUrl": "https://geomap.com.ua/uk-uh7/282.html",
+  "imageUrl": "https://uahistory.co/pidruchniki/ukr-istoriya-y-viznachennyax-7-9-cl/ukr-istoriya-y-viznachennyax-7-9-cl.files/image001.jpg",
+  "key": "Землі окремих князівств",
+  "explanation": "Межі Полоччини, Чернігівщини, Переяславщини та Київщини важливі для розуміння роздробленості.",
+  "legend": [
+    "Умовні кольори позначають політичні території, а не сучасні адміністративні кордони.",
+    "Історичне навчальне зображення, а не скан конкретного завдання НМТ."
+  ],
+  "kind": "educational"
+}
 ];
