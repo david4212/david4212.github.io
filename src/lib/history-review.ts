@@ -35,5 +35,7 @@ export type VerifiedExamMap = {
   questionNumber?: number;
   key: string;
   explanation: string;
+  /** Legend written from the original map task, never from an invented SVG. */
+  legend?: string[];
   sourceType: "official" | "exam_archive";
 };
